@@ -1,0 +1,297 @@
+{
+  "moviepy.config": [
+    "os.getenv",
+    "os.getenv",
+    "imageio.plugins.ffmpeg.get_exe",
+    "moviepy.config.try_cmd"
+  ],
+  "moviepy.config.try_cmd": [
+    "moviepy.tools.cross_platform_popen_params",
+    "subprocess.Popen"
+  ],
+  "moviepy.decorators.convert_parameter_to_seconds": [
+    "moviepy.decorators.preprocess_args"
+  ],
+  "moviepy.decorators.preprocess_args": [
+    "decorator.decorator"
+  ],
+  "moviepy.decorators.convert_path_to_string": [
+    "moviepy.decorators.preprocess_args"
+  ],
+  "moviepy.video.fx.resize": [
+    "moviepy.video.fx.resize._get_resizer"
+  ],
+  "moviepy.video.fx.resize._get_resizer": [
+    "dict.items",
+    "moviepy.video.fx.resize._get_cv2_resizer",
+    "list.extend",
+    "moviepy.video.fx.resize._get_PIL_resizer"
+  ],
+  "moviepy.video.fx.rotate": [
+    "builtins.hasattr",
+    "str.isdigit",
+    "builtins.int",
+    "dict.items"
+  ],
+  "moviepy.__init__": [
+    "inspect.getmembers",
+    "inspect.getmembers",
+    "inspect.getmembers",
+    "builtins.setattr",
+    "builtins.setattr"
+  ],
+  "moviepy.video.tools.cuts.FramesMatches.__init__": [
+    "builtins.sorted",
+    "list.__init__"
+  ],
+  "moviepy.audio.AudioClip.AudioClip.__init__": [
+    "moviepy.Clip.Clip.__init__",
+    "moviepy.Clip.Clip.get_frame",
+    "builtins.hasattr",
+    "builtins.list",
+    "builtins.len"
+  ],
+  "moviepy.decorators.wrapper": [
+    "inspect.getfullargspec",
+    "builtins.zip",
+    "moviepy.tools.convert_to_seconds",
+    "dict.items",
+    "moviepy.Clip.Clip.get_frame",
+    "posix.fspath",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.tools.convert_to_seconds",
+    "moviepy.video.VideoClip.BitmapClip.__init__",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__",
+    "moviepy.Clip.Clip.subclip"
+  ],
+  "moviepy.tools.convert_to_seconds": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.split",
+    "str.replace",
+    "builtins.float",
+    "builtins.reversed",
+    "builtins.zip"
+  ],
+  "moviepy.Clip.Clip.get_frame": [
+    "tests.test_videotools.<lambda>",
+    "moviepy.video.VideoClip.BitmapClip.__init__.<locals>.<lambda>",
+    "moviepy.Clip.Clip.transform.<locals>.<lambda>",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__.<locals>.<lambda>"
+  ],
+  "moviepy.video.io.VideoFileClip.VideoFileClip.__init__": [
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame"
+  ],
+  "moviepy.video.VideoClip.VideoClip.__init__": [
+    "moviepy.Clip.Clip.__init__",
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.__init__": [
+    "moviepy.video.io.ffmpeg_reader.ffmpeg_parse_infos",
+    "dict.get",
+    "builtins.abs",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.initialize"
+  ],
+  "moviepy.video.io.ffmpeg_reader.ffmpeg_parse_infos": [
+    "moviepy.tools.cross_platform_popen_params",
+    "subprocess.Popen",
+    "subprocess.Popen.communicate",
+    "bytes.decode",
+    "subprocess.Popen.terminate",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.__init__": [
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser._reset_state"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse": [
+    "str.splitlines",
+    "str.startswith",
+    "str.startswith",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_metadata_field_value",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_duration",
+    "re.search",
+    "Match.group",
+    "builtins.int",
+    "re.search",
+    "Match.group",
+    "builtins.float",
+    "str.lstrip",
+    "str.startswith",
+    "str.lstrip",
+    "re.search",
+    "Match.groups",
+    "builtins.int",
+    "builtins.int",
+    "str.lower",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_data_by_stream_type",
+    "dict.update",
+    "dict.update",
+    "str.startswith",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_metadata_field_value",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.video_metadata_type_casting",
+    "list.append",
+    "builtins.len",
+    "list.append",
+    "builtins.int",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser._reset_state",
+    "list.append",
+    "str.endswith",
+    "dict.get"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_metadata_field_value": [
+    "str.split",
+    "str.strip"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_duration": [
+    "str.split",
+    "re.search",
+    "Match.group",
+    "moviepy.tools.convert_to_seconds"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_data_by_stream_type": [
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_video_stream_data",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_audio_stream_data"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_video_stream_data": [
+    "re.search",
+    "Match.groups",
+    "builtins.int",
+    "re.search",
+    "Match.group",
+    "builtins.int",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_fps",
+    "builtins.abs",
+    "dict.get",
+    "dict.get"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_fps": [
+    "re.search",
+    "Match.group",
+    "builtins.float"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.initialize": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.close",
+    "builtins.tuple",
+    "moviepy.tools.cross_platform_popen_params",
+    "subprocess.Popen",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame_number",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.read_frame"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame_number": [
+    "builtins.int"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.read_frame": [
+    "BufferedReader.read",
+    "builtins.len",
+    "builtins.hasattr",
+    "numpy.frombuffer",
+    "builtins.len"
+  ],
+  "moviepy.video.VideoClip.BitmapClip.__init__": [
+    "list.append",
+    "numpy.array",
+    "list.append",
+    "numpy.array",
+    "builtins.len",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "builtins.int"
+  ],
+  "moviepy.video.VideoClip.ImageClip.__init__": [
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "builtins.isinstance",
+    "imageio.imread",
+    "builtins.len",
+    "moviepy.video.VideoClip.ImageClip"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_audio_stream_data": [
+    "re.search",
+    "Match.group",
+    "builtins.int",
+    "re.search",
+    "Match.group",
+    "builtins.int"
+  ],
+  "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__": [
+    "moviepy.audio.AudioClip.AudioClip.__init__",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.__init__": [
+    "moviepy.video.io.ffmpeg_reader.ffmpeg_parse_infos",
+    "builtins.int",
+    "builtins.min",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.initialize",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.buffer_around"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.initialize": [
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.close",
+    "moviepy.tools.cross_platform_popen_params",
+    "subprocess.Popen",
+    "numpy.round_"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.buffer_around": [
+    "builtins.max",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.seek",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.read_chunk"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.read_chunk": [
+    "builtins.round",
+    "builtins.int",
+    "BufferedReader.read",
+    "builtins.hasattr",
+    "numpy.frombuffer",
+    "builtins.len",
+    "builtins.int",
+    "ndarray.reshape",
+    "builtins.len",
+    "numpy.zeros",
+    "numpy.concatenate"
+  ],
+  "moviepy.decorators.apply_to_mask": [
+    "moviepy.Clip.Clip.subclip",
+    "builtins.getattr"
+  ],
+  "moviepy.decorators.apply_to_audio": [
+    "moviepy.Clip.Clip.subclip",
+    "builtins.getattr",
+    "moviepy.Clip.Clip.subclip"
+  ],
+  "moviepy.Clip.Clip.subclip": [
+    "moviepy.Clip.Clip.time_transform"
+  ],
+  "moviepy.Clip.Clip.time_transform": [
+    "moviepy.Clip.Clip.transform",
+    "moviepy.Clip.Clip.subclip.<locals>.<lambda>",
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.Clip.Clip.transform": [
+    "moviepy.video.VideoClip.VideoClip.with_make_frame",
+    "moviepy.Clip.Clip.time_transform.<locals>.<lambda>",
+    "builtins.isinstance",
+    "moviepy.Clip.Clip.with_make_frame"
+  ],
+  "moviepy.decorators.outplace": [
+    "moviepy.video.VideoClip.VideoClip.__copy__",
+    "moviepy.video.VideoClip.VideoClip.with_make_frame",
+    "moviepy.Clip.Clip.copy",
+    "moviepy.Clip.Clip.with_make_frame"
+  ],
+  "moviepy.video.VideoClip.VideoClip.__copy__": [
+    "object.__new__",
+    "builtins.getattr",
+    "builtins.setattr",
+    "copy.copy"
+  ],
+  "moviepy.video.VideoClip.VideoClip.with_make_frame": [
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame_number"
+  ],
+  "moviepy.Clip.Clip.copy": [
+    "copy.copy"
+  ]
+}

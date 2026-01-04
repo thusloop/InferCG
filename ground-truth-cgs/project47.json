@@ -1,0 +1,435 @@
+{
+  "src.webassets.utils": [
+    "re.compile"
+  ],
+  "src.webassets.importlib.import_module": [
+    "str.startswith",
+    "builtins.__import__"
+  ],
+  "src.webassets.filter.jst": [
+    "re.compile"
+  ],
+  "src.webassets.filter.compass": [
+    "webassets.filter.option"
+  ],
+  "src.webassets.filter.cssrewrite.base": [
+    "re.compile"
+  ],
+  "src.webassets.filter.jade": [
+    "webassets.filter.register_filter"
+  ],
+  "src.webassets.filter.jspacker.jspacker": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.webassets.filter.replace": [
+    "webassets.filter.register_filter"
+  ],
+  "src.webassets.filter.rjsmin.rjsmin": [
+    "webassets.filter.rjsmin.rjsmin._make_jsmin"
+  ],
+  "src.webassets.filter.rjsmin.rjsmin._make_jsmin": [
+    "str.replace",
+    "str.replace",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.not_id_literal_",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.id_literal_",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.id_literal_",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.id_literal_",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.id_literal_",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "functools.partial",
+    "functools.partial"
+  ],
+  "src.webassets.filter.rjsmin.rjsmin.not_id_literal_": [
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.id_literal_",
+    "re.compile",
+    "builtins.range",
+    "builtins.chr",
+    "Pattern.match",
+    "str.join",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.fix_charclass"
+  ],
+  "src.webassets.filter.rjsmin.rjsmin.id_literal_": [
+    "re.compile",
+    "builtins.range",
+    "builtins.chr",
+    "Pattern.match",
+    "str.join",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.fix_charclass"
+  ],
+  "src.webassets.filter.rjsmin.rjsmin.fix_charclass": [
+    "str.find",
+    "webassets.filter.rjsmin.rjsmin._make_jsmin.<locals>.fix_charclass.<locals>.sequentize",
+    "str.replace",
+    "re.sub",
+    "Match.group",
+    "builtins.ord"
+  ],
+  "src.webassets.filter.rjsmin.rjsmin.sequentize": [
+    "builtins.map",
+    "list.append",
+    "list.append",
+    "builtins.chr",
+    "builtins.chr",
+    "str.join"
+  ],
+  "src.webassets.filter.stylus": [
+    "webassets.filter.option",
+    "webassets.filter.option",
+    "webassets.filter.option"
+  ],
+  "src.webassets.updater": [
+    "builtins.object",
+    "webassets.utils.RegistryMetaclass",
+    "webassets.six.with_metaclass"
+  ],
+  "src.webassets.utils.Metaclass.RegistryMetaclass": [
+    "webassets.utils.make_option_resolver",
+    "builtins.staticmethod"
+  ],
+  "src.webassets.utils.Metaclass.__new__": [
+    "type.__new__",
+    "builtins.hasattr"
+  ],
+  "src.webassets.version": [
+    "webassets.utils.RegistryMetaclass",
+    "webassets.six.with_metaclass",
+    "webassets.utils.RegistryMetaclass",
+    "webassets.six.with_metaclass"
+  ],
+  "src.webassets.env": [
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property"
+  ],
+  "src.webassets.bundle": [
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.any"
+  ],
+  "src.webassets.script": [
+    "logging.getLogger",
+    "logging.Logger.setLevel"
+  ],
+  "src.webassets.ext.jinja2": [
+    "builtins.set"
+  ],
+  "src.webassets.test.TempEnvironmentHelper.setup": [
+    "webassets.test.TempDirHelper.setup",
+    "webassets.test.TempEnvironmentHelper._create_environment"
+  ],
+  "src.webassets.test.TempDirHelper.setup": [
+    "tempfile.mkdtemp",
+    "webassets.test.TempDirHelper.create_files"
+  ],
+  "src.webassets.test.TempDirHelper.create_files": [
+    "builtins.hasattr",
+    "dict.items",
+    "webassets.test.TempDirHelper.path",
+    "posixpath.dirname",
+    "genericpath.exists",
+    "webassets.test.TempDirHelper.path",
+    "codecs.open",
+    "codecs.StreamReaderWriter.write",
+    "BufferedWriter.close",
+    "os.makedirs"
+  ],
+  "src.webassets.test.TempDirHelper.path": [
+    "posixpath.join"
+  ],
+  "src.webassets.test.TempEnvironmentHelper._create_environment": [
+    "webassets.env.Environment"
+  ],
+  "src.webassets.env.Environment.__init__": [
+    "webassets.env.BaseEnvironment.__init__"
+  ],
+  "src.webassets.env.BaseEnvironment.__init__": [
+    "webassets.env.BundleRegistry.__init__",
+    "webassets.env.DictConfigStorage",
+    "webassets.env.ConfigurationContext.__init__",
+    "webassets.env.ConfigStorage.setdefault",
+    "webassets.env.ConfigStorage.setdefault",
+    "webassets.env.ConfigStorage.setdefault",
+    "webassets.env.ConfigStorage.setdefault",
+    "webassets.env.ConfigStorage.setdefault",
+    "webassets.env.ConfigStorage.setdefault"
+  ],
+  "src.webassets.env.DictConfigStorage.__init__": [
+    "webassets.env.ConfigStorage.__init__"
+  ],
+  "src.webassets.env.DictConfigStorage.__contains__": [
+    "str.lower",
+    "dict.__contains__"
+  ],
+  "src.webassets.env.ConfigStorage.setdefault": [
+    "webassets.env.DictConfigStorage.__setitem__"
+  ],
+  "src.webassets.env.DictConfigStorage.__setitem__": [
+    "str.lower",
+    "webassets.env.ConfigStorage._set_deprecated",
+    "str.lower",
+    "dict.__setitem__"
+  ],
+  "src.webassets.test.TempDirHelper.__enter__": [
+    "webassets.test.TempDirHelper.setup",
+    "webassets.test.TempEnvironmentHelper.setup"
+  ],
+  "src.webassets.cache.FilesystemCache.get": [
+    "webassets.cache.make_md5",
+    "posixpath.join",
+    "io.open",
+    "BufferedReader.read",
+    "BufferedReader.close",
+    "webassets.cache.safe_unpickle"
+  ],
+  "src.webassets.cache.make_md5": [
+    "_hashlib.openssl_md5",
+    "webassets.cache.make_md5.<locals>.walk",
+    "HASH.update",
+    "HASH.hexdigest"
+  ],
+  "src.webassets.cache.walk": [
+    "builtins.isinstance",
+    "webassets.cache.make_md5.<locals>.walk",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.str",
+    "str.encode",
+    "builtins.isinstance",
+    "str.encode",
+    "webassets.merge.MemoryHunk.data",
+    "str.encode",
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "webassets.filter.Filter.id",
+    "str.encode",
+    "webassets.cache.make_md5.<locals>.walk"
+  ],
+  "src.webassets.cache.FilesystemCache.set": [
+    "webassets.cache.make_md5",
+    "posixpath.join",
+    "tempfile.mkstemp",
+    "os.fdopen",
+    "_pickle.dump",
+    "BufferedWriter.flush",
+    "genericpath.isfile",
+    "posix.rename"
+  ],
+  "src.webassets.cache.safe_unpickle": [
+    "_pickle.loads"
+  ],
+  "src.webassets.test.TempDirHelper.__exit__": [
+    "webassets.test.TempDirHelper.teardown"
+  ],
+  "src.webassets.test.TempDirHelper.teardown": [
+    "shutil.rmtree"
+  ],
+  "src.webassets.cache.MemoryCache.get": [
+    "webassets.cache.make_hashable",
+    "webassets.cache.make_md5",
+    "dict.get"
+  ],
+  "src.webassets.cache.make_hashable": [
+    "webassets.filter.freezedicts"
+  ],
+  "src.webassets.cache.MemoryCache.set": [
+    "webassets.cache.make_hashable",
+    "webassets.cache.make_md5",
+    "list.remove",
+    "list.append",
+    "builtins.len",
+    "builtins.max",
+    "builtins.len"
+  ],
+  "src.webassets.utils.hash_func": [
+    "webassets.cache.make_md5"
+  ],
+  "src.webassets.filter.compass.CompassConfig.to_string": [
+    "CompassConfig.items",
+    "webassets.filter.compass.CompassConfig.to_string.<locals>.string_rep",
+    "str.join"
+  ],
+  "src.webassets.filter.compass.CompassConfig.string_rep": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.startswith",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.repr",
+    "builtins.str",
+    "str.lower",
+    "builtins.str",
+    "builtins.list",
+    "dict.items"
+  ],
+  "src.webassets.loaders.YAMLLoader.load_bundles": [
+    "webassets.loaders.YAMLLoader._open",
+    "yaml.safe_load",
+    "webassets.loaders.YAMLLoader._get_bundles",
+    "StringIO.close"
+  ],
+  "src.webassets.loaders.YAMLLoader._open": [
+    "builtins.isinstance",
+    "builtins.getattr"
+  ],
+  "src.webassets.loaders.YAMLLoader._get_bundles": [
+    "webassets.six.iteritems",
+    "webassets.loaders.YAMLLoader._get_bundle",
+    "dict.items",
+    "builtins.list",
+    "builtins.enumerate",
+    "builtins.tuple"
+  ],
+  "src.webassets.loaders.YAMLLoader._get_bundle": [
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "builtins.dict",
+    "webassets.loaders.YAMLLoader._yield_bundle_contents",
+    "builtins.list",
+    "webassets.bundle.Bundle"
+  ],
+  "src.webassets.loaders.YAMLLoader._yield_bundle_contents": [
+    "dict.get",
+    "builtins.isinstance",
+    "builtins.isinstance"
+  ],
+  "src.webassets.bundle.Bundle.__init__": [
+    "dict.pop",
+    "dict.pop",
+    "dict.pop",
+    "dict.pop",
+    "dict.pop",
+    "dict.pop",
+    "dict.pop",
+    "dict.pop",
+    "webassets.bundle.BundleConfig",
+    "dict.pop",
+    "webassets.env.ConfigStorage.update",
+    "dict.pop"
+  ],
+  "src.webassets.bundle.Bundle._set_filters": [
+    "builtins.isinstance",
+    "str.split",
+    "builtins.map",
+    "webassets.filter.get_filter"
+  ],
+  "src.webassets.bundle.Bundle._set_depends": [
+    "builtins.isinstance"
+  ],
+  "src.webassets.bundle.BundleConfig.__init__": [
+    "webassets.env.DictConfigStorage.__init__",
+    "webassets.env.ConfigurationContext.__init__"
+  ],
+  "src.webassets.loaders.YAMLLoader.load_environment": [
+    "webassets.loaders.YAMLLoader._open",
+    "yaml.safe_load",
+    "webassets.env.Environment",
+    "StringIO.close"
+  ],
+  "src.webassets.bundle.Bundle._get_extra": [
+    "webassets.bundle.<lambda>"
+  ],
+  "src.webassets.loaders.PythonLoader.__init__": [
+    "builtins.isinstance",
+    "list.insert",
+    "webassets.importlib.import_module",
+    "list.pop"
+  ],
+  "src.webassets.loaders.PythonLoader.load_bundles": [
+    "builtins.getattr",
+    "builtins.isinstance"
+  ],
+  "src.webassets.script.main": [
+    "webassets.script.GenericArgparseImplementation",
+    "webassets.script.GenericArgparseImplementation.main"
+  ],
+  "src.webassets.script.GenericArgparseImplementation.__init__": [
+    "webassets.script.GenericArgparseImplementation._construct_parser"
+  ],
+  "src.webassets.script.GenericArgparseImplementation._construct_parser": [
+    "argparse.ArgumentParser",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_mutually_exclusive_group",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse.ArgumentParser.add_subparsers",
+    "dict.keys",
+    "argparse._SubParsersAction.add_parser",
+    "builtins.getattr",
+    "webassets.script.GenericArgparseImplementation.make_build_parser"
+  ],
+  "src.webassets.script.GenericArgparseImplementation.make_build_parser": [
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "src.webassets.script.GenericArgparseImplementation.main": [
+    "webassets.script.GenericArgparseImplementation.run_with_argv",
+    "builtins.print"
+  ],
+  "src.webassets.script.GenericArgparseImplementation.run_with_argv": [
+    "argparse.ArgumentParser.parse_args",
+    "webassets.script.GenericArgparseImplementation.run_with_ns"
+  ],
+  "src.webassets.script.GenericArgparseImplementation.run_with_ns": [
+    "webassets.script.GenericArgparseImplementation._setup_logging",
+    "webassets.script.GenericArgparseImplementation._setup_assets_env",
+    "webassets.script.CommandError"
+  ],
+  "src.webassets.script.GenericArgparseImplementation._setup_logging": [
+    "logging.getLogger",
+    "logging.StreamHandler",
+    "logging.Logger.addHandler",
+    "logging.Handler.setLevel"
+  ],
+  "src.webassets.utils.resolve_option": [
+    "builtins.callable",
+    "builtins.isinstance",
+    "webassets.version.<lambda>",
+    "builtins.hasattr",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.split",
+    "builtins.len",
+    "webassets.utils.make_option_resolver.<locals>.instantiate"
+  ],
+  "src.webassets.utils.instantiate": [
+    "builtins.hasattr",
+    "webassets.version.HashVersion.make",
+    "webassets.version.TimestampVersion"
+  ],
+  "src.webassets.version.HashVersion.make": [
+    "webassets.version.HashVersion",
+    "builtins.int"
+  ]
+}

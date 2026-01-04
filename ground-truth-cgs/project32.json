@@ -1,0 +1,109 @@
+{
+  "pyquery.text": [
+    "re.compile"
+  ],
+  "pyquery.text.extract_text": [
+    "pyquery.text.extract_text_array",
+    "pyquery.text._merge_original_parts",
+    "pyquery.text._squash_artifical_nl",
+    "pyquery.text._strip_artifical_nl",
+    "str.strip"
+  ],
+  "pyquery.text.extract_text_array": [
+    "builtins.callable",
+    "list.append",
+    "list.append",
+    "lxml.etree._Element.getchildren",
+    "pyquery.text.extract_text_array",
+    "list.append",
+    "list.extend",
+    "list.append",
+    "pyquery.text._squash_artifical_nl",
+    "pyquery.text._strip_artifical_nl",
+    "list.append"
+  ],
+  "pyquery.text._squash_artifical_nl": [
+    "list.append",
+    "list.append"
+  ],
+  "pyquery.text._strip_artifical_nl": [
+    "builtins.enumerate",
+    "builtins.isinstance",
+    "builtins.enumerate",
+    "builtins.isinstance"
+  ],
+  "pyquery.text._merge_original_parts": [
+    "builtins.isinstance",
+    "list.append",
+    "pyquery.text._merge_original_parts.<locals>.flush",
+    "list.append",
+    "pyquery.text._merge_original_parts.<locals>.flush"
+  ],
+  "pyquery.text.flush": [
+    "str.join",
+    "pyquery.text.squash_html_whitespace",
+    "str.strip",
+    "list.append"
+  ],
+  "pyquery.text.squash_html_whitespace": [
+    "Pattern.sub"
+  ],
+  "pyquery.cssselectpatch.XPathExpr.__str__": [
+    "cssselect.xpath.XPathExpr.__str__"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_contains_function": [
+    "cssselect.parser.Function.argument_types",
+    "cssselect.xpath.GenericTranslator.xpath_literal",
+    "pyquery.cssselectpatch.XPathExpr.add_post_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_first_pseudo": [
+    "pyquery.cssselectpatch.XPathExpr.add_post_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_last_pseudo": [
+    "pyquery.cssselectpatch.XPathExpr.add_post_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_even_pseudo": [
+    "pyquery.cssselectpatch.XPathExpr.add_post_condition"
+  ],
+  "pyquery.cssselectpatch.XPathExpr.join": [
+    "cssselect.xpath.XPathExpr.join"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_gt_function": [
+    "cssselect.parser.Function.argument_types",
+    "builtins.int",
+    "pyquery.cssselectpatch.XPathExpr.add_post_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_checkbox_pseudo": [
+    "cssselect.xpath.XPathExpr.add_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_radio_pseudo": [
+    "cssselect.xpath.XPathExpr.add_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_input_pseudo": [
+    "cssselect.xpath.XPathExpr.add_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_enabled_pseudo": [
+    "pyquery.cssselectpatch.JQueryTranslator._format_disabled_xpath",
+    "cssselect.xpath.XPathExpr.add_condition"
+  ],
+  "pyquery.cssselectpatch.JQueryTranslator.xpath_checked_pseudo": [
+    "cssselect.xpath.XPathExpr.add_condition"
+  ],
+  "pyquery.openers.url_opener": [
+    "pyquery.openers._urllib"
+  ],
+  "pyquery.openers._urllib": [
+    "dict.get",
+    "pyquery.openers._query",
+    "dict.get",
+    "urllib.request.urlopen"
+  ],
+  "pyquery.openers._query": [
+    "dict.pop",
+    "builtins.type",
+    "urllib.parse.urlencode",
+    "builtins.isinstance",
+    "str.lower",
+    "str.encode"
+  ]
+}

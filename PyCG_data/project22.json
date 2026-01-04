@@ -1,0 +1,134 @@
+{
+  "setup": [
+    "os.path.dirname",
+    "setuptools.setup",
+    "<builtin>.open",
+    "os.path.join"
+  ],
+  "os.path.dirname": [],
+  "os.path.join": [],
+  "<builtin>.open": [],
+  "setuptools.setup": [],
+  "decouple": [
+    "decouple.AutoConfig.__init__"
+  ],
+  "decouple.<lambda1>": [
+    "ConfigParser.SafeConfigParser.read_file",
+    "configparser.ConfigParser.read_file"
+  ],
+  "ConfigParser.SafeConfigParser.read_file": [],
+  "configparser.ConfigParser.read_file": [],
+  "decouple.<lambda2>": [
+    "ConfigParser.SafeConfigParser.readfp",
+    "configparser.ConfigParser.readfp"
+  ],
+  "ConfigParser.SafeConfigParser.readfp": [],
+  "configparser.ConfigParser.readfp": [],
+  "decouple.strtobool": [
+    "<builtin>.isinstance",
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.isinstance": [],
+  "<builtin>.ValueError": [],
+  "decouple.Config.__init__": [],
+  "decouple.Config._cast_boolean": [
+    "<builtin>.bool",
+    "decouple.strtobool",
+    "<builtin>.str"
+  ],
+  "<builtin>.str": [],
+  "<builtin>.bool": [],
+  "decouple.Config._cast_do_nothing": [],
+  "decouple.Config.get": [
+    "decouple.Config._cast_do_nothing",
+    "decouple.Config._cast_boolean",
+    "<builtin>.isinstance"
+  ],
+  "decouple.Config.__call__": [
+    "decouple.Config.get"
+  ],
+  "decouple.RepositoryEmpty.__init__": [],
+  "decouple.RepositoryEmpty.__contains__": [],
+  "decouple.RepositoryEmpty.__getitem__": [],
+  "decouple.RepositoryIni.__init__": [
+    "configparser.ConfigParser",
+    "decouple.<lambda1>",
+    "io.open",
+    "decouple.<lambda2>",
+    "ConfigParser.SafeConfigParser"
+  ],
+  "configparser.ConfigParser": [],
+  "ConfigParser.SafeConfigParser": [],
+  "io.open": [],
+  "decouple.RepositoryIni.__contains__": [
+    "configparser.ConfigParser.has_option",
+    "ConfigParser.SafeConfigParser.has_option"
+  ],
+  "configparser.ConfigParser.has_option": [],
+  "ConfigParser.SafeConfigParser.has_option": [],
+  "decouple.RepositoryIni.__getitem__": [
+    "ConfigParser.SafeConfigParser.get",
+    "configparser.ConfigParser.get"
+  ],
+  "ConfigParser.SafeConfigParser.get": [],
+  "configparser.ConfigParser.get": [],
+  "decouple.RepositoryEnv.__init__": [
+    "io.open",
+    "<builtin>.len"
+  ],
+  "<builtin>.len": [],
+  "decouple.RepositoryEnv.__contains__": [],
+  "decouple.RepositoryEnv.__getitem__": [],
+  "decouple.RepositorySecret.__init__": [
+    "io.open",
+    "os.path.join",
+    "os.listdir"
+  ],
+  "os.listdir": [],
+  "decouple.RepositorySecret.__contains__": [],
+  "decouple.RepositorySecret.__getitem__": [],
+  "collections.OrderedDict": [],
+  "decouple.AutoConfig": [
+    "collections.OrderedDict"
+  ],
+  "decouple.AutoConfig.__init__": [],
+  "decouple.AutoConfig._find_file": [
+    "os.path.dirname",
+    "os.path.isfile",
+    "os.path.join",
+    "decouple.AutoConfig._find_file",
+    "os.path.abspath"
+  ],
+  "os.path.isfile": [],
+  "os.path.abspath": [],
+  "decouple.AutoConfig._load": [
+    "collections.OrderedDict.get",
+    "os.path.basename",
+    "decouple.Config.__init__",
+    "decouple.AutoConfig._find_file",
+    "os.path.abspath"
+  ],
+  "os.path.basename": [],
+  "collections.OrderedDict.get": [],
+  "decouple.AutoConfig._caller_path": [
+    "os.path.dirname",
+    "sys._getframe"
+  ],
+  "sys._getframe": [],
+  "decouple.AutoConfig.__call__": [
+    "decouple.AutoConfig._load",
+    "decouple.AutoConfig._caller_path",
+    "decouple.Config.__init__"
+  ],
+  "decouple.Csv.__init__": [],
+  "decouple.Csv.__call__": [
+    "decouple.Csv.__call__.<lambda1>",
+    "shlex.shlex"
+  ],
+  "decouple.Csv.__call__.<lambda1>": [],
+  "shlex.shlex": [],
+  "decouple.Choices.__init__": [],
+  "decouple.Choices.__call__": [
+    "<builtin>.ValueError"
+  ]
+}

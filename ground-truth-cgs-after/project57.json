@@ -1,0 +1,461 @@
+{
+  "pyvips.__init__": [
+    "logging.getLogger",
+    "logging.NullHandler",
+    "logging.Logger.addHandler",
+    "logging.Logger.debug",
+    "logging.Logger.debug",
+    "cffi.api.FFI",
+    "cffi.api.FFI.dlopen",
+    "cffi.api.FFI.dlopen",
+    "logging.Logger.debug",
+    "logging.Logger.debug",
+    "cffi.api.FFI.cdef",
+    "str.encode",
+    "<cdata 'int(*)(char *)' 0x7fddb0e58980>",
+    "logging.Logger.debug",
+    "<cdata 'int(*)(int)' 0x7fddb0e5de00>",
+    "<cdata 'int(*)(int)' 0x7fddb0e5de00>",
+    "<cdata 'int(*)(int)' 0x7fddb0e5de00>",
+    "pyvips.vdecls.cdefs",
+    "cffi.api.FFI.cdef",
+    "cffi.api.FFI.callback",
+    "pyvips.error._to_bytes",
+    "<cdata 'int(*)(char *, int, void(*)(char *, int, char *, void *), void *)' 0x7fddb12044c0>",
+    "atexit.register"
+  ],
+  "pyvips.vdecls.cdefs": [
+    "pyvips.vdecls._at_least",
+    "pyvips.vdecls._at_least",
+    "pyvips.vdecls._at_least",
+    "pyvips.vdecls._at_least",
+    "pyvips.vdecls._at_least",
+    "pyvips.vdecls._at_least",
+    "pyvips.vdecls._at_least",
+    "pyvips.vdecls._at_least",
+    "dict.items"
+  ],
+  "pyvips.error": [
+    "logging.getLogger"
+  ],
+  "pyvips.error._to_bytes": [
+    "builtins.isinstance",
+    "builtins.str",
+    "str.encode"
+  ],
+  "pyvips.gobject": [
+    "logging.getLogger",
+    "cffi.api.FFI.cast",
+    "pyvips.base.at_least_libvips",
+    "cffi.api.FFI.cast",
+    "cffi.api.FFI.cast",
+    "cffi.api.FFI.cast",
+    "cffi.api.FFI.cast",
+    "pyvips.base.at_least_libvips"
+  ],
+  "pyvips.base.at_least_libvips": [
+    "pyvips.base.version",
+    "pyvips.base.version"
+  ],
+  "pyvips.base.version": [
+    "<cdata 'int(*)(int)' 0x7fddb0e5de00>"
+  ],
+  "pyvips.gvalue": [
+    "logging.getLogger",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "pyvips.base.type_from_name",
+    "<cdata 'uint64_t(*)()' 0x7fddb0e318e0>",
+    "pyvips.base.type_from_name",
+    "pyvips.base.at_least_libvips",
+    "<cdata 'uint64_t(*)()' 0x7fddb0e313a0>",
+    "pyvips.base.type_from_name"
+  ],
+  "pyvips.base.type_from_name": [
+    "pyvips.error._to_bytes",
+    "<cdata 'uint64_t(*)(char *)' 0x7fddb2637d70>"
+  ],
+  "pyvips.vobject": [
+    "logging.getLogger"
+  ],
+  "pyvips.vconnection": [
+    "logging.getLogger"
+  ],
+  "pyvips.vsource": [
+    "logging.getLogger"
+  ],
+  "pyvips.vsourcecustom": [
+    "logging.getLogger"
+  ],
+  "pyvips.vtarget": [
+    "logging.getLogger"
+  ],
+  "pyvips.vtargetcustom": [
+    "logging.getLogger"
+  ],
+  "pyvips.voperation": [
+    "logging.getLogger"
+  ],
+  "pyvips.vimage": [
+    "dict.items"
+  ],
+  "pyvips.vimage._add_doc": [
+    "pyvips.voperation.Operation.generate_docstring"
+  ],
+  "pyvips.voperation.Operation.generate_docstring": [
+    "pyvips.voperation.Introspect.get",
+    "str.upper",
+    "str.join",
+    "pyvips.gvalue.GValue.gtype_to_python",
+    "str.join",
+    "pyvips.voperation.Operation.generate_docstring.<locals>.argstr",
+    "pyvips.voperation.Operation.generate_docstring.<locals>.argstr",
+    "pyvips.voperation.Operation.generate_docstring.<locals>.argstr",
+    "builtins.len",
+    "pyvips.voperation.Operation.generate_docstring.<locals>.argstr",
+    "builtins.len"
+  ],
+  "pyvips.voperation.Introspect.get": [
+    "pyvips.voperation.Introspect"
+  ],
+  "pyvips.voperation.Introspect.__init__": [
+    "pyvips.voperation.Operation.new_from_name",
+    "pyvips.vobject.VipsObject.get_description",
+    "<cdata 'int(*)(VipsOperation *)' 0x7fddb0e46440>",
+    "pyvips.base.at_least_libvips",
+    "cffi.api.FFI.new",
+    "cffi.api.FFI.new",
+    "cffi.api.FFI.new",
+    "<cdata 'int(*)(VipsObject *, char * * *, int * *, int *)' 0x7fddb0e3cec0>",
+    "builtins.range",
+    "pyvips.error._to_string",
+    "pyvips.voperation.Introspect.__init__.<locals>.add_args",
+    "pyvips.vobject.VipsObject.get_blurb",
+    "pyvips.vobject.VipsObject.get_typeof",
+    "list.append",
+    "list.append",
+    "list.append",
+    "list.append",
+    "builtins.list",
+    "list.remove"
+  ],
+  "pyvips.voperation.Operation.new_from_name": [
+    "pyvips.error._to_bytes",
+    "<cdata 'VipsOperation *(*)(char *)' 0x7fddb0e4c110>",
+    "pyvips.voperation.Operation"
+  ],
+  "pyvips.voperation.Operation.__init__": [
+    "pyvips.vobject.VipsObject.__init__"
+  ],
+  "pyvips.vobject.VipsObject.__init__": [
+    "pyvips.gobject.GObject.__init__",
+    "cffi.api.FFI.cast",
+    "cffi.api.FFI.cast"
+  ],
+  "pyvips.gobject.GObject.__init__": [
+    "cffi.api.FFI.gc"
+  ],
+  "pyvips.vobject.VipsObject.get_description": [
+    "<cdata 'char *(*)(VipsObject *)' 0x7fddb0e3b430>",
+    "pyvips.error._to_string"
+  ],
+  "pyvips.error._to_string": [
+    "cffi.api.FFI.string",
+    "builtins.isinstance",
+    "bytes.decode"
+  ],
+  "pyvips.voperation.Introspect.add_args": [
+    "str.replace",
+    "list.append"
+  ],
+  "pyvips.vobject.VipsObject.get_blurb": [
+    "pyvips.vobject.VipsObject._get_pspec",
+    "<cdata 'char *(*)(GParamSpec *)' 0x7fddb26209e0>",
+    "pyvips.error._to_string"
+  ],
+  "pyvips.vobject.VipsObject._get_pspec": [
+    "cffi.api.FFI.new",
+    "cffi.api.FFI.new",
+    "cffi.api.FFI.new",
+    "pyvips.error._to_bytes",
+    "<cdata 'int(*)(VipsObject *, char *, GParamSpec * *, VipsArgumentClass * *, VipsArgumentInstance * *)' 0x7fddb0e363a0>"
+  ],
+  "pyvips.vobject.VipsObject.get_typeof": [
+    "pyvips.vobject.VipsObject._get_pspec"
+  ],
+  "pyvips.gvalue.GValue.gtype_to_python": [
+    "<cdata 'uint64_t(*)(uint64_t)' 0x7fddb2638aa0>"
+  ],
+  "pyvips.voperation.Operation.argstr": [
+    "pyvips.gvalue.GValue.gtype_to_python",
+    "str.format"
+  ],
+  "pyvips.vimage.wrapper": [
+    "mappingproxy.copy",
+    "dict.get",
+    "builtins.isinstance",
+    "dict.pop",
+    "dict.pop",
+    "dict.pop",
+    "builtins.hasattr",
+    "pyvips.vimage.ImageType"
+  ],
+  "pyvips.base.type_find": [
+    "pyvips.error._to_bytes",
+    "<cdata 'uint64_t(*)(char *, char *)' 0x7fddb0e3bb20>"
+  ],
+  "pyvips.vsource.Source.new_from_file": [
+    "pyvips.error._to_bytes",
+    "<cdata 'VipsSource *(*)(char *)' 0x7fddb0e32d30>",
+    "pyvips.vsource.Source"
+  ],
+  "pyvips.vsource.Source.__init__": [
+    "pyvips.vconnection.Connection.__init__"
+  ],
+  "pyvips.vconnection.Connection.__init__": [
+    "pyvips.vobject.VipsObject.__init__"
+  ],
+  "pyvips.vimage.Image.new_from_source": [
+    "<cdata 'char *(*)(VipsSource *)' 0x7fddb0dde920>",
+    "pyvips.error._to_string",
+    "pyvips.voperation.Operation.call"
+  ],
+  "pyvips.voperation.Operation.call": [
+    "logging.Logger.debug",
+    "pyvips.voperation.Introspect.get",
+    "builtins.len",
+    "pyvips.voperation.Operation.new_from_name",
+    "dict.pop",
+    "pyvips.vobject.VipsObject.set_string",
+    "pyvips.voperation._find_inside",
+    "builtins.isinstance",
+    "logging.Logger.debug",
+    "builtins.zip",
+    "pyvips.voperation._find_inside",
+    "pyvips.voperation.Operation.set",
+    "pyvips.voperation._find_inside",
+    "<cdata 'VipsOperation *(*)(VipsOperation *)' 0x7fddb0e47730>",
+    "pyvips.voperation.Operation"
+  ],
+  "pyvips.vsourcecustom.SourceCustom.__init__": [
+    "<cdata 'VipsSourceCustom *(*)()' 0x7fddb0e32e50>",
+    "cffi.api.FFI.cast",
+    "pyvips.vsource.Source.__init__"
+  ],
+  "pyvips.vsourcecustom.SourceCustom.on_read": [
+    "pyvips.gobject.GObject.signal_connect"
+  ],
+  "pyvips.gobject.GObject.signal_connect": [
+    "cffi.api.FFI.cast",
+    "cffi.api.FFI.new_handle",
+    "list.append",
+    "list.append",
+    "pyvips.error._to_bytes",
+    "<cdata 'long(*)(GObject *, char *, void(*)(), void *, void(*)(void *, struct _GClosure *), int)' 0x7fddb262ccf0>"
+  ],
+  "pyvips.gobject._marshal_read": [
+    "_cffi_backend.buffer",
+    "cffi.api.FFI.from_handle",
+    "pyvips.vsourcecustom.SourceCustom.on_read.<locals>.interface_handler"
+  ],
+  "pyvips.vsourcecustom.SourceCustom.interface_handler": [
+    "builtins.len",
+    "tests.test_connections.TestConnections.test_source_custom_no_seek.<locals>.read_handler",
+    "builtins.len",
+    "tests.test_connections.TestConnections.test_source_custom.<locals>.read_handler",
+    "tests.test_connections.TestConnections.test_source_custom_webp_no_seek.<locals>.read_handler",
+    "tests.test_connections.TestConnections.test_source_custom_webp.<locals>.read_handler"
+  ],
+  "pyvips.vsourcecustom.SourceCustom.on_seek": [
+    "pyvips.gobject.GObject.signal_connect"
+  ],
+  "pyvips.gobject._marshal_seek": [
+    "cffi.api.FFI.from_handle",
+    "tests.test_connections.TestConnections.test_source_custom.<locals>.seek_handler",
+    "tests.test_connections.TestConnections.test_source_custom_webp.<locals>.seek_handler"
+  ],
+  "pyvips.vtargetcustom.TargetCustom.__init__": [
+    "<cdata 'VipsTargetCustom *(*)()' 0x7fddb0e33060>",
+    "cffi.api.FFI.cast",
+    "pyvips.vtarget.Target.__init__"
+  ],
+  "pyvips.vtarget.Target.__init__": [
+    "pyvips.vconnection.Connection.__init__"
+  ],
+  "pyvips.vtargetcustom.TargetCustom.on_write": [
+    "pyvips.gobject.GObject.signal_connect"
+  ],
+  "pyvips.vtargetcustom.TargetCustom.on_end": [
+    "pyvips.base.at_least_libvips",
+    "pyvips.vtargetcustom.TargetCustom.on_finish"
+  ],
+  "pyvips.vtargetcustom.TargetCustom.on_finish": [
+    "pyvips.gobject.GObject.signal_connect"
+  ],
+  "pyvips.vimage.Image.new_from_file": [
+    "pyvips.error._to_bytes",
+    "<cdata 'char *(*)(char *)' 0x7fddb0e3cc80>",
+    "pyvips.error._to_string_copy",
+    "<cdata 'char *(*)(char *)' 0x7fddb0e3ccf0>",
+    "pyvips.error._to_string_copy",
+    "<cdata 'char *(*)(char *)' 0x7fddb0de15c0>",
+    "pyvips.error._to_string",
+    "pyvips.voperation.Operation.call"
+  ],
+  "pyvips.error._to_string_copy": [
+    "cffi.api.FFI.gc",
+    "pyvips.error._to_string"
+  ],
+  "pyvips.vimage.Image.new_from_array": [
+    "builtins.isinstance",
+    "pyvips.vimage.Image.new_from_list"
+  ],
+  "pyvips.vimage.Image.new_from_list": [
+    "pyvips.vimage._is_2D",
+    "builtins.len",
+    "builtins.len",
+    "cffi.api.FFI.new",
+    "builtins.range",
+    "builtins.range",
+    "<cdata 'VipsImage *(*)(int, int, double *, int)' 0x7fddb0e43070>",
+    "pyvips.vimage.Image",
+    "pyvips.vimage.Image.set_type",
+    "pyvips.vimage.Image.set_type"
+  ],
+  "pyvips.vimage._is_2D": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.len"
+  ],
+  "pyvips.vimage.Image.__init__": [
+    "pyvips.vobject.VipsObject.__init__"
+  ],
+  "pyvips.vimage.Image.set_type": [
+    "pyvips.gvalue.GValue",
+    "pyvips.gvalue.GValue.set_type",
+    "pyvips.gvalue.GValue.set",
+    "pyvips.error._to_bytes",
+    "<cdata 'void(*)(VipsImage *, char *, GValue *)' 0x7fddb0e4a6f0>"
+  ],
+  "pyvips.gvalue.GValue.__init__": [
+    "cffi.api.FFI.new",
+    "cffi.api.FFI.gc"
+  ],
+  "pyvips.gvalue.GValue.set_type": [
+    "<cdata 'void(*)(GValue *, uint64_t)' 0x7fddb263e0e0>"
+  ],
+  "pyvips.gvalue.GValue.set": [
+    "<cdata 'uint64_t(*)(uint64_t)' 0x7fddb2638aa0>",
+    "<cdata 'void(*)(GValue *, double)' 0x7fddb2641060>",
+    "builtins.int",
+    "<cdata 'void(*)(GValue *, int)' 0x7fddb2640b90>",
+    "<cdata 'void(*)(GValue *, int)' 0x7fddb2640ad0>",
+    "<cdata 'void(*)(GValue *, uint64_t)' 0x7fddb2640f00>",
+    "pyvips.gvalue.GValue.to_enum",
+    "<cdata 'void(*)(GValue *, int)' 0x7fddb2615dd0>",
+    "<cdata 'void(*)(GValue *, unsigned int)' 0x7fddb2615e80>",
+    "pyvips.error._to_bytes",
+    "<cdata 'void(*)(GValue *, char *)' 0x7fddb2641110>",
+    "builtins.isinstance",
+    "cffi.api.FFI.new",
+    "builtins.len",
+    "<cdata 'void(*)(GValue *, int *, int)' 0x7fddb0e38aa0>",
+    "builtins.isinstance",
+    "cffi.api.FFI.new",
+    "builtins.len",
+    "<cdata 'void(*)(GValue *, double *, int)' 0x7fddb0e38c10>",
+    "builtins.len",
+    "<cdata 'void *(*)(size_t)' 0x7fddb1202720>",
+    "builtins.len",
+    "cffi.api.FFI.memmove",
+    "pyvips.base.at_least_libvips",
+    "builtins.len",
+    "<cdata 'void(*)(GValue *, void *, size_t)' 0x7fddb0e390e0>"
+  ],
+  "pyvips.vimage.Image.__getattr__": [
+    "pyvips.vobject.VipsObject.get_typeof",
+    "pyvips.vobject.VipsObject.get"
+  ],
+  "pyvips.vimage.ImageType.__getattr__": [
+    "pyvips.voperation.Introspect.get"
+  ],
+  "pyvips.vobject.VipsObject.get": [
+    "logging.Logger.debug"
+  ],
+  "pyvips.vimage.ImageType.call_function": [
+    "pyvips.voperation.Operation.call"
+  ],
+  "pyvips.vobject.VipsObject.set_string": [
+    "pyvips.error._to_bytes",
+    "<cdata 'int(*)(VipsObject *, char *)' 0x7fddb0e41350>"
+  ],
+  "pyvips.voperation._find_inside": [
+    "pyvips.voperation.Operation.call.<locals>.<lambda>",
+    "builtins.isinstance",
+    "pyvips.voperation._find_inside",
+    "pyvips.voperation.Operation.call.<locals>.add_reference"
+  ],
+  "pyvips.voperation.Operation.add_reference": [
+    "builtins.isinstance"
+  ],
+  "pyvips.voperation.Operation.set": [
+    "pyvips.vobject.VipsObject.set"
+  ],
+  "pyvips.vobject.VipsObject.set": [
+    "logging.Logger.debug",
+    "pyvips.vobject.VipsObject.get_typeof",
+    "pyvips.gvalue.GValue",
+    "pyvips.gvalue.GValue.set_type",
+    "pyvips.gvalue.GValue.set",
+    "cffi.api.FFI.cast",
+    "pyvips.error._to_bytes",
+    "<cdata 'void(*)(GObject *, char *, GValue *)' 0x7fddb2627060>"
+  ],
+  "pyvips.gvalue.GValue.get": [
+    "<cdata 'uint64_t(*)(uint64_t)' 0x7fddb2638aa0>",
+    "<cdata 'int(*)(GValue *)' 0x7fddb2640b40>",
+    "builtins.bool",
+    "<cdata 'int(*)(GValue *)' 0x7fddb2640bf0>",
+    "<cdata 'uint64_t(*)(GValue *)' 0x7fddb2640f60>",
+    "<cdata 'double(*)(GValue *)' 0x7fddb26410c0>",
+    "<cdata 'int(*)(GValue *)' 0x7fddb2615e30>",
+    "pyvips.gvalue.GValue.from_enum",
+    "<cdata 'unsigned int(*)(GValue *)' 0x7fddb2616000>",
+    "<cdata 'char *(*)(GValue *)' 0x7fddb2641340>",
+    "pyvips.error._to_string",
+    "cffi.api.FFI.new",
+    "<cdata 'int *(*)(GValue *, int *)' 0x7fddb0e30a70>",
+    "builtins.range",
+    "list.append",
+    "cffi.api.FFI.new",
+    "<cdata 'double *(*)(GValue *, int *)' 0x7fddb0e30a80>",
+    "builtins.range",
+    "list.append",
+    "cffi.api.FFI.new",
+    "<cdata 'void *(*)(GValue *, size_t *)' 0x7fddb0e30990>",
+    "cffi.api.FFI.cast",
+    "cffi.api.FFI.unpack"
+  ],
+  "pyvips.gvalue.GValue.to_enum": [
+    "builtins.isinstance",
+    "pyvips.error._to_bytes",
+    "<cdata 'int(*)(char *, uint64_t, char *)' 0x7fddb0e5db00>"
+  ],
+  "pyvips.gvalue.GValue.from_enum": [
+    "<cdata 'char *(*)(uint64_t, int)' 0x7fddb0e54560>",
+    "pyvips.error._to_string"
+  ]
+}

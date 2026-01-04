@@ -1,0 +1,3659 @@
+{
+  "docs._themes.err.pygments_style": [],
+  "docs.conf": [
+    "os.path.abspath",
+    "<builtin>.__import__",
+    "sys.path.append"
+  ],
+  "os.path.abspath": [],
+  "sys.path.append": [],
+  "<builtin>.__import__": [],
+  "docs.conf.autodoc_skip_member": [],
+  "docs.conf.run_apidoc": [
+    "subprocess.check_call"
+  ],
+  "subprocess.check_call": [],
+  "docs.conf.run_repos_builder": [
+    "subprocess.check_call",
+    "os.getcwd",
+    "os.chdir"
+  ],
+  "os.getcwd": [],
+  "os.chdir": [],
+  "docs.conf.setup": [],
+  "errbot.version": [],
+  "errbot": [
+    "logging.getLogger"
+  ],
+  "logging.getLogger": [],
+  "errbot.ArgumentParser.error": [],
+  "errbot.ArgumentParser.print_help": [],
+  "errbot._tag_botcmd": [
+    "re.compile",
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.hasattr": [],
+  "re.compile": [],
+  "errbot.botcmd": [
+    "errbot.botcmd.decorator"
+  ],
+  "errbot.botcmd.decorator": [
+    "errbot._tag_botcmd"
+  ],
+  "errbot.re_botcmd": [
+    "errbot.re_botcmd.decorator"
+  ],
+  "errbot.re_botcmd.decorator": [
+    "errbot._tag_botcmd"
+  ],
+  "errbot.botmatch": [
+    "errbot.botmatch.decorator",
+    "<builtin>.len",
+    "<builtin>.ValueError"
+  ],
+  "errbot.botmatch.decorator": [
+    "errbot._tag_botcmd"
+  ],
+  "<builtin>.len": [],
+  "errbot.botmatch.<lambda1>": [
+    "errbot.botmatch.decorator"
+  ],
+  "<builtin>.ValueError": [],
+  "errbot.arg_botcmd": [
+    "errbot.arg_botcmd.decorator",
+    "<builtin>.len",
+    "<builtin>.callable"
+  ],
+  "<builtin>.callable": [],
+  "errbot.arg_botcmd.decorator": [
+    "errbot._tag_botcmd",
+    "<builtin>.hasattr",
+    "argparse.ArgumentParser.__init__",
+    "errbot.update_wrapper",
+    "functools.wraps"
+  ],
+  "argparse.ArgumentParser.__init__": [],
+  "functools.wraps": [],
+  "errbot.arg_botcmd.decorator.wrapper": [
+    "inspect.isgeneratorfunction",
+    "re.compile.sub",
+    "argparse.ArgumentParser.format_help",
+    "argparse.ArgumentParser.format_usage",
+    "shlex.split",
+    "re.compile",
+    "<builtin>.vars",
+    "argparse.ArgumentParser.parse_args",
+    "re.escape"
+  ],
+  "re.escape": [],
+  "errbot.arg_botcmd.decorator.wrapper.<lambda1>": [],
+  "re.compile.sub": [],
+  "shlex.split": [],
+  "argparse.ArgumentParser.parse_args": [],
+  "argparse.ArgumentParser.format_usage": [],
+  "argparse.ArgumentParser.format_help": [],
+  "<builtin>.vars": [],
+  "inspect.isgeneratorfunction": [],
+  "errbot.update_wrapper": [
+    "<builtin>.len"
+  ],
+  "errbot._tag_webhook": [
+    "logging.getLogger.info",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.getattr": [],
+  "logging.getLogger.info": [],
+  "errbot._uri_from_func": [],
+  "errbot.webhook": [
+    "errbot._tag_webhook",
+    "<builtin>.isinstance",
+    "errbot._uri_from_func"
+  ],
+  "errbot.webhook.<lambda1>": [
+    "errbot._tag_webhook",
+    "errbot._uri_from_func"
+  ],
+  "<builtin>.isinstance": [],
+  "errbot.webhook.<lambda2>": [
+    "errbot._tag_webhook"
+  ],
+  "errbot.cmdfilter": [
+    "<builtin>.len",
+    "errbot.cmdfilter.decorate"
+  ],
+  "errbot.cmdfilter.decorate": [
+    "<builtin>.hasattr"
+  ],
+  "errbot.cmdfilter.<lambda1>": [
+    "errbot.cmdfilter.decorate"
+  ],
+  "errbot.botflow": [
+    "errbot.botflow.decorate",
+    "<builtin>.len"
+  ],
+  "errbot.botflow.decorate": [
+    "<builtin>.hasattr"
+  ],
+  "errbot.botflow.<lambda1>": [
+    "errbot.botflow.decorate"
+  ],
+  "errbot.backends.base": [
+    "logging.getLogger"
+  ],
+  "errbot.backends.base.Person": [
+    "abc.abstractmethod"
+  ],
+  "abc.abstractmethod": [],
+  "errbot.backends.base.Person.person": [],
+  "errbot.backends.base.Person.client": [],
+  "errbot.backends.base.Person.nick": [],
+  "errbot.backends.base.Person.aclattr": [],
+  "errbot.backends.base.Person.fullname": [],
+  "errbot.backends.base.Person.email": [],
+  "errbot.backends.base.RoomOccupant": [
+    "abc.abstractmethod"
+  ],
+  "errbot.backends.base.RoomOccupant.room": [],
+  "errbot.backends.base.Room.join": [
+    "<builtin>.NotImplementedError"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "errbot.backends.base.Room.leave": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Room.create": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Room.destroy": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Room.aclattr": [
+    "<builtin>.str"
+  ],
+  "<builtin>.str": [],
+  "errbot.backends.base.Room.exists": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Room.joined": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Room.topic": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Room.occupants": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Room.invite": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.base.Message.__init__": [
+    "<builtin>.dict"
+  ],
+  "<builtin>.dict": [],
+  "errbot.backends.base.Message.clone": [
+    "errbot.backends.base.Message.__init__"
+  ],
+  "errbot.backends.base.Message.to": [],
+  "errbot.backends.base.Message": [
+    "abc.ABC.setter"
+  ],
+  "abc.ABC.setter": [],
+  "errbot.backends.base.Message.frm": [],
+  "errbot.backends.base.Message.body": [],
+  "errbot.backends.base.Message.delayed": [],
+  "errbot.backends.base.Message.parent": [],
+  "errbot.backends.base.Message.extras": [],
+  "errbot.backends.base.Message.flow": [],
+  "errbot.backends.base.Message.__str__": [],
+  "errbot.backends.base.Message.is_direct": [
+    "<builtin>.isinstance"
+  ],
+  "errbot.backends.base.Message.is_group": [
+    "<builtin>.isinstance"
+  ],
+  "errbot.backends.base.Message.is_threaded": [],
+  "errbot.backends.base.Message.partial": [],
+  "errbot.backends.base.Card.__init__": [
+    "<builtin>.super"
+  ],
+  "<builtin>.super": [],
+  "errbot.backends.base.Card.summary": [],
+  "errbot.backends.base.Card.title": [],
+  "errbot.backends.base.Card.link": [],
+  "errbot.backends.base.Card.image": [],
+  "errbot.backends.base.Card.thumbnail": [],
+  "errbot.backends.base.Card.color": [],
+  "errbot.backends.base.Card.text_color": [],
+  "errbot.backends.base.Card.fields": [],
+  "errbot.backends.base.Presence.__init__": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.backends.base.Presence.identifier": [],
+  "errbot.backends.base.Presence.status": [],
+  "errbot.backends.base.Presence.message": [],
+  "errbot.backends.base.Presence.__str__": [],
+  "errbot.backends.base.Presence.__unicode__": [
+    "errbot.backends.base.Presence.__str__",
+    "<builtin>.str"
+  ],
+  "errbot.backends.base.Reaction.__init__": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.backends.base.Reaction.reactor": [],
+  "errbot.backends.base.Reaction.reacted_to_owner": [],
+  "errbot.backends.base.Reaction.action": [],
+  "errbot.backends.base.Reaction.timestamp": [],
+  "errbot.backends.base.Reaction.reaction_name": [],
+  "errbot.backends.base.Reaction.reacted_to": [],
+  "errbot.backends.base.Reaction.__str__": [],
+  "errbot.backends.base.Stream.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.base.Stream.identifier": [],
+  "errbot.backends.base.Stream.name": [],
+  "errbot.backends.base.Stream.size": [],
+  "errbot.backends.base.Stream.transfered": [],
+  "errbot.backends.base.Stream.stream_type": [],
+  "errbot.backends.base.Stream.status": [],
+  "errbot.backends.base.Stream.accept": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.backends.base.Stream.reject": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.backends.base.Stream.error": [],
+  "errbot.backends.base.Stream.success": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.backends.base.Stream.clone": [
+    "errbot.backends.base.Stream.__init__"
+  ],
+  "errbot.backends.base.Stream.ack_data": [],
+  "errbot.backends.base.Backend.<lambda1>": [
+    "collections.deque"
+  ],
+  "collections.deque": [],
+  "collections.defaultdict": [],
+  "errbot.backends.base.Backend": [
+    "abc.abstractmethod",
+    "collections.defaultdict"
+  ],
+  "errbot.backends.base.Backend.__init__": [
+    "logging.getLogger.debug"
+  ],
+  "logging.getLogger.debug": [],
+  "errbot.backends.base.Backend.send_message": [],
+  "errbot.backends.base.Backend.change_presence": [],
+  "errbot.backends.base.Backend.build_reply": [],
+  "errbot.backends.base.Backend.callback_presence": [],
+  "errbot.backends.base.Backend.callback_room_joined": [],
+  "errbot.backends.base.Backend.callback_room_left": [],
+  "errbot.backends.base.Backend.callback_room_topic": [],
+  "errbot.backends.base.Backend.serve_forever": [
+    "errbot.backends.base.Backend.serve_once",
+    "errbot.backends.base.Backend._delay_reconnect",
+    "logging.getLogger.exception",
+    "logging.getLogger.info",
+    "abc.ABC.shutdown"
+  ],
+  "errbot.backends.base.Backend.serve_once": [
+    "<builtin>.NotImplementedError"
+  ],
+  "logging.getLogger.exception": [],
+  "errbot.backends.base.Backend._delay_reconnect": [
+    "random.uniform",
+    "time.sleep"
+  ],
+  "abc.ABC.shutdown": [],
+  "time.sleep": [],
+  "random.uniform": [],
+  "errbot.backends.base.Backend.reset_reconnection_count": [],
+  "errbot.backends.base.Backend.build_message": [
+    "errbot.backends.base.Message.__init__"
+  ],
+  "errbot.backends.base.Backend.prefix_groupchat_reply": [],
+  "errbot.backends.base.Backend.build_identifier": [],
+  "errbot.backends.base.Backend.is_from_self": [],
+  "errbot.backends.base.Backend.connect": [],
+  "errbot.backends.base.Backend.query_room": [],
+  "errbot.backends.base.Backend.connect_callback": [],
+  "errbot.backends.base.Backend.disconnect_callback": [],
+  "errbot.backends.base.Backend.mode": [],
+  "errbot.backends.base.Backend.rooms": [],
+  "errbot.core_plugins": [
+    "flask.app.Flask"
+  ],
+  "flask.app.Flask": [],
+  "errbot.core_plugins.wsview": [
+    "logging.getLogger"
+  ],
+  "errbot.core_plugins.wsview.strip_path": [],
+  "errbot.core_plugins.wsview.try_decode_json": [
+    "json.loads",
+    "flask.request.data.decode"
+  ],
+  "flask.request.data.decode": [],
+  "json.loads": [],
+  "errbot.core_plugins.wsview.reset_app": [
+    "flask.app.Flask"
+  ],
+  "errbot.core_plugins.wsview.route": [
+    "<builtin>.getattr",
+    "flask.views.View.as_view",
+    "logging.getLogger.info",
+    "inspect.getmembers"
+  ],
+  "inspect.getmembers": [],
+  "flask.views.View.as_view": [],
+  "errbot.core_plugins.wsview.WebView.__init__": [
+    "<builtin>.Exception"
+  ],
+  "<builtin>.Exception": [],
+  "errbot.core_plugins.wsview.WebView.__init__.<lambda1>": [
+    "inspect.ismethod"
+  ],
+  "inspect.ismethod": [],
+  "errbot.core_plugins.wsview.WebView.dispatch_request": [
+    "<builtin>.dict",
+    "logging.getLogger.debug",
+    "<builtin>.hasattr",
+    "flask.request.form.get",
+    "<builtin>.Exception",
+    "json.loads",
+    "errbot.core_plugins.wsview.try_decode_json",
+    "flask.request.data.decode"
+  ],
+  "flask.request.form.get": [],
+  "errbot.backends": [],
+  "errbot.flow": [
+    "errbot.flow.FlowNode.__init__",
+    "logging.getLogger"
+  ],
+  "errbot.flow.FlowNode.__init__": [],
+  "errbot.flow.FlowNode.connect": [
+    "errbot.flow.FlowNode.__init__",
+    "<builtin>.isinstance"
+  ],
+  "errbot.flow.FlowNode.predicate_for_node": [],
+  "errbot.flow.FlowNode.__str__": [],
+  "errbot.flow.FlowRoot.__init__": [
+    "<builtin>.set",
+    "<builtin>.super"
+  ],
+  "<builtin>.set": [],
+  "errbot.flow.FlowRoot.connect": [
+    "<builtin>.super"
+  ],
+  "errbot.flow.FlowRoot.__str__": [],
+  "errbot.flow._FlowEnd.__str__": [],
+  "errbot.flow.Flow.__init__": [
+    "<builtin>.dict"
+  ],
+  "errbot.flow.Flow.next_autosteps": [],
+  "errbot.flow.Flow.next_steps": [],
+  "errbot.flow.Flow.advance": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.flow.Flow.name": [],
+  "errbot.flow.Flow.current_step": [],
+  "errbot.flow.Flow.root": [],
+  "errbot.flow.Flow.check_identifier": [
+    "<builtin>.isinstance"
+  ],
+  "errbot.flow.Flow.__str__": [
+    "<builtin>.dict"
+  ],
+  "errbot.flow.BotFlow.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.flow.BotFlow.name": [],
+  "errbot.flow.BotFlow.activate": [],
+  "errbot.flow.BotFlow.deactivate": [],
+  "errbot.flow.BotFlow.get_command": [],
+  "errbot.flow.FlowExecutor.__init__": [
+    "atexit.register",
+    "multiprocessing.pool.ThreadPool",
+    "threading.RLock"
+  ],
+  "threading.RLock": [],
+  "multiprocessing.pool.ThreadPool": [],
+  "atexit.register": [],
+  "errbot.flow.FlowExecutor.add_flow": [],
+  "errbot.flow.FlowExecutor.trigger": [
+    "errbot.flow.FlowExecutor._check_if_new_flow_is_triggered",
+    "errbot.flow.FlowExecutor.check_inflight_flow_triggered",
+    "<builtin>.dict",
+    "errbot.flow.FlowExecutor._enqueue_flow"
+  ],
+  "errbot.flow.FlowExecutor.check_inflight_flow_triggered": [
+    "logging.getLogger.debug"
+  ],
+  "errbot.flow.FlowExecutor._check_if_new_flow_is_triggered": [
+    "errbot.flow.FlowExecutor._create_new_flow",
+    "logging.getLogger.debug",
+    "errbot.flow.FlowExecutor.check_inflight_already_running"
+  ],
+  "errbot.flow.FlowExecutor._enqueue_flow": [
+    "multiprocessing.pool.ThreadPool.apply_async"
+  ],
+  "errbot.flow.FlowExecutor.check_inflight_already_running": [],
+  "errbot.flow.FlowExecutor._create_new_flow": [
+    "errbot.flow.Flow.next_steps",
+    "errbot.flow.Flow.__init__"
+  ],
+  "errbot.flow.FlowExecutor.start_flow": [
+    "errbot.flow.FlowExecutor.check_inflight_already_running",
+    "errbot.flow.FlowExecutor._enqueue_flow",
+    "<builtin>.isinstance",
+    "<builtin>.ValueError",
+    "<builtin>.str",
+    "errbot.flow.Flow.__init__"
+  ],
+  "errbot.flow.FlowExecutor.stop_flow": [
+    "logging.getLogger.debug",
+    "<builtin>.str"
+  ],
+  "multiprocessing.pool.ThreadPool.apply_async": [],
+  "errbot.flow.FlowExecutor.execute": [
+    "errbot.core.ErrBot.send",
+    "logging.getLogger.debug",
+    "errbot.backends.base.Message.__init__",
+    "logging.getLogger.exception",
+    "<builtin>.str"
+  ],
+  "errbot.core.ErrBot.send": [
+    "errbot.core.ErrBot.split_and_send_message",
+    "<builtin>.isinstance",
+    "errbot.backends.base.Backend.build_message",
+    "errbot.core.ErrBot.prefix_groupchat_reply",
+    "<builtin>.ValueError"
+  ],
+  "errbot.botplugin": [
+    "logging.getLogger"
+  ],
+  "errbot.botplugin.recurse_check_structure": [
+    "errbot.botplugin.recurse_check_structure",
+    "<builtin>.type"
+  ],
+  "<builtin>.type": [],
+  "errbot.botplugin.CommandError.__init__": [],
+  "errbot.botplugin.CommandError.__str__": [
+    "<builtin>.str"
+  ],
+  "errbot.botplugin.Command.__init__": [
+    "errbot.botcmd",
+    "<builtin>.ValueError"
+  ],
+  "errbot.botplugin.Command.append_args": [
+    "errbot.update_wrapper",
+    "<builtin>.hasattr",
+    "logging.getLogger.warning"
+  ],
+  "logging.getLogger.warning": [],
+  "errbot.botplugin.BotPluginBase.__init__": [
+    "logging.getLogger.debug",
+    "<builtin>.super",
+    "logging.getLogger"
+  ],
+  "errbot.botplugin.BotPluginBase.name": [],
+  "errbot.botplugin.BotPluginBase.mode": [],
+  "errbot.botplugin.BotPluginBase.bot_config": [
+    "<builtin>.isinstance"
+  ],
+  "errbot.botplugin.BotPluginBase.bot_identifier": [],
+  "errbot.botplugin.BotPluginBase.init_storage": [
+    "errbot.storage.StoreMixin.open_storage",
+    "logging.getLogger.debug"
+  ],
+  "errbot.storage.StoreMixin.open_storage": [
+    "logging.getLogger.debug",
+    "errbot.storage.StoreMixin.is_open_storage"
+  ],
+  "errbot.botplugin.BotPluginBase.activate": [
+    "errbot.botplugin.BotPluginBase.init_storage"
+  ],
+  "errbot.botplugin.BotPluginBase.deactivate": [
+    "logging.getLogger.debug",
+    "errbot.storage.StoreMixin.close_storage"
+  ],
+  "errbot.storage.StoreMixin.close_storage": [
+    "logging.getLogger.debug",
+    "errbot.storage.StoreMixin.is_open_storage"
+  ],
+  "errbot.botplugin.BotPluginBase.start_poller": [
+    "errbot.botplugin.BotPluginBase.program_next_poll",
+    "logging.getLogger.debug",
+    "<builtin>.str",
+    "logging.getLogger.exception"
+  ],
+  "errbot.botplugin.BotPluginBase.program_next_poll": [
+    "threading.Timer.start",
+    "threading.Timer",
+    "<builtin>.type"
+  ],
+  "errbot.botplugin.BotPluginBase.stop_poller": [
+    "logging.getLogger.debug"
+  ],
+  "threading.Timer": [],
+  "threading.Timer.start": [],
+  "errbot.botplugin.BotPluginBase.poller": [
+    "threading.current_thread",
+    "errbot.botplugin.BotPluginBase.program_next_poll",
+    "logging.getLogger.debug",
+    "logging.getLogger.exception"
+  ],
+  "threading.current_thread": [],
+  "errbot.botplugin.BotPluginBase.create_dynamic_plugin": [
+    "<builtin>.type",
+    "<builtin>.ValueError",
+    "re.sub"
+  ],
+  "re.sub": [],
+  "errbot.botplugin.BotPluginBase.destroy_dynamic_plugin": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.botplugin.BotPluginBase.get_plugin": [
+    "<builtin>.Exception"
+  ],
+  "errbot.botplugin.BotPlugin.get_configuration_template": [],
+  "errbot.botplugin.BotPlugin.check_configuration": [
+    "errbot.botplugin.recurse_check_structure",
+    "errbot.botplugin.BotPlugin.get_configuration_template"
+  ],
+  "errbot.botplugin.BotPlugin.configure": [],
+  "errbot.botplugin.BotPlugin.activate": [
+    "<builtin>.super"
+  ],
+  "errbot.botplugin.BotPlugin.deactivate": [
+    "<builtin>.super"
+  ],
+  "errbot.botplugin.BotPlugin.callback_connect": [],
+  "errbot.botplugin.BotPlugin.callback_message": [],
+  "errbot.botplugin.BotPlugin.callback_mention": [],
+  "errbot.botplugin.BotPlugin.callback_presence": [],
+  "errbot.botplugin.BotPlugin.callback_reaction": [],
+  "errbot.botplugin.BotPlugin.callback_stream": [],
+  "errbot.botplugin.BotPlugin.callback_botmessage": [],
+  "errbot.botplugin.BotPlugin.callback_room_joined": [],
+  "errbot.botplugin.BotPlugin.callback_room_left": [],
+  "errbot.botplugin.BotPlugin.callback_room_topic": [],
+  "errbot.botplugin.BotPlugin.warn_admins": [],
+  "errbot.botplugin.BotPlugin.send": [
+    "<builtin>.isinstance",
+    "<builtin>.ValueError"
+  ],
+  "errbot.botplugin.BotPlugin.send_card": [
+    "<builtin>.ValueError",
+    "errbot.backends.base.Card.__init__"
+  ],
+  "errbot.botplugin.BotPlugin.change_presence": [],
+  "errbot.botplugin.BotPlugin.send_templated": [],
+  "errbot.botplugin.BotPlugin.build_identifier": [],
+  "errbot.botplugin.BotPlugin.send_stream_request": [],
+  "errbot.botplugin.BotPlugin.rooms": [],
+  "errbot.botplugin.BotPlugin.query_room": [],
+  "errbot.botplugin.BotPlugin.start_poller": [
+    "<builtin>.super"
+  ],
+  "errbot.botplugin.BotPlugin.stop_poller": [
+    "<builtin>.super"
+  ],
+  "errbot.botplugin.ArgParserBase.parse_args": [
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.botplugin.SeparatorArgParser.__init__": [],
+  "errbot.botplugin.SeparatorArgParser.parse_args": [],
+  "errbot.botplugin.ShlexArgParser.parse_args": [
+    "shlex.split"
+  ],
+  "errbot.storage": [
+    "logging.getLogger"
+  ],
+  "errbot.storage.StoreMixin.__init__": [],
+  "errbot.storage.StoreMixin.is_open_storage": [
+    "<builtin>.hasattr"
+  ],
+  "errbot.storage.StoreMixin.__getitem__": [],
+  "errbot.storage.StoreMixin": [
+    "contextlib.contextmanager"
+  ],
+  "contextlib.contextmanager": [],
+  "errbot.storage.StoreMixin.mutable": [],
+  "errbot.storage.StoreMixin.__setitem__": [],
+  "errbot.storage.StoreMixin.__delitem__": [],
+  "errbot.storage.StoreMixin.keys": [],
+  "errbot.storage.StoreMixin.__len__": [],
+  "errbot.storage.StoreMixin.__iter__": [],
+  "errbot.storage.StoreMixin.__contains__": [],
+  "errbot.storage.StoreMixin.__enter__": [],
+  "errbot.storage.StoreMixin.__exit__": [
+    "errbot.storage.StoreMixin.close_storage"
+  ],
+  "tools.plugin-gen": [
+    "logging.getLogger.setLevel",
+    "<builtin>.open",
+    "tools.plugin-gen.get_auth",
+    "<builtin>.eval",
+    "logging.getLogger",
+    "tools.plugin-gen.main",
+    "logging.basicConfig",
+    "logging.getLogger.info"
+  ],
+  "logging.basicConfig": [],
+  "logging.getLogger.setLevel": [],
+  "<builtin>.open": [],
+  "<builtin>.eval": [],
+  "tools.plugin-gen.get_auth": [
+    "os.getenv",
+    "os.getenv.strip",
+    "pathlib.Path.is_file",
+    "<builtin>.open",
+    "requests.auth.HTTPBasicAuth",
+    "pathlib.Path",
+    "logging.getLogger.fatal",
+    "sys.exit",
+    "os.getenv.strip.split"
+  ],
+  "pathlib.Path": [],
+  "os.getenv": [],
+  "pathlib.Path.is_file": [],
+  "logging.getLogger.fatal": [],
+  "sys.exit": [],
+  "os.getenv.strip": [],
+  "os.getenv.strip.split": [],
+  "requests.auth.HTTPBasicAuth": [],
+  "tools.plugin-gen.add_blacklisted": [
+    "<builtin>.open"
+  ],
+  "tools.plugin-gen.save_plugins": [
+    "<builtin>.open",
+    "json.dump"
+  ],
+  "json.dump": [],
+  "tools.plugin-gen.get_avatar_url": [
+    "<builtin>.open",
+    "requests.get",
+    "tools.plugin-gen.rate_limit",
+    "requests.get.json",
+    "<builtin>.repr"
+  ],
+  "requests.get": [],
+  "requests.get.json": [],
+  "<builtin>.repr": [],
+  "tools.plugin-gen.rate_limit": [
+    "logging.getLogger.info",
+    "datetime.datetime.fromtimestamp",
+    "time.sleep",
+    "datetime.datetime.now",
+    "<builtin>.int",
+    "datetime.datetime.fromtimestamp.total_seconds"
+  ],
+  "<builtin>.int": [],
+  "datetime.datetime.fromtimestamp": [],
+  "datetime.datetime.now": [],
+  "datetime.datetime.fromtimestamp.total_seconds": [],
+  "tools.plugin-gen.parse_date": [
+    "datetime.datetime.strptime"
+  ],
+  "datetime.datetime.strptime": [],
+  "tools.plugin-gen.check_repo": [
+    "requests.get.json.get",
+    "tools.plugin-gen.add_blacklisted",
+    "requests.get",
+    "logging.getLogger.debug",
+    "tools.plugin-gen.find_plugins.items.get",
+    "logging.getLogger.error",
+    "tools.plugin-gen.parse_date",
+    "requests.get.json",
+    "configparser.ConfigParser.read_string",
+    "tools.plugin-gen.rate_limit",
+    "tools.plugin-gen.save_plugins",
+    "datetime.datetime.now",
+    "configparser.ConfigParser"
+  ],
+  "tools.plugin-gen.find_plugins.items.get": [],
+  "requests.get.json.get": [],
+  "logging.getLogger.error": [],
+  "configparser.ConfigParser": [],
+  "configparser.ConfigParser.read_string": [],
+  "tools.plugin-gen.find_plugins": [
+    "requests.get.json.get",
+    "requests.get",
+    "logging.getLogger.debug",
+    "logging.getLogger.error",
+    "tools.plugin-gen.rate_limit",
+    "requests.get.json",
+    "time.sleep",
+    "tools.plugin-gen.check_repo",
+    "sys.exit"
+  ],
+  "tools.plugin-gen.main": [
+    "requests.get.json.get",
+    "tools.plugin-gen.find_plugins",
+    "<builtin>.open",
+    "requests.get",
+    "logging.getLogger.error",
+    "tools.plugin-gen.rate_limit",
+    "requests.get.json",
+    "time.sleep",
+    "tools.plugin-gen.check_repo",
+    "sys.exit"
+  ],
+  "tools": [],
+  "tools.gen_home": [
+    "<builtin>.open",
+    "json.load",
+    "<builtin>.sorted",
+    "<builtin>.len",
+    "jinja2.Template.render",
+    "jinja2.Template",
+    "json.load.items"
+  ],
+  "jinja2.Template": [],
+  "json.load": [],
+  "json.load.items": [],
+  "tools.gen_home.<lambda1>": [],
+  "<builtin>.sorted": [],
+  "jinja2.Template.render": [],
+  "errbot.backends.xmpp": [
+    "logging.getLogger.fatal",
+    "sys.exit",
+    "logging.getLogger.exception",
+    "logging.getLogger"
+  ],
+  "errbot.backends.xmpp.XMPPIdentifier.__init__": [
+    "<builtin>.Exception"
+  ],
+  "errbot.backends.xmpp.XMPPIdentifier.node": [],
+  "errbot.backends.xmpp.XMPPIdentifier.domain": [],
+  "errbot.backends.xmpp.XMPPIdentifier.resource": [],
+  "errbot.backends.xmpp.XMPPIdentifier.person": [],
+  "errbot.backends.xmpp.XMPPIdentifier.nick": [],
+  "errbot.backends.xmpp.XMPPIdentifier.fullname": [],
+  "errbot.backends.xmpp.XMPPIdentifier.email": [],
+  "errbot.backends.xmpp.XMPPIdentifier.client": [],
+  "errbot.backends.xmpp.XMPPIdentifier.__str__": [],
+  "errbot.backends.xmpp.XMPPIdentifier.__unicode__": [
+    "errbot.backends.xmpp.XMPPIdentifier.__str__",
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPIdentifier.__eq__": [
+    "logging.getLogger.debug",
+    "<builtin>.isinstance",
+    "<builtin>.type"
+  ],
+  "errbot.backends.xmpp.XMPPPerson.__eq__": [
+    "logging.getLogger.debug",
+    "<builtin>.isinstance",
+    "<builtin>.type"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.__init__": [
+    "errbot.backends.xmpp.split_identifier",
+    "<builtin>.super"
+  ],
+  "errbot.backends.xmpp.split_identifier": [],
+  "errbot.backends.xmpp.XMPPRoom.join": [
+    "errbot.backends.xmpp.XMPPConnection.add_event_handler",
+    "errbot.backends.xmpp.XMPPRoom.configure",
+    "errbot.core.ErrBot.callback_room_joined",
+    "logging.getLogger.info",
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPConnection.add_event_handler": [
+    "slixmpp.ClientXMPP.add_event_handler"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.configure": [
+    "logging.getLogger.debug",
+    "time.sleep",
+    "<builtin>.str"
+  ],
+  "errbot.core.ErrBot.callback_room_joined": [
+    "errbot.core.ErrBot._dispatch_to_plugins"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.leave": [
+    "errbot.backends.xmpp.XMPPConnection.del_event_handler",
+    "logging.getLogger.debug",
+    "errbot.core.ErrBot.callback_room_left",
+    "logging.getLogger.info",
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPConnection.del_event_handler": [
+    "slixmpp.ClientXMPP.del_event_handler"
+  ],
+  "errbot.core.ErrBot.callback_room_left": [
+    "errbot.core.ErrBot._dispatch_to_plugins"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.create": [
+    "errbot.backends.xmpp.XMPPRoom.join",
+    "<builtin>.str",
+    "logging.warning"
+  ],
+  "logging.warning": [],
+  "errbot.backends.xmpp.XMPPRoom.destroy": [
+    "logging.getLogger.info",
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.exists": [
+    "logging.warning"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.joined": [
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.topic": [
+    "<builtin>.str",
+    "<builtin>.NotImplementedError"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.occupants": [
+    "errbot.backends.xmpp.XMPPRoomOccupant.__init__",
+    "errbot.backends.xmpp.split_identifier",
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPRoomOccupant.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.xmpp.XMPPRoom.invite": [
+    "logging.getLogger.info",
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPRoomOccupant.person": [
+    "<builtin>.str"
+  ],
+  "errbot.backends.xmpp.XMPPRoomOccupant.real_jid": [
+    "slixmpp.JID"
+  ],
+  "slixmpp.JID": [],
+  "errbot.backends.xmpp.XMPPRoomOccupant.room": [],
+  "errbot.backends.xmpp.XMPPConnection.__init__": [
+    "slixmpp.ClientXMPP.add_event_handler",
+    "slixmpp.ClientXMPP.register_plugin",
+    "slixmpp.ClientXMPP"
+  ],
+  "slixmpp.ClientXMPP": [],
+  "slixmpp.ClientXMPP.register_plugin": [],
+  "slixmpp.ClientXMPP.add_event_handler": [],
+  "errbot.backends.xmpp.XMPPConnection.session_start": [
+    "slixmpp.ClientXMPP.send_presence",
+    "slixmpp.ClientXMPP.get_roster"
+  ],
+  "slixmpp.ClientXMPP.send_presence": [],
+  "slixmpp.ClientXMPP.get_roster": [],
+  "errbot.backends.xmpp.XMPPConnection.connect": [
+    "slixmpp.ClientXMPP.connect"
+  ],
+  "slixmpp.ClientXMPP.connect": [],
+  "errbot.backends.xmpp.XMPPConnection.disconnect": [
+    "slixmpp.ClientXMPP.disconnect"
+  ],
+  "slixmpp.ClientXMPP.disconnect": [],
+  "errbot.backends.xmpp.XMPPConnection.serve_forever": [
+    "slixmpp.ClientXMPP.process"
+  ],
+  "slixmpp.ClientXMPP.process": [],
+  "slixmpp.ClientXMPP.del_event_handler": [],
+  "errbot.backends.xmpp.XMPPBackend.__init__": [
+    "errbot.backends.xmpp.XMPPBackend.create_connection",
+    "errbot.rendering.text",
+    "errbot.backends.xmpp.XMPPConnection.add_event_handler",
+    "errbot.backends.xmpp.XMPPBackend._build_person",
+    "errbot.rendering.xhtml",
+    "<builtin>.super"
+  ],
+  "errbot.backends.xmpp.XMPPBackend._build_person": [
+    "errbot.backends.xmpp.split_identifier",
+    "errbot.backends.xmpp.XMPPIdentifier.__init__"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.create_connection": [
+    "errbot.backends.xmpp.XMPPConnection.__init__"
+  ],
+  "errbot.rendering.xhtml": [
+    "markdown.extensions.extra.ExtraExtension",
+    "markdown.Markdown"
+  ],
+  "errbot.rendering.text": [
+    "markdown.extensions.Extension.__init__",
+    "markdown.extensions.extra.ExtraExtension",
+    "markdown.Markdown"
+  ],
+  "errbot.backends.xmpp.XMPPBackend._build_room_occupant": [
+    "errbot.backends.xmpp.XMPPRoomOccupant.__init__",
+    "errbot.backends.xmpp.XMPPBackend.query_room",
+    "errbot.backends.xmpp.split_identifier"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.query_room": [
+    "errbot.backends.xmpp.XMPPRoom.__init__"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.incoming_message": [
+    "errbot.backends.xmpp.XMPPBackend._build_room_occupant",
+    "logging.getLogger.warning",
+    "logging.getLogger.debug",
+    "errbot.backends.xmpp.XMPPBackend._build_person",
+    "datetime.datetime.utcnow.strftime",
+    "datetime.datetime.utcnow",
+    "errbot.backends.base.Message.__init__",
+    "<builtin>.bool",
+    "errbot.core.ErrBot.callback_message"
+  ],
+  "datetime.datetime.utcnow": [],
+  "datetime.datetime.utcnow.strftime": [],
+  "<builtin>.bool": [],
+  "errbot.core.ErrBot.callback_message": [
+    "errbot.core.ErrBot.process_message",
+    "errbot.core.ErrBot._dispatch_to_plugins"
+  ],
+  "errbot.backends.xmpp.XMPPBackend._idd_from_event": [
+    "errbot.backends.xmpp.XMPPBackend._build_person",
+    "errbot.backends.xmpp.XMPPBackend._build_room_occupant"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.contact_online": [
+    "errbot.core.ErrBot.callback_presence",
+    "logging.getLogger.debug",
+    "errbot.backends.base.Presence.__init__",
+    "errbot.backends.xmpp.XMPPBackend._idd_from_event"
+  ],
+  "errbot.core.ErrBot.callback_presence": [
+    "errbot.core.ErrBot._dispatch_to_plugins"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.contact_offline": [
+    "errbot.core.ErrBot.callback_presence",
+    "logging.getLogger.debug",
+    "errbot.backends.base.Presence.__init__",
+    "errbot.backends.xmpp.XMPPBackend._idd_from_event"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.user_joined_chat": [
+    "errbot.core.ErrBot.callback_presence",
+    "logging.getLogger.debug",
+    "errbot.backends.base.Presence.__init__",
+    "errbot.backends.xmpp.XMPPBackend._idd_from_event"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.user_left_chat": [
+    "errbot.core.ErrBot.callback_presence",
+    "logging.getLogger.debug",
+    "errbot.backends.base.Presence.__init__",
+    "errbot.backends.xmpp.XMPPBackend._idd_from_event"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.chat_topic": [
+    "errbot.backends.xmpp.XMPPRoom.__init__",
+    "errbot.core.ErrBot.callback_room_topic",
+    "logging.getLogger.debug"
+  ],
+  "errbot.core.ErrBot.callback_room_topic": [
+    "errbot.core.ErrBot._dispatch_to_plugins"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.user_changed_status": [
+    "errbot.core.ErrBot.callback_presence",
+    "logging.getLogger.debug",
+    "errbot.backends.base.Presence.__init__",
+    "errbot.backends.xmpp.XMPPBackend._idd_from_event"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.connected": [
+    "errbot.core.ErrBot.connect_callback"
+  ],
+  "errbot.core.ErrBot.connect_callback": [
+    "errbot.core.ErrBot.signal_connect_to_all_plugins",
+    "errbot.core.ErrBot.warn_admins",
+    "logging.getLogger.info"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.disconnected": [
+    "errbot.core.ErrBot.disconnect_callback"
+  ],
+  "errbot.core.ErrBot.disconnect_callback": [
+    "logging.getLogger.info"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.send_message": [
+    "slixmpp.ClientXMPP.send_message",
+    "markdown.Markdown.convert",
+    "logging.getLogger.debug",
+    "<builtin>.super",
+    "<builtin>.str"
+  ],
+  "markdown.Markdown.convert": [],
+  "slixmpp.ClientXMPP.send_message": [],
+  "errbot.backends.xmpp.XMPPBackend.change_presence": [
+    "logging.getLogger.debug",
+    "slixmpp.ClientXMPP.send_presence"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.serve_forever": [
+    "errbot.core.ErrBot.disconnect_callback",
+    "errbot.core.ErrBot.shutdown",
+    "logging.getLogger.debug",
+    "errbot.backends.xmpp.XMPPConnection.connect",
+    "errbot.backends.xmpp.XMPPConnection.serve_forever"
+  ],
+  "errbot.core.ErrBot.shutdown": [
+    "errbot.storage.StoreMixin.close_storage"
+  ],
+  "functools.lru_cache": [],
+  "errbot.backends.xmpp.XMPPBackend": [
+    "functools.lru_cache"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.build_identifier": [
+    "errbot.backends.xmpp.XMPPBackend.query_room",
+    "logging.getLogger.debug",
+    "errbot.backends.xmpp.XMPPBackend._build_person",
+    "errbot.backends.xmpp.XMPPBackend._build_room_occupant"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.build_reply": [
+    "errbot.backends.xmpp.XMPPRoom.__init__",
+    "errbot.backends.xmpp.XMPPIdentifier.__init__",
+    "errbot.backends.base.Backend.build_message",
+    "<builtin>.hasattr"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.mode": [],
+  "errbot.backends.xmpp.XMPPBackend.rooms": [
+    "errbot.backends.xmpp.XMPPRoom.__init__"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.prefix_groupchat_reply": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.xmpp.XMPPBackend.__hash__": [],
+  "errbot.core": [
+    "logging.getLogger"
+  ],
+  "errbot.core.ErrBot": [
+    "datetime.datetime.now"
+  ],
+  "errbot.core.ErrBot.__init__": [
+    "atexit.register",
+    "<builtin>.tuple",
+    "logging.getLogger.debug",
+    "threading.RLock",
+    "errbot.flow.FlowExecutor.__init__",
+    "errbot.core.ErrBot.set_message_size_limit",
+    "multiprocessing.pool.ThreadPool",
+    "<builtin>.super"
+  ],
+  "<builtin>.tuple": [],
+  "errbot.core.ErrBot.set_message_size_limit": [
+    "<builtin>.int",
+    "logging.getLogger.warning"
+  ],
+  "errbot.core.ErrBot.message_size_limit": [],
+  "errbot.core.ErrBot.attach_repo_manager": [],
+  "errbot.core.ErrBot.attach_plugin_manager": [],
+  "errbot.core.ErrBot.attach_storage_plugin": [],
+  "errbot.core.ErrBot.initialize_backend_storage": [
+    "errbot.storage.StoreMixin.open_storage",
+    "logging.getLogger.debug"
+  ],
+  "errbot.core.ErrBot.all_commands": [
+    "<builtin>.dict"
+  ],
+  "errbot.core.ErrBot._dispatch_to_plugins": [
+    "logging.getLogger.debug",
+    "logging.getLogger.exception",
+    "<builtin>.getattr"
+  ],
+  "errbot.core.ErrBot.prefix_groupchat_reply": [],
+  "errbot.core.ErrBot.split_and_send_message": [
+    "errbot.utils.split_string_after",
+    "errbot.backends.base.Message.clone",
+    "errbot.core.ErrBot.send_message"
+  ],
+  "errbot.core.ErrBot.send_templated": [
+    "errbot.core.ErrBot.process_template",
+    "errbot.core.ErrBot.send"
+  ],
+  "errbot.core.ErrBot.process_template": [
+    "jinja2.Environment.get_template.render",
+    "<builtin>.isinstance",
+    "jinja2.Environment.get_template",
+    "errbot.templating.tenv",
+    "<builtin>.str"
+  ],
+  "errbot.utils.split_string_after": [
+    "<builtin>.range",
+    "<builtin>.max",
+    "<builtin>.len"
+  ],
+  "errbot.core.ErrBot.send_message": [
+    "logging.getLogger.exception"
+  ],
+  "errbot.core.ErrBot.send_card": [
+    "errbot.core.ErrBot.send_templated"
+  ],
+  "errbot.core.ErrBot.send_simple_reply": [
+    "<builtin>.isinstance",
+    "errbot.backends.base.Backend.build_reply",
+    "errbot.core.ErrBot.prefix_groupchat_reply",
+    "errbot.core.ErrBot.split_and_send_message"
+  ],
+  "errbot.core.ErrBot.process_message": [
+    "<builtin>.dict",
+    "<builtin>.list",
+    "<builtin>.len",
+    "logging.getLogger.debug",
+    "<builtin>.hasattr",
+    "<builtin>.getattr",
+    "errbot.core.ErrBot._process_command",
+    "logging.getLogger.exception",
+    "<builtin>.Exception",
+    "<builtin>.int",
+    "errbot.core.ErrBot.send_simple_reply",
+    "errbot.backends.base.Backend.is_from_self"
+  ],
+  "<builtin>.list": [],
+  "errbot.core.ErrBot._process_command": [
+    "atexit.register",
+    "multiprocessing.pool.ThreadPool.apply_async.wait",
+    "multiprocessing.pool.ThreadPool.apply_async",
+    "multiprocessing.pool.ThreadPool.close",
+    "<builtin>.callable",
+    "<builtin>.hasattr",
+    "errbot.core.ErrBot.send_simple_reply",
+    "multiprocessing.pool.ThreadPool.join",
+    "errbot.core.ErrBot._execute_and_send",
+    "errbot.core.ErrBot._process_command_filters",
+    "multiprocessing.pool.ThreadPool",
+    "logging.getLogger.info"
+  ],
+  "errbot.core.ErrBot._process_command_filters": [
+    "logging.getLogger.exception"
+  ],
+  "multiprocessing.pool.ThreadPool.close": [],
+  "multiprocessing.pool.ThreadPool.join": [],
+  "multiprocessing.pool.ThreadPool.apply_async.wait": [],
+  "errbot.core.ErrBot._execute_and_send": [
+    "inspect.isgeneratorfunction",
+    "errbot.flow.FlowExecutor.check_inflight_flow_triggered",
+    "errbot.core.ErrBot.process_template",
+    "logging.getLogger.debug",
+    "errbot.flow.FlowExecutor.trigger",
+    "traceback.format_exc",
+    "logging.getLogger.exception",
+    "errbot.core.ErrBot.send_simple_reply"
+  ],
+  "errbot.templating.tenv": [],
+  "jinja2.Environment.get_template": [],
+  "jinja2.Environment.get_template.render": [],
+  "traceback.format_exc": [],
+  "errbot.core.ErrBot.unknown_command": [
+    "difflib.get_close_matches",
+    "<builtin>.set",
+    "difflib.get_close_matches.extend"
+  ],
+  "difflib.get_close_matches": [],
+  "difflib.get_close_matches.extend": [],
+  "errbot.core.ErrBot.inject_commands_from": [
+    "logging.getLogger.debug",
+    "<builtin>.getattr",
+    "inspect.getmembers",
+    "errbot.core.ErrBot.warn_admins",
+    "<builtin>.type"
+  ],
+  "errbot.core.ErrBot.warn_admins": [
+    "errbot.core.ErrBot._admins_to_notify",
+    "errbot.core.ErrBot.send",
+    "logging.getLogger.warning",
+    "errbot.backends.base.Backend.build_identifier"
+  ],
+  "errbot.core.ErrBot.inject_flows_from": [
+    "logging.getLogger.debug",
+    "errbot.flow.FlowExecutor.add_flow",
+    "<builtin>.getattr",
+    "errbot.flow.FlowRoot.__init__",
+    "inspect.getmembers",
+    "logging.getLogger.exception"
+  ],
+  "errbot.core.ErrBot.inject_command_filters_from": [
+    "<builtin>.getattr",
+    "logging.getLogger.debug",
+    "inspect.getmembers"
+  ],
+  "errbot.core.ErrBot.remove_flows_from": [
+    "<builtin>.getattr",
+    "logging.getLogger.debug",
+    "inspect.getmembers"
+  ],
+  "errbot.core.ErrBot.remove_commands_from": [
+    "<builtin>.getattr",
+    "inspect.getmembers"
+  ],
+  "errbot.core.ErrBot.remove_command_filters_from": [
+    "<builtin>.getattr",
+    "logging.getLogger.debug",
+    "inspect.getmembers"
+  ],
+  "errbot.core.ErrBot._admins_to_notify": [],
+  "errbot.core.ErrBot.callback_mention": [
+    "logging.getLogger.debug",
+    "<builtin>.str",
+    "errbot.core.ErrBot._dispatch_to_plugins"
+  ],
+  "errbot.core.ErrBot.callback_stream": [
+    "errbot.streaming.Tee.start",
+    "errbot.streaming.Tee.__init__",
+    "logging.getLogger.info"
+  ],
+  "errbot.streaming.Tee.__init__": [],
+  "errbot.streaming.Tee.start": [
+    "threading.Thread",
+    "threading.Thread.start"
+  ],
+  "errbot.core.ErrBot.callback_reaction": [
+    "errbot.core.ErrBot._dispatch_to_plugins"
+  ],
+  "errbot.core.ErrBot.signal_connect_to_all_plugins": [
+    "logging.getLogger.debug",
+    "<builtin>.hasattr",
+    "logging.getLogger.exception"
+  ],
+  "errbot.core.ErrBot.get_doc": [
+    "re.compile",
+    "re.sub"
+  ],
+  "errbot.core.ErrBot.get_plugin_class_from_method": [
+    "inspect.getmro",
+    "<builtin>.type"
+  ],
+  "inspect.getmro": [],
+  "errbot.core.ErrBot.get_command_classes": [
+    "errbot.core.ErrBot.get_plugin_class_from_method"
+  ],
+  "errbot.templating": [
+    "jinja2.FileSystemLoader",
+    "logging.getLogger",
+    "pathlib.Path",
+    "errbot.templating.make_templates_path",
+    "<builtin>.str",
+    "jinja2.Environment"
+  ],
+  "errbot.templating.make_templates_path": [],
+  "jinja2.FileSystemLoader": [],
+  "jinja2.Environment": [],
+  "errbot.templating.add_plugin_templates_path": [
+    "os.path.abspath.append",
+    "logging.getLogger.debug",
+    "os.path.dirname.append",
+    "jinja2.FileSystemLoader",
+    "os.path.join.append",
+    "os.getcwd.append",
+    "tempfile.mkdtemp.append",
+    "errbot.templating.make_templates_path",
+    "<builtin>.str",
+    "jinja2.Environment"
+  ],
+  "os.path.abspath.append": [],
+  "os.path.dirname.append": [],
+  "os.path.join.append": [],
+  "os.getcwd.append": [],
+  "tempfile.mkdtemp.append": [],
+  "errbot.templating.remove_plugin_templates_path": [
+    "os.path.abspath.remove",
+    "jinja2.FileSystemLoader",
+    "tempfile.mkdtemp.remove",
+    "os.path.join.remove",
+    "os.getcwd.remove",
+    "os.path.dirname.remove",
+    "errbot.templating.make_templates_path",
+    "<builtin>.str",
+    "jinja2.Environment"
+  ],
+  "os.path.abspath.remove": [],
+  "tempfile.mkdtemp.remove": [],
+  "os.path.join.remove": [],
+  "os.getcwd.remove": [],
+  "os.path.dirname.remove": [],
+  "errbot.plugin_info": [],
+  "errbot.plugin_info.PluginInfo.load": [
+    "errbot.plugin_info.PluginInfo.load_file"
+  ],
+  "errbot.plugin_info.PluginInfo.load_file": [
+    "configparser.ConfigParser",
+    "configparser.ConfigParser.read_file",
+    "errbot.plugin_info.PluginInfo.parse"
+  ],
+  "configparser.ConfigParser.read_file": [],
+  "errbot.plugin_info.PluginInfo.parse": [
+    "configparser.ConfigParser.get.strip",
+    "<builtin>.tuple",
+    "configparser.ConfigParser.get",
+    "configparser.ConfigParser.get.lower",
+    "configparser.ConfigParser.get.split",
+    "configparser.Error",
+    "errbot.utils.version2tuple"
+  ],
+  "configparser.ConfigParser.get": [],
+  "configparser.ConfigParser.get.lower": [],
+  "errbot.utils.version2tuple": [
+    "<builtin>.tuple",
+    "<builtin>.len",
+    "configparser.ConfigParser.get.split",
+    "<builtin>.ValueError",
+    "<builtin>.int"
+  ],
+  "configparser.Error": [],
+  "configparser.ConfigParser.get.strip": [],
+  "configparser.ConfigParser.get.split": [],
+  "errbot.plugin_info.PluginInfo.load_plugin_classes": [
+    "importlib._bootstrap_external.spec_from_file_location.loader.exec_module",
+    "importlib._bootstrap.module_from_spec",
+    "importlib._bootstrap_external.spec_from_file_location",
+    "inspect.getmembers"
+  ],
+  "importlib._bootstrap_external.spec_from_file_location": [],
+  "importlib._bootstrap.module_from_spec": [],
+  "importlib._bootstrap_external.spec_from_file_location.loader.exec_module": [],
+  "errbot.plugin_info.PluginInfo.load_plugin_classes.is_plugin": [
+    "<builtin>.issubclass",
+    "inspect.isclass"
+  ],
+  "inspect.isclass": [],
+  "<builtin>.issubclass": [],
+  "errbot.utils": [
+    "platform.system",
+    "re.compile",
+    "logging.getLogger"
+  ],
+  "platform.system": [],
+  "errbot.utils.deprecated.__init__": [],
+  "errbot.utils.deprecated.__call__": [
+    "functools.wraps"
+  ],
+  "errbot.utils.deprecated.__call__.wrapper": [
+    "inspect.currentframe",
+    "<builtin>.len",
+    "logging.warning",
+    "inspect.getframeinfo",
+    "<builtin>.type"
+  ],
+  "inspect.currentframe": [],
+  "inspect.getframeinfo": [],
+  "errbot.utils.format_timedelta": [
+    "<builtin>.divmod"
+  ],
+  "<builtin>.divmod": [],
+  "errbot.utils.rate_limited": [],
+  "errbot.utils.rate_limited.decorate": [],
+  "errbot.utils.rate_limited.decorate.rate_limited_function": [
+    "time.time",
+    "logging.getLogger.debug",
+    "time.sleep",
+    "errbot.backends.irc.IRCConnection.send_public_message",
+    "errbot.backends.irc.IRCConnection.send_private_message"
+  ],
+  "time.time": [],
+  "errbot.backends.irc.IRCConnection.send_private_message": [
+    "irc.bot.SingleServerIRCBot.connection.privmsg"
+  ],
+  "errbot.backends.irc.IRCConnection.send_public_message": [
+    "irc.bot.SingleServerIRCBot.connection.privmsg"
+  ],
+  "<builtin>.max": [],
+  "<builtin>.range": [],
+  "errbot.utils.find_roots": [
+    "fnmatch.filter",
+    "os.path.relpath.split",
+    "<builtin>.list",
+    "os.path.dirname",
+    "os.path.join",
+    "os.path.relpath",
+    "logging.getLogger.debug",
+    "collections.OrderedDict.fromkeys",
+    "os.path.realpath",
+    "os.path.relpath.split.startswith",
+    "os.walk"
+  ],
+  "os.walk": [],
+  "fnmatch.filter": [],
+  "os.path.join": [],
+  "os.path.dirname": [],
+  "os.path.realpath": [],
+  "os.path.relpath": [],
+  "os.path.relpath.split": [],
+  "os.path.relpath.split.startswith": [],
+  "collections.OrderedDict.fromkeys": [],
+  "errbot.utils.collect_roots": [
+    "<builtin>.list",
+    "errbot.utils.find_roots",
+    "<builtin>.isinstance",
+    "collections.OrderedDict.fromkeys",
+    "errbot.utils.collect_roots"
+  ],
+  "errbot.utils.entry_point_plugins": [
+    "importlib.util.find_spec",
+    "importlib_metadata.entry_points.get",
+    "importlib.metadata.entry_points.get",
+    "importlib.metadata.entry_points",
+    "importlib_metadata.entry_points"
+  ],
+  "importlib.metadata.entry_points": [],
+  "importlib_metadata.entry_points": [],
+  "importlib_metadata.entry_points.get": [],
+  "importlib.metadata.entry_points.get": [],
+  "importlib.util.find_spec": [],
+  "errbot.utils.global_restart": [
+    "os.execl"
+  ],
+  "os.execl": [],
+  "errbot.utils.git_clone": [
+    "dulwich.porcelain.clone.get_config.set",
+    "dulwich.porcelain.clone.get_config.write_to_path",
+    "dulwich.porcelain.clone.get_config",
+    "dulwich.porcelain.clone",
+    "os.path.exists",
+    "os.makedirs"
+  ],
+  "os.path.exists": [],
+  "os.makedirs": [],
+  "dulwich.porcelain.clone": [],
+  "dulwich.porcelain.clone.get_config": [],
+  "dulwich.porcelain.clone.get_config.set": [],
+  "dulwich.porcelain.clone.get_config.write_to_path": [],
+  "errbot.utils.git_pull": [
+    "dulwich.porcelain.pull"
+  ],
+  "dulwich.porcelain.pull": [],
+  "errbot.utils.git_tag_list": [
+    "dulwich.porcelain.tag_list"
+  ],
+  "dulwich.porcelain.tag_list": [],
+  "errbot.streaming": [
+    "logging.getLogger"
+  ],
+  "errbot.streaming.repeatfunc": [
+    "itertools.starmap",
+    "itertools.repeat"
+  ],
+  "itertools.repeat": [],
+  "itertools.starmap": [],
+  "threading.Thread": [],
+  "threading.Thread.start": [],
+  "errbot.streaming.Tee.run": [
+    "errbot.streaming.repeatfunc",
+    "threading.Thread",
+    "<builtin>.range",
+    "<builtin>.len",
+    "io.open",
+    "logging.getLogger.debug"
+  ],
+  "io.open": [],
+  "errbot.streaming.Tee.run.streamer": [
+    "logging.warning"
+  ],
+  "errbot.rendering.xhtmlim": [
+    "re.compile"
+  ],
+  "errbot.rendering.xhtmlim._replace_charref": [
+    "<builtin>.range",
+    "<builtin>.int",
+    "<builtin>.len",
+    "<builtin>.chr"
+  ],
+  "<builtin>.chr": [],
+  "errbot.rendering.xhtmlim.unescape": [
+    "re.compile.sub"
+  ],
+  "errbot.rendering": [
+    "re.compile",
+    "re.escape"
+  ],
+  "errbot.rendering.ansi": [
+    "markdown.extensions.Extension.__init__",
+    "markdown.extensions.extra.ExtraExtension",
+    "markdown.Markdown"
+  ],
+  "markdown.extensions.extra.ExtraExtension": [],
+  "markdown.extensions.Extension.__init__": [],
+  "markdown.Markdown": [],
+  "errbot.rendering.imtext": [
+    "markdown.extensions.Extension.__init__",
+    "markdown.extensions.extra.ExtraExtension",
+    "markdown.Markdown"
+  ],
+  "errbot.rendering.Mde2mdConverter.convert": [
+    "re.compile.search",
+    "re.compile.search.span"
+  ],
+  "re.compile.search": [],
+  "re.compile.search.span": [],
+  "errbot.rendering.md": [],
+  "errbot.rendering.md_escape": [
+    "re.compile.sub"
+  ],
+  "errbot.rendering.md_escape.<lambda1>": [],
+  "errbot.rendering.ansiext": [
+    "errbot.rendering.ansiext.enable_format",
+    "collections.namedtuple",
+    "errbot.rendering.ansiext.NSC.__init__",
+    "logging.getLogger"
+  ],
+  "errbot.rendering.ansiext.NSC.__init__": [],
+  "errbot.rendering.ansiext.NSC.__str__": [],
+  "collections.namedtuple": [],
+  "errbot.rendering.ansiext.Table.__init__": [],
+  "errbot.rendering.ansiext.Table.next_row": [],
+  "errbot.rendering.ansiext.Table.add_col": [],
+  "errbot.rendering.ansiext.Table.add_header": [],
+  "errbot.rendering.ansiext.Table.begin_headers": [],
+  "errbot.rendering.ansiext.Table.end_headers": [],
+  "errbot.rendering.ansiext.Table.write": [
+    "<builtin>.str",
+    "<builtin>.isinstance",
+    "<builtin>.len"
+  ],
+  "errbot.rendering.ansiext.Table.__str__": [
+    "<builtin>.max",
+    "<builtin>.enumerate",
+    "io.StringIO",
+    "<builtin>.range",
+    "<builtin>.len",
+    "itertools.chain",
+    "io.StringIO.getvalue",
+    "io.StringIO.write",
+    "<builtin>.str"
+  ],
+  "itertools.chain": [],
+  "<builtin>.enumerate": [],
+  "io.StringIO": [],
+  "io.StringIO.write": [],
+  "io.StringIO.getvalue": [],
+  "errbot.rendering.ansiext.BorderlessTable.__init__": [],
+  "errbot.rendering.ansiext.BorderlessTable.next_row": [],
+  "errbot.rendering.ansiext.BorderlessTable.add_col": [],
+  "errbot.rendering.ansiext.BorderlessTable.add_header": [],
+  "errbot.rendering.ansiext.BorderlessTable.begin_headers": [],
+  "errbot.rendering.ansiext.BorderlessTable.end_headers": [],
+  "errbot.rendering.ansiext.BorderlessTable.write": [
+    "<builtin>.str",
+    "<builtin>.isinstance",
+    "<builtin>.len"
+  ],
+  "errbot.rendering.ansiext.BorderlessTable.__str__": [
+    "<builtin>.max",
+    "<builtin>.enumerate",
+    "io.StringIO",
+    "<builtin>.range",
+    "<builtin>.len",
+    "itertools.chain",
+    "io.StringIO.getvalue",
+    "io.StringIO.write",
+    "<builtin>.str"
+  ],
+  "errbot.rendering.ansiext.recurse": [
+    "<builtin>.dict",
+    "logging.getLogger.warning",
+    "errbot.rendering.ansiext.recurse",
+    "<builtin>.getattr",
+    "errbot.rendering.ansiext.BorderlessTable.__init__",
+    "errbot.rendering.ansiext.translate.write",
+    "<builtin>.str",
+    "errbot.rendering.ansiext.Table.__init__"
+  ],
+  "errbot.rendering.ansiext.translate.write": [
+    "io.StringIO.write",
+    "<builtin>.str"
+  ],
+  "errbot.rendering.ansiext.translate": [
+    "io.StringIO",
+    "errbot.rendering.ansiext.recurse",
+    "io.StringIO.getvalue.rstrip",
+    "io.StringIO.getvalue",
+    "<builtin>.str"
+  ],
+  "io.StringIO.getvalue.rstrip": [],
+  "errbot.rendering.ansiext.enable_format": [
+    "functools.partial"
+  ],
+  "functools.partial": [],
+  "errbot.rendering.ansiext.AnsiPostprocessor.run": [
+    "html.unescape"
+  ],
+  "html.unescape": [],
+  "errbot.rendering.ansiext.AnsiPreprocessor.run": [
+    "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.start",
+    "errbot.rendering.ansiext.AnsiPreprocessor._escape",
+    "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.group",
+    "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search",
+    "markdown.extensions.fenced_code.FencedBlockPreprocessor.md.htmlStash.store",
+    "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.end"
+  ],
+  "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search": [],
+  "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.group": [],
+  "errbot.rendering.ansiext.AnsiPreprocessor._escape": [
+    "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.group.replace"
+  ],
+  "markdown.extensions.fenced_code.FencedBlockPreprocessor.md.htmlStash.store": [],
+  "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.start": [],
+  "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.end": [],
+  "markdown.extensions.fenced_code.FencedBlockPreprocessor.FENCED_BLOCK_RE.search.group.replace": [],
+  "errbot.rendering.ansiext.AnsiExtension.extendMarkdown": [
+    "markdown.extensions.fenced_code.FencedBlockPreprocessor.__init__",
+    "markdown.postprocessors.Postprocessor.__init__",
+    "markdown.inlinepatterns.SubstituteTagPattern"
+  ],
+  "markdown.postprocessors.Postprocessor.__init__": [],
+  "markdown.extensions.fenced_code.FencedBlockPreprocessor.__init__": [],
+  "markdown.inlinepatterns.SubstituteTagPattern": [],
+  "errbot.backends.test": [
+    "pytest.fixture",
+    "logging.getLogger"
+  ],
+  "errbot.backends.test.TestPerson.__init__": [],
+  "errbot.backends.test.TestPerson.person": [],
+  "errbot.backends.test.TestPerson.client": [],
+  "errbot.backends.test.TestPerson.nick": [],
+  "errbot.backends.test.TestPerson.fullname": [],
+  "errbot.backends.test.TestPerson.email": [],
+  "errbot.backends.test.TestPerson.__unicode__": [],
+  "errbot.backends.test.TestPerson.__eq__": [
+    "<builtin>.isinstance"
+  ],
+  "errbot.backends.test.TestOccupant.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.test.TestOccupant.room": [],
+  "errbot.backends.test.TestOccupant.__unicode__": [
+    "<builtin>.str"
+  ],
+  "errbot.backends.test.TestOccupant.__eq__": [],
+  "errbot.backends.test.TestRoom.invite": [],
+  "errbot.backends.test.TestRoom.__init__": [
+    "errbot.backends.test.TestOccupant.__init__"
+  ],
+  "errbot.backends.test.TestRoom.occupants": [],
+  "errbot.backends.test.TestRoom.find_croom": [],
+  "errbot.backends.test.TestRoom.joined": [
+    "errbot.backends.test.TestRoom.find_croom"
+  ],
+  "errbot.backends.test.TestRoom.join": [
+    "errbot.backends.test.TestRoom.create",
+    "logging.getLogger.debug",
+    "errbot.backends.test.TestRoom.find_croom",
+    "logging.warning",
+    "errbot.core.ErrBot.callback_room_joined",
+    "logging.getLogger.info"
+  ],
+  "errbot.backends.test.TestRoom.create": [
+    "logging.getLogger.info",
+    "logging.warning"
+  ],
+  "errbot.backends.test.TestRoom.leave": [
+    "errbot.core.ErrBot.callback_room_left",
+    "errbot.backends.test.TestRoom.find_croom",
+    "logging.getLogger.info",
+    "logging.warning"
+  ],
+  "errbot.backends.test.TestRoom.exists": [
+    "errbot.backends.test.TestRoom.find_croom"
+  ],
+  "errbot.backends.test.TestRoom.destroy": [
+    "logging.getLogger.info",
+    "logging.warning"
+  ],
+  "errbot.backends.test.TestRoom.topic": [
+    "errbot.backends.test.TestRoom.find_croom",
+    "logging.getLogger.info",
+    "errbot.core.ErrBot.callback_room_topic"
+  ],
+  "errbot.backends.test.TestRoom.__unicode__": [],
+  "errbot.backends.test.TestRoom.__str__": [],
+  "errbot.backends.test.TestRoom.__eq__": [],
+  "errbot.backends.test.TestRoomAcl.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.test.TestRoomAcl.aclattr": [],
+  "errbot.backends.test.TestRoomAcl.__str__": [],
+  "errbot.backends.test.TestBackend.change_presence": [],
+  "errbot.backends.test.TestBackend.__init__": [
+    "queue.Queue",
+    "errbot.backends.test.TestBackend.reset_rooms",
+    "errbot.backends.test.TestBackend.build_identifier",
+    "errbot.rendering.text",
+    "<builtin>.super"
+  ],
+  "errbot.backends.test.TestBackend.build_identifier": [
+    "errbot.backends.test.TestPerson.__init__"
+  ],
+  "queue.Queue": [],
+  "errbot.backends.test.TestBackend.reset_rooms": [],
+  "errbot.backends.test.TestBackend.send_message": [
+    "markdown.Markdown.convert",
+    "logging.getLogger.info",
+    "<builtin>.super",
+    "queue.Queue.put"
+  ],
+  "queue.Queue.put": [],
+  "errbot.backends.test.TestBackend.send_stream_request": [
+    "queue.Queue.put"
+  ],
+  "errbot.backends.test.TestBackend.serve_forever": [
+    "errbot.core.ErrBot.callback_mention",
+    "errbot.core.ErrBot.disconnect_callback",
+    "errbot.core.ErrBot.callback_presence",
+    "errbot.backends.test.TestBackend.build_identifier",
+    "logging.getLogger.debug",
+    "logging.getLogger.error",
+    "errbot.backends.base.Message.__init__",
+    "queue.Queue.get",
+    "errbot.backends.test.TestBackend.shutdown",
+    "errbot.core.ErrBot.callback_message",
+    "errbot.core.ErrBot.connect_callback",
+    "logging.getLogger.info"
+  ],
+  "queue.Queue.get": [],
+  "errbot.backends.test.TestBackend.shutdown": [
+    "errbot.storage.StoreMixin.close_storage",
+    "errbot.storage.StoreMixin.is_open_storage"
+  ],
+  "errbot.backends.test.TestBackend.connect": [],
+  "errbot.backends.test.TestBackend.build_reply": [
+    "errbot.backends.base.Backend.build_message"
+  ],
+  "errbot.backends.test.TestBackend.mode": [],
+  "errbot.backends.test.TestBackend.rooms": [],
+  "errbot.backends.test.TestBackend.query_room": [
+    "errbot.backends.test.TestRoom.__init__",
+    "<builtin>.str"
+  ],
+  "errbot.backends.test.TestBackend.prefix_groupchat_reply": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.test.TestBackend.pop_message": [
+    "queue.Queue.get"
+  ],
+  "errbot.backends.test.TestBackend.push_message": [
+    "queue.Queue.put"
+  ],
+  "errbot.backends.test.TestBackend.push_presence": [
+    "queue.Queue.put"
+  ],
+  "errbot.backends.test.TestBackend.zap_queues": [
+    "queue.Queue.empty",
+    "queue.Queue.get",
+    "logging.getLogger.error"
+  ],
+  "queue.Queue.empty": [],
+  "errbot.backends.test.TestBot.__init__": [
+    "errbot.backends.test.TestBot.setup"
+  ],
+  "errbot.backends.test.TestBot.setup": [
+    "tempfile.mkdtemp",
+    "logging.getLogger.setLevel",
+    "logging.FileHandler",
+    "importlib.import_module",
+    "logging.getLogger.debug",
+    "logging.getLogger",
+    "logging.getLogger.addHandler",
+    "<builtin>.setattr",
+    "logging.basicConfig",
+    "<builtin>.repr"
+  ],
+  "tempfile.mkdtemp": [],
+  "importlib.import_module": [],
+  "<builtin>.setattr": [],
+  "logging.FileHandler": [],
+  "logging.getLogger.addHandler": [],
+  "errbot.backends.test.TestBot.start": [
+    "threading.Thread",
+    "logging.getLogger.warning",
+    "<builtin>.range",
+    "threading.Thread.start",
+    "<builtin>.AssertionError",
+    "errbot.bootstrap.setup_bot",
+    "<builtin>.Exception"
+  ],
+  "errbot.bootstrap.setup_bot": [
+    "errbot.backend_plugin_manager.BackendPluginManager.__init__",
+    "errbot.bootstrap.restore_bot_from_backup",
+    "logging.FileHandler.setFormatter",
+    "logging.FileHandler",
+    "<builtin>.hasattr",
+    "<builtin>.getattr",
+    "sentry_sdk.integrations.flask.FlaskIntegration",
+    "logging.getLogger.exception",
+    "<builtin>.exit",
+    "logging.Formatter",
+    "logging.getLogger.info",
+    "os.path.exists",
+    "errbot.logs.format_logs",
+    "logging.getLogger.setLevel",
+    "errbot.repo_manager.BotRepoManager.get_all_repos_paths",
+    "os.path.join",
+    "errbot.repo_manager.BotRepoManager.__init__",
+    "importlib.import_module",
+    "<builtin>.isinstance",
+    "errbot.backend_plugin_manager.BackendPluginManager.load_plugin",
+    "sentry_sdk.init",
+    "logging.getLogger.fatal",
+    "<builtin>.print",
+    "sentry_sdk.integrations.logging.LoggingIntegration",
+    "sys.exit",
+    "errbot.bootstrap.get_storage_plugin",
+    "logging.getLogger.addHandler",
+    "logging.getLogger.error",
+    "errbot.bootstrap.bot_config_defaults",
+    "errbot.plugin_manager.BotPluginManager.__init__",
+    "os.makedirs"
+  ],
+  "<builtin>.AssertionError": [],
+  "errbot.backends.test.TestBot.bot": [],
+  "errbot.backends.test.TestBot.stop": [
+    "threading.Thread.join",
+    "logging.getLogger.info",
+    "errbot.core_plugins.wsview.reset_app",
+    "<builtin>.Exception"
+  ],
+  "threading.Thread.join": [],
+  "errbot.backends.test.TestBot.pop_message": [],
+  "errbot.backends.test.TestBot.push_message": [],
+  "errbot.backends.test.TestBot.push_presence": [],
+  "errbot.backends.test.TestBot.exec_command": [],
+  "errbot.backends.test.TestBot.zap_queues": [],
+  "errbot.backends.test.TestBot.assertInCommand": [
+    "textwrap.dedent",
+    "textwrap.dedent.splitlines"
+  ],
+  "textwrap.dedent": [],
+  "textwrap.dedent.splitlines": [],
+  "errbot.backends.test.TestBot": [
+    "errbot.utils.deprecated",
+    "errbot.utils.deprecated.__init__"
+  ],
+  "errbot.utils.deprecated": [],
+  "errbot.backends.test.TestBot.assertCommand": [],
+  "errbot.backends.test.TestBot.assertCommandFound": [],
+  "errbot.backends.test.TestBot.inject_mocks": [
+    "<builtin>.setattr",
+    "<builtin>.ValueError",
+    "<builtin>.hasattr",
+    "<builtin>.Exception"
+  ],
+  "errbot.backends.test.FullStackTest.setUp": [
+    "tempfile.mkdtemp",
+    "os.getcwd.split",
+    "os.path.dirname",
+    "os.path.join",
+    "errbot.backends.test.TestBot.start",
+    "os.path.abspath.split",
+    "os.path.dirname.split",
+    "os.path.join.split",
+    "os.path.sep.join",
+    "os.path.abspath",
+    "os.getcwd",
+    "tempfile.mkdtemp.split",
+    "errbot.backends.test.TestBot.setup"
+  ],
+  "os.getcwd.split": [],
+  "os.path.abspath.split": [],
+  "os.path.dirname.split": [],
+  "os.path.join.split": [],
+  "tempfile.mkdtemp.split": [],
+  "os.path.sep.join": [],
+  "errbot.backends.test.FullStackTest.tearDown": [
+    "errbot.backends.test.TestBot.stop"
+  ],
+  "pytest.fixture": [],
+  "errbot.backends.test.testbot": [
+    "logging.getLogger.setLevel",
+    "errbot.backends.test.TestBot.start",
+    "logging.StreamHandler.setFormatter",
+    "logging.getLogger",
+    "logging.getLogger.addHandler",
+    "<builtin>.hasattr",
+    "<builtin>.getattr",
+    "errbot.backends.test.TestBot.__init__",
+    "logging.Formatter",
+    "logging.StreamHandler"
+  ],
+  "errbot.backends.test.testbot.on_finish": [
+    "errbot.backends.test.TestBot.stop"
+  ],
+  "logging.StreamHandler": [],
+  "logging.Formatter": [],
+  "logging.StreamHandler.setFormatter": [],
+  "errbot.bootstrap": [
+    "os.path.dirname",
+    "os.path.join",
+    "os.path.abspath",
+    "logging.getLogger"
+  ],
+  "errbot.bootstrap.bot_config_defaults": [
+    "<builtin>.ValueError",
+    "<builtin>.hasattr"
+  ],
+  "errbot.logs.format_logs": [
+    "logging.StreamHandler.setFormatter",
+    "logging.getLogger.addHandler",
+    "errbot.logs.get_log_colors",
+    "colorlog.ColoredFormatter",
+    "logging.Formatter"
+  ],
+  "logging.FileHandler.setFormatter": [],
+  "<builtin>.exit": [],
+  "sentry_sdk.integrations.logging.LoggingIntegration": [],
+  "sentry_sdk.integrations.flask.FlaskIntegration": [],
+  "sentry_sdk.init": [],
+  "errbot.bootstrap.get_storage_plugin": [
+    "errbot.backend_plugin_manager.BackendPluginManager.load_plugin",
+    "errbot.backend_plugin_manager.BackendPluginManager.__init__",
+    "logging.getLogger.info",
+    "<builtin>.getattr"
+  ],
+  "errbot.backend_plugin_manager.BackendPluginManager.__init__": [
+    "errbot.utils.entry_point_plugins",
+    "errbot.utils.collect_roots",
+    "errbot.backend_plugin_manager.enumerate_backend_plugins"
+  ],
+  "errbot.repo_manager.BotRepoManager.__init__": [
+    "errbot.storage.StoreMixin.open_storage",
+    "<builtin>.super"
+  ],
+  "errbot.backend_plugin_manager.BackendPluginManager.load_plugin": [
+    "errbot.plugin_info.PluginInfo.load_plugin_classes",
+    "<builtin>.len",
+    "<builtin>.str",
+    "sys.path.append"
+  ],
+  "errbot.bootstrap.setup_bot.<lambda1>": [],
+  "errbot.plugin_manager.BotPluginManager.__init__": [
+    "errbot.storage.StoreMixin.open_storage",
+    "<builtin>.super"
+  ],
+  "errbot.bootstrap.restore_bot_from_backup": [
+    "<builtin>.open",
+    "<builtin>.exec"
+  ],
+  "<builtin>.print": [],
+  "errbot.repo_manager.BotRepoManager.get_all_repos_paths": [
+    "collections.abc.MutableMapping.get",
+    "collections.abc.MutableMapping.get.keys",
+    "os.path.join"
+  ],
+  "<builtin>.exec": [],
+  "errbot.bootstrap.bootstrap": [
+    "errbot.bootstrap.setup_bot",
+    "logging.getLogger.debug"
+  ],
+  "errbot.plugin_manager": [
+    "os.path.dirname",
+    "os.path.join",
+    "os.path.abspath",
+    "logging.getLogger"
+  ],
+  "errbot.plugin_manager._ensure_sys_path_contains": [
+    "<builtin>.isinstance",
+    "errbot.plugin_manager._ensure_sys_path_contains",
+    "sys.path.append"
+  ],
+  "errbot.plugin_manager.populate_doc": [
+    "<builtin>.type"
+  ],
+  "errbot.plugin_manager.install_packages": [
+    "errbot.plugin_manager.install_packages.is_docker",
+    "<builtin>.hasattr",
+    "sys.exc_info",
+    "subprocess.check_call",
+    "logging.getLogger.exception",
+    "logging.getLogger.info",
+    "<builtin>.str"
+  ],
+  "errbot.plugin_manager.install_packages.is_docker": [
+    "<builtin>.open",
+    "os.path.exists"
+  ],
+  "sys.exc_info": [],
+  "errbot.plugin_manager.check_python_plug_section": [
+    "<builtin>.str",
+    "logging.getLogger.error"
+  ],
+  "errbot.plugin_manager.check_errbot_version": [
+    "errbot.utils.version2tuple"
+  ],
+  "errbot.plugin_manager.TopologicalSorter.find_cycle": [
+    "graphlib.TopologicalSorter._find_cycle"
+  ],
+  "graphlib.TopologicalSorter._find_cycle": [],
+  "errbot.plugin_manager.BotPluginManager.get_plugin_obj_by_name": [
+    "collections.abc.MutableMapping.plugins.get"
+  ],
+  "collections.abc.MutableMapping.plugins.get": [],
+  "errbot.plugin_manager.BotPluginManager.reload_plugin_by_name": [
+    "errbot.plugin_manager.BotPluginManager.deactivate_plugin",
+    "errbot.plugin_manager.BotPluginManager.activate_plugin"
+  ],
+  "errbot.plugin_manager.BotPluginManager.deactivate_plugin": [
+    "errbot.templating.remove_plugin_templates_path",
+    "logging.getLogger.warning"
+  ],
+  "errbot.plugin_manager.BotPluginManager.activate_plugin": [
+    "errbot.plugin_manager.check_errbot_version",
+    "errbot.plugin_manager.BotPluginManager._activate_plugin_dependencies",
+    "errbot.plugin_manager.BotPluginManager._activate_plugin",
+    "<builtin>.set",
+    "errbot.plugin_manager.check_python_plug_section",
+    "logging.getLogger.exception"
+  ],
+  "errbot.plugin_manager.BotPluginManager._install_potential_package_dependencies": [
+    "errbot.plugin_manager.install_packages",
+    "logging.getLogger.info",
+    "errbot.repo_manager.check_dependencies",
+    "traceback.format_tb"
+  ],
+  "traceback.format_tb": [],
+  "errbot.repo_manager.check_dependencies": [
+    "pathlib.Path.is_file",
+    "pathlib.Path.open",
+    "logging.getLogger.debug",
+    "logging.getLogger.exception",
+    "pkg_resources.get_distribution"
+  ],
+  "errbot.plugin_manager.BotPluginManager._load_plugins_generic": [
+    "errbot.plugin_info.PluginInfo.load",
+    "logging.getLogger.warning",
+    "logging.getLogger.debug",
+    "<builtin>.len",
+    "errbot.plugin_info.PluginInfo.load_plugin_classes",
+    "traceback.format_exc",
+    "collections.abc.MutableMapping._plugin_instance_callback",
+    "errbot.plugin_manager.BotPluginManager._install_potential_package_dependencies"
+  ],
+  "collections.abc.MutableMapping._plugin_instance_callback": [],
+  "errbot.plugin_manager.BotPluginManager._load_plugins": [
+    "errbot.plugin_manager.BotPluginManager._load_plugins_generic"
+  ],
+  "errbot.plugin_manager.BotPluginManager.update_plugin_places": [
+    "logging.getLogger.debug",
+    "sys.path.append",
+    "errbot.utils.entry_point_plugins",
+    "pathlib.Path",
+    "errbot.plugin_manager._ensure_sys_path_contains",
+    "errbot.plugin_manager.BotPluginManager._load_plugins",
+    "errbot.utils.collect_roots"
+  ],
+  "errbot.plugin_manager.BotPluginManager.get_all_active_plugins": [
+    "collections.abc.MutableMapping.plugins.items"
+  ],
+  "collections.abc.MutableMapping.plugins.items": [],
+  "errbot.plugin_manager.BotPluginManager.get_all_active_plugin_names": [
+    "collections.abc.MutableMapping.plugins.items"
+  ],
+  "errbot.plugin_manager.BotPluginManager.get_all_plugin_names": [
+    "collections.abc.MutableMapping.plugins.keys"
+  ],
+  "collections.abc.MutableMapping.plugins.keys": [],
+  "errbot.plugin_manager.BotPluginManager.get_plugin_by_path": [
+    "<builtin>.str",
+    "collections.abc.MutableMapping.plugin_infos.items"
+  ],
+  "collections.abc.MutableMapping.plugin_infos.items": [],
+  "errbot.plugin_manager.BotPluginManager.get_plugins_by_path": [
+    "<builtin>.str",
+    "collections.abc.MutableMapping.plugin_infos.items"
+  ],
+  "errbot.plugin_manager.BotPluginManager.deactivate_all_plugins": [
+    "errbot.plugin_manager.BotPluginManager.deactivate_plugin",
+    "errbot.plugin_manager.BotPluginManager.get_all_active_plugin_names"
+  ],
+  "errbot.plugin_manager.BotPluginManager.get_blacklisted_plugin": [
+    "collections.abc.MutableMapping.get"
+  ],
+  "collections.abc.MutableMapping.get": [],
+  "errbot.plugin_manager.BotPluginManager.is_plugin_blacklisted": [
+    "errbot.plugin_manager.BotPluginManager.get_blacklisted_plugin"
+  ],
+  "errbot.plugin_manager.BotPluginManager.blacklist_plugin": [
+    "errbot.plugin_manager.BotPluginManager.get_blacklisted_plugin",
+    "logging.getLogger.info",
+    "logging.warning",
+    "errbot.plugin_manager.BotPluginManager.is_plugin_blacklisted"
+  ],
+  "errbot.plugin_manager.BotPluginManager.unblacklist_plugin": [
+    "errbot.plugin_manager.BotPluginManager.get_blacklisted_plugin",
+    "errbot.plugin_manager.BotPluginManager.is_plugin_blacklisted",
+    "collections.abc.MutableMapping.get.remove",
+    "logging.warning",
+    "logging.getLogger.info"
+  ],
+  "collections.abc.MutableMapping.get.remove": [],
+  "errbot.plugin_manager.BotPluginManager.get_plugin_configuration": [],
+  "errbot.plugin_manager.BotPluginManager.set_plugin_configuration": [],
+  "errbot.plugin_manager.BotPluginManager.activate_non_started_plugins": [
+    "collections.abc.MutableMapping.flows.items",
+    "logging.getLogger.debug",
+    "errbot.plugin_manager.BotPluginManager.activate_plugin",
+    "errbot.plugin_manager.BotPluginManager.activate_flow",
+    "errbot.plugin_manager.BotPluginManager.is_plugin_blacklisted",
+    "logging.getLogger.exception",
+    "errbot.plugin_manager.BotPluginManager.get_plugins_activation_order",
+    "logging.getLogger.info",
+    "collections.abc.MutableMapping.plugins.get"
+  ],
+  "errbot.plugin_manager.BotPluginManager.get_plugins_activation_order": [
+    "graphlib.TopologicalSorter.__init__",
+    "<builtin>.list",
+    "<builtin>.set",
+    "collections.abc.MutableMapping.plugin_infos.items",
+    "graphlib.TopologicalSorter.static_order",
+    "errbot.plugin_manager.TopologicalSorter.find_cycle"
+  ],
+  "collections.abc.MutableMapping.flows.items": [],
+  "errbot.plugin_manager.BotPluginManager.activate_flow": [],
+  "graphlib.TopologicalSorter.__init__": [],
+  "graphlib.TopologicalSorter.static_order": [],
+  "errbot.plugin_manager.BotPluginManager._activate_plugin": [
+    "errbot.plugin_manager.BotPluginManager.get_plugin_configuration",
+    "logging.getLogger.debug",
+    "errbot.templating.add_plugin_templates_path",
+    "logging.getLogger.error",
+    "errbot.core_plugins.wsview.route",
+    "logging.getLogger.exception",
+    "<builtin>.Exception",
+    "errbot.plugin_manager.populate_doc",
+    "errbot.plugin_manager.BotPluginManager.deactivate_plugin",
+    "<builtin>.str"
+  ],
+  "errbot.plugin_manager.BotPluginManager.deactivate_flow": [],
+  "errbot.plugin_manager.BotPluginManager._activate_plugin_dependencies": [
+    "logging.getLogger.debug",
+    "errbot.plugin_manager.BotPluginManager._activate_plugin_dependencies",
+    "errbot.plugin_manager.BotPluginManager._activate_plugin"
+  ],
+  "errbot.plugin_manager.BotPluginManager.remove_plugin": [
+    "errbot.plugin_manager.BotPluginManager.deactivate_plugin"
+  ],
+  "errbot.plugin_manager.BotPluginManager.remove_plugins_from_path": [
+    "errbot.plugin_manager.BotPluginManager.remove_plugin",
+    "<builtin>.str",
+    "copy.deepcopy.items",
+    "copy.deepcopy"
+  ],
+  "copy.deepcopy": [],
+  "copy.deepcopy.items": [],
+  "errbot.plugin_manager.BotPluginManager.shutdown": [
+    "logging.getLogger.info",
+    "errbot.storage.StoreMixin.close_storage"
+  ],
+  "errbot.plugin_manager.BotPluginManager.__hash__": [
+    "<builtin>.id",
+    "<builtin>.int"
+  ],
+  "<builtin>.id": [],
+  "errbot.repo_manager": [
+    "collections.namedtuple",
+    "re.compile",
+    "datetime.timedelta",
+    "logging.getLogger"
+  ],
+  "errbot.repo_manager.human_name_for_git_url": [
+    "<builtin>.str"
+  ],
+  "datetime.timedelta": [],
+  "errbot.repo_manager.makeEntry": [
+    "collections.namedtuple"
+  ],
+  "errbot.repo_manager.tokenizeJsonEntry": [
+    "<builtin>.set",
+    "<builtin>.str",
+    "re.compile.findall"
+  ],
+  "re.compile.findall": [],
+  "errbot.repo_manager.which": [
+    "errbot.repo_manager.which.is_exe",
+    "os.path.split",
+    "os.path.join"
+  ],
+  "errbot.repo_manager.which.is_exe": [
+    "os.path.isfile",
+    "os.access"
+  ],
+  "os.path.isfile": [],
+  "os.access": [],
+  "os.path.split": [],
+  "pathlib.Path.open": [],
+  "pkg_resources.get_distribution": [],
+  "errbot.repo_manager.BotRepoManager.shutdown": [
+    "errbot.storage.StoreMixin.close_storage"
+  ],
+  "errbot.repo_manager.BotRepoManager.check_for_index_update": [
+    "errbot.repo_manager.BotRepoManager.index_update",
+    "datetime.datetime.fromtimestamp",
+    "datetime.datetime.now",
+    "logging.getLogger.info"
+  ],
+  "errbot.repo_manager.BotRepoManager.index_update": [
+    "urllib.request.urlopen",
+    "datetime.datetime.now.timestamp",
+    "<builtin>.open",
+    "logging.getLogger.debug",
+    "json.loads",
+    "urllib.request.Request",
+    "logging.getLogger.exception",
+    "<builtin>.reversed",
+    "datetime.datetime.now",
+    "urllib.parse.urlparse"
+  ],
+  "datetime.datetime.now.timestamp": [],
+  "<builtin>.reversed": [],
+  "urllib.parse.urlparse": [],
+  "urllib.request.Request": [],
+  "urllib.request.urlopen": [],
+  "errbot.repo_manager.BotRepoManager.get_repo_from_index": [
+    "errbot.repo_manager.makeEntry"
+  ],
+  "errbot.repo_manager.BotRepoManager.search_repos": [
+    "<builtin>.set",
+    "errbot.repo_manager.BotRepoManager.check_for_index_update",
+    "logging.getLogger.error",
+    "errbot.repo_manager.tokenizeJsonEntry",
+    "errbot.repo_manager.makeEntry",
+    "re.compile.findall"
+  ],
+  "errbot.repo_manager.BotRepoManager.get_installed_plugin_repos": [
+    "collections.abc.MutableMapping.get"
+  ],
+  "errbot.repo_manager.BotRepoManager.add_plugin_repo": [
+    "errbot.storage.StoreMixin.mutable"
+  ],
+  "errbot.repo_manager.BotRepoManager.set_plugin_repos": [],
+  "collections.abc.MutableMapping.get.keys": [],
+  "errbot.repo_manager.BotRepoManager.install_repo": [
+    "urllib.request.urlopen",
+    "tarfile.open",
+    "tarfile.open.extractall",
+    "os.path.join",
+    "errbot.repo_manager.human_name_for_git_url",
+    "errbot.repo_manager.BotRepoManager.check_for_index_update",
+    "<builtin>.len",
+    "errbot.repo_manager.BotRepoManager.add_plugin_repo",
+    "<builtin>.iter",
+    "errbot.utils.git_clone",
+    "<builtin>.next"
+  ],
+  "<builtin>.iter": [],
+  "<builtin>.next": [],
+  "tarfile.open": [],
+  "tarfile.open.extractall": [],
+  "errbot.repo_manager.BotRepoManager.update_repos": [
+    "collections.abc.MutableMapping.get.keys",
+    "os.path.join",
+    "errbot.utils.git_pull",
+    "<builtin>.set",
+    "errbot.repo_manager.BotRepoManager.get_installed_plugin_repos",
+    "errbot.repo_manager.check_dependencies",
+    "pathlib.Path"
+  ],
+  "errbot.repo_manager.BotRepoManager.update_all_repos": [
+    "errbot.repo_manager.BotRepoManager.update_repos",
+    "errbot.repo_manager.BotRepoManager.get_installed_plugin_repos",
+    "collections.abc.MutableMapping.get.keys"
+  ],
+  "errbot.repo_manager.BotRepoManager.uninstall_repo": [
+    "shutil.rmtree",
+    "errbot.repo_manager.BotRepoManager.get_installed_plugin_repos",
+    "errbot.repo_manager.BotRepoManager.set_plugin_repos",
+    "os.path.join"
+  ],
+  "shutil.rmtree": [],
+  "errbot.storage.base": [],
+  "errbot.storage.base.StorageBase": [
+    "abc.abstractmethod"
+  ],
+  "errbot.storage.base.StorageBase.set": [],
+  "errbot.storage.base.StorageBase.get": [],
+  "errbot.storage.base.StorageBase.remove": [],
+  "errbot.storage.base.StorageBase.len": [],
+  "errbot.storage.base.StorageBase.keys": [],
+  "errbot.storage.base.StorageBase.close": [],
+  "errbot.storage.base.StoragePluginBase.__init__": [
+    "<builtin>.getattr"
+  ],
+  "errbot.storage.base.StoragePluginBase": [
+    "abc.abstractmethod"
+  ],
+  "errbot.storage.base.StoragePluginBase.open": [],
+  "errbot.logs": [
+    "logging.getLogger.setLevel",
+    "logging.StreamHandler",
+    "errbot.logs.ispydevd",
+    "logging.getLogger"
+  ],
+  "errbot.logs.ispydevd": [
+    "inspect.stack"
+  ],
+  "inspect.stack": [],
+  "errbot.logs.get_log_colors": [],
+  "colorlog.ColoredFormatter": [],
+  "errbot.backend_plugin_manager": [
+    "logging.getLogger"
+  ],
+  "errbot.backend_plugin_manager.enumerate_backend_plugins": [
+    "pathlib.Path",
+    "errbot.plugin_info.PluginInfo.load"
+  ],
+  "errbot.backends.null": [
+    "logging.getLogger"
+  ],
+  "errbot.backends.null.ConnectionMock.send": [],
+  "errbot.backends.null.ConnectionMock.send_message": [],
+  "errbot.backends.null.NullBackend.__init__": [
+    "errbot.backends.null.NullBackend.build_identifier",
+    "<builtin>.super"
+  ],
+  "errbot.backends.null.NullBackend.build_identifier": [
+    "errbot.backends.test.TestPerson.__init__"
+  ],
+  "errbot.backends.null.NullBackend.serve_forever": [
+    "errbot.core.ErrBot.disconnect_callback",
+    "logging.getLogger.debug",
+    "time.sleep",
+    "errbot.backends.null.NullBackend.shutdown",
+    "errbot.core.ErrBot.connect_callback",
+    "errbot.backends.null.NullBackend.connect"
+  ],
+  "errbot.backends.null.NullBackend.connect": [],
+  "errbot.backends.null.NullBackend.shutdown": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.null.NullBackend.change_presence": [],
+  "errbot.backends.null.NullBackend.build_reply": [],
+  "errbot.backends.null.NullBackend.prefix_groupchat_reply": [],
+  "errbot.backends.null.NullBackend.query_room": [],
+  "errbot.backends.null.NullBackend.rooms": [],
+  "errbot.backends.null.NullBackend.mode": [],
+  "errbot.backends.irc": [
+    "collections.namedtuple",
+    "logging.getLogger",
+    "logging.getLogger.fatal",
+    "sys.exit",
+    "errbot.rendering.ansiext.NSC.__init__"
+  ],
+  "errbot.backends.irc.irc_md": [
+    "markdown.extensions.Extension.__init__",
+    "markdown.extensions.extra.ExtraExtension",
+    "markdown.Markdown"
+  ],
+  "errbot.backends.irc.IRCPerson.__init__": [
+    "irc.client.NickMask"
+  ],
+  "irc.client.NickMask": [],
+  "errbot.backends.irc.IRCPerson.nick": [],
+  "errbot.backends.irc.IRCPerson.user": [],
+  "errbot.backends.irc.IRCPerson.host": [],
+  "errbot.backends.irc.IRCPerson.client": [],
+  "errbot.backends.irc.IRCPerson.fullname": [],
+  "errbot.backends.irc.IRCPerson.email": [],
+  "errbot.backends.irc.IRCPerson.aclattr": [],
+  "errbot.backends.irc.IRCPerson.__unicode__": [
+    "<builtin>.str"
+  ],
+  "errbot.backends.irc.IRCPerson.__str__": [
+    "errbot.backends.irc.IRCRoomOccupant.__unicode__",
+    "errbot.backends.irc.IRCPerson.__unicode__"
+  ],
+  "errbot.backends.irc.IRCRoomOccupant.__unicode__": [],
+  "errbot.backends.irc.IRCPerson.__eq__": [
+    "<builtin>.isinstance",
+    "logging.getLogger.warning",
+    "<builtin>.type"
+  ],
+  "errbot.backends.irc.IRCRoomOccupant.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.irc.IRCRoomOccupant.room": [],
+  "errbot.backends.irc.IRCRoomOccupant.__str__": [
+    "errbot.backends.irc.IRCRoomOccupant.__unicode__"
+  ],
+  "errbot.backends.irc.IRCRoomOccupant.__repr__": [
+    "errbot.backends.irc.IRCRoomOccupant.__unicode__",
+    "<builtin>.super"
+  ],
+  "errbot.backends.irc.IRCRoom.__init__": [
+    "threading.Lock"
+  ],
+  "threading.Lock": [],
+  "errbot.backends.irc.IRCRoom.__unicode__": [],
+  "errbot.backends.irc.IRCRoom.__str__": [
+    "errbot.backends.irc.IRCRoom.__unicode__"
+  ],
+  "errbot.backends.irc.IRCRoom.__repr__": [
+    "errbot.backends.irc.IRCRoom.__unicode__",
+    "<builtin>.super"
+  ],
+  "errbot.backends.irc.IRCRoom.cb_set_topic": [],
+  "errbot.backends.irc.IRCRoom.join": [
+    "irc.bot.SingleServerIRCBot.connection.join",
+    "errbot.core.ErrBot.callback_room_joined",
+    "logging.getLogger.debug",
+    "logging.getLogger.info"
+  ],
+  "irc.bot.SingleServerIRCBot.connection.join": [],
+  "errbot.backends.irc.IRCRoom.leave": [
+    "errbot.core.ErrBot.callback_room_left",
+    "logging.getLogger.info",
+    "irc.bot.SingleServerIRCBot.connection.part"
+  ],
+  "irc.bot.SingleServerIRCBot.connection.part": [],
+  "errbot.backends.irc.IRCRoom.create": [
+    "errbot.backends.irc.IRCRoom.join",
+    "logging.warning"
+  ],
+  "errbot.backends.irc.IRCRoom.destroy": [],
+  "errbot.backends.irc.IRCRoom.exists": [
+    "logging.warning"
+  ],
+  "errbot.backends.irc.IRCRoom.joined": [
+    "irc.bot.SingleServerIRCBot.channels.keys"
+  ],
+  "irc.bot.SingleServerIRCBot.channels.keys": [],
+  "errbot.backends.irc.IRCRoom.topic": [
+    "irc.bot.SingleServerIRCBot.connection.topic"
+  ],
+  "irc.bot.SingleServerIRCBot.connection.topic": [],
+  "errbot.backends.irc.IRCRoom.occupants": [
+    "errbot.backends.irc.IRCRoomOccupant.__init__"
+  ],
+  "errbot.backends.irc.IRCRoom.invite": [
+    "logging.getLogger.info",
+    "irc.bot.SingleServerIRCBot.connection.invite"
+  ],
+  "irc.bot.SingleServerIRCBot.connection.invite": [],
+  "errbot.backends.irc.IRCRoom.__eq__": [
+    "<builtin>.isinstance",
+    "logging.getLogger.warning",
+    "<builtin>.type"
+  ],
+  "errbot.backends.irc.IRCConnection.__init__": [
+    "threading.Lock",
+    "errbot.utils.rate_limited",
+    "<builtin>.set",
+    "errbot.utils.rate_limited.decorate",
+    "<builtin>.super"
+  ],
+  "errbot.backends.irc.IRCConnection.connect": [
+    "irc.connection.Factory",
+    "errbot.backends.irc.IRCConnection.connection.connect"
+  ],
+  "irc.connection.Factory": [],
+  "errbot.backends.irc.IRCConnection.connection.connect": [],
+  "errbot.backends.irc.IRCConnection.on_welcome": [
+    "errbot.backends.irc.IRCConnection.send_private_message",
+    "threading.Thread",
+    "logging.getLogger.info",
+    "threading.Thread.start"
+  ],
+  "errbot.backends.irc.IRCConnection._pubmsg": [
+    "errbot.core.ErrBot.callback_mention",
+    "errbot.backends.irc.IRCRoomOccupant.__init__",
+    "errbot.backends.irc.IRCBackend.build_identifier",
+    "errbot.backends.base.Message.__init__",
+    "errbot.backends.irc.IRCRoom.__init__",
+    "<builtin>.Exception",
+    "<builtin>.filter",
+    "errbot.core.ErrBot.callback_message",
+    "re.findall"
+  ],
+  "re.findall": [],
+  "errbot.backends.irc.IRCConnection._pubmsg.<lambda1>": [],
+  "<builtin>.filter": [],
+  "errbot.backends.irc.IRCBackend.build_identifier": [
+    "errbot.backends.irc.IRCRoomOccupant.__init__",
+    "errbot.backends.irc.IRCPerson.__init__",
+    "logging.getLogger.debug",
+    "errbot.backends.irc.IRCRoom.__init__"
+  ],
+  "errbot.backends.irc.IRCConnection._privmsg": [
+    "errbot.core.ErrBot.callback_message",
+    "errbot.backends.irc.IRCPerson.__init__",
+    "errbot.backends.base.Message.__init__"
+  ],
+  "errbot.backends.irc.IRCConnection.on_pubmsg": [
+    "errbot.backends.irc.IRCConnection._pubmsg"
+  ],
+  "errbot.backends.irc.IRCConnection.on_privmsg": [
+    "errbot.backends.irc.IRCConnection._privmsg"
+  ],
+  "errbot.backends.irc.IRCConnection.on_pubnotice": [
+    "errbot.backends.irc.IRCConnection._pubmsg"
+  ],
+  "errbot.backends.irc.IRCConnection.on_privnotice": [
+    "errbot.backends.irc.IRCConnection._privmsg"
+  ],
+  "errbot.backends.irc.IRCConnection.on_kick": [
+    "threading.Timer.start",
+    "logging.getLogger.info",
+    "threading.Timer"
+  ],
+  "errbot.backends.irc.IRCConnection.on_kick.reconnect_channel": [
+    "errbot.backends.irc.IRCBackend.query_room",
+    "logging.getLogger.info"
+  ],
+  "errbot.backends.irc.IRCBackend.query_room": [
+    "errbot.backends.irc.IRCRoom.__init__"
+  ],
+  "irc.bot.SingleServerIRCBot.connection.privmsg": [],
+  "errbot.backends.irc.IRCConnection.on_disconnect": [
+    "errbot.core.ErrBot.disconnect_callback"
+  ],
+  "errbot.backends.irc.IRCConnection.send_stream_request": [
+    "irc.client.ip_quad_to_numstr",
+    "<builtin>.map",
+    "errbot.backends.base.Stream.__init__",
+    "irc.bot.SingleServerIRCBot.dcc_listen",
+    "subprocess.list2cmdline",
+    "irc.bot.SingleServerIRCBot.connection.ctcp"
+  ],
+  "irc.bot.SingleServerIRCBot.dcc_listen": [],
+  "irc.client.ip_quad_to_numstr": [],
+  "<builtin>.map": [],
+  "subprocess.list2cmdline": [],
+  "irc.bot.SingleServerIRCBot.connection.ctcp": [],
+  "errbot.backends.irc.IRCConnection.on_dcc_connect": [
+    "logging.getLogger.debug",
+    "errbot.backends.irc.IRCConnection.send_chunk",
+    "logging.getLogger.error"
+  ],
+  "errbot.backends.irc.IRCConnection.send_chunk": [
+    "<builtin>.len"
+  ],
+  "errbot.backends.irc.IRCConnection.on_dcc_disconnect": [],
+  "errbot.backends.irc.IRCConnection.on_part": [
+    "errbot.core.ErrBot.callback_room_left",
+    "logging.getLogger.info"
+  ],
+  "errbot.backends.irc.IRCConnection.on_endofnames": [
+    "errbot.core.ErrBot.callback_room_joined"
+  ],
+  "errbot.backends.irc.IRCConnection.on_join": [
+    "errbot.backends.irc.IRCRoom.__init__"
+  ],
+  "errbot.backends.irc.IRCConnection.on_currenttopic": [],
+  "errbot.backends.irc.IRCConnection.on_topic": [
+    "errbot.core.ErrBot.callback_room_topic"
+  ],
+  "errbot.backends.irc.IRCConnection.on_notopic": [
+    "errbot.core.ErrBot.callback_room_topic"
+  ],
+  "errbot.backends.irc.IRCConnection.on_dccmsg": [
+    "struct.unpack",
+    "logging.getLogger.debug",
+    "logging.getLogger.error",
+    "logging.getLogger.info",
+    "errbot.backends.irc.IRCConnection.send_chunk"
+  ],
+  "struct.unpack": [],
+  "errbot.backends.irc.IRCConnection.away": [
+    "irc.bot.SingleServerIRCBot.connection.send_raw"
+  ],
+  "irc.bot.SingleServerIRCBot.connection.send_raw": [],
+  "errbot.backends.irc.IRCBackend.__init__": [
+    "errbot.rendering.ansiext.enable_format",
+    "errbot.backends.irc.IRCPerson.__init__",
+    "<builtin>.hasattr",
+    "<builtin>.getattr",
+    "errbot.backends.irc.irc_md",
+    "<builtin>.super",
+    "errbot.backends.irc.IRCConnection.__init__"
+  ],
+  "errbot.backends.irc.IRCBackend.set_message_size_limit": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.irc.IRCBackend.send_message": [
+    "markdown.Markdown.convert",
+    "errbot.backends.irc.IRCConnection.send_public_message",
+    "errbot.backends.irc.IRCConnection.send_private_message",
+    "markdown.Markdown.convert.split",
+    "<builtin>.super"
+  ],
+  "markdown.Markdown.convert.split": [],
+  "errbot.backends.irc.IRCBackend.change_presence": [
+    "errbot.backends.irc.IRCConnection.away"
+  ],
+  "errbot.backends.irc.IRCBackend.send_stream_request": [
+    "errbot.backends.irc.IRCConnection.send_stream_request"
+  ],
+  "errbot.backends.irc.IRCBackend.build_reply": [
+    "errbot.backends.irc.IRCRoomOccupant.__init__",
+    "<builtin>.str",
+    "errbot.backends.irc.IRCPerson.__init__",
+    "errbot.backends.irc.IRCBackend.build_message"
+  ],
+  "errbot.backends.irc.IRCBackend.build_message": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.irc.IRCBackend.serve_forever": [
+    "errbot.core.ErrBot.disconnect_callback",
+    "errbot.backends.irc.IRCBackend.shutdown",
+    "logging.getLogger.debug",
+    "irc.bot.SingleServerIRCBot.disconnect",
+    "logging.getLogger.info",
+    "irc.bot.SingleServerIRCBot.start"
+  ],
+  "irc.bot.SingleServerIRCBot.start": [],
+  "irc.bot.SingleServerIRCBot.disconnect": [],
+  "errbot.backends.irc.IRCBackend.shutdown": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.irc.IRCBackend.connect": [],
+  "errbot.backends.irc.IRCBackend.mode": [],
+  "errbot.backends.irc.IRCBackend.rooms": [],
+  "errbot.backends.irc.IRCBackend.prefix_groupchat_reply": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.telegram_messenger": [
+    "logging.getLogger.fatal",
+    "sys.exit",
+    "logging.getLogger.exception",
+    "logging.getLogger"
+  ],
+  "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBotFilter.filter": [],
+  "errbot.backends.telegram_messenger.TelegramIdentifier.__init__": [
+    "<builtin>.str"
+  ],
+  "errbot.backends.telegram_messenger.TelegramIdentifier.id": [],
+  "errbot.backends.telegram_messenger.TelegramIdentifier.__unicode__": [
+    "<builtin>.str"
+  ],
+  "errbot.backends.telegram_messenger.TelegramIdentifier.__eq__": [],
+  "errbot.backends.telegram_messenger.TelegramPerson.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.telegram_messenger.TelegramPerson.id": [],
+  "errbot.backends.telegram_messenger.TelegramPerson.first_name": [],
+  "errbot.backends.telegram_messenger.TelegramPerson.last_name": [],
+  "errbot.backends.telegram_messenger.TelegramPerson.fullname": [],
+  "errbot.backends.telegram_messenger.TelegramPerson.username": [],
+  "errbot.backends.telegram_messenger.TelegramPerson.client": [],
+  "errbot.backends.telegram_messenger.TelegramRoom.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.id": [],
+  "errbot.backends.telegram_messenger.TelegramRoom.title": [],
+  "errbot.backends.telegram_messenger.TelegramRoom.join": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.create": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.leave": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.destroy": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.joined": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.exists": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.topic": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.occupants": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramRoom.invite": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramMUCOccupant.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.telegram_messenger.TelegramMUCOccupant.room": [],
+  "errbot.backends.telegram_messenger.TelegramMUCOccupant.username": [],
+  "errbot.backends.telegram_messenger.TelegramBackend.__init__": [
+    "errbot.rendering.ansiext.enable_format",
+    "errbot.rendering.text",
+    "<builtin>.hasattr",
+    "logging.getLogger",
+    "logging.getLogger.addFilter",
+    "logging.getLogger.fatal",
+    "sys.exit",
+    "<builtin>.super"
+  ],
+  "logging.getLogger.addFilter": [],
+  "errbot.backends.telegram_messenger.TelegramBackend.set_message_size_limit": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.serve_once": [
+    "errbot.core.ErrBot.disconnect_callback",
+    "errbot.backends.telegram_messenger.TelegramBackend._handle_message",
+    "errbot.backends.telegram_messenger.TelegramPerson.__init__",
+    "logging.getLogger.warning",
+    "logging.getLogger.debug",
+    "<builtin>.hasattr",
+    "errbot.backends.base.Backend.reset_reconnection_count",
+    "logging.getLogger.error",
+    "logging.getLogger.exception",
+    "errbot.core.ErrBot.connect_callback",
+    "logging.getLogger.info"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend._handle_message": [
+    "errbot.backends.telegram_messenger.TelegramPerson.__init__",
+    "errbot.backends.telegram_messenger.TelegramMUCOccupant.__init__",
+    "errbot.backends.telegram_messenger.TelegramRoom.__init__",
+    "logging.getLogger.warning",
+    "errbot.backends.base.Backend.build_message",
+    "errbot.core.ErrBot.callback_message"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.send_message": [
+    "markdown.Markdown.convert",
+    "<builtin>.super",
+    "logging.getLogger.exception"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.change_presence": [],
+  "errbot.backends.telegram_messenger.TelegramBackend.build_identifier": [
+    "errbot.backends.telegram_messenger.TelegramPerson.__init__",
+    "errbot.backends.telegram_messenger.TelegramRoom.__init__",
+    "logging.getLogger.debug",
+    "<builtin>.ValueError",
+    "<builtin>.int",
+    "errbot.backends.telegram_messenger.TelegramBackend._is_numeric"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend._is_numeric": [
+    "<builtin>.int"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.build_reply": [
+    "errbot.backends.base.Backend.build_message"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.mode": [],
+  "errbot.backends.telegram_messenger.TelegramBackend.query_room": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.rooms": [
+    "errbot.backends.telegram_messenger.RoomsNotSupportedError.__init__"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.prefix_groupchat_reply": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend._telegram_special_message": [
+    "<builtin>.ValueError"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend._telegram_upload_stream": [
+    "errbot.backends.telegram_messenger.TelegramBackend._telegram_special_message",
+    "logging.getLogger.exception"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.send_stream_request": [
+    "multiprocessing.pool.ThreadPool.apply_async",
+    "errbot.backends.telegram_messenger.TelegramBackend.send_stream_request._telegram_metadata",
+    "errbot.backends.base.Stream.__init__",
+    "<builtin>.isinstance",
+    "logging.getLogger.debug",
+    "errbot.backends.telegram_messenger.TelegramBackend.send_stream_request._is_valid_url",
+    "<builtin>.ValueError",
+    "errbot.backends.telegram_messenger.TelegramBackend._telegram_special_message"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.send_stream_request._telegram_metadata": [
+    "<builtin>.isinstance"
+  ],
+  "errbot.backends.telegram_messenger.TelegramBackend.send_stream_request._is_valid_url": [
+    "<builtin>.bool",
+    "urllib.parse.urlparse",
+    "urlparse.urlparse"
+  ],
+  "urlparse.urlparse": [],
+  "errbot.backends.text": [
+    "errbot.rendering.ansiext.enable_format",
+    "sys.stderr.isatty",
+    "<builtin>.hasattr",
+    "logging.getLogger"
+  ],
+  "sys.stderr.isatty": [],
+  "errbot.backends.text.borderless_ansi": [
+    "markdown.extensions.Extension.__init__",
+    "markdown.extensions.extra.ExtraExtension",
+    "markdown.Markdown"
+  ],
+  "errbot.backends.text.TextPerson.__init__": [],
+  "errbot.backends.text.TextPerson.person": [],
+  "errbot.backends.text.TextPerson.client": [],
+  "errbot.backends.text.TextPerson.nick": [],
+  "errbot.backends.text.TextPerson.fullname": [],
+  "errbot.backends.text.TextPerson.email": [],
+  "errbot.backends.text.TextPerson.aclattr": [
+    "<builtin>.str"
+  ],
+  "errbot.backends.text.TextPerson.__str__": [],
+  "errbot.backends.text.TextPerson.__eq__": [
+    "<builtin>.isinstance"
+  ],
+  "errbot.backends.text.TextPerson.__hash__": [],
+  "errbot.backends.text.TextRoom.__init__": [
+    "errbot.backends.text.TextOccupant.__init__",
+    "<builtin>.hasattr",
+    "errbot.backends.text.TextPerson.__init__"
+  ],
+  "errbot.backends.text.TextOccupant.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.backends.text.TextRoom.join": [],
+  "errbot.backends.text.TextRoom.leave": [],
+  "errbot.backends.text.TextRoom.create": [],
+  "errbot.backends.text.TextRoom.destroy": [],
+  "errbot.backends.text.TextRoom.exists": [],
+  "errbot.backends.text.TextRoom.joined": [],
+  "errbot.backends.text.TextRoom.topic": [],
+  "errbot.backends.text.TextRoom.occupants": [],
+  "errbot.backends.text.TextRoom.invite": [],
+  "errbot.backends.text.TextRoom.__str__": [],
+  "errbot.backends.text.TextRoom.__eq__": [],
+  "errbot.backends.text.TextRoom.__hash__": [],
+  "errbot.backends.text.TextOccupant.room": [],
+  "errbot.backends.text.TextOccupant.__str__": [],
+  "errbot.backends.text.TextOccupant.__eq__": [],
+  "errbot.backends.text.TextOccupant.__hash__": [],
+  "errbot.backends.text.TextBackend.__init__": [
+    "errbot.rendering.ansi",
+    "errbot.rendering.text",
+    "errbot.backends.text.TextBackend.build_identifier",
+    "logging.getLogger.debug",
+    "<builtin>.hasattr",
+    "pygments.lexers.get_lexer_by_name",
+    "errbot.rendering.imtext",
+    "errbot.rendering.xhtml",
+    "pygments.formatters.Terminal256Formatter",
+    "errbot.backends.text.borderless_ansi",
+    "<builtin>.super",
+    "errbot.backends.text.TextBackend._register_identifiers_pickling"
+  ],
+  "errbot.backends.text.TextBackend.build_identifier": [
+    "errbot.backends.text.TextPerson.__init__",
+    "<builtin>.ValueError",
+    "errbot.backends.text.TextOccupant.__init__",
+    "errbot.backends.text.TextBackend.query_room",
+    "errbot.backends.text.TextRoom.__init__"
+  ],
+  "pygments.lexers.get_lexer_by_name": [],
+  "pygments.formatters.Terminal256Formatter": [],
+  "errbot.backends.text.TextBackend._register_identifiers_pickling": [
+    "copyreg.pickle"
+  ],
+  "errbot.backends.text.TextBackend._unpickle_identifier": [
+    "errbot.backends.text.TextBackend.build_identifier"
+  ],
+  "errbot.backends.text.TextBackend._pickle_identifier": [
+    "<builtin>.str"
+  ],
+  "copyreg.pickle": [],
+  "errbot.backends.text.TextBackend.serve_forever": [
+    "errbot.core.ErrBot.callback_mention",
+    "logging.NullHandler",
+    "errbot.core.ErrBot.callback_message",
+    "errbot.backends.text.TextBackend.query_room",
+    "errbot.core.ErrBot.callback_presence",
+    "errbot.backends.text.TextBackend.build_identifier",
+    "logging.getLogger",
+    "errbot.core.ErrBot.connect_callback",
+    "errbot.backends.text.TextBackend.send_message",
+    "errbot.core.ErrBot.disconnect_callback",
+    "errbot.backends.text.TextBackend.rooms",
+    "logging.getLogger.debug",
+    "<builtin>.print",
+    "time.sleep",
+    "logging.getLogger.removeHandler",
+    "errbot.backends.text.TextOccupant.__init__",
+    "errbot.backends.text.TextRoom.join",
+    "errbot.core.ErrBot.shutdown",
+    "<builtin>.input",
+    "errbot.backends.text.TextBackend.readline_support",
+    "logging.getLogger.addHandler",
+    "errbot.backends.base.Message.__init__",
+    "errbot.backends.base.Presence.__init__",
+    "re.findall"
+  ],
+  "errbot.backends.text.TextBackend.readline_support": [
+    "logging.getLogger.debug",
+    "readline.parse_and_bind",
+    "readline.set_completer"
+  ],
+  "errbot.backends.text.TextBackend.query_room": [
+    "<builtin>.ValueError",
+    "errbot.backends.text.TextRoom.__init__"
+  ],
+  "logging.getLogger.removeHandler": [],
+  "logging.NullHandler": [],
+  "errbot.backends.text.TextBackend.send_message": [
+    "<builtin>.print",
+    "markdown.Markdown.convert",
+    "pygments.highlight",
+    "<builtin>.super"
+  ],
+  "errbot.backends.text.TextBackend.rooms": [],
+  "<builtin>.input": [],
+  "errbot.backends.text.TextBackend.readline_support.completer": [
+    "<builtin>.len",
+    "<builtin>.list"
+  ],
+  "readline.parse_and_bind": [],
+  "readline.set_completer": [],
+  "pygments.highlight": [],
+  "errbot.backends.text.TextBackend.add_reaction": [
+    "errbot.backends.text.TextBackend._react"
+  ],
+  "errbot.backends.text.TextBackend._react": [
+    "errbot.core.ErrBot.send"
+  ],
+  "errbot.backends.text.TextBackend.remove_reaction": [
+    "errbot.backends.text.TextBackend._react"
+  ],
+  "errbot.backends.text.TextBackend.change_presence": [
+    "logging.getLogger.debug"
+  ],
+  "errbot.backends.text.TextBackend.build_reply": [
+    "<builtin>.isinstance",
+    "errbot.backends.base.Backend.build_message"
+  ],
+  "errbot.backends.text.TextBackend.mode": [],
+  "errbot.backends.text.TextBackend.prefix_groupchat_reply": [],
+  "errbot.backends.text.TextBackend.send_stream_request": [
+    "errbot.backends.base.Stream.__init__",
+    "logging.getLogger.debug"
+  ],
+  "errbot.templates.initdir.example": [],
+  "errbot.templates.initdir.example.Example": [
+    "errbot.botcmd"
+  ],
+  "errbot.templates.initdir.example.Example.tryme": [],
+  "errbot.core_plugins.chatRoom": [
+    "logging.getLogger"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.callback_connect": [
+    "errbot.core_plugins.chatRoom.ChatRoom._join_room",
+    "logging.getLogger.debug",
+    "logging.getLogger.exception",
+    "logging.getLogger.info",
+    "<builtin>.repr"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom._join_room": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.isinstance",
+    "logging.getLogger.info"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.deactivate": [
+    "<builtin>.super"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>"
+  ],
+  "errbot.botcmd.<RETURN>": [],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_create": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_join": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_leave": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_destroy": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_invite": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_list": [
+    "<builtin>.len",
+    "<builtin>.str",
+    "errbot.botplugin.BotPlugin.rooms"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_occupants": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.len",
+    "<builtin>.map"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.room_topic": [
+    "errbot.botplugin.BotPlugin.query_room",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.chatRoom.ChatRoom.callback_message": [
+    "logging.getLogger.debug",
+    "errbot.botplugin.BotPlugin.send",
+    "errbot.botplugin.BotPlugin.query_room",
+    "logging.getLogger.exception",
+    "<builtin>.str"
+  ],
+  "errbot.core_plugins.acls": [],
+  "errbot.core_plugins.acls.get_acl_usr": [
+    "<builtin>.hasattr"
+  ],
+  "errbot.core_plugins.acls.get_acl_room": [
+    "<builtin>.str",
+    "<builtin>.hasattr"
+  ],
+  "errbot.core_plugins.acls.glob": [
+    "<builtin>.any",
+    "<builtin>.isinstance",
+    "fnmatch.fnmatchcase",
+    "<builtin>.str"
+  ],
+  "fnmatch.fnmatchcase": [],
+  "<builtin>.any": [],
+  "errbot.core_plugins.acls.ciglob": [
+    "errbot.core_plugins.acls.glob",
+    "<builtin>.isinstance"
+  ],
+  "errbot.core_plugins.acls.ACLS.access_denied": [],
+  "errbot.core_plugins.acls.ACLS": [
+    "errbot.cmdfilter"
+  ],
+  "errbot.core_plugins.acls.ACLS.acls": [
+    "errbot.core_plugins.acls.get_acl_room",
+    "logging.getLogger.debug",
+    "<builtin>.isinstance",
+    "errbot.core_plugins.acls.glob",
+    "errbot.core_plugins.acls.ACLS.access_denied",
+    "errbot.core_plugins.acls.get_acl_usr",
+    "errbot.core_plugins.acls.ciglob",
+    "<builtin>.Exception",
+    "logging.getLogger.info"
+  ],
+  "errbot.core_plugins.utils": [],
+  "errbot.core_plugins.utils.tail": [],
+  "errbot.core_plugins.utils.Utils": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>"
+  ],
+  "errbot.core_plugins.utils.Utils.echo": [],
+  "errbot.core_plugins.utils.Utils.whoami": [
+    "<builtin>.hasattr",
+    "<builtin>.str",
+    "errbot.botplugin.BotPlugin.build_identifier"
+  ],
+  "errbot.core_plugins.utils.Utils.history": [
+    "<builtin>.range",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.utils.Utils.log_tail": [
+    "<builtin>.open",
+    "<builtin>.int",
+    "errbot.core_plugins.utils.tail"
+  ],
+  "errbot.core_plugins.utils.Utils.render_test": [
+    "<builtin>.open",
+    "os.path.join",
+    "os.path.realpath",
+    "os.path.dirname"
+  ],
+  "errbot.core_plugins.health": [],
+  "errbot.core_plugins.health.Health": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>",
+    "errbot.arg_botcmd",
+    "errbot.arg_botcmd.<RETURN>"
+  ],
+  "errbot.core_plugins.health.Health.status": [
+    "errbot.core_plugins.health.Health.status_gc",
+    "errbot.core_plugins.health.Health.status_plugins",
+    "errbot.core_plugins.health.Health.status_load"
+  ],
+  "errbot.core_plugins.health.Health.status_plugins": [
+    "<builtin>.sorted"
+  ],
+  "errbot.core_plugins.health.Health.status_load": [
+    "posix.getloadavg"
+  ],
+  "errbot.core_plugins.health.Health.status_gc": [
+    "gc.get_count.get_count"
+  ],
+  "posix.getloadavg": [],
+  "gc.get_count.get_count": [],
+  "errbot.core_plugins.health.Health.uptime": [
+    "datetime.datetime.now",
+    "errbot.utils.format_timedelta"
+  ],
+  "errbot.core_plugins.health.Health.restart": [
+    "errbot.botplugin.BotPlugin.send",
+    "errbot.utils.global_restart"
+  ],
+  "errbot.arg_botcmd.<RETURN>": [],
+  "errbot.core_plugins.health.Health.shutdown": [
+    "os.kill",
+    "os.getpid"
+  ],
+  "os.getpid": [],
+  "os.kill": [],
+  "errbot.core_plugins.webserver": [],
+  "errbot.core_plugins.webserver.make_ssl_certificate": [
+    "OpenSSL.crypto.X509.get_subject",
+    "OpenSSL.crypto.dump_certificate",
+    "OpenSSL.crypto.X509.get_issuer",
+    "OpenSSL.crypto.X509.sign",
+    "OpenSSL.crypto.X509.gmtime_adj_notAfter",
+    "<builtin>.open",
+    "OpenSSL.crypto.PKey.generate_key",
+    "random.randrange",
+    "<builtin>.setattr",
+    "OpenSSL.crypto.X509.gmtime_adj_notBefore",
+    "OpenSSL.crypto.X509.set_serial_number",
+    "OpenSSL.crypto.PKey",
+    "OpenSSL.crypto.dump_privatekey",
+    "OpenSSL.crypto.X509",
+    "OpenSSL.crypto.X509.set_pubkey"
+  ],
+  "OpenSSL.crypto.X509": [],
+  "random.randrange": [],
+  "OpenSSL.crypto.X509.set_serial_number": [],
+  "OpenSSL.crypto.X509.gmtime_adj_notBefore": [],
+  "OpenSSL.crypto.X509.gmtime_adj_notAfter": [],
+  "OpenSSL.crypto.X509.get_subject": [],
+  "OpenSSL.crypto.X509.get_issuer": [],
+  "OpenSSL.crypto.PKey": [],
+  "OpenSSL.crypto.PKey.generate_key": [],
+  "OpenSSL.crypto.X509.set_pubkey": [],
+  "OpenSSL.crypto.X509.sign": [],
+  "OpenSSL.crypto.dump_certificate": [],
+  "OpenSSL.crypto.dump_privatekey": [],
+  "errbot.core_plugins.webserver.Webserver.__init__": [
+    "<builtin>.super",
+    "webtest.TestApp"
+  ],
+  "webtest.TestApp": [],
+  "errbot.core_plugins.webserver.Webserver.get_configuration_template": [],
+  "errbot.core_plugins.webserver.Webserver.check_configuration": [
+    "<builtin>.super"
+  ],
+  "errbot.core_plugins.webserver.Webserver.activate": [
+    "threading.Thread.is_alive",
+    "threading.Thread",
+    "logging.getLogger.debug",
+    "threading.Thread.start",
+    "<builtin>.Exception",
+    "logging.getLogger.info",
+    "<builtin>.super"
+  ],
+  "threading.Thread.is_alive": [],
+  "errbot.core_plugins.webserver.Webserver.deactivate": [
+    "<builtin>.super",
+    "threading.Thread.join",
+    "logging.getLogger.info",
+    "werkzeug.serving.ThreadedWSGIServer.shutdown"
+  ],
+  "werkzeug.serving.ThreadedWSGIServer.shutdown": [],
+  "errbot.core_plugins.webserver.Webserver.run_server": [
+    "logging.getLogger.setLevel",
+    "werkzeug.serving.ThreadedWSGIServer.serve_forever",
+    "logging.getLogger.debug",
+    "werkzeug.serving.ThreadedWSGIServer.shutdown",
+    "logging.getLogger",
+    "logging.getLogger.exception",
+    "logging.getLogger.info",
+    "werkzeug.serving.ThreadedWSGIServer"
+  ],
+  "werkzeug.serving.ThreadedWSGIServer": [],
+  "werkzeug.serving.ThreadedWSGIServer.serve_forever": [],
+  "errbot.core_plugins.webserver.Webserver": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>",
+    "errbot.webhook"
+  ],
+  "errbot.core_plugins.webserver.Webserver.webstatus": [],
+  "errbot.core_plugins.webserver.Webserver.echo": [
+    "logging.getLogger.debug",
+    "<builtin>.str"
+  ],
+  "errbot.core_plugins.webserver.Webserver.webhook_test": [
+    "flask.request.data.decode.split",
+    "errbot.core_plugins.webserver.unquote",
+    "webtest.TestApp.post",
+    "logging.getLogger.debug",
+    "urllib.request.unquote",
+    "json.loads.split",
+    "urllib.request.unquote.split",
+    "flask.request.form.get",
+    "json.loads",
+    "flask.request.form.get.split",
+    "errbot.core_plugins.webserver.unquote.split"
+  ],
+  "flask.request.data.decode.split": [],
+  "urllib.request.unquote.split": [],
+  "json.loads.split": [],
+  "flask.request.form.get.split": [],
+  "errbot.core_plugins.webserver.unquote.split": [],
+  "errbot.core_plugins.webserver.unquote": [],
+  "urllib.request.unquote": [],
+  "webtest.TestApp.post": [],
+  "errbot.core_plugins.webserver.Webserver.generate_certificate": [
+    "errbot.core_plugins.webserver.make_ssl_certificate",
+    "os.sep.join"
+  ],
+  "os.sep.join": [],
+  "errbot.core_plugins.backup": [],
+  "errbot.core_plugins.backup.Backup": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>"
+  ],
+  "errbot.core_plugins.backup.Backup.backup": [
+    "<builtin>.open",
+    "<builtin>.repr",
+    "os.path.join"
+  ],
+  "errbot.core_plugins.flows": [],
+  "errbot.core_plugins.flows.Flows.recurse_node": [
+    "errbot.core_plugins.flows.Flows.recurse_node",
+    "<builtin>.len",
+    "<builtin>.str",
+    "<builtin>.isinstance"
+  ],
+  "errbot.core_plugins.flows.Flows": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>",
+    "errbot.arg_botcmd",
+    "errbot.arg_botcmd.<RETURN>"
+  ],
+  "errbot.core_plugins.flows.Flows.flows_show": [
+    "errbot.core_plugins.flows.Flows.recurse_node",
+    "io.StringIO"
+  ],
+  "errbot.core_plugins.flows.Flows.flows_list": [
+    "io.StringIO"
+  ],
+  "errbot.core_plugins.flows.Flows.flows_start": [
+    "<builtin>.len",
+    "json.loads"
+  ],
+  "errbot.core_plugins.flows.Flows.flows_status": [
+    "io.StringIO",
+    "errbot.core_plugins.flows.Flows.recurse_node",
+    "errbot.core_plugins.flows.Flows.check_user",
+    "errbot.core_plugins.acls.get_acl_usr",
+    "<builtin>.str"
+  ],
+  "errbot.core_plugins.flows.Flows.check_user": [
+    "errbot.core_plugins.acls.glob",
+    "errbot.core_plugins.acls.get_acl_usr"
+  ],
+  "errbot.core_plugins.flows.Flows.flows_stop": [],
+  "errbot.core_plugins.flows.Flows.flows_kill": [
+    "errbot.botplugin.BotPlugin.build_identifier"
+  ],
+  "errbot.core_plugins.plugins": [],
+  "errbot.core_plugins.plugins.Plugins": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>"
+  ],
+  "errbot.core_plugins.plugins.Plugins.repos_install": [
+    "shutil.rmtree",
+    "<builtin>.str"
+  ],
+  "errbot.core_plugins.plugins.Plugins.repos_uninstall": [
+    "fnmatch.filter.strip",
+    "os.path.join",
+    "os.pardir.strip"
+  ],
+  "fnmatch.filter.strip": [],
+  "os.pardir.strip": [],
+  "errbot.core_plugins.plugins.Plugins.repos": [],
+  "errbot.core_plugins.plugins.Plugins.repos_search": [],
+  "errbot.core_plugins.plugins.Plugins.repos_update": [
+    "<builtin>.hasattr"
+  ],
+  "errbot.core_plugins.plugins.Plugins.plugin_config": [
+    "pprint.pformat",
+    "<builtin>.len",
+    "logging.getLogger.debug",
+    "ast.literal_eval",
+    "logging.getLogger.exception",
+    "<builtin>.type"
+  ],
+  "pprint.pformat": [],
+  "ast.literal_eval": [],
+  "errbot.core_plugins.plugins.Plugins.formatted_plugin_list": [],
+  "errbot.core_plugins.plugins.Plugins.plugin_reload": [
+    "errbot.core_plugins.plugins.Plugins.formatted_plugin_list"
+  ],
+  "errbot.core_plugins.plugins.Plugins.plugin_activate": [
+    "errbot.core_plugins.plugins.Plugins.formatted_plugin_list"
+  ],
+  "errbot.core_plugins.plugins.Plugins.plugin_deactivate": [
+    "errbot.core_plugins.plugins.Plugins.formatted_plugin_list"
+  ],
+  "errbot.core_plugins.plugins.Plugins.plugin_blacklist": [
+    "errbot.core_plugins.plugins.Plugins.formatted_plugin_list"
+  ],
+  "errbot.core_plugins.plugins.Plugins.plugin_unblacklist": [
+    "errbot.core_plugins.plugins.Plugins.formatted_plugin_list"
+  ],
+  "errbot.core_plugins.plugins.Plugins.plugin_info": [
+    "errbot.core_plugins.plugins.Plugins.formatted_plugin_list"
+  ],
+  "errbot.core_plugins.vcheck": [
+    "<builtin>.str",
+    "errbot.utils.version2tuple"
+  ],
+  "errbot.core_plugins.vcheck.VersionChecker.activate": [
+    "errbot.core_plugins.vcheck.VersionChecker.version_check",
+    "logging.getLogger.info",
+    "<builtin>.super",
+    "errbot.botplugin.BotPlugin.start_poller"
+  ],
+  "errbot.core_plugins.vcheck.VersionChecker.version_check": [
+    "logging.getLogger.debug",
+    "threading.Thread",
+    "threading.Thread.start"
+  ],
+  "errbot.core_plugins.vcheck.VersionChecker.deactivate": [
+    "<builtin>.super"
+  ],
+  "errbot.core_plugins.vcheck.VersionChecker._get_version": [
+    "requests.get.json.get",
+    "logging.getLogger.debug",
+    "requests.get",
+    "requests.get.json",
+    "logging.getLogger.info"
+  ],
+  "errbot.core_plugins.vcheck.VersionChecker._async_vcheck": [
+    "logging.getLogger.debug",
+    "errbot.core_plugins.vcheck.VersionChecker._get_version",
+    "errbot.utils.version2tuple",
+    "errbot.botplugin.BotPlugin.warn_admins"
+  ],
+  "errbot.core_plugins.vcheck.VersionChecker.callback_connect": [],
+  "errbot.core_plugins.cnf_filter": [],
+  "errbot.core_plugins.cnf_filter.CommandNotFoundFilter": [
+    "errbot.cmdfilter.<lambda1>",
+    "errbot.cmdfilter",
+    "errbot.cmdfilter.<lambda1>.func"
+  ],
+  "errbot.cmdfilter.<lambda1>.func": [],
+  "errbot.core_plugins.cnf_filter.CommandNotFoundFilter.cnf_filter": [
+    "logging.getLogger.debug",
+    "<builtin>.len"
+  ],
+  "errbot.core_plugins.textcmds": [],
+  "errbot.core_plugins.textcmds.TextModeCmds.activate": [
+    "<builtin>.super",
+    "errbot.botplugin.BotPlugin.build_identifier"
+  ],
+  "errbot.core_plugins.textcmds.TextModeCmds.deactivate": [
+    "<builtin>.super"
+  ],
+  "errbot.core_plugins.textcmds.TextModeCmds": [
+    "errbot.botcmd"
+  ],
+  "errbot.core_plugins.textcmds.TextModeCmds.inroom": [],
+  "errbot.core_plugins.textcmds.TextModeCmds.inperson": [],
+  "errbot.core_plugins.textcmds.TextModeCmds.asuser": [
+    "errbot.botplugin.BotPlugin.build_identifier"
+  ],
+  "errbot.core_plugins.textcmds.TextModeCmds.asadmin": [
+    "errbot.botplugin.BotPlugin.build_identifier"
+  ],
+  "errbot.core_plugins.textcmds.TextModeCmds.ml": [],
+  "errbot.core_plugins.help": [],
+  "errbot.core_plugins.help.Help.is_git_directory": [
+    "errbot.utils.git_tag_list"
+  ],
+  "errbot.core_plugins.help.Help": [
+    "errbot.botcmd",
+    "errbot.botcmd.<RETURN>"
+  ],
+  "errbot.core_plugins.help.Help.about": [
+    "<builtin>.dict",
+    "errbot.core_plugins.help.Help.is_git_directory"
+  ],
+  "errbot.core_plugins.help.Help.apropos": [
+    "<builtin>.sorted",
+    "<builtin>.filter"
+  ],
+  "errbot.core_plugins.help.Help.help": [
+    "<builtin>.dict",
+    "errbot.core_plugins.help.Help.help.may_access_command",
+    "errbot.core_plugins.help.Help._cmd_help_line",
+    "<builtin>.sorted",
+    "<builtin>.getattr",
+    "<builtin>.filter"
+  ],
+  "errbot.core_plugins.help.Help.help.may_access_command": [],
+  "errbot.core_plugins.help.Help.help.get_name": [],
+  "errbot.core_plugins.help.Help.help.<lambda1>": [],
+  "errbot.core_plugins.help.Help._cmd_help_line": [
+    "textwrap.dedent.strip.split",
+    "textwrap.dedent",
+    "<builtin>.len",
+    "<builtin>.getattr",
+    "textwrap.dedent.strip"
+  ],
+  "textwrap.dedent.strip": [],
+  "textwrap.dedent.strip.split": [],
+  "errbot.cli": [
+    "signal.signal",
+    "platform.system",
+    "errbot.cli.main",
+    "logging.getLogger"
+  ],
+  "errbot.cli.debug": [
+    "code.InteractiveConsole.interact",
+    "traceback.format_stack",
+    "code.InteractiveConsole"
+  ],
+  "code.InteractiveConsole": [],
+  "traceback.format_stack": [],
+  "code.InteractiveConsole.interact": [],
+  "signal.signal": [],
+  "errbot.cli.get_config": [
+    "<builtin>.__import__",
+    "os.path.join",
+    "os.path.splitext",
+    "os.path.realpath",
+    "logging.getLogger.error",
+    "os.path.basename",
+    "logging.getLogger.exception",
+    "<builtin>.exit",
+    "logging.getLogger.info",
+    "os.path.exists"
+  ],
+  "os.path.basename": [],
+  "os.path.splitext": [],
+  "errbot.cli._read_dict": [
+    "sys.stdin.read",
+    "<builtin>.isinstance",
+    "ast.literal_eval",
+    "<builtin>.ValueError",
+    "<builtin>.repr",
+    "<builtin>.type"
+  ],
+  "sys.stdin.read": [],
+  "errbot.cli.main": [
+    "errbot.plugin_wizard.new_plugin_wizard",
+    "errbot.backend_plugin_manager.enumerate_backend_plugins",
+    "jinja2.FileSystemLoader",
+    "<builtin>.Exception",
+    "errbot.utils.collect_roots",
+    "<builtin>.str",
+    "jinja2.Environment.get_template.render",
+    "argparse.ArgumentParser",
+    "pathlib.Path.cwd",
+    "os.getcwd",
+    "<builtin>.hasattr",
+    "logging.getLogger",
+    "<builtin>.getattr",
+    "pathlib.Path",
+    "logging.getLogger.exception",
+    "<builtin>.exit",
+    "logging.getLogger.info",
+    "argparse.ArgumentParser.add_argument_group.add_argument",
+    "os.path.exists",
+    "argparse.ArgumentParser.add_argument",
+    "errbot.cli.get_config",
+    "<builtin>.open",
+    "daemonize.Daemonize.start",
+    "argparse.ArgumentParser.add_mutually_exclusive_group",
+    "<builtin>.isinstance",
+    "os.path.join",
+    "errbot.bootstrap.bootstrap",
+    "sys.path.insert",
+    "<builtin>.print",
+    "errbot.utils.entry_point_plugins",
+    "logging.getLogger.removeHandler",
+    "logging.getLogger.fatal",
+    "<builtin>.vars",
+    "sys.exit",
+    "os.path.abspath",
+    "os.access",
+    "daemonize.Daemonize",
+    "errbot.cli.main.storage_action",
+    "os.path.dirname",
+    "shutil.copyfile",
+    "jinja2.Environment.get_template",
+    "argparse.ArgumentParser.add_argument_group",
+    "sys.stderr.write",
+    "argparse.ArgumentParser.add_mutually_exclusive_group.add_argument",
+    "pathlib.Path.resolve",
+    "argparse.ArgumentParser.parse_args",
+    "jinja2.Environment"
+  ],
+  "sys.path.insert": [],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_argument": [],
+  "argparse.ArgumentParser.add_mutually_exclusive_group": [],
+  "argparse.ArgumentParser.add_mutually_exclusive_group.add_argument": [],
+  "argparse.ArgumentParser.add_argument_group": [],
+  "argparse.ArgumentParser.add_argument_group.add_argument": [],
+  "pathlib.Path.cwd": [],
+  "pathlib.Path.resolve": [],
+  "shutil.copyfile": [],
+  "errbot.plugin_wizard.new_plugin_wizard": [
+    "os.makedirs",
+    "os.path.join",
+    "<builtin>.open",
+    "<builtin>.locals",
+    "os.path.isdir",
+    "<builtin>.print",
+    "configparser.ConfigParser.write",
+    "errbot.plugin_wizard.render_plugin",
+    "errbot.plugin_wizard.ask",
+    "configparser.ConfigParser",
+    "sys.exit",
+    "os.getcwd",
+    "os.path.exists"
+  ],
+  "sys.stderr.write": [],
+  "errbot.cli.main.storage_action": [
+    "errbot.bootstrap.get_storage_plugin",
+    "errbot.storage.StoreMixin.__init__",
+    "errbot.cli.main.replace",
+    "<builtin>.str",
+    "<builtin>.print",
+    "errbot.cli.main.merge",
+    "errbot.cli.main.p"
+  ],
+  "errbot.cli.main.replace": [
+    "errbot.cli._read_dict"
+  ],
+  "errbot.cli.main.merge": [
+    "errbot.cli._read_dict",
+    "deepmerge.always_merger.merge",
+    "ast.literal_eval.items"
+  ],
+  "errbot.cli.main.p": [
+    "<builtin>.dict",
+    "<builtin>.print",
+    "<builtin>.repr"
+  ],
+  "ast.literal_eval.items": [],
+  "deepmerge.always_merger.merge": [],
+  "errbot.cli.main.action": [
+    "errbot.bootstrap.bootstrap"
+  ],
+  "daemonize.Daemonize": [],
+  "daemonize.Daemonize.start": [],
+  "errbot.plugin_wizard": [
+    "errbot.plugin_wizard.new_plugin_wizard",
+    "sys.exit"
+  ],
+  "os.path.isdir": [],
+  "errbot.plugin_wizard.ask": [
+    "<builtin>.input",
+    "<builtin>.print",
+    "<builtin>.isinstance",
+    "re.search"
+  ],
+  "configparser.ConfigParser.write": [],
+  "<builtin>.locals": [],
+  "errbot.plugin_wizard.render_plugin": [
+    "jinja2.Environment.get_template.render",
+    "os.path.join",
+    "os.path.dirname",
+    "jinja2.FileSystemLoader",
+    "jinja2.Environment.get_template",
+    "jinja2.Environment"
+  ],
+  "re.search": [],
+  "errbot.config-template": [],
+  "errbot.storage.shelf": [
+    "logging.getLogger"
+  ],
+  "errbot.storage.shelf.ShelfStorage.__init__": [
+    "logging.getLogger.debug",
+    "shelve.DbfilenameShelf"
+  ],
+  "shelve.DbfilenameShelf": [],
+  "errbot.storage.shelf.ShelfStorage.get": [],
+  "errbot.storage.shelf.ShelfStorage.remove": [
+    "<builtin>.KeyError"
+  ],
+  "<builtin>.KeyError": [],
+  "errbot.storage.shelf.ShelfStorage.set": [],
+  "errbot.storage.shelf.ShelfStorage.len": [
+    "errbot.storage.shelf.ShelfStorage.len"
+  ],
+  "errbot.storage.shelf.ShelfStorage.keys": [
+    "shelve.DbfilenameShelf.keys"
+  ],
+  "shelve.DbfilenameShelf.keys": [],
+  "errbot.storage.shelf.ShelfStorage.close": [
+    "shelve.DbfilenameShelf.close"
+  ],
+  "shelve.DbfilenameShelf.close": [],
+  "errbot.storage.shelf.ShelfStoragePlugin.__init__": [
+    "<builtin>.super"
+  ],
+  "errbot.storage.shelf.ShelfStoragePlugin.open": [
+    "errbot.storage.shelf.ShelfStorage.__init__",
+    "os.path.join",
+    "logging.getLogger.warning",
+    "shutil.move",
+    "os.path.isfile",
+    "logging.getLogger.info"
+  ],
+  "shutil.move": [],
+  "errbot.storage.memory": [],
+  "errbot.storage.memory.MemoryStorage.__init__": [],
+  "errbot.storage.memory.MemoryStorage.get": [
+    "<builtin>.KeyError"
+  ],
+  "errbot.storage.memory.MemoryStorage.set": [],
+  "errbot.storage.memory.MemoryStorage.remove": [
+    "<builtin>.KeyError"
+  ],
+  "errbot.storage.memory.MemoryStorage.len": [
+    "errbot.storage.memory.MemoryStorage.len"
+  ],
+  "errbot.storage.memory.MemoryStorage.keys": [],
+  "errbot.storage.memory.MemoryStorage.close": [],
+  "errbot.storage.memory.MemoryStoragePlugin.open": [
+    "errbot.storage.memory.MemoryStorage.__init__"
+  ],
+  "setup": [
+    "setup.read",
+    "os.path.join",
+    "<builtin>.set",
+    "setup.read_version",
+    "<builtin>.RuntimeError",
+    "<builtin>.Exception",
+    "setuptools.setup",
+    "setuptools.find_packages"
+  ],
+  "<builtin>.RuntimeError": [],
+  "setup.read_version": [
+    "<builtin>.open",
+    "<builtin>.compile",
+    "<builtin>.exec"
+  ],
+  "<builtin>.compile": [],
+  "setup.read": [
+    "<builtin>.open",
+    "os.path.join",
+    "os.path.dirname"
+  ],
+  "setuptools.find_packages": [],
+  "setuptools.setup": []
+}

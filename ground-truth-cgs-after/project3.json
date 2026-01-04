@@ -1,0 +1,297 @@
+{
+  "flask_api.settings": [
+    "flask_api.settings.APISettings"
+  ],
+  "flask_api.settings.APISettings.DEFAULT_PARSERS": [
+    "dict.get",
+    "flask_api.settings.perform_imports",
+    "Config.get"
+  ],
+  "flask_api.settings.perform_imports": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "flask_api.settings.perform_imports",
+    "flask_api.settings.import_from_string"
+  ],
+  "flask_api.settings.import_from_string": [
+    "str.split",
+    "str.join",
+    "importlib.import_module",
+    "builtins.getattr",
+    "builtins.ImportError"
+  ],
+  "flask_api.settings.APISettings.DEFAULT_RENDERERS": [
+    "dict.get",
+    "flask_api.settings.perform_imports",
+    "Config.get"
+  ],
+  "flask_api.app": [
+    "flask.blueprints.Blueprint"
+  ],
+  "flask_api.app.FlaskAPI.__init__": [
+    "flask.app.Flask.__init__",
+    "flask_api.settings.APISettings",
+    "flask.app.Flask.register_blueprint"
+  ],
+  "flask_api.app.FlaskAPI.create_url_adapter": [
+    "dict.copy",
+    "werkzeug.routing.map.Map.bind_to_environ"
+  ],
+  "flask_api.request.APIRequest.method": [
+    "builtins.hasattr"
+  ],
+  "flask_api.app.FlaskAPI.preprocess_request": [
+    "flask.app.Flask.preprocess_request"
+  ],
+  "flask_api.app.FlaskAPI.handle_user_exception": [
+    "sys.exc_info",
+    "builtins.isinstance",
+    "flask.app.Flask.trap_http_exception",
+    "flask.app.Flask.handle_http_exception",
+    "builtins.isinstance",
+    "flask_api.app.FlaskAPI.handle_api_exception",
+    "defaultdict.get",
+    "defaultdict.get",
+    "defaultdict.get",
+    "flask_api.compat.is_flask_legacy",
+    "builtins.dict",
+    "dict.items",
+    "itertools.chain",
+    "builtins.isinstance",
+    "flask_api.tests.test_app.handle_invalid_usage"
+  ],
+  "flask_api.app.FlaskAPI.make_response": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "werkzeug.wrappers.response.Response.force_type",
+    "flask_api.response.APIResponse",
+    "builtins.len",
+    "builtins.ValueError"
+  ],
+  "flask_api.response.APIResponse.__init__": [
+    "werkzeug.wrappers.response.Response.__init__",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "flask_api.response.APIResponse.get_renderer_options",
+    "flask_api.renderers.JSONRenderer.render",
+    "werkzeug.wrappers.response.Response.set_data",
+    "builtins.str",
+    "flask_api.renderers.BrowsableAPIRenderer.render",
+    "flask_api.tests.test_renderers.OverrideParserSettings.setUp.<locals>.CustomRenderer2.render",
+    "flask_api.tests.test_renderers.OverrideParserSettings.setUp.<locals>.CustomRenderer1.render"
+  ],
+  "flask_api.decorators.decorated_function": [
+    "builtins.len",
+    "builtins.isinstance",
+    "flask_api.tests.test_app.accepted_media_type",
+    "builtins.len",
+    "builtins.isinstance",
+    "flask_api.tests.test_parsers.OverrideParserSettings.setUp.<locals>.custom_parser_2",
+    "flask_api.tests.test_parsers.OverrideParserSettings.setUp.<locals>.custom_parser_2_as_args",
+    "flask_api.tests.test_renderers.OverrideParserSettings.setUp.<locals>.custom_renderer_2",
+    "flask_api.tests.test_renderers.OverrideParserSettings.setUp.<locals>.custom_renderer_2_as_args"
+  ],
+  "flask_api.request.APIRequest.accepted_media_type": [
+    "builtins.hasattr",
+    "flask_api.request.APIRequest._perform_content_negotiation"
+  ],
+  "flask_api.request.APIRequest._perform_content_negotiation": [
+    "flask_api.negotiation.DefaultNegotiation",
+    "flask_api.tests.test_app.JSONVersion2",
+    "flask_api.tests.test_app.JSONVersion1",
+    "flask_api.negotiation.DefaultNegotiation.select_renderer",
+    "flask_api.renderers.JSONRenderer",
+    "flask_api.renderers.BrowsableAPIRenderer",
+    "flask_api.tests.test_renderers.OverrideParserSettings.setUp.<locals>.CustomRenderer2",
+    "flask_api.tests.test_renderers.OverrideParserSettings.setUp.<locals>.CustomRenderer1"
+  ],
+  "flask_api.negotiation.DefaultNegotiation.select_renderer": [
+    "werkzeug.datastructures.Headers.get",
+    "flask_api.mediatypes.parse_accept_header",
+    "flask_api.mediatypes.MediaType",
+    "flask_api.mediatypes.MediaType.satisfies",
+    "flask_api.exceptions.NotAcceptable"
+  ],
+  "flask_api.mediatypes.parse_accept_header": [
+    "builtins.set",
+    "str.split",
+    "str.strip",
+    "flask_api.mediatypes.MediaType",
+    "set.add"
+  ],
+  "flask_api.mediatypes.MediaType.__init__": [
+    "flask_api.mediatypes.MediaType._parse"
+  ],
+  "flask_api.mediatypes.MediaType._parse": [
+    "str.partition",
+    "str.strip",
+    "str.split",
+    "str.partition",
+    "str.strip",
+    "str.startswith",
+    "str.endswith",
+    "str.partition",
+    "str.strip"
+  ],
+  "flask_api.mediatypes.MediaType.precedence": [
+    "dict.keys",
+    "builtins.list"
+  ],
+  "flask_api.mediatypes.MediaType.__hash__": [
+    "builtins.str",
+    "builtins.hash"
+  ],
+  "flask_api.mediatypes.MediaType.__str__": [
+    "dict.items",
+    "builtins.sorted",
+    "str.join"
+  ],
+  "flask_api.mediatypes.MediaType.satisfies": [
+    "dict.keys",
+    "dict.get"
+  ],
+  "flask_api.request.APIRequest.accepted_renderer": [
+    "builtins.hasattr",
+    "flask_api.request.APIRequest._perform_content_negotiation"
+  ],
+  "flask_api.renderers.JSONRenderer.render": [
+    "dict.get",
+    "json.dumps",
+    "builtins.int",
+    "builtins.min",
+    "builtins.max"
+  ],
+  "flask_api.app.FlaskAPI.handle_api_exception": [
+    "flask_api.response.APIResponse"
+  ],
+  "flask_api.compat.is_flask_legacy": [
+    "str.split",
+    "builtins.int"
+  ],
+  "flask_api.mediatypes.MediaType.__repr__": [
+    "builtins.str"
+  ],
+  "flask_api.negotiation.BaseNegotiation.select_renderer": [
+    "builtins.NotImplementedError"
+  ],
+  "flask_api.negotiation.BaseNegotiation.select_parser": [
+    "builtins.NotImplementedError"
+  ],
+  "flask_api.request.APIRequest.content_type": [
+    "builtins.hasattr",
+    "flask_api.request.APIRequest._perform_method_overloading"
+  ],
+  "flask_api.request.APIRequest._perform_method_overloading": [
+    "builtins.hasattr",
+    "werkzeug.datastructures.Headers.get",
+    "werkzeug.wsgi.get_content_length",
+    "werkzeug.wrappers.request.Request.get_data",
+    "_io.BytesIO",
+    "werkzeug.urls.url_decode_stream",
+    "_io.BytesIO"
+  ],
+  "flask_api.negotiation.DefaultNegotiation.select_parser": [
+    "flask_api.mediatypes.MediaType",
+    "flask_api.mediatypes.MediaType",
+    "flask_api.mediatypes.MediaType.satisfies",
+    "flask_api.exceptions.UnsupportedMediaType"
+  ],
+  "flask_api.request.APIRequest.data": [
+    "builtins.hasattr",
+    "flask_api.request.APIRequest._parse"
+  ],
+  "flask_api.request.APIRequest.content_length": [
+    "builtins.hasattr"
+  ],
+  "flask_api.request.APIRequest._parse": [
+    "flask_api.negotiation.DefaultNegotiation",
+    "flask_api.parsers.JSONParser",
+    "flask_api.parsers.URLEncodedParser",
+    "flask_api.parsers.MultiPartParser",
+    "flask_api.request.APIRequest._get_parser_options",
+    "flask_api.negotiation.DefaultNegotiation.select_parser",
+    "flask_api.parsers.JSONParser.parse",
+    "werkzeug.datastructures.MultiDict",
+    "werkzeug.datastructures.MultiDict",
+    "flask_api.parsers.MultiPartParser.parse",
+    "builtins.isinstance",
+    "builtins.len",
+    "flask_api.parsers.URLEncodedParser.parse",
+    "flask_api.tests.test_parsers.OverrideParserSettings.setUp.<locals>.CustomParser2",
+    "flask_api.tests.test_parsers.OverrideParserSettings.setUp.<locals>.CustomParser2.parse",
+    "flask_api.tests.test_parsers.OverrideParserSettings.setUp.<locals>.CustomParser1",
+    "flask_api.tests.test_parsers.OverrideParserSettings.setUp.<locals>.CustomParser1.parse",
+    "flask_api.request.APIRequest._set_empty_data",
+    "flask_api.request.APIRequest._set_empty_data"
+  ],
+  "flask_api.request.APIRequest.stream": [
+    "builtins.hasattr"
+  ],
+  "flask_api.parsers.JSONParser.parse": [
+    "werkzeug.wsgi.LimitedStream.read",
+    "bytes.decode",
+    "json.loads",
+    "BytesIO.read",
+    "builtins.str",
+    "flask_api.exceptions.ParseError"
+  ],
+  "flask_api.request.APIRequest.form": [
+    "builtins.hasattr",
+    "flask_api.request.APIRequest._parse"
+  ],
+  "flask_api.request.APIRequest.files": [
+    "builtins.hasattr",
+    "flask_api.request.APIRequest._parse"
+  ],
+  "flask_api.parsers.MultiPartParser.parse": [
+    "dict.get",
+    "str.encode",
+    "dict.get",
+    "werkzeug.formparser.MultiPartParser",
+    "werkzeug.formparser.MultiPartParser.parse",
+    "builtins.str",
+    "flask_api.exceptions.ParseError",
+    "flask_api.exceptions.ParseError"
+  ],
+  "flask_api.parsers.URLEncodedParser.parse": [
+    "werkzeug.urls.url_decode_stream"
+  ],
+  "flask_api.parsers.BaseParser.parse": [
+    "builtins.NotImplementedError"
+  ],
+  "flask_api.renderers.BrowsableAPIRenderer.render": [
+    "builtins.issubclass",
+    "flask_api.renderers.JSONRenderer",
+    "flask_api.mediatypes.MediaType",
+    "flask_api.renderers.JSONRenderer.render",
+    "flask_api.renderers.BrowsableAPIRenderer._html_escape",
+    "werkzeug.routing.map.MapAdapter.allowed_methods",
+    "builtins.str",
+    "builtins.str",
+    "flask_api.renderers.convert_to_title",
+    "flask.templating.render_template"
+  ],
+  "flask_api.renderers.BrowsableAPIRenderer._html_escape": [
+    "str.replace"
+  ],
+  "flask_api.renderers.convert_to_title": [
+    "str.replace",
+    "str.capitalize"
+  ],
+  "flask_api.app.urlize_quoted_links": [
+    "re.sub"
+  ],
+  "flask_api.renderers.BaseRenderer.render": [
+    "builtins.NotImplementedError"
+  ],
+  "flask_api.request.APIRequest.full_path": [
+    "bytes.decode"
+  ],
+  "flask_api.request.APIRequest._set_empty_data": [
+    "werkzeug.datastructures.MultiDict",
+    "werkzeug.datastructures.MultiDict",
+    "werkzeug.datastructures.MultiDict"
+  ]
+}

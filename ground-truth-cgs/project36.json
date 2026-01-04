@@ -1,0 +1,268 @@
+{
+  "zerorpc.gevent_zmq": [
+    "logging.getLogger"
+  ],
+  "zerorpc.events": [
+    "logging.getLogger"
+  ],
+  "zerorpc.channel": [
+    "logging.getLogger"
+  ],
+  "zerorpc.patterns": [
+    "zerorpc.patterns.ReqStream",
+    "zerorpc.patterns.ReqRep"
+  ],
+  "zerorpc.decorators": [
+    "zerorpc.patterns.ReqRep",
+    "zerorpc.patterns.ReqStream"
+  ],
+  "zerorpc.core": [
+    "logging.getLogger"
+  ],
+  "zerorpc.decorators.DecoratorBase.__init__": [
+    "builtins.str",
+    "builtins.getattr"
+  ],
+  "zerorpc.events.Events.__init__": [
+    "zerorpc.context.Context.get_instance",
+    "zerorpc.gevent_zmq.Context.socket",
+    "zerorpc.events.Sender",
+    "zerorpc.events.Receiver"
+  ],
+  "zerorpc.context.Context.get_instance": [
+    "zerorpc.context.Context"
+  ],
+  "zerorpc.context.Context.__init__": [
+    "zmq.sugar.context.Context.__init__",
+    "zerorpc.context.Context._reset_msgid"
+  ],
+  "zerorpc.context.Context._reset_msgid": [
+    "uuid.uuid4",
+    "future.utils.tobytes",
+    "random.Random.randrange",
+    "random.Random.randrange"
+  ],
+  "zerorpc.gevent_zmq.Context.socket": [
+    "zerorpc.gevent_zmq.Socket"
+  ],
+  "zerorpc.gevent_zmq.Socket.__init__": [
+    "zmq.sugar.socket.Socket.__init__",
+    "zmq.backend.cython.socket.Socket.get",
+    "gevent._gevent_cevent.Event",
+    "gevent._gevent_cevent.Event",
+    "gevent._gevent_c_hub_local.get_hub",
+    "gevent.libev.corecext.loop.io",
+    "gevent.libev.corecext.io.start"
+  ],
+  "zerorpc.events.Sender.__init__": [
+    "gevent._gevent_cqueue.Channel",
+    "gevent._gevent_cgreenlet.Greenlet.spawn"
+  ],
+  "zerorpc.events.Receiver.__init__": [
+    "gevent._gevent_cqueue.Channel",
+    "gevent._gevent_cgreenlet.Greenlet.spawn"
+  ],
+  "zerorpc.events.Events.bind": [
+    "zerorpc.events.Events._resolve_endpoint",
+    "zmq.sugar.socket.Socket.bind",
+    "list.append",
+    "logging.Logger.debug"
+  ],
+  "zerorpc.events.Events._resolve_endpoint": [
+    "zerorpc.context.Context.hook_resolve_endpoint",
+    "builtins.isinstance"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.__init__": [
+    "gevent._gevent_cqueue.Queue",
+    "gevent._gevent_cgreenlet.Greenlet.spawn"
+  ],
+  "zerorpc.events.Events.connect": [
+    "zerorpc.events.Events._resolve_endpoint",
+    "zerorpc.gevent_zmq.Socket.connect",
+    "list.append",
+    "logging.Logger.debug"
+  ],
+  "zerorpc.gevent_zmq.Socket.connect": [
+    "zmq.sugar.socket.Socket.connect"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.channel": [
+    "gevent._gevent_cgreenlet.Greenlet.spawn",
+    "zerorpc.channel.Channel"
+  ],
+  "zerorpc.channel.Channel.__init__": [
+    "gevent._gevent_cqueue.Queue",
+    "logging.Logger.debug",
+    "gevent._gevent_cqueue.Queue.put"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.__init__": [
+    "gevent._gevent_cqueue.Channel",
+    "gevent._gevent_cgreenlet.Greenlet.spawn",
+    "greenlet._greenlet.getcurrent",
+    "zerorpc.heartbeat.HeartBeatOnChannel._start_heartbeat"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel._start_heartbeat": [
+    "gevent._gevent_cgreenlet.Greenlet.spawn"
+  ],
+  "zerorpc.channel.BufferedChannel.__init__": [
+    "gevent._gevent_cevent.Event",
+    "gevent._gevent_cqueue.Queue",
+    "gevent._gevent_cgreenlet.Greenlet.spawn"
+  ],
+  "zerorpc.channel_base.ChannelBase.emit": [
+    "zerorpc.channel.BufferedChannel.new_event",
+    "zerorpc.channel.BufferedChannel.emit_event",
+    "zerorpc.channel.Channel.new_event",
+    "zerorpc.channel.Channel.emit_event"
+  ],
+  "zerorpc.channel.BufferedChannel.new_event": [
+    "zerorpc.heartbeat.HeartBeatOnChannel.new_event"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.new_event": [
+    "zerorpc.channel.Channel.new_event"
+  ],
+  "zerorpc.channel.Channel.new_event": [
+    "zerorpc.channel.ChannelMultiplexer.new_event",
+    "logging.Logger.debug"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.new_event": [
+    "zerorpc.events.Events.new_event"
+  ],
+  "zerorpc.events.Events.new_event": [
+    "zerorpc.events.Event"
+  ],
+  "zerorpc.events.Event.__init__": [
+    "zerorpc.context.Context.new_msgid"
+  ],
+  "zerorpc.context.Context.new_msgid": [
+    "str.format",
+    "future.utils.tobytes"
+  ],
+  "zerorpc.channel.BufferedChannel.emit_event": [
+    "zerorpc.heartbeat.HeartBeatOnChannel.emit_event"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.emit_event": [
+    "zerorpc.channel.Channel.emit_event"
+  ],
+  "zerorpc.channel.Channel.emit_event": [
+    "zerorpc.channel.ChannelMultiplexer.emit_event"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.emit_event": [
+    "zerorpc.events.Events.emit_event"
+  ],
+  "zerorpc.events.Events.emit_event": [
+    "zerorpc.events.Event.pack",
+    "<zerorpc.events.Sender object at 0x7f40de4ea740>",
+    "builtins.list",
+    "zerorpc.events.Event.pack",
+    "list.extend",
+    "<zerorpc.events.Sender object at 0x7f40de6b51b0>"
+  ],
+  "zerorpc.events.Event.pack": [
+    "msgpack._cmsgpack.Packer",
+    "Packer.pack"
+  ],
+  "zerorpc.events.Sender.__call__": [
+    "gevent._gevent_cqueue.Channel.put"
+  ],
+  "zerorpc.events.Receiver._recver": [
+    "zerorpc.events.SequentialReceiver._recv",
+    "gevent._gevent_cqueue.Channel.put"
+  ],
+  "zerorpc.events.SequentialReceiver._recv": [
+    "zerorpc.gevent_zmq.Socket.recv",
+    "list.append"
+  ],
+  "zerorpc.gevent_zmq.Socket.recv": [
+    "zmq.backend.cython.socket.Socket.recv",
+    "gevent._gevent_cevent.Event.clear",
+    "gevent.hub.sleep",
+    "gevent._gevent_cevent.Event.wait",
+    "zmq.backend.cython.socket.Socket.get",
+    "logging.Logger.error",
+    "zerorpc.gevent_zmq.Socket._on_state_changed"
+  ],
+  "zerorpc.channel.ChannelMultiplexer._channel_dispatcher": [
+    "zerorpc.events.Events.recv",
+    "dict.get",
+    "gevent._gevent_cqueue.Queue.put",
+    "dict.get"
+  ],
+  "zerorpc.events.Events.recv": [
+    "<zerorpc.events.Receiver object at 0x7f40de2e3fd0>",
+    "<zerorpc.events.Receiver object at 0x7f40de525d20>",
+    "builtins.len",
+    "zerorpc.events.get_pyzmq_frame_buffer",
+    "zerorpc.events.Event.unpack",
+    "builtins.len"
+  ],
+  "zerorpc.events.Receiver.__call__": [
+    "gevent._gevent_cqueue.Channel.get"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel._recver": [
+    "zerorpc.channel.Channel.recv",
+    "dict.get",
+    "gevent._gevent_cqueue.Channel.put",
+    "time.time",
+    "zerorpc.heartbeat.HeartBeatOnChannel._start_heartbeat"
+  ],
+  "zerorpc.channel.Channel.recv": [
+    "gevent._gevent_cqueue.Queue.get"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel._heartbeat": [
+    "gevent.hub.sleep",
+    "time.time",
+    "time.time",
+    "zerorpc.channel_base.ChannelBase.emit"
+  ],
+  "zerorpc.channel.BufferedChannel._recver": [
+    "zerorpc.heartbeat.HeartBeatOnChannel.recv",
+    "gevent._gevent_cqueue.Queue.qsize",
+    "gevent._gevent_cqueue.Queue.put"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.recv": [
+    "gevent._gevent_cqueue.Channel.get"
+  ],
+  "zerorpc.events.Sender._sender": [
+    "zerorpc.events.SequentialSender._send"
+  ],
+  "zerorpc.events.SequentialSender._send": [
+    "builtins.len",
+    "builtins.range",
+    "zerorpc.gevent_zmq.Socket.send",
+    "zerorpc.gevent_zmq.Socket.send"
+  ],
+  "zerorpc.gevent_zmq.Socket.send": [
+    "zmq.sugar.socket.Socket.send",
+    "zerorpc.gevent_zmq.Socket._on_state_changed"
+  ],
+  "zerorpc.gevent_zmq.Socket._on_state_changed": [
+    "zmq.backend.cython.socket.Socket.get",
+    "gevent._gevent_cevent.Event.set",
+    "gevent._gevent_cevent.Event.set"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.recv": [
+    "gevent._gevent_cqueue.Queue.get"
+  ],
+  "zerorpc.events.Event.unpack": [
+    "msgpack._cmsgpack.Unpacker",
+    "Unpacker.feed",
+    "Unpacker.unpack",
+    "builtins.isinstance",
+    "zerorpc.events.Event"
+  ],
+  "zerorpc.channel.BufferedChannel.recv": [
+    "gevent._gevent_cqueue.Queue.get"
+  ],
+  "zerorpc.channel.BufferedChannel.close": [
+    "gevent._gevent_cgreenlet.Greenlet.kill",
+    "zerorpc.heartbeat.HeartBeatOnChannel.close"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.close": [
+    "gevent._gevent_cgreenlet.Greenlet.kill",
+    "gevent._gevent_cgreenlet.Greenlet.kill",
+    "zerorpc.channel.Channel.close"
+  ],
+  "zerorpc.channel.Channel.close": [
+    "logging.Logger.debug"
+  ]
+}

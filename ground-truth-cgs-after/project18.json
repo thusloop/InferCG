@@ -1,0 +1,586 @@
+{
+  "errbot.backends.base": [
+    "logging.getLogger",
+    "collections.defaultdict"
+  ],
+  "errbot.storage.__init__": [
+    "logging.getLogger"
+  ],
+  "errbot.botplugin": [
+    "logging.getLogger"
+  ],
+  "errbot.core_plugins.__init__": [
+    "flask.app.Flask"
+  ],
+  "errbot.core_plugins.wsview": [
+    "logging.getLogger"
+  ],
+  "errbot.flow": [
+    "logging.getLogger",
+    "errbot.flow._FlowEnd"
+  ],
+  "errbot.__init__": [
+    "logging.getLogger"
+  ],
+  "errbot.utils": [
+    "logging.getLogger",
+    "platform.system",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "errbot.backend_plugin_manager": [
+    "logging.getLogger"
+  ],
+  "errbot.streaming": [
+    "logging.getLogger"
+  ],
+  "errbot.templating": [
+    "logging.getLogger",
+    "pathlib.Path",
+    "errbot.templating.make_templates_path",
+    "builtins.str",
+    "jinja2.loaders.FileSystemLoader",
+    "jinja2.environment.Environment"
+  ],
+  "errbot.logs": [
+    "logging.getLogger",
+    "logging.Logger.setLevel",
+    "errbot.logs.ispydevd",
+    "EncodedFile.isatty",
+    "logging.StreamHandler"
+  ],
+  "errbot.logs.ispydevd": [
+    "inspect.stack",
+    "str.endswith"
+  ],
+  "errbot.repo_manager": [
+    "logging.getLogger",
+    "datetime.timedelta",
+    "collections.namedtuple",
+    "re.compile"
+  ],
+  "errbot.plugin_manager": [
+    "logging.getLogger",
+    "posixpath.abspath",
+    "posixpath.dirname",
+    "posixpath.join"
+  ],
+  "errbot.bootstrap": [
+    "logging.getLogger",
+    "posixpath.abspath",
+    "posixpath.dirname",
+    "posixpath.join",
+    "posixpath.join"
+  ],
+  "errbot.rendering.__init__": [
+    "re.compile",
+    "re.escape",
+    "re.compile"
+  ],
+  "errbot.backends.test": [
+    "logging.getLogger"
+  ],
+  "errbot.utils.deprecated.__call__": [
+    "dict.update"
+  ],
+  "errbot.__init__.cmdfilter": [
+    "builtins.len",
+    "errbot.cmdfilter.<locals>.decorate"
+  ],
+  "errbot.__init__.decorate": [
+    "builtins.hasattr",
+    "dict.get"
+  ],
+  "errbot.__init__.botcmd": [
+    "errbot.botcmd.<locals>.decorator"
+  ],
+  "errbot.__init__.decorator": [
+    "errbot._tag_botcmd",
+    "errbot._tag_botcmd",
+    "builtins.hasattr",
+    "errbot.ArgumentParser",
+    "errbot._tag_botcmd",
+    "errbot.update_wrapper"
+  ],
+  "errbot.__init__._tag_botcmd": [
+    "builtins.hasattr",
+    "re.compile"
+  ],
+  "errbot.__init__.arg_botcmd": [
+    "builtins.len",
+    "builtins.callable",
+    "builtins.callable"
+  ],
+  "errbot.__init__.update_wrapper": [
+    "argparse._ActionsContainer.add_argument",
+    "argparse.ArgumentParser.format_help",
+    "argparse.ArgumentParser.format_usage",
+    "builtins.len"
+  ],
+  "errbot.rendering.ansiext": [
+    "logging.getLogger",
+    "collections.namedtuple",
+    "dynapyt.runtime.CharacterTable",
+    "dynapyt.runtime.CharacterTable",
+    "errbot.rendering.ansiext.NSC",
+    "errbot.rendering.ansiext.NSC",
+    "errbot.rendering.ansiext.NSC",
+    "errbot.rendering.ansiext.NSC",
+    "dynapyt.runtime.CharacterTable",
+    "errbot.rendering.ansiext.enable_format"
+  ],
+  "errbot.rendering.ansiext.enable_format": [
+    "functools.partial"
+  ],
+  "errbot.backends.text": [
+    "logging.getLogger",
+    "builtins.hasattr",
+    "EncodedFile.isatty",
+    "errbot.rendering.ansiext.enable_format"
+  ],
+  "errbot.backend_plugin_manager.BackendPluginManager.__init__": [
+    "errbot.utils.entry_point_plugins",
+    "errbot.utils.collect_roots",
+    "errbot.backend_plugin_manager.enumerate_backend_plugins"
+  ],
+  "errbot.utils.entry_point_plugins": [
+    "importlib.metadata.entry_points",
+    "importlib.metadata.Deprecated.get"
+  ],
+  "errbot.utils.collect_roots": [
+    "builtins.list",
+    "builtins.isinstance",
+    "errbot.utils.find_roots",
+    "list.extend",
+    "errbot.utils.collect_roots",
+    "OrderedDict.fromkeys",
+    "builtins.list",
+    "list.extend"
+  ],
+  "errbot.utils.find_roots": [
+    "builtins.list",
+    "os.walk",
+    "fnmatch.filter",
+    "posixpath.join",
+    "posixpath.dirname",
+    "posixpath.realpath",
+    "posixpath.relpath",
+    "str.split",
+    "list.append",
+    "OrderedDict.fromkeys",
+    "builtins.list",
+    "str.startswith",
+    "logging.Logger.debug"
+  ],
+  "errbot.backend_plugin_manager.enumerate_backend_plugins": [
+    "pathlib.Path",
+    "pathlib.Path.glob",
+    "errbot.plugin_info.PluginInfo.load"
+  ],
+  "errbot.plugin_info.PluginInfo.load": [
+    "pathlib.Path.open",
+    "errbot.plugin_info.PluginInfo.load_file"
+  ],
+  "errbot.plugin_info.PluginInfo.load_file": [
+    "configparser.ConfigParser",
+    "configparser.RawConfigParser.read_file",
+    "errbot.plugin_info.PluginInfo.parse"
+  ],
+  "errbot.plugin_info.PluginInfo.parse": [
+    "configparser.RawConfigParser.get",
+    "configparser.RawConfigParser.get",
+    "configparser.RawConfigParser.get",
+    "str.lower",
+    "configparser.RawConfigParser.get",
+    "configparser.RawConfigParser.get",
+    "configparser.RawConfigParser.get",
+    "configparser.RawConfigParser.get",
+    "configparser.RawConfigParser.get",
+    "errbot.plugin_info.PluginInfo",
+    "errbot.utils.version2tuple",
+    "builtins.tuple",
+    "errbot.utils.version2tuple",
+    "errbot.utils.version2tuple"
+  ],
+  "errbot.bootstrap.bot_config_defaults": [
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr"
+  ],
+  "errbot.backends.base.Backend.__init__": [
+    "logging.Logger.debug"
+  ],
+  "errbot.flow.FlowExecutor.__init__": [
+    "threading.RLock",
+    "multiprocessing.pool.ThreadPool",
+    "atexit.register"
+  ],
+  "errbot.rendering.__init__.text": [
+    "markdown.extensions.extra.ExtraExtension",
+    "errbot.rendering.ansiext.AnsiExtension",
+    "markdown.core.Markdown"
+  ],
+  "errbot.rendering.ansiext.AnsiExtension.extendMarkdown": [
+    "markdown.core.Markdown.registerExtension",
+    "errbot.rendering.ansiext.AnsiPostprocessor",
+    "markdown.util.Registry.register",
+    "errbot.rendering.ansiext.AnsiPreprocessor",
+    "markdown.util.Registry.register",
+    "markdown.inlinepatterns.SubstituteTagPattern",
+    "markdown.util.Registry.register",
+    "markdown.util.Registry.deregister",
+    "markdown.util.Registry.deregister"
+  ],
+  "errbot.backend_plugin_manager.BackendPluginManager.load_plugin": [
+    "builtins.str",
+    "list.append",
+    "errbot.plugin_info.PluginInfo.load_plugin_classes",
+    "builtins.len",
+    "errbot.storage.memory.MemoryStoragePlugin"
+  ],
+  "errbot.plugin_info.PluginInfo.load_plugin_classes": [
+    "_frozen_importlib_external.spec_from_file_location",
+    "_frozen_importlib.module_from_spec",
+    "_frozen_importlib_external._LoaderBasics.exec_module",
+    "inspect.getmembers"
+  ],
+  "errbot.plugin_info.PluginInfo.is_plugin": [
+    "inspect.isclass",
+    "builtins.issubclass"
+  ],
+  "errbot.backends.test.testbot": [
+    "logging.getLogger",
+    "logging.getLogger",
+    "logging.Logger.setLevel",
+    "logging.Logger.setLevel",
+    "logging.StreamHandler",
+    "logging.Formatter",
+    "logging.Handler.setFormatter",
+    "logging.Logger.addHandler",
+    "builtins.hasattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "errbot.backends.test.TestBot",
+    "errbot.backends.test.TestBot.start"
+  ],
+  "errbot.backends.test.TestBot.__init__": [
+    "errbot.backends.test.TestBot.setup"
+  ],
+  "errbot.backends.test.TestBot.setup": [
+    "tempfile.mkdtemp",
+    "errbot.backends.test.ShallowConfig",
+    "importlib.import_module",
+    "dict.update",
+    "logging.basicConfig",
+    "logging.FileHandler",
+    "logging.getLogger",
+    "logging.Logger.setLevel",
+    "logging.Logger.addHandler",
+    "builtins.repr",
+    "logging.Logger.debug",
+    "dict.items",
+    "builtins.setattr"
+  ],
+  "errbot.backends.test.TestBot.start": [
+    "errbot.bootstrap.setup_bot"
+  ],
+  "errbot.bootstrap.setup_bot": [
+    "errbot.bootstrap.bot_config_defaults",
+    "builtins.hasattr",
+    "errbot.logs.format_logs",
+    "builtins.hasattr",
+    "logging.FileHandler",
+    "logging.Formatter",
+    "logging.Handler.setFormatter",
+    "logging.Logger.addHandler",
+    "builtins.hasattr",
+    "logging.Logger.setLevel",
+    "errbot.bootstrap.get_storage_plugin"
+  ],
+  "errbot.logs.format_logs": [
+    "logging.Formatter",
+    "logging.Handler.setFormatter",
+    "logging.Logger.addHandler"
+  ],
+  "errbot.bootstrap.get_storage_plugin": [
+    "builtins.getattr"
+  ],
+  "errbot.flow.FlowRoot.__init__": [
+    "errbot.flow.FlowNode.__init__",
+    "builtins.set"
+  ],
+  "errbot.flow.FlowRoot.connect": [
+    "errbot.flow.FlowNode.connect",
+    "set.add"
+  ],
+  "errbot.flow.FlowNode.connect": [
+    "builtins.isinstance",
+    "errbot.flow.FlowNode",
+    "list.append"
+  ],
+  "errbot.flow.Flow.__init__": [
+    "builtins.dict"
+  ],
+  "errbot.flow.Flow.next_autosteps": [
+    "tests.flow_test.test_flow_predicate.<locals>.<lambda>"
+  ],
+  "errbot.flow.Flow.advance": [
+    "errbot.flow.FlowNode.predicate_for_node",
+    "tests.flow_test.test_flow_predicate.<locals>.<lambda>",
+    "errbot.flow.InvalidState"
+  ],
+  "errbot.rendering.__init__.ansi": [
+    "markdown.extensions.extra.ExtraExtension",
+    "errbot.rendering.ansiext.AnsiExtension",
+    "markdown.core.Markdown"
+  ],
+  "errbot.rendering.ansiext.AnsiPreprocessor.run": [
+    "str.join",
+    "Pattern.search",
+    "str.split"
+  ],
+  "errbot.rendering.ansiext.translate": [
+    "_io.StringIO",
+    "errbot.rendering.ansiext.recurse",
+    "StringIO.getvalue",
+    "str.rstrip",
+    "builtins.str"
+  ],
+  "errbot.rendering.ansiext.recurse": [
+    "Element.items",
+    "errbot.rendering.ansiext.recurse",
+    "errbot.rendering.ansiext.translate.<locals>.write",
+    "list.append",
+    "errbot.rendering.ansiext.translate.<locals>.write",
+    "list.append",
+    "errbot.rendering.ansiext.translate.<locals>.write",
+    "errbot.rendering.ansiext.translate.<locals>.write"
+  ],
+  "errbot.rendering.ansiext.write": [
+    "builtins.str",
+    "StringIO.write"
+  ],
+  "errbot.rendering.ansiext.AnsiPostprocessor.run": [
+    "html.unescape"
+  ],
+  "errbot.rendering.__init__.md": [
+    "errbot.rendering.Mde2mdConverter"
+  ],
+  "errbot.rendering.__init__.Mde2mdConverter.convert": [
+    "Pattern.search",
+    "Match.span"
+  ],
+  "errbot.rendering.__init__.md_escape": [
+    "Pattern.sub",
+    "Match.group"
+  ],
+  "errbot.storage.base.StoragePluginBase.__init__": [
+    "builtins.getattr"
+  ],
+  "errbot.storage.__init__.StoreMixin.open_storage": [
+    "errbot.storage.StoreMixin.is_open_storage",
+    "logging.Logger.debug",
+    "errbot.storage.memory.MemoryStoragePlugin.open"
+  ],
+  "errbot.storage.__init__.StoreMixin.is_open_storage": [
+    "builtins.hasattr"
+  ],
+  "errbot.storage.memory.MemoryStoragePlugin.open": [
+    "errbot.storage.memory.MemoryStorage"
+  ],
+  "errbot.storage.memory.MemoryStorage.__init__": [
+    "dict.get"
+  ],
+  "errbot.storage.__init__.StoreMixin.__setitem__": [
+    "errbot.storage.memory.MemoryStorage.set"
+  ],
+  "errbot.storage.__init__.StoreMixin.__getitem__": [
+    "errbot.storage.memory.MemoryStorage.get"
+  ],
+  "errbot.storage.__init__.StoreMixin.mutable": [
+    "errbot.storage.memory.MemoryStorage.get",
+    "errbot.storage.memory.MemoryStorage.set"
+  ],
+  "errbot.botplugin.recurse_check_structure": [
+    "builtins.type",
+    "builtins.type",
+    "errbot.botplugin.recurse_check_structure",
+    "errbot.botplugin.recurse_check_structure",
+    "errbot.botplugin.ValidationException",
+    "errbot.botplugin.ValidationException",
+    "errbot.botplugin.ValidationException"
+  ],
+  "errbot.utils.version2tuple": [
+    "str.split",
+    "builtins.len",
+    "builtins.len",
+    "str.split",
+    "builtins.int",
+    "list.append",
+    "builtins.len",
+    "builtins.tuple",
+    "str.startswith",
+    "builtins.int",
+    "builtins.ValueError",
+    "builtins.ValueError"
+  ],
+  "errbot.repo_manager.check_dependencies": [
+    "logging.Logger.debug",
+    "pathlib.Path.is_file",
+    "pathlib.Path.open",
+    "str.strip",
+    "pkg_resources.get_distribution",
+    "list.append",
+    "str.join",
+    "logging.Logger.debug"
+  ],
+  "errbot.plugin_manager.check_errbot_version": [
+    "errbot.utils.version2tuple",
+    "errbot.plugin_manager.IncompatiblePluginException",
+    "errbot.plugin_manager.IncompatiblePluginException"
+  ],
+  "errbot.repo_manager.BotRepoManager.__init__": [
+    "errbot.storage.StoreMixin.__init__",
+    "errbot.storage.StoreMixin.open_storage"
+  ],
+  "errbot.repo_manager.BotRepoManager.index_update": [
+    "datetime.now",
+    "datetime.timestamp",
+    "builtins.reversed",
+    "urllib.parse.urlparse",
+    "io.open",
+    "logging.Logger.debug",
+    "TextIOWrapper.read",
+    "json.loads",
+    "dict.update",
+    "builtins.len",
+    "logging.Logger.debug",
+    "logging.Logger.exception"
+  ],
+  "errbot.storage.__init__.StoreMixin.__contains__": [
+    "errbot.storage.memory.MemoryStorage.get"
+  ],
+  "errbot.storage.memory.MemoryStorage.get": [
+    "builtins.KeyError"
+  ],
+  "errbot.repo_manager.tokenizeJsonEntry": [
+    "dict.values",
+    "builtins.str",
+    "str.lower",
+    "Pattern.findall",
+    "builtins.set"
+  ],
+  "errbot.repo_manager.BotRepoManager.search_repos": [
+    "errbot.repo_manager.BotRepoManager.check_for_index_update",
+    "str.lower",
+    "Pattern.findall",
+    "builtins.set",
+    "dict.items",
+    "dict.items",
+    "errbot.repo_manager.tokenizeJsonEntry",
+    "set.intersection",
+    "errbot.repo_manager.makeEntry"
+  ],
+  "errbot.repo_manager.BotRepoManager.check_for_index_update": [
+    "logging.Logger.info",
+    "errbot.repo_manager.BotRepoManager.index_update",
+    "datetime.fromtimestamp",
+    "datetime.now"
+  ],
+  "errbot.repo_manager.makeEntry": [
+    "dynapyt.runtime.RepoEntry"
+  ],
+  "errbot.repo_manager.human_name_for_git_url": [
+    "str.split",
+    "str.endswith",
+    "str.join",
+    "builtins.str"
+  ],
+  "errbot.backends.test.TestPerson.__eq__": [
+    "builtins.isinstance"
+  ],
+  "errbot.backends.test.TestOccupant.__init__": [
+    "errbot.backends.test.TestPerson.__init__"
+  ],
+  "errbot.backends.base.Stream.__init__": [
+    "BufferedReader.__init__"
+  ],
+  "errbot.streaming.Tee.run": [
+    "builtins.len",
+    "errbot.streaming.repeatfunc",
+    "io.open",
+    "errbot.backends.base.Stream.clone"
+  ],
+  "errbot.streaming.repeatfunc": [
+    "itertools.repeat",
+    "itertools.starmap"
+  ],
+  "errbot.backends.base.Stream.clone": [
+    "errbot.backends.base.Stream"
+  ],
+  "errbot.utils.format_timedelta": [
+    "builtins.divmod",
+    "builtins.divmod"
+  ],
+  "errbot.storage.__init__.StoreMixin.__delitem__": [
+    "errbot.storage.memory.MemoryStorage.remove"
+  ],
+  "errbot.storage.__init__.StoreMixin.__len__": [
+    "errbot.storage.memory.MemoryStorage.len"
+  ],
+  "errbot.storage.memory.MemoryStorage.len": [
+    "builtins.len"
+  ],
+  "errbot.utils.split_string_after": [
+    "builtins.len",
+    "builtins.max",
+    "builtins.range"
+  ],
+  "errbot.backends.text.TextBackend.__init__": [
+    "errbot.core.ErrBot.__init__",
+    "logging.Logger.debug",
+    "builtins.hasattr",
+    "errbot.backends.text.TextBackend.build_identifier",
+    "logging.Logger.debug",
+    "builtins.hasattr",
+    "errbot.rendering.ansi",
+    "pygments.lexers.get_lexer_by_name",
+    "pygments.formatters.terminal256.Terminal256Formatter",
+    "errbot.backends.text.TextBackend.build_identifier",
+    "errbot.backends.text.TextBackend._register_identifiers_pickling"
+  ],
+  "errbot.backends.text.TextBackend.build_identifier": [
+    "str.startswith",
+    "str.startswith",
+    "errbot.backends.text.TextPerson"
+  ],
+  "errbot.backends.text.TextBackend._register_identifiers_pickling": [
+    "copyreg.pickle"
+  ],
+  "errbot.backends.text.TextBackend.change_presence": [
+    "logging.Logger.debug"
+  ]
+}

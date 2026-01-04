@@ -1,0 +1,736 @@
+{
+  "src.click._compat": [
+    "str.startswith",
+    "str.startswith",
+    "str.startswith",
+    "re.compile",
+    "str.startswith",
+    "click._compat._make_cached_stream_func",
+    "click._compat._make_cached_stream_func",
+    "click._compat._make_cached_stream_func"
+  ],
+  "src.click._compat._make_cached_stream_func": [
+    "weakref.WeakKeyDictionary"
+  ],
+  "src.click.globals": [
+    "_thread._local"
+  ],
+  "src.click.utils": [
+    "typing.TypeVar"
+  ],
+  "src.click.types": [
+    "click.types.UnprocessedParamType",
+    "click.types.StringParamType",
+    "click.types.IntParamType",
+    "click.types.FloatParamType",
+    "click.types.BoolParamType",
+    "click.types.UUIDParameterType"
+  ],
+  "src.click.parser": [
+    "typing.TypeVar",
+    "builtins.object"
+  ],
+  "src.click.termui": [
+    "typing.TypeVar"
+  ],
+  "src.click.decorators": [
+    "typing.TypeVar",
+    "typing.TypeVar",
+    "typing.TypeVar"
+  ],
+  "src.click.types.Tuple.__init__": [
+    "click.types.convert_type"
+  ],
+  "src.click.types.convert_type": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.type",
+    "builtins.isinstance",
+    "builtins.type",
+    "click.types.Tuple",
+    "builtins.map",
+    "builtins.tuple"
+  ],
+  "src.click.parser.split_opt": [
+    "str.isalnum"
+  ],
+  "src.click.types.FloatRange.__init__": [
+    "click.types._NumberRangeBase.__init__",
+    "builtins.TypeError"
+  ],
+  "src.click.types.Path.__init__": [
+    "gettext.gettext",
+    "gettext.gettext"
+  ],
+  "src.click._termui_impl": [
+    "typing.TypeVar"
+  ],
+  "src.click.decorators.command": [
+    "builtins.callable",
+    "click.decorators.command.<locals>.decorator"
+  ],
+  "src.click.decorators.decorator": [
+    "dict.pop",
+    "click.core.Argument",
+    "click.decorators._param_memo",
+    "builtins.isinstance",
+    "dict.pop",
+    "builtins.reversed",
+    "list.extend",
+    "dict.get",
+    "str.lower",
+    "str.replace",
+    "click.core.Command",
+    "dict.copy",
+    "dict.pop",
+    "click.core.Option",
+    "click.decorators._param_memo",
+    "click.core.Group",
+    "typing.cast",
+    "functools.update_wrapper",
+    "typing.cast",
+    "functools.update_wrapper",
+    "tests.test_custom_classes.test_group_command_class.<locals>.CustomCommand",
+    "tests.test_custom_classes.test_group_group_class.<locals>.CustomSubGroup",
+    "tests.test_custom_classes.test_group_group_class_self.<locals>.CustomGroup",
+    "tests.test_options.test_argument_custom_class.<locals>.CustomArgument",
+    "tests.test_options.test_option_custom_class.<locals>.CustomOption",
+    "tests.test_options.test_option_custom_class_reusable.<locals>.CustomOption"
+  ],
+  "src.click.decorators._param_memo": [
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "list.append"
+  ],
+  "src.click.types.Tuple.arity": [
+    "builtins.len"
+  ],
+  "src.click.testing.CliRunner.invoke": [
+    "click.testing.CliRunner.isolation",
+    "builtins.isinstance",
+    "dict.pop",
+    "click.testing.CliRunner.get_default_prog_name",
+    "click.core.BaseCommand.main",
+    "_NamedTextIOWrapper.flush",
+    "BytesIO.getvalue",
+    "sys.exc_info",
+    "click.testing.Result",
+    "sys.exc_info",
+    "typing.cast",
+    "builtins.isinstance",
+    "BytesIO.getvalue"
+  ],
+  "src.click.testing.CliRunner.isolation": [
+    "click.testing.make_input_stream",
+    "click.testing.CliRunner.make_env",
+    "_io.BytesIO",
+    "click.testing._NamedTextIOWrapper",
+    "click.testing._NamedTextIOWrapper",
+    "dict.items",
+    "dict.items",
+    "collections.abc.Mapping.get",
+    "click.testing.EchoingStdin",
+    "typing.cast",
+    "_io.BytesIO",
+    "click.testing._NamedTextIOWrapper"
+  ],
+  "src.click.testing.make_input_stream": [
+    "builtins.hasattr",
+    "_io.BytesIO",
+    "builtins.isinstance",
+    "str.encode",
+    "typing.cast",
+    "click._compat._find_binary_reader"
+  ],
+  "src.click.testing.CliRunner.make_env": [
+    "builtins.dict",
+    "dict.update"
+  ],
+  "src.click.testing.CliRunner.isolated_filesystem": [
+    "posix.getcwd",
+    "tempfile.mkdtemp",
+    "posix.chdir",
+    "posix.chdir",
+    "shutil.rmtree"
+  ],
+  "src.click.exceptions.MissingParameter.__init__": [
+    "click.exceptions.BadParameter.__init__"
+  ],
+  "src.click.exceptions.BadParameter.__init__": [
+    "click.exceptions.UsageError.__init__"
+  ],
+  "src.click.exceptions.UsageError.__init__": [
+    "click.exceptions.ClickException.__init__"
+  ],
+  "src.click.exceptions.ClickException.__init__": [
+    "Exception.__init__"
+  ],
+  "src.click.exceptions.MissingParameter.__str__": [
+    "gettext.gettext",
+    "str.format"
+  ],
+  "src.click.decorators.group": [
+    "dict.get",
+    "builtins.callable",
+    "click.decorators.command",
+    "typing.cast",
+    "click.decorators.command",
+    "typing.cast",
+    "click.decorators.command.<locals>.decorator"
+  ],
+  "src.click.decorators.pass_context": [
+    "typing.cast",
+    "functools.update_wrapper"
+  ],
+  "src.click.testing._NamedTextIOWrapper.__init__": [
+    "TextIOWrapper.__init__"
+  ],
+  "src.click.globals.push_context": [
+    "dict.setdefault",
+    "list.append"
+  ],
+  "src.click.globals.pop_context": [
+    "list.pop"
+  ],
+  "src.click.parser.OptionParser.add_option": [
+    "click.parser.normalize_opt",
+    "click.parser.Option",
+    "set.update"
+  ],
+  "src.click.testing.Result.__repr__": [
+    "builtins.repr",
+    "builtins.type"
+  ],
+  "src.click._compat.should_strip_ansi": [
+    "click._compat.isatty",
+    "click._compat._is_jupyter_kernel_output"
+  ],
+  "src.click._compat._is_jupyter_kernel_output": [
+    "builtins.isinstance",
+    "str.startswith"
+  ],
+  "src.click.decorators.pass_obj": [
+    "typing.cast",
+    "functools.update_wrapper"
+  ],
+  "src.click.parser.Option.__init__": [
+    "builtins.set",
+    "click.parser.split_opt",
+    "set.add",
+    "builtins.len",
+    "list.append",
+    "set.add",
+    "list.append"
+  ],
+  "src.click.parser.OptionParser.parse_args": [
+    "click.parser.ParsingState",
+    "click.parser.OptionParser._process_args_for_options",
+    "click.parser.OptionParser._process_args_for_args"
+  ],
+  "src.click.parser.OptionParser._process_args_for_options": [
+    "list.pop",
+    "builtins.len",
+    "list.insert",
+    "click.parser.OptionParser._process_opts"
+  ],
+  "src.click.parser.OptionParser._process_args_for_args": [
+    "click.parser._unpack_args",
+    "builtins.enumerate"
+  ],
+  "src.click.parser._unpack_args": [
+    "collections.deque",
+    "collections.deque",
+    "builtins.tuple",
+    "builtins.list"
+  ],
+  "src.click.types.ParamType.__call__": [
+    "click.types.BoolParamType.convert"
+  ],
+  "src.click.types.BoolParamType.convert": [
+    "builtins.bool"
+  ],
+  "src.click.utils.make_str": [
+    "builtins.isinstance",
+    "builtins.str"
+  ],
+  "src.click.parser.OptionParser._process_opts": [
+    "click.parser.normalize_opt",
+    "click.parser.OptionParser._match_long_opt"
+  ],
+  "src.click.parser.OptionParser._match_long_opt": [
+    "click.parser.Option.process"
+  ],
+  "src.click.parser.Option.process": [
+    "list.append"
+  ],
+  "src.click.formatting.HelpFormatter.write_usage": [
+    "gettext.gettext",
+    "click._compat.term_len",
+    "click._compat.term_len",
+    "click.formatting.wrap_text",
+    "click.formatting.HelpFormatter.write",
+    "click.formatting.HelpFormatter.write"
+  ],
+  "src.click._compat.term_len": [
+    "click._compat.strip_ansi",
+    "builtins.len"
+  ],
+  "src.click._compat.strip_ansi": [
+    "Pattern.sub"
+  ],
+  "src.click.formatting.wrap_text": [
+    "str.expandtabs",
+    "click._textwrap.TextWrapper",
+    "textwrap.TextWrapper.fill",
+    "str.splitlines",
+    "click._compat.term_len",
+    "str.lstrip",
+    "click._compat.term_len",
+    "list.append",
+    "click.formatting.wrap_text.<locals>._flush_par",
+    "click._textwrap.TextWrapper.extra_indent",
+    "textwrap.TextWrapper.fill",
+    "list.append",
+    "str.join"
+  ],
+  "src.click.formatting.HelpFormatter.write": [
+    "list.append"
+  ],
+  "src.click.formatting.join_options": [
+    "click.parser.split_opt",
+    "builtins.len",
+    "list.append",
+    "list.sort"
+  ],
+  "src.click.formatting.HelpFormatter.section": [
+    "click.formatting.HelpFormatter.write_paragraph",
+    "click.formatting.HelpFormatter.write_heading",
+    "click.formatting.HelpFormatter.indent",
+    "click.formatting.HelpFormatter.dedent"
+  ],
+  "src.click.formatting.HelpFormatter.write_paragraph": [
+    "click.formatting.HelpFormatter.write"
+  ],
+  "src.click.formatting.HelpFormatter.write_heading": [
+    "click.formatting.HelpFormatter.write"
+  ],
+  "src.click.formatting.HelpFormatter.write_dl": [
+    "builtins.list",
+    "click.formatting.measure_table",
+    "builtins.len",
+    "builtins.min",
+    "builtins.len",
+    "click.formatting.iter_rows",
+    "click.formatting.HelpFormatter.write",
+    "click._compat.term_len",
+    "click._compat.term_len",
+    "click.formatting.HelpFormatter.write",
+    "builtins.max",
+    "click.formatting.wrap_text",
+    "str.splitlines",
+    "click.formatting.HelpFormatter.write"
+  ],
+  "src.click.formatting.measure_table": [
+    "builtins.enumerate",
+    "dict.get",
+    "click._compat.term_len",
+    "builtins.max",
+    "dict.items",
+    "builtins.sorted"
+  ],
+  "src.click.formatting.iter_rows": [
+    "builtins.len"
+  ],
+  "src.click.formatting._flush_par": [
+    "str.strip",
+    "str.join",
+    "list.append"
+  ],
+  "src.click.formatting.HelpFormatter.getvalue": [
+    "str.join"
+  ],
+  "src.click.utils.echo": [
+    "click._compat._make_cached_stream_func.<locals>.func",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "click.globals.resolve_color_default",
+    "click.testing.CliRunner.isolation.<locals>.should_strip_ansi",
+    "click._compat.strip_ansi",
+    "_NamedTextIOWrapper.write",
+    "_NamedTextIOWrapper.flush",
+    "click._compat._make_cached_stream_func.<locals>.func",
+    "click._compat.should_strip_ansi",
+    "StringIO.write",
+    "StringIO.flush",
+    "CaptureIO.write",
+    "CaptureIO.flush"
+  ],
+  "src.click._compat.func": [
+    "click._compat.<lambda>",
+    "weakref.WeakKeyDictionary.get",
+    "click._compat.get_text_stdout",
+    "click._compat.get_text_stderr"
+  ],
+  "src.click._compat.get_text_stdout": [
+    "click._compat._get_windows_console_stream",
+    "click._compat._force_correct_text_writer"
+  ],
+  "src.click._compat._force_correct_text_writer": [
+    "click._compat._force_correct_text_stream"
+  ],
+  "src.click._compat._force_correct_text_stream": [
+    "click._compat._is_binary_writer",
+    "typing.cast",
+    "click._compat._is_compatible_text_stream",
+    "click._compat._stream_is_misconfigured"
+  ],
+  "src.click._compat._is_binary_writer": [
+    "_NamedTextIOWrapper.write",
+    "_NamedTextIOWrapper.write",
+    "EncodedFile.write",
+    "EncodedFile.write",
+    "CaptureIO.write",
+    "CaptureIO.write"
+  ],
+  "src.click._compat._is_compatible_text_stream": [
+    "click._compat._is_compat_stream_attr",
+    "click._compat._is_compat_stream_attr"
+  ],
+  "src.click._compat._is_compat_stream_attr": [
+    "builtins.getattr"
+  ],
+  "src.click._compat._stream_is_misconfigured": [
+    "builtins.getattr",
+    "click._compat.is_ascii_encoding"
+  ],
+  "src.click._compat.is_ascii_encoding": [
+    "_codecs.lookup"
+  ],
+  "src.click.globals.resolve_color_default": [
+    "click.globals.get_current_context"
+  ],
+  "src.click.globals.get_current_context": [
+    "typing.cast"
+  ],
+  "src.click.testing.Result.stdout": [
+    "bytes.decode",
+    "str.replace"
+  ],
+  "src.click.decorators.help_option": [
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "gettext.gettext",
+    "dict.setdefault",
+    "click.decorators.option"
+  ],
+  "src.click.formatting.HelpFormatter.write_text": [
+    "click.formatting.wrap_text",
+    "click.formatting.HelpFormatter.write",
+    "click.formatting.HelpFormatter.write"
+  ],
+  "src.click.types.FuncParamType.to_info_dict": [
+    "click.types.ParamType.to_info_dict"
+  ],
+  "src.click.types.ParamType.to_info_dict": [
+    "builtins.type",
+    "str.partition",
+    "str.partition",
+    "builtins.hasattr"
+  ],
+  "src.click.types.Choice.to_info_dict": [
+    "click.types.ParamType.to_info_dict"
+  ],
+  "src.click.types.DateTime.to_info_dict": [
+    "click.types.ParamType.to_info_dict"
+  ],
+  "src.click.types._NumberRangeBase.to_info_dict": [
+    "click.types.ParamType.to_info_dict",
+    "dict.update"
+  ],
+  "src.click.types.File.to_info_dict": [
+    "click.types.ParamType.to_info_dict",
+    "dict.update"
+  ],
+  "src.click.types.Path.to_info_dict": [
+    "click.types.ParamType.to_info_dict",
+    "dict.update"
+  ],
+  "src.click.types.Tuple.to_info_dict": [
+    "click.types.ParamType.to_info_dict",
+    "click.types.ParamType.to_info_dict"
+  ],
+  "src.click.parser.split_arg_string": [
+    "shlex.shlex",
+    "list.append",
+    "list.append"
+  ],
+  "src.click.shell_completion.ShellComplete.get_completions": [
+    "click.shell_completion._resolve_context"
+  ],
+  "src.click.shell_completion._resolve_context": [
+    "list.copy",
+    "click.core.BaseCommand.make_context"
+  ],
+  "src.click.parser.OptionParser.add_argument": [
+    "click.parser.Argument",
+    "list.append"
+  ],
+  "src.click.shell_completion.CompletionItem.__getattr__": [
+    "dict.get"
+  ],
+  "src.click.shell_completion.shell_complete": [
+    "str.partition",
+    "click.shell_completion.get_completion_class",
+    "click.shell_completion.BashComplete",
+    "click.shell_completion.BashComplete.source",
+    "click.shell_completion.ZshComplete",
+    "click.shell_completion.ShellComplete.source",
+    "click.shell_completion.FishComplete"
+  ],
+  "src.click.shell_completion.get_completion_class": [
+    "dict.get"
+  ],
+  "src.click.shell_completion.BashComplete.source": [
+    "tests.test_shell_completion._patch_for_completion.<locals>.<lambda>"
+  ],
+  "src.click.shell_completion.ShellComplete.source": [
+    "click.shell_completion.ShellComplete.source_vars"
+  ],
+  "src.click.termui.progressbar": [
+    "click.globals.resolve_color_default",
+    "click._termui_impl.ProgressBar"
+  ],
+  "src.click._termui_impl.ProgressBar.__init__": [
+    "click._compat._make_cached_stream_func.<locals>.func"
+  ],
+  "src.click.termui.secho": [
+    "click.utils.echo",
+    "builtins.isinstance",
+    "click.termui.style"
+  ],
+  "src.click.termui.style": [
+    "builtins.isinstance",
+    "builtins.str",
+    "click.termui._interpret_color",
+    "list.append",
+    "click.termui._interpret_color",
+    "list.append",
+    "list.append",
+    "list.append",
+    "str.join",
+    "list.append",
+    "list.append",
+    "list.append",
+    "list.append",
+    "list.append",
+    "list.append",
+    "list.append",
+    "list.append"
+  ],
+  "src.click.termui._interpret_color": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.str"
+  ],
+  "src.click.termui.edit": [
+    "click._termui_impl.Editor",
+    "click._termui_impl.Editor.edit"
+  ],
+  "src.click._termui_impl.Editor.edit": [
+    "builtins.isinstance",
+    "str.endswith",
+    "str.encode",
+    "tempfile.mkstemp",
+    "os.fdopen",
+    "BufferedWriter.write",
+    "genericpath.getatime",
+    "genericpath.getmtime",
+    "posix.utime",
+    "genericpath.getmtime",
+    "posix.unlink"
+  ],
+  "src.click.testing.EchoingStdin.__getattr__": [
+    "builtins.getattr"
+  ],
+  "src.click._compat._find_binary_reader": [
+    "click._compat._is_binary_reader",
+    "typing.cast"
+  ],
+  "src.click._compat._is_binary_reader": [
+    "BytesIO.read",
+    "builtins.isinstance"
+  ],
+  "src.click._compat.get_text_stderr": [
+    "click._compat._get_windows_console_stream",
+    "click._compat._force_correct_text_writer"
+  ],
+  "src.click.testing.Result.stderr": [
+    "bytes.decode",
+    "str.replace",
+    "builtins.ValueError"
+  ],
+  "src.click.types._NumberRangeBase.convert": [
+    "click.types._NumberParamTypeBase.convert",
+    "_operator.lt",
+    "_operator.gt",
+    "click.types.IntRange._clamp",
+    "click.types.IntRange._clamp",
+    "_operator.le",
+    "_operator.ge",
+    "click.types.FloatRange._clamp",
+    "click.types.FloatRange._clamp",
+    "gettext.gettext",
+    "click.types._NumberRangeBase._describe_range",
+    "str.format",
+    "click.types.ParamType.fail"
+  ],
+  "src.click.types._NumberParamTypeBase.convert": [
+    "builtins.int",
+    "builtins.float"
+  ],
+  "src.click.types.ParamType.fail": [
+    "click.exceptions.BadParameter"
+  ],
+  "src.click.types.FloatRange._clamp": [
+    "builtins.RuntimeError"
+  ],
+  "src.click.types.Path.convert": [
+    "pathlib.Path",
+    "pathlib.Path.resolve",
+    "os._fscodec.<locals>.fsdecode",
+    "posix.stat",
+    "posix.access",
+    "click.types.Path.coerce_path_result"
+  ],
+  "src.click._compat.isatty": [
+    "StringIO.isatty",
+    "CaptureIO.isatty"
+  ],
+  "src.click.termui.unstyle": [
+    "click._compat.strip_ansi"
+  ],
+  "src.click.utils.format_filename": [
+    "os._fscodec.<locals>.fsdecode",
+    "posixpath.basename"
+  ],
+  "src.click.termui.prompt": [
+    "click.types.convert_type",
+    "click.termui._build_prompt",
+    "click.termui.prompt.<locals>.prompt_func"
+  ],
+  "src.click.termui.prompt_func": [
+    "str.rstrip",
+    "click.utils.echo",
+    "tests.test_utils.test_prompts_abort.<locals>.f",
+    "click.utils.echo",
+    "click.exceptions.Abort"
+  ],
+  "src.click.termui.echo_via_pager": [
+    "click.globals.resolve_color_default",
+    "inspect.isgeneratorfunction",
+    "builtins.isinstance",
+    "itertools.chain",
+    "click._termui_impl.pager",
+    "typing.cast",
+    "builtins.iter",
+    "typing.cast",
+    "tests.test_utils._test_gen_func",
+    "builtins.isinstance",
+    "builtins.str"
+  ],
+  "src.click._termui_impl.pager": [
+    "click._compat._make_cached_stream_func.<locals>.func",
+    "tests.test_utils.test_echo_via_pager.<locals>.<lambda>",
+    "collections.abc.Mapping.get",
+    "str.strip",
+    "click._termui_impl._pipepager"
+  ],
+  "src.click._termui_impl._pipepager": [
+    "builtins.dict",
+    "str.rsplit",
+    "str.split",
+    "subprocess.Popen",
+    "typing.cast",
+    "click._compat.get_best_encoding",
+    "click._compat.strip_ansi",
+    "str.encode",
+    "BufferedWriter.write",
+    "BufferedWriter.close",
+    "subprocess.Popen.wait"
+  ],
+  "src.click._compat.get_best_encoding": [
+    "builtins.getattr",
+    "sys.getdefaultencoding",
+    "click._compat.is_ascii_encoding"
+  ],
+  "src.click.termui._build_prompt": [
+    "builtins.isinstance",
+    "click.termui._format_default"
+  ],
+  "src.click.termui._format_default": [
+    "builtins.isinstance"
+  ],
+  "src.click.utils.open_file": [
+    "click._compat.open_stream"
+  ],
+  "src.click._compat.open_stream": [
+    "os._fscodec.<locals>.fsdecode",
+    "click._compat._wrap_io_open"
+  ],
+  "src.click._compat._wrap_io_open": [
+    "io.open"
+  ],
+  "src.click.utils.KeepOpenFile.__iter__": [
+    "builtins.iter"
+  ],
+  "src.click.utils.LazyFile.__init__": [
+    "io.open",
+    "TextIOWrapper.close"
+  ],
+  "src.click.utils.LazyFile.__iter__": [
+    "click.utils.LazyFile.open",
+    "builtins.iter"
+  ],
+  "src.click.utils.LazyFile.open": [
+    "click._compat.open_stream"
+  ],
+  "src.click.utils.LazyFile.__exit__": [
+    "click.utils.LazyFile.close_intelligently"
+  ],
+  "src.click.utils.LazyFile.close_intelligently": [
+    "click.utils.LazyFile.close"
+  ],
+  "src.click.utils.LazyFile.close": [
+    "TextIOWrapper.close"
+  ],
+  "src.click.utils._detect_program_name": [
+    "builtins.getattr",
+    "posixpath.basename",
+    "typing.cast",
+    "posixpath.basename",
+    "posixpath.splitext",
+    "str.lstrip"
+  ],
+  "src.click.utils._expand_args": [
+    "posixpath.expanduser",
+    "posixpath.expandvars",
+    "glob.glob",
+    "list.extend",
+    "list.append"
+  ],
+  "src.click.utils.make_default_short_help": [
+    "str.find",
+    "str.split",
+    "builtins.len",
+    "builtins.enumerate",
+    "builtins.len",
+    "str.join",
+    "str.join",
+    "builtins.len",
+    "builtins.len",
+    "str.join"
+  ]
+}

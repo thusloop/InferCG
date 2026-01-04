@@ -1,0 +1,709 @@
+{
+    "paramiko.agent": [
+        "paramiko.agent.AgentClientProxy",
+        "paramiko.agent.AgentSSH",
+        "paramiko.agent.AgentLocalProxy",
+        "paramiko.agent.AgentRemoteProxy",
+        "paramiko.agent.AgentRequestHandler",
+        "paramiko.agent.AgentKey",
+        "paramiko.agent.AgentServerProxy",
+        "paramiko.agent.AgentProxyThread",
+        "paramiko.agent.Agent"
+    ],
+    "paramiko.auth_handler": [
+        "paramiko.auth_handler.AuthHandler",
+        "paramiko.auth_handler.GssapiWithMicAuthHandler",
+        "paramiko.auth_handler.AuthOnlyHandler"
+    ],
+    "paramiko.auth_strategy": [
+        "paramiko.auth_strategy.InMemoryPrivateKey",
+        "paramiko.auth_strategy.PrivateKey",
+        "paramiko.auth_strategy.AuthStrategy",
+        "paramiko.auth_strategy.NoneAuth",
+        "paramiko.auth_strategy.Password",
+        "paramiko.auth_strategy.AuthResult",
+        "paramiko.auth_strategy.AuthSource",
+        "paramiko.auth_strategy.OnDiskPrivateKey",
+        "paramiko.auth_strategy.AuthFailure"
+    ],
+    "paramiko.ber": [
+        "paramiko.ber.BERException",
+        "paramiko.ber.BER"
+    ],
+    "paramiko.buffered_pipe": [
+        "paramiko.buffered_pipe.PipeTimeout",
+        "paramiko.buffered_pipe.BufferedPipe"
+    ],
+    "paramiko.channel": [
+        "paramiko.channel.ChannelFile",
+        "paramiko.channel.Channel",
+        "paramiko.channel.ChannelStdinFile",
+        "paramiko.channel.ChannelStderrFile"
+    ],
+    "paramiko.client": [
+        "paramiko.client.RejectPolicy",
+        "paramiko.client.MissingHostKeyPolicy",
+        "paramiko.client.SSHClient",
+        "paramiko.client.WarningPolicy",
+        "paramiko.client.AutoAddPolicy"
+    ],
+    "paramiko.compress": [
+        "paramiko.compress.ZlibDecompressor",
+        "paramiko.compress.ZlibCompressor"
+    ],
+    "paramiko.config": [
+        "paramiko.config.SSHConfig",
+        "paramiko.config.SSHConfigDict",
+        "paramiko.config.LazyFqdn"
+    ],
+    "paramiko.dsskey": [
+        "paramiko.dsskey.DSSKey"
+    ],
+    "paramiko.ecdsakey": [
+        "paramiko.ecdsakey._ECDSACurveSet",
+        "paramiko.ecdsakey.ECDSAKey",
+        "paramiko.ecdsakey._ECDSACurve"
+    ],
+    "paramiko.ed25519key": [
+        "paramiko.ed25519key.Ed25519Key"
+    ],
+    "paramiko.file": [
+        "paramiko.file.BufferedFile"
+    ],
+    "paramiko.hostkeys": [
+        "paramiko.hostkeys.HostKeys",
+        "paramiko.hostkeys.InvalidHostKey",
+        "paramiko.hostkeys.HostKeyEntry"
+    ],
+    "paramiko.kex_curve25519": [
+        "paramiko.kex_curve25519.KexCurve25519"
+    ],
+    "paramiko.kex_ecdh_nist": [
+        "paramiko.kex_ecdh_nist.KexNistp384",
+        "paramiko.kex_ecdh_nist.KexNistp521",
+        "paramiko.kex_ecdh_nist.KexNistp256"
+    ],
+    "paramiko.kex_gex": [
+        "paramiko.kex_gex.KexGex",
+        "paramiko.kex_gex.KexGexSHA256"
+    ],
+    "paramiko.kex_group1": [
+        "paramiko.kex_group1.KexGroup1"
+    ],
+    "paramiko.kex_group14": [
+        "paramiko.kex_group14.KexGroup14SHA256",
+        "paramiko.kex_group14.KexGroup14"
+    ],
+    "paramiko.kex_group16": [
+        "paramiko.kex_group16.KexGroup16SHA512"
+    ],
+    "paramiko.kex_gss": [
+        "paramiko.kex_gss.KexGSSGex",
+        "paramiko.kex_gss.KexGSSGroup1",
+        "paramiko.kex_gss.NullHostKey",
+        "paramiko.kex_gss.KexGSSGroup14"
+    ],
+    "paramiko.message": [
+        "paramiko.message.Message"
+    ],
+    "paramiko.packet": [
+        "paramiko.packet.NeedRekeyException",
+        "paramiko.packet.Packetizer"
+    ],
+    "paramiko.pipe": [
+        "paramiko.pipe.WindowsPipe",
+        "paramiko.pipe.PosixPipe",
+        "paramiko.pipe.OrPipe"
+    ],
+    "paramiko.pkey": [
+        "paramiko.pkey.PublicBlob",
+        "paramiko.pkey.PKey",
+        "paramiko.pkey.UnknownKeyType"
+    ],
+    "paramiko.primes": [
+        "paramiko.primes.ModulusPack"
+    ],
+    "paramiko.proxy": [
+        "paramiko.proxy.ProxyCommand"
+    ],
+    "paramiko.rsakey": [
+        "paramiko.rsakey.RSAKey"
+    ],
+    "paramiko.server": [
+        "paramiko.server.ServerInterface",
+        "paramiko.server.InteractiveQuery",
+        "paramiko.server.SubsystemHandler"
+    ],
+    "paramiko.sftp": [
+        "paramiko.sftp.BaseSFTP",
+        "paramiko.sftp.SFTPError",
+        "paramiko.sftp.int64"
+    ],
+    "paramiko.sftp_attr": [
+        "paramiko.sftp_attr.SFTPAttributes"
+    ],
+    "paramiko.sftp_client": [
+        "paramiko.sftp_client.SFTPClient",
+        "paramiko.sftp_client.SFTP"
+    ],
+    "paramiko.sftp_file": [
+        "paramiko.sftp_file.SFTPFile"
+    ],
+    "paramiko.sftp_handle": [
+        "paramiko.sftp_handle.SFTPHandle"
+    ],
+    "paramiko.sftp_server": [
+        "paramiko.sftp_server.SFTPServer"
+    ],
+    "paramiko.sftp_si": [
+        "paramiko.sftp_si.SFTPServerInterface"
+    ],
+    "paramiko.ssh_exception": [
+        "paramiko.ssh_exception.NoValidConnectionsError",
+        "paramiko.ssh_exception.PartialAuthentication",
+        "paramiko.ssh_exception.CouldNotCanonicalize",
+        "paramiko.ssh_exception.ChannelException",
+        "paramiko.ssh_exception.BadAuthenticationType",
+        "paramiko.ssh_exception.BadHostKeyException",
+        "paramiko.ssh_exception.ConfigParseError",
+        "paramiko.ssh_exception.ProxyCommandFailure",
+        "paramiko.ssh_exception.UnableToAuthenticate",
+        "paramiko.ssh_exception.IncompatiblePeer",
+        "paramiko.ssh_exception.PasswordRequiredException",
+        "paramiko.ssh_exception.MessageOrderError",
+        "paramiko.ssh_exception.AuthenticationException",
+        "paramiko.ssh_exception.SSHException"
+    ],
+    "paramiko.ssh_gss": [
+        "paramiko.ssh_gss._SSH_GSSAPI_NEW",
+        "paramiko.ssh_gss._SSH_GSSAuth",
+        "paramiko.ssh_gss._SSH_GSSAPI_OLD",
+        "paramiko.ssh_gss._SSH_SSPI"
+    ],
+    "paramiko.transport": [
+        "paramiko.transport.SecurityOptions",
+        "paramiko.transport.ServiceRequestingTransport",
+        "paramiko.transport.Transport",
+        "paramiko.transport.ChannelMap"
+    ],
+    "paramiko.util": [
+        "paramiko.util.ClosingContextManager",
+        "paramiko.util.PFilter"
+    ],
+    "paramiko.win_openssh": [
+        "paramiko.win_openssh.OpenSSHAgentConnection"
+    ],
+    "paramiko.win_pageant": [
+        "paramiko.win_pageant.PageantConnection",
+        "paramiko.win_pageant.COPYDATASTRUCT"
+    ],
+    "paramiko._winapi": [
+        "paramiko._winapi.TokenAccess",
+        "paramiko._winapi.TOKEN_USER",
+        "paramiko._winapi.WindowsError",
+        "paramiko._winapi.SECURITY_ATTRIBUTES",
+        "paramiko._winapi.TokenInformationClass",
+        "paramiko._winapi.MemoryMap",
+        "paramiko._winapi.SECURITY_DESCRIPTOR"
+    ],
+    "sshtunnel": [
+        "sshtunnel.BaseSSHTunnelForwarderError",
+        "sshtunnel._StreamForwardServer",
+        "sshtunnel._ForwardHandler",
+        "sshtunnel.SSHTunnelForwarder",
+        "sshtunnel._cli_main",
+        "sshtunnel._ForwardServer",
+        "sshtunnel._ThreadingForwardServer",
+        "sshtunnel._ThreadingStreamForwardServer",
+        "sshtunnel.HandlerSSHTunnelForwarderError"
+    ],
+    "argparse": [
+        "argparse.ArgumentDefaultsHelpFormatter",
+        "argparse.BooleanOptionalAction",
+        "argparse.MetavarTypeHelpFormatter",
+        "argparse.Action",
+        "argparse._CountAction",
+        "argparse._StoreTrueAction",
+        "argparse.RawDescriptionHelpFormatter",
+        "argparse._StoreConstAction",
+        "argparse.ArgumentError",
+        "argparse.ArgumentTypeError",
+        "argparse._AttributeHolder",
+        "argparse.HelpFormatter",
+        "argparse._StoreAction",
+        "argparse._ActionsContainer",
+        "argparse._ExtendAction",
+        "argparse.Namespace",
+        "argparse._SubParsersAction",
+        "argparse._StoreFalseAction",
+        "argparse.ArgumentParser",
+        "argparse._VersionAction",
+        "argparse._AppendAction",
+        "argparse.RawTextHelpFormatter",
+        "argparse._ArgumentGroup",
+        "argparse._MutuallyExclusiveGroup",
+        "argparse._AppendConstAction",
+        "argparse._HelpAction",
+        "argparse.FileType"
+    ],
+    "getpass": [
+        "getpass.GetPassWarning"
+    ],
+    "os": [
+        "os._AddedDllDirectory",
+        "os._Environ",
+        "os._wrap_close",
+        "os.PathLike"
+    ],
+    "queue": [
+        "queue.Empty",
+        "queue.PriorityQueue",
+        "queue.LifoQueue",
+        "queue._PySimpleQueue",
+        "queue.Queue",
+        "queue.Full"
+    ],
+    "socket": [
+        "socket.SocketIO",
+        "socket.socket",
+        "socket._GiveupOnSendfile"
+    ],
+    "socketserver": [
+        "socketserver.TCPServer",
+        "socketserver.ThreadingMixIn",
+        "socketserver.ThreadingTCPServer",
+        "socketserver.UnixStreamServer",
+        "socketserver.UnixDatagramServer",
+        "socketserver._NoThreads",
+        "socketserver._Threads",
+        "socketserver.DatagramRequestHandler",
+        "socketserver.ThreadingUDPServer",
+        "socketserver.ForkingMixIn",
+        "socketserver.UDPServer",
+        "socketserver.ThreadingUnixStreamServer",
+        "socketserver.ForkingUDPServer",
+        "socketserver.ForkingTCPServer",
+        "socketserver._SocketWriter",
+        "socketserver.ThreadingUnixDatagramServer",
+        "socketserver.BaseRequestHandler",
+        "socketserver.BaseServer",
+        "socketserver.StreamRequestHandler"
+    ],
+    "threading": [
+        "threading.Timer",
+        "threading._RLock",
+        "threading._DummyThread",
+        "threading.Semaphore",
+        "threading.BoundedSemaphore",
+        "threading.Thread",
+        "threading.Condition",
+        "threading._MainThread",
+        "threading.BrokenBarrierError",
+        "threading.Event",
+        "threading.Barrier"
+    ],
+    "traceback": [
+        "traceback.TracebackException",
+        "traceback.FrameSummary",
+        "traceback.StackSummary"
+    ],
+    "warnings": [
+        "warnings.catch_warnings",
+        "warnings._OptionError",
+        "warnings.WarningMessage"
+    ],
+    "logging.config": [
+        "logging.config.DictConfigurator",
+        "logging.config.BaseConfigurator",
+        "logging.config.ConvertingTuple",
+        "logging.config.ConvertingMixin",
+        "logging.config.ConvertingDict",
+        "logging.config.ConvertingList"
+    ],
+    "logging.handlers": [
+        "logging.handlers.NTEventLogHandler",
+        "logging.handlers.BaseRotatingHandler",
+        "logging.handlers.DatagramHandler",
+        "logging.handlers.MemoryHandler",
+        "logging.handlers.HTTPHandler",
+        "logging.handlers.RotatingFileHandler",
+        "logging.handlers.WatchedFileHandler",
+        "logging.handlers.TimedRotatingFileHandler",
+        "logging.handlers.BufferingHandler",
+        "logging.handlers.SocketHandler",
+        "logging.handlers.QueueListener",
+        "logging.handlers.SMTPHandler",
+        "logging.handlers.QueueHandler",
+        "logging.handlers.SysLogHandler"
+    ],
+    "logging": [
+        "logging.RootLogger",
+        "logging._StderrHandler",
+        "logging.Logger",
+        "logging.BufferingFormatter",
+        "logging.Formatter",
+        "logging.NullHandler",
+        "logging.Handler",
+        "logging.FileHandler",
+        "logging.Manager",
+        "logging.LogRecord",
+        "logging.StreamHandler",
+        "logging.PercentStyle",
+        "logging.StrFormatStyle",
+        "logging.Filter",
+        "logging.Filterer",
+        "logging.PlaceHolder",
+        "logging.StringTemplateStyle",
+        "logging.LoggerAdapter"
+    ],
+    "docs.conf": [
+        "sshtunnel"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests": [
+        "e2e_tests.run_docker_e2e_db_tests.stop",
+        "e2e_tests.run_docker_e2e_db_tests.wait_and_check_or_restart_if_required",
+        "sshtunnel.SSHTunnelForwarder",
+        "e2e_tests.run_docker_e2e_db_tests.run_db_queries",
+        "<builtin>.eval",
+        "sshtunnel",
+        "e2e_tests.run_docker_e2e_db_tests.show_threading_state_if_required",
+        "e2e_tests.run_docker_e2e_db_tests.start",
+        "e2e_tests.run_docker_e2e_db_tests.create_tunnel"
+    ],
+    "e2e_tests.run_docker_e2e_hangs_tests": [
+        "<builtin>.open",
+        "<builtin>.exec",
+        "sshtunnel",
+        "<**PyFile**>.read",
+        "e2e_tests.run_docker_e2e_db_tests.create_tunnel"
+    ],
+    "sshtunnel.check_address": [
+        "<builtin>.type",
+        "<**PyStr**>.format",
+        "sshtunnel.check_host",
+        "<builtin>.ValueError",
+        "sshtunnel.check_port",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.check_addresses": [
+        "<builtin>.AssertionError",
+        "<builtin>.all",
+        "<builtin>.any",
+        "sshtunnel.check_address",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.create_logger": [
+        "sshtunnel._check_paramiko_handlers",
+        "<builtin>.any",
+        "sshtunnel._add_handler",
+        "<**PyList**>.extend",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel._ForwardHandler.handle": [
+        "<builtin>.repr",
+        "sshtunnel.get_connection_id",
+        "sshtunnel._ForwardHandler._redirect",
+        "<**PyStr**>.format",
+        "sshtunnel.HandlerSSHTunnelForwarderError",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel._ForwardServer.__init__": [
+        "<**PyDict**>.pop",
+        "sshtunnel.create_logger"
+    ],
+    "sshtunnel._ForwardServer.remote_host": [
+        "sshtunnel._ForwardServer.remote_address"
+    ],
+    "sshtunnel._StreamForwardServer.__init__": [
+        "<**PyDict**>.pop",
+        "sshtunnel.create_logger"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_is_up": [
+        "sshtunnel.SSHTunnelForwarder.check_tunnels",
+        "sshtunnel.check_address",
+        "<**PyDict**>.get"
+    ],
+    "sshtunnel.SSHTunnelForwarder.check_tunnels": [
+        "sshtunnel.SSHTunnelForwarder._check_tunnel"
+    ],
+    "sshtunnel.SSHTunnelForwarder._make_ssh_forward_handler_class": [
+        "sshtunnel.SSHTunnelForwarder._make_ssh_forward_handler_class.Handler"
+    ],
+    "sshtunnel.SSHTunnelForwarder._make_ssh_forward_server": [
+        "sshtunnel.BaseSSHTunnelForwarderError",
+        "sshtunnel.address_to_str",
+        "<**PyStr**>.format",
+        "sshtunnel.SSHTunnelForwarder._raise",
+        "sshtunnel.SSHTunnelForwarder._make_stream_ssh_forward_server_class",
+        "sshtunnel.SSHTunnelForwarder._make_ssh_forward_handler_class",
+        "<**PyList**>.append",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__init__": [
+        "sshtunnel._check_paramiko_handlers",
+        "sshtunnel.SSHTunnelForwarder._consolidate_binds",
+        "sshtunnel.SSHTunnelForwarder._read_ssh_config",
+        "sshtunnel.SSHTunnelForwarder._process_deprecated",
+        "sshtunnel.create_logger",
+        "sshtunnel.check_host",
+        "<**PyStr**>.format",
+        "<**PyDict**>.pop",
+        "sshtunnel.check_address",
+        "sshtunnel.SSHTunnelForwarder._consolidate_auth",
+        "sshtunnel.SSHTunnelForwarder._get_binds",
+        "<builtin>.ValueError",
+        "sshtunnel.check_port",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.SSHTunnelForwarder.get_keys": [
+        "<**PyStr**>.format",
+        "<builtin>.len",
+        "<**PyDict**>.keys",
+        "sshtunnel.SSHTunnelForwarder.get_agent_keys",
+        "sshtunnel.SSHTunnelForwarder.read_private_key_file",
+        "<**PyList**>.append",
+        "<builtin>.hasattr"
+    ],
+    "sshtunnel.SSHTunnelForwarder._consolidate_auth": [
+        "<**PyStr**>.format",
+        "<builtin>.ValueError",
+        "sshtunnel.SSHTunnelForwarder.get_keys",
+        "<**PyList**>.insert",
+        "sshtunnel.SSHTunnelForwarder.read_private_key_file",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.SSHTunnelForwarder._raise": [
+        "<builtin>.repr",
+        "sshtunnel.BaseSSHTunnelForwarderError"
+    ],
+    "sshtunnel.SSHTunnelForwarder._create_tunnels": [
+        "sshtunnel.SSHTunnelForwarder.is_active",
+        "<**PyStr**>.format",
+        "sshtunnel.SSHTunnelForwarder._connect_to_gateway",
+        "sshtunnel.SSHTunnelForwarder._make_ssh_forward_server",
+        "<builtin>.zip"
+    ],
+    "sshtunnel.SSHTunnelForwarder._get_binds": [
+        "sshtunnel.check_addresses",
+        "<**PyStr**>.format",
+        "<builtin>.ValueError",
+        "<builtin>.enumerate",
+        "<builtin>.len",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.SSHTunnelForwarder.start": [
+        "sshtunnel.BaseSSHTunnelForwarderError",
+        "sshtunnel.SSHTunnelForwarder._create_tunnels",
+        "sshtunnel.address_to_str",
+        "sshtunnel.SSHTunnelForwarder.is_active",
+        "<**PyStr**>.format",
+        "<builtin>.any",
+        "sshtunnel.SSHTunnelForwarder._raise",
+        "sshtunnel.SSHTunnelForwarder._serve_forever_wrapper",
+        "sshtunnel.SSHTunnelForwarder._check_tunnel",
+        "<**PyDict**>.values",
+        "sshtunnel.HandlerSSHTunnelForwarderError"
+    ],
+    "sshtunnel.SSHTunnelForwarder.stop": [
+        "<**PyStr**>.join",
+        "sshtunnel.SSHTunnelForwarder._stop_transport",
+        "sshtunnel._ForwardServer.local_address",
+        "sshtunnel.address_to_str"
+    ],
+    "sshtunnel.SSHTunnelForwarder.close": [
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "sshtunnel.SSHTunnelForwarder.restart": [
+        "sshtunnel.SSHTunnelForwarder.start",
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "sshtunnel.SSHTunnelForwarder._connect_to_gateway": [
+        "<**PyStr**>.format",
+        "sshtunnel.SSHTunnelForwarder._stop_transport",
+        "sshtunnel.SSHTunnelForwarder._get_transport",
+        "<builtin>.len"
+    ],
+    "sshtunnel.SSHTunnelForwarder._serve_forever_wrapper": [
+        "<**PyStr**>.format",
+        "sshtunnel.address_to_str"
+    ],
+    "sshtunnel.SSHTunnelForwarder._stop_transport": [
+        "<builtin>.repr",
+        "sshtunnel.address_to_str",
+        "<**PyStr**>.format",
+        "sshtunnel.SSHTunnelForwarder._check_is_started",
+        "sshtunnel._ForwardServer.local_address",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_port": [
+        "sshtunnel.BaseSSHTunnelForwarderError",
+        "<builtin>.len",
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_host": [
+        "sshtunnel.SSHTunnelForwarder.local_bind_hosts",
+        "sshtunnel.BaseSSHTunnelForwarderError",
+        "<builtin>.len",
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_address": [
+        "sshtunnel.BaseSSHTunnelForwarderError",
+        "<builtin>.len",
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_ports": [
+        "sshtunnel._ForwardServer.local_port",
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_hosts": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_addresses": [
+        "sshtunnel._StreamForwardServer.local_address",
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "sshtunnel.SSHTunnelForwarder._check_is_started": [
+        "sshtunnel.BaseSSHTunnelForwarderError",
+        "sshtunnel.HandlerSSHTunnelForwarderError",
+        "sshtunnel.SSHTunnelForwarder.is_active"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__str__": [
+        "<**PyStr**>.format",
+        "<**PyStr**>.join",
+        "sshtunnel._remove_none_values",
+        "<builtin>.any"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__enter__": [
+        "sshtunnel.SSHTunnelForwarder.start"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__exit__": [
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__del__": [
+        "sshtunnel.SSHTunnelForwarder.is_active",
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "sshtunnel.open_tunnel": [
+        "sshtunnel.SSHTunnelForwarder._process_deprecated",
+        "sshtunnel.create_logger",
+        "<**PyDict**>.pop",
+        "sshtunnel.SSHTunnelForwarder",
+        "<**PyDict**>.get",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel._parse_arguments": [
+        "<**PyStr**>.format",
+        "sshtunnel._bindlist",
+        "<builtin>.vars"
+    ],
+    "sshtunnel._cli_main": [
+        "sshtunnel._parse_arguments",
+        "sshtunnel._remove_none_values",
+        "<**PyDict**>.pop",
+        "<**PyDict**>.items",
+        "sshtunnel.open_tunnel",
+        "<builtin>.min",
+        "<**PyDict**>.setdefault"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.run_postgres_query": [
+        "e2e_tests.run_docker_e2e_db_tests.run_postgres_query.wait",
+        "e2e_tests.run_docker_e2e_db_tests.run_postgres_query.wait_timeout"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.create_tunnel": [
+        "sshtunnel.SSHTunnelForwarder"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.run_db_queries": [
+        "e2e_tests.run_docker_e2e_db_tests.run_postgres_query",
+        "e2e_tests.run_docker_e2e_db_tests.run_mysql_query",
+        "e2e_tests.run_docker_e2e_db_tests.run_mongo_query"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.wait_and_check_or_restart_if_required": [
+        "sshtunnel.SSHTunnelForwarder.check_tunnels",
+        "sshtunnel.SSHTunnelForwarder.is_active"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.stop": [
+        "e2e_tests.run_docker_e2e_db_tests.stop"
+    ],
+    "sshtunnel.check_host": [
+        "<**PyStr**>.format",
+        "<builtin>.type",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.check_port": [
+        "<**PyStr**>.format",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.address_to_str": [
+        "<**PyStr**>.format",
+        "<builtin>.str",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel._remove_none_values": [
+        "<builtin>.list",
+        "<builtin>.map"
+    ],
+    "sshtunnel.BaseSSHTunnelForwarderError.__init__": [
+        "<**PyDict**>.pop"
+    ],
+    "sshtunnel._ForwardHandler._redirect": [
+        "<**PyStr**>.format"
+    ],
+    "sshtunnel._ForwardServer.handle_error": [
+        "<**PyStr**>.format"
+    ],
+    "sshtunnel.SSHTunnelForwarder._check_tunnel": [
+        "<**PyStr**>.format",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.SSHTunnelForwarder._read_ssh_config": [
+        "<builtin>.int",
+        "<**PyStr**>.format",
+        "<builtin>.open",
+        "<**PyStr**>.upper",
+        "<**PyDict**>.get"
+    ],
+    "sshtunnel.SSHTunnelForwarder.get_agent_keys": [
+        "<**PyStr**>.format",
+        "<builtin>.list",
+        "<builtin>.len"
+    ],
+    "sshtunnel.SSHTunnelForwarder._consolidate_binds": [
+        "<builtin>.range",
+        "<**PyList**>.extend",
+        "<builtin>.len",
+        "<builtin>.ValueError"
+    ],
+    "sshtunnel.SSHTunnelForwarder._get_transport": [
+        "<**PyStr**>.format",
+        "<builtin>.repr",
+        "<builtin>.isinstance"
+    ],
+    "sshtunnel.SSHTunnelForwarder._process_deprecated": [
+        "<**PyStr**>.format",
+        "<**PyDict**>.pop",
+        "<builtin>.ValueError"
+    ],
+    "sshtunnel.SSHTunnelForwarder.read_private_key_file": [
+        "<**PyStr**>.format",
+        "<builtin>.hasattr"
+    ],
+    "sshtunnel.SSHTunnelForwarder.tunnel_bindings": [
+        "<builtin>.dict"
+    ],
+    "sshtunnel._bindlist": [
+        "<**PyStr**>.split",
+        "<builtin>.int",
+        "<builtin>.len"
+    ],
+    "docs.conf._warn_node": [
+        "<**PyStr**>.startswith"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.show_threading_state_if_required": [
+        "<builtin>.list",
+        "<**PyDict**>.items",
+        "<**PyStr**>.join",
+        "<**PyStr**>.strip",
+        "<builtin>.len",
+        "<**PyList**>.append"
+    ]
+}

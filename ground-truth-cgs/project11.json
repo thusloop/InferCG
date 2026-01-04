@@ -1,0 +1,39 @@
+{
+  "delegator.chain": [
+    "delegator._expand_args",
+    "delegator.run",
+    "delegator.Command.send",
+    "pexpect.popen_spawn.PopenSpawn.sendeof"
+  ],
+  "delegator._expand_args": [
+    "builtins.isinstance",
+    "shlex.shlex",
+    "shlex.shlex.get_token",
+    "list.append",
+    "builtins.map",
+    "builtins.list"
+  ],
+  "delegator.run": [
+    "delegator.Command",
+    "delegator.Command.run"
+  ],
+  "delegator.Command.__init__": [
+    "object.__init__"
+  ],
+  "delegator.Command._default_pexpect_kwargs": [
+    "os._Environ.copy"
+  ],
+  "delegator.Command.run": [
+    "dict.copy",
+    "pexpect.popen_spawn.PopenSpawn"
+  ],
+  "delegator.Command._uses_subprocess": [
+    "builtins.isinstance"
+  ],
+  "delegator.Command._pexpect_out": [
+    "pexpect.spawnbase.SpawnBase.read"
+  ],
+  "delegator.Command.send": [
+    "pexpect.popen_spawn.PopenSpawn.send"
+  ]
+}

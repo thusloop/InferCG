@@ -1,0 +1,192 @@
+{
+  "patterns.behavioral.strategy": [
+    "patterns.behavioral.strategy.DiscountStrategyValidator"
+  ],
+  "patterns.creational.lazy_evaluation.lazy_property.__init__": [
+    "functools.update_wrapper"
+  ],
+  "patterns.structural.adapter": [
+    "typing.TypeVar"
+  ],
+  "patterns.other.hsm.hsm.HierachicalStateMachine.__init__": [
+    "patterns.other.hsm.hsm.Active",
+    "patterns.other.hsm.hsm.Standby",
+    "patterns.other.hsm.hsm.Suspect",
+    "patterns.other.hsm.hsm.Failed"
+  ],
+  "patterns.other.hsm.hsm.HierachicalStateMachine.on_message": [
+    "dict.keys",
+    "patterns.other.hsm.hsm.Unit.on_diagnostics_passed",
+    "patterns.other.hsm.hsm.Unit.on_diagnostics_failed",
+    "patterns.other.hsm.hsm.Standby.on_switchover",
+    "patterns.other.hsm.hsm.Unit.on_operator_inservice",
+    "patterns.other.hsm.hsm.Inservice.on_fault_trigger"
+  ],
+  "patterns.other.hsm.hsm.Standby.on_switchover": [
+    "patterns.other.hsm.hsm.Inservice.on_switchover",
+    "<MagicMock name='_next_state' id='140231961983584'>",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._next_state"
+  ],
+  "patterns.other.hsm.hsm.Inservice.on_switchover": [
+    "<MagicMock name='_perform_switchover' id='140231964656496'>",
+    "<MagicMock name='_check_mate_status' id='140231979676768'>",
+    "<MagicMock name='_send_switchover_response' id='140231964701456'>",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._perform_switchover",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._check_mate_status",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._send_switchover_response"
+  ],
+  "patterns.other.hsm.hsm.Inservice.on_fault_trigger": [
+    "patterns.other.hsm.hsm.HierachicalStateMachine._next_state",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._send_diagnostics_request",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._raise_alarm"
+  ],
+  "patterns.structural.proxy.Proxy.__init__": [
+    "patterns.structural.proxy.RealSubject"
+  ],
+  "patterns.structural.proxy.client": [
+    "patterns.structural.proxy.Proxy.do_the_job"
+  ],
+  "patterns.structural.proxy.Proxy.do_the_job": [
+    "builtins.print",
+    "patterns.structural.proxy.RealSubject.do_the_job",
+    "builtins.print"
+  ],
+  "patterns.structural.proxy.RealSubject.do_the_job": [
+    "builtins.print"
+  ],
+  "patterns.creational.borg.YourBorg.__init__": [
+    "patterns.creational.borg.Borg.__init__",
+    "builtins.hasattr"
+  ],
+  "patterns.creational.abstract_factory.PetShop.buy_pet": [
+    "patterns.creational.abstract_factory.Dog",
+    "builtins.print"
+  ],
+  "patterns.creational.builder.construct_building": [
+    "patterns.creational.builder.ComplexHouse",
+    "patterns.creational.builder.ComplexHouse.build_floor",
+    "patterns.creational.builder.ComplexHouse.build_size"
+  ],
+  "patterns.creational.builder.Building.__init__": [
+    "patterns.creational.builder.Flat.build_floor",
+    "patterns.creational.builder.Flat.build_size",
+    "patterns.creational.builder.House.build_floor",
+    "patterns.creational.builder.House.build_size"
+  ],
+  "patterns.structural.adapter.Adapter.__init__": [
+    "dict.update"
+  ],
+  "patterns.creational.pool.ObjectPool.__enter__": [
+    "queue.Queue.get"
+  ],
+  "patterns.creational.pool.ObjectPool.__exit__": [
+    "queue.Queue.put"
+  ],
+  "patterns.creational.pool.ObjectPool.__init__": [
+    "queue.Queue.get"
+  ],
+  "patterns.behavioral.publish_subscribe.Subscriber.subscribe": [
+    "patterns.behavioral.publish_subscribe.Provider.subscribe"
+  ],
+  "patterns.behavioral.publish_subscribe.Provider.subscribe": [
+    "dict.setdefault",
+    "list.append"
+  ],
+  "patterns.behavioral.publish_subscribe.Subscriber.unsubscribe": [
+    "patterns.behavioral.publish_subscribe.Provider.unsubscribe"
+  ],
+  "patterns.behavioral.publish_subscribe.Provider.unsubscribe": [
+    "list.remove"
+  ],
+  "patterns.behavioral.publish_subscribe.Publisher.publish": [
+    "patterns.behavioral.publish_subscribe.Provider.notify"
+  ],
+  "patterns.behavioral.publish_subscribe.Provider.notify": [
+    "list.append"
+  ],
+  "patterns.behavioral.publish_subscribe.Provider.update": [
+    "dict.get",
+    "<MagicMock name='run' id='140231961750752'>",
+    "<MagicMock name='run' id='140231962308048'>"
+  ],
+  "patterns.behavioral.strategy.DiscountStrategyValidator.__set__": [
+    "patterns.behavioral.strategy.DiscountStrategyValidator.validate",
+    "builtins.setattr",
+    "builtins.setattr"
+  ],
+  "patterns.behavioral.strategy.DiscountStrategyValidator.validate": [
+    "patterns.behavioral.strategy.ten_percent_discount",
+    "patterns.behavioral.strategy.on_sale_discount",
+    "builtins.ValueError",
+    "builtins.str",
+    "builtins.print"
+  ],
+  "patterns.behavioral.strategy.DiscountStrategyValidator.__get__": [
+    "builtins.getattr"
+  ],
+  "patterns.behavioral.strategy.Order.apply_discount": [
+    "patterns.behavioral.strategy.ten_percent_discount",
+    "patterns.behavioral.strategy.on_sale_discount"
+  ],
+  "patterns.structural.decorator.ItalicWrapper.render": [
+    "patterns.structural.decorator.TextTag.render"
+  ],
+  "patterns.structural.decorator.BoldWrapper.render": [
+    "patterns.structural.decorator.TextTag.render",
+    "patterns.structural.decorator.ItalicWrapper.render"
+  ],
+  "patterns.behavioral.observer.Data.__init__": [
+    "patterns.behavioral.observer.Subject.__init__"
+  ],
+  "patterns.behavioral.observer.Subject.attach": [
+    "list.append"
+  ],
+  "patterns.behavioral.observer.Subject.detach": [
+    "contextlib.suppress",
+    "list.remove"
+  ],
+  "patterns.behavioral.observer.Data.data": [
+    "patterns.behavioral.observer.Subject.notify"
+  ],
+  "patterns.behavioral.observer.Subject.notify": [
+    "<Mock name='mock()' id='140231964619584'>",
+    "patterns.behavioral.observer.HexViewer.update"
+  ],
+  "patterns.behavioral.observer.HexViewer.update": [
+    "builtins.print"
+  ],
+  "patterns.creational.lazy_evaluation.lazy_property.__get__": [
+    "patterns.creational.lazy_evaluation.Person.relatives"
+  ],
+  "patterns.creational.lazy_evaluation._lazy_property": [
+    "builtins.hasattr",
+    "patterns.creational.lazy_evaluation.Person.parents",
+    "builtins.setattr",
+    "builtins.getattr"
+  ],
+  "patterns.structural.bridge.CircleShape.draw": [
+    "<MagicMock name='draw_circle' id='140231963172800'>",
+    "<MagicMock name='draw_circle' id='140231962874192'>"
+  ],
+  "patterns.creational.prototype.Prototype.__init__": [
+    "dict.update"
+  ],
+  "patterns.creational.prototype.Prototype.clone": [
+    "patterns.creational.prototype.Prototype",
+    "dict.update"
+  ],
+  "patterns.behavioral.state.Radio.__init__": [
+    "patterns.behavioral.state.AmState",
+    "patterns.behavioral.state.FmState"
+  ],
+  "patterns.behavioral.state.Radio.toggle_amfm": [
+    "patterns.behavioral.state.AmState.toggle_amfm",
+    "patterns.behavioral.state.FmState.toggle_amfm"
+  ],
+  "patterns.behavioral.state.AmState.toggle_amfm": [
+    "builtins.print"
+  ],
+  "patterns.behavioral.state.FmState.toggle_amfm": [
+    "builtins.print"
+  ]
+}

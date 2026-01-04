@@ -1,0 +1,514 @@
+{
+  "streamparse.thrift": [
+    "_io.StringIO",
+    "thriftpy2.parser.load_fp",
+    "builtins.hash"
+  ],
+  "streamparse.dsl.stream": [
+    "storm_thrift'.NullStruct",
+    "streamparse.dsl.stream._Grouping",
+    "streamparse.dsl.stream._Grouping",
+    "storm_thrift'.NullStruct",
+    "streamparse.dsl.stream._Grouping",
+    "storm_thrift'.NullStruct",
+    "streamparse.dsl.stream._Grouping",
+    "storm_thrift'.NullStruct",
+    "streamparse.dsl.stream._Grouping",
+    "storm_thrift'.NullStruct",
+    "streamparse.dsl.stream._Grouping"
+  ],
+  "streamparse.dsl.topology.TopologyType.__new__": [
+    "streamparse.dsl.topology.TopologyType.class_dict_to_specs",
+    "dict.values",
+    "dict.values",
+    "builtins.list",
+    "storm_thrift'.StormTopology",
+    "type.__new__",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "streamparse.dsl.topology.TopologyType.add_spout_spec",
+    "streamparse.dsl.topology.TopologyType.clean_spec_inputs",
+    "streamparse.dsl.topology.TopologyType.add_bolt_spec",
+    "builtins.isinstance",
+    "builtins.TypeError",
+    "builtins.ValueError"
+  ],
+  "streamparse.dsl.topology.TopologyType.class_dict_to_specs": [
+    "dict.items",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.format",
+    "builtins.TypeError",
+    "builtins.ValueError"
+  ],
+  "streamparse.version": [
+    "str.split",
+    "streamparse.version._safe_int"
+  ],
+  "streamparse.version._safe_int": [
+    "builtins.int"
+  ],
+  "streamparse.__init__": [
+    "logging.getLogger",
+    "logging.NullHandler",
+    "logging.Logger.addHandler"
+  ],
+  "streamparse.dsl.stream.Stream.__init__": [
+    "builtins.isinstance",
+    "builtins.list",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance"
+  ],
+  "streamparse.util": [
+    "collections.defaultdict"
+  ],
+  "streamparse.bootstrap.__init__": [
+    "posixpath.dirname",
+    "posixpath.abspath",
+    "streamparse.bootstrap._here",
+    "jinja2.loaders.FileSystemLoader",
+    "jinja2.environment.Environment"
+  ],
+  "streamparse.bootstrap.__init__._here": [
+    "posixpath.join",
+    "pkg_resources.ResourceManager.resource_filename"
+  ],
+  "streamparse.storm.component.Component.spec": [
+    "builtins.TypeError"
+  ],
+  "streamparse.storm.spout.Spout.spec": [
+    "streamparse.dsl.spout.ShellSpoutSpec"
+  ],
+  "streamparse.dsl.spout.ShellSpoutSpec.__init__": [
+    "streamparse.dsl.component.ShellComponentSpec.__init__"
+  ],
+  "streamparse.dsl.component.ShellComponentSpec.__init__": [
+    "streamparse.dsl.component.ComponentSpec.__init__",
+    "storm_thrift'.ShellComponent",
+    "storm_thrift'.ComponentObject",
+    "builtins.ValueError",
+    "builtins.TypeError"
+  ],
+  "streamparse.dsl.component.ComponentSpec.__init__": [
+    "streamparse.dsl.component.ComponentSpec._sanitize_par",
+    "streamparse.dsl.component.ComponentSpec._sanitize_config",
+    "streamparse.dsl.component.ComponentSpec._sanitize_outputs",
+    "streamparse.dsl.component.ComponentSpec._sanitize_inputs",
+    "storm_thrift'.ComponentCommon"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_par": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "dict.items",
+    "builtins.isinstance",
+    "str.format",
+    "builtins.TypeError",
+    "builtins.TypeError",
+    "builtins.ValueError"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_config": [
+    "builtins.isinstance",
+    "builtins.TypeError"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_outputs": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "storm_thrift'.StreamInfo",
+    "dict.setdefault",
+    "list.append",
+    "str.format",
+    "builtins.TypeError",
+    "str.format",
+    "builtins.TypeError",
+    "storm_thrift'.StreamInfo"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_inputs": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "dict.items",
+    "builtins.list",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "storm_thrift'.GlobalStreamId",
+    "dict.get",
+    "str.format",
+    "builtins.TypeError",
+    "str.format",
+    "builtins.TypeError",
+    "builtins.TypeError",
+    "builtins.isinstance"
+  ],
+  "streamparse.dsl.stream.Grouping.fields": [
+    "builtins.len",
+    "builtins.isinstance",
+    "builtins.list",
+    "streamparse.dsl.stream._Grouping",
+    "builtins.ValueError"
+  ],
+  "streamparse.storm.bolt.Bolt.spec": [
+    "streamparse.dsl.bolt.ShellBoltSpec"
+  ],
+  "streamparse.dsl.bolt.ShellBoltSpec.__init__": [
+    "streamparse.dsl.component.ShellComponentSpec.__init__"
+  ],
+  "streamparse.dsl.component.ComponentSpec.__getitem__": [
+    "storm_thrift'.GlobalStreamId",
+    "dict.keys",
+    "builtins.list",
+    "str.format",
+    "builtins.KeyError"
+  ],
+  "streamparse.dsl.topology.TopologyType.add_spout_spec": [
+    "storm_thrift'.SpoutSpec",
+    "str.format",
+    "builtins.ValueError"
+  ],
+  "streamparse.dsl.topology.TopologyType.clean_spec_inputs": [
+    "dict.items",
+    "builtins.list",
+    "builtins.isinstance",
+    "builtins.set",
+    "str.format",
+    "builtins.ValueError"
+  ],
+  "streamparse.dsl.topology.TopologyType.add_bolt_spec": [
+    "storm_thrift'.Bolt",
+    "str.format",
+    "builtins.ValueError"
+  ],
+  "streamparse.dsl.topology.Topology.to_flux_dict": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "streamparse.dsl.topology.Topology._spec_to_flux_dict",
+    "list.append",
+    "streamparse.dsl.topology.Topology._spec_to_flux_dict",
+    "list.append",
+    "dict.items",
+    "streamparse.dsl.topology.Topology._stream_to_flux_dict",
+    "list.append",
+    "dict.items"
+  ],
+  "streamparse.dsl.topology.Topology._spec_to_flux_dict": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "list.append",
+    "dict.keys",
+    "list.append",
+    "builtins.isinstance",
+    "simplejson.loads",
+    "dict.setdefault",
+    "dict.items"
+  ],
+  "streamparse.dsl.topology.Topology._stream_to_flux_dict": [
+    "dict.items",
+    "str.upper"
+  ],
+  "streamparse.dsl.stream._Grouping.__repr__": [
+    "dict.items",
+    "str.startswith",
+    "builtins.isinstance"
+  ],
+  "streamparse.dsl.component.ComponentSpec.__repr__": [
+    "copy.deepcopy",
+    "dict.pop",
+    "dict.items"
+  ],
+  "streamparse.storm.bolt.JavaBolt.spec": [
+    "streamparse.dsl.bolt.JavaBoltSpec"
+  ],
+  "streamparse.dsl.bolt.JavaBoltSpec.__init__": [
+    "streamparse.dsl.component.JavaComponentSpec.__init__"
+  ],
+  "streamparse.dsl.component.JavaComponentSpec.__init__": [
+    "streamparse.dsl.component.ComponentSpec.__init__",
+    "builtins.enumerate",
+    "streamparse.dsl.util.to_java_arg",
+    "storm_thrift'.JavaObject",
+    "storm_thrift'.ComponentObject",
+    "builtins.isinstance",
+    "storm_thrift'.ComponentObject"
+  ],
+  "streamparse.dsl.util.to_java_arg": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.format",
+    "builtins.TypeError",
+    "storm_thrift'.JavaObjectArg",
+    "storm_thrift'.JavaObjectArg",
+    "storm_thrift'.JavaObjectArg",
+    "storm_thrift'.JavaObjectArg",
+    "storm_thrift'.JavaObjectArg"
+  ],
+  "streamparse.storm.spout.JavaSpout.spec": [
+    "streamparse.dsl.spout.JavaSpoutSpec"
+  ],
+  "streamparse.dsl.spout.JavaSpoutSpec.__init__": [
+    "streamparse.dsl.component.JavaComponentSpec.__init__"
+  ],
+  "streamparse.storm.bolt.ShellBolt.spec": [
+    "streamparse.dsl.bolt.ShellBoltSpec"
+  ],
+  "streamparse.storm.spout.ShellSpout.spec": [
+    "streamparse.dsl.spout.ShellSpoutSpec"
+  ],
+  "streamparse.run.main": [
+    "argparse.ArgumentParser",
+    "argparse._ActionsContainer.add_argument",
+    "dict.keys",
+    "argparse._ActionsContainer.add_argument",
+    "builtins.len",
+    "str.split",
+    "argparse.ArgumentParser.parse_args",
+    "str.rsplit",
+    "posix.getcwd",
+    "os.walk",
+    "builtins.next",
+    "list.append",
+    "importlib.import_module",
+    "builtins.getattr",
+    "test.streamparse_run.streamparse_run_target.StreamparseRunTarget",
+    "test.streamparse_run.streamparse_run_target.StreamparseRunTarget.run",
+    "str.replace",
+    "posixpath.join",
+    "genericpath.isfile",
+    "posixpath.join",
+    "streamparse_run.streamparse_run_target.StreamparseRunTarget",
+    "streamparse_run.streamparse_run_target.StreamparseRunTarget.run"
+  ],
+  "streamparse.cli.common.resolve_options": [
+    "dict.get",
+    "dict.update",
+    "dict.get",
+    "str.join",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "builtins.isinstance",
+    "dict.get",
+    "builtins.isinstance",
+    "dict.get",
+    "builtins.isinstance",
+    "str.lower",
+    "dict.get",
+    "dict.update",
+    "dict.update",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "dict.setdefault"
+  ],
+  "streamparse.cli.jar.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_simple_jar"
+  ],
+  "streamparse.cli.common.add_simple_jar": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.kill.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_timeout",
+    "streamparse.cli.common.add_wait"
+  ],
+  "streamparse.cli.common.add_config": [
+    "argparse.FileType",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_environment": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_name": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_timeout": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_wait": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.list.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_timeout"
+  ],
+  "streamparse.cli.quickstart.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.remove_logs.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "argparse._ActionsContainer.add_argument",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_pattern",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_user",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_override_name": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_pattern": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_pool_size": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_user": [
+    "list.insert",
+    "streamparse.cli.common.option_alias",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common._StoreDictAction.__init__": [
+    "argparse.Action.__init__"
+  ],
+  "streamparse.cli.run.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_ackers",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_debug",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_options",
+    "argparse._ActionsContainer.add_argument",
+    "streamparse.cli.common.add_workers"
+  ],
+  "streamparse.cli.common.add_ackers": [
+    "streamparse.cli.common.option_alias",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_debug": [
+    "streamparse.cli.common.option_alias",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_options": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_workers": [
+    "streamparse.cli.common.option_alias",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common._StoreDictAction.__call__": [
+    "builtins.getattr",
+    "builtins.setattr",
+    "builtins.getattr",
+    "copy.copy",
+    "str.split",
+    "ruamel.yaml.main.YAML",
+    "ruamel.yaml.main.YAML.load",
+    "builtins.setattr"
+  ],
+  "streamparse.cli.run.main": [
+    "run_local_topology"
+  ],
+  "streamparse.cli.sparse.load_subparsers": [
+    "posixpath.dirname",
+    "pkgutil.iter_modules",
+    "importlib.import_module",
+    "builtins.hasattr",
+    "streamparse.cli.jar.subparser_hook",
+    "streamparse.cli.kill.subparser_hook",
+    "streamparse.cli.list.subparser_hook",
+    "streamparse.cli.quickstart.subparser_hook",
+    "streamparse.cli.remove_logs.subparser_hook",
+    "streamparse.cli.run.subparser_hook",
+    "streamparse.cli.slot_usage.subparser_hook",
+    "streamparse.cli.stats.subparser_hook",
+    "streamparse.cli.submit.subparser_hook"
+  ],
+  "streamparse.cli.slot_usage.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment"
+  ],
+  "streamparse.cli.stats.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_name"
+  ],
+  "streamparse.cli.submit.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_ackers",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_debug",
+    "streamparse.cli.common.add_environment",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_options",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_overwrite_virtualenv",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_requirements",
+    "argparse._ActionsContainer.add_argument",
+    "streamparse.cli.common.add_timeout",
+    "argparse._ActionsContainer.add_argument",
+    "streamparse.cli.common.add_user",
+    "streamparse.cli.common.add_wait",
+    "streamparse.cli.common.add_workers"
+  ],
+  "streamparse.cli.common.add_overwrite_virtualenv": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.common.add_requirements": [
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "streamparse.cli.tail.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_pattern"
+  ],
+  "streamparse.cli.update_virtualenv.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_overwrite_virtualenv",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_options",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_requirements",
+    "streamparse.cli.common.add_user"
+  ],
+  "streamparse.cli.worker_uptime.subparser_hook": [
+    "argparse._SubParsersAction.add_parser",
+    "argparse._ActionsContainer.set_defaults",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_environment"
+  ]
+}

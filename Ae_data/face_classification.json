@@ -1,0 +1,548 @@
+{
+    "src.image_emotion_gender_demo": [
+        "cv2.cvtColor",
+        "src.utils.inference.draw_text",
+        "src.utils.preprocessor.preprocess_input",
+        "src.utils.inference.load_image",
+        "src.utils.datasets.get_labels",
+        "keras.models.load_model",
+        "numpy.argmax",
+        "cv2.imwrite",
+        "src.utils.inference.load_detection_model",
+        "src.utils.inference.draw_bounding_box",
+        "src.utils.inference.apply_offsets",
+        "src.utils.inference.detect_faces",
+        "numpy.expand_dims",
+        "numpy.squeeze",
+        "cv2.resize"
+    ],
+    "src.image_gradcam_demo": [
+        "cv2.cvtColor",
+        "src.utils.grad_cam.compile_gradient_function",
+        "src.utils.grad_cam.modify_backprop",
+        "cv2.resize",
+        "src.utils.grad_cam.calculate_guided_gradient_CAM",
+        "src.utils.inference.load_image",
+        "keras.models.load_model",
+        "src.utils.inference.load_detection_model",
+        "src.utils.inference.draw_bounding_box",
+        "src.utils.inference.detect_faces",
+        "numpy.squeeze",
+        "keras.models.load_model.predict",
+        "src.utils.datasets.get_labels",
+        "src.utils.grad_cam.compile_saliency_function",
+        "numpy.argmax",
+        "src.utils.inference.apply_offsets",
+        "numpy.repeat",
+        "cv2.imwrite",
+        "src.utils.preprocessor.preprocess_input",
+        "src.utils.grad_cam.register_gradient",
+        "numpy.expand_dims"
+    ],
+    "src.train_emotion_classifier": [
+        "keras.preprocessing.image.ImageDataGenerator.flow",
+        "src.utils.preprocessor.preprocess_input",
+        "<builtin>.int",
+        "keras.callbacks.ReduceLROnPlateau",
+        "src.utils.datasets.DataManager.get_data",
+        "src.models.cnn.mini_XCEPTION",
+        "src.utils.datasets.split_data",
+        "src.utils.datasets.DataManager",
+        "keras.callbacks.EarlyStopping",
+        "<builtin>.len",
+        "keras.callbacks.ModelCheckpoint",
+        "<builtin>.print",
+        "keras.preprocessing.image.ImageDataGenerator",
+        "keras.callbacks.CSVLogger"
+    ],
+    "src.train_gender_classifier": [
+        "<builtin>.int",
+        "src.utils.datasets.split_imdb_data",
+        "keras.callbacks.ReduceLROnPlateau",
+        "src.utils.datasets.DataManager.get_data",
+        "src.models.cnn.mini_XCEPTION",
+        "src.utils.data_augmentation.ImageGenerator",
+        "src.utils.datasets.DataManager",
+        "keras.callbacks.EarlyStopping",
+        "<builtin>.len",
+        "src.utils.data_augmentation.ImageGenerator.flow",
+        "keras.callbacks.ModelCheckpoint",
+        "<builtin>.print",
+        "keras.callbacks.CSVLogger"
+    ],
+    "src.video_emotion_color_demo": [
+        "cv2.cvtColor",
+        "src.utils.inference.draw_text",
+        "cv2.namedWindow",
+        "<builtin>.len",
+        "<**PyList**>.append",
+        "cv2.resize",
+        "cv2.VideoCapture",
+        "keras.models.load_model",
+        "src.utils.inference.load_detection_model",
+        "src.utils.inference.draw_bounding_box",
+        "numpy.max",
+        "cv2.VideoCapture.release",
+        "src.utils.inference.detect_faces",
+        "<builtin>.ord",
+        "cv2.imshow",
+        "cv2.VideoCapture.read",
+        "src.utils.datasets.get_labels",
+        "numpy.argmax",
+        "numpy.asarray",
+        "cv2.destroyAllWindows",
+        "src.utils.inference.apply_offsets",
+        "src.utils.preprocessor.preprocess_input",
+        "cv2.waitKey",
+        "<**PyList**>.pop",
+        "numpy.expand_dims"
+    ],
+    "src.video_emotion_gender_demo": [
+        "cv2.cvtColor",
+        "src.utils.inference.draw_text",
+        "cv2.namedWindow",
+        "<builtin>.len",
+        "<**PyList**>.append",
+        "cv2.resize",
+        "cv2.VideoCapture",
+        "keras.models.load_model",
+        "src.utils.inference.load_detection_model",
+        "src.utils.inference.draw_bounding_box",
+        "statistics.mode",
+        "cv2.VideoCapture.release",
+        "src.utils.inference.detect_faces",
+        "<builtin>.ord",
+        "cv2.imshow",
+        "cv2.VideoCapture.read",
+        "src.utils.datasets.get_labels",
+        "numpy.argmax",
+        "cv2.destroyAllWindows",
+        "src.utils.inference.apply_offsets",
+        "src.utils.preprocessor.preprocess_input",
+        "cv2.waitKey",
+        "<**PyList**>.pop",
+        "numpy.expand_dims"
+    ],
+    "src.video_gradcam_demo": [
+        "cv2.cvtColor",
+        "src.utils.datasets.get_class_to_arg",
+        "src.utils.grad_cam.compile_gradient_function",
+        "cv2.namedWindow",
+        "src.utils.grad_cam.modify_backprop",
+        "cv2.resize",
+        "src.utils.grad_cam.calculate_guided_gradient_CAM",
+        "cv2.VideoCapture",
+        "keras.models.load_model",
+        "src.utils.inference.load_detection_model",
+        "src.utils.inference.draw_bounding_box",
+        "src.utils.inference.detect_faces",
+        "<builtin>.ord",
+        "cv2.imshow",
+        "cv2.VideoCapture.read",
+        "src.utils.grad_cam.compile_saliency_function",
+        "src.utils.inference.apply_offsets",
+        "numpy.repeat",
+        "src.utils.preprocessor.preprocess_input",
+        "src.utils.grad_cam.register_gradient",
+        "cv2.waitKey",
+        "numpy.expand_dims"
+    ],
+    "src.models.cnn": [
+        "src.models.cnn.simple_CNN"
+    ],
+    "src.utils.datasets.DataManager.get_data": [
+        "src.utils.datasets.DataManager._load_imdb",
+        "src.utils.datasets.DataManager._load_fer2013",
+        "src.utils.datasets.DataManager._load_KDEF"
+    ],
+    "src.utils.datasets.DataManager._load_KDEF": [
+        "src.utils.datasets.get_class_to_arg",
+        "numpy.zeros",
+        "<**PyStr**>.lower",
+        "os.path.join",
+        "os.walk",
+        "os.path.basename",
+        "<**PyStr**>.endswith",
+        "<builtin>.enumerate",
+        "cv2.imread",
+        "<builtin>.len",
+        "numpy.expand_dims",
+        "<**PyList**>.append",
+        "cv2.resize"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.__init__": [
+        "src.utils.data_augmentation.ImageGenerator.brightness",
+        "<**PyList**>.append"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.saturation": [
+        "numpy.random.random",
+        "src.utils.data_augmentation.ImageGenerator._gray_scale",
+        "numpy.clip"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.contrast": [
+        "numpy.random.random",
+        "src.utils.data_augmentation.ImageGenerator._gray_scale",
+        "numpy.ones_like",
+        "numpy.clip"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.transform": [
+        "random.shuffle",
+        "src.utils.data_augmentation.ImageGenerator.vertical_flip",
+        "src.utils.data_augmentation.ImageGenerator.lighting",
+        "src.utils.data_augmentation.ImageGenerator.horizontal_flip"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.preprocess_images": [
+        "src.utils.preprocessor.preprocess_input"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.flow": [
+        "cv2.cvtColor",
+        "src.utils.data_augmentation.ImageGenerator._do_random_crop",
+        "src.utils.data_augmentation.ImageGenerator._wrap_in_dictionary",
+        "src.utils.data_augmentation.ImageGenerator.transform",
+        "src.utils.preprocessor.to_categorical",
+        "random.shuffle",
+        "numpy.asarray",
+        "src.utils.data_augmentation.ImageGenerator.preprocess_images",
+        "<builtin>.len",
+        "<builtin>.Exception",
+        "numpy.expand_dims",
+        "<**PyList**>.append"
+    ],
+    "src.utils.grad_cam": [
+        "src.utils.grad_cam.calculate_guided_gradient_CAM",
+        "src.utils.grad_cam.modify_backprop",
+        "keras.models.load_model",
+        "src.utils.grad_cam.compile_saliency_function",
+        "numpy.argmax",
+        "src.utils.grad_cam.register_gradient",
+        "src.utils.grad_cam.compile_gradient_function",
+        "<builtin>.open",
+        "pickle.load",
+        "src.utils.grad_cam.load_image",
+        "cv2.imwrite"
+    ],
+    "src.utils.grad_cam.load_image": [
+        "numpy.expand_dims",
+        "src.utils.preprocessor.preprocess_input"
+    ],
+    "src.utils.grad_cam.compile_gradient_function": [
+        "src.utils.grad_cam.target_category_loss",
+        "src.utils.grad_cam.target_category_loss_output_shape",
+        "keras.models.Sequential",
+        "keras.backend.learning_phase",
+        "keras.backend.gradients",
+        "keras.models.Sequential.add",
+        "src.utils.grad_cam.normalize",
+        "keras.backend.sum",
+        "keras.backend.function",
+        "keras.layers.core.Lambda"
+    ],
+    "src.utils.grad_cam.calculate_guided_gradient_CAM": [
+        "src.utils.grad_cam.calculate_gradient_weighted_CAM",
+        "src.utils.grad_cam.deprocess_image"
+    ],
+    "src.utils.grad_cam.calculate_guided_gradient_CAM_v2": [
+        "src.utils.grad_cam.calculate_gradient_weighted_CAM",
+        "src.utils.grad_cam.deprocess_image",
+        "numpy.expand_dims",
+        "numpy.squeeze",
+        "cv2.resize"
+    ],
+    "src.utils.visualizer": [
+        "<builtin>.int",
+        "numpy.sqrt",
+        "src.utils.visualizer.pretty_imshow",
+        "keras.models.load_model",
+        "matplotlib.pyplot.title",
+        "matplotlib.pyplot.show",
+        "numpy.ceil",
+        "matplotlib.pyplot.figure",
+        "src.utils.visualizer.make_mosaic",
+        "<builtin>.open",
+        "matplotlib.pyplot.gca",
+        "pickle.load",
+        "numpy.rollaxis",
+        "<builtin>.print",
+        "numpy.expand_dims",
+        "numpy.squeeze"
+    ],
+    "src.utils.visualizer.display_image": [
+        "src.utils.visualizer.pretty_imshow",
+        "matplotlib.pyplot.title",
+        "numpy.argmax",
+        "matplotlib.pyplot.figure",
+        "<builtin>.len",
+        "matplotlib.pyplot.gca",
+        "matplotlib.pyplot.imshow",
+        "<builtin>.Exception",
+        "numpy.squeeze"
+    ],
+    "src.web.emotion_gender_processor.process_image": [
+        "cv2.cvtColor",
+        "src.utils.inference.draw_text",
+        "os.path.join",
+        "cv2.resize",
+        "os.path.exists",
+        "keras.models.load_model",
+        "src.utils.inference.load_detection_model",
+        "src.utils.inference.draw_bounding_box",
+        "logging.error",
+        "src.utils.inference.detect_faces",
+        "os.mkdir",
+        "src.utils.datasets.get_labels",
+        "numpy.argmax",
+        "src.utils.inference.apply_offsets",
+        "numpy.fromstring",
+        "cv2.imdecode",
+        "cv2.imwrite",
+        "src.utils.preprocessor.preprocess_input",
+        "<**PyStr**>.format",
+        "numpy.expand_dims"
+    ],
+    "src.web.faces.upload": [
+        "<**PyStr**>.format",
+        "src.web.emotion_gender_processor.process_image",
+        "flask.send_file",
+        "flask.abort",
+        "logging.error"
+    ],
+    "src.utils.datasets.DataManager.__init__": [
+        "<builtin>.Exception"
+    ],
+    "src.utils.datasets.DataManager._load_imdb": [
+        "scipy.io.loadmat",
+        "<builtin>.range",
+        "numpy.logical_and",
+        "<builtin>.dict",
+        "numpy.isnan",
+        "<builtin>.zip",
+        "numpy.logical_not",
+        "<**PyList**>.append"
+    ],
+    "src.utils.datasets.DataManager._load_fer2013": [
+        "<**PyStr**>.split",
+        "<builtin>.int",
+        "numpy.asarray",
+        "pandas.get_dummies",
+        "pandas.read_csv",
+        "numpy.expand_dims",
+        "<**PyList**>.append",
+        "cv2.resize"
+    ],
+    "src.utils.datasets.get_labels": [
+        "<builtin>.Exception"
+    ],
+    "src.utils.datasets.get_class_to_arg": [
+        "<builtin>.Exception"
+    ],
+    "src.utils.datasets.split_imdb_data": [
+        "<**PyDict**>.keys",
+        "<builtin>.sorted",
+        "<builtin>.int",
+        "<builtin>.len"
+    ],
+    "src.utils.datasets.split_data": [
+        "<builtin>.int",
+        "<builtin>.len"
+    ],
+    "src.utils.grad_cam.modify_backprop": [
+        "tensorflow.get_default_graph",
+        "keras.models.load_model",
+        "tensorflow.get_default_graph.gradient_override_map",
+        "<builtin>.hasattr"
+    ],
+    "src.utils.grad_cam.calculate_gradient_weighted_CAM": [
+        "numpy.minimum",
+        "numpy.uint8",
+        "numpy.ones",
+        "<builtin>.enumerate",
+        "numpy.max",
+        "numpy.float32",
+        "numpy.maximum",
+        "cv2.applyColorMap",
+        "numpy.mean",
+        "cv2.resize",
+        "numpy.min"
+    ],
+    "src.utils.visualizer.make_mosaic": [
+        "<builtin>.int",
+        "<builtin>.range",
+        "numpy.ma.masked_all",
+        "<builtin>.len",
+        "numpy.floor",
+        "numpy.squeeze"
+    ],
+    "src.utils.visualizer.make_mosaic_v2": [
+        "<builtin>.int",
+        "numpy.sqrt",
+        "numpy.empty",
+        "<builtin>.range",
+        "numpy.ceil",
+        "numpy.squeeze"
+    ],
+    "src.utils.visualizer.draw_mosaic": [
+        "matplotlib.pyplot.tight_layout",
+        "<builtin>.range",
+        "numpy.argmax",
+        "matplotlib.pyplot.subplots",
+        "<builtin>.len",
+        "<builtin>.Exception",
+        "numpy.squeeze",
+        "<**PyList**>.append"
+    ],
+    "src.models.cnn.simple_CNN": [
+        "keras.layers.GlobalAveragePooling2D",
+        "keras.models.Sequential",
+        "keras.layers.BatchNormalization",
+        "keras.layers.Convolution2D",
+        "keras.layers.Activation",
+        "keras.models.Sequential.add",
+        "keras.layers.Dropout",
+        "keras.layers.AveragePooling2D"
+    ],
+    "src.models.cnn.simpler_CNN": [
+        "keras.models.Sequential",
+        "keras.layers.Flatten",
+        "keras.layers.BatchNormalization",
+        "keras.layers.Convolution2D",
+        "keras.layers.Activation",
+        "keras.models.Sequential.add",
+        "keras.layers.Dropout"
+    ],
+    "src.models.cnn.tiny_XCEPTION": [
+        "keras.layers.Input",
+        "keras.models.Model",
+        "keras.layers.BatchNormalization",
+        "keras.layers.SeparableConv2D",
+        "keras.layers.MaxPooling2D",
+        "keras.layers.Activation",
+        "keras.layers.add",
+        "keras.layers.GlobalAveragePooling2D",
+        "keras.regularizers.l2",
+        "keras.layers.Conv2D"
+    ],
+    "src.models.cnn.mini_XCEPTION": [
+        "keras.layers.Input",
+        "keras.models.Model",
+        "keras.layers.BatchNormalization",
+        "keras.layers.SeparableConv2D",
+        "keras.layers.MaxPooling2D",
+        "keras.layers.Activation",
+        "keras.layers.add",
+        "keras.layers.GlobalAveragePooling2D",
+        "keras.regularizers.l2",
+        "keras.layers.Conv2D"
+    ],
+    "src.models.cnn.big_XCEPTION": [
+        "keras.layers.Input",
+        "keras.models.Model",
+        "keras.layers.BatchNormalization",
+        "keras.layers.SeparableConv2D",
+        "keras.layers.MaxPooling2D",
+        "keras.layers.Activation",
+        "keras.layers.add",
+        "keras.layers.GlobalAveragePooling2D",
+        "keras.layers.Conv2D"
+    ],
+    "src.utils.data_augmentation.ImageGenerator._do_random_crop": [
+        "numpy.random.uniform",
+        "numpy.array",
+        "scipy.ndimage.interpolation.affine_transform",
+        "numpy.rollaxis",
+        "numpy.stack"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.do_random_rotation": [
+        "numpy.random.uniform",
+        "numpy.array",
+        "scipy.ndimage.interpolation.affine_transform",
+        "numpy.rollaxis",
+        "numpy.stack"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.brightness": [
+        "numpy.random.random",
+        "numpy.clip"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.lighting": [
+        "numpy.linalg.eigh",
+        "numpy.random.randn",
+        "numpy.clip",
+        "numpy.cov"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.horizontal_flip": [
+        "numpy.random.random"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.vertical_flip": [
+        "numpy.random.random"
+    ],
+    "src.utils.grad_cam.reset_optimizer_weights": [
+        "h5py.File.close",
+        "h5py.File"
+    ],
+    "src.utils.grad_cam.target_category_loss": [
+        "tensorflow.multiply",
+        "keras.backend.one_hot"
+    ],
+    "src.utils.grad_cam.normalize": [
+        "keras.backend.square",
+        "keras.backend.mean",
+        "keras.backend.sqrt"
+    ],
+    "src.utils.grad_cam.compile_saliency_function": [
+        "keras.backend.max",
+        "keras.backend.learning_phase",
+        "keras.backend.gradients",
+        "keras.backend.sum",
+        "keras.backend.function"
+    ],
+    "src.utils.grad_cam.deprocess_image": [
+        "keras.backend.image_dim_ordering",
+        "numpy.squeeze",
+        "numpy.ndim",
+        "numpy.clip"
+    ],
+    "src.utils.inference.load_image": [
+        "keras.preprocessing.image.img_to_array",
+        "keras.preprocessing.image.load_img"
+    ],
+    "src.utils.inference.load_detection_model": [
+        "cv2.CascadeClassifier"
+    ],
+    "src.utils.inference.draw_bounding_box": [
+        "cv2.rectangle"
+    ],
+    "src.utils.inference.draw_text": [
+        "cv2.putText"
+    ],
+    "src.utils.inference.get_colors": [
+        "numpy.asarray",
+        "numpy.linspace",
+        "matplotlib.pyplot.cm.hsv"
+    ],
+    "src.utils.preprocessor.to_categorical": [
+        "numpy.asarray",
+        "numpy.arange",
+        "numpy.zeros"
+    ],
+    "src.utils.visualizer.pretty_imshow": [
+        "mpl_toolkits.axes_grid1.make_axes_locatable",
+        "matplotlib.pyplot.colorbar"
+    ],
+    "src.utils.visualizer.normal_imshow": [
+        "matplotlib.pyplot.axis"
+    ],
+    "src.web.faces": [
+        "flask.Flask.run",
+        "flask.Flask"
+    ],
+    "src.web.faces.index": [
+        "flask.redirect"
+    ],
+    "src.web.faces.bad_request": [
+        "flask.jsonify",
+        "flask.make_response"
+    ],
+    "src.web.faces.not_found": [
+        "flask.jsonify",
+        "flask.make_response"
+    ]
+}

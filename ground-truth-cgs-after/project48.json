@@ -1,0 +1,204 @@
+{
+  "html2text.config": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.escape",
+    "re.compile"
+  ],
+  "html2text.utils": [
+    "dict.items"
+  ],
+  "html2text.__init__.HTML2Text.__init__": [
+    "html.parser.HTMLParser.__init__",
+    "re.compile"
+  ],
+  "html2text.__init__.HTML2Text.handle": [
+    "html2text.HTML2Text.feed",
+    "html2text.HTML2Text.feed",
+    "html2text.HTML2Text.finish",
+    "html2text.HTML2Text.optwrap"
+  ],
+  "html2text.__init__.HTML2Text.feed": [
+    "str.replace",
+    "html.parser.HTMLParser.feed"
+  ],
+  "html2text.__init__.HTML2Text.handle_starttag": [
+    "builtins.dict",
+    "html2text.HTML2Text.handle_tag"
+  ],
+  "html2text.__init__.HTML2Text.handle_tag": [
+    "html2text.utils.hn",
+    "html2text.HTML2Text.p",
+    "html2text.utils.list_numbering_start",
+    "html2text.elements.ListElement",
+    "list.append",
+    "html2text.HTML2Text.pbr",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.p",
+    "html2text.utils.hn",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.p",
+    "str.startswith",
+    "list.append",
+    "dict.get",
+    "html2text.utils.escape_md",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.previousIndex",
+    "html2text.elements.AnchorElement",
+    "list.append",
+    "builtins.str",
+    "html2text.HTML2Text.o",
+    "str.startswith",
+    "list.append",
+    "list.pop",
+    "html2text.utils.element_style",
+    "list.append",
+    "html2text.HTML2Text.handle_emphasis",
+    "dict.get",
+    "html2text.utils.escape_md",
+    "html2text.HTML2Text.handle_tag.<locals>.link_url",
+    "html2text.HTML2Text.p",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "dict.get",
+    "urllib.parse.urljoin",
+    "html2text.utils.escape_md",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.utils.escape_md",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.previousIndex",
+    "html2text.elements.AnchorElement",
+    "list.append",
+    "builtins.str",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.p",
+    "html2text.HTML2Text.pbr",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.p",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.p",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.soft_br",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.p",
+    "builtins.str",
+    "html2text.HTML2Text.o",
+    "test.test_html2text.test_tag_callback.<locals>._skip_certain_tags"
+  ],
+  "html2text.__init__.HTML2Text.handle_data": [
+    "html2text.utils.escape_md_section",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.o",
+    "str.strip",
+    "re.match",
+    "html2text.utils.hn"
+  ],
+  "html2text.utils.escape_md_section": [
+    "Pattern.sub",
+    "Pattern.sub",
+    "Pattern.sub",
+    "Pattern.sub",
+    "Pattern.sub"
+  ],
+  "html2text.__init__.HTML2Text.o": [
+    "re.sub",
+    "html2text.HTML2Text.outtextf",
+    "html2text.HTML2Text.outtextf",
+    "str.lstrip",
+    "html2text.HTML2Text.outtextf",
+    "html2text.HTML2Text.outtextf"
+  ],
+  "html2text.__init__.HTML2Text.outtextf": [
+    "list.append"
+  ],
+  "html2text.__init__.HTML2Text.handle_endtag": [
+    "html2text.HTML2Text.handle_tag"
+  ],
+  "html2text.utils.hn": [
+    "builtins.len",
+    "builtins.int"
+  ],
+  "html2text.utils.escape_md": [
+    "Pattern.sub"
+  ],
+  "html2text.__init__.HTML2Text.previousIndex": [
+    "builtins.enumerate"
+  ],
+  "html2text.__init__.HTML2Text.handle_entityref": [
+    "html2text.HTML2Text.entityref",
+    "html2text.HTML2Text.handle_data"
+  ],
+  "html2text.utils.element_style": [
+    "dict.copy"
+  ],
+  "html2text.__init__.HTML2Text.handle_emphasis": [
+    "html2text.utils.google_text_emphasis",
+    "html2text.utils.google_text_emphasis",
+    "html2text.utils.google_fixed_width_font"
+  ],
+  "html2text.__init__.HTML2Text.handle_charref": [
+    "html2text.HTML2Text.charref",
+    "html2text.HTML2Text.handle_data"
+  ],
+  "html2text.__init__.HTML2Text.charref": [
+    "builtins.int",
+    "builtins.chr"
+  ],
+  "html2text.__init__.HTML2Text.finish": [
+    "html.parser.HTMLParser.close",
+    "html2text.HTML2Text.pbr",
+    "html2text.HTML2Text.o",
+    "str.join",
+    "str.replace"
+  ],
+  "html2text.__init__.HTML2Text.link_url": [
+    "urllib.parse.urljoin",
+    "str.strip",
+    "html2text.utils.escape_md",
+    "str.format",
+    "html2text.HTML2Text.o",
+    "str.format"
+  ],
+  "html2text.utils.list_numbering_start": [
+    "builtins.int"
+  ],
+  "html2text.__init__.HTML2Text.soft_br": [
+    "html2text.HTML2Text.pbr"
+  ],
+  "html2text.__init__.html2text": [
+    "html2text.HTML2Text",
+    "html2text.HTML2Text.handle"
+  ],
+  "html2text.__init__.HTML2Text.optwrap": [
+    "str.split",
+    "builtins.len",
+    "html2text.utils.skipwrap"
+  ],
+  "html2text.utils.skipwrap": [
+    "str.lstrip",
+    "Pattern.search",
+    "Pattern.match",
+    "Pattern.match"
+  ]
+}

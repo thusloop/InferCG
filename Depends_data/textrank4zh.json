@@ -1,0 +1,36 @@
+{
+    "textrank4zh.Segmentation.Segmentation.segment": [
+        "textrank4zh.util.as_text"
+    ],
+    "textrank4zh.Segmentation.SentenceSegmentation.__init__": [
+        "textrank4zh.util.as_text"
+    ],
+    "textrank4zh.Segmentation.WordSegmentation.segment_sentences": [
+        "textrank4zh.Segmentation.WordSegmentation.segment"
+    ],
+    "textrank4zh.Segmentation.WordSegmentation.__init__": [
+        "textrank4zh.Segmentation.get_default_stop_words_file",
+        "textrank4zh.util.as_text"
+    ],
+    "textrank4zh.TextRank4Keyword.TextRank4Keyword.analyze": [
+        "textrank4zh.util.debug",
+        "textrank4zh.util.sort_words"
+    ],
+    "textrank4zh.Segmentation.SentenceSegmentation.segment": [
+        "textrank4zh.util.as_text",
+        "textrank4zh.util.debug"
+    ],
+    "textrank4zh.TextRank4Keyword.TextRank4Keyword.get_keyphrases": [
+        "textrank4zh.TextRank4Keyword.TextRank4Keyword.get_keywords"
+    ],
+    "textrank4zh.util.sort_words": [
+        "textrank4zh.util.debug",
+        "textrank4zh.util.combine"
+    ],
+    "textrank4zh.Segmentation.WordSegmentation.segment": [
+        "textrank4zh.util.as_text"
+    ],
+    "textrank4zh.TextRank4Sentence.TextRank4Sentence.analyze": [
+        "textrank4zh.util.sort_sentences"
+    ]
+}

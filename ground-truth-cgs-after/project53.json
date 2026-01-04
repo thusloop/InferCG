@@ -1,0 +1,172 @@
+{
+  "code2flow.model": [
+    "code2flow.model.Namespace",
+    "code2flow.model.Namespace"
+  ],
+  "code2flow.model.Namespace.__init__": [
+    "dict.items",
+    "builtins.dict",
+    "dict.update",
+    "dict.__init__"
+  ],
+  "code2flow.engine.code2flow": [
+    "time.time",
+    "builtins.isinstance",
+    "code2flow.engine.LanguageParams",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "logging.basicConfig",
+    "code2flow.engine.get_sources_and_language",
+    "builtins.isinstance",
+    "str.rsplit",
+    "code2flow.model.is_installed",
+    "str.rsplit",
+    "code2flow.engine.map_it",
+    "builtins.set",
+    "builtins.AssertionError",
+    "builtins.set"
+  ],
+  "code2flow.engine.get_sources_and_language": [
+    "builtins.sorted",
+    "genericpath.isfile",
+    "list.append",
+    "builtins.len",
+    "logging.info",
+    "code2flow.engine.determine_language",
+    "builtins.set",
+    "set.add",
+    "builtins.list",
+    "builtins.sorted",
+    "builtins.len",
+    "logging.info",
+    "logging.info",
+    "os.walk",
+    "builtins.AssertionError",
+    "posixpath.join",
+    "list.append",
+    "str.endswith",
+    "logging.info",
+    "builtins.AssertionError"
+  ],
+  "code2flow.engine.determine_language": [
+    "str.rsplit",
+    "logging.info",
+    "builtins.AssertionError"
+  ],
+  "code2flow.model.is_installed": [
+    "str.split",
+    "str.strip",
+    "posixpath.join",
+    "genericpath.isfile",
+    "posix.access"
+  ],
+  "code2flow.engine.map_it": [
+    "code2flow.python.Python.assert_dependencies",
+    "code2flow.python.Python.get_tree",
+    "list.append",
+    "code2flow.engine.make_file_group",
+    "code2flow.ruby.Ruby.assert_dependencies",
+    "code2flow.php.PHP.assert_dependencies",
+    "code2flow.javascript.Javascript.assert_dependencies"
+  ],
+  "code2flow.python.Python.get_tree": [
+    "io.open",
+    "TextIOWrapper.read",
+    "ast.parse"
+  ],
+  "code2flow.engine.make_file_group": [
+    "code2flow.python.Python.separate_namespaces",
+    "posixpath.split",
+    "str.rsplit",
+    "code2flow.python.Python.file_import_tokens",
+    "code2flow.model.Group"
+  ],
+  "code2flow.python.Python.separate_namespaces": [
+    "builtins.type",
+    "builtins.type",
+    "builtins.getattr",
+    "list.append",
+    "list.append",
+    "list.append"
+  ],
+  "code2flow.engine._generate_graphviz": [
+    "time.time",
+    "logging.info",
+    "io.open",
+    "subprocess.run",
+    "str.join",
+    "logging.warning"
+  ],
+  "code2flow.python.Python.file_import_tokens": [
+    "posixpath.split",
+    "str.rsplit"
+  ],
+  "code2flow.model.Group.__init__": [
+    "posix.urandom",
+    "bytes.hex"
+  ],
+  "code2flow.model.Node.__init__": [
+    "posix.urandom",
+    "bytes.hex"
+  ],
+  "code2flow.model.Variable.__repr__": [
+    "builtins.repr"
+  ],
+  "code2flow.ruby.Ruby.assert_dependencies": [
+    "code2flow.model.is_installed"
+  ],
+  "code2flow.php.PHP.assert_dependencies": [
+    "code2flow.model.is_installed"
+  ],
+  "code2flow.javascript.Javascript.assert_dependencies": [
+    "code2flow.model.is_installed"
+  ],
+  "code2flow.engine.main": [
+    "argparse.ArgumentParser",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse.ArgumentParser.parse_args",
+    "builtins.AssertionError",
+    "str.split",
+    "builtins.filter",
+    "builtins.list",
+    "str.split",
+    "builtins.filter",
+    "builtins.list",
+    "str.split",
+    "builtins.filter",
+    "builtins.list",
+    "str.split",
+    "builtins.filter",
+    "builtins.list",
+    "code2flow.engine.LanguageParams",
+    "code2flow.engine.SubsetParams.generate",
+    "code2flow.engine.code2flow"
+  ],
+  "code2flow.engine.SubsetParams.generate": [
+    "builtins.AssertionError",
+    "builtins.AssertionError",
+    "builtins.AssertionError",
+    "builtins.AssertionError",
+    "builtins.AssertionError"
+  ]
+}

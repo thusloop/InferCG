@@ -1,0 +1,368 @@
+{
+    "networkx.exception": [
+        "networkx.exception.HasACycle",
+        "networkx.exception.AmbiguousSolution",
+        "networkx.exception.NodeNotFound",
+        "networkx.exception.NetworkXException",
+        "networkx.exception.NetworkXNoPath",
+        "networkx.exception.NetworkXUnfeasible",
+        "networkx.exception.NetworkXAlgorithmError",
+        "networkx.exception.NetworkXNoCycle",
+        "networkx.exception.NetworkXNotImplemented",
+        "networkx.exception.PowerIterationFailedConvergence",
+        "networkx.exception.NetworkXPointlessConcept",
+        "networkx.exception.ExceededMaxIterations",
+        "networkx.exception.NetworkXUnbounded",
+        "networkx.exception.NetworkXError"
+    ],
+    "networkx.lazy_imports": [
+        "networkx.lazy_imports.DelayedImportErrorModule"
+    ],
+    "networkx.algorithms.chordal": [
+        "networkx.algorithms.chordal.NetworkXTreewidthBoundExceeded"
+    ],
+    "networkx.algorithms.clique": [
+        "networkx.algorithms.clique.MaxWeightClique"
+    ],
+    "networkx.algorithms.cycles": [
+        "networkx.algorithms.cycles._NeighborhoodCache"
+    ],
+    "networkx.algorithms.planarity": [
+        "networkx.algorithms.planarity.Interval",
+        "networkx.algorithms.planarity.PlanarEmbedding",
+        "networkx.algorithms.planarity.ConflictPair",
+        "networkx.algorithms.planarity.LRPlanarity"
+    ],
+    "networkx.algorithms.simple_paths": [
+        "networkx.algorithms.simple_paths.PathBuffer"
+    ],
+    "networkx.classes.coreviews": [
+        "networkx.classes.coreviews.AdjacencyView",
+        "networkx.classes.coreviews.FilterAtlas",
+        "networkx.classes.coreviews.UnionAdjacency",
+        "networkx.classes.coreviews.FilterMultiAdjacency",
+        "networkx.classes.coreviews.FilterMultiInner",
+        "networkx.classes.coreviews.AtlasView",
+        "networkx.classes.coreviews.UnionMultiAdjacency",
+        "networkx.classes.coreviews.MultiAdjacencyView",
+        "networkx.classes.coreviews.FilterAdjacency",
+        "networkx.classes.coreviews.UnionMultiInner",
+        "networkx.classes.coreviews.UnionAtlas"
+    ],
+    "networkx.classes.digraph": [
+        "networkx.classes.digraph.DiGraph",
+        "networkx.classes.digraph._CachedPropertyResetterPred",
+        "networkx.classes.digraph._CachedPropertyResetterAdjAndSucc"
+    ],
+    "networkx.classes.filters": [
+        "networkx.classes.filters.show_nodes"
+    ],
+    "networkx.classes.graph": [
+        "networkx.classes.graph._CachedPropertyResetterAdj",
+        "networkx.classes.graph._CachedPropertyResetterNode",
+        "networkx.classes.graph.Graph"
+    ],
+    "networkx.classes.multidigraph": [
+        "networkx.classes.multidigraph.MultiDiGraph"
+    ],
+    "networkx.classes.multigraph": [
+        "networkx.classes.multigraph.MultiGraph"
+    ],
+    "networkx.classes.reportviews": [
+        "networkx.classes.reportviews.NodeView",
+        "networkx.classes.reportviews.EdgeView",
+        "networkx.classes.reportviews.InMultiDegreeView",
+        "networkx.classes.reportviews.DiDegreeView",
+        "networkx.classes.reportviews.DegreeView",
+        "networkx.classes.reportviews.MultiEdgeDataView",
+        "networkx.classes.reportviews.OutDegreeView",
+        "networkx.classes.reportviews.DiMultiDegreeView",
+        "networkx.classes.reportviews.OutMultiEdgeView",
+        "networkx.classes.reportviews.InEdgeView",
+        "networkx.classes.reportviews.InMultiEdgeView",
+        "networkx.classes.reportviews.OutEdgeView",
+        "networkx.classes.reportviews.MultiDegreeView",
+        "networkx.classes.reportviews.InMultiEdgeDataView",
+        "networkx.classes.reportviews.NodeDataView",
+        "networkx.classes.reportviews.OutMultiEdgeDataView",
+        "networkx.classes.reportviews.InEdgeDataView",
+        "networkx.classes.reportviews.InDegreeView",
+        "networkx.classes.reportviews.OutMultiDegreeView",
+        "networkx.classes.reportviews.EdgeDataView",
+        "networkx.classes.reportviews.MultiEdgeView",
+        "networkx.classes.reportviews.OutEdgeDataView"
+    ],
+    "networkx.generators.degree_seq": [
+        "networkx.generators.degree_seq.DegreeSequenceRandomGraph"
+    ],
+    "networkx.generators.internet_as_graphs": [
+        "networkx.generators.internet_as_graphs.AS_graph_generator"
+    ],
+    "networkx.linalg.algebraicconnectivity": [
+        "networkx.linalg.algebraicconnectivity._LUSolver",
+        "networkx.linalg.algebraicconnectivity._PCGSolver"
+    ],
+    "networkx.readwrite.gexf": [
+        "networkx.readwrite.gexf.GEXFWriter",
+        "networkx.readwrite.gexf.GEXF",
+        "networkx.readwrite.gexf.GEXFReader"
+    ],
+    "networkx.readwrite.gml": [
+        "networkx.readwrite.gml.Token",
+        "networkx.readwrite.gml.Pattern"
+    ],
+    "networkx.readwrite.graphml": [
+        "networkx.readwrite.graphml.GraphMLWriterLxml",
+        "networkx.readwrite.graphml.GraphMLReader",
+        "networkx.readwrite.graphml.GraphMLWriter",
+        "networkx.readwrite.graphml.IncrementalElement",
+        "networkx.readwrite.graphml.GraphML"
+    ],
+    "networkx.readwrite.text": [
+        "networkx.readwrite.text.BaseGlyphs",
+        "networkx.readwrite.text.AsciiUndirectedGlyphs",
+        "networkx.readwrite.text.UtfUndirectedGlyphs",
+        "networkx.readwrite.text.UtfBaseGlyphs",
+        "networkx.readwrite.text.UtfDirectedGlyphs",
+        "networkx.readwrite.text.AsciiBaseGlyphs",
+        "networkx.readwrite.text.AsciiDirectedGlyphs"
+    ],
+    "networkx.utils.decorators": [
+        "networkx.utils.decorators.argmap"
+    ],
+    "networkx.utils.heaps": [
+        "networkx.utils.heaps.MinHeap",
+        "networkx.utils.heaps.PairingHeap",
+        "networkx.utils.heaps.BinaryHeap"
+    ],
+    "networkx.utils.mapped_queue": [
+        "networkx.utils.mapped_queue.MappedQueue",
+        "networkx.utils.mapped_queue._HeapElement"
+    ],
+    "networkx.utils.misc": [
+        "networkx.utils.misc.PythonRandomInterface"
+    ],
+    "networkx.utils.union_find": [
+        "networkx.utils.union_find.UnionFind"
+    ],
+    "networkx.algorithms.approximation.kcomponents": [
+        "networkx.algorithms.approximation.kcomponents._AntiGraph"
+    ],
+    "networkx.algorithms.approximation.treewidth": [
+        "networkx.algorithms.approximation.treewidth.MinDegreeHeuristic"
+    ],
+    "networkx.algorithms.centrality.flow_matrix": [
+        "networkx.algorithms.centrality.flow_matrix.CGInverseLaplacian",
+        "networkx.algorithms.centrality.flow_matrix.InverseLaplacian",
+        "networkx.algorithms.centrality.flow_matrix.SuperLUInverseLaplacian",
+        "networkx.algorithms.centrality.flow_matrix.FullInverseLaplacian"
+    ],
+    "networkx.algorithms.coloring.greedy_coloring": [
+        "networkx.algorithms.coloring.greedy_coloring._Node",
+        "networkx.algorithms.coloring.greedy_coloring._AdjEntry"
+    ],
+    "networkx.algorithms.community.quality": [
+        "networkx.algorithms.community.quality.NotAPartition"
+    ],
+    "networkx.algorithms.connectivity.edge_kcomponents": [
+        "networkx.algorithms.connectivity.edge_kcomponents.EdgeComponentAuxGraph"
+    ],
+    "networkx.algorithms.flow.networksimplex": [
+        "networkx.algorithms.flow.networksimplex._DataEssentialsAndFunctions"
+    ],
+    "networkx.algorithms.flow.utils": [
+        "networkx.algorithms.flow.utils.Level",
+        "networkx.algorithms.flow.utils.GlobalRelabelThreshold",
+        "networkx.algorithms.flow.utils.CurrentEdge"
+    ],
+    "networkx.algorithms.isomorphism.ismags": [
+        "networkx.algorithms.isomorphism.ismags.ISMAGS"
+    ],
+    "networkx.algorithms.isomorphism.isomorphvf2": [
+        "networkx.algorithms.isomorphism.isomorphvf2.DiGMState",
+        "networkx.algorithms.isomorphism.isomorphvf2.DiGraphMatcher",
+        "networkx.algorithms.isomorphism.isomorphvf2.GraphMatcher",
+        "networkx.algorithms.isomorphism.isomorphvf2.GMState"
+    ],
+    "networkx.algorithms.isomorphism.temporalisomorphvf2": [
+        "networkx.algorithms.isomorphism.temporalisomorphvf2.TimeRespectingGraphMatcher",
+        "networkx.algorithms.isomorphism.temporalisomorphvf2.TimeRespectingDiGraphMatcher"
+    ],
+    "networkx.algorithms.isomorphism.vf2userfunc": [
+        "networkx.algorithms.isomorphism.vf2userfunc.GraphMatcher",
+        "networkx.algorithms.isomorphism.vf2userfunc.MultiGraphMatcher",
+        "networkx.algorithms.isomorphism.vf2userfunc.MultiDiGraphMatcher",
+        "networkx.algorithms.isomorphism.vf2userfunc.DiGraphMatcher"
+    ],
+    "networkx.algorithms.tree.branchings": [
+        "networkx.algorithms.tree.branchings.Edmonds",
+        "networkx.algorithms.tree.branchings.MultiDiGraph_EdgeKey",
+        "networkx.algorithms.tree.branchings.ArborescenceIterator"
+    ],
+    "networkx.algorithms.tree.coding": [
+        "networkx.algorithms.tree.coding.NotATree"
+    ],
+    "networkx.algorithms.tree.mst": [
+        "networkx.algorithms.tree.mst.EdgePartition",
+        "networkx.algorithms.tree.mst.SpanningTreeIterator"
+    ],
+    "textrank4zh.Segmentation": [
+        "textrank4zh.Segmentation.Segmentation",
+        "textrank4zh.Segmentation.SentenceSegmentation",
+        "textrank4zh.Segmentation.WordSegmentation"
+    ],
+    "textrank4zh.TextRank4Keyword": [
+        "textrank4zh.TextRank4Keyword.TextRank4Keyword"
+    ],
+    "textrank4zh.TextRank4Sentence": [
+        "textrank4zh.TextRank4Sentence.TextRank4Sentence"
+    ],
+    "textrank4zh.util": [
+        "textrank4zh.util.AttrDict"
+    ],
+    "codecs": [
+        "codecs.BufferedIncrementalDecoder",
+        "codecs.StreamRecoder",
+        "codecs.IncrementalDecoder",
+        "codecs.BufferedIncrementalEncoder",
+        "codecs.StreamWriter",
+        "codecs.CodecInfo",
+        "codecs.Codec",
+        "codecs.StreamReader",
+        "codecs.StreamReaderWriter",
+        "codecs.IncrementalEncoder"
+    ],
+    "os": [
+        "os._AddedDllDirectory",
+        "os._Environ",
+        "os._wrap_close",
+        "os.PathLike"
+    ],
+    "__future__": [
+        "__future__._Feature"
+    ],
+    "textrank4zh.Segmentation.WordSegmentation.__init__": [
+        "<builtin>.type",
+        "<builtin>.set",
+        "textrank4zh.util.as_text",
+        "textrank4zh.Segmentation.get_default_stop_words_file",
+        "<**PyStr**>.strip",
+        "<**PySet**>.add"
+    ],
+    "textrank4zh.Segmentation.WordSegmentation.segment": [
+        "<**PyStr**>.lower",
+        "textrank4zh.util.as_text",
+        "<**PyStr**>.strip",
+        "<builtin>.len"
+    ],
+    "textrank4zh.Segmentation.WordSegmentation.segment_sentences": [
+        "textrank4zh.Segmentation.WordSegmentation.segment",
+        "<**PyList**>.append"
+    ],
+    "textrank4zh.Segmentation.SentenceSegmentation.__init__": [
+        "textrank4zh.util.as_text",
+        "<builtin>.set"
+    ],
+    "textrank4zh.Segmentation.SentenceSegmentation.segment": [
+        "<**PyStr**>.split",
+        "textrank4zh.util.debug",
+        "textrank4zh.util.as_text",
+        "<**PyStr**>.strip",
+        "<builtin>.len"
+    ],
+    "textrank4zh.Segmentation.Segmentation.__init__": [
+        "textrank4zh.Segmentation.WordSegmentation",
+        "textrank4zh.Segmentation.SentenceSegmentation"
+    ],
+    "textrank4zh.Segmentation.Segmentation.segment": [
+        "textrank4zh.Segmentation.WordSegmentation.segment_sentences",
+        "textrank4zh.util.as_text",
+        "textrank4zh.util.AttrDict",
+        "textrank4zh.Segmentation.WordSegmentation.segment",
+        "textrank4zh.Segmentation.SentenceSegmentation.segment"
+    ],
+    "textrank4zh.TextRank4Keyword.TextRank4Keyword.__init__": [
+        "textrank4zh.Segmentation.Segmentation"
+    ],
+    "textrank4zh.TextRank4Keyword.TextRank4Keyword.analyze": [
+        "textrank4zh.Segmentation.Segmentation.segment",
+        "textrank4zh.util.debug",
+        "<**PyStr**>.join",
+        "textrank4zh.Segmentation.WordSegmentation.segment",
+        "textrank4zh.util.sort_words"
+    ],
+    "textrank4zh.TextRank4Keyword.TextRank4Keyword.get_keyphrases": [
+        "<builtin>.set",
+        "<**PyStr**>.count",
+        "<**PyStr**>.join",
+        "textrank4zh.TextRank4Keyword.TextRank4Keyword.get_keywords",
+        "<**PySet**>.add",
+        "<builtin>.len",
+        "<**PyList**>.append"
+    ],
+    "textrank4zh.TextRank4Sentence.TextRank4Sentence.__init__": [
+        "textrank4zh.Segmentation.Segmentation"
+    ],
+    "textrank4zh.TextRank4Sentence.TextRank4Sentence.analyze": [
+        "textrank4zh.Segmentation.Segmentation.segment",
+        "textrank4zh.util.get_similarity",
+        "textrank4zh.util.sort_sentences"
+    ],
+    "textrank4zh.util.sort_words": [
+        "textrank4zh.util.debug",
+        "<**PyDict**>.items",
+        "<builtin>.sorted",
+        "textrank4zh.util.AttrDict",
+        "textrank4zh.util.combine",
+        "<**PyList**>.append"
+    ],
+    "textrank4zh.util.sort_sentences": [
+        "textrank4zh.util.get_similarity",
+        "<**PyDict**>.items",
+        "<builtin>.sorted",
+        "textrank4zh.util.AttrDict",
+        "<builtin>.len",
+        "<builtin>.xrange",
+        "<**PyList**>.append"
+    ],
+    "textrank4zh.TextRank4Keyword.TextRank4Keyword.get_keywords": [
+        "<**PyList**>.append",
+        "<builtin>.len"
+    ],
+    "textrank4zh.TextRank4Sentence.TextRank4Sentence.get_key_sentences": [
+        "<**PyList**>.append",
+        "<builtin>.len"
+    ],
+    "textrank4zh.util.as_text": [
+        "<**PyStr**>.decode",
+        "<builtin>.ValueError",
+        "<builtin>.type",
+        "<builtin>.isinstance"
+    ],
+    "textrank4zh.util.is_text": [
+        "<builtin>.isinstance"
+    ],
+    "textrank4zh.util.debug": [
+        "<builtin>.print",
+        "<**PyStr**>.join",
+        "<builtin>.str"
+    ],
+    "textrank4zh.util.AttrDict.__init__": [
+        "<builtin>.super"
+    ],
+    "textrank4zh.util.combine": [
+        "<builtin>.len",
+        "<builtin>.xrange",
+        "<builtin>.zip"
+    ],
+    "textrank4zh.util.get_similarity": [
+        "<builtin>.set",
+        "<builtin>.list",
+        "<builtin>.len",
+        "<builtin>.xrange",
+        "<builtin>.float",
+        "<builtin>.sum",
+        "<builtin>.abs",
+        "<**PyList**>.count"
+    ]
+}

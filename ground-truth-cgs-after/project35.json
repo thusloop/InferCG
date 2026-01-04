@@ -1,0 +1,170 @@
+{
+  "blinker._saferef": [
+    "operator.attrgetter",
+    "operator.attrgetter",
+    "weakref.WeakValueDictionary",
+    "builtins.classmethod"
+  ],
+  "blinker.base": [
+    "blinker._utilities.symbol",
+    "blinker.base.Signal",
+    "blinker.base.Namespace"
+  ],
+  "blinker.base.Signal.__init__": [
+    "collections.defaultdict",
+    "collections.defaultdict"
+  ],
+  "blinker.base.Signal.send": [
+    "builtins.len",
+    "builtins.len",
+    "builtins.len",
+    "blinker.base.Signal.receivers_for",
+    "tests.test_context.test_temp_connection.<locals>.<lambda>",
+    "tests.test_context.test_temp_connection_for_sender.<locals>.<lambda>",
+    "tests.test_context.test_temp_connection_failure.<locals>.<lambda>",
+    "tests.test_signals.test_meta_connect.<locals>.meta_received",
+    "tests.test_signals.Sentinel.make_receiver.<locals>.receiver",
+    "tests.test_signals.test_meta_connect_failure.<locals>.meta_received",
+    "tests.test_signals.test_strong_receiver.<locals>.received",
+    "tests.test_signals.test_instancemethod_receiver.<locals>.Receiver.received",
+    "tests.test_signals.test_filtered_receiver.<locals>.received",
+    "tests.test_signals.test_filtered_receiver_weakref.<locals>.received",
+    "tests.test_signals.test_decorated_receiver.<locals>.receiver",
+    "tests.test_signals.test_no_double_send.<locals>.received"
+  ],
+  "blinker.base.Signal.connected_to": [
+    "blinker.base.Signal.connect",
+    "blinker.base.Signal.disconnect",
+    "blinker.base.Signal.disconnect"
+  ],
+  "blinker.base.Signal.connect": [
+    "blinker._utilities.hashable_identity",
+    "dict.setdefault",
+    "set.add",
+    "set.add",
+    "blinker._utilities.hashable_identity",
+    "blinker._utilities.reference",
+    "blinker._utilities.reference",
+    "blinker.base.Signal.send",
+    "blinker.base.Signal.send",
+    "dict.setdefault",
+    "blinker.base.Signal.disconnect"
+  ],
+  "blinker.base.Signal.receivers_for": [
+    "blinker._utilities.hashable_identity",
+    "set.copy",
+    "dict.get",
+    "builtins.isinstance",
+    "<weakref at 0x7fcf94504400; to 'function' at 0x7fcf942fd2d0 (meta_received)>",
+    "<weakref at 0x7fcf94f564a0; to 'function' at 0x7fcf94cbd120 (receiver)>",
+    "<weakref at 0x7fcf94d69ae0; to 'function' at 0x7fcf94cbd630 (receiver)>",
+    "<weakref at 0x7fcf945cb820; to 'function' at 0x7fcf94cbe4d0 (receiver)>",
+    "<weakref at 0x7fcf94c87e20; to 'function' at 0x7fcf94cbc9d0 (receiver)>",
+    "<weakref at 0x7fcf94c87700; to 'function' at 0x7fcf94a96d40 (receiver)>",
+    "<weakref at 0x7fcf94583f40; to 'function' at 0x7fcf94a96a70 (receiver)>",
+    "<weakref at 0x7fcf946b6920; to 'function' at 0x7fcf94a976d0 (receiver)>",
+    "<weakref at 0x7fcf94504280; to 'function' at 0x7fcf94a97910 (receiver)>",
+    "<weakref at 0x7fcf94993400; to 'function' at 0x7fcf94cbdc60 (meta_received)>",
+    "BoundMethodWeakref(<tests.test_signals.test_instancemethod_receiver.<locals>.Receiver object at 0x7fcf94ac8df0>.received)",
+    "<weakref at 0x7fcf94504640; to 'function' at 0x7fcf94824040 (received)>",
+    "<weakref at 0x7fcf945046a0; to 'function' at 0x7fcf94824040 (received)>",
+    "<weakref at 0x7fcf94f8e4a0; to 'function' at 0x7fcf94a96680 (received)>"
+  ],
+  "blinker.base.Signal.disconnect": [
+    "blinker._utilities.hashable_identity",
+    "blinker.base.Signal._disconnect",
+    "blinker.base.Signal.send",
+    "blinker._utilities.hashable_identity"
+  ],
+  "blinker.base.Signal._disconnect": [
+    "defaultdict.pop",
+    "defaultdict.values",
+    "set.discard",
+    "dict.pop",
+    "set.discard",
+    "set.discard"
+  ],
+  "blinker._saferef.safe_ref": [
+    "operator.attrgetter('__self__')",
+    "builtins.hasattr",
+    "blinker._saferef.BoundMethodWeakref"
+  ],
+  "blinker._saferef.BoundMethodWeakref.__new__": [
+    "blinker._saferef.BoundMethodWeakref.calculate_key",
+    "weakref.WeakValueDictionary.get",
+    "object.__new__",
+    "blinker._saferef.BoundMethodWeakref.__init__"
+  ],
+  "blinker._saferef.BoundMethodWeakref.calculate_key": [
+    "operator.attrgetter('__self__')",
+    "builtins.id",
+    "operator.attrgetter('__func__')"
+  ],
+  "blinker._saferef.BoundMethodWeakref.__init__": [
+    "blinker._saferef.BoundMethodWeakref.calculate_key",
+    "operator.attrgetter('__self__')",
+    "operator.attrgetter('__func__')",
+    "weakref.ReferenceType",
+    "weakref.ReferenceType",
+    "builtins.str",
+    "builtins.str"
+  ],
+  "blinker.base.Signal._clear_state": [
+    "dict.clear",
+    "dict.clear",
+    "defaultdict.clear",
+    "defaultdict.clear"
+  ],
+  "blinker.base.Signal._cleanup_receiver": [
+    "blinker.base.Signal._disconnect"
+  ],
+  "blinker.base.Signal.receiver_connected": [
+    "blinker.base.Signal"
+  ],
+  "blinker.base.Signal.receiver_disconnected": [
+    "blinker.base.Signal"
+  ],
+  "blinker.base.Signal._cleanup_sender": [
+    "dict.pop",
+    "defaultdict.pop",
+    "set.discard"
+  ],
+  "blinker.base.Signal._cleanup_bookkeeping": [
+    "defaultdict.items",
+    "builtins.list",
+    "defaultdict.pop"
+  ],
+  "blinker.base.WeakNamespace.signal": [
+    "blinker.base.NamedSignal",
+    "weakref.WeakValueDictionary.setdefault"
+  ],
+  "blinker.base.NamedSignal.__init__": [
+    "blinker.base.Signal.__init__"
+  ],
+  "blinker.base.Namespace.signal": [
+    "blinker.base.NamedSignal",
+    "Namespace.setdefault"
+  ],
+  "blinker._saferef.BoundMethodWeakref.__str__": [
+    "str.format"
+  ],
+  "blinker._saferef.BoundMethodWeakref.__call__": [
+    "<weakref at 0x7fcf94a41da0; to 'Receiver' at 0x7fcf94ac8df0>",
+    "<weakref at 0x7fcf94ff8680; to 'function' at 0x7fcf94cbd090 (received)>",
+    "function.__get__"
+  ],
+  "blinker._saferef.BoundMethodWeakref.remove": [
+    "builtins.callable",
+    "blinker.base.Signal._cleanup_receiver"
+  ],
+  "blinker.base.Signal.decorator": [
+    "blinker.base.Signal.connect"
+  ],
+  "blinker.base.Signal.has_receivers_for": [
+    "blinker._utilities.hashable_identity"
+  ],
+  "blinker.base.NamedSignal.__repr__": [
+    "object.__repr__",
+    "str.format"
+  ]
+}

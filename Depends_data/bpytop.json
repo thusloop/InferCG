@@ -1,0 +1,305 @@
+{
+    "bpytop.MemCollector._draw": [
+        "bpytop.MemBox._draw_fg"
+    ],
+    "bpytop.Menu.main": [
+        "bpytop.Timer.not_zero",
+        "bpytop.Timer.left",
+        "bpytop.Timer.stamp",
+        "bpytop.clean_quit",
+        "bpytop.Key.mouse_moved",
+        "bpytop.Menu.help",
+        "bpytop.Menu.options",
+        "bpytop.Collector.collect",
+        "bpytop.Fx.uncolor",
+        "bpytop.Key.get_mouse",
+        "bpytop.Key.input_wait",
+        "bpytop.Key.get",
+        "bpytop.Draw.now"
+    ],
+    "bpytop.Theme._load_theme": [
+        "bpytop.Theme._load_file",
+        "bpytop.Draw.now",
+        "bpytop.Color.fg"
+    ],
+    "bpytop.now_sleeping": [
+        "bpytop.Term.echo",
+        "bpytop.Term.title",
+        "bpytop.Collector.stop",
+        "bpytop.Key.stop",
+        "bpytop.Draw.now"
+    ],
+    "bpytop.process_keys": [
+        "bpytop.Menu.options",
+        "bpytop.Menu.main",
+        "bpytop.Menu.help",
+        "bpytop.Key.has_key",
+        "bpytop.Key.get_mouse",
+        "bpytop.Key.get",
+        "bpytop.Draw.clear",
+        "bpytop.ProcBox.selector",
+        "bpytop.ProcCollector.sorting",
+        "bpytop.NetCollector.switch",
+        "bpytop.Collector.collect",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.clean_quit",
+        "bpytop.Term.refresh"
+    ],
+    "bpytop.Init.fail": [
+        "bpytop.clean_quit",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.now_awake": [
+        "bpytop.Key.start",
+        "bpytop.Term.title",
+        "bpytop.Term.refresh",
+        "bpytop.Term.echo",
+        "bpytop.Draw.now",
+        "bpytop.Box.calc_sizes",
+        "bpytop.Box.draw_bg",
+        "bpytop.Collector.start"
+    ],
+    "bpytop.Timer.finish": [
+        "bpytop.Key.break_wait"
+    ],
+    "bpytop.MemBox._draw_fg": [
+        "bpytop.Draw.buffer",
+        "bpytop.Fx.trans",
+        "bpytop.Mv.to"
+    ],
+    "bpytop.Graph.__init__": [
+        "bpytop.min_max",
+        "bpytop.Graph._create"
+    ],
+    "bpytop.Graph.add": [
+        "bpytop.Graph.__call__"
+    ],
+    "bpytop.NetCollector._collect": [
+        "bpytop.floating_humanizer",
+        "bpytop.NetCollector._get_nics",
+        "bpytop.units_to_bytes"
+    ],
+    "bpytop.Init.draw_bg": [
+        "bpytop.Draw.out",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.main.run": [
+        "bpytop.Key.input_wait",
+        "bpytop.Collector.collect",
+        "bpytop.Term.refresh",
+        "bpytop.Timer.left",
+        "bpytop.Timer.not_zero",
+        "bpytop.Timer.stamp",
+        "bpytop.process_keys"
+    ],
+    "bpytop.ProcCollector._collect": [
+        "bpytop.floating_humanizer",
+        "bpytop.ProcCollector._tree"
+    ],
+    "bpytop.Key.input_wait": [
+        "bpytop.Draw.now"
+    ],
+    "bpytop.ProcBox.selector": [
+        "bpytop.Collector.collect"
+    ],
+    "bpytop.Term.refresh": [
+        "bpytop.Key.has_key",
+        "bpytop.Key.last",
+        "bpytop.Box.calc_sizes",
+        "bpytop.Box.draw_bg",
+        "bpytop.Draw.now",
+        "bpytop.Timer.finish",
+        "bpytop.clean_quit"
+    ],
+    "bpytop.Box.draw_update_ms": [
+        "bpytop.Draw.out",
+        "bpytop.Draw.clear",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.Config.load_config": [
+        "bpytop.strtobool"
+    ],
+    "bpytop.Color.bg": [
+        "bpytop.Color.escape_color"
+    ],
+    "bpytop.Draw.out": [
+        "bpytop.Draw.now",
+        "bpytop.Draw.clear"
+    ],
+    "bpytop.clean_quit": [
+        "bpytop.Key.stop",
+        "bpytop.Config.save_config",
+        "bpytop.Collector.stop",
+        "bpytop.Draw.now",
+        "bpytop.Term.echo",
+        "bpytop.Term.title"
+    ],
+    "bpytop.Color.fg": [
+        "bpytop.Color.escape_color"
+    ],
+    "bpytop.Menu.help": [
+        "bpytop.clean_quit",
+        "bpytop.create_box",
+        "bpytop.Timer.left",
+        "bpytop.Timer.not_zero",
+        "bpytop.Timer.stamp",
+        "bpytop.Draw.now",
+        "bpytop.Fx.uncolor",
+        "bpytop.Collector.collect",
+        "bpytop.Key.get",
+        "bpytop.Key.get_mouse",
+        "bpytop.Key.input_wait"
+    ],
+    "bpytop.timeit_decorator.timed": [
+        "bpytop.timeit_decorator"
+    ],
+    "bpytop.Box.draw_clock": [
+        "bpytop.Draw.out",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.main": [
+        "bpytop.Key.start",
+        "bpytop.Init.start",
+        "bpytop.Init.success",
+        "bpytop.Init.fail",
+        "bpytop.Init.done",
+        "bpytop.CpuCollector.get_sensors",
+        "bpytop.Draw.buffer",
+        "bpytop.Draw.out",
+        "bpytop.Draw.now",
+        "bpytop.main.run",
+        "bpytop.Collector.start",
+        "bpytop.Collector.collect",
+        "bpytop.Box.draw_bg",
+        "bpytop.Box.calc_sizes",
+        "bpytop.UpdateChecker.run",
+        "bpytop.clean_quit",
+        "bpytop.TimeIt.stop",
+        "bpytop.TimeIt.start",
+        "bpytop.Term.echo",
+        "bpytop.Term.refresh",
+        "bpytop.Term.title"
+    ],
+    "bpytop.Menu.options": [
+        "bpytop.Term.refresh",
+        "bpytop.Theme.refresh",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Collector.collect",
+        "bpytop.Timer.stamp",
+        "bpytop.ProcCollector.sorting",
+        "bpytop.Timer.not_zero",
+        "bpytop.Timer.left",
+        "bpytop.Timer.finish",
+        "bpytop.create_box",
+        "bpytop.clean_quit",
+        "bpytop.Key.get",
+        "bpytop.Key.get_mouse",
+        "bpytop.Key.input_wait",
+        "bpytop.Fx.uncolor",
+        "bpytop.CpuCollector.get_sensors",
+        "bpytop.Draw.clear",
+        "bpytop.Draw.now"
+    ],
+    "bpytop.Timer.left": [
+        "bpytop.Timer.stamp"
+    ],
+    "bpytop.NetCollector.switch": [
+        "bpytop.Collector.collect"
+    ],
+    "bpytop.Meter.__call__": [
+        "bpytop.Meter._create"
+    ],
+    "bpytop.Graph.__call__": [
+        "bpytop.min_max",
+        "bpytop.Graph._create"
+    ],
+    "bpytop.CpuBox._draw_fg": [
+        "bpytop.Draw.clear",
+        "bpytop.Draw.buffer",
+        "bpytop.CpuBox.battery_activity",
+        "bpytop.temperature"
+    ],
+    "bpytop.Init.done": [
+        "bpytop.Draw.now",
+        "bpytop.Draw.clear"
+    ],
+    "bpytop.MemCollector._collect": [
+        "bpytop.floating_humanizer"
+    ],
+    "bpytop.Theme.__call__": [
+        "bpytop.Theme._load_theme"
+    ],
+    "bpytop.ProcBox._draw_bg": [
+        "bpytop.create_box"
+    ],
+    "bpytop.Key._get_key": [
+        "bpytop.clean_quit"
+    ],
+    "bpytop.Banner.draw": [
+        "bpytop.Draw.out"
+    ],
+    "bpytop.NetBox._draw_fg": [
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.CpuCollector._collect": [
+        "bpytop.CpuCollector._collect_temps"
+    ],
+    "bpytop.quit_sigint": [
+        "bpytop.clean_quit"
+    ],
+    "bpytop.NetCollector._draw": [
+        "bpytop.NetBox._draw_fg"
+    ],
+    "bpytop.Box.draw_bg": [
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.ProcCollector._tree": [
+        "bpytop.ProcCollector._tree.create_tree"
+    ],
+    "bpytop.Meter.__init__": [
+        "bpytop.Meter._create"
+    ],
+    "bpytop.ProcBox._draw_fg": [
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.ProcCollector._draw": [
+        "bpytop.ProcBox._draw_fg"
+    ],
+    "bpytop.Collector._runner": [
+        "bpytop.Box.draw_clock",
+        "bpytop.TimeIt.stop",
+        "bpytop.clean_quit",
+        "bpytop.TimeIt.start",
+        "bpytop.Draw.out"
+    ],
+    "bpytop.Init.start": [
+        "bpytop.Color.fg",
+        "bpytop.Draw.out",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.Init.success": [
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.ProcCollector.sorting": [
+        "bpytop.Collector.collect"
+    ],
+    "bpytop.CpuCollector._draw": [
+        "bpytop.CpuBox._draw_fg"
+    ],
+    "bpytop.Theme.__init__": [
+        "bpytop.Theme._load_theme",
+        "bpytop.Theme.refresh"
+    ],
+    "bpytop.CpuCollector._collect_temps": [
+        "bpytop.CpuBox._calc_size"
+    ],
+    "bpytop.Config.__init__": [
+        "bpytop.Config.load_config"
+    ],
+    "bpytop.Draw.buffer": [
+        "bpytop.Draw.out"
+    ],
+    "bpytop.CpuBox.battery_activity": [
+        "bpytop.readfile"
+    ]
+}

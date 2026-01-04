@@ -1,0 +1,361 @@
+{
+  "graphene.utils.props": [
+    "builtins.set"
+  ],
+  "graphene.utils.subclass_with_meta.SubclassWithMeta.__init_subclass__": [
+    "builtins.getattr",
+    "builtins.dict",
+    "dict.pop",
+    "builtins.hasattr",
+    "graphene.utils.subclass_with_meta.SubclassWithMeta.__init_subclass_with_meta__",
+    "graphene.types.base.BaseType.__init_subclass_with_meta__",
+    "graphene.types.scalars.Scalar.__init_subclass_with_meta__",
+    "builtins.isinstance",
+    "inspect.isclass",
+    "graphene.utils.props.props",
+    "builtins.delattr",
+    "graphene.types.objecttype.ObjectType.__init_subclass_with_meta__",
+    "graphene.relay.node.AbstractNode.__init_subclass_with_meta__",
+    "graphene.types.union.Union.__init_subclass_with_meta__",
+    "graphene.types.mutation.Mutation.__init_subclass_with_meta__",
+    "graphene.types.inputobjecttype.InputObjectType.__init_subclass_with_meta__",
+    "graphene.types.enum.Enum.__init_subclass_with_meta__",
+    "graphene.tests.issues.test_720.MyInputClass.__init_subclass_with_meta__",
+    "graphene.tests.issues.test_425.SpecialObjectType.__init_subclass_with_meta__",
+    "graphene.tests.issues.test_425.SpecialInputObjectType.__init_subclass_with_meta__",
+    "graphene.tests.issues.test_425.SpecialEnum.__init_subclass_with_meta__"
+  ],
+  "graphene.types.scalars.Scalar.__init_subclass_with_meta__": [
+    "graphene.types.scalars.ScalarOptions",
+    "graphene.types.base.BaseType.__init_subclass_with_meta__"
+  ],
+  "graphene.types.base.BaseOptions.__setattr__": [
+    "object.__setattr__"
+  ],
+  "graphene.types.base.BaseType.__init_subclass_with_meta__": [
+    "graphene.utils.trim_docstring.trim_docstring",
+    "graphene.types.base.BaseOptions.freeze",
+    "graphene.utils.subclass_with_meta.SubclassWithMeta.__init_subclass_with_meta__"
+  ],
+  "graphene.utils.trim_docstring.trim_docstring": [
+    "inspect.cleandoc"
+  ],
+  "graphene.types.enum": [
+    "builtins.type"
+  ],
+  "graphene.types.enum.EnumMeta.__new__": [
+    "builtins.dict",
+    "dict.pop",
+    "enum.Enum",
+    "builtins.dict",
+    "type.__new__"
+  ],
+  "graphene.utils.deprecated": [
+    "builtins.type"
+  ],
+  "graphene.utils.props.props": [
+    "builtins.getattr",
+    "mappingproxy.get"
+  ],
+  "graphene.types.objecttype.ObjectTypeMeta.__new__": [
+    "type.__new__",
+    "dict.items",
+    "dataclasses.make_dataclass",
+    "builtins.isinstance",
+    "dataclasses.field"
+  ],
+  "graphene.types.objecttype.ObjectType.__init_subclass_with_meta__": [
+    "graphene.types.objecttype.ObjectTypeOptions",
+    "builtins.reversed",
+    "graphene.types.utils.yank_fields_from_attrs",
+    "dict.update",
+    "graphene.types.base.BaseType.__init_subclass_with_meta__",
+    "dict.update"
+  ],
+  "graphene.types.utils.yank_fields_from_attrs": [
+    "mappingproxy.items",
+    "builtins.list",
+    "graphene.types.utils.get_field_as",
+    "builtins.sorted",
+    "builtins.dict",
+    "list.append"
+  ],
+  "graphene.types.utils.get_field_as": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "graphene.types.mountedtype.MountedType.mounted"
+  ],
+  "graphene.types.schema": [
+    "graphql.utilities.get_introspection_query.get_introspection_query"
+  ],
+  "graphene.relay.node.AbstractNode.__init_subclass_with_meta__": [
+    "builtins.issubclass",
+    "graphene.types.interface.InterfaceOptions",
+    "graphene.relay.node.GlobalID",
+    "graphene.types.interface.Interface.__init_subclass_with_meta__"
+  ],
+  "graphene.relay.node.GlobalID.__init__": [
+    "graphene.types.field.Field.__init__"
+  ],
+  "graphene.types.field.Field.__init__": [
+    "graphene.utils.orderedtype.OrderedType.__init__",
+    "builtins.callable",
+    "graphene.types.structures.NonNull",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "graphene.types.argument.to_arguments",
+    "builtins.isinstance"
+  ],
+  "graphene.utils.orderedtype.OrderedType.__init__": [
+    "graphene.utils.orderedtype.OrderedType.gen_counter"
+  ],
+  "graphene.types.structures.NonNull.__init__": [
+    "graphene.types.structures.Structure.__init__",
+    "builtins.isinstance"
+  ],
+  "graphene.types.structures.Structure.__init__": [
+    "graphene.types.unmountedtype.UnmountedType.__init__",
+    "builtins.isinstance"
+  ],
+  "graphene.types.unmountedtype.UnmountedType.__init__": [
+    "graphene.utils.orderedtype.OrderedType.__init__"
+  ],
+  "graphene.types.argument.to_arguments": [
+    "dict.items",
+    "itertools.chain",
+    "dict.items",
+    "builtins.sorted",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "graphene.types.mountedtype.MountedType.mounted",
+    "builtins.isinstance",
+    "builtins.isinstance"
+  ],
+  "graphene.types.interface.Interface.__init_subclass_with_meta__": [
+    "builtins.reversed",
+    "graphene.types.utils.yank_fields_from_attrs",
+    "dict.update",
+    "dict.update",
+    "graphene.types.base.BaseType.__init_subclass_with_meta__"
+  ],
+  "graphene.relay.connection": [
+    "graphene.types.scalars.Boolean",
+    "graphene.types.scalars.Boolean",
+    "graphene.types.scalars.String",
+    "graphene.types.scalars.String"
+  ],
+  "graphene.types.mountedtype.MountedType.mounted": [
+    "builtins.isinstance",
+    "graphene.types.scalars.Scalar.get_type",
+    "graphene.types.field.Field",
+    "graphene.types.structures.Structure.get_type",
+    "graphene.types.argument.Argument"
+  ],
+  "graphene.utils.orderedtype.OrderedType.__lt__": [
+    "builtins.isinstance"
+  ],
+  "graphene.utils.deprecated.deprecated": [
+    "builtins.isinstance"
+  ],
+  "graphene.utils.deprecated.decorator": [
+    "inspect.isclass"
+  ],
+  "graphene.__init__": [
+    "graphene.pyutils.version.get_version"
+  ],
+  "graphene.pyutils.version.get_version": [
+    "graphene.pyutils.version.get_complete_version",
+    "graphene.pyutils.version.get_main_version",
+    "builtins.str"
+  ],
+  "graphene.pyutils.version.get_complete_version": [
+    "builtins.len"
+  ],
+  "graphene.pyutils.version.get_main_version": [
+    "graphene.pyutils.version.get_complete_version",
+    "builtins.str"
+  ],
+  "graphene.types.argument.Argument.__init__": [
+    "graphene.utils.orderedtype.OrderedType.__init__",
+    "graphene.types.structures.NonNull"
+  ],
+  "graphene.types.schema.Schema.__init__": [
+    "graphene.types.schema.TypeMap",
+    "graphql.type.schema.GraphQLSchema"
+  ],
+  "graphene.types.schema.TypeMap.__init__": [
+    "graphene.types.schema.assert_valid_root_type",
+    "graphene.types.schema.assert_valid_root_type",
+    "graphene.types.schema.assert_valid_root_type",
+    "graphene.types.schema.TypeMap.add_type",
+    "graphene.types.schema.TypeMap.add_type"
+  ],
+  "graphene.types.schema.assert_valid_root_type": [
+    "inspect.isclass",
+    "builtins.issubclass",
+    "builtins.isinstance"
+  ],
+  "graphene.types.schema.TypeMap.add_type": [
+    "inspect.isfunction",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "TypeMap.get",
+    "builtins.issubclass",
+    "graphene.types.schema.TypeMap.create_objecttype",
+    "builtins.issubclass",
+    "builtins.issubclass",
+    "builtins.issubclass",
+    "graphene.types.schema.TypeMap.create_scalar",
+    "graphene.types.schema.TypeMap.add_type",
+    "graphql.type.definition.GraphQLNonNull",
+    "graphene.types.schema.TypeMap.create_inputobjecttype"
+  ],
+  "graphene.types.schema.TypeMap.create_objecttype": [
+    "functools.partial",
+    "graphene.types.definitions.GrapheneObjectType"
+  ],
+  "graphene.types.definitions.GrapheneGraphQLType.__init__": [
+    "dict.pop",
+    "graphql.type.definition.GraphQLObjectType.__init__",
+    "graphql.type.definition.GraphQLScalarType.__init__",
+    "graphql.type.definition.GraphQLInputObjectType.__init__"
+  ],
+  "graphene.types.schema.TypeMap.create_fields_for_type": [
+    "dict.items",
+    "builtins.isinstance",
+    "graphene.types.schema.TypeMap.add_type",
+    "dict.items",
+    "graphene.types.schema.TypeMap.add_type",
+    "graphene.types.schema.TypeMap.get_name",
+    "graphql.type.definition.GraphQLArgument",
+    "graphene.types.schema.TypeMap.get_function_for_type",
+    "graphene.types.field.Field.wrap_subscribe",
+    "builtins.issubclass",
+    "graphene.types.resolver.get_default_resolver",
+    "functools.partial",
+    "graphene.types.schema.TypeMap.get_function_for_type",
+    "graphene.types.field.Field.wrap_resolve",
+    "graphql.type.definition.GraphQLField",
+    "graphene.types.schema.TypeMap.get_name"
+  ],
+  "graphene.types.field.Field.type": [
+    "graphene.types.utils.get_type"
+  ],
+  "graphene.types.utils.get_type": [
+    "builtins.isinstance",
+    "inspect.isfunction",
+    "builtins.isinstance"
+  ],
+  "graphene.types.argument.Argument.type": [
+    "graphene.types.utils.get_type"
+  ],
+  "graphene.types.structures.Structure.of_type": [
+    "graphene.types.utils.get_type"
+  ],
+  "graphene.types.schema.TypeMap.get_name": [
+    "graphene.utils.str_converters.to_camel_case"
+  ],
+  "graphene.utils.str_converters.to_camel_case": [
+    "str.split",
+    "str.capitalize"
+  ],
+  "graphene.types.schema.TypeMap.get_function_for_type": [
+    "builtins.issubclass",
+    "builtins.getattr",
+    "graphene.utils.get_unbound_function.get_unbound_function"
+  ],
+  "graphene.utils.get_unbound_function.get_unbound_function": [
+    "builtins.getattr"
+  ],
+  "graphene.types.schema.Schema.__getattr__": [
+    "graphql.type.schema.GraphQLSchema.get_type",
+    "builtins.AttributeError"
+  ],
+  "graphene.types.union.Union.__init_subclass_with_meta__": [
+    "builtins.isinstance",
+    "builtins.len",
+    "graphene.types.union.UnionOptions",
+    "graphene.types.base.BaseType.__init_subclass_with_meta__"
+  ],
+  "graphene.types.mutation.Mutation.__init_subclass_with_meta__": [
+    "graphene.types.mutation.MutationOptions",
+    "builtins.getattr",
+    "builtins.reversed",
+    "graphene.types.utils.yank_fields_from_attrs",
+    "dict.update",
+    "builtins.getattr",
+    "graphene.utils.props.props",
+    "builtins.getattr",
+    "graphene.utils.get_unbound_function.get_unbound_function",
+    "graphene.types.objecttype.ObjectType.__init_subclass_with_meta__"
+  ],
+  "graphene.types.mutation.Mutation.Field": [
+    "graphene.types.field.Field"
+  ],
+  "graphene.types.inputobjecttype.InputObjectType.__init_subclass_with_meta__": [
+    "graphene.types.inputobjecttype.InputObjectTypeOptions",
+    "builtins.reversed",
+    "graphene.types.utils.yank_fields_from_attrs",
+    "dict.update",
+    "builtins.type",
+    "graphene.types.base.BaseType.__init_subclass_with_meta__",
+    "dict.update"
+  ],
+  "graphene.types.enum.Enum.__init_subclass_with_meta__": [
+    "graphene.types.enum.EnumOptions",
+    "dict.pop",
+    "mappingproxy.items",
+    "graphene.types.base.BaseType.__init_subclass_with_meta__",
+    "builtins.setattr"
+  ],
+  "graphene.types.schema.Schema.execute": [
+    "graphene.types.schema.normalize_execute_kwargs",
+    "graphql.graphql.graphql_sync"
+  ],
+  "graphene.types.schema.TypeMap.create_scalar": [
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "graphene.types.definitions.GrapheneScalarType"
+  ],
+  "graphene.utils.subclass_with_meta.SubclassWithMeta_Meta.__repr__": [
+    "builtins.repr"
+  ],
+  "graphene.types.base.BaseOptions.__repr__": [
+    "builtins.repr"
+  ],
+  "graphene.relay.connection.IterableConnectionField.__init__": [
+    "graphene.types.scalars.String",
+    "dict.setdefault",
+    "graphene.types.scalars.String",
+    "dict.setdefault",
+    "graphene.types.scalars.Int",
+    "dict.setdefault",
+    "graphene.types.scalars.Int",
+    "dict.setdefault",
+    "graphene.types.field.Field.__init__"
+  ],
+  "graphene.relay.connection.IterableConnectionField.type": [
+    "builtins.isinstance",
+    "graphene.relay.node.is_node",
+    "builtins.issubclass"
+  ],
+  "graphene.relay.node.is_node": [
+    "inspect.isclass",
+    "builtins.issubclass"
+  ],
+  "graphene.types.schema.TypeMap.create_inputobjecttype": [
+    "functools.partial",
+    "graphene.types.definitions.GrapheneInputObjectType"
+  ],
+  "graphene.types.enum.EnumMeta.__call__": [
+    "dict.pop",
+    "dict.pop",
+    "enum.Enum",
+    "graphene.types.enum.EnumMeta.from_enum"
+  ],
+  "graphene.types.enum.EnumMeta.from_enum": [
+    "builtins.type",
+    "builtins.type"
+  ]
+}

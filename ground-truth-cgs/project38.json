@@ -1,0 +1,125 @@
+{
+  "src.marshmallow.validate": [
+    "typing.TypeVar",
+    "marshmallow.validate.URL.RegexMemoizer",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.marshmallow.utils": [
+    "marshmallow.utils._Missing",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.marshmallow.fields": [
+    "typing.TypeVar"
+  ],
+  "src.marshmallow.schema": [
+    "typing.TypeVar"
+  ],
+  "src.marshmallow.schema.SchemaMeta.__new__": [
+    "dict.get",
+    "builtins.getattr",
+    "builtins.hasattr",
+    "marshmallow.schema._get_fields",
+    "type.__new__",
+    "marshmallow.schema._get_fields_by_mro",
+    "marshmallow.schema.SchemaOpts",
+    "dict.items",
+    "builtins.list",
+    "marshmallow.schema.SchemaMeta.get_declared_fields"
+  ],
+  "src.marshmallow.schema._get_fields": [
+    "dict.items",
+    "marshmallow.utils.is_instance_or_subclass",
+    "mappingproxy.items"
+  ],
+  "src.marshmallow.utils.is_instance_or_subclass": [
+    "builtins.issubclass",
+    "builtins.isinstance"
+  ],
+  "src.marshmallow.schema._get_fields_by_mro": [
+    "inspect.getmro",
+    "builtins.getattr",
+    "marshmallow.schema._get_fields"
+  ],
+  "src.marshmallow.schema.SchemaOpts.__init__": [
+    "builtins.getattr",
+    "builtins.isinstance",
+    "builtins.getattr",
+    "builtins.isinstance",
+    "builtins.getattr",
+    "builtins.isinstance",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.hasattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "marshmallow.utils.validate_unknown_parameter_value",
+    "builtins.getattr"
+  ],
+  "src.marshmallow.schema.SchemaMeta.get_declared_fields": [
+    "builtins.dict"
+  ],
+  "src.marshmallow.schema.SchemaMeta.__init__": [
+    "type.__init__",
+    "marshmallow.class_registry.register",
+    "marshmallow.schema.SchemaMeta.resolve_hooks"
+  ],
+  "src.marshmallow.class_registry.register": [
+    "str.join",
+    "dict.setdefault",
+    "list.append"
+  ],
+  "src.marshmallow.schema.SchemaMeta.resolve_hooks": [
+    "inspect.getmro",
+    "collections.defaultdict"
+  ],
+  "src.marshmallow.__init__": [
+    "packaging.version.Version"
+  ],
+  "src.marshmallow.fields.Field.__init__": [
+    "builtins.reversed",
+    "builtins.getattr",
+    "dict.update",
+    "dict.update"
+  ],
+  "src.marshmallow.fields.Float.__init__": [
+    "marshmallow.fields.Number.__init__"
+  ],
+  "src.marshmallow.fields.Number.__init__": [
+    "marshmallow.fields.Field.__init__"
+  ],
+  "src.marshmallow.fields.DateTime.__init__": [
+    "marshmallow.fields.Field.__init__"
+  ],
+  "src.marshmallow.fields.Url.__init__": [
+    "marshmallow.fields.Field.__init__",
+    "marshmallow.validate.URL",
+    "list.insert"
+  ],
+  "src.marshmallow.fields.Email.__init__": [
+    "marshmallow.fields.Field.__init__",
+    "marshmallow.validate.Email",
+    "list.insert"
+  ],
+  "src.marshmallow.fields.Decimal.__init__": [
+    "marshmallow.fields.Number.__init__"
+  ],
+  "src.marshmallow.fields.Method.__init__": [
+    "builtins.bool",
+    "builtins.bool",
+    "marshmallow.fields.Field.__init__"
+  ],
+  "src.marshmallow.fields.Function.__init__": [
+    "builtins.bool",
+    "builtins.bool",
+    "marshmallow.fields.Field.__init__"
+  ]
+}

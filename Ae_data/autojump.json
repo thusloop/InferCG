@@ -1,0 +1,767 @@
+{
+    "bin.autojump_argparse.sorted": [
+        "bin.autojump_argparse.sorted",
+        "<**PyList**>.reverse"
+    ],
+    "bin.autojump_argparse._AttributeHolder.__repr__": [
+        "bin.autojump_argparse.ArgumentParser._get_kwargs",
+        "<builtin>.repr",
+        "<builtin>.type",
+        "bin.autojump_argparse._AttributeHolder._get_kwargs",
+        "bin.autojump_argparse._AttributeHolder._get_args",
+        "<**PyStr**>.join",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse._AttributeHolder._get_kwargs": [
+        "bin.autojump_argparse.sorted",
+        "<**PyDict**>.items",
+        "<builtin>.sorted"
+    ],
+    "bin.autojump_argparse.HelpFormatter.__init__": [
+        "bin.autojump_argparse.HelpFormatter._Section",
+        "<builtin>.int",
+        "re.compile"
+    ],
+    "bin.autojump_argparse.HelpFormatter._Section.format_help": [
+        "bin.autojump_argparse.HelpFormatter._indent",
+        "bin.autojump_argparse.HelpFormatter._join_parts",
+        "bin.autojump_argparse.HelpFormatter._dedent"
+    ],
+    "bin.autojump_argparse.HelpFormatter.start_section": [
+        "bin.autojump_argparse.HelpFormatter._indent",
+        "bin.autojump_argparse.HelpFormatter._Section.format_help",
+        "bin.autojump_argparse.HelpFormatter._Section",
+        "bin.autojump_argparse.HelpFormatter._add_item"
+    ],
+    "bin.autojump_argparse.HelpFormatter.end_section": [
+        "bin.autojump_argparse.HelpFormatter._dedent"
+    ],
+    "bin.autojump_argparse.HelpFormatter.add_text": [
+        "bin.autojump_argparse.HelpFormatter._format_text",
+        "bin.autojump_argparse.HelpFormatter._add_item"
+    ],
+    "bin.autojump_argparse.HelpFormatter.add_usage": [
+        "bin.autojump_argparse.HelpFormatter._add_item"
+    ],
+    "bin.autojump_argparse.HelpFormatter.add_argument": [
+        "bin.autojump_argparse.HelpFormatter._format_action_invocation",
+        "bin.autojump_argparse.HelpFormatter._add_item",
+        "<builtin>.len",
+        "<builtin>.max",
+        "bin.autojump_argparse.HelpFormatter._iter_indented_subactions"
+    ],
+    "bin.autojump_argparse.HelpFormatter.add_arguments": [
+        "bin.autojump_argparse.HelpFormatter.add_argument"
+    ],
+    "bin.autojump_argparse.HelpFormatter.format_help": [
+        "bin.autojump_argparse.HelpFormatter._Section.format_help",
+        "<**PyStr**>.strip"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_usage": [
+        "re.findall",
+        "bin.autojump_argparse.HelpFormatter._format_actions_usage",
+        "<**PyStr**>.join",
+        "<**PyList**>.extend",
+        "<builtin>.len",
+        "<builtin>.dict",
+        "gettext.gettext",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_actions_usage": [
+        "<**PyList**>.index",
+        "<builtin>.set",
+        "<**PyDict**>.pop",
+        "<builtin>.range",
+        "bin.autojump_argparse.HelpFormatter._format_args",
+        "<builtin>.sorted",
+        "bin.autojump_argparse.sorted",
+        "<**PyStr**>.join",
+        "<builtin>.enumerate",
+        "re.sub",
+        "<**PyStr**>.strip",
+        "<**PySet**>.add",
+        "<**PyStr**>.upper",
+        "<builtin>.len",
+        "<**PyList**>.append",
+        "<**PyDict**>.get"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_text": [
+        "bin.autojump_argparse.HelpFormatter._fill_text",
+        "bin.autojump_argparse.RawDescriptionHelpFormatter._fill_text",
+        "<builtin>.dict"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_action": [
+        "bin.autojump_argparse.HelpFormatter._join_parts",
+        "bin.autojump_argparse.HelpFormatter._format_action_invocation",
+        "bin.autojump_argparse.HelpFormatter._expand_help",
+        "<**PyStr**>.endswith",
+        "bin.autojump_argparse.RawTextHelpFormatter._split_lines",
+        "<builtin>.len",
+        "<builtin>.min",
+        "<**PyList**>.append",
+        "bin.autojump_argparse.HelpFormatter._split_lines",
+        "bin.autojump_argparse.HelpFormatter._iter_indented_subactions",
+        "bin.autojump_argparse.HelpFormatter._format_action"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_action_invocation": [
+        "bin.autojump_argparse.HelpFormatter._format_args",
+        "bin.autojump_argparse.HelpFormatter._metavar_formatter",
+        "<**PyStr**>.join",
+        "<**PyList**>.extend",
+        "<**PyStr**>.upper",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse.HelpFormatter._metavar_formatter": [
+        "<**PyStr**>.join",
+        "<builtin>.str",
+        "bin.autojump_argparse.HelpFormatter._metavar_formatter.format"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_args": [
+        "<builtin>.range",
+        "<**PyStr**>.join",
+        "bin.autojump_argparse.HelpFormatter._metavar_formatter"
+    ],
+    "bin.autojump_argparse.HelpFormatter._expand_help": [
+        "<builtin>.str",
+        "bin.autojump_argparse.ArgumentDefaultsHelpFormatter._get_help_string",
+        "<builtin>.list",
+        "<builtin>.vars",
+        "<**PyStr**>.join",
+        "<builtin>.dict",
+        "bin.autojump_argparse.HelpFormatter._get_help_string",
+        "<**PyDict**>.get",
+        "<builtin>.hasattr"
+    ],
+    "bin.autojump_argparse.HelpFormatter._iter_indented_subactions": [
+        "bin.autojump_argparse.HelpFormatter._indent",
+        "bin.autojump_argparse.HelpFormatter._dedent"
+    ],
+    "bin.autojump_argparse.ArgumentError.__init__": [
+        "bin.autojump_argparse._get_action_name"
+    ],
+    "bin.autojump_argparse._AppendAction.__call__": [
+        "copy.copy",
+        "bin.autojump_argparse._ensure_value",
+        "<**PyList**>.append",
+        "<builtin>.setattr"
+    ],
+    "bin.autojump_argparse._AppendConstAction.__call__": [
+        "copy.copy",
+        "bin.autojump_argparse._ensure_value",
+        "<builtin>.setattr",
+        "<**PyList**>.copy",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse._CountAction.__call__": [
+        "bin.autojump_argparse._ensure_value",
+        "<builtin>.setattr"
+    ],
+    "bin.autojump_argparse._HelpAction.__call__": [
+        "bin.autojump_argparse.ArgumentParser.print_help"
+    ],
+    "bin.autojump_argparse._VersionAction.__call__": [
+        "bin.autojump_argparse.HelpFormatter.format_help",
+        "bin.autojump_argparse.HelpFormatter.add_text",
+        "bin.autojump_argparse.ArgumentParser._get_formatter"
+    ],
+    "bin.autojump_argparse._SubParsersAction._ChoicesPseudoAction.__init__": [
+        "bin.autojump_argparse._SubParsersAction._ChoicesPseudoAction",
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._SubParsersAction.add_parser": [
+        "<**PyDict**>.pop",
+        "bin.autojump_argparse._SubParsersAction._ChoicesPseudoAction",
+        "<**PyList**>.append",
+        "<**PyDict**>.get"
+    ],
+    "bin.autojump_argparse._SubParsersAction.__call__": [
+        "bin.autojump_argparse.ArgumentError",
+        "<builtin>.getattr",
+        "<builtin>.setattr",
+        "bin.autojump_argparse.ArgumentParser.parse_known_args",
+        "<builtin>.vars",
+        "<**PyStr**>.join",
+        "<**PyList**>.extend",
+        "gettext.gettext",
+        "<**PyDict**>.setdefault"
+    ],
+    "bin.autojump_argparse._ActionsContainer.__init__": [
+        "bin.autojump_argparse._ActionsContainer._get_handler",
+        "<builtin>.super",
+        "bin.autojump_argparse._ActionsContainer.register",
+        "re.compile",
+        "bin.autojump_argparse._StoreTrueAction"
+    ],
+    "bin.autojump_argparse._ActionsContainer.add_argument": [
+        "bin.autojump_argparse._callable",
+        "bin.autojump_argparse._ActionsContainer._pop_action_class",
+        "bin.autojump_argparse._ActionsContainer._get_positional_kwargs",
+        "bin.autojump_argparse._ActionsContainer._get_optional_kwargs",
+        "bin.autojump_argparse._ActionsContainer._add_action",
+        "bin.autojump_argparse._ActionsContainer._registry_get",
+        "<builtin>.ValueError",
+        "<builtin>.len",
+        "bin.autojump_argparse._ArgumentGroup._add_action"
+    ],
+    "bin.autojump_argparse._ActionsContainer.add_argument_group": [
+        "<**PyList**>.append",
+        "bin.autojump_argparse._ArgumentGroup"
+    ],
+    "bin.autojump_argparse._ActionsContainer.add_mutually_exclusive_group": [
+        "<**PyList**>.append",
+        "bin.autojump_argparse._MutuallyExclusiveGroup"
+    ],
+    "bin.autojump_argparse._ActionsContainer._add_action": [
+        "<**PyList**>.append",
+        "bin.autojump_argparse._ActionsContainer._check_conflict"
+    ],
+    "bin.autojump_argparse._ActionsContainer._add_container_actions": [
+        "bin.autojump_argparse.ArgumentParser._add_action",
+        "bin.autojump_argparse._ActionsContainer._add_action",
+        "bin.autojump_argparse._MutuallyExclusiveGroup._add_action",
+        "<builtin>.ValueError",
+        "bin.autojump_argparse._ActionsContainer.add_mutually_exclusive_group",
+        "bin.autojump_argparse._ActionsContainer.add_argument_group",
+        "<**PyDict**>.get",
+        "bin.autojump_argparse._ArgumentGroup._add_action"
+    ],
+    "bin.autojump_argparse._ActionsContainer._pop_action_class": [
+        "<**PyDict**>.pop",
+        "bin.autojump_argparse._ActionsContainer._registry_get"
+    ],
+    "bin.autojump_argparse._ActionsContainer._check_conflict": [
+        "bin.autojump_argparse._ActionsContainer._get_handler",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse._ActionsContainer._handle_conflict_error": [
+        "bin.autojump_argparse.ArgumentError",
+        "<**PyStr**>.join"
+    ],
+    "bin.autojump_argparse._ActionsContainer._handle_conflict_resolve": [
+        "bin.autojump_argparse._ArgumentGroup._remove_action",
+        "<**PyList**>.remove",
+        "bin.autojump_argparse._ActionsContainer._remove_action",
+        "<**PyDict**>.pop"
+    ],
+    "bin.autojump_argparse._ArgumentGroup._add_action": [
+        "bin.autojump_argparse._ActionsContainer._add_action",
+        "<builtin>.super",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse._ArgumentGroup._remove_action": [
+        "<**PyList**>.remove",
+        "bin.autojump_argparse._ActionsContainer._remove_action",
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._MutuallyExclusiveGroup._add_action": [
+        "bin.autojump_argparse._ActionsContainer._add_action",
+        "<builtin>.ValueError",
+        "<**PyList**>.append",
+        "bin.autojump_argparse.ArgumentParser._add_action",
+        "bin.autojump_argparse._ArgumentGroup._add_action"
+    ],
+    "bin.autojump_argparse._MutuallyExclusiveGroup._remove_action": [
+        "bin.autojump_argparse._ArgumentGroup._remove_action",
+        "<**PyList**>.remove",
+        "bin.autojump_argparse._ActionsContainer._remove_action"
+    ],
+    "bin.autojump_argparse.ArgumentParser.__init__": [
+        "<**PyDict**>.update",
+        "os.path.basename",
+        "warnings.warn",
+        "<builtin>.super",
+        "gettext.gettext",
+        "bin.autojump_argparse._ActionsContainer.add_argument_group",
+        "bin.autojump_argparse._ActionsContainer.register",
+        "bin.autojump_argparse._ActionsContainer._add_container_actions"
+    ],
+    "bin.autojump_argparse.ArgumentParser.add_subparsers": [
+        "<builtin>.type",
+        "bin.autojump_argparse._ActionsContainer._pop_action_class",
+        "bin.autojump_argparse._ActionsContainer._add_action",
+        "bin.autojump_argparse._ArgumentGroup._add_action",
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser._get_formatter",
+        "<**PyStr**>.strip",
+        "gettext.gettext",
+        "bin.autojump_argparse.HelpFormatter.format_help",
+        "bin.autojump_argparse.ArgumentParser._get_positional_actions",
+        "<**PyDict**>.get",
+        "<**PyDict**>.setdefault",
+        "bin.autojump_argparse.HelpFormatter.add_usage"
+    ],
+    "bin.autojump_argparse.ArgumentParser._add_action": [
+        "bin.autojump_argparse._ActionsContainer._add_action",
+        "bin.autojump_argparse._ArgumentGroup._add_action"
+    ],
+    "bin.autojump_argparse.ArgumentParser.parse_args": [
+        "<**PyStr**>.join",
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser.parse_known_args",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser.parse_known_args": [
+        "<builtin>.delattr",
+        "<builtin>.str",
+        "bin.autojump_argparse.ArgumentParser._get_value",
+        "sys.exc_info",
+        "<builtin>.setattr",
+        "<**PyList**>.extend",
+        "bin.autojump_argparse.ArgumentError.__str__",
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser._parse_known_args",
+        "bin.autojump_argparse.Namespace",
+        "<builtin>.hasattr",
+        "<builtin>.isinstance"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args": [
+        "<builtin>.set",
+        "<builtin>.iter",
+        "bin.autojump_argparse.ArgumentError",
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_optional",
+        "bin.autojump_argparse.ArgumentParser._parse_optional",
+        "<**PyStr**>.join",
+        "bin.autojump_argparse.ArgumentParser._read_args_from_files",
+        "<builtin>.enumerate",
+        "gettext.gettext",
+        "bin.autojump_argparse._get_action_name",
+        "bin.autojump_argparse.ArgumentParser._get_positional_actions",
+        "<**PyList**>.append",
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_positionals",
+        "<**PyDict**>.setdefault"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.take_action": [
+        "bin.autojump_argparse.ArgumentParser._get_values",
+        "bin.autojump_argparse.ArgumentError",
+        "<**PySet**>.add",
+        "bin.autojump_argparse._get_action_name",
+        "<**PyDict**>.get"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_optional": [
+        "bin.autojump_argparse.ArgumentError",
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.take_action",
+        "gettext.gettext",
+        "bin.autojump_argparse.ArgumentParser._match_argument",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_positionals": [
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.take_action",
+        "bin.autojump_argparse.ArgumentParser._match_arguments_partial",
+        "<builtin>.len",
+        "<builtin>.zip"
+    ],
+    "bin.autojump_argparse.ArgumentParser._read_args_from_files": [
+        "<builtin>.str",
+        "sys.exc_info",
+        "<**PyStr**>.splitlines",
+        "bin.autojump_argparse.ArgumentParser.convert_arg_line_to_args",
+        "<**PyList**>.extend",
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser._read_args_from_files",
+        "<builtin>.open",
+        "<**PyFile**>.read",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse.ArgumentParser._match_argument": [
+        "re.match",
+        "bin.autojump_argparse.ArgumentError",
+        "bin.autojump_argparse.ArgumentParser._get_nargs_pattern",
+        "<builtin>.len",
+        "gettext.gettext",
+        "<**PyDict**>.get"
+    ],
+    "bin.autojump_argparse.ArgumentParser._match_arguments_partial": [
+        "re.match",
+        "<builtin>.range",
+        "<**PyStr**>.join",
+        "<**PyList**>.extend",
+        "bin.autojump_argparse.ArgumentParser._get_nargs_pattern",
+        "<builtin>.len"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_optional": [
+        "<**PyStr**>.split",
+        "bin.autojump_argparse.ArgumentParser._get_option_tuples",
+        "<**PyStr**>.join",
+        "bin.autojump_argparse.ArgumentParser.error",
+        "<builtin>.len",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_option_tuples": [
+        "<**PyStr**>.split",
+        "<**PyStr**>.startswith",
+        "bin.autojump_argparse.ArgumentParser.error",
+        "gettext.gettext",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_values": [
+        "bin.autojump_argparse.ArgumentParser._get_value",
+        "<builtin>.len",
+        "bin.autojump_argparse.ArgumentParser._check_value",
+        "<builtin>.isinstance"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_value": [
+        "bin.autojump_argparse._callable",
+        "<builtin>.repr",
+        "bin.autojump_argparse.ArgumentError",
+        "bin.autojump_argparse._ActionsContainer._registry_get",
+        "<builtin>.getattr",
+        "sys.exc_info",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._check_value": [
+        "bin.autojump_argparse.ArgumentError",
+        "<**PyStr**>.join",
+        "gettext.gettext",
+        "<builtin>.map"
+    ],
+    "bin.autojump_argparse.ArgumentParser.format_usage": [
+        "bin.autojump_argparse.HelpFormatter.format_help",
+        "bin.autojump_argparse.ArgumentParser._get_formatter",
+        "bin.autojump_argparse.HelpFormatter.add_usage"
+    ],
+    "bin.autojump_argparse.ArgumentParser.format_help": [
+        "bin.autojump_argparse.HelpFormatter.end_section",
+        "bin.autojump_argparse.ArgumentParser._get_formatter",
+        "bin.autojump_argparse.HelpFormatter.add_usage",
+        "bin.autojump_argparse.HelpFormatter.format_help",
+        "bin.autojump_argparse.HelpFormatter.add_text",
+        "bin.autojump_argparse.HelpFormatter.add_arguments",
+        "bin.autojump_argparse.HelpFormatter.start_section"
+    ],
+    "bin.autojump_argparse.ArgumentParser.format_version": [
+        "bin.autojump_argparse.HelpFormatter.format_help",
+        "bin.autojump_argparse.HelpFormatter.add_text",
+        "bin.autojump_argparse.ArgumentParser._get_formatter",
+        "warnings.warn"
+    ],
+    "bin.autojump_argparse.ArgumentParser.print_usage": [
+        "bin.autojump_argparse.ArgumentParser._print_message",
+        "bin.autojump_argparse.ArgumentParser.format_usage"
+    ],
+    "bin.autojump_argparse.ArgumentParser.print_help": [
+        "bin.autojump_argparse.HelpFormatter.format_help",
+        "bin.autojump_argparse.ArgumentParser._print_message",
+        "bin.autojump_argparse.ArgumentParser.format_help"
+    ],
+    "bin.autojump_argparse.ArgumentParser.print_version": [
+        "bin.autojump_argparse.ArgumentParser._print_message",
+        "warnings.warn",
+        "bin.autojump_argparse.ArgumentParser.format_version"
+    ],
+    "bin.autojump_argparse.ArgumentParser.exit": [
+        "bin.autojump_argparse.ArgumentParser._print_message",
+        "sys.exit"
+    ],
+    "bin.autojump_argparse.ArgumentParser.error": [
+        "bin.autojump_argparse.ArgumentParser.exit",
+        "bin.autojump_argparse.ArgumentParser.print_usage"
+    ],
+    "bin.autojump_data.entriefy": [
+        "<**PyDict**>.items",
+        "itertools.imap",
+        "bin.autojump_utils.is_python3",
+        "<builtin>.map"
+    ],
+    "bin.autojump_data.load": [
+        "<**PyStr**>.split",
+        "bin.autojump_data.migrate_osx_xdg_data",
+        "os.path.join",
+        "<builtin>.float",
+        "os.path.exists",
+        "os.path.expanduser",
+        "<builtin>.open",
+        "<builtin>.len",
+        "<**PyStr**>.strip",
+        "<builtin>.dict",
+        "bin.autojump_utils.is_osx",
+        "bin.autojump_data.load_backup"
+    ],
+    "bin.autojump_data.load_backup": [
+        "os.path.exists",
+        "bin.autojump_utils.move_file",
+        "bin.autojump_data.load"
+    ],
+    "bin.autojump_data.migrate_osx_xdg_data": [
+        "os.path.join",
+        "os.path.exists",
+        "bin.autojump_utils.move_file",
+        "os.path.expanduser",
+        "os.listdir",
+        "<builtin>.len",
+        "bin.autojump_utils.is_osx",
+        "shutil.rmtree"
+    ],
+    "bin.autojump_data.save": [
+        "shutil.copy",
+        "bin.autojump_utils.create_dir",
+        "tempfile.NamedTemporaryFile.close",
+        "bin.autojump_utils.move_file",
+        "os.path.exists",
+        "<**PyDict**>.items",
+        "time.time",
+        "tempfile.NamedTemporaryFile",
+        "bin.autojump_utils.unico",
+        "<builtin>.open",
+        "os.path.getmtime",
+        "sys.exit",
+        "os.fsync",
+        "<builtin>.print",
+        "os.path.dirname"
+    ],
+    "bin.autojump_match": [
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_match.match_fuzzy": [
+        "<**PyStr**>.lower",
+        "os.path.split",
+        "bin.autojump_utils.last",
+        "difflib.SequenceMatcher"
+    ],
+    "bin.autojump_utils.encode_local": [
+        "bin.autojump_utils.is_python3",
+        "sys.getfilesystemencoding"
+    ],
+    "bin.autojump_utils.first": [
+        "<builtin>.iter",
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_utils.has_uppercase": [
+        "<builtin>.any",
+        "unicodedata.category",
+        "<builtin>.unicode",
+        "<**PyStr**>.isupper",
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_utils.last": [
+        "<builtin>.iter",
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_utils.move_file": [
+        "os.path.exists",
+        "shutil.move",
+        "bin.autojump_utils.is_windows",
+        "os.remove"
+    ],
+    "bin.autojump_utils.print_entry": [
+        "bin.autojump_utils.print_local"
+    ],
+    "bin.autojump_utils.print_local": [
+        "<builtin>.print",
+        "bin.autojump_utils.encode_local"
+    ],
+    "bin.autojump_utils.print_tab_menu": [
+        "<builtin>.enumerate",
+        "bin.autojump_utils.print_local"
+    ],
+    "bin.autojump_utils.sanitize": [
+        "bin.autojump_utils.unico",
+        "<builtin>.list",
+        "<**PyStr**>.rstrip",
+        "itertools.imap"
+    ],
+    "bin.autojump_utils.second": [
+        "bin.autojump_utils.is_python2",
+        "<builtin>.iter",
+        "<builtin>.next",
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_utils.surround_quotes": [
+        "bin.autojump_utils.in_bash",
+        "<**PyStr**>.format"
+    ],
+    "bin.autojump_utils.unico": [
+        "bin.autojump_utils.is_python2",
+        "<builtin>.unicode",
+        "<builtin>.isinstance"
+    ],
+    "bin.autojump_argparse._callable": [
+        "<builtin>.hasattr"
+    ],
+    "bin.autojump_argparse._ensure_value": [
+        "<builtin>.getattr",
+        "<builtin>.setattr"
+    ],
+    "bin.autojump_argparse.HelpFormatter._add_item": [
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse.HelpFormatter._join_parts": [
+        "<**PyStr**>.join"
+    ],
+    "bin.autojump_argparse.HelpFormatter._metavar_formatter.format": [
+        "<builtin>.isinstance"
+    ],
+    "bin.autojump_argparse.HelpFormatter._split_lines": [
+        "textwrap.wrap",
+        "<**PyStr**>.strip"
+    ],
+    "bin.autojump_argparse.HelpFormatter._fill_text": [
+        "textwrap.fill",
+        "<**PyStr**>.strip"
+    ],
+    "bin.autojump_argparse.RawDescriptionHelpFormatter._fill_text": [
+        "<**PyStr**>.join",
+        "<**PyStr**>.splitlines"
+    ],
+    "bin.autojump_argparse.RawTextHelpFormatter._split_lines": [
+        "<**PyStr**>.splitlines"
+    ],
+    "bin.autojump_argparse._get_action_name": [
+        "<**PyStr**>.join"
+    ],
+    "bin.autojump_argparse.ArgumentError.__str__": [
+        "<builtin>.dict"
+    ],
+    "bin.autojump_argparse.Action._get_kwargs": [
+        "<builtin>.getattr"
+    ],
+    "bin.autojump_argparse.Action.__call__": [
+        "<builtin>.NotImplementedError"
+    ],
+    "bin.autojump_argparse._StoreAction.__init__": [
+        "<builtin>.super",
+        "<builtin>.ValueError"
+    ],
+    "bin.autojump_argparse._StoreAction.__call__": [
+        "<builtin>.setattr"
+    ],
+    "bin.autojump_argparse._StoreConstAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._StoreConstAction.__call__": [
+        "<builtin>.setattr"
+    ],
+    "bin.autojump_argparse._StoreTrueAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._StoreFalseAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._AppendAction.__init__": [
+        "<builtin>.super",
+        "<builtin>.ValueError"
+    ],
+    "bin.autojump_argparse._AppendConstAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._CountAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._HelpAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._VersionAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._SubParsersAction.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse.FileType.__call__": [
+        "<builtin>.open",
+        "<builtin>.ValueError"
+    ],
+    "bin.autojump_argparse.FileType.__repr__": [
+        "<builtin>.repr",
+        "<**PyStr**>.join",
+        "<builtin>.type"
+    ],
+    "bin.autojump_argparse.Namespace.__init__": [
+        "<builtin>.setattr"
+    ],
+    "bin.autojump_argparse.Namespace.__eq__": [
+        "<builtin>.vars"
+    ],
+    "bin.autojump_argparse._ActionsContainer.register": [
+        "<**PyDict**>.setdefault"
+    ],
+    "bin.autojump_argparse._ActionsContainer._registry_get": [
+        "<**PyDict**>.get"
+    ],
+    "bin.autojump_argparse._ActionsContainer.set_defaults": [
+        "<**PyDict**>.update"
+    ],
+    "bin.autojump_argparse._ActionsContainer.get_default": [
+        "<**PyDict**>.get"
+    ],
+    "bin.autojump_argparse._ActionsContainer._remove_action": [
+        "<**PyList**>.remove"
+    ],
+    "bin.autojump_argparse._ActionsContainer._get_positional_kwargs": [
+        "gettext.gettext",
+        "<builtin>.dict",
+        "<**PyDict**>.get",
+        "<builtin>.TypeError"
+    ],
+    "bin.autojump_argparse._ActionsContainer._get_optional_kwargs": [
+        "<**PyDict**>.pop",
+        "<builtin>.ValueError",
+        "<**PyStr**>.lstrip",
+        "<builtin>.dict",
+        "<builtin>.len",
+        "gettext.gettext",
+        "<**PyStr**>.replace",
+        "<**PyList**>.append"
+    ],
+    "bin.autojump_argparse._ActionsContainer._get_handler": [
+        "<builtin>.getattr",
+        "gettext.gettext",
+        "<builtin>.ValueError"
+    ],
+    "bin.autojump_argparse._ArgumentGroup.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse._MutuallyExclusiveGroup.__init__": [
+        "<builtin>.super"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_kwargs": [
+        "<builtin>.getattr"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_nargs_pattern": [
+        "<**PyStr**>.replace",
+        "<**PyStr**>.join"
+    ],
+    "bin.autojump_match.match_anywhere": [
+        "re.search",
+        "itertools.ifilter",
+        "<**PyStr**>.join"
+    ],
+    "bin.autojump_match.match_consecutive": [
+        "re.search",
+        "itertools.ifilter",
+        "<**PyStr**>.join"
+    ],
+    "bin.autojump_utils.get_tab_entry_info": [
+        "re.search",
+        "<builtin>.int"
+    ],
+    "bin.autojump_utils.get_pwd": [
+        "<builtin>.print",
+        "os.getcwdu"
+    ],
+    "bin.autojump_argparse.ArgumentParser._print_message": [
+        "sys.stderr.write"
+    ],
+    "bin.autojump_data": [
+        "collections.namedtuple"
+    ],
+    "bin.autojump_utils.create_dir": [
+        "os.makedirs"
+    ],
+    "bin.autojump_utils.in_bash": [
+        "os.getenv"
+    ],
+    "bin.autojump_utils.is_autojump_sourced": [
+        "os.getenv"
+    ],
+    "bin.autojump_utils.is_linux": [
+        "platform.system"
+    ],
+    "bin.autojump_utils.is_osx": [
+        "platform.system"
+    ],
+    "bin.autojump_utils.is_windows": [
+        "platform.system"
+    ],
+    "bin.autojump_utils.take": [
+        "itertools.islice"
+    ]
+}

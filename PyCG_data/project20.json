@@ -1,0 +1,3181 @@
+{
+  "release": [
+    "<builtin>.list",
+    "<builtin>.open",
+    "subprocess.call",
+    "release.get_new_setup_py_lines"
+  ],
+  "release.get_new_setup_py_lines": [
+    "<builtin>.open",
+    "re.findall",
+    "<builtin>.int"
+  ],
+  "<builtin>.open": [],
+  "re.findall": [],
+  "<builtin>.int": [],
+  "<builtin>.list": [],
+  "subprocess.call": [],
+  "setup": [
+    "pypandoc.convert",
+    "setuptools.find_packages",
+    "pkg_resources.get_distribution",
+    "setuptools.setup",
+    "os.environ.get",
+    "<builtin>.int",
+    "<builtin>.print",
+    "sys.exit"
+  ],
+  "pkg_resources.get_distribution": [],
+  "<builtin>.print": [],
+  "sys.exit": [],
+  "os.environ.get": [],
+  "pypandoc.convert": [],
+  "setuptools.find_packages": [],
+  "setuptools.setup": [],
+  "fastentrypoints": [
+    "<builtin>.print"
+  ],
+  "fastentrypoints.get_args": [
+    "<builtin>.ValueError",
+    "<builtin>.str",
+    "re.search"
+  ],
+  "<builtin>.str": [],
+  "re.search": [],
+  "<builtin>.ValueError": [],
+  "fastentrypoints.main": [
+    "<builtin>.open",
+    "shutil.copy",
+    "os.path.join",
+    "re.sub"
+  ],
+  "re.sub": [],
+  "shutil.copy": [],
+  "os.path.join": [],
+  "thefuck.ui": [],
+  "thefuck.ui.read_actions": [
+    "thefuck.system.win32.get_key",
+    "thefuck.system.unix.get_key"
+  ],
+  "thefuck.system.win32.get_key": [
+    "msvcrt.getwch"
+  ],
+  "thefuck.system.unix.get_key": [
+    "thefuck.system.unix.getch"
+  ],
+  "thefuck.ui.CommandSelector.__init__": [
+    "thefuck.ui.CommandSelector.next"
+  ],
+  "thefuck.ui.CommandSelector.next": [
+    "<builtin>.len",
+    "thefuck.ui.CommandSelector._realise"
+  ],
+  "thefuck.ui.CommandSelector._realise": [
+    "<builtin>.list"
+  ],
+  "<builtin>.len": [],
+  "thefuck.ui.CommandSelector.previous": [
+    "<builtin>.len",
+    "thefuck.ui.CommandSelector._realise"
+  ],
+  "thefuck.ui.CommandSelector.value": [],
+  "thefuck.ui.select_command": [
+    "sys.stderr.write",
+    "thefuck.ui.CommandSelector.previous",
+    "thefuck.logs.confirm_text",
+    "thefuck.logs.show_corrected_command",
+    "thefuck.ui.read_actions",
+    "thefuck.logs.failed",
+    "thefuck.utils.get_alias",
+    "thefuck.ui.CommandSelector.next",
+    "thefuck.ui.CommandSelector.__init__"
+  ],
+  "thefuck.utils.get_alias": [
+    "os.environ.get"
+  ],
+  "thefuck.logs.failed": [
+    "sys.stderr.write",
+    "thefuck.logs.color"
+  ],
+  "thefuck.logs.show_corrected_command": [
+    "sys.stderr.write",
+    "thefuck.logs.color"
+  ],
+  "thefuck.logs.confirm_text": [
+    "sys.stderr.write",
+    "thefuck.logs.color"
+  ],
+  "sys.stderr.write": [],
+  "thefuck.exceptions": [],
+  "thefuck": [],
+  "thefuck.utils": [
+    "<builtin>.open",
+    "decorator.decorator",
+    "thefuck.utils.memoize",
+    "thefuck.utils.Cache.__init__",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.utils.memoize": [
+    "functools.wraps"
+  ],
+  "functools.wraps": [],
+  "thefuck.utils.memoize.wrapper": [
+    "thefuck.shells.zsh.Zsh.get_aliases",
+    "thefuck.rules.git_branch_0flag.first_0flag",
+    "thefuck.rules.path_from_history._get_destination",
+    "thefuck.specific.brew.get_brew_path_prefix",
+    "thefuck.rules.missing_space_before_subcommand._get_executable",
+    "thefuck.rules.fix_file._search",
+    "thefuck.shells.bash.Bash.get_aliases",
+    "thefuck.rules.port_already_in_use._get_pid_by_port",
+    "thefuck.rules.apt_get.get_package",
+    "thefuck.utils.get_valid_history_without_current",
+    "thefuck.rules.git_add._get_missing_file",
+    "thefuck.shells.tcsh.Tcsh.get_aliases",
+    "thefuck.utils.get_all_executables",
+    "thefuck.rules.switch_lang._get_matched_layout",
+    "thefuck.rules.scm_correction._get_actual_scm",
+    "pickle.dumps",
+    "thefuck.utils.which",
+    "thefuck.rules.port_already_in_use._get_used_port",
+    "thefuck.shells.generic.Generic.get_history",
+    "thefuck.utils.is_app"
+  ],
+  "pickle.dumps": [],
+  "thefuck.shells.zsh.Zsh.get_aliases": [
+    "thefuck.shells.zsh.Zsh._parse_alias",
+    "os.environ.get.split",
+    "<builtin>.dict",
+    "os.environ.get"
+  ],
+  "thefuck.rules.git_branch_0flag.first_0flag": [
+    "<builtin>.next",
+    "<builtin>.len"
+  ],
+  "thefuck.rules.apt_get.get_package": [
+    "CommandNotFound.CommandNotFound.getPackages"
+  ],
+  "thefuck.utils.get_valid_history_without_current": [
+    "thefuck.utils.get_valid_history_without_current._not_corrected",
+    "<builtin>.set",
+    "thefuck.utils.get_all_executables",
+    "thefuck.utils.get_alias"
+  ],
+  "thefuck.rules.git_add._get_missing_file": [
+    "re.findall",
+    "pathlib.Path",
+    "pathlib2.Path.exists",
+    "pathlib2.Path",
+    "pathlib.Path.exists"
+  ],
+  "thefuck.rules.path_from_history._get_destination": [
+    "re.findall"
+  ],
+  "thefuck.specific.brew.get_brew_path_prefix": [
+    "subprocess.check_output.strip",
+    "subprocess.check_output"
+  ],
+  "thefuck.shells.tcsh.Tcsh.get_aliases": [
+    "<builtin>.dict",
+    "subprocess.Popen",
+    "thefuck.shells.tcsh.Tcsh._parse_alias",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read.decode.split"
+  ],
+  "thefuck.rules.missing_space_before_subcommand._get_executable": [
+    "<builtin>.len",
+    "thefuck.utils.get_all_executables"
+  ],
+  "thefuck.utils.get_all_executables": [
+    "os.environ.get.split",
+    "os.environ.get",
+    "thefuck.utils.get_alias",
+    "thefuck.utils.get_all_executables._safe",
+    "thefuck.utils.include_path_in_search"
+  ],
+  "thefuck.rules.switch_lang._get_matched_layout": [
+    "<builtin>.all"
+  ],
+  "thefuck.rules.scm_correction._get_actual_scm": [
+    "pathlib2.Path.is_dir",
+    "pathlib.Path.is_dir",
+    "pathlib.Path",
+    "pathlib2.Path"
+  ],
+  "thefuck.rules.fix_file._search": [
+    "os.path.isfile"
+  ],
+  "thefuck.shells.bash.Bash.get_aliases": [
+    "os.environ.get.split",
+    "thefuck.shells.bash.Bash._parse_alias",
+    "<builtin>.dict",
+    "os.environ.get"
+  ],
+  "thefuck.utils.which": [
+    "os.path.join",
+    "os.path.split",
+    "shutil.which",
+    "thefuck.utils.which.is_exe"
+  ],
+  "thefuck.rules.port_already_in_use._get_pid_by_port": [
+    "<builtin>.len",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read.decode.split"
+  ],
+  "thefuck.rules.port_already_in_use._get_used_port": [
+    "re.search.group",
+    "re.search"
+  ],
+  "thefuck.shells.generic.Generic.get_history": [
+    "<builtin>.list",
+    "thefuck.shells.generic.Generic._get_history_lines"
+  ],
+  "thefuck.utils.is_app": [
+    "<builtin>.TypeError",
+    "<builtin>.len",
+    "os.path.basename"
+  ],
+  "shutil.which": [],
+  "thefuck.utils.which.is_exe": [
+    "os.path.isfile",
+    "os.access"
+  ],
+  "os.path.isfile": [],
+  "os.access": [],
+  "os.path.split": [],
+  "thefuck.utils.default_settings": [
+    "decorator.decorator"
+  ],
+  "thefuck.utils.default_settings._default_settings": [],
+  "decorator.decorator": [],
+  "thefuck.utils.get_closest": [
+    "<builtin>.list",
+    "difflib.get_close_matches"
+  ],
+  "difflib.get_close_matches": [],
+  "thefuck.utils.get_close_matches": [
+    "difflib.get_close_matches"
+  ],
+  "thefuck.utils.include_path_in_search": [
+    "<builtin>.any"
+  ],
+  "<builtin>.any": [],
+  "thefuck.utils.get_all_executables._safe": [
+    "thefuck.utils.get_all_executables.<lambda1>"
+  ],
+  "thefuck.utils.get_all_executables.<lambda1>": [
+    "pathlib.Path",
+    "<builtin>.list",
+    "pathlib2.Path.iterdir",
+    "pathlib2.Path",
+    "pathlib.Path.iterdir"
+  ],
+  "os.environ.get.split": [],
+  "pathlib.Path": [],
+  "pathlib2.Path": [],
+  "pathlib2.Path.iterdir": [],
+  "pathlib.Path.iterdir": [],
+  "thefuck.utils.replace_argument": [
+    "re.escape",
+    "re.sub"
+  ],
+  "re.escape": [],
+  "thefuck.utils.eager": [
+    "thefuck.rules.npm_wrong_command._get_available_commands",
+    "thefuck.rules.apt_invalid_operation._parse_apt_operations",
+    "thefuck.rules.brew_cask_dependency._get_cask_install_lines",
+    "<builtin>.list",
+    "thefuck.rules.gem_unknown_command._get_all_commands",
+    "thefuck.rules.yarn_command_not_found._get_all_tasks",
+    "thefuck.rules.grunt_task_not_found._get_all_tasks",
+    "thefuck.rules.react_native_command_unrecognized._get_commands",
+    "thefuck.rules.git_branch_exists.get_new_command",
+    "thefuck.utils.get_all_matched_commands",
+    "thefuck.specific.npm.get_scripts",
+    "thefuck.rules.gradle_no_task._get_all_tasks",
+    "thefuck.rules.ifconfig_device_not_found._get_possible_interfaces",
+    "thefuck.rules.workon_doesnt_exists._get_all_environments",
+    "thefuck.rules.fab_command_not_found._get_between",
+    "thefuck.rules.apt_invalid_operation._parse_apt_get_and_cache_operations",
+    "thefuck.rules.open.get_new_command"
+  ],
+  "thefuck.rules.npm_wrong_command._get_available_commands": [],
+  "thefuck.rules.react_native_command_unrecognized._get_commands": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.git_branch_exists.get_new_command": [
+    "re.findall"
+  ],
+  "thefuck.utils.get_all_matched_commands": [
+    "<builtin>.isinstance"
+  ],
+  "thefuck.rules.ifconfig_device_not_found._get_possible_interfaces": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.startswith",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines.decode.startswith",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.workon_doesnt_exists._get_all_environments": [
+    "pathlib.Path",
+    "pathlib2.Path.expanduser",
+    "pathlib2.Path.expanduser.is_dir",
+    "pathlib.Path.expanduser.iterdir.is_dir",
+    "pathlib2.Path.expanduser.iterdir",
+    "pathlib2.Path",
+    "pathlib.Path.expanduser.is_dir",
+    "pathlib.Path.expanduser",
+    "pathlib.Path.expanduser.iterdir",
+    "pathlib2.Path.expanduser.iterdir.is_dir"
+  ],
+  "thefuck.rules.open.get_new_command": [
+    "thefuck.rules.open.is_arg_url"
+  ],
+  "thefuck.rules.grunt_task_not_found._get_all_tasks": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.brew_cask_dependency._get_cask_install_lines": [],
+  "thefuck.rules.apt_invalid_operation._parse_apt_operations": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen.stdout.readlines.startswith",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines.decode.strip.startswith"
+  ],
+  "thefuck.rules.gem_unknown_command._get_all_commands": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.startswith",
+    "subprocess.Popen.stdout.readlines.strip.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines.strip",
+    "subprocess.Popen.stdout.readlines.decode.startswith",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.yarn_command_not_found._get_all_tasks": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.specific.npm.get_scripts": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.strip.split",
+    "re.match",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines.strip",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.gradle_no_task._get_all_tasks": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.startswith",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines.strip",
+    "subprocess.Popen.stdout.readlines.decode.strip.startswith",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.fab_command_not_found._get_between": [],
+  "thefuck.rules.apt_invalid_operation._parse_apt_get_and_cache_operations": [
+    "subprocess.Popen.stdout.readlines.decode.strip.split",
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen.stdout.readlines.startswith",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines.decode.strip.startswith"
+  ],
+  "<builtin>.isinstance": [],
+  "thefuck.utils.replace_command": [
+    "thefuck.utils.replace_argument",
+    "thefuck.utils.get_close_matches"
+  ],
+  "<builtin>.TypeError": [],
+  "os.path.basename": [],
+  "thefuck.utils.for_app": [
+    "decorator.decorator"
+  ],
+  "thefuck.utils.for_app._for_app": [
+    "thefuck.utils.is_app"
+  ],
+  "thefuck.utils.Cache.__init__": [],
+  "thefuck.utils.Cache._init_db": [
+    "sys.exc_info",
+    "thefuck.utils.Cache._setup_db",
+    "thefuck.logs.exception"
+  ],
+  "thefuck.utils.Cache._setup_db": [
+    "thefuck.logs.warn",
+    "pathlib.Path",
+    "pathlib.Path.joinpath",
+    "shelve.open",
+    "pathlib2.Path.joinpath",
+    "pathlib.Path.joinpath.as_posix",
+    "thefuck.utils.Cache._get_cache_dir",
+    "pathlib2.Path",
+    "pathlib2.Path.joinpath.as_posix",
+    "os.remove",
+    "atexit.register"
+  ],
+  "sys.exc_info": [],
+  "thefuck.logs.exception": [
+    "traceback.format_exception",
+    "sys.stderr.write",
+    "thefuck.logs.color"
+  ],
+  "thefuck.utils.Cache._get_cache_dir": [
+    "os.makedirs",
+    "os.path.expanduser",
+    "os.path.isdir",
+    "os.getenv"
+  ],
+  "pathlib.Path.joinpath": [],
+  "pathlib2.Path.joinpath": [],
+  "pathlib2.Path.joinpath.as_posix": [],
+  "pathlib.Path.joinpath.as_posix": [],
+  "shelve.open": [],
+  "thefuck.logs.warn": [
+    "sys.stderr.write",
+    "thefuck.logs.color"
+  ],
+  "os.remove": [],
+  "atexit.register": [],
+  "os.path.expanduser": [],
+  "os.getenv": [],
+  "os.makedirs": [],
+  "os.path.isdir": [],
+  "thefuck.utils.Cache._get_mtime": [
+    "os.path.getmtime",
+    "<builtin>.str"
+  ],
+  "os.path.getmtime": [],
+  "thefuck.utils.Cache._get_key": [
+    "<builtin>.repr",
+    "<builtin>.str",
+    "pickle.dumps"
+  ],
+  "<builtin>.repr": [],
+  "thefuck.utils.Cache.get_value": [
+    "pathlib.Path.expanduser.absolute.as_posix",
+    "thefuck.utils.Cache._init_db",
+    "thefuck.utils.Cache._get_key",
+    "shelve.open.get",
+    "pathlib.Path",
+    "pathlib2.Path.expanduser.absolute",
+    "pathlib2.Path.expanduser",
+    "pathlib2.Path.expanduser.absolute.as_posix",
+    "thefuck.utils.Cache._get_mtime",
+    "pathlib.Path.expanduser.absolute",
+    "pathlib2.Path",
+    "pathlib.Path.expanduser"
+  ],
+  "pathlib2.Path.expanduser": [],
+  "pathlib.Path.expanduser": [],
+  "pathlib.Path.expanduser.absolute": [],
+  "pathlib2.Path.expanduser.absolute": [],
+  "pathlib.Path.expanduser.absolute.as_posix": [],
+  "pathlib2.Path.expanduser.absolute.as_posix": [],
+  "shelve.open.get": [],
+  "thefuck.utils.cache": [],
+  "thefuck.utils.cache.cache_decorator": [
+    "thefuck.utils.memoize",
+    "functools.wraps"
+  ],
+  "thefuck.utils.cache.cache_decorator.wrapper": [
+    "thefuck.utils.Cache.get_value"
+  ],
+  "thefuck.utils.get_installation_version": [
+    "pkg_resources.require",
+    "importlib.metadata.version"
+  ],
+  "importlib.metadata.version": [],
+  "pkg_resources.require": [],
+  "thefuck.utils.get_valid_history_without_current._not_corrected": [],
+  "<builtin>.set": [],
+  "thefuck.utils.format_raw_script": [],
+  "thefuck.shells": [
+    "thefuck.shells._get_shell_from_proc",
+    "thefuck.shells._get_shell_from_env"
+  ],
+  "thefuck.shells._get_shell_from_env": [
+    "os.environ.get"
+  ],
+  "thefuck.shells._get_shell_from_proc": [
+    "psutil.Process.parent.name",
+    "os.getpid",
+    "psutil.Process.parent",
+    "os.path.splitext",
+    "psutil.Process",
+    "psutil.Process.name"
+  ],
+  "os.getpid": [],
+  "psutil.Process": [],
+  "psutil.Process.parent.name": [],
+  "psutil.Process.name": [],
+  "os.path.splitext": [],
+  "psutil.Process.parent": [],
+  "thefuck.shells.fish": [
+    "thefuck.utils.cache.cache_decorator",
+    "thefuck.utils.cache"
+  ],
+  "thefuck.shells.fish._get_functions": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read.decode.strip.split",
+    "subprocess.Popen.stdout.read.decode.strip"
+  ],
+  "subprocess.Popen": [],
+  "subprocess.Popen.stdout.read": [],
+  "subprocess.Popen.stdout.read.decode": [],
+  "subprocess.Popen.stdout.read.decode.strip": [],
+  "subprocess.Popen.stdout.read.decode.strip.split": [],
+  "thefuck.shells.fish._get_aliases": [
+    "<builtin>.len",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read.decode.strip.split.replace",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read.decode.strip.split",
+    "subprocess.Popen.stdout.read.decode.strip"
+  ],
+  "subprocess.Popen.stdout.read.decode.strip.split.replace": [],
+  "thefuck.shells.fish.Fish._get_overridden_aliases": [
+    "os.environ.get.split",
+    "<builtin>.sorted",
+    "os.environ.get.split.strip",
+    "os.environ.get"
+  ],
+  "os.environ.get.split.strip": [],
+  "<builtin>.sorted": [],
+  "thefuck.shells.fish.Fish.app_alias": [],
+  "thefuck.shells.fish.Fish.get_aliases": [
+    "thefuck.shells.fish._get_functions",
+    "thefuck.shells.fish.Fish._get_overridden_aliases",
+    "thefuck.shells.fish._get_aliases"
+  ],
+  "thefuck.shells.fish.Fish._expand_aliases": [
+    "thefuck.shells.fish.Fish.get_aliases"
+  ],
+  "thefuck.shells.fish.Fish._get_history_file_name": [
+    "os.path.expanduser"
+  ],
+  "thefuck.shells.fish.Fish._get_history_line": [
+    "time.time",
+    "<builtin>.int"
+  ],
+  "time.time": [],
+  "thefuck.shells.fish.Fish._script_from_history": [],
+  "thefuck.shells.fish.Fish.and_": [],
+  "thefuck.shells.fish.Fish.or_": [],
+  "thefuck.shells.fish.Fish.how_to_configure": [
+    "thefuck.shells.generic.Generic._create_shell_configuration"
+  ],
+  "thefuck.shells.generic.Generic._create_shell_configuration": [
+    "pathlib.Path",
+    "pathlib2.Path.expanduser",
+    "pathlib.Path.expanduser.exists",
+    "pathlib2.Path.expanduser.exists",
+    "pathlib2.Path",
+    "pathlib.Path.expanduser",
+    "collections.namedtuple"
+  ],
+  "thefuck.shells.fish.Fish._get_version": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read.decode.split",
+    "subprocess.Popen.stdout.read"
+  ],
+  "subprocess.Popen.stdout.read.decode.split": [],
+  "thefuck.shells.fish.Fish.put_to_history": [
+    "sys.exc_info",
+    "thefuck.shells.fish.Fish._put_to_history"
+  ],
+  "thefuck.shells.fish.Fish._put_to_history": [
+    "thefuck.shells.fish.Fish._get_history_file_name",
+    "os.path.isfile",
+    "thefuck.shells.fish.Fish._get_history_line",
+    "<builtin>.open"
+  ],
+  "thefuck.const": [
+    "thefuck.const._GenConst.__init__"
+  ],
+  "thefuck.const._GenConst.__init__": [],
+  "thefuck.const._GenConst.__repr__": [],
+  "thefuck.conf": [],
+  "thefuck.conf.Settings.__getattr__": [],
+  "thefuck.conf.Settings.__setattr__": [],
+  "thefuck.conf.Settings.init": [
+    "thefuck.conf.Settings._settings_from_env",
+    "sys.exc_info",
+    "thefuck.conf.Settings._settings_from_args",
+    "thefuck.logs.exception",
+    "thefuck.conf.Settings._setup_user_dir",
+    "thefuck.conf.Settings._settings_from_file",
+    "thefuck.conf.Settings._init_settings_file"
+  ],
+  "thefuck.conf.Settings._setup_user_dir": [
+    "pathlib.Path.expanduser.joinpath.is_dir",
+    "pathlib.Path.expanduser.joinpath",
+    "pathlib2.Path.expanduser.joinpath",
+    "pathlib.Path.expanduser.joinpath.mkdir",
+    "pathlib2.Path.expanduser.joinpath.is_dir",
+    "thefuck.conf.Settings._get_user_dir_path",
+    "pathlib2.Path.expanduser.joinpath.mkdir"
+  ],
+  "thefuck.conf.Settings._init_settings_file": [
+    "pathlib2.Path.expanduser.joinpath.open",
+    "pathlib.Path.expanduser.joinpath",
+    "pathlib2.Path.expanduser.joinpath",
+    "pathlib.Path.expanduser.joinpath.is_file",
+    "pathlib.Path.expanduser.joinpath.open",
+    "pathlib2.Path.expanduser.joinpath.is_file"
+  ],
+  "thefuck.conf.Settings._settings_from_file": [
+    "pathlib.Path.expanduser.joinpath",
+    "pathlib2.Path.expanduser.joinpath",
+    "six.text_type",
+    "<builtin>.hasattr",
+    "<builtin>.getattr",
+    "imp.load_source"
+  ],
+  "thefuck.conf.Settings._settings_from_env": [
+    "thefuck.conf.Settings._val_from_env"
+  ],
+  "thefuck.conf.Settings._settings_from_args": [],
+  "pathlib.Path.expanduser.joinpath": [],
+  "pathlib2.Path.expanduser.joinpath": [],
+  "pathlib.Path.expanduser.joinpath.is_file": [],
+  "pathlib2.Path.expanduser.joinpath.is_file": [],
+  "pathlib2.Path.expanduser.joinpath.open": [],
+  "pathlib.Path.expanduser.joinpath.open": [],
+  "thefuck.conf.Settings._get_user_dir_path": [
+    "pathlib.Path",
+    "pathlib2.Path.expanduser",
+    "pathlib2.Path.expanduser.is_dir",
+    "os.environ.get",
+    "pathlib2.Path",
+    "pathlib.Path.expanduser.is_dir",
+    "pathlib.Path.expanduser",
+    "warnings.warn"
+  ],
+  "pathlib.Path.expanduser.is_dir": [],
+  "pathlib2.Path.expanduser.is_dir": [],
+  "warnings.warn": [],
+  "pathlib.Path.expanduser.joinpath.is_dir": [],
+  "pathlib2.Path.expanduser.joinpath.is_dir": [],
+  "pathlib.Path.expanduser.joinpath.mkdir": [],
+  "pathlib2.Path.expanduser.joinpath.mkdir": [],
+  "six.text_type": [],
+  "imp.load_source": [],
+  "<builtin>.getattr": [],
+  "<builtin>.hasattr": [],
+  "thefuck.conf.Settings._rules_from_env": [],
+  "thefuck.conf.Settings._priority_from_env": [
+    "<builtin>.int"
+  ],
+  "thefuck.conf.Settings._val_from_env": [
+    "<builtin>.int",
+    "thefuck.conf.Settings._rules_from_env",
+    "thefuck.conf.Settings._priority_from_env",
+    "<builtin>.dict"
+  ],
+  "<builtin>.dict": [],
+  "thefuck.system": [],
+  "thefuck.system.win32": [],
+  "thefuck.system.win32.init_output": [
+    "win_unicode_console.enable",
+    "colorama.init"
+  ],
+  "win_unicode_console.enable": [],
+  "colorama.init": [],
+  "msvcrt.getwch": [],
+  "thefuck.system.win32.open_command": [],
+  "thefuck.system.win32._expanduser": [
+    "os.path.expanduser",
+    "<builtin>.str"
+  ],
+  "thefuck.system.unix": [
+    "<builtin>.hasattr"
+  ],
+  "thefuck.system.unix.getch": [
+    "sys.stdin.read",
+    "termios.tcsetattr",
+    "tty.setraw",
+    "termios.tcgetattr",
+    "sys.stdin.fileno"
+  ],
+  "sys.stdin.fileno": [],
+  "termios.tcgetattr": [],
+  "tty.setraw": [],
+  "sys.stdin.read": [],
+  "termios.tcsetattr": [],
+  "thefuck.system.unix.open_command": [
+    "distutils.spawn.find_executable"
+  ],
+  "distutils.spawn.find_executable": [],
+  "thefuck.system.unix._expanduser": [
+    "os.path.expanduser",
+    "<builtin>.str"
+  ],
+  "thefuck.logs": [
+    "contextlib.contextmanager"
+  ],
+  "thefuck.logs.color": [],
+  "traceback.format_exception": [],
+  "thefuck.logs.rule_failed": [
+    "thefuck.logs.exception"
+  ],
+  "thefuck.logs.debug": [
+    "sys.stderr.write",
+    "thefuck.logs.color"
+  ],
+  "contextlib.contextmanager": [],
+  "thefuck.logs.debug_time": [
+    "thefuck.logs.debug",
+    "datetime.datetime.now"
+  ],
+  "datetime.datetime.now": [],
+  "thefuck.logs.how_to_configure_alias": [
+    "<builtin>.print",
+    "thefuck.logs.color"
+  ],
+  "thefuck.logs.already_configured": [
+    "<builtin>.print",
+    "thefuck.logs.color"
+  ],
+  "thefuck.logs.configured_successfully": [
+    "<builtin>.print",
+    "thefuck.logs.color"
+  ],
+  "thefuck.logs.version": [
+    "sys.stderr.write"
+  ],
+  "thefuck.shells.zsh": [],
+  "thefuck.shells.zsh.Zsh.app_alias": [],
+  "thefuck.shells.zsh.Zsh.instant_mode_alias": [
+    "uuid.uuid4",
+    "thefuck.shells.zsh.Zsh.app_alias",
+    "<builtin>.len",
+    "tempfile.gettempdir",
+    "os.environ.get",
+    "os.path.join",
+    "os.environ.get.lower"
+  ],
+  "os.environ.get.lower": [],
+  "tempfile.gettempdir": [],
+  "uuid.uuid4": [],
+  "thefuck.shells.zsh.Zsh._parse_alias": [],
+  "thefuck.shells.zsh.Zsh": [
+    "thefuck.utils.memoize"
+  ],
+  "thefuck.shells.zsh.Zsh._get_history_file_name": [
+    "os.path.expanduser",
+    "os.environ.get"
+  ],
+  "thefuck.shells.zsh.Zsh._get_history_line": [
+    "time.time",
+    "<builtin>.int"
+  ],
+  "thefuck.shells.zsh.Zsh._script_from_history": [],
+  "thefuck.shells.zsh.Zsh.how_to_configure": [
+    "thefuck.shells.generic.Generic._create_shell_configuration"
+  ],
+  "thefuck.shells.zsh.Zsh._get_version": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode.strip"
+  ],
+  "thefuck.shells.powershell": [],
+  "thefuck.shells.powershell.Powershell.app_alias": [],
+  "thefuck.shells.powershell.Powershell.and_": [],
+  "thefuck.shells.powershell.Powershell.how_to_configure": [
+    "collections.namedtuple"
+  ],
+  "collections.namedtuple": [],
+  "thefuck.shells.powershell.Powershell._get_version": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read.decode.split",
+    "subprocess.Popen.stdout.read.decode.rstrip",
+    "subprocess.Popen.stdout.read.decode.rstrip.split"
+  ],
+  "subprocess.Popen.stdout.read.decode.rstrip": [],
+  "subprocess.Popen.stdout.read.decode.rstrip.split": [],
+  "thefuck.shells.bash": [],
+  "thefuck.shells.bash.Bash.app_alias": [],
+  "thefuck.shells.bash.Bash.instant_mode_alias": [
+    "uuid.uuid4",
+    "<builtin>.len",
+    "thefuck.shells.bash.Bash.app_alias",
+    "tempfile.gettempdir",
+    "os.environ.get",
+    "os.path.join",
+    "os.environ.get.lower"
+  ],
+  "thefuck.shells.bash.Bash._parse_alias": [],
+  "thefuck.shells.bash.Bash": [
+    "thefuck.utils.memoize"
+  ],
+  "thefuck.shells.bash.Bash._get_history_file_name": [
+    "os.path.expanduser",
+    "os.environ.get"
+  ],
+  "thefuck.shells.bash.Bash._get_history_line": [],
+  "thefuck.shells.bash.Bash.how_to_configure": [
+    "os.path.expanduser",
+    "os.path.join",
+    "thefuck.shells.generic.Generic._create_shell_configuration"
+  ],
+  "thefuck.shells.bash.Bash._get_version": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode.strip"
+  ],
+  "thefuck.shells.generic": [
+    "collections.namedtuple"
+  ],
+  "thefuck.shells.generic.Generic.get_aliases": [],
+  "thefuck.shells.generic.Generic._expand_aliases": [
+    "thefuck.shells.generic.Generic.get_aliases"
+  ],
+  "thefuck.shells.generic.Generic.from_shell": [
+    "thefuck.shells.generic.Generic._expand_aliases"
+  ],
+  "thefuck.shells.generic.Generic.to_shell": [],
+  "thefuck.shells.generic.Generic.app_alias": [],
+  "thefuck.shells.generic.Generic.instant_mode_alias": [
+    "thefuck.logs.warn",
+    "thefuck.shells.generic.Generic.app_alias"
+  ],
+  "thefuck.shells.generic.Generic._get_history_file_name": [],
+  "thefuck.shells.generic.Generic._get_history_line": [],
+  "thefuck.shells.generic.Generic": [
+    "thefuck.utils.memoize"
+  ],
+  "thefuck.shells.generic.Generic._get_history_lines": [
+    "thefuck.shells.generic.Generic._get_history_file_name",
+    "io.open",
+    "os.path.isfile",
+    "thefuck.shells.generic.Generic._script_from_history"
+  ],
+  "io.open": [],
+  "thefuck.shells.generic.Generic._script_from_history": [],
+  "thefuck.shells.generic.Generic.and_": [],
+  "thefuck.shells.generic.Generic.or_": [],
+  "thefuck.shells.generic.Generic.how_to_configure": [],
+  "thefuck.shells.generic.Generic.split_command": [
+    "thefuck.shells.generic.Generic.decode_utf8",
+    "thefuck.shells.generic.Generic.encode_utf8",
+    "shlex.split"
+  ],
+  "thefuck.shells.generic.Generic.encode_utf8": [],
+  "shlex.split": [],
+  "thefuck.shells.generic.Generic.decode_utf8": [],
+  "thefuck.shells.generic.Generic.quote": [
+    "shlex.quote",
+    "pipes.quote"
+  ],
+  "shlex.quote": [],
+  "pipes.quote": [],
+  "thefuck.shells.generic.Generic.put_to_history": [],
+  "thefuck.shells.generic.Generic.get_builtin_commands": [],
+  "thefuck.shells.generic.Generic._get_version": [],
+  "thefuck.shells.generic.Generic.info": [
+    "thefuck.logs.warn",
+    "thefuck.shells.generic.Generic._get_version"
+  ],
+  "pathlib2.Path.expanduser.exists": [],
+  "pathlib.Path.expanduser.exists": [],
+  "thefuck.shells.tcsh": [],
+  "thefuck.shells.tcsh.Tcsh.app_alias": [],
+  "thefuck.shells.tcsh.Tcsh._parse_alias": [],
+  "thefuck.shells.tcsh.Tcsh": [
+    "thefuck.utils.memoize"
+  ],
+  "thefuck.shells.tcsh.Tcsh._get_history_file_name": [
+    "os.path.expanduser",
+    "os.environ.get"
+  ],
+  "thefuck.shells.tcsh.Tcsh._get_history_line": [
+    "time.time",
+    "<builtin>.int"
+  ],
+  "thefuck.shells.tcsh.Tcsh.how_to_configure": [
+    "thefuck.shells.generic.Generic._create_shell_configuration"
+  ],
+  "thefuck.shells.tcsh.Tcsh._get_version": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read.decode.split",
+    "subprocess.Popen.stdout.read"
+  ],
+  "thefuck.types": [],
+  "thefuck.types.Command.__init__": [],
+  "thefuck.types.Command.stdout": [
+    "thefuck.logs.warn"
+  ],
+  "thefuck.types.Command.stderr": [
+    "thefuck.logs.warn"
+  ],
+  "thefuck.types.Command.script_parts": [
+    "thefuck.logs.debug",
+    "<builtin>.hasattr",
+    "sys.exc_info"
+  ],
+  "thefuck.types.Command.__eq__": [
+    "<builtin>.isinstance"
+  ],
+  "thefuck.types.Command.__repr__": [],
+  "thefuck.types.Command.update": [
+    "thefuck.types.Command.__init__"
+  ],
+  "thefuck.types.Command.from_raw_script": [
+    "thefuck.output_readers.get_output",
+    "thefuck.utils.format_raw_script",
+    "thefuck.types.Command.__init__"
+  ],
+  "thefuck.output_readers.get_output": [
+    "thefuck.output_readers.read_log.get_output",
+    "thefuck.output_readers.shell_logger.is_available",
+    "thefuck.output_readers.rerun.get_output",
+    "thefuck.output_readers.shell_logger.get_output"
+  ],
+  "thefuck.types.Rule.__init__": [],
+  "thefuck.types.Rule.__eq__": [
+    "<builtin>.isinstance"
+  ],
+  "thefuck.types.Rule.__repr__": [],
+  "thefuck.types.Rule.from_path": [
+    "thefuck.logs.debug",
+    "sys.exc_info",
+    "thefuck.logs.debug_time",
+    "thefuck.logs.exception",
+    "thefuck.types.Rule.__init__",
+    "<builtin>.str",
+    "<builtin>.getattr",
+    "imp.load_source"
+  ],
+  "thefuck.types.Rule.is_enabled": [],
+  "thefuck.types.Rule.is_match": [
+    "imp.load_source.match",
+    "sys.exc_info",
+    "thefuck.logs.debug_time",
+    "thefuck.logs.rule_failed"
+  ],
+  "imp.load_source.match": [],
+  "thefuck.types.Rule.get_corrected_commands": [
+    "<builtin>.isinstance",
+    "<builtin>.enumerate",
+    "imp.load_source.get_new_command",
+    "thefuck.types.CorrectedCommand.__init__"
+  ],
+  "imp.load_source.get_new_command": [],
+  "<builtin>.enumerate": [],
+  "thefuck.types.CorrectedCommand.__init__": [],
+  "thefuck.types.CorrectedCommand.__eq__": [
+    "<builtin>.isinstance"
+  ],
+  "thefuck.types.CorrectedCommand.__hash__": [],
+  "thefuck.types.CorrectedCommand.__repr__": [],
+  "thefuck.types.CorrectedCommand._get_script": [
+    "thefuck.utils.get_alias"
+  ],
+  "thefuck.types.CorrectedCommand.run": [
+    "thefuck.logs.debug",
+    "thefuck.types.CorrectedCommand._get_script",
+    "sys.stdout.write",
+    "os.environ.get"
+  ],
+  "sys.stdout.write": [],
+  "thefuck.output_readers": [],
+  "thefuck.output_readers.shell_logger.is_available": [
+    "os.path.exists",
+    "thefuck.output_readers.shell_logger._get_socket_path"
+  ],
+  "thefuck.output_readers.shell_logger.get_output": [
+    "thefuck.output_readers.shell_logger._get_last_n",
+    "thefuck.output_readers.shell_logger._get_output_lines"
+  ],
+  "thefuck.output_readers.read_log.get_output": [
+    "thefuck.output_readers.read_log._get_output_lines",
+    "mmap.mmap",
+    "os.open",
+    "os.environ.get",
+    "thefuck.output_readers.read_log._skip_old_lines"
+  ],
+  "thefuck.output_readers.rerun.get_output": [
+    "<builtin>.dict",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read",
+    "subprocess.Popen.stdout.read.decode",
+    "thefuck.output_readers.rerun._wait_output",
+    "shlex.split"
+  ],
+  "thefuck.output_readers.rerun": [],
+  "thefuck.output_readers.rerun._kill_process": [
+    "psutil.Process.exe",
+    "psutil.Process.children.kill",
+    "psutil.Process.children.exe",
+    "psutil.Process.kill"
+  ],
+  "psutil.Process.children.kill": [],
+  "psutil.Process.kill": [],
+  "psutil.Process.exe": [],
+  "psutil.Process.children.exe": [],
+  "thefuck.output_readers.rerun._wait_output": [
+    "psutil.Process",
+    "thefuck.output_readers.rerun._kill_process",
+    "psutil.Process.children",
+    "psutil.Process.wait"
+  ],
+  "psutil.Process.wait": [],
+  "psutil.Process.children": [],
+  "thefuck.output_readers.shell_logger": [],
+  "thefuck.output_readers.shell_logger._get_socket_path": [
+    "os.environ.get"
+  ],
+  "os.path.exists": [],
+  "thefuck.output_readers.shell_logger._get_last_n": [
+    "json.loads",
+    "socket.socket",
+    "json.dumps.encode",
+    "json.dumps",
+    "thefuck.output_readers.shell_logger._get_socket_path"
+  ],
+  "socket.socket": [],
+  "json.dumps": [],
+  "json.dumps.encode": [],
+  "json.loads": [],
+  "thefuck.output_readers.shell_logger._get_output_lines": [
+    "<builtin>.len",
+    "pyte.Stream",
+    "pyte.Stream.feed",
+    "pyte.Screen",
+    "backports.shutil_get_terminal_size.get_terminal_size",
+    "shutil.get_terminal_size"
+  ],
+  "backports.shutil_get_terminal_size.get_terminal_size": [],
+  "shutil.get_terminal_size": [],
+  "pyte.Screen": [],
+  "pyte.Stream": [],
+  "pyte.Stream.feed": [],
+  "thefuck.output_readers.read_log": [],
+  "thefuck.output_readers.read_log._group_by_calls": [],
+  "thefuck.output_readers.read_log._get_script_group_lines": [
+    "<builtin>.reversed",
+    "<builtin>.all",
+    "shlex.split"
+  ],
+  "<builtin>.reversed": [],
+  "<builtin>.all": [],
+  "thefuck.output_readers.read_log._get_output_lines": [
+    "<builtin>.len",
+    "pyte.Stream",
+    "re.sub",
+    "pyte.Stream.feed",
+    "<builtin>.list",
+    "re.sub.split",
+    "thefuck.output_readers.read_log._get_script_group_lines",
+    "pyte.Screen",
+    "backports.shutil_get_terminal_size.get_terminal_size",
+    "shutil.get_terminal_size",
+    "thefuck.output_readers.read_log._group_by_calls"
+  ],
+  "re.sub.split": [],
+  "thefuck.output_readers.read_log._skip_old_lines": [
+    "os.path.getsize"
+  ],
+  "os.path.getsize": [],
+  "os.open": [],
+  "mmap.mmap": [],
+  "thefuck.specific.yum": [
+    "<builtin>.bool",
+    "thefuck.utils.which"
+  ],
+  "<builtin>.bool": [],
+  "thefuck.specific": [],
+  "thefuck.specific.dnf": [
+    "<builtin>.bool",
+    "thefuck.utils.which"
+  ],
+  "thefuck.specific.npm": [
+    "thefuck.utils.memoize",
+    "thefuck.utils.eager",
+    "<builtin>.bool",
+    "thefuck.utils.which"
+  ],
+  "subprocess.Popen.stdout.readlines": [],
+  "subprocess.Popen.stdout.readlines.decode": [],
+  "re.match": [],
+  "subprocess.Popen.stdout.readlines.strip": [],
+  "subprocess.Popen.stdout.readlines.decode.strip": [],
+  "subprocess.Popen.stdout.readlines.strip.split": [],
+  "subprocess.Popen.stdout.readlines.decode.strip.split": [],
+  "thefuck.specific.git": [
+    "decorator.decorator"
+  ],
+  "thefuck.specific.git.git_support": [
+    "thefuck.rules.git_pull_clone.get_new_command",
+    "thefuck.rules.git_push_different_branch_names.match",
+    "thefuck.rules.git_branch_delete.match",
+    "re.search.group",
+    "thefuck.rules.git_flag_after_filename.match",
+    "thefuck.rules.git_rm_staged.match",
+    "thefuck.rules.git_clone_git_clone.match",
+    "thefuck.rules.git_merge.match",
+    "thefuck.rules.git_lfs_mistype.match",
+    "thefuck.rules.git_commit_add.match",
+    "thefuck.rules.git_pull.match",
+    "thefuck.rules.git_pull_uncommitted_changes.match",
+    "thefuck.rules.git_push_without_commits.match",
+    "thefuck.rules.git_main_master.match",
+    "thefuck.rules.git_remote_delete.match",
+    "thefuck.rules.git_fix_stash.match",
+    "thefuck.rules.git_branch_delete_checked_out.get_new_command",
+    "thefuck.rules.git_branch_0flag.get_new_command",
+    "thefuck.rules.git_checkout.match",
+    "thefuck.rules.git_add_force.get_new_command",
+    "thefuck.rules.git_branch_list.get_new_command",
+    "thefuck.rules.git_pull_uncommitted_changes.get_new_command",
+    "thefuck.rules.git_stash.match",
+    "thefuck.rules.git_help_aliased.match",
+    "thefuck.rules.git_stash_pop.match",
+    "thefuck.rules.git_diff_no_index.get_new_command",
+    "thefuck.rules.git_merge_unrelated.match",
+    "thefuck.rules.git_hook_bypass.match",
+    "thefuck.rules.git_push.match",
+    "thefuck.rules.git_add.get_new_command",
+    "thefuck.rules.git_clone_git_clone.get_new_command",
+    "thefuck.rules.git_commit_reset.match",
+    "thefuck.rules.git_merge_unrelated.get_new_command",
+    "thefuck.rules.git_rebase_merge_dir.match",
+    "thefuck.rules.git_bisect_usage.match",
+    "thefuck.rules.git_tag_force.get_new_command",
+    "thefuck.rules.git_fix_stash.get_new_command",
+    "thefuck.rules.git_rm_local_modifications.get_new_command",
+    "thefuck.rules.git_tag_force.match",
+    "thefuck.rules.git_branch_delete_checked_out.match",
+    "thefuck.rules.git_commit_add.get_new_command",
+    "re.search",
+    "thefuck.rules.git_branch_exists.match",
+    "thefuck.rules.git_remote_seturl_add.match",
+    "thefuck.rules.git_hook_bypass.get_new_command",
+    "thefuck.rules.git_diff_no_index.match",
+    "thefuck.rules.git_push_pull.match",
+    "thefuck.rules.git_two_dashes.get_new_command",
+    "thefuck.rules.git_diff_staged.get_new_command",
+    "thefuck.rules.git_push_different_branch_names.get_new_command",
+    "thefuck.rules.git_not_command.get_new_command",
+    "thefuck.rules.git_commit_reset.get_new_command",
+    "thefuck.rules.git_stash_pop.get_new_command",
+    "thefuck.rules.git_help_aliased.get_new_command",
+    "thefuck.rules.git_push.get_new_command",
+    "thefuck.rules.git_pull_clone.match",
+    "thefuck.rules.git_branch_delete.get_new_command",
+    "thefuck.rules.git_lfs_mistype.get_new_command",
+    "thefuck.rules.git_not_command.match",
+    "thefuck.rules.git_commit_amend.get_new_command",
+    "thefuck.rules.git_bisect_usage.get_new_command",
+    "thefuck.rules.git_flag_after_filename.get_new_command",
+    "thefuck.rules.git_add.match",
+    "thefuck.rules.git_rm_recursive.get_new_command",
+    "re.sub",
+    "thefuck.rules.git_stash.get_new_command",
+    "thefuck.rules.git_rm_local_modifications.match",
+    "thefuck.rules.git_rebase_no_changes.match",
+    "thefuck.rules.git_checkout.get_new_command",
+    "thefuck.rules.git_add_force.match",
+    "thefuck.rules.git_main_master.get_new_command",
+    "thefuck.rules.git_diff_staged.match",
+    "thefuck.rules.git_rm_recursive.match",
+    "thefuck.rules.git_pull.get_new_command",
+    "thefuck.rules.git_remote_delete.get_new_command",
+    "thefuck.rules.git_branch_list.match",
+    "thefuck.rules.git_merge.get_new_command",
+    "thefuck.rules.git_branch_0flag.match",
+    "thefuck.rules.git_two_dashes.match",
+    "thefuck.rules.git_rebase_merge_dir.get_new_command",
+    "thefuck.rules.git_push_force.match",
+    "thefuck.rules.git_push_pull.get_new_command",
+    "thefuck.rules.git_commit_amend.match",
+    "thefuck.rules.git_rm_staged.get_new_command",
+    "thefuck.rules.git_push_force.get_new_command",
+    "thefuck.utils.is_app"
+  ],
+  "re.search.group": [],
+  "thefuck.rules.git_remote_seturl_add.match": [],
+  "thefuck.rules.git_pull_clone.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_hook_bypass.get_new_command": [
+    "<builtin>.next",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_push_different_branch_names.match": [],
+  "thefuck.rules.git_diff_no_index.match": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.git_branch_delete.match": [],
+  "thefuck.rules.git_push_pull.match": [],
+  "thefuck.rules.git_flag_after_filename.match": [
+    "re.search"
+  ],
+  "thefuck.rules.git_rm_staged.match": [],
+  "thefuck.rules.git_clone_git_clone.match": [],
+  "thefuck.rules.git_two_dashes.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_merge.match": [],
+  "thefuck.rules.git_diff_staged.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_push_different_branch_names.get_new_command": [
+    "re.findall"
+  ],
+  "thefuck.rules.git_lfs_mistype.match": [],
+  "thefuck.rules.git_not_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command",
+    "thefuck.utils.get_all_matched_commands"
+  ],
+  "thefuck.rules.git_commit_reset.get_new_command": [],
+  "thefuck.rules.git_stash_pop.get_new_command": [],
+  "thefuck.rules.git_help_aliased.get_new_command": [],
+  "thefuck.rules.git_commit_add.match": [],
+  "thefuck.rules.git_pull.match": [],
+  "thefuck.rules.git_push.get_new_command": [
+    "re.findall",
+    "<builtin>.len",
+    "thefuck.rules.git_push._get_upstream_option_index",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_pull_uncommitted_changes.match": [],
+  "thefuck.rules.git_push_without_commits.match": [
+    "<builtin>.bool",
+    "re.search"
+  ],
+  "thefuck.rules.git_main_master.match": [],
+  "thefuck.rules.git_pull_clone.match": [],
+  "thefuck.rules.git_branch_delete.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_lfs_mistype.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command",
+    "thefuck.utils.get_all_matched_commands"
+  ],
+  "thefuck.rules.git_not_command.match": [],
+  "thefuck.rules.git_remote_delete.match": [],
+  "thefuck.rules.git_commit_amend.get_new_command": [],
+  "thefuck.rules.git_bisect_usage.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.git_flag_after_filename.get_new_command": [
+    "<builtin>.range",
+    "thefuck.rules.git_flag_after_filename.match",
+    "<builtin>.reversed"
+  ],
+  "thefuck.rules.git_fix_stash.match": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.git_add.match": [
+    "thefuck.rules.git_add._get_missing_file"
+  ],
+  "thefuck.rules.git_branch_delete_checked_out.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_rm_recursive.get_new_command": [],
+  "thefuck.rules.git_branch_0flag.get_new_command": [
+    "thefuck.rules.git_branch_0flag.first_0flag"
+  ],
+  "thefuck.rules.git_checkout.match": [],
+  "thefuck.rules.git_add_force.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_stash.get_new_command": [],
+  "thefuck.rules.git_branch_list.get_new_command": [],
+  "thefuck.rules.git_pull_uncommitted_changes.get_new_command": [],
+  "thefuck.rules.git_stash.match": [],
+  "thefuck.rules.git_help_aliased.match": [],
+  "thefuck.rules.git_rm_local_modifications.match": [],
+  "thefuck.rules.git_rebase_no_changes.match": [],
+  "thefuck.rules.git_checkout.get_new_command": [
+    "re.findall",
+    "thefuck.rules.git_checkout.get_branches",
+    "thefuck.utils.get_closest",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_add_force.match": [],
+  "thefuck.rules.git_main_master.get_new_command": [],
+  "thefuck.rules.git_diff_staged.match": [],
+  "thefuck.rules.git_stash_pop.match": [],
+  "thefuck.rules.git_diff_no_index.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_merge_unrelated.match": [],
+  "thefuck.rules.git_rm_recursive.match": [],
+  "thefuck.rules.git_pull.get_new_command": [],
+  "thefuck.rules.git_hook_bypass.match": [
+    "<builtin>.any"
+  ],
+  "thefuck.rules.git_remote_delete.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.git_branch_list.match": [],
+  "thefuck.rules.git_merge.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_push.match": [],
+  "thefuck.rules.git_add.get_new_command": [
+    "thefuck.rules.git_add._get_missing_file"
+  ],
+  "thefuck.rules.git_branch_0flag.match": [
+    "thefuck.rules.git_branch_0flag.first_0flag"
+  ],
+  "thefuck.rules.git_two_dashes.match": [],
+  "thefuck.rules.git_clone_git_clone.get_new_command": [],
+  "thefuck.rules.git_commit_reset.match": [],
+  "thefuck.rules.git_merge_unrelated.get_new_command": [],
+  "thefuck.rules.git_rebase_merge_dir.match": [],
+  "thefuck.rules.git_rebase_merge_dir.get_new_command": [
+    "thefuck.utils.get_close_matches"
+  ],
+  "thefuck.rules.git_push_force.match": [],
+  "thefuck.rules.git_bisect_usage.match": [],
+  "thefuck.rules.git_push_pull.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_tag_force.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_commit_amend.match": [],
+  "thefuck.rules.git_fix_stash.get_new_command": [
+    "thefuck.utils.replace_argument",
+    "thefuck.utils.get_closest"
+  ],
+  "thefuck.rules.git_rm_local_modifications.get_new_command": [],
+  "thefuck.rules.git_tag_force.match": [],
+  "thefuck.rules.git_branch_delete_checked_out.match": [],
+  "thefuck.rules.git_commit_add.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_rm_staged.get_new_command": [],
+  "thefuck.rules.git_push_force.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_branch_exists.match": [],
+  "thefuck.specific.archlinux": [],
+  "thefuck.specific.archlinux.get_pkgfile": [
+    "subprocess.check_output.splitlines",
+    "subprocess.check_output"
+  ],
+  "subprocess.check_output": [],
+  "subprocess.check_output.splitlines": [],
+  "thefuck.specific.archlinux.archlinux_env": [],
+  "thefuck.specific.nix": [
+    "<builtin>.bool",
+    "thefuck.utils.which"
+  ],
+  "thefuck.specific.brew": [
+    "thefuck.utils.memoize",
+    "<builtin>.bool",
+    "thefuck.utils.which"
+  ],
+  "subprocess.check_output.strip": [],
+  "thefuck.specific.sudo": [
+    "decorator.decorator"
+  ],
+  "thefuck.specific.sudo.sudo_support": [
+    "thefuck.rules.rm_root.match",
+    "thefuck.rules.python_command.get_new_command",
+    "thefuck.rules.rm_dir.get_new_command",
+    "thefuck.rules.ln_no_hard_link.match",
+    "thefuck.rules.cp_omitting_directory.get_new_command",
+    "thefuck.rules.docker_not_command.get_new_command",
+    "thefuck.rules.fix_alt_space.get_new_command",
+    "thefuck.rules.wrong_hyphen_before_subcommand.match",
+    "thefuck.rules.no_command.get_new_command",
+    "thefuck.rules.apt_invalid_operation.get_new_command",
+    "thefuck.rules.rm_dir.match",
+    "thefuck.rules.dnf_no_such_command.get_new_command",
+    "thefuck.rules.fix_alt_space.match",
+    "thefuck.rules.has_exists_script.match",
+    "thefuck.rules.apt_list_upgradable.get_new_command",
+    "thefuck.rules.ln_no_hard_link.get_new_command",
+    "thefuck.rules.lein_not_task.get_new_command",
+    "thefuck.rules.no_command.match",
+    "thefuck.rules.ln_s_order.match",
+    "thefuck.rules.cd_mkdir.get_new_command",
+    "thefuck.rules.wrong_hyphen_before_subcommand.get_new_command",
+    "thefuck.rules.ln_s_order.get_new_command",
+    "thefuck.rules.rm_root.get_new_command",
+    "thefuck.rules.mkdir_p.get_new_command",
+    "thefuck.rules.yum_invalid_operation.get_new_command",
+    "thefuck.rules.hostscli.get_new_command",
+    "thefuck.rules.cd_correction.get_new_command",
+    "<builtin>.isinstance",
+    "thefuck.rules.mkdir_p.match",
+    "thefuck.rules.python_command.match",
+    "thefuck.rules.has_exists_script.get_new_command",
+    "thefuck.rules.apt_upgrade.get_new_command",
+    "thefuck.rules.systemctl.get_new_command"
+  ],
+  "thefuck.rules.ln_no_hard_link.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.dnf_no_such_command.get_new_command": [
+    "re.compile.findall",
+    "thefuck.utils.replace_command",
+    "thefuck.rules.dnf_no_such_command._get_operations"
+  ],
+  "thefuck.rules.rm_root.match": [],
+  "thefuck.rules.lein_not_task.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command",
+    "thefuck.utils.get_all_matched_commands"
+  ],
+  "thefuck.rules.no_command.match": [
+    "<builtin>.bool",
+    "thefuck.utils.get_all_executables",
+    "thefuck.utils.which",
+    "thefuck.utils.get_close_matches"
+  ],
+  "thefuck.rules.ln_s_order.match": [
+    "thefuck.rules.ln_s_order._get_destination"
+  ],
+  "thefuck.rules.python_command.get_new_command": [],
+  "thefuck.rules.rm_dir.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.cd_mkdir.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.wrong_hyphen_before_subcommand.get_new_command": [],
+  "thefuck.rules.ln_no_hard_link.match": [],
+  "thefuck.rules.ln_s_order.get_new_command": [
+    "thefuck.rules.ln_s_order._get_destination"
+  ],
+  "thefuck.rules.rm_root.get_new_command": [],
+  "thefuck.rules.mkdir_p.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.yum_invalid_operation.get_new_command": [
+    "thefuck.utils.replace_command",
+    "thefuck.rules.yum_invalid_operation._get_operations"
+  ],
+  "thefuck.rules.hostscli.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.cp_omitting_directory.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.docker_not_command.get_new_command": [
+    "re.findall",
+    "<builtin>.len",
+    "thefuck.rules.docker_not_command.get_docker_commands",
+    "thefuck.rules.docker_not_command._parse_commands",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.cd_correction.get_new_command": [
+    "thefuck.rules.cd_correction._get_sub_dirs",
+    "thefuck.rules.cd_mkdir.get_new_command",
+    "os.getcwd",
+    "os.path.join",
+    "thefuck.utils.get_close_matches",
+    "os.path.split",
+    "os.getcwdu"
+  ],
+  "thefuck.rules.fix_alt_space.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.wrong_hyphen_before_subcommand.match": [
+    "thefuck.utils.get_all_executables"
+  ],
+  "thefuck.rules.no_command.get_new_command": [
+    "thefuck.rules.no_command._get_used_executables",
+    "thefuck.utils.get_all_executables",
+    "thefuck.utils.get_closest",
+    "thefuck.utils.get_close_matches"
+  ],
+  "thefuck.rules.apt_invalid_operation.get_new_command": [
+    "thefuck.utils.replace_command",
+    "thefuck.rules.apt_invalid_operation._get_operations"
+  ],
+  "thefuck.rules.rm_dir.match": [],
+  "thefuck.rules.mkdir_p.match": [],
+  "thefuck.rules.python_command.match": [],
+  "thefuck.rules.fix_alt_space.match": [],
+  "thefuck.rules.has_exists_script.get_new_command": [],
+  "thefuck.rules.has_exists_script.match": [
+    "os.path.exists"
+  ],
+  "thefuck.rules.apt_upgrade.get_new_command": [],
+  "thefuck.rules.systemctl.get_new_command": [],
+  "thefuck.rules.apt_list_upgradable.get_new_command": [],
+  "thefuck.specific.apt": [
+    "<builtin>.bool",
+    "thefuck.utils.which"
+  ],
+  "thefuck.corrector": [],
+  "thefuck.corrector.get_loaded_rules": [
+    "thefuck.types.Rule.from_path"
+  ],
+  "thefuck.corrector.get_rules_import_paths": [
+    "pathlib2.Path.glob",
+    "pathlib.Path.expanduser.joinpath",
+    "pathlib.Path",
+    "pathlib2.Path.expanduser.joinpath",
+    "pathlib.Path.glob",
+    "pathlib.Path.parent.joinpath",
+    "pathlib.Path.glob.joinpath.is_dir",
+    "pathlib2.Path.parent.joinpath",
+    "pathlib.Path.glob.joinpath",
+    "pathlib2.Path.glob.joinpath.is_dir",
+    "pathlib2.Path",
+    "pathlib2.Path.glob.joinpath"
+  ],
+  "pathlib2.Path.parent.joinpath": [],
+  "pathlib.Path.parent.joinpath": [],
+  "pathlib2.Path.glob": [],
+  "pathlib.Path.glob": [],
+  "pathlib2.Path.glob.joinpath": [],
+  "pathlib.Path.glob.joinpath": [],
+  "pathlib2.Path.glob.joinpath.is_dir": [],
+  "pathlib.Path.glob.joinpath.is_dir": [],
+  "thefuck.corrector.get_rules": [
+    "thefuck.corrector.get_rules_import_paths",
+    "<builtin>.sorted",
+    "thefuck.corrector.get_loaded_rules"
+  ],
+  "thefuck.corrector.get_rules.<lambda1>": [],
+  "thefuck.corrector.organize_commands": [
+    "thefuck.logs.debug",
+    "<builtin>.next",
+    "<builtin>.sorted"
+  ],
+  "<builtin>.next": [],
+  "thefuck.corrector.organize_commands.<lambda1>": [],
+  "thefuck.corrector.organize_commands.<lambda2>": [],
+  "thefuck.corrector.get_corrected_commands": [
+    "thefuck.corrector.get_rules",
+    "thefuck.corrector.organize_commands"
+  ],
+  "thefuck.rules.grep_recursive": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.grep_recursive.match": [],
+  "thefuck.rules.grep_recursive.get_new_command": [],
+  "thefuck.rules.django_south_merge": [],
+  "thefuck.rules.django_south_merge.match": [],
+  "thefuck.rules.django_south_merge.get_new_command": [],
+  "thefuck.rules.docker_login": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.docker_login.match": [],
+  "thefuck.rules.docker_login.get_new_command": [],
+  "thefuck.rules.omnienv_no_such_command": [
+    "<builtin>.any",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.omnienv_no_such_command.match": [],
+  "thefuck.rules.omnienv_no_such_command.get_app_commands": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.omnienv_no_such_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.cache",
+    "thefuck.utils.which",
+    "thefuck.utils.cache.cache_decorator",
+    "thefuck.utils.replace_argument",
+    "thefuck.utils.cache.cache_decorator.wrapper",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.mercurial": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.mercurial.extract_possibilities": [
+    "re.findall"
+  ],
+  "thefuck.rules.mercurial.match": [],
+  "thefuck.rules.mercurial.get_new_command": [
+    "thefuck.utils.get_closest",
+    "thefuck.rules.mercurial.extract_possibilities"
+  ],
+  "thefuck.rules.tsuru_login": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.tsuru_login.match": [],
+  "thefuck.rules.tsuru_login.get_new_command": [],
+  "thefuck.rules.git_add_force": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_branch_0flag": [
+    "thefuck.utils.memoize",
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_commit_amend": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.brew_cask_dependency": [
+    "thefuck.utils.eager",
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.brew_cask_dependency.match": [],
+  "thefuck.rules.brew_cask_dependency._get_script_for_brew_cask": [
+    "<builtin>.len",
+    "thefuck.rules.brew_cask_dependency._get_cask_install_lines"
+  ],
+  "thefuck.rules.brew_cask_dependency.get_new_command": [
+    "thefuck.rules.brew_cask_dependency._get_script_for_brew_cask"
+  ],
+  "thefuck.rules.mvn_no_command": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.mvn_no_command.match": [],
+  "thefuck.rules.mvn_no_command.get_new_command": [],
+  "thefuck.rules.python_execute": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.python_execute.match": [],
+  "thefuck.rules.python_execute.get_new_command": [],
+  "thefuck.rules.ln_s_order": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.ln_s_order._get_destination": [
+    "os.path.exists"
+  ],
+  "thefuck.rules.yum_invalid_operation": [
+    "thefuck.specific.sudo.sudo_support",
+    "thefuck.utils.cache",
+    "thefuck.utils.which",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "thefuck.utils.cache.cache_decorator"
+  ],
+  "thefuck.rules.yum_invalid_operation.match": [],
+  "thefuck.rules.yum_invalid_operation._get_operations": [
+    "subprocess.Popen",
+    "itertools.dropwhile",
+    "<builtin>.list",
+    "itertools.takewhile",
+    "itertools.islice",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.yum_invalid_operation._get_operations.<lambda1>": [],
+  "itertools.dropwhile": [],
+  "itertools.islice": [],
+  "thefuck.rules.yum_invalid_operation._get_operations.<lambda2>": [],
+  "itertools.takewhile": [],
+  "thefuck.rules.git_branch_delete": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.npm_wrong_command": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.npm_wrong_command._get_wrong_command": [],
+  "thefuck.rules.npm_wrong_command.match": [
+    "thefuck.rules.npm_wrong_command._get_wrong_command"
+  ],
+  "thefuck.rules.npm_wrong_command.get_new_command": [
+    "thefuck.rules.npm_wrong_command._get_wrong_command",
+    "thefuck.rules.npm_wrong_command._get_available_commands",
+    "thefuck.utils.replace_argument",
+    "thefuck.utils.get_closest"
+  ],
+  "thefuck.rules.grep_arguments_order": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.grep_arguments_order._get_actual_file": [
+    "os.path.isfile",
+    "os.path.isdir"
+  ],
+  "thefuck.rules.grep_arguments_order.match": [
+    "thefuck.rules.grep_arguments_order._get_actual_file"
+  ],
+  "thefuck.rules.grep_arguments_order.get_new_command": [
+    "thefuck.rules.grep_arguments_order._get_actual_file"
+  ],
+  "thefuck.rules.ssh_known_hosts": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.ssh_known_hosts.match": [
+    "<builtin>.any",
+    "re.findall"
+  ],
+  "thefuck.rules.ssh_known_hosts.get_new_command": [],
+  "thefuck.rules.ssh_known_hosts.side_effect": [
+    "re.compile.findall",
+    "<builtin>.open",
+    "re.compile",
+    "<builtin>.int"
+  ],
+  "re.compile": [],
+  "re.compile.findall": [],
+  "thefuck.rules.aws_cli": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.aws_cli.match": [],
+  "thefuck.rules.aws_cli.get_new_command": [
+    "re.search.group",
+    "re.findall",
+    "thefuck.utils.replace_argument",
+    "re.search"
+  ],
+  "thefuck.rules.sudo_command_from_user_path": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.sudo_command_from_user_path._get_command_name": [
+    "re.findall"
+  ],
+  "thefuck.rules.sudo_command_from_user_path.match": [
+    "thefuck.rules.sudo_command_from_user_path._get_command_name",
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.sudo_command_from_user_path.get_new_command": [
+    "thefuck.rules.sudo_command_from_user_path._get_command_name",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.go_unknown_command": [
+    "thefuck.utils.cache",
+    "thefuck.utils.which",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "thefuck.utils.cache.cache_decorator"
+  ],
+  "thefuck.rules.go_unknown_command.get_golang_commands": [
+    "subprocess.Popen.stderr.readlines",
+    "subprocess.Popen",
+    "itertools.dropwhile",
+    "itertools.takewhile",
+    "itertools.islice"
+  ],
+  "subprocess.Popen.stderr.readlines": [],
+  "thefuck.rules.go_unknown_command.get_golang_commands.<lambda1>": [],
+  "thefuck.rules.go_unknown_command.get_golang_commands.<lambda2>": [],
+  "thefuck.rules.go_unknown_command.match": [],
+  "thefuck.rules.go_unknown_command.get_new_command": [
+    "thefuck.utils.replace_argument",
+    "thefuck.utils.get_closest",
+    "thefuck.rules.go_unknown_command.get_golang_commands"
+  ],
+  "thefuck.rules.git_remote_delete": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.npm_missing_script": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.npm_missing_script.match": [
+    "<builtin>.any"
+  ],
+  "thefuck.rules.npm_missing_script.get_new_command": [
+    "thefuck.specific.npm.get_scripts",
+    "re.findall",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.pip_install": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.pip_install.match": [],
+  "thefuck.rules.pip_install.get_new_command": [],
+  "thefuck.rules.rm_dir": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.go_run": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.go_run.match": [],
+  "thefuck.rules.go_run.get_new_command": [],
+  "thefuck.rules.git_main_master": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.cargo_no_command": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.cargo_no_command.match": [],
+  "thefuck.rules.cargo_no_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.heroku_not_command": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.heroku_not_command.match": [],
+  "thefuck.rules.heroku_not_command.get_new_command": [
+    "re.findall"
+  ],
+  "thefuck.rules.git_diff_staged": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.wrong_hyphen_before_subcommand": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.git_rm_staged": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.gulp_not_task": [
+    "thefuck.utils.cache",
+    "thefuck.utils.cache.cache_decorator",
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.gulp_not_task.match": [],
+  "thefuck.rules.gulp_not_task.get_gulp_tasks": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.gulp_not_task.get_new_command": [
+    "thefuck.rules.gulp_not_task.get_gulp_tasks",
+    "re.findall",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.java": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.java.match": [],
+  "thefuck.rules.java.get_new_command": [],
+  "thefuck.rules.git_bisect_usage": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_push_pull": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_rebase_merge_dir": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.docker_image_being_used_by_container": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.docker_image_being_used_by_container.match": [],
+  "thefuck.rules.docker_image_being_used_by_container.get_new_command": [],
+  "thefuck.rules.git_stash_pop": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.apt_get": [
+    "thefuck.utils.memoize",
+    "CommandNotFound.CommandNotFound.CommandNotFound",
+    "CommandNotFound.CommandNotFound",
+    "<builtin>.isinstance"
+  ],
+  "CommandNotFound.CommandNotFound.CommandNotFound": [],
+  "CommandNotFound.CommandNotFound": [],
+  "thefuck.rules.apt_get._get_executable": [],
+  "CommandNotFound.CommandNotFound.getPackages": [],
+  "thefuck.rules.apt_get.match": [
+    "thefuck.rules.apt_get._get_executable",
+    "thefuck.utils.which",
+    "thefuck.rules.apt_get.get_package"
+  ],
+  "thefuck.rules.apt_get.get_new_command": [
+    "thefuck.rules.apt_get._get_executable",
+    "thefuck.rules.apt_get.get_package"
+  ],
+  "thefuck.rules.gem_unknown_command": [
+    "thefuck.utils.cache",
+    "thefuck.utils.which",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "thefuck.utils.cache.cache_decorator",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.gem_unknown_command.match": [],
+  "thefuck.rules.gem_unknown_command._get_unknown_command": [
+    "re.findall"
+  ],
+  "subprocess.Popen.stdout.readlines.startswith": [],
+  "subprocess.Popen.stdout.readlines.decode.startswith": [],
+  "thefuck.rules.gem_unknown_command.get_new_command": [
+    "thefuck.rules.gem_unknown_command._get_all_commands",
+    "thefuck.rules.gem_unknown_command._get_unknown_command",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.choco_install": [
+    "<builtin>.bool",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.choco_install.match": [],
+  "thefuck.rules.choco_install.get_new_command": [],
+  "thefuck.rules.python_module_error": [],
+  "thefuck.rules.python_module_error.match": [],
+  "thefuck.rules.python_module_error.get_new_command": [
+    "re.findall"
+  ],
+  "thefuck.rules.git_rm_local_modifications": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.mvn_unknown_lifecycle_phase": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.mvn_unknown_lifecycle_phase._get_failed_lifecycle": [
+    "re.search"
+  ],
+  "thefuck.rules.mvn_unknown_lifecycle_phase._getavailable_lifecycles": [
+    "re.search"
+  ],
+  "thefuck.rules.mvn_unknown_lifecycle_phase.match": [
+    "thefuck.rules.mvn_unknown_lifecycle_phase._getavailable_lifecycles",
+    "thefuck.rules.mvn_unknown_lifecycle_phase._get_failed_lifecycle"
+  ],
+  "thefuck.rules.mvn_unknown_lifecycle_phase.get_new_command": [
+    "re.search.group",
+    "thefuck.rules.mvn_unknown_lifecycle_phase._getavailable_lifecycles",
+    "re.search.group.split",
+    "thefuck.utils.replace_command",
+    "thefuck.utils.get_close_matches",
+    "thefuck.rules.mvn_unknown_lifecycle_phase._get_failed_lifecycle"
+  ],
+  "re.search.group.split": [],
+  "thefuck.rules.pacman_not_found": [
+    "thefuck.specific.archlinux.archlinux_env"
+  ],
+  "thefuck.rules.pacman_not_found.match": [],
+  "thefuck.rules.pacman_not_found.get_new_command": [
+    "thefuck.utils.replace_command",
+    "thefuck.specific.archlinux.get_pkgfile"
+  ],
+  "thefuck.rules.brew_uninstall": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.brew_uninstall.match": [],
+  "thefuck.rules.brew_uninstall.get_new_command": [],
+  "thefuck.rules": [],
+  "thefuck.rules.python_command": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.quotation_marks": [],
+  "thefuck.rules.quotation_marks.match": [],
+  "thefuck.rules.quotation_marks.get_new_command": [],
+  "thefuck.rules.rails_migrations_pending": [],
+  "thefuck.rules.rails_migrations_pending.match": [],
+  "thefuck.rules.rails_migrations_pending.get_new_command": [
+    "re.search.group",
+    "re.search"
+  ],
+  "thefuck.rules.pacman": [
+    "thefuck.specific.archlinux.archlinux_env"
+  ],
+  "thefuck.rules.pacman.match": [
+    "thefuck.specific.archlinux.get_pkgfile"
+  ],
+  "thefuck.rules.pacman.get_new_command": [
+    "thefuck.specific.archlinux.get_pkgfile"
+  ],
+  "thefuck.rules.git_branch_list": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_push": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_push._get_upstream_option_index": [],
+  "thefuck.rules.has_exists_script": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.chmod_x": [],
+  "thefuck.rules.chmod_x.match": [
+    "os.path.exists",
+    "os.access"
+  ],
+  "thefuck.rules.chmod_x.get_new_command": [],
+  "thefuck.rules.yarn_alias": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.yarn_alias.match": [],
+  "thefuck.rules.yarn_alias.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.history": [],
+  "thefuck.rules.history.match": [
+    "thefuck.utils.get_valid_history_without_current",
+    "<builtin>.len",
+    "thefuck.utils.get_close_matches"
+  ],
+  "thefuck.rules.history.get_new_command": [
+    "thefuck.utils.get_valid_history_without_current",
+    "thefuck.utils.get_closest"
+  ],
+  "thefuck.rules.git_merge": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.az_cli": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.az_cli.match": [],
+  "thefuck.rules.az_cli.get_new_command": [
+    "re.search.group",
+    "re.findall",
+    "thefuck.utils.replace_argument",
+    "re.search"
+  ],
+  "thefuck.rules.git_clone_missing": [],
+  "thefuck.rules.git_clone_missing.match": [
+    "six.moves.urllib.parse.urlparse",
+    "<builtin>.len",
+    "thefuck.utils.which"
+  ],
+  "six.moves.urllib.parse.urlparse": [],
+  "thefuck.rules.git_clone_missing.get_new_command": [],
+  "thefuck.rules.gradle_wrapper": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.gradle_wrapper.match": [
+    "os.path.isfile",
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.gradle_wrapper.get_new_command": [],
+  "thefuck.rules.dry": [],
+  "thefuck.rules.dry.match": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.dry.get_new_command": [],
+  "thefuck.rules.git_commit_reset": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_pull_uncommitted_changes": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.ifconfig_device_not_found": [
+    "thefuck.utils.eager",
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.ifconfig_device_not_found.match": [],
+  "subprocess.Popen.stdout.readlines.decode.split": [],
+  "subprocess.Popen.stdout.readlines.split": [],
+  "thefuck.rules.ifconfig_device_not_found.get_new_command": [
+    "thefuck.utils.replace_command",
+    "thefuck.rules.ifconfig_device_not_found._get_possible_interfaces"
+  ],
+  "thefuck.rules.tsuru_not_command": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.tsuru_not_command.match": [],
+  "thefuck.rules.tsuru_not_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command",
+    "thefuck.utils.get_all_matched_commands"
+  ],
+  "thefuck.rules.git_push_force": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.unknown_command": [],
+  "thefuck.rules.unknown_command.match": [
+    "re.search"
+  ],
+  "thefuck.rules.unknown_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.brew_update_formula": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.brew_update_formula.match": [],
+  "thefuck.rules.brew_update_formula.get_new_command": [],
+  "thefuck.rules.git_stash": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.remove_trailing_cedilla": [],
+  "thefuck.rules.remove_trailing_cedilla.match": [],
+  "thefuck.rules.remove_trailing_cedilla.get_new_command": [],
+  "thefuck.rules.scm_correction": [
+    "thefuck.utils.memoize",
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "pathlib2.Path.is_dir": [],
+  "pathlib.Path.is_dir": [],
+  "thefuck.rules.scm_correction.match": [
+    "thefuck.rules.scm_correction._get_actual_scm"
+  ],
+  "thefuck.rules.scm_correction.get_new_command": [
+    "thefuck.rules.scm_correction._get_actual_scm"
+  ],
+  "thefuck.rules.ls_lah": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.ls_lah.match": [],
+  "thefuck.rules.ls_lah.get_new_command": [],
+  "thefuck.rules.whois": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.whois.match": [],
+  "thefuck.rules.whois.get_new_command": [
+    "<builtin>.range",
+    "six.moves.urllib.parse.urlparse",
+    "<builtin>.len",
+    "six.moves.urllib.parse.urlparse.path.split"
+  ],
+  "six.moves.urllib.parse.urlparse.path.split": [],
+  "<builtin>.range": [],
+  "thefuck.rules.systemctl": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.systemctl.match": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.git_flag_after_filename": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_hook_bypass": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.fab_command_not_found": [
+    "thefuck.utils.eager",
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.fab_command_not_found.match": [],
+  "thefuck.rules.fab_command_not_found.get_new_command": [
+    "thefuck.rules.fab_command_not_found._get_between",
+    "thefuck.utils.get_closest"
+  ],
+  "thefuck.rules.brew_reinstall": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "re.compile"
+  ],
+  "thefuck.rules.brew_reinstall.match": [
+    "re.compile.search"
+  ],
+  "re.compile.search": [],
+  "thefuck.rules.brew_reinstall.get_new_command": [],
+  "thefuck.rules.apt_upgrade": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.apt_upgrade.match": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.cd_parent": [],
+  "thefuck.rules.cd_parent.match": [],
+  "thefuck.rules.cd_parent.get_new_command": [],
+  "thefuck.rules.git_diff_no_index": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_help_aliased": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.long_form_help": [],
+  "thefuck.rules.long_form_help.match": [
+    "re.search"
+  ],
+  "thefuck.rules.long_form_help.get_new_command": [
+    "re.search.group",
+    "thefuck.utils.replace_argument",
+    "re.search"
+  ],
+  "thefuck.rules.lein_not_task": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.lein_not_task.match": [],
+  "thefuck.rules.gradle_no_task": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "re.compile",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.gradle_no_task.match": [
+    "re.compile.findall"
+  ],
+  "subprocess.Popen.stdout.readlines.decode.strip.startswith": [],
+  "thefuck.rules.gradle_no_task.get_new_command": [
+    "re.compile.findall",
+    "thefuck.rules.gradle_no_task._get_all_tasks",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.adb_unknown_command": [],
+  "thefuck.rules.adb_unknown_command.match": [
+    "thefuck.utils.is_app"
+  ],
+  "thefuck.rules.adb_unknown_command.get_new_command": [
+    "<builtin>.enumerate",
+    "thefuck.utils.replace_argument",
+    "thefuck.utils.get_closest"
+  ],
+  "thefuck.rules.ln_no_hard_link": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.cp_omitting_directory": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.cp_omitting_directory.match": [],
+  "thefuck.rules.git_rm_recursive": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.dnf_no_such_command": [
+    "thefuck.specific.sudo.sudo_support",
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "re.compile"
+  ],
+  "thefuck.rules.dnf_no_such_command.match": [],
+  "thefuck.rules.dnf_no_such_command._parse_operations": [
+    "re.compile.findall",
+    "re.compile"
+  ],
+  "thefuck.rules.dnf_no_such_command._get_operations": [
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen.stdout.read",
+    "thefuck.rules.dnf_no_such_command._parse_operations"
+  ],
+  "thefuck.rules.ag_literal": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.ag_literal.match": [],
+  "thefuck.rules.ag_literal.get_new_command": [],
+  "thefuck.rules.no_such_file": [],
+  "thefuck.rules.no_such_file.match": [
+    "re.search"
+  ],
+  "thefuck.rules.no_such_file.get_new_command": [
+    "re.findall.rfind",
+    "re.findall"
+  ],
+  "re.findall.rfind": [],
+  "thefuck.rules.ls_all": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.ls_all.match": [],
+  "thefuck.rules.ls_all.get_new_command": [],
+  "thefuck.rules.man_no_space": [],
+  "thefuck.rules.man_no_space.match": [],
+  "thefuck.rules.man_no_space.get_new_command": [],
+  "thefuck.rules.open": [
+    "thefuck.utils.eager",
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.open.is_arg_url": [],
+  "thefuck.rules.open.match": [
+    "thefuck.rules.open.is_arg_url"
+  ],
+  "thefuck.rules.apt_get_search": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.apt_get_search.match": [],
+  "thefuck.rules.apt_get_search.get_new_command": [
+    "re.sub"
+  ],
+  "thefuck.rules.man": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.man.match": [],
+  "thefuck.rules.man.get_new_command": [],
+  "thefuck.rules.cpp11": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.cpp11.match": [],
+  "thefuck.rules.cpp11.get_new_command": [],
+  "thefuck.rules.git_not_command": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.rm_root": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.hostscli": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.hostscli.match": [],
+  "thefuck.rules.javac": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.javac.match": [],
+  "thefuck.rules.javac.get_new_command": [],
+  "thefuck.rules.yarn_command_not_found": [
+    "thefuck.utils.cache",
+    "thefuck.utils.which",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "re.compile",
+    "thefuck.utils.cache.cache_decorator",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.yarn_command_not_found.match": [
+    "re.compile.findall"
+  ],
+  "thefuck.rules.yarn_command_not_found.get_new_command": [
+    "re.compile.findall",
+    "thefuck.utils.replace_argument",
+    "thefuck.rules.yarn_command_not_found._get_all_tasks",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.react_native_command_unrecognized": [
+    "thefuck.utils.cache",
+    "thefuck.utils.cache.cache_decorator",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.react_native_command_unrecognized.match": [
+    "re.findall"
+  ],
+  "thefuck.rules.react_native_command_unrecognized.get_new_command": [
+    "thefuck.rules.react_native_command_unrecognized._get_commands",
+    "re.findall",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.missing_space_before_subcommand": [
+    "thefuck.utils.memoize"
+  ],
+  "thefuck.rules.missing_space_before_subcommand.match": [
+    "thefuck.utils.get_all_executables",
+    "thefuck.rules.missing_space_before_subcommand._get_executable"
+  ],
+  "thefuck.rules.missing_space_before_subcommand.get_new_command": [
+    "thefuck.rules.missing_space_before_subcommand._get_executable"
+  ],
+  "thefuck.rules.prove_recursively": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.prove_recursively._is_recursive": [],
+  "thefuck.rules.prove_recursively._isdir": [
+    "os.path.isdir"
+  ],
+  "thefuck.rules.prove_recursively.match": [
+    "<builtin>.any",
+    "thefuck.rules.prove_recursively._is_recursive",
+    "thefuck.rules.prove_recursively._isdir"
+  ],
+  "thefuck.rules.prove_recursively.get_new_command": [],
+  "thefuck.rules.grunt_task_not_found": [
+    "thefuck.utils.cache",
+    "thefuck.utils.cache.cache_decorator",
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "re.compile",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.grunt_task_not_found.match": [
+    "re.compile.findall"
+  ],
+  "thefuck.rules.grunt_task_not_found.get_new_command": [
+    "re.compile.findall",
+    "thefuck.utils.get_closest",
+    "thefuck.rules.grunt_task_not_found._get_all_tasks"
+  ],
+  "thefuck.rules.git_two_dashes": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.apt_invalid_operation": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.apt_invalid_operation.match": [],
+  "thefuck.rules.apt_invalid_operation._get_operations": [
+    "subprocess.Popen",
+    "thefuck.rules.apt_invalid_operation._parse_apt_operations",
+    "thefuck.rules.apt_invalid_operation._parse_apt_get_and_cache_operations",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.nixos_cmd_not_found": [
+    "re.compile"
+  ],
+  "thefuck.rules.nixos_cmd_not_found.match": [
+    "re.compile.findall"
+  ],
+  "thefuck.rules.nixos_cmd_not_found.get_new_command": [
+    "re.compile.findall"
+  ],
+  "thefuck.rules.heroku_multiple_apps": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.heroku_multiple_apps.match": [],
+  "thefuck.rules.heroku_multiple_apps.get_new_command": [
+    "re.findall"
+  ],
+  "thefuck.rules.git_branch_exists": [
+    "thefuck.specific.git.git_support",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.sudo": [],
+  "thefuck.rules.sudo.match": [],
+  "thefuck.rules.sudo.get_new_command": [],
+  "thefuck.rules.git_merge_unrelated": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.remove_shell_prompt_literal": [],
+  "thefuck.rules.remove_shell_prompt_literal.match": [
+    "re.search"
+  ],
+  "thefuck.rules.remove_shell_prompt_literal.get_new_command": [],
+  "thefuck.rules.git_push_different_branch_names": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.cd_cs": [],
+  "thefuck.rules.cd_cs.match": [],
+  "thefuck.rules.cd_cs.get_new_command": [],
+  "thefuck.rules.git_tag_force": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.terraform_no_command": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.terraform_no_command.match": [
+    "re.search"
+  ],
+  "thefuck.rules.terraform_no_command.get_new_command": [
+    "re.search.group",
+    "re.search"
+  ],
+  "thefuck.rules.touch": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.touch.match": [],
+  "thefuck.rules.touch.get_new_command": [
+    "re.findall"
+  ],
+  "thefuck.rules.apt_list_upgradable": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.apt_list_upgradable.match": [],
+  "thefuck.rules.fix_alt_space": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.git_rebase_no_changes": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_rebase_no_changes.get_new_command": [],
+  "thefuck.rules.git_pull": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.pip_unknown_command": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.pip_unknown_command.match": [],
+  "thefuck.rules.pip_unknown_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.test.py": [],
+  "thefuck.rules.test.py.match": [],
+  "thefuck.rules.test.py.get_new_command": [],
+  "thefuck.rules.workon_doesnt_exists": [
+    "thefuck.utils.memoize",
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.utils.eager"
+  ],
+  "pathlib.Path.expanduser.iterdir": [],
+  "pathlib2.Path.expanduser.iterdir": [],
+  "pathlib.Path.expanduser.iterdir.is_dir": [],
+  "pathlib2.Path.expanduser.iterdir.is_dir": [],
+  "thefuck.rules.workon_doesnt_exists.match": [
+    "<builtin>.len",
+    "thefuck.rules.workon_doesnt_exists._get_all_environments"
+  ],
+  "thefuck.rules.workon_doesnt_exists.get_new_command": [
+    "thefuck.utils.replace_command",
+    "thefuck.rules.workon_doesnt_exists._get_all_environments"
+  ],
+  "thefuck.rules.django_south_ghost": [],
+  "thefuck.rules.django_south_ghost.match": [],
+  "thefuck.rules.django_south_ghost.get_new_command": [],
+  "thefuck.rules.git_branch_delete_checked_out": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_push_without_commits": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_push_without_commits.get_new_command": [],
+  "thefuck.rules.pacman_invalid_option": [
+    "thefuck.specific.archlinux.archlinux_env",
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.pacman_invalid_option.match": [
+    "<builtin>.any"
+  ],
+  "thefuck.rules.pacman_invalid_option.get_new_command": [
+    "re.findall",
+    "re.sub"
+  ],
+  "thefuck.rules.git_fix_stash": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.dirty_unzip": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.dirty_unzip._is_bad_zip": [
+    "zipfile.ZipFile",
+    "<builtin>.len"
+  ],
+  "zipfile.ZipFile": [],
+  "thefuck.rules.dirty_unzip._zip_file": [],
+  "thefuck.rules.dirty_unzip.match": [
+    "thefuck.rules.dirty_unzip._is_bad_zip",
+    "thefuck.rules.dirty_unzip._zip_file"
+  ],
+  "thefuck.rules.dirty_unzip.get_new_command": [
+    "thefuck.rules.dirty_unzip._zip_file"
+  ],
+  "thefuck.rules.dirty_unzip.side_effect": [
+    "os.path.abspath",
+    "zipfile.ZipFile",
+    "os.getcwd",
+    "thefuck.rules.dirty_unzip._zip_file",
+    "os.path.abspath.startswith",
+    "os.remove"
+  ],
+  "os.getcwd": [],
+  "os.path.abspath": [],
+  "os.path.abspath.startswith": [],
+  "thefuck.rules.port_already_in_use": [
+    "thefuck.utils.memoize",
+    "<builtin>.bool",
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.port_already_in_use.match": [
+    "thefuck.rules.port_already_in_use._get_used_port",
+    "thefuck.rules.port_already_in_use._get_pid_by_port"
+  ],
+  "thefuck.rules.port_already_in_use.get_new_command": [
+    "thefuck.rules.port_already_in_use._get_used_port",
+    "thefuck.rules.port_already_in_use._get_pid_by_port"
+  ],
+  "thefuck.rules.sl_ls": [],
+  "thefuck.rules.sl_ls.match": [],
+  "thefuck.rules.sl_ls.get_new_command": [],
+  "thefuck.rules.git_add": [
+    "thefuck.utils.memoize",
+    "thefuck.specific.git.git_support"
+  ],
+  "pathlib.Path.exists": [],
+  "pathlib2.Path.exists": [],
+  "thefuck.rules.yarn_help": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.yarn_help.match": [],
+  "thefuck.rules.yarn_help.get_new_command": [
+    "re.findall",
+    "thefuck.system.win32.open_command",
+    "thefuck.system.unix.open_command"
+  ],
+  "thefuck.rules.tmux": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.tmux.match": [],
+  "thefuck.rules.tmux.get_new_command": [
+    "re.match.group.split",
+    "thefuck.utils.replace_command",
+    "re.match.group",
+    "re.match"
+  ],
+  "re.match.group": [],
+  "re.match.group.split": [],
+  "thefuck.rules.git_checkout": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_checkout.get_branches": [
+    "subprocess.Popen.stdout.readlines.decode.strip",
+    "subprocess.Popen",
+    "subprocess.Popen.stdout.readlines.startswith",
+    "subprocess.Popen.stdout.readlines.split",
+    "subprocess.Popen.stdout.readlines.decode.split",
+    "subprocess.Popen.stdout.readlines.strip.startswith",
+    "subprocess.Popen.stdout.readlines.decode.strip.startswith",
+    "subprocess.Popen.stdout.readlines.decode",
+    "subprocess.Popen.stdout.readlines.strip",
+    "subprocess.Popen.stdout.readlines.decode.startswith",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "subprocess.Popen.stdout.readlines.strip.startswith": [],
+  "thefuck.rules.sed_unterminated_s": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.sed_unterminated_s.match": [],
+  "thefuck.rules.sed_unterminated_s.get_new_command": [
+    "<builtin>.enumerate",
+    "shlex.split",
+    "<builtin>.map"
+  ],
+  "<builtin>.map": [],
+  "thefuck.rules.docker_not_command": [
+    "thefuck.specific.sudo.sudo_support",
+    "thefuck.utils.cache",
+    "thefuck.utils.which",
+    "thefuck.utils.for_app",
+    "decorator.decorator",
+    "thefuck.utils.cache.cache_decorator"
+  ],
+  "thefuck.rules.docker_not_command.match": [],
+  "thefuck.rules.docker_not_command._parse_commands": [
+    "<builtin>.list",
+    "itertools.dropwhile",
+    "itertools.islice",
+    "itertools.takewhile"
+  ],
+  "thefuck.rules.docker_not_command._parse_commands.<lambda1>": [],
+  "thefuck.rules.docker_not_command._parse_commands.<lambda2>": [],
+  "thefuck.rules.docker_not_command.get_docker_commands": [
+    "subprocess.Popen",
+    "subprocess.Popen.stderr.readlines",
+    "thefuck.rules.docker_not_command._parse_commands",
+    "subprocess.Popen.stdout.readlines"
+  ],
+  "thefuck.rules.mkdir_p": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.no_command": [
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.no_command._get_used_executables": [
+    "thefuck.utils.get_valid_history_without_current"
+  ],
+  "thefuck.rules.git_lfs_mistype": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.path_from_history": [
+    "thefuck.utils.memoize"
+  ],
+  "thefuck.rules.path_from_history.match": [
+    "<builtin>.bool",
+    "thefuck.rules.path_from_history._get_destination"
+  ],
+  "thefuck.rules.path_from_history._get_all_absolute_paths_from_history": [
+    "thefuck.utils.get_valid_history_without_current",
+    "collections.Counter.most_common",
+    "collections.Counter"
+  ],
+  "collections.Counter": [],
+  "collections.Counter.most_common": [],
+  "thefuck.rules.path_from_history.get_new_command": [
+    "thefuck.rules.path_from_history._get_all_absolute_paths_from_history",
+    "pathlib.Path",
+    "pathlib2.Path.expanduser",
+    "pathlib.Path.expanduser.exists",
+    "pathlib2.Path.expanduser.exists",
+    "thefuck.utils.replace_argument",
+    "thefuck.rules.path_from_history._get_destination",
+    "pathlib2.Path",
+    "pathlib.Path.expanduser"
+  ],
+  "thefuck.rules.cd_correction": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.cd_correction._get_sub_dirs": [
+    "os.path.join",
+    "os.listdir",
+    "os.path.isdir"
+  ],
+  "os.listdir": [],
+  "thefuck.rules.cd_correction.match": [
+    "<builtin>.any"
+  ],
+  "os.getcwdu": [],
+  "thefuck.rules.cd_mkdir": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "thefuck.specific.sudo.sudo_support"
+  ],
+  "thefuck.rules.cd_mkdir.match": [
+    "<builtin>.any"
+  ],
+  "thefuck.rules.cargo": [],
+  "thefuck.rules.cargo.match": [],
+  "thefuck.rules.cargo.get_new_command": [],
+  "thefuck.rules.cat_dir": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.cat_dir.match": [
+    "os.path.isdir"
+  ],
+  "thefuck.rules.cat_dir.get_new_command": [],
+  "thefuck.rules.terraform_init": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.terraform_init.match": [],
+  "thefuck.rules.terraform_init.get_new_command": [],
+  "thefuck.rules.brew_link": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.brew_link.match": [],
+  "thefuck.rules.brew_link.get_new_command": [],
+  "thefuck.rules.unsudo": [],
+  "thefuck.rules.unsudo.match": [],
+  "thefuck.rules.unsudo.get_new_command": [],
+  "thefuck.rules.conda_mistype": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.conda_mistype.match": [],
+  "thefuck.rules.conda_mistype.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command"
+  ],
+  "thefuck.rules.git_commit_add": [
+    "thefuck.specific.git.git_support",
+    "thefuck.utils.eager"
+  ],
+  "thefuck.rules.git_remote_seturl_add": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.git_remote_seturl_add.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.fix_file": [
+    "thefuck.utils.memoize",
+    "thefuck.utils.default_settings",
+    "decorator.decorator",
+    "thefuck.rules.fix_file._make_pattern"
+  ],
+  "thefuck.rules.fix_file._make_pattern": [
+    "re.compile"
+  ],
+  "thefuck.rules.fix_file.match": [
+    "thefuck.rules.fix_file._search"
+  ],
+  "thefuck.rules.fix_file.get_new_command": [
+    "thefuck.rules.fix_file._search"
+  ],
+  "thefuck.rules.php_s": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.php_s.match": [],
+  "thefuck.rules.php_s.get_new_command": [
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.brew_install": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.brew_install._get_suggestions": [
+    "re.search.group.replace.split",
+    "re.search.group.replace"
+  ],
+  "re.search.group.replace": [],
+  "re.search.group.replace.split": [],
+  "thefuck.rules.brew_install.match": [],
+  "thefuck.rules.brew_install.get_new_command": [
+    "re.search.group",
+    "re.search",
+    "thefuck.rules.brew_install._get_suggestions"
+  ],
+  "thefuck.rules.git_clone_git_clone": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.brew_unknown_command": [],
+  "thefuck.rules.brew_unknown_command._get_brew_commands": [
+    "os.listdir"
+  ],
+  "thefuck.rules.brew_unknown_command._get_brew_tap_specific_commands": [
+    "thefuck.rules.brew_unknown_command._get_directory_names_only",
+    "thefuck.rules.brew_unknown_command._is_brew_tap_cmd_naming",
+    "os.listdir",
+    "os.path.isdir"
+  ],
+  "thefuck.rules.brew_unknown_command._get_directory_names_only": [
+    "os.path.join",
+    "os.listdir",
+    "os.path.isdir"
+  ],
+  "thefuck.rules.brew_unknown_command._is_brew_tap_cmd_naming": [],
+  "thefuck.rules.brew_unknown_command._brew_commands": [
+    "thefuck.rules.brew_unknown_command._get_brew_tap_specific_commands",
+    "thefuck.rules.brew_unknown_command._get_brew_commands",
+    "thefuck.specific.brew.get_brew_path_prefix"
+  ],
+  "thefuck.rules.brew_unknown_command.match": [
+    "<builtin>.bool",
+    "re.findall",
+    "thefuck.utils.get_closest",
+    "thefuck.rules.brew_unknown_command._brew_commands"
+  ],
+  "thefuck.rules.brew_unknown_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_command",
+    "thefuck.rules.brew_unknown_command._brew_commands"
+  ],
+  "thefuck.rules.vagrant_up": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.vagrant_up.match": [],
+  "thefuck.rules.vagrant_up.get_new_command": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.npm_run_script": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.npm_run_script.match": [
+    "<builtin>.any",
+    "thefuck.specific.npm.get_scripts"
+  ],
+  "thefuck.rules.npm_run_script.get_new_command": [],
+  "thefuck.rules.cp_create_destination": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.cp_create_destination.match": [],
+  "thefuck.rules.cp_create_destination.get_new_command": [],
+  "thefuck.rules.switch_lang": [
+    "thefuck.utils.memoize"
+  ],
+  "thefuck.rules.switch_lang._switch": [],
+  "thefuck.rules.switch_lang._switch_command": [
+    "thefuck.rules.switch_lang._switch"
+  ],
+  "thefuck.rules.switch_lang._decompose_korean": [
+    "<builtin>.ord",
+    "thefuck.rules.switch_lang._decompose_korean._change_double"
+  ],
+  "thefuck.rules.switch_lang._decompose_korean._change_double": [],
+  "<builtin>.ord": [],
+  "thefuck.rules.switch_lang.match": [
+    "thefuck.utils.get_alias",
+    "<builtin>.any",
+    "thefuck.rules.switch_lang._switch_command",
+    "thefuck.rules.switch_lang._get_matched_layout"
+  ],
+  "thefuck.rules.switch_lang.get_new_command": [
+    "<builtin>.any",
+    "thefuck.rules.switch_lang._decompose_korean",
+    "thefuck.rules.switch_lang._switch_command",
+    "thefuck.rules.switch_lang._get_matched_layout"
+  ],
+  "thefuck.rules.dirty_untar": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.dirty_untar._is_tar_extract": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.dirty_untar._tar_file": [
+    "<builtin>.len"
+  ],
+  "thefuck.rules.dirty_untar.match": [
+    "thefuck.rules.dirty_untar._is_tar_extract",
+    "thefuck.rules.dirty_untar._tar_file"
+  ],
+  "thefuck.rules.dirty_untar.get_new_command": [
+    "thefuck.rules.dirty_untar._tar_file"
+  ],
+  "thefuck.rules.dirty_untar.side_effect": [
+    "os.path.abspath",
+    "thefuck.rules.dirty_untar._tar_file",
+    "tarfile.TarFile",
+    "os.getcwd",
+    "os.path.abspath.startswith",
+    "os.remove"
+  ],
+  "tarfile.TarFile": [],
+  "thefuck.rules.composer_not_command": [
+    "thefuck.utils.for_app",
+    "decorator.decorator"
+  ],
+  "thefuck.rules.composer_not_command.match": [],
+  "thefuck.rules.composer_not_command.get_new_command": [
+    "re.findall",
+    "thefuck.utils.replace_argument"
+  ],
+  "thefuck.rules.git_pull_clone": [
+    "thefuck.specific.git.git_support"
+  ],
+  "thefuck.rules.yarn_command_replaced": [
+    "decorator.decorator",
+    "thefuck.utils.for_app",
+    "re.compile"
+  ],
+  "thefuck.rules.yarn_command_replaced.match": [
+    "re.compile.findall"
+  ],
+  "thefuck.rules.yarn_command_replaced.get_new_command": [
+    "re.compile.findall"
+  ],
+  "thefuck.entrypoints.not_configured": [
+    "colorama.init",
+    "thefuck.system.win32.init_output"
+  ],
+  "thefuck.entrypoints.not_configured._get_shell_pid": [
+    "psutil.Process",
+    "psutil.Process.parent",
+    "os.getpid"
+  ],
+  "thefuck.entrypoints.not_configured._get_not_configured_usage_tracker_path": [
+    "pathlib.Path",
+    "pathlib.Path.joinpath",
+    "pathlib2.Path.joinpath",
+    "getpass.getuser",
+    "os.getenv",
+    "tempfile.gettempdir",
+    "pathlib2.Path"
+  ],
+  "getpass.getuser": [],
+  "thefuck.entrypoints.not_configured._record_first_run": [
+    "pathlib.Path.joinpath.open",
+    "json.dump",
+    "thefuck.entrypoints.not_configured._get_shell_pid",
+    "pathlib2.Path.joinpath.open",
+    "thefuck.entrypoints.not_configured._get_not_configured_usage_tracker_path"
+  ],
+  "pathlib.Path.joinpath.open": [],
+  "pathlib2.Path.joinpath.open": [],
+  "json.dump": [],
+  "thefuck.entrypoints.not_configured._get_previous_command": [],
+  "thefuck.entrypoints.not_configured._is_second_run": [
+    "json.load",
+    "pathlib2.Path.joinpath.exists",
+    "json.load.get",
+    "pathlib.Path.joinpath.open",
+    "<builtin>.isinstance",
+    "thefuck.entrypoints.not_configured._get_shell_pid",
+    "thefuck.entrypoints.not_configured._get_not_configured_usage_tracker_path",
+    "pathlib2.Path.joinpath.open",
+    "time.time",
+    "pathlib.Path.joinpath.exists",
+    "thefuck.entrypoints.not_configured._get_previous_command"
+  ],
+  "pathlib2.Path.joinpath.exists": [],
+  "pathlib.Path.joinpath.exists": [],
+  "json.load": [],
+  "json.load.get": [],
+  "thefuck.entrypoints.not_configured._is_already_configured": [
+    "pathlib.Path",
+    "pathlib2.Path.expanduser",
+    "pathlib.Path.expanduser.open",
+    "pathlib2.Path.expanduser.open",
+    "pathlib2.Path",
+    "pathlib.Path.expanduser"
+  ],
+  "pathlib.Path.expanduser.open": [],
+  "pathlib2.Path.expanduser.open": [],
+  "thefuck.entrypoints.not_configured._configure": [
+    "pathlib.Path",
+    "pathlib2.Path.expanduser",
+    "pathlib.Path.expanduser.open",
+    "pathlib2.Path.expanduser.open",
+    "pathlib2.Path",
+    "pathlib.Path.expanduser"
+  ],
+  "thefuck.entrypoints.not_configured.main": [
+    "thefuck.conf.Settings.init",
+    "thefuck.entrypoints.not_configured._is_already_configured",
+    "thefuck.entrypoints.not_configured._is_second_run",
+    "thefuck.entrypoints.not_configured._record_first_run",
+    "thefuck.entrypoints.not_configured._configure"
+  ],
+  "thefuck.entrypoints": [],
+  "thefuck.entrypoints.fix_command": [],
+  "thefuck.entrypoints.fix_command._get_raw_command": [
+    "thefuck.utils.get_all_executables",
+    "difflib.SequenceMatcher",
+    "difflib.SequenceMatcher.ratio",
+    "thefuck.utils.get_alias",
+    "os.environ.get"
+  ],
+  "difflib.SequenceMatcher": [],
+  "difflib.SequenceMatcher.ratio": [],
+  "thefuck.entrypoints.fix_command.fix_command": [
+    "thefuck.ui.select_command",
+    "thefuck.conf.Settings.init",
+    "thefuck.corrector.get_corrected_commands",
+    "thefuck.entrypoints.fix_command._get_raw_command",
+    "pprint.pformat",
+    "sys.exit"
+  ],
+  "pprint.pformat": [],
+  "thefuck.entrypoints.shell_logger": [],
+  "thefuck.entrypoints.shell_logger._read": [
+    "os.read"
+  ],
+  "os.read": [],
+  "thefuck.entrypoints.shell_logger._set_pty_size": [
+    "array.array",
+    "fcntl.ioctl"
+  ],
+  "array.array": [],
+  "fcntl.ioctl": [],
+  "thefuck.entrypoints.shell_logger._spawn": [
+    "tty.tcsetattr",
+    "os.execlp",
+    "tty.tcgetattr",
+    "pty._copy",
+    "os.close",
+    "thefuck.entrypoints.shell_logger._set_pty_size",
+    "os.waitpid",
+    "tty.setraw",
+    "pty.fork",
+    "signal.signal"
+  ],
+  "pty.fork": [],
+  "os.execlp": [],
+  "tty.tcgetattr": [],
+  "thefuck.entrypoints.shell_logger._spawn.<lambda1>": [
+    "thefuck.entrypoints.shell_logger._set_pty_size"
+  ],
+  "signal.signal": [],
+  "pty._copy": [],
+  "tty.tcsetattr": [],
+  "os.close": [],
+  "os.waitpid": [],
+  "thefuck.entrypoints.shell_logger.shell_logger": [
+    "functools.partial",
+    "thefuck.entrypoints.shell_logger._spawn",
+    "mmap.mmap",
+    "os.open",
+    "os.environ.get",
+    "os.write",
+    "sys.exit"
+  ],
+  "os.write": [],
+  "functools.partial": [],
+  "thefuck.entrypoints.alias": [],
+  "thefuck.entrypoints.alias._get_alias": [
+    "thefuck.logs.warn",
+    "thefuck.utils.which"
+  ],
+  "thefuck.entrypoints.alias.print_alias": [
+    "thefuck.entrypoints.alias._get_alias",
+    "<builtin>.print",
+    "thefuck.conf.Settings.init"
+  ],
+  "thefuck.entrypoints.main": [
+    "colorama.init",
+    "thefuck.system.win32.init_output"
+  ],
+  "thefuck.entrypoints.main.main": [
+    "thefuck.argument_parser.Parser.print_usage",
+    "thefuck.entrypoints.alias.print_alias",
+    "sys.version.split",
+    "thefuck.argument_parser.Parser.__init__",
+    "thefuck.entrypoints.fix_command.fix_command",
+    "thefuck.argument_parser.Parser.parse",
+    "thefuck.argument_parser.Parser.print_help",
+    "thefuck.utils.get_installation_version",
+    "thefuck.entrypoints.shell_logger.shell_logger"
+  ],
+  "thefuck.argument_parser.Parser.__init__": [
+    "thefuck.argument_parser.Parser._add_arguments",
+    "argparse.ArgumentParser"
+  ],
+  "thefuck.argument_parser.Parser.parse": [
+    "thefuck.argument_parser.Parser._prepare_arguments",
+    "argparse.ArgumentParser.parse_args"
+  ],
+  "thefuck.argument_parser.Parser.print_help": [
+    "argparse.ArgumentParser.print_help"
+  ],
+  "sys.version.split": [],
+  "thefuck.argument_parser.Parser.print_usage": [
+    "argparse.ArgumentParser.print_usage"
+  ],
+  "thefuck.argument_parser": [],
+  "argparse.ArgumentParser": [],
+  "thefuck.argument_parser.Parser._add_arguments": [
+    "thefuck.utils.get_alias",
+    "thefuck.argument_parser.Parser._add_conflicting_arguments",
+    "argparse.ArgumentParser.add_argument"
+  ],
+  "argparse.ArgumentParser.add_argument": [],
+  "thefuck.argument_parser.Parser._add_conflicting_arguments": [
+    "argparse.ArgumentParser.add_mutually_exclusive_group.add_argument",
+    "argparse.ArgumentParser.add_mutually_exclusive_group"
+  ],
+  "argparse.ArgumentParser.add_mutually_exclusive_group": [],
+  "argparse.ArgumentParser.add_mutually_exclusive_group.add_argument": [],
+  "thefuck.argument_parser.Parser._prepare_arguments": [],
+  "argparse.ArgumentParser.parse_args": [],
+  "argparse.ArgumentParser.print_usage": [],
+  "argparse.ArgumentParser.print_help": []
+}

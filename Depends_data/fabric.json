@@ -1,0 +1,78 @@
+{
+    "fabric.config.Config.global_defaults": [
+        "fabric.util.get_local_user"
+    ],
+    "fabric.connection.Connection.__exit__": [
+        "fabric.connection.Connection.close"
+    ],
+    "fabric.connection.Connection.__init__": [
+        "fabric.connection.Connection.resolve_connect_kwargs",
+        "fabric.connection.Connection.get_gateway",
+        "fabric.connection.Connection.derive_shorthand",
+        "fabric.config.Config.clone"
+    ],
+    "fabric.connection.Connection.open": [
+        "fabric.connection.Connection.open_gateway"
+    ],
+    "fabric.tunnels.Tunnel._run": [
+        "fabric.tunnels.Tunnel.read_and_write"
+    ],
+    "fabric.connection.Connection.put": [
+        "fabric.transfer.Transfer.put"
+    ],
+    "fabric.executor.FabExecutor.parameterize": [
+        "fabric.config.Config.clone"
+    ],
+    "fabric.integration.connection.Connection_.ssh_connections.close_method_closes_connection": [
+        "fabric.integration.connection.Connection_.ssh_connections.open_method_generates_real_connection"
+    ],
+    "fabric.config.Config._load_ssh_files": [
+        "fabric.config.Config._load_ssh_file"
+    ],
+    "fabric.connection.Connection.__hash__": [
+        "fabric.connection.Connection._identity"
+    ],
+    "fabric.integration.transfer.Transfer_.put.base_case": [
+        "fabric.integration.transfer._support"
+    ],
+    "fabric.group.GroupResult.failed": [
+        "fabric.group.GroupResult._bifurcate"
+    ],
+    "fabric.connection.Connection.get_gateway": [
+        "fabric.connection.Connection.derive_shorthand"
+    ],
+    "fabric.config.Config.__init__": [
+        "fabric.config.Config.set_runtime_ssh_path",
+        "fabric.config.Config.load_ssh_config"
+    ],
+    "fabric.connection.Connection.get": [
+        "fabric.transfer.Transfer.get"
+    ],
+    "fabric.connection.Connection.__eq__": [
+        "fabric.connection.Connection._identity"
+    ],
+    "fabric.config.Config.clone": [
+        "fabric.config.Config.load_ssh_config"
+    ],
+    "fabric.config.Config.load_ssh_config": [
+        "fabric.config.Config._load_ssh_files"
+    ],
+    "fabric.transfer.Transfer.put": [
+        "fabric.transfer.Transfer.is_remote_dir"
+    ],
+    "fabric.connection.Connection.__lt__": [
+        "fabric.connection.Connection._identity"
+    ],
+    "fabric.group.GroupResult.succeeded": [
+        "fabric.group.GroupResult._bifurcate"
+    ],
+    "fabric.integration.connection.Connection_.sudo.mixed_sudo_and_normal_commands": [
+        "fabric.integration.connection.skip_outside_travis"
+    ],
+    "fabric.integration.transfer.Transfer_.get.setup": [
+        "fabric.integration.transfer._support"
+    ],
+    "fabric.executor.FabExecutor.expand_calls": [
+        "fabric.executor.FabExecutor.parameterize"
+    ]
+}

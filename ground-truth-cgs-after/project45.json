@@ -1,0 +1,260 @@
+{
+  "furl.compat": [
+    "builtins.list"
+  ],
+  "furl.common": [
+    "builtins.object"
+  ],
+  "furl.furl.decorator": [
+    "six.iteritems",
+    "builtins.setattr"
+  ],
+  "furl.__init__": [
+    "dict.items",
+    "dict.update"
+  ],
+  "furl.furl.furl.__init__": [
+    "furl.furl.URLPathCompositionInterface.__init__",
+    "furl.furl.QueryCompositionInterface.__init__",
+    "furl.furl.FragmentCompositionInterface.__init__"
+  ],
+  "furl.furl.URLPathCompositionInterface.__init__": [
+    "furl.furl.PathCompositionInterface.__init__"
+  ],
+  "furl.furl.PathCompositionInterface.__init__": [
+    "furl.furl.Path"
+  ],
+  "furl.furl.Path.__init__": [
+    "furl.furl.Path.load"
+  ],
+  "furl.furl.Path.load": [
+    "furl.furl.URLPathCompositionInterface._force_absolute",
+    "furl.furl.quacks_like_a_path_with_segments",
+    "furl.common.is_iterable_but_not_string",
+    "furl.furl.Path._segments_from_path",
+    "furl.furl.Path.<lambda>",
+    "builtins.len",
+    "list.pop",
+    "furl.furl.FragmentPathCompositionInterface._force_absolute"
+  ],
+  "furl.furl.URLPathCompositionInterface._force_absolute": [
+    "builtins.bool"
+  ],
+  "furl.furl.Path.__bool__": [
+    "builtins.len"
+  ],
+  "furl.furl.Path.isabsolute": [
+    "furl.furl.URLPathCompositionInterface._force_absolute",
+    "furl.furl.Path.<lambda>",
+    "furl.furl.FragmentPathCompositionInterface._force_absolute"
+  ],
+  "furl.furl.furl.__setattr__": [
+    "furl.furl.PathCompositionInterface.__setattr__",
+    "furl.furl.QueryCompositionInterface.__setattr__",
+    "furl.furl.FragmentCompositionInterface.__setattr__",
+    "object.__setattr__"
+  ],
+  "furl.furl.QueryCompositionInterface.__init__": [
+    "furl.furl.Query"
+  ],
+  "furl.furl.Query.__init__": [
+    "furl.omdict1D.omdict1D",
+    "furl.furl.Query.load"
+  ],
+  "furl.furl.Query.load": [
+    "furl.furl.Query._items",
+    "orderedmultidict.orderedmultidict.omdict.load"
+  ],
+  "furl.furl.FragmentCompositionInterface.__init__": [
+    "furl.furl.Fragment"
+  ],
+  "furl.furl.quacks_like_a_path_with_segments": [
+    "builtins.hasattr"
+  ],
+  "furl.common.is_iterable_but_not_string": [
+    "furl.common.callable_attr",
+    "builtins.isinstance"
+  ],
+  "furl.common.callable_attr": [
+    "builtins.hasattr",
+    "builtins.getattr",
+    "builtins.callable"
+  ],
+  "furl.furl.Path._segments_from_path": [
+    "str.split",
+    "furl.furl.is_valid_encoded_path_segment",
+    "furl.furl.utf8",
+    "list.append",
+    "builtins.isinstance",
+    "bytes.decode",
+    "urllib.parse.unquote"
+  ],
+  "furl.furl.is_valid_encoded_path_segment": [
+    "Pattern.match"
+  ],
+  "furl.furl.utf8": [
+    "str.encode"
+  ],
+  "furl.furl.Path.__str__": [
+    "builtins.list",
+    "furl.furl.Path._path_from_segments",
+    "list.insert"
+  ],
+  "furl.furl.Path._path_from_segments": [
+    "furl.furl.attemptstr",
+    "furl.furl.utf8",
+    "urllib.parse.quote",
+    "str.join"
+  ],
+  "furl.furl.attemptstr": [
+    "builtins.str"
+  ],
+  "furl.furl.Path.__eq__": [
+    "builtins.str"
+  ],
+  "furl.furl.Path.__truediv__": [
+    "copy.deepcopy",
+    "furl.furl.Path.add"
+  ],
+  "furl.furl.Path.add": [
+    "furl.furl.quacks_like_a_path_with_segments",
+    "furl.common.is_iterable_but_not_string",
+    "furl.furl.Path._segments_from_path",
+    "furl.furl.join_path_segments",
+    "furl.furl.Path.load"
+  ],
+  "furl.furl.join_path_segments": [
+    "list.extend",
+    "builtins.len",
+    "list.pop",
+    "list.extend"
+  ],
+  "furl.furl.Path.normalize": [
+    "builtins.str"
+  ],
+  "furl.omdict1D.omdict1D._bin_update_items": [
+    "furl.common.is_iterable_but_not_string",
+    "list.append",
+    "dict.get",
+    "builtins.len",
+    "orderedmultidict.orderedmultidict.omdict.values",
+    "list.append"
+  ],
+  "furl.omdict1D.omdict1D.add": [
+    "furl.common.is_iterable_but_not_string",
+    "builtins.list",
+    "OrderedDict.setdefault",
+    "orderedmultidict.itemlist.itemlist.append",
+    "list.append"
+  ],
+  "furl.furl.Query.add": [
+    "furl.furl.Query._items"
+  ],
+  "furl.furl.Query.__eq__": [
+    "builtins.str"
+  ],
+  "furl.furl.Query.__str__": [
+    "furl.furl.Query.encode"
+  ],
+  "furl.furl.Query.encode": [
+    "furl.furl.create_quote_fn",
+    "furl.furl.create_quote_fn",
+    "orderedmultidict.orderedmultidict.omdict.iterallitems",
+    "str.join",
+    "furl.furl.attemptstr"
+  ],
+  "furl.furl.Query._items": [
+    "furl.common.callable_attr",
+    "furl.common.callable_attr",
+    "furl.common.callable_attr",
+    "furl.common.callable_attr",
+    "builtins.isinstance",
+    "furl.furl.Query._extract_items_from_querystr",
+    "dict.items",
+    "builtins.list"
+  ],
+  "furl.furl.Query._extract_items_from_querystr": [
+    "str.split"
+  ],
+  "furl.furl.Query.remove": [
+    "furl.common.callable_attr",
+    "furl.furl.non_string_iterable"
+  ],
+  "furl.furl.non_string_iterable": [
+    "furl.common.callable_attr"
+  ],
+  "furl.furl.Query.set": [
+    "orderedmultidict.orderedmultidict.omdict.updateall"
+  ],
+  "furl.furl.QueryCompositionInterface.__setattr__": [
+    "furl.furl.Query.load"
+  ],
+  "furl.furl.Fragment.__init__": [
+    "furl.furl.FragmentPathCompositionInterface.__init__",
+    "furl.furl.QueryCompositionInterface.__init__",
+    "furl.furl.Fragment.load"
+  ],
+  "furl.furl.FragmentPathCompositionInterface.__init__": [
+    "furl.furl.PathCompositionInterface.__init__"
+  ],
+  "furl.furl.Fragment.__setattr__": [
+    "furl.furl.PathCompositionInterface.__setattr__",
+    "furl.furl.QueryCompositionInterface.__setattr__",
+    "object.__setattr__"
+  ],
+  "furl.furl.is_valid_encoded_query_key": [
+    "Pattern.match"
+  ],
+  "furl.furl.is_valid_encoded_query_value": [
+    "Pattern.match"
+  ],
+  "furl.furl.is_valid_port": [
+    "builtins.str",
+    "str.isdigit",
+    "builtins.int"
+  ],
+  "furl.furl.is_valid_scheme": [
+    "Pattern.match"
+  ],
+  "furl.furl.remove_path_segments": [
+    "list.append",
+    "list.append",
+    "builtins.len",
+    "builtins.list",
+    "builtins.len",
+    "builtins.len",
+    "builtins.len",
+    "list.append",
+    "list.pop"
+  ],
+  "furl.furl.urlsplit": [
+    "furl.furl.get_scheme",
+    "urllib.parse.urlsplit",
+    "furl.furl.strip_scheme",
+    "str.startswith",
+    "urllib.parse.SplitResult"
+  ],
+  "furl.furl.get_scheme": [
+    "str.startswith",
+    "str.split",
+    "str.split",
+    "str.split",
+    "str.find",
+    "builtins.max"
+  ],
+  "furl.furl.strip_scheme": [
+    "furl.furl.get_scheme",
+    "builtins.len",
+    "str.startswith"
+  ],
+  "furl.omdict1D.omdict1D.__setitem__": [
+    "furl.omdict1D.omdict1D._set"
+  ],
+  "furl.omdict1D.omdict1D._set": [
+    "furl.common.is_iterable_but_not_string",
+    "orderedmultidict.orderedmultidict.omdict.setlist"
+  ],
+  "furl.omdict1D.omdict1D.set": [
+    "furl.omdict1D.omdict1D._set"
+  ]
+}

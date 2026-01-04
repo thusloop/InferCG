@@ -1,0 +1,1264 @@
+{
+  "funcy.calc": [
+    "funcy.calc._make_lookuper",
+    "funcy.calc._make_lookuper"
+  ],
+  "funcy.primitives": [
+    "funcy.primitives.EmptyType"
+  ],
+  "funcy._inspect": [
+    "str.split",
+    "dict.fromkeys",
+    "dict.update",
+    "str.split",
+    "dict.fromkeys",
+    "dict.update",
+    "str.split",
+    "dict.fromkeys",
+    "dict.update",
+    "dict.items",
+    "str.strip",
+    "dict.update",
+    "builtins.set",
+    "builtins.hasattr",
+    "collections.namedtuple"
+  ],
+  "funcy.strings": [
+    "re.compile",
+    "builtins.type"
+  ],
+  "funcy.types": [
+    "funcy.types.isa",
+    "funcy.types.isa",
+    "funcy.types.isa",
+    "funcy.types.isa",
+    "funcy.types.isa",
+    "funcy.types.isa",
+    "funcy.types.isa",
+    "funcy.types.isa",
+    "funcy.types.isa"
+  ],
+  "funcy.colls": [
+    "builtins.type",
+    "dict.keys",
+    "builtins.type",
+    "dict.values",
+    "builtins.type",
+    "dict.items",
+    "builtins.type"
+  ],
+  "funcy.decorators.decorator": [
+    "funcy.decorators.has_single_arg",
+    "funcy.decorators.has_1pos_and_kwonly",
+    "funcy.decorators.wraps",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function retry at 0x7f92cb061120>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function post_processing at 0x7f92cb1aa7a0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function joining at 0x7f92cb1a9f30>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function wrap_with at 0x7f92cb271fc0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function log_calls at 0x7f92cb063250>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function log_enters at 0x7f92cb32f760>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function log_exits at 0x7f92cb0639a0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "funcy.decorators.make_decorator",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_with_args.<locals>.add at 0x7f92ca9b4790>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_kw_only_args.<locals>.add at 0x7f92ca9b4e50>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_introspection.<locals>.decor at 0x7f92ca9b4e50>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))"
+  ],
+  "funcy.decorators.has_single_arg": [
+    "inspect.signature",
+    "builtins.len",
+    "mappingproxy.values",
+    "builtins.iter",
+    "builtins.next"
+  ],
+  "funcy.decorators.has_1pos_and_kwonly": [
+    "inspect.signature",
+    "mappingproxy.values"
+  ],
+  "funcy.decorators.wraps": [
+    "functools.partial"
+  ],
+  "funcy.decorators.update_wrapper": [
+    "builtins.getattr",
+    "builtins.setattr",
+    "builtins.getattr",
+    "dict.update",
+    "builtins.getattr",
+    "inspect.unwrap"
+  ],
+  "funcy.flow": [
+    "funcy.flow.post_processing",
+    "funcy.flow.once_per"
+  ],
+  "funcy.decorators.decorator_fab": [
+    "funcy.decorators.make_decorator",
+    "funcy.decorators.make_decorator",
+    "funcy.decorators.make_decorator"
+  ],
+  "funcy.debug": [
+    "funcy.debug.log_errors",
+    "funcy.debug.log_durations"
+  ],
+  "funcy.debug.log_errors.__init__": [
+    "funcy.debug.LabeledContextDecorator.__init__"
+  ],
+  "funcy.debug.log_durations.__init__": [
+    "funcy.debug.LabeledContextDecorator.__init__"
+  ],
+  "funcy.seqs.lcat": [
+    "chain.from_iterable",
+    "builtins.list"
+  ],
+  "funcy.py2": [
+    "dict.get",
+    "dict.items",
+    "builtins.getattr",
+    "builtins.setattr"
+  ],
+  "funcy.calc.memoize": [
+    "builtins.len",
+    "funcy.calc.memoize",
+    "dict.pop",
+    "funcy.calc._memory_decorator",
+    "funcy.calc._memory_decorator.<locals>.decorator"
+  ],
+  "funcy.calc.wrapper": [
+    "tests.test_calc.test_memoize.<locals>.inc",
+    "dict.items",
+    "builtins.sorted",
+    "builtins.tuple",
+    "tests.test_calc.test_memoize_args_kwargs.<locals>.mul",
+    "tests.test_calc.test_memoize_memory.<locals>.inc",
+    "builtins.len",
+    "tests.test_calc.test_memoize_key_func.<locals>.inc",
+    "builtins.object",
+    "tests.test_calc.test_make_lookuper.<locals>.letter_index",
+    "dict.update",
+    "builtins.LookupError",
+    "funcy.calc._make_lookuper.<locals>.make_lookuper.<locals>.wrapper",
+    "builtins.map",
+    "str.join",
+    "funcy.calc._make_lookuper.<locals>.make_lookuper",
+    "funcy.calc._make_lookuper.<locals>.make_lookuper.<locals>.wrapper.<locals>.<lambda>",
+    "tests.test_calc.test_make_lookuper_nested.<locals>.function_table",
+    "tests.test_calc.test_silent_lookuper.<locals>.letter_index",
+    "dict.get",
+    "tests.test_calc.test_silnent_lookuper_nested.<locals>.function_table",
+    "tests.test_calc.test_cache.<locals>.inc",
+    "tests.test_calc.test_cache_mixed_args.<locals>.add",
+    "tests.test_calc.test_cache_timedout.<locals>.inc",
+    "tests.test_calc.test_cache_invalidate.<locals>.inc"
+  ],
+  "funcy.calc.make_lookuper": [
+    "funcy.calc.has_arg_types",
+    "funcy.decorators.wraps",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_make_lookuper.<locals>.letter_index at 0x7f92caec2290>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_make_lookuper_nested.<locals>.function_table at 0x7f92caec2290>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_lookuper.<locals>.make_lookuper.<locals>.wrapper.<locals>.<lambda> at 0x7f92cadaa320>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_lookuper.<locals>.make_lookuper.<locals>.wrapper.<locals>.<lambda> at 0x7f92cada91b0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_silent_lookuper.<locals>.letter_index at 0x7f92caec2290>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_silnent_lookuper_nested.<locals>.function_table at 0x7f92caec2290>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_lookuper.<locals>.make_lookuper.<locals>.wrapper.<locals>.<lambda> at 0x7f92cadabd90>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_lookuper.<locals>.make_lookuper.<locals>.wrapper.<locals>.<lambda> at 0x7f92caec2680>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))"
+  ],
+  "funcy.calc.has_arg_types": [
+    "inspect.signature",
+    "mappingproxy.values"
+  ],
+  "funcy.calc.cache": [
+    "builtins.isinstance",
+    "funcy.calc.CacheMemory",
+    "funcy.calc._memory_decorator",
+    "timedelta.total_seconds"
+  ],
+  "funcy.calc.CacheMemory.__init__": [
+    "funcy.calc.CacheMemory.clear"
+  ],
+  "funcy.calc.CacheMemory.clear": [
+    "dict.clear",
+    "collections.deque",
+    "collections.deque"
+  ],
+  "funcy.calc.CacheMemory.__getitem__": [
+    "dict.__getitem__",
+    "time.time",
+    "funcy.calc.CacheMemory.expire",
+    "builtins.KeyError"
+  ],
+  "funcy.calc.CacheMemory.__setitem__": [
+    "time.time",
+    "dict.__setitem__",
+    "deque.append",
+    "deque.append"
+  ],
+  "funcy.calc.CacheMemory.expire": [
+    "time.time",
+    "_bisect.bisect_right",
+    "builtins.range",
+    "deque.popleft",
+    "deque.popleft",
+    "CacheMemory.pop"
+  ],
+  "funcy.calc.invalidate_all": [
+    "funcy.calc.CacheMemory.clear"
+  ],
+  "funcy.calc.invalidate": [
+    "CacheMemory.pop"
+  ],
+  "funcy.colls.empty": [
+    "builtins.isinstance",
+    "funcy.colls._factory",
+    "builtins.dict",
+    "functools.partial(<class collections.defaultdict>, <class int>)",
+    "builtins.iter",
+    "builtins.list"
+  ],
+  "funcy.colls._factory": [
+    "builtins.type",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "functools.partial",
+    "builtins.str",
+    "funcy.funcs.compose"
+  ],
+  "funcy.colls.iteritems": [
+    "builtins.hasattr",
+    "dict.items",
+    "defaultdict.items"
+  ],
+  "funcy.colls.itervalues": [
+    "builtins.hasattr",
+    "dict.values"
+  ],
+  "funcy.colls.merge": [
+    "funcy.colls.join"
+  ],
+  "funcy.colls.join": [
+    "itertools.tee",
+    "builtins.iter",
+    "builtins.next",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "dict.copy",
+    "dict.update",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.TypeError",
+    "str.join",
+    "chain.from_iterable",
+    "builtins.list",
+    "builtins.tuple",
+    "set.union",
+    "chain.from_iterable",
+    "defaultdict.copy",
+    "defaultdict.update"
+  ],
+  "funcy.colls.merge_with": [
+    "funcy.colls.join_with"
+  ],
+  "funcy.colls.join_with": [
+    "builtins.list",
+    "builtins.len",
+    "funcy.colls.iteritems",
+    "list.append",
+    "funcy.colls.iteritems",
+    "builtins.sum"
+  ],
+  "funcy.colls.walk": [
+    "funcy.colls._factory",
+    "funcy.colls.iteritems",
+    "funcy.seqs.map",
+    "builtins.list",
+    "builtins.tuple",
+    "builtins.set",
+    "builtins.dict",
+    "builtins.iter",
+    "str.join"
+  ],
+  "funcy.seqs.map": [
+    "funcy.funcmakers.make_func",
+    "builtins.map"
+  ],
+  "funcy.funcmakers.make_func": [
+    "builtins.callable",
+    "builtins.isinstance",
+    "funcy.strings.re_finder",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "funcy.strings.re_tester",
+    "operator.itemgetter"
+  ],
+  "funcy.strings.re_finder": [
+    "funcy.strings._prepare",
+    "Pattern.search",
+    "funcy.strings.re_finder.<locals>.<lambda>",
+    "operator.methodcaller(group)",
+    "operator.methodcaller(group, 1)",
+    "operator.methodcaller(groups)",
+    "operator.methodcaller(groupdict)"
+  ],
+  "funcy.strings._prepare": [
+    "builtins.isinstance",
+    "re.compile",
+    "funcy.strings._make_getter"
+  ],
+  "funcy.strings._make_getter": [
+    "operator.methodcaller",
+    "operator.methodcaller",
+    "operator.methodcaller",
+    "builtins.len",
+    "operator.methodcaller"
+  ],
+  "funcy.colls.walk_keys": [
+    "funcy.funcmakers.make_func",
+    "funcy.colls.walk"
+  ],
+  "funcy.colls.pair_f": [
+    "str.upper",
+    "funcy.strings.re_finder.<locals>.<lambda>",
+    "funcy.strings.re_finder.<locals>.<lambda>",
+    "builtins.len"
+  ],
+  "funcy.colls.walk_values": [
+    "funcy.funcmakers.make_func",
+    "funcy.colls._factory",
+    "funcy.colls.iteritems",
+    "funcy.seqs.map",
+    "builtins.dict",
+    "functools.partial(<class collections.defaultdict>, <function compose.<locals>.<lambda>.<locals>.<lambda> at 0x7f92caec3c70>)"
+  ],
+  "funcy.funcs.compose": [
+    "builtins.map",
+    "_functools.reduce",
+    "tests.test_colls.test_walk_values_defaultdict.<locals>.<lambda>",
+    "builtins.len",
+    "funcy.funcs.juxt.<locals>.<lambda>",
+    "builtins.all",
+    "builtins.any",
+    "funcy.colls.none",
+    "funcy.colls.one",
+    "funcy.colls.some",
+    "funcy.funcs.compose.<locals>.<lambda>.<locals>.<lambda>",
+    "builtins.str",
+    "funcy.strings.re_finder.<locals>.<lambda>",
+    "builtins.int",
+    "funcy.funcs.identity",
+    "_operator.not_"
+  ],
+  "funcy.colls.select": [
+    "funcy.colls._factory",
+    "funcy.colls.iteritems",
+    "funcy.seqs.filter",
+    "builtins.list",
+    "builtins.tuple",
+    "builtins.set",
+    "builtins.dict",
+    "functools.partial(<class collections.defaultdict>, <class int>)",
+    "str.join"
+  ],
+  "funcy.seqs.filter": [
+    "funcy.funcmakers.make_pred",
+    "builtins.filter"
+  ],
+  "funcy.funcmakers.make_pred": [
+    "funcy.funcmakers.make_func"
+  ],
+  "funcy.strings.re_tester": [
+    "builtins.isinstance",
+    "re.compile",
+    "Pattern.search",
+    "builtins.bool"
+  ],
+  "funcy.colls.select_keys": [
+    "funcy.funcmakers.make_pred",
+    "funcy.colls.select",
+    "funcy.strings.re_tester.<locals>.<lambda>"
+  ],
+  "funcy.colls.select_values": [
+    "funcy.funcmakers.make_pred",
+    "funcy.colls.select",
+    "funcy.strings.re_tester.<locals>.<lambda>",
+    "builtins.bool"
+  ],
+  "funcy.colls.compact": [
+    "builtins.isinstance",
+    "funcy.colls.select",
+    "funcy.colls.select_values"
+  ],
+  "funcy.colls.is_distinct": [
+    "builtins.len",
+    "builtins.set",
+    "builtins.len",
+    "funcy.seqs.map",
+    "builtins.set"
+  ],
+  "funcy.colls.all": [
+    "builtins.all",
+    "funcy.seqs.map",
+    "builtins.all"
+  ],
+  "funcy.colls.any": [
+    "builtins.any",
+    "funcy.seqs.map",
+    "builtins.any"
+  ],
+  "funcy.colls.one": [
+    "funcy.colls.one",
+    "funcy.seqs.filter",
+    "funcy.seqs.take",
+    "builtins.len"
+  ],
+  "funcy.seqs.take": [
+    "itertools.islice",
+    "builtins.list"
+  ],
+  "funcy.colls.none": [
+    "funcy.colls.any"
+  ],
+  "funcy.colls.some": [
+    "funcy.colls.some",
+    "funcy.seqs.filter",
+    "builtins.next"
+  ],
+  "funcy.colls.zipdict": [
+    "builtins.zip",
+    "builtins.dict"
+  ],
+  "funcy.colls.flip": [
+    "funcy.colls.walk"
+  ],
+  "funcy.colls.project": [
+    "funcy.colls._factory"
+  ],
+  "funcy.colls.omit": [
+    "funcy.colls._factory",
+    "funcy.colls.iteritems"
+  ],
+  "funcy.colls.zip_values": [
+    "builtins.len",
+    "builtins.map",
+    "set.intersection",
+    "builtins.TypeError"
+  ],
+  "funcy.colls.zip_dicts": [
+    "builtins.len",
+    "builtins.map",
+    "set.intersection",
+    "builtins.TypeError"
+  ],
+  "funcy.colls.set_in": [
+    "funcy.colls.update_in"
+  ],
+  "funcy.colls.update_in": [
+    "builtins.isinstance",
+    "dict.copy",
+    "builtins.len",
+    "dict.get",
+    "funcy.colls.update_in",
+    "funcy.colls.set_in.<locals>.<lambda>",
+    "funcy.colls.update_in",
+    "builtins.len",
+    "tests.test_colls.inc"
+  ],
+  "funcy.colls.del_in": [
+    "copy.copy",
+    "builtins.len",
+    "funcy.colls.del_in"
+  ],
+  "funcy.colls.where": [
+    "dict.items",
+    "builtins.filter"
+  ],
+  "funcy.colls.lwhere": [
+    "funcy.colls.where",
+    "builtins.list"
+  ],
+  "funcy.colls.lpluck": [
+    "funcy.colls.pluck",
+    "builtins.list"
+  ],
+  "funcy.colls.pluck": [
+    "operator.itemgetter",
+    "builtins.map"
+  ],
+  "funcy.colls.lpluck_attr": [
+    "funcy.colls.pluck_attr",
+    "builtins.list"
+  ],
+  "funcy.colls.pluck_attr": [
+    "operator.attrgetter",
+    "builtins.map"
+  ],
+  "funcy.colls.linvoke": [
+    "funcy.colls.invoke",
+    "builtins.list"
+  ],
+  "funcy.colls.invoke": [
+    "operator.methodcaller",
+    "builtins.map"
+  ],
+  "funcy.debug.tap": [
+    "builtins.print",
+    "builtins.print"
+  ],
+  "funcy.decorators._decorator": [
+    "funcy.decorators.wraps",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_log_calls.<locals>.f at 0x7f92cada97e0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_print_calls.<locals>.f at 0x7f92cad8eb00>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_log_calls_raise.<locals>.f at 0x7f92caa9e560>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_no_args.<locals>.ten at 0x7f92ca9b6440>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_with_args.<locals>.ten at 0x7f92ca9b5120>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_kw_only_args.<locals>.ten at 0x7f92cadaa560>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_access_arg.<locals>.square at 0x7f92ca7f5bd0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_access_nonexistent_arg.<locals>.f at 0x7f92ca7f7910>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_required_arg.<locals>.f at 0x7f92ca7f6b00>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_double_decorator_defaults.<locals>.f at 0x7f92ca7f7e20>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_double_decorator_defaults.<locals>.f at 0x7f92ca7f57e0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_defaults.<locals>.f at 0x7f92ca939000>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<bound method test_decorator_with_method.<locals>.A.ten of <tests.test_decorators.test_decorator_with_method.<locals>.A object at 0x7f92cb1944c0>>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<bound method test_decorator_with_method.<locals>.A.ten_cls of <class tests.test_decorators.test_decorator_with_method.<locals>.A>>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_decorator_with_method.<locals>.A.ten_static at 0x7f92ca55f9a0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<method upper of str objects>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_chain_arg_access.<locals>.func at 0x7f92ca7f6b90>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_chain_arg_access.<locals>.func at 0x7f92ca7f6ef0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_meta_attribtes.<locals>.func at 0x7f92ca55f760>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_meta_attribtes.<locals>.func at 0x7f92ca55ff40>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_failing.<locals>.failing at 0x7f92ca9b4e50>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_failing.<locals>.failing at 0x7f92caa84550>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_retry_timeout.<locals>.failing at 0x7f92ca62ee60>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_failing.<locals>.failing at 0x7f92ca56b9a0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_failing.<locals>.failing at 0x7f92ca84e200>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_failing.<locals>.failing at 0x7f92ca82c940>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function _make_failing.<locals>.failing at 0x7f92ca55c550>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_post_processing.<locals>.my_max at 0x7f92ca55f490>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_collecting.<locals>.doubles at 0x7f92ca84e8c0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))",
+    "functools.partial(<function update_wrapper at 0x7f92cba288b0>, wrapped=<function test_wrap_with.<locals>.calc at 0x7f92ca84e0e0>, assigned=(__module__, __name__, __qualname__, __doc__, __annotations__), updated=(__dict__,))"
+  ],
+  "funcy.decorators.wrapper": [
+    "funcy.decorators.Call",
+    "funcy.debug.log_calls",
+    "tests.test_decorators.test_decorator_no_args.<locals>.inc",
+    "tests.test_decorators.test_decorator_with_args.<locals>.add",
+    "tests.test_decorators.test_decorator_kw_only_args.<locals>.add",
+    "tests.test_decorators.test_decorator_access_arg.<locals>.multiply",
+    "tests.test_decorators.test_decorator_access_nonexistent_arg.<locals>.return_x",
+    "tests.test_decorators.test_decorator_required_arg.<locals>.deco",
+    "tests.test_decorators.test_double_decorator_defaults.<locals>.deco",
+    "tests.test_decorators.test_decorator_defaults.<locals>.deco",
+    "tests.test_decorators.test_decorator_with_method.<locals>.inc",
+    "tests.test_decorators.test_decorator_with_method_descriptor.<locals>.exclaim",
+    "tests.test_decorators.test_chain_arg_access.<locals>.decor",
+    "funcy.flow.retry",
+    "funcy.flow.post_processing",
+    "funcy.flow.wrap_with"
+  ],
+  "funcy.debug.log_calls": [
+    "funcy.debug.signature_repr",
+    "list.append",
+    "test_log_calls.<locals>.f(1, 2)",
+    "funcy.debug.smart_repr",
+    "list.append",
+    "test_log_calls.<locals>.f(a, b)",
+    "funcy.debug._format_error",
+    "list.append",
+    "builtins.print",
+    "test_print_calls.<locals>.f(1, 2)",
+    "builtins.print",
+    "test_log_calls_raise.<locals>.f()"
+  ],
+  "funcy.debug.signature_repr": [
+    "builtins.isinstance",
+    "builtins.getattr",
+    "dict.items",
+    "itertools.chain",
+    "str.join",
+    "funcy.debug.smart_repr"
+  ],
+  "funcy.debug.smart_repr": [
+    "builtins.isinstance",
+    "builtins.str",
+    "re.sub",
+    "builtins.len",
+    "builtins.repr"
+  ],
+  "funcy.decorators.Call.__getattr__": [
+    "funcy.decorators.arggetter",
+    "funcy.decorators.arggetter.<locals>.get_arg",
+    "builtins.AttributeError"
+  ],
+  "funcy.decorators.arggetter": [
+    "builtins.getattr",
+    "inspect.unwrap",
+    "funcy.decorators.get_argnames",
+    "builtins.enumerate",
+    "builtins.len",
+    "builtins.zip",
+    "builtins.dict"
+  ],
+  "funcy.decorators.get_argnames": [
+    "builtins.getattr",
+    "inspect.unwrap"
+  ],
+  "funcy.decorators.get_arg": [
+    "builtins.TypeError",
+    "builtins.len",
+    "builtins.TypeError"
+  ],
+  "funcy.decorators.Call.__str__": [
+    "builtins.str",
+    "builtins.getattr",
+    "builtins.map",
+    "builtins.list",
+    "dict.items",
+    "str.join"
+  ],
+  "funcy.decorators.Call.__call__": [
+    "tests.test_debug.test_log_calls.<locals>.f",
+    "tests.test_debug.test_print_calls.<locals>.f",
+    "tests.test_debug.test_log_calls_raise.<locals>.f",
+    "tests.test_decorators.test_decorator_no_args.<locals>.ten",
+    "tests.test_decorators.test_decorator_with_args.<locals>.ten",
+    "tests.test_decorators.test_decorator_kw_only_args.<locals>.ten",
+    "tests.test_decorators.test_decorator_access_arg.<locals>.square",
+    "tests.test_decorators.test_decorator_with_method.<locals>.A.ten",
+    "tests.test_decorators.test_decorator_with_method.<locals>.A.ten_cls",
+    "tests.test_decorators.test_decorator_with_method.<locals>.A.ten_static",
+    "str.upper",
+    "tests.test_decorators.test_chain_arg_access.<locals>.func",
+    "tests.test_flow._make_failing.<locals>.failing",
+    "tests.test_flow.test_retry_timeout.<locals>.failing",
+    "tests.test_flow.test_post_processing.<locals>.my_max",
+    "tests.test_flow.test_collecting.<locals>.doubles",
+    "tests.test_flow.test_wrap_with.<locals>.calc"
+  ],
+  "funcy.debug._format_error": [
+    "builtins.isinstance"
+  ],
+  "funcy.debug.print_calls": [
+    "builtins.callable",
+    "funcy.debug.log_calls",
+    "funcy.debug.log_calls"
+  ],
+  "funcy.flow.silent": [
+    "funcy.flow.ignore",
+    "funcy.flow.ignore.<locals>.decorator"
+  ],
+  "funcy.flow.ignore": [
+    "funcy.flow._ensure_exceptable"
+  ],
+  "funcy.flow._ensure_exceptable": [
+    "funcy.flow._is_exception_type",
+    "builtins.tuple"
+  ],
+  "funcy.flow._is_exception_type": [
+    "builtins.isinstance",
+    "builtins.issubclass"
+  ],
+  "funcy.flow.wrapper": [
+    "tests.test_debug.test_log_calls_raise.<locals>.f",
+    "tests.test_debug.test_log_errors.<locals>.f",
+    "tests.test_debug.test_print_errors.<locals>.error",
+    "tests.test_debug.test_print_errors_manager.<locals>.f",
+    "tests.test_debug.test_print_errors_recursion.<locals>.f",
+    "builtins.int",
+    "str.upper",
+    "funcy.flow.raiser.<locals>._raiser",
+    "tests.test_flow.test_limit_error_rate.<locals>.limited",
+    "datetime.now",
+    "datetime.now",
+    "tests.test_flow.test_throttle.<locals>.<lambda>",
+    "tests.test_flow.test_throttle.<locals>.throttled",
+    "time.time",
+    "tests.test_flow.test_throttle_class.<locals>.A.foo",
+    "builtins.isinstance",
+    "set.add",
+    "tests.test_flow.test_once.<locals>.call",
+    "funcy.decorators.arggetter.<locals>.get_arg",
+    "tests.test_flow.test_once_per.<locals>.call",
+    "tests.test_flow.test_once_per_args.<locals>.call"
+  ],
+  "funcy.debug.LabeledContextDecorator.__call__": [
+    "builtins.callable",
+    "funcy.debug.LabeledContextDecorator.decorator",
+    "funcy.debug.log_errors"
+  ],
+  "funcy.debug.LabeledContextDecorator.inner": [
+    "object.__new__",
+    "dict.update",
+    "funcy.decorators.Call",
+    "funcy.debug.signature_repr",
+    "tests.test_debug.test_log_errors.<locals>.f",
+    "tests.test_debug.test_print_errors.<locals>.error",
+    "tests.test_debug.test_print_errors_recursion.<locals>.f",
+    "tests.test_debug.test_log_durations.<locals>.<lambda>",
+    "tests.test_debug.test_log_durations_ex.<locals>.<lambda>"
+  ],
+  "funcy.debug.log_errors.__exit__": [
+    "traceback.format_exception",
+    "str.join",
+    "funcy.debug._format_error",
+    "list.append",
+    "builtins.print"
+  ],
+  "funcy.debug.log_durations.__enter__": [
+    "tests.test_debug.test_log_durations.<locals>.<lambda>",
+    "tests.test_debug.test_log_durations_ex.<locals>.<lambda>"
+  ],
+  "funcy.debug.log_durations.__exit__": [
+    "tests.test_debug.test_log_durations.<locals>.<lambda>",
+    "funcy.debug.format_time",
+    "list.append",
+    "tests.test_debug.test_log_durations_ex.<locals>.<lambda>",
+    "funcy.debug.<lambda>"
+  ],
+  "funcy.seqs.lmap": [
+    "funcy.funcmakers.make_func",
+    "funcy.compat.lmap"
+  ],
+  "funcy.compat.lmap": [
+    "builtins.map",
+    "builtins.list"
+  ],
+  "funcy.debug.log_iter_durations": [
+    "builtins.iter",
+    "builtins.enumerate",
+    "time.perf_counter",
+    "time.perf_counter",
+    "funcy.debug.format_time",
+    "list.append"
+  ],
+  "funcy.flow.raiser": [
+    "builtins.isinstance",
+    "builtins.Exception"
+  ],
+  "funcy.flow._raiser": [
+    "tests.test_flow.MyError"
+  ],
+  "funcy.flow.reraise": [
+    "funcy.flow._ensure_exceptable",
+    "builtins.callable",
+    "funcy.flow._is_exception_type",
+    "funcy.compat.raise_from",
+    "tests.test_flow.test_reraise.<locals>.<lambda>"
+  ],
+  "funcy.flow.retry": [
+    "funcy.flow._ensure_exceptable",
+    "builtins.range",
+    "_make_failing.<locals>.failing()",
+    "builtins.callable",
+    "test_retry_timeout.<locals>.failing()",
+    "list.append",
+    "tests.test_flow.test_retry_filter.<locals>.<lambda>"
+  ],
+  "funcy.flow.fallback": [
+    "builtins.callable",
+    "funcy.flow._ensure_exceptable",
+    "funcy.flow.raiser.<locals>._raiser",
+    "tests.test_flow.test_fallback.<locals>.<lambda>"
+  ],
+  "funcy.flow.limit_error_rate": [
+    "builtins.isinstance",
+    "datetime.timedelta"
+  ],
+  "funcy.flow.throttle": [
+    "builtins.isinstance",
+    "timedelta.total_seconds"
+  ],
+  "funcy.flow.post_processing": [
+    "test_post_processing.<locals>.my_max([1, 3, 2])",
+    "builtins.max",
+    "test_collecting.<locals>.doubles([1, 2])",
+    "builtins.list"
+  ],
+  "funcy.flow.once": [
+    "_thread.allocate_lock",
+    "builtins.set",
+    "builtins.list",
+    "funcy.decorators.arggetter"
+  ],
+  "funcy.flow.once_per_args": [
+    "funcy.decorators.get_argnames",
+    "funcy.flow.once_per",
+    "funcy.flow.once_per.<locals>.once"
+  ],
+  "funcy.flow.wrap_with": [
+    "test_wrap_with.<locals>.calc()"
+  ],
+  "funcy.funcolls.all_fn": [
+    "funcy.funcs.juxt",
+    "funcy.funcs.compose"
+  ],
+  "funcy.funcs.juxt": [
+    "builtins.map",
+    "builtins.list",
+    "funcy.funcmakers.make_func.<locals>.<lambda>",
+    "set.__contains__"
+  ],
+  "funcy.compat.lfilter": [
+    "builtins.filter",
+    "builtins.list"
+  ],
+  "funcy.funcolls.any_fn": [
+    "funcy.funcs.juxt",
+    "funcy.funcs.compose"
+  ],
+  "funcy.funcolls.none_fn": [
+    "funcy.funcs.juxt",
+    "funcy.funcs.compose"
+  ],
+  "funcy.funcolls.one_fn": [
+    "funcy.funcs.juxt",
+    "funcy.funcs.compose"
+  ],
+  "funcy.funcolls.some_fn": [
+    "funcy.funcs.juxt",
+    "funcy.funcs.compose"
+  ],
+  "funcy.funcs.caller": [
+    "builtins.sum"
+  ],
+  "funcy.funcs.func_partial": [
+    "builtins.dict",
+    "tests.test_funcs.test_func_partial.<locals>.A.<lambda>"
+  ],
+  "funcy.funcs.rpartial": [
+    "builtins.dict",
+    "_operator.sub",
+    "builtins.pow",
+    "tests.test_funcs.test_rpartial.<locals>.<lambda>",
+    "tests.test_funcs.test_rcurry.<locals>.<lambda>"
+  ],
+  "funcy.funcs.curry": [
+    "funcy._inspect.get_spec",
+    "_operator.add",
+    "functools.partial",
+    "funcy.funcs.curry",
+    "functools.partial(<function test_curry.<locals>.<lambda> at 0x7f92ca82d2d0>, a)",
+    "funcy.seqs.lmap",
+    "funcy.colls.merge_with"
+  ],
+  "funcy._inspect.get_spec": [
+    "builtins.getattr",
+    "inspect.unwrap",
+    "builtins.getattr",
+    "builtins.isinstance",
+    "builtins.len",
+    "builtins.set",
+    "builtins.set",
+    "builtins.bool",
+    "dynapyt.runtime.Spec",
+    "dict.get",
+    "str.partition",
+    "re.findall",
+    "builtins.len",
+    "builtins.len",
+    "builtins.set",
+    "dynapyt.runtime.Spec",
+    "builtins.hasattr",
+    "builtins.getattr",
+    "funcy._inspect.get_spec",
+    "builtins.set",
+    "collections.Spec._replace",
+    "funcy._inspect.get_spec"
+  ],
+  "funcy.funcs.rcurry": [
+    "_operator.sub",
+    "funcy._inspect.get_spec",
+    "funcy.funcs.rpartial",
+    "funcy.funcs.rcurry",
+    "funcy.funcs.rpartial.<locals>.<lambda>",
+    "str.endswith"
+  ],
+  "funcy.funcs.autocurry": [
+    "funcy._inspect.get_spec"
+  ],
+  "funcy.funcs.autocurried": [
+    "dict.copy",
+    "dict.update",
+    "builtins.len",
+    "builtins.len",
+    "builtins.set",
+    "builtins.len",
+    "builtins.set",
+    "funcy.funcs.autocurry",
+    "tests.test_funcs.test_autocurry.<locals>.<lambda>",
+    "tests.test_funcs.test_autocurry_named.<locals>.<lambda>",
+    "tests.test_funcs.test_autocurry_named.<locals>.<lambda>",
+    "tests.test_funcs.test_autocurry_kwargs.<locals>.<lambda>",
+    "tests.test_funcs.test_autocurry_kwargs.<locals>.<lambda>",
+    "tests.test_funcs.test_autocurry_kwargs.<locals>.<lambda>",
+    "builtins.complex",
+    "funcy.seqs.lmap",
+    "builtins.int",
+    "tests.test_funcs.test_autocurry_hard.<locals>.required_star",
+    "funcy.funcs.autocurry",
+    "tests.test_funcs.test_autocurry_hard.<locals>.required_star",
+    "builtins.iter",
+    "builtins.iter",
+    "funcy.seqs.keep",
+    "funcy.seqs.keep",
+    "tests.test_funcs.test_autocurry_class.<locals>.A"
+  ],
+  "funcy.seqs.keep": [
+    "builtins.filter",
+    "funcy.seqs.map",
+    "builtins.filter"
+  ],
+  "funcy.funcs.rcompose": [
+    "builtins.reversed",
+    "funcy.funcs.compose"
+  ],
+  "funcy.funcs.complement": [
+    "funcy.funcs.compose"
+  ],
+  "funcy.funcs.ljuxt": [
+    "builtins.map",
+    "builtins.list",
+    "_operator.add",
+    "_operator.sub"
+  ],
+  "funcy.funcs.iffy": [
+    "funcy.funcmakers.make_pred",
+    "funcy.funcmakers.make_func",
+    "builtins.callable",
+    "funcy.funcs.identity",
+    "funcy.funcs.iffy",
+    "builtins.bool",
+    "set.__contains__",
+    "funcy.strings.re_tester.<locals>.<lambda>",
+    "str.upper",
+    "funcy.funcmakers.make_func.<locals>.<lambda>"
+  ],
+  "funcy.seqs.count_reps": [
+    "collections.defaultdict"
+  ],
+  "funcy.types.isa": [
+    "builtins.isinstance"
+  ],
+  "funcy.objects.cached_property.__init__": [
+    "builtins.getattr"
+  ],
+  "funcy.objects.cached_property.__get__": [
+    "tests.test_objects.test_cached_property.<locals>.A.prop",
+    "tests.test_objects.test_cached_readonly.<locals>.A.prop",
+    "tests.test_objects.test_wrap_prop.<locals>.A.cached_prop"
+  ],
+  "funcy.objects.cached_readonly.__set__": [
+    "builtins.AttributeError"
+  ],
+  "funcy.objects.WrapperProp.decorator": [
+    "builtins.hasattr",
+    "builtins.hasattr"
+  ],
+  "funcy.objects.decorator": [
+    "funcy.objects.wrap_prop.<locals>.decorator.<locals>.WrapperProp",
+    "builtins.getattr",
+    "funcy.strings.cut_prefix",
+    "builtins.getattr",
+    "builtins.setattr"
+  ],
+  "funcy.objects.WrapperProp.__get__": [
+    "property.__get__",
+    "funcy.objects.cached_property.__get__"
+  ],
+  "funcy.objects.WrapperProp.__set__": [
+    "property.__set__"
+  ],
+  "funcy.objects.monkey": [
+    "inspect.isclass",
+    "inspect.ismodule"
+  ],
+  "funcy.strings.cut_prefix": [
+    "str.startswith",
+    "builtins.len"
+  ],
+  "funcy.objects.LazyObject.__getattr__": [
+    "funcy.objects.LazyObject._setup",
+    "builtins.getattr"
+  ],
+  "funcy.objects.LazyObject._setup": [
+    "tests.test_objects.test_lazy_object.<locals>.A",
+    "object.__setattr__",
+    "object.__setattr__"
+  ],
+  "funcy.seqs.repeatedly": [
+    "itertools.repeat",
+    "tests.test_seqs.test_repeatedly.<locals>.<lambda>"
+  ],
+  "funcy.seqs.iterate": [
+    "<whatever.WhateverCodeCall object at 0x7f92cadf8940"
+  ],
+  "funcy.seqs.drop": [
+    "itertools.islice"
+  ],
+  "funcy.seqs.first": [
+    "builtins.iter",
+    "builtins.next"
+  ],
+  "funcy.seqs.second": [
+    "funcy.seqs.rest",
+    "funcy.seqs.first"
+  ],
+  "funcy.seqs.rest": [
+    "funcy.seqs.drop"
+  ],
+  "funcy.seqs.nth": [
+    "itertools.islice",
+    "builtins.next"
+  ],
+  "funcy.seqs.butlast": [
+    "builtins.iter",
+    "builtins.next"
+  ],
+  "funcy.seqs.ilen": [
+    "itertools.count",
+    "builtins.zip",
+    "collections.deque",
+    "builtins.next"
+  ],
+  "funcy.seqs.lfilter": [
+    "funcy.funcmakers.make_pred",
+    "funcy.compat.lfilter"
+  ],
+  "funcy.seqs.lremove": [
+    "funcy.seqs.remove",
+    "builtins.list"
+  ],
+  "funcy.seqs.remove": [
+    "funcy.funcmakers.make_pred",
+    "itertools.filterfalse"
+  ],
+  "funcy.seqs.lkeep": [
+    "funcy.seqs.keep",
+    "builtins.list"
+  ],
+  "funcy.seqs.mapcat": [
+    "funcy.seqs.map",
+    "chain.from_iterable"
+  ],
+  "funcy.seqs.lconcat": [
+    "itertools.chain",
+    "builtins.list"
+  ],
+  "funcy.seqs.lflatten": [
+    "funcy.seqs.flatten",
+    "builtins.list"
+  ],
+  "funcy.seqs.flatten": [
+    "funcy.types.isa.<locals>.<lambda>",
+    "funcy.seqs.flatten"
+  ],
+  "funcy.seqs.lmapcat": [
+    "funcy.seqs.map",
+    "funcy.seqs.lcat"
+  ],
+  "funcy.seqs.interleave": [
+    "builtins.zip",
+    "chain.from_iterable"
+  ],
+  "funcy.seqs.interpose": [
+    "itertools.repeat",
+    "funcy.seqs.interleave",
+    "funcy.seqs.drop"
+  ],
+  "funcy.seqs.takewhile": [
+    "itertools.takewhile",
+    "funcy.funcmakers.make_pred"
+  ],
+  "funcy.seqs.ldistinct": [
+    "funcy.seqs.distinct",
+    "builtins.list"
+  ],
+  "funcy.seqs.distinct": [
+    "builtins.set",
+    "set.add",
+    "funcy.funcmakers.make_func",
+    "builtins.len",
+    "set.add",
+    "operator.itemgetter(0)"
+  ],
+  "funcy.seqs.split": [
+    "funcy.funcmakers.make_pred",
+    "collections.deque",
+    "funcy.seqs.split.<locals>._split",
+    "deque.append"
+  ],
+  "funcy.seqs._split": [
+    "builtins.next",
+    "deque.popleft"
+  ],
+  "funcy.seqs.lsplit": [
+    "funcy.funcmakers.make_pred",
+    "list.append",
+    "list.append",
+    "operator.itemgetter(2)"
+  ],
+  "funcy.seqs.lsplit_at": [
+    "funcy.seqs.split_at",
+    "builtins.list"
+  ],
+  "funcy.seqs.split_at": [
+    "itertools.tee",
+    "itertools.islice"
+  ],
+  "funcy.seqs.lsplit_by": [
+    "funcy.seqs.split_by",
+    "builtins.list"
+  ],
+  "funcy.seqs.split_by": [
+    "itertools.tee",
+    "funcy.seqs.takewhile",
+    "funcy.seqs.dropwhile"
+  ],
+  "funcy.seqs.dropwhile": [
+    "funcy.funcmakers.make_pred",
+    "itertools.dropwhile"
+  ],
+  "funcy.seqs.group_by": [
+    "funcy.funcmakers.make_func",
+    "collections.defaultdict",
+    "list.append",
+    "funcy.strings.re_finder.<locals>.<lambda>"
+  ],
+  "funcy.seqs.group_by_keys": [
+    "funcy.funcmakers.make_func",
+    "collections.defaultdict",
+    "funcy.strings.re_finder.<locals>.<lambda>",
+    "list.append"
+  ],
+  "funcy.seqs.group_values": [
+    "collections.defaultdict",
+    "list.append"
+  ],
+  "funcy.seqs.count_by": [
+    "funcy.funcmakers.make_func",
+    "collections.defaultdict",
+    "funcy.strings.re_finder.<locals>.<lambda>"
+  ],
+  "funcy.seqs.lpartition": [
+    "funcy.seqs.partition",
+    "builtins.list"
+  ],
+  "funcy.seqs.partition": [
+    "funcy.seqs._cut"
+  ],
+  "funcy.seqs._cut": [
+    "builtins.isinstance",
+    "funcy.seqs._cut_seq",
+    "funcy.seqs._cut_iter"
+  ],
+  "funcy.seqs._cut_seq": [
+    "builtins.len",
+    "builtins.range"
+  ],
+  "funcy.seqs._cut_iter": [
+    "builtins.iter",
+    "funcy.seqs.take",
+    "builtins.len",
+    "itertools.islice",
+    "list.extend",
+    "funcy.seqs._cut_seq"
+  ],
+  "funcy.seqs.lchunks": [
+    "funcy.seqs.chunks",
+    "builtins.list"
+  ],
+  "funcy.seqs.chunks": [
+    "funcy.seqs._cut"
+  ],
+  "funcy.seqs.lpartition_by": [
+    "funcy.seqs.partition_by",
+    "funcy.compat.lmap"
+  ],
+  "funcy.seqs.partition_by": [
+    "funcy.funcmakers.make_func",
+    "itertools.groupby"
+  ],
+  "funcy.seqs.with_prev": [
+    "itertools.tee",
+    "itertools.chain",
+    "builtins.zip"
+  ],
+  "funcy.seqs.with_next": [
+    "itertools.tee",
+    "builtins.next",
+    "itertools.chain",
+    "builtins.zip"
+  ],
+  "funcy.seqs.pairwise": [
+    "itertools.tee",
+    "builtins.next",
+    "builtins.zip"
+  ],
+  "funcy.seqs.lreductions": [
+    "funcy.seqs.reductions",
+    "builtins.list"
+  ],
+  "funcy.seqs.reductions": [
+    "itertools.accumulate",
+    "funcy.seqs._reductions"
+  ],
+  "funcy.seqs._reductions": [
+    "tests.test_seqs.test_reductions.<locals>.<lambda>"
+  ],
+  "funcy.seqs.lsums": [
+    "funcy.seqs.lreductions"
+  ],
+  "funcy.seqs.lwithout": [
+    "funcy.seqs.without",
+    "builtins.list"
+  ],
+  "funcy.strings.re_find": [
+    "funcy.strings.re_finder",
+    "funcy.strings.re_finder.<locals>.<lambda>"
+  ],
+  "funcy.strings.re_all": [
+    "funcy.strings.re_iter",
+    "builtins.list"
+  ],
+  "funcy.strings.re_iter": [
+    "funcy.strings._prepare",
+    "Pattern.finditer",
+    "builtins.map"
+  ],
+  "funcy.strings.str_join": [
+    "funcy.strings.str_join",
+    "builtins.map",
+    "str.join"
+  ],
+  "funcy.strings.cut_suffix": [
+    "str.endswith",
+    "builtins.len"
+  ],
+  "funcy.tree.ltree_leaves": [
+    "funcy.tree.tree_leaves",
+    "builtins.list"
+  ],
+  "funcy.tree.tree_leaves": [
+    "collections.deque",
+    "deque.pop",
+    "builtins.iter",
+    "funcy.types.isa.<locals>.<lambda>",
+    "deque.append",
+    "builtins.iter",
+    "deque.append",
+    "builtins.range",
+    "funcy.seqs.rest"
+  ],
+  "funcy.tree.ltree_nodes": [
+    "funcy.tree.tree_nodes",
+    "builtins.list"
+  ],
+  "funcy.tree.tree_nodes": [
+    "collections.deque",
+    "deque.pop",
+    "builtins.iter",
+    "funcy.types.isa.<locals>.<lambda>",
+    "deque.append",
+    "builtins.iter",
+    "deque.append",
+    "builtins.range"
+  ]
+}

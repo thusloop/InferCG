@@ -1,0 +1,497 @@
+{
+    "orderedmultidict.itemlist": [
+        "orderedmultidict.itemlist.itemnode",
+        "orderedmultidict.itemlist.itemlist"
+    ],
+    "orderedmultidict.orderedmultidict": [
+        "orderedmultidict.orderedmultidict.omdict"
+    ],
+    "furl.compat": [
+        "<builtin>.list",
+        "furl.compat.UnicodeMixin"
+    ],
+    "furl.furl": [
+        "furl.furl.Fragment",
+        "furl.furl.PathCompositionInterface",
+        "furl.furl.Path",
+        "furl.furl.FragmentCompositionInterface",
+        "furl.furl.URLPathCompositionInterface",
+        "furl.furl.furl",
+        "furl.furl.QueryCompositionInterface",
+        "<builtin>.len",
+        "furl.furl.FragmentPathCompositionInterface",
+        "furl.furl.Query"
+    ],
+    "furl.omdict1D": [
+        "furl.omdict1D.omdict1D"
+    ],
+    "abc": [
+        "abc.ABCMeta",
+        "abc.abstractproperty",
+        "abc.abstractclassmethod",
+        "abc.ABC",
+        "abc.abstractstaticmethod"
+    ],
+    "copy": [
+        "copy.Error"
+    ],
+    "re": [
+        "re.RegexFlag",
+        "re.Scanner"
+    ],
+    "warnings": [
+        "warnings._OptionError",
+        "warnings.catch_warnings",
+        "warnings.WarningMessage"
+    ],
+    "collections": [
+        "collections.Counter",
+        "collections._OrderedDictValuesView",
+        "collections._Link",
+        "collections._OrderedDictKeysView",
+        "collections._OrderedDictItemsView",
+        "collections.UserList",
+        "collections.OrderedDict",
+        "collections.UserDict",
+        "collections.ChainMap",
+        "collections.UserString"
+    ],
+    "furl.common.is_iterable_but_not_string": [
+        "furl.common.callable_attr",
+        "<builtin>.isinstance"
+    ],
+    "furl.furl.non_string_iterable": [
+        "furl.common.callable_attr",
+        "<builtin>.isinstance"
+    ],
+    "furl.furl.idna_encode": [
+        "furl.common.callable_attr",
+        "<**PyStr**>.decode",
+        "<builtin>.str",
+        "<**PyStr**>.encode"
+    ],
+    "furl.furl.idna_decode": [
+        "furl.common.callable_attr",
+        "furl.furl.utf8"
+    ],
+    "furl.furl.static_vars": [
+        "furl.furl.static_vars.decorator"
+    ],
+    "furl.furl.create_quote_fn": [
+        "furl.furl.create_quote_fn.quote_fn"
+    ],
+    "furl.furl.get_scheme": [
+        "<**PyStr**>.split",
+        "<**PyStr**>.find",
+        "furl.furl.is_valid_scheme",
+        "<builtin>.max"
+    ],
+    "furl.furl.strip_scheme": [
+        "furl.furl.get_scheme",
+        "<**PyStr**>.startswith",
+        "<builtin>.len"
+    ],
+    "furl.furl.set_scheme": [
+        "furl.furl.strip_scheme"
+    ],
+    "furl.furl.has_netloc": [
+        "furl.furl.get_scheme",
+        "<**PyStr**>.startswith"
+    ],
+    "furl.furl.urlsplit": [
+        "furl.furl.strip_scheme",
+        "furl.furl.get_scheme",
+        "furl.furl.set_scheme",
+        "<**PyStr**>.startswith"
+    ],
+    "furl.furl.urljoin": [
+        "furl.furl.get_scheme",
+        "furl.furl.set_scheme",
+        "furl.furl.has_netloc"
+    ],
+    "furl.furl.quacks_like_a_path_with_segments": [
+        "<builtin>.hasattr",
+        "furl.common.is_iterable_but_not_string"
+    ],
+    "furl.furl.Path.__init__": [
+        "furl.furl.Path.load"
+    ],
+    "furl.furl.Path.load": [
+        "furl.furl.quacks_like_a_path_with_segments",
+        "furl.common.is_iterable_but_not_string",
+        "<builtin>.len",
+        "<**PyList**>.pop",
+        "furl.furl.Path._segments_from_path"
+    ],
+    "furl.furl.Path.add": [
+        "furl.furl.quacks_like_a_path_with_segments",
+        "furl.furl.Path.load",
+        "furl.common.is_iterable_but_not_string",
+        "<**PyList**>.insert",
+        "furl.furl.Path._segments_from_path",
+        "furl.furl.join_path_segments"
+    ],
+    "furl.furl.Path.set": [
+        "furl.furl.Path.load"
+    ],
+    "furl.furl.Path.remove": [
+        "furl.common.is_iterable_but_not_string",
+        "furl.furl.Path.isabsolute",
+        "furl.furl.remove_path_segments",
+        "furl.furl.Path._segments_from_path",
+        "furl.furl.Path.load"
+    ],
+    "furl.furl.Path.normalize": [
+        "<builtin>.str",
+        "furl.furl.Path.load",
+        "<**PyStr**>.lstrip",
+        "<**PyStr**>.startswith"
+    ],
+    "furl.furl.Path.isfile": [
+        "furl.furl.Path.isdir"
+    ],
+    "furl.furl.Path.__truediv__": [
+        "furl.furl.Path.add"
+    ],
+    "furl.furl.Path.__str__": [
+        "<**PyList**>.insert",
+        "<builtin>.list",
+        "furl.furl.Path._path_from_segments"
+    ],
+    "furl.furl.Path._segments_from_path": [
+        "<**PyStr**>.split",
+        "furl.furl.utf8",
+        "furl.furl.Path._path_from_segments",
+        "furl.furl.is_valid_encoded_path_segment",
+        "<**PyList**>.append",
+        "<builtin>.isinstance"
+    ],
+    "furl.furl.Path._path_from_segments": [
+        "<**PyStr**>.join",
+        "furl.furl.attemptstr",
+        "furl.furl.utf8"
+    ],
+    "furl.furl.PathCompositionInterface.__init__": [
+        "furl.furl.Path"
+    ],
+    "furl.furl.PathCompositionInterface.pathstr": [
+        "<builtin>.str",
+        "furl.furl.Path.__str__"
+    ],
+    "furl.furl.PathCompositionInterface.__setattr__": [
+        "furl.furl.Path.load"
+    ],
+    "furl.furl.FragmentPathCompositionInterface.__init__": [
+        "furl.furl.PathCompositionInterface"
+    ],
+    "furl.furl.Query.__init__": [
+        "furl.omdict1D.omdict1D",
+        "furl.furl.Query.load"
+    ],
+    "furl.furl.Query.load": [
+        "furl.furl.Query._items"
+    ],
+    "furl.furl.Query.add": [
+        "furl.furl.Query._items",
+        "furl.omdict1D.omdict1D.add"
+    ],
+    "furl.furl.Query.remove": [
+        "furl.furl.non_string_iterable",
+        "furl.furl.Query.load",
+        "furl.furl.Query._items",
+        "<builtin>.len",
+        "furl.common.callable_attr",
+        "furl.furl.Query.params"
+    ],
+    "furl.furl.Query.params": [
+        "furl.furl.Query._items",
+        "furl.omdict1D.omdict1D.add"
+    ],
+    "furl.furl.Query.encode": [
+        "furl.furl.attemptstr",
+        "furl.furl.utf8",
+        "<**PyStr**>.join",
+        "<**PyStr**>.replace",
+        "furl.furl.create_quote_fn",
+        "<**PyList**>.append"
+    ],
+    "furl.furl.Query.__str__": [
+        "furl.furl.Query.encode"
+    ],
+    "furl.furl.Query._items": [
+        "furl.common.callable_attr",
+        "<builtin>.list",
+        "furl.furl.Query._extract_items_from_querystr",
+        "<builtin>.isinstance"
+    ],
+    "furl.furl.Query._extract_items_from_querystr": [
+        "<**PyStr**>.split",
+        "furl.furl.lget",
+        "furl.furl.is_valid_encoded_query_value",
+        "<**PyStr**>.replace",
+        "<**PyList**>.append",
+        "furl.furl.is_valid_encoded_query_key"
+    ],
+    "furl.furl.QueryCompositionInterface.__init__": [
+        "furl.furl.Query"
+    ],
+    "furl.furl.QueryCompositionInterface.querystr": [
+        "furl.furl.Query.__str__",
+        "<builtin>.str",
+        "furl.furl.Query",
+        "furl.furl.Query.__repr__"
+    ],
+    "furl.furl.QueryCompositionInterface.__setattr__": [
+        "furl.furl.Query.load"
+    ],
+    "furl.furl.Fragment.__init__": [
+        "furl.furl.FragmentPathCompositionInterface",
+        "furl.furl.Fragment.load"
+    ],
+    "furl.furl.Fragment.load": [
+        "<**PyStr**>.split",
+        "furl.furl.Path.load",
+        "<builtin>.len",
+        "furl.furl.Query.load"
+    ],
+    "furl.furl.Fragment.add": [
+        "furl.furl.Path.add",
+        "furl.furl.Query.add",
+        "furl.omdict1D.omdict1D.add"
+    ],
+    "furl.furl.Fragment.set": [
+        "furl.furl.Path.load",
+        "furl.furl.Query.load"
+    ],
+    "furl.furl.Fragment.remove": [
+        "furl.furl.Fragment.load",
+        "furl.furl.Path.remove",
+        "furl.furl.Query.remove"
+    ],
+    "furl.furl.Fragment.asdict": [
+        "furl.furl.Query.asdict",
+        "<builtin>.str",
+        "furl.furl.Path.asdict",
+        "furl.furl.QueryCompositionInterface.query"
+    ],
+    "furl.furl.Fragment.__setattr__": [
+        "furl.furl.QueryCompositionInterface.__setattr__",
+        "furl.furl.PathCompositionInterface.__setattr__"
+    ],
+    "furl.furl.FragmentCompositionInterface.fragmentstr": [
+        "furl.furl.Fragment",
+        "<builtin>.str",
+        "furl.furl.Fragment.__str__"
+    ],
+    "furl.furl.FragmentCompositionInterface.__setattr__": [
+        "furl.furl.Fragment.load"
+    ],
+    "furl.furl.furl.__init__": [
+        "furl.furl.furl.load",
+        "furl.furl.furl.set"
+    ],
+    "furl.furl.furl.load": [
+        "furl.furl.urlsplit",
+        "furl.furl.Fragment.load",
+        "<builtin>.str",
+        "furl.furl.Query.load",
+        "furl.furl.Path.load",
+        "<**PyDict**>.get",
+        "<builtin>.isinstance"
+    ],
+    "furl.furl.furl.scheme": [
+        "furl.common.callable_attr",
+        "<**PyStr**>.lower"
+    ],
+    "furl.furl.furl.host": [
+        "furl.furl.is_valid_host",
+        "furl.furl.lget",
+        "<**PyStr**>.lower",
+        "furl.furl.idna_decode",
+        "<**PyStr**>.startswith",
+        "<builtin>.ValueError",
+        "furl.common.callable_attr"
+    ],
+    "furl.furl.furl.port": [
+        "furl.furl.is_valid_port",
+        "<builtin>.str",
+        "<builtin>.int",
+        "<builtin>.ValueError",
+        "<**PyDict**>.get"
+    ],
+    "furl.furl.furl.url": [
+        "furl.furl.furl.load"
+    ],
+    "furl.furl.furl.add": [
+        "furl.furl.Path.add",
+        "furl.furl.Query.add",
+        "furl.furl.Fragment.add",
+        "furl.omdict1D.omdict1D.add"
+    ],
+    "furl.furl.furl.set": [
+        "furl.furl.Fragment.load",
+        "furl.furl.Fragment.__str__",
+        "<builtin>.any",
+        "furl.furl.Query.load",
+        "furl.furl.furl.load",
+        "<builtin>.sum",
+        "furl.furl.Path.load",
+        "furl.furl.furl.set.present"
+    ],
+    "furl.furl.furl.remove": [
+        "furl.furl.Query.remove",
+        "furl.furl.Fragment.remove",
+        "furl.furl.PathCompositionInterface.path",
+        "furl.furl.Path.remove",
+        "furl.furl.QueryCompositionInterface.query"
+    ],
+    "furl.furl.furl.tostr": [
+        "furl.furl.strip_scheme",
+        "<builtin>.str",
+        "<**PyStr**>.encode",
+        "furl.furl.Query.encode"
+    ],
+    "furl.furl.furl.join": [
+        "<builtin>.str",
+        "furl.furl.urljoin",
+        "furl.furl.furl.load",
+        "<builtin>.isinstance"
+    ],
+    "furl.furl.furl.asdict": [
+        "furl.furl.Query.asdict",
+        "furl.furl.idna_encode",
+        "furl.furl.QueryCompositionInterface.query",
+        "furl.furl.Fragment.asdict",
+        "furl.furl.Path.asdict"
+    ],
+    "furl.furl.furl.__truediv__": [
+        "furl.furl.furl.add",
+        "furl.furl.furl.copy"
+    ],
+    "furl.furl.furl.__setattr__": [
+        "furl.furl.FragmentCompositionInterface.__setattr__",
+        "furl.furl.QueryCompositionInterface.__setattr__",
+        "furl.furl.PathCompositionInterface.__setattr__"
+    ],
+    "furl.furl.furl.__unicode__": [
+        "furl.furl.furl.tostr"
+    ],
+    "furl.omdict1D.omdict1D.add": [
+        "<builtin>.list",
+        "<**PyList**>.append",
+        "furl.common.is_iterable_but_not_string"
+    ],
+    "furl.omdict1D.omdict1D.set": [
+        "furl.omdict1D.omdict1D._set"
+    ],
+    "furl.omdict1D.omdict1D.__setitem__": [
+        "furl.omdict1D.omdict1D._set"
+    ],
+    "furl.omdict1D.omdict1D._bin_update_items": [
+        "<**PyList**>.append",
+        "<**PyDict**>.get",
+        "<builtin>.len",
+        "furl.common.is_iterable_but_not_string"
+    ],
+    "furl.omdict1D.omdict1D._set": [
+        "furl.common.is_iterable_but_not_string"
+    ],
+    "furl.common": [
+        "<builtin>.object"
+    ],
+    "furl.common.callable_attr": [
+        "<builtin>.callable",
+        "<builtin>.getattr",
+        "<builtin>.hasattr"
+    ],
+    "furl.furl.attemptstr": [
+        "<builtin>.str"
+    ],
+    "furl.furl.utf8": [
+        "<**PyStr**>.encode"
+    ],
+    "furl.furl.is_valid_port": [
+        "<builtin>.str",
+        "<builtin>.int",
+        "<**PyStr**>.isdigit"
+    ],
+    "furl.furl.static_vars.decorator": [
+        "<builtin>.setattr"
+    ],
+    "furl.furl.create_quote_fn.quote_fn": [
+        "<**PyStr**>.replace",
+        "<builtin>.set",
+        "<**PyStr**>.join"
+    ],
+    "furl.furl.is_valid_host": [
+        "<**PyStr**>.split",
+        "<**PyList**>.pop"
+    ],
+    "furl.furl.join_path_segments": [
+        "<**PyList**>.pop",
+        "<**PyList**>.extend",
+        "<builtin>.len"
+    ],
+    "furl.furl.remove_path_segments": [
+        "<**PyList**>.pop",
+        "<builtin>.list",
+        "<**PyList**>.append",
+        "<builtin>.len"
+    ],
+    "furl.furl.Path.asdict": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Path.isabsolute": [
+        "<builtin>.AttributeError"
+    ],
+    "furl.furl.Path.__eq__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Path.__bool__": [
+        "<builtin>.len"
+    ],
+    "furl.furl.Path.__repr__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.URLPathCompositionInterface._force_absolute": [
+        "<builtin>.bool"
+    ],
+    "furl.furl.Query.asdict": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Query.__eq__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Query.__bool__": [
+        "<builtin>.len"
+    ],
+    "furl.furl.Query.__repr__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Fragment.__eq__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Fragment.__bool__": [
+        "<builtin>.bool"
+    ],
+    "furl.furl.Fragment.__str__": [
+        "<**PyStr**>.replace",
+        "<builtin>.str"
+    ],
+    "furl.furl.Fragment.__repr__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.furl.netloc": [
+        "<**PyStr**>.split",
+        "<**PyStr**>.rsplit",
+        "<**PyStr**>.rfind",
+        "<builtin>.ValueError"
+    ],
+    "furl.furl.furl.origin": [
+        "<**PyStr**>.split",
+        "<builtin>.len"
+    ],
+    "furl.furl.furl.__repr__": [
+        "<builtin>.str"
+    ]
+}

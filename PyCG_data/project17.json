@@ -1,0 +1,954 @@
+{
+  "docs.conf": [
+    "sys.path.insert",
+    "os.path.abspath"
+  ],
+  "os.path.abspath": [],
+  "sys.path.insert": [],
+  "docs.conf.setup": [],
+  "diskcache": [],
+  "diskcache.fanout": [],
+  "diskcache.fanout.FanoutCache.__init__": [
+    "diskcache.core.Cache.__init__",
+    "tempfile.mkdtemp",
+    "<builtin>.tuple",
+    "<builtin>.range",
+    "os.path.expandvars",
+    "os.path.join",
+    "os.path.expanduser"
+  ],
+  "tempfile.mkdtemp": [],
+  "os.path.expanduser": [],
+  "os.path.expandvars": [],
+  "os.path.join": [],
+  "diskcache.core.Cache.__init__": [
+    "<builtin>.ValueError",
+    "<builtin>.issubclass",
+    "diskcache.core.Cache.create_tag_index",
+    "diskcache.core.Cache.drop_tag_index",
+    "tempfile.mkdtemp",
+    "diskcache.core.Cache.reset",
+    "<builtin>.EnvironmentError",
+    "<builtin>.dict",
+    "diskcache.core.Disk.__init__",
+    "threading.local",
+    "<builtin>.sorted",
+    "os.path.isdir",
+    "diskcache.core.Cache._sql_retry",
+    "os.path.expandvars",
+    "diskcache.core.Cache.close",
+    "os.makedirs",
+    "os.path.expanduser"
+  ],
+  "<builtin>.range": [],
+  "<builtin>.tuple": [],
+  "diskcache.fanout.FanoutCache.directory": [],
+  "diskcache.fanout.FanoutCache.__getattr__": [
+    "<builtin>.getattr"
+  ],
+  "<builtin>.getattr": [],
+  "diskcache.fanout.FanoutCache": [
+    "contextlib.contextmanager"
+  ],
+  "contextlib.contextmanager": [],
+  "diskcache.fanout.FanoutCache.transact": [
+    "contextlib.ExitStack"
+  ],
+  "contextlib.ExitStack": [],
+  "diskcache.fanout.FanoutCache.set": [],
+  "diskcache.fanout.FanoutCache.__setitem__": [],
+  "diskcache.fanout.FanoutCache.touch": [],
+  "diskcache.fanout.FanoutCache.add": [],
+  "diskcache.fanout.FanoutCache.incr": [],
+  "diskcache.fanout.FanoutCache.decr": [],
+  "diskcache.fanout.FanoutCache.get": [],
+  "diskcache.fanout.FanoutCache.__getitem__": [],
+  "diskcache.fanout.FanoutCache.read": [
+    "diskcache.fanout.FanoutCache.get",
+    "<builtin>.KeyError"
+  ],
+  "<builtin>.KeyError": [],
+  "diskcache.fanout.FanoutCache.__contains__": [],
+  "diskcache.fanout.FanoutCache.pop": [],
+  "diskcache.fanout.FanoutCache.delete": [],
+  "diskcache.fanout.FanoutCache.__delitem__": [],
+  "diskcache.fanout.FanoutCache.check": [
+    "functools.reduce"
+  ],
+  "functools.reduce": [],
+  "diskcache.fanout.FanoutCache.expire": [
+    "diskcache.fanout.FanoutCache._remove",
+    "time.time"
+  ],
+  "time.time": [],
+  "diskcache.fanout.FanoutCache._remove": [
+    "<builtin>.getattr"
+  ],
+  "diskcache.fanout.FanoutCache.create_tag_index": [],
+  "diskcache.fanout.FanoutCache.drop_tag_index": [],
+  "diskcache.fanout.FanoutCache.evict": [
+    "diskcache.fanout.FanoutCache._remove"
+  ],
+  "diskcache.fanout.FanoutCache.cull": [
+    "diskcache.fanout.FanoutCache._remove"
+  ],
+  "diskcache.fanout.FanoutCache.clear": [
+    "diskcache.fanout.FanoutCache._remove"
+  ],
+  "diskcache.fanout.FanoutCache.stats": [
+    "<builtin>.sum"
+  ],
+  "<builtin>.sum": [],
+  "diskcache.fanout.FanoutCache.volume": [
+    "<builtin>.sum"
+  ],
+  "diskcache.fanout.FanoutCache.close": [],
+  "diskcache.fanout.FanoutCache.__enter__": [],
+  "diskcache.fanout.FanoutCache.__exit__": [
+    "diskcache.fanout.FanoutCache.close"
+  ],
+  "diskcache.fanout.FanoutCache.__getstate__": [
+    "<builtin>.type"
+  ],
+  "<builtin>.type": [],
+  "diskcache.fanout.FanoutCache.__setstate__": [
+    "diskcache.fanout.FanoutCache.__init__"
+  ],
+  "diskcache.fanout.FanoutCache.__iter__": [
+    "itertools.chain.from_iterable",
+    "<builtin>.iter"
+  ],
+  "<builtin>.iter": [],
+  "itertools.chain.from_iterable": [],
+  "diskcache.fanout.FanoutCache.__reversed__": [
+    "itertools.chain.from_iterable",
+    "<builtin>.reversed"
+  ],
+  "<builtin>.reversed": [],
+  "diskcache.fanout.FanoutCache.__len__": [
+    "<builtin>.len",
+    "<builtin>.sum"
+  ],
+  "<builtin>.len": [],
+  "diskcache.fanout.FanoutCache.reset": [],
+  "diskcache.fanout.FanoutCache.cache": [
+    "diskcache.core.Cache.__init__",
+    "os.path.join"
+  ],
+  "diskcache.fanout.FanoutCache.deque": [
+    "diskcache.persistent.Deque.fromcache",
+    "diskcache.core.Cache.__init__",
+    "os.path.join"
+  ],
+  "diskcache.persistent.Deque.fromcache": [
+    "collections.abc.Sequence.__new__.extend",
+    "collections.abc.Sequence.__new__"
+  ],
+  "diskcache.fanout.FanoutCache.index": [
+    "diskcache.persistent.Index.fromcache",
+    "diskcache.core.Cache.__init__",
+    "os.path.join"
+  ],
+  "diskcache.persistent.Index.fromcache": [
+    "collections.abc.MutableMapping.__new__",
+    "collections.abc.MutableMapping.__new__.update"
+  ],
+  "diskcache.persistent": [],
+  "diskcache.persistent._make_compare": [],
+  "diskcache.persistent._make_compare.compare": [
+    "operator.eq",
+    "<builtin>.len",
+    "operator.ne",
+    "<builtin>.isinstance",
+    "operator.lt",
+    "operator.le",
+    "<builtin>.zip",
+    "operator.gt",
+    "operator.ge"
+  ],
+  "<builtin>.isinstance": [],
+  "<builtin>.zip": [],
+  "operator.eq": [],
+  "operator.ne": [],
+  "operator.lt": [],
+  "operator.le": [],
+  "operator.gt": [],
+  "operator.ge": [],
+  "diskcache.persistent.Deque.__init__": [
+    "diskcache.persistent.Deque.extend",
+    "diskcache.core.Cache.__init__"
+  ],
+  "diskcache.persistent.Deque.extend": [
+    "diskcache.persistent.Deque.append",
+    "diskcache.persistent.Deque.__iter__"
+  ],
+  "collections.abc.Sequence.__new__": [],
+  "collections.abc.Sequence.__new__.extend": [],
+  "diskcache.persistent.Deque.cache": [],
+  "diskcache.persistent.Deque.directory": [],
+  "diskcache.persistent.Deque._index": [
+    "<builtin>.len",
+    "diskcache.core.Cache.iterkeys",
+    "diskcache.persistent.Deque.__setitem__._set_value",
+    "<builtin>.IndexError",
+    "diskcache.core.Cache.__delitem__",
+    "diskcache.core.Cache.__getitem__"
+  ],
+  "<builtin>.IndexError": [],
+  "diskcache.core.Cache.iterkeys": [
+    "diskcache.core.Cache._sql"
+  ],
+  "diskcache.core.Cache.__delitem__": [
+    "diskcache.core.Cache._transact",
+    "<builtin>.KeyError",
+    "time.time"
+  ],
+  "diskcache.core.Cache.__getitem__": [
+    "diskcache.core.Cache.get",
+    "<builtin>.KeyError"
+  ],
+  "diskcache.persistent.Deque.__setitem__._set_value": [
+    "diskcache.core.Cache.__setitem__"
+  ],
+  "diskcache.persistent.Deque.__getitem__": [
+    "diskcache.persistent.Deque._index"
+  ],
+  "diskcache.persistent.Deque.__setitem__": [
+    "diskcache.persistent.Deque._index"
+  ],
+  "diskcache.core.Cache.__setitem__": [
+    "diskcache.core.Cache.set"
+  ],
+  "diskcache.persistent.Deque.__delitem__": [
+    "diskcache.persistent.Deque._index"
+  ],
+  "diskcache.persistent.Deque.__repr__": [
+    "<builtin>.type"
+  ],
+  "diskcache.persistent.Deque": [
+    "contextlib.contextmanager",
+    "diskcache.persistent._make_compare"
+  ],
+  "diskcache.persistent.Deque.__iadd__": [
+    "diskcache.persistent.Deque.extend"
+  ],
+  "diskcache.persistent.Deque.__iter__": [
+    "diskcache.core.Cache.iterkeys"
+  ],
+  "diskcache.persistent.Deque.__len__": [
+    "<builtin>.len"
+  ],
+  "diskcache.persistent.Deque.__reversed__": [
+    "diskcache.core.Cache.iterkeys"
+  ],
+  "diskcache.persistent.Deque.__getstate__": [],
+  "diskcache.persistent.Deque.__setstate__": [
+    "diskcache.persistent.Deque.__init__"
+  ],
+  "diskcache.persistent.Deque.append": [
+    "diskcache.core.Cache.push"
+  ],
+  "diskcache.core.Cache.push": [
+    "time.time",
+    "<builtin>.int",
+    "diskcache.core.Cache._cull",
+    "diskcache.core.Cache._transact",
+    "diskcache.core.Cache._row_insert"
+  ],
+  "diskcache.persistent.Deque.appendleft": [
+    "diskcache.core.Cache.push"
+  ],
+  "diskcache.persistent.Deque.clear": [
+    "diskcache.core.Cache.clear"
+  ],
+  "diskcache.core.Cache.clear": [
+    "diskcache.core.Cache._select_delete"
+  ],
+  "diskcache.persistent.Deque.count": [
+    "<builtin>.sum"
+  ],
+  "diskcache.persistent.Deque.extendleft": [
+    "diskcache.persistent.Deque.appendleft"
+  ],
+  "diskcache.persistent.Deque.peek": [
+    "diskcache.core.Cache.peek",
+    "<builtin>.IndexError"
+  ],
+  "diskcache.core.Cache.peek": [
+    "diskcache.core.Cache._transact",
+    "time.time"
+  ],
+  "diskcache.persistent.Deque.peekleft": [
+    "diskcache.core.Cache.peek",
+    "<builtin>.IndexError"
+  ],
+  "diskcache.persistent.Deque.pop": [
+    "diskcache.core.Cache.pull",
+    "<builtin>.IndexError"
+  ],
+  "diskcache.core.Cache.pull": [
+    "diskcache.core.Cache._transact",
+    "time.time"
+  ],
+  "diskcache.persistent.Deque.popleft": [
+    "diskcache.core.Cache.pull",
+    "<builtin>.IndexError"
+  ],
+  "diskcache.persistent.Deque.remove": [
+    "<builtin>.ValueError",
+    "diskcache.core.Cache.iterkeys"
+  ],
+  "<builtin>.ValueError": [],
+  "diskcache.persistent.Deque.reverse": [
+    "diskcache.persistent.Deque.__init__",
+    "diskcache.persistent.Deque.clear",
+    "diskcache.persistent.Deque.extend",
+    "shutil.rmtree",
+    "<builtin>.reversed"
+  ],
+  "shutil.rmtree": [],
+  "diskcache.persistent.Deque.rotate": [
+    "<builtin>.len",
+    "<builtin>.isinstance",
+    "<builtin>.type",
+    "diskcache.persistent.Deque.pop",
+    "diskcache.persistent.Deque.appendleft",
+    "diskcache.persistent.Deque.popleft",
+    "diskcache.persistent.Deque.append",
+    "<builtin>.TypeError",
+    "<builtin>.range"
+  ],
+  "<builtin>.TypeError": [],
+  "diskcache.persistent.Deque.transact": [
+    "diskcache.core.Cache.transact"
+  ],
+  "diskcache.core.Cache.transact": [
+    "diskcache.core.Cache._transact"
+  ],
+  "diskcache.persistent.Index.__init__": [
+    "diskcache.core.Cache.__init__",
+    "collections.abc.MutableMapping.update",
+    "<builtin>.isinstance"
+  ],
+  "collections.abc.MutableMapping.update": [],
+  "collections.abc.MutableMapping.__new__": [],
+  "collections.abc.MutableMapping.__new__.update": [],
+  "diskcache.persistent.Index.cache": [],
+  "diskcache.persistent.Index.directory": [],
+  "diskcache.persistent.Index.__getitem__": [],
+  "diskcache.persistent.Index.__setitem__": [],
+  "diskcache.persistent.Index.__delitem__": [],
+  "diskcache.persistent.Index.setdefault": [
+    "diskcache.core.Cache.add"
+  ],
+  "diskcache.core.Cache.add": [
+    "diskcache.core.Cache._row_update",
+    "time.time",
+    "diskcache.core.Cache._cull",
+    "diskcache.core.Cache._transact",
+    "diskcache.core.Cache._row_insert"
+  ],
+  "diskcache.persistent.Index.peekitem": [
+    "diskcache.core.Cache.peekitem"
+  ],
+  "diskcache.core.Cache.peekitem": [
+    "diskcache.core.Cache._transact",
+    "<builtin>.KeyError",
+    "time.time"
+  ],
+  "diskcache.persistent.Index.pop": [
+    "diskcache.core.Cache.pop",
+    "<builtin>.KeyError"
+  ],
+  "diskcache.core.Cache.pop": [
+    "diskcache.core.Cache._transact",
+    "time.time"
+  ],
+  "diskcache.persistent.Index.popitem": [
+    "diskcache.core.Cache.peekitem",
+    "diskcache.core.Cache.transact"
+  ],
+  "diskcache.persistent.Index.push": [
+    "diskcache.core.Cache.push"
+  ],
+  "diskcache.persistent.Index.pull": [
+    "diskcache.core.Cache.pull"
+  ],
+  "diskcache.persistent.Index.clear": [
+    "diskcache.core.Cache.clear"
+  ],
+  "diskcache.persistent.Index.__iter__": [
+    "<builtin>.iter"
+  ],
+  "diskcache.persistent.Index.__reversed__": [
+    "<builtin>.reversed"
+  ],
+  "diskcache.persistent.Index.__len__": [
+    "<builtin>.len"
+  ],
+  "diskcache.persistent.Index.keys": [
+    "collections.abc.KeysView"
+  ],
+  "collections.abc.KeysView": [],
+  "diskcache.persistent.Index.values": [
+    "collections.abc.ValuesView"
+  ],
+  "collections.abc.ValuesView": [],
+  "diskcache.persistent.Index.items": [
+    "collections.abc.ItemsView"
+  ],
+  "collections.abc.ItemsView": [],
+  "diskcache.persistent.Index.__getstate__": [],
+  "diskcache.persistent.Index.__setstate__": [
+    "diskcache.persistent.Index.__init__"
+  ],
+  "diskcache.persistent.Index.__eq__": [
+    "<builtin>.len",
+    "<builtin>.isinstance",
+    "<builtin>.any",
+    "<builtin>.zip",
+    "<builtin>.all"
+  ],
+  "<builtin>.any": [],
+  "<builtin>.all": [],
+  "diskcache.persistent.Index.__ne__": [],
+  "diskcache.persistent.Index.memoize": [
+    "diskcache.core.Cache.memoize"
+  ],
+  "diskcache.core.Cache.memoize": [
+    "<builtin>.TypeError",
+    "<builtin>.callable"
+  ],
+  "diskcache.persistent.Index": [
+    "contextlib.contextmanager"
+  ],
+  "diskcache.persistent.Index.transact": [
+    "diskcache.core.Cache.transact"
+  ],
+  "diskcache.persistent.Index.__repr__": [
+    "<builtin>.type"
+  ],
+  "diskcache.recipes": [],
+  "diskcache.recipes.Averager.__init__": [],
+  "diskcache.recipes.Averager.add": [],
+  "diskcache.recipes.Averager.get": [],
+  "diskcache.recipes.Averager.pop": [],
+  "diskcache.recipes.Lock.__init__": [],
+  "diskcache.recipes.Lock.acquire": [
+    "time.sleep"
+  ],
+  "time.sleep": [],
+  "diskcache.recipes.Lock.release": [],
+  "diskcache.recipes.Lock.locked": [],
+  "diskcache.recipes.Lock.__enter__": [
+    "diskcache.recipes.Lock.acquire"
+  ],
+  "diskcache.recipes.Lock.__exit__": [
+    "diskcache.recipes.Lock.release"
+  ],
+  "diskcache.recipes.RLock.__init__": [],
+  "diskcache.recipes.RLock.acquire": [
+    "threading.get_ident",
+    "time.sleep",
+    "os.getpid"
+  ],
+  "os.getpid": [],
+  "threading.get_ident": [],
+  "diskcache.recipes.RLock.release": [
+    "threading.get_ident",
+    "os.getpid"
+  ],
+  "diskcache.recipes.RLock.__enter__": [
+    "diskcache.recipes.RLock.acquire"
+  ],
+  "diskcache.recipes.RLock.__exit__": [
+    "diskcache.recipes.RLock.release"
+  ],
+  "diskcache.recipes.BoundedSemaphore.__init__": [],
+  "diskcache.recipes.BoundedSemaphore.acquire": [
+    "time.sleep"
+  ],
+  "diskcache.recipes.BoundedSemaphore.release": [],
+  "diskcache.recipes.BoundedSemaphore.__enter__": [
+    "diskcache.recipes.BoundedSemaphore.acquire"
+  ],
+  "diskcache.recipes.BoundedSemaphore.__exit__": [
+    "diskcache.recipes.BoundedSemaphore.release"
+  ],
+  "diskcache.recipes.throttle": [],
+  "diskcache.recipes.throttle.decorator": [
+    "functools.wraps",
+    "<builtin>.float",
+    "diskcache.core.full_name"
+  ],
+  "<builtin>.float": [],
+  "diskcache.core.full_name": [],
+  "functools.wraps": [],
+  "diskcache.recipes.throttle.decorator.wrapper": [],
+  "diskcache.recipes.barrier": [],
+  "diskcache.recipes.barrier.decorator": [
+    "functools.wraps",
+    "diskcache.core.full_name"
+  ],
+  "diskcache.recipes.barrier.decorator.wrapper": [],
+  "diskcache.recipes.memoize_stampede": [],
+  "diskcache.recipes.memoize_stampede.decorator": [
+    "functools.wraps",
+    "diskcache.core.full_name"
+  ],
+  "diskcache.recipes.memoize_stampede.decorator.timer": [
+    "time.time"
+  ],
+  "diskcache.recipes.memoize_stampede.decorator.wrapper": [
+    "time.time",
+    "random.random",
+    "diskcache.recipes.memoize_stampede.decorator.timer",
+    "threading.Thread",
+    "threading.Thread.start",
+    "math.log"
+  ],
+  "random.random": [],
+  "math.log": [],
+  "diskcache.recipes.memoize_stampede.decorator.wrapper.recompute": [
+    "diskcache.recipes.memoize_stampede.decorator.timer"
+  ],
+  "threading.Thread": [],
+  "threading.Thread.start": [],
+  "diskcache.recipes.memoize_stampede.decorator.__cache_key__": [
+    "diskcache.core.args_to_key"
+  ],
+  "diskcache.core.args_to_key": [
+    "<builtin>.sorted",
+    "<builtin>.tuple",
+    "<builtin>.enumerate",
+    "<builtin>.type"
+  ],
+  "diskcache.core": [],
+  "diskcache.core.Constant.__new__": [],
+  "diskcache.core.Constant.__repr__": [],
+  "diskcache.core.Disk.__init__": [],
+  "diskcache.core.Disk.hash": [
+    "struct.pack",
+    "zlib.adler32",
+    "diskcache.core.Disk.put",
+    "<builtin>.type"
+  ],
+  "diskcache.core.Disk.put": [
+    "pickletools.optimize",
+    "pickle.dumps",
+    "sqlite3.Binary",
+    "<builtin>.type"
+  ],
+  "zlib.adler32": [],
+  "struct.pack": [],
+  "sqlite3.Binary": [],
+  "pickle.dumps": [],
+  "pickletools.optimize": [],
+  "diskcache.core.Disk.get": [
+    "<builtin>.bytes",
+    "io.BytesIO",
+    "pickle.load",
+    "<builtin>.type"
+  ],
+  "<builtin>.bytes": [],
+  "io.BytesIO": [],
+  "pickle.load": [],
+  "diskcache.core.Disk.store": [
+    "<builtin>.len",
+    "io.BytesIO",
+    "<builtin>.type",
+    "pickle.dumps",
+    "os.path.getsize",
+    "sqlite3.Binary",
+    "diskcache.core.Disk.filename",
+    "functools.partial",
+    "<builtin>.iter",
+    "diskcache.core.Disk._write",
+    "io.StringIO"
+  ],
+  "diskcache.core.Disk.filename": [
+    "codecs.encode",
+    "os.path.join",
+    "os.urandom",
+    "codecs.encode.decode"
+  ],
+  "diskcache.core.Disk._write": [
+    "<builtin>.len",
+    "os.path.split",
+    "<builtin>.open",
+    "<builtin>.range",
+    "contextlib.suppress",
+    "os.makedirs"
+  ],
+  "io.StringIO": [],
+  "os.path.getsize": [],
+  "functools.partial": [],
+  "os.path.split": [],
+  "contextlib.suppress": [],
+  "os.makedirs": [],
+  "<builtin>.open": [],
+  "diskcache.core.Disk.fetch": [
+    "io.BytesIO",
+    "<builtin>.type",
+    "<builtin>.open",
+    "pickle.load",
+    "<builtin>.bytes",
+    "os.path.join"
+  ],
+  "os.urandom": [],
+  "codecs.encode": [],
+  "codecs.encode.decode": [],
+  "diskcache.core.Disk.remove": [
+    "os.path.split",
+    "os.removedirs",
+    "os.remove",
+    "contextlib.suppress",
+    "os.path.join"
+  ],
+  "os.remove": [],
+  "os.removedirs": [],
+  "diskcache.core.JSONDisk.__init__": [
+    "<builtin>.super"
+  ],
+  "<builtin>.super": [],
+  "diskcache.core.JSONDisk.put": [
+    "json.dumps",
+    "json.dumps.encode",
+    "zlib.compress",
+    "<builtin>.super"
+  ],
+  "json.dumps": [],
+  "json.dumps.encode": [],
+  "zlib.compress": [],
+  "diskcache.core.JSONDisk.get": [
+    "zlib.decompress",
+    "zlib.decompress.decode",
+    "json.loads",
+    "<builtin>.super"
+  ],
+  "zlib.decompress": [],
+  "zlib.decompress.decode": [],
+  "json.loads": [],
+  "diskcache.core.JSONDisk.store": [
+    "json.dumps",
+    "json.dumps.encode",
+    "zlib.compress",
+    "<builtin>.super"
+  ],
+  "diskcache.core.JSONDisk.fetch": [
+    "zlib.decompress",
+    "zlib.decompress.decode",
+    "json.loads",
+    "<builtin>.super"
+  ],
+  "<builtin>.enumerate": [],
+  "<builtin>.sorted": [],
+  "<builtin>.issubclass": [],
+  "threading.local": [],
+  "os.path.isdir": [],
+  "<builtin>.EnvironmentError": [],
+  "diskcache.core.Cache._sql_retry": [],
+  "<builtin>.dict": [],
+  "diskcache.core.Cache.reset": [
+    "diskcache.core.Cache._sql",
+    "<builtin>.setattr",
+    "time.time",
+    "<builtin>.str",
+    "time.sleep",
+    "diskcache.core.Cache._sql_retry"
+  ],
+  "diskcache.core.Cache.create_tag_index": [
+    "diskcache.core.Cache._sql",
+    "diskcache.core.Cache.reset"
+  ],
+  "diskcache.core.Cache.drop_tag_index": [
+    "diskcache.core.Cache._sql",
+    "diskcache.core.Cache.reset"
+  ],
+  "diskcache.core.Cache.close": [
+    "<builtin>.getattr",
+    "<builtin>.delattr"
+  ],
+  "diskcache.core.Cache.directory": [],
+  "diskcache.core.Cache.timeout": [],
+  "diskcache.core.Cache.disk": [],
+  "diskcache.core.Cache._con": [
+    "diskcache.core.Cache.reset",
+    "sqlite3.connect.execute",
+    "<builtin>.getattr",
+    "sqlite3.connect.execute.fetchall",
+    "sqlite3.connect",
+    "os.getpid",
+    "diskcache.core.Cache.close",
+    "os.path.join"
+  ],
+  "sqlite3.connect": [],
+  "sqlite3.connect.execute": [],
+  "sqlite3.connect.execute.fetchall": [],
+  "diskcache.core.Cache._sql": [],
+  "diskcache.core.Cache._sql_retry._execute_with_retry": [
+    "diskcache.core.Cache._sql",
+    "<builtin>.str",
+    "time.sleep",
+    "time.time"
+  ],
+  "<builtin>.str": [],
+  "diskcache.core.Cache": [
+    "contextlib.contextmanager"
+  ],
+  "diskcache.core.Cache._transact": [
+    "threading.get_ident",
+    "diskcache.core.Cache._sql"
+  ],
+  "diskcache.core.Cache.set": [
+    "diskcache.core.Cache._row_update",
+    "time.time",
+    "diskcache.core.Cache._cull",
+    "diskcache.core.Cache._transact",
+    "diskcache.core.Cache._row_insert"
+  ],
+  "diskcache.core.Cache._row_update": [
+    "diskcache.core.Cache._sql"
+  ],
+  "diskcache.core.Cache._row_insert": [
+    "diskcache.core.Cache._sql"
+  ],
+  "diskcache.core.Cache._cull": [
+    "<builtin>.len",
+    "diskcache.core.Cache.volume"
+  ],
+  "diskcache.core.Cache.volume": [
+    "diskcache.core.Cache._sql",
+    "diskcache.core.Cache.reset"
+  ],
+  "diskcache.core.Cache.touch": [
+    "diskcache.core.Cache._transact",
+    "time.time"
+  ],
+  "diskcache.core.Cache.incr": [
+    "diskcache.core.Cache._row_update",
+    "time.time",
+    "diskcache.core.Cache._cull",
+    "<builtin>.KeyError",
+    "diskcache.core.Cache._transact",
+    "diskcache.core.Cache._row_insert"
+  ],
+  "diskcache.core.Cache.decr": [
+    "diskcache.core.Cache.incr"
+  ],
+  "diskcache.core.Cache.get": [
+    "diskcache.core.Cache._transact",
+    "diskcache.core.Cache._sql",
+    "time.time"
+  ],
+  "diskcache.core.Cache.read": [
+    "diskcache.core.Cache.get",
+    "<builtin>.KeyError"
+  ],
+  "diskcache.core.Cache.__contains__": [
+    "diskcache.core.Cache._sql",
+    "<builtin>.bool",
+    "time.time"
+  ],
+  "<builtin>.bool": [],
+  "diskcache.core.Cache.delete": [
+    "diskcache.core.Cache.__delitem__"
+  ],
+  "<builtin>.int": [],
+  "<builtin>.callable": [],
+  "diskcache.core.Cache.memoize.decorator": [
+    "functools.wraps",
+    "diskcache.core.full_name"
+  ],
+  "diskcache.core.Cache.memoize.decorator.wrapper": [
+    "diskcache.core.Cache.get",
+    "diskcache.core.Cache.set"
+  ],
+  "diskcache.core.Cache.memoize.decorator.__cache_key__": [
+    "diskcache.core.args_to_key"
+  ],
+  "diskcache.core.Cache.check": [
+    "diskcache.core.Cache._sql",
+    "<builtin>.len",
+    "os.path.exists",
+    "diskcache.core.Cache.set",
+    "os.walk",
+    "os.rmdir",
+    "diskcache.core.Cache.reset",
+    "warnings.catch_warnings",
+    "os.path.getsize",
+    "diskcache.core.Cache._transact",
+    "warnings.warn",
+    "os.remove",
+    "os.path.join"
+  ],
+  "warnings.catch_warnings": [],
+  "warnings.warn": [],
+  "os.path.exists": [],
+  "os.walk": [],
+  "os.rmdir": [],
+  "diskcache.core.Cache.evict": [
+    "diskcache.core.Cache._select_delete"
+  ],
+  "diskcache.core.Cache._select_delete": [
+    "diskcache.core.Cache._transact",
+    "<builtin>.len",
+    "<builtin>.str"
+  ],
+  "diskcache.core.Cache.expire": [
+    "diskcache.core.Cache._select_delete",
+    "time.time"
+  ],
+  "diskcache.core.Cache.cull": [
+    "<builtin>.len",
+    "time.time",
+    "diskcache.core.Cache._transact",
+    "diskcache.core.Cache.volume",
+    "diskcache.core.Cache.expire"
+  ],
+  "diskcache.core.Cache._iter": [
+    "diskcache.core.Cache._sql"
+  ],
+  "diskcache.core.Cache.__iter__": [
+    "<builtin>.next",
+    "diskcache.core.Cache._iter"
+  ],
+  "<builtin>.next": [],
+  "diskcache.core.Cache.__reversed__": [
+    "<builtin>.next",
+    "diskcache.core.Cache._iter"
+  ],
+  "diskcache.core.Cache.stats": [
+    "diskcache.core.Cache.reset"
+  ],
+  "<builtin>.delattr": [],
+  "diskcache.core.Cache.__enter__": [],
+  "diskcache.core.Cache.__exit__": [
+    "diskcache.core.Cache.close"
+  ],
+  "diskcache.core.Cache.__len__": [
+    "diskcache.core.Cache.reset"
+  ],
+  "diskcache.core.Cache.__getstate__": [
+    "<builtin>.type"
+  ],
+  "diskcache.core.Cache.__setstate__": [
+    "diskcache.core.Cache.__init__"
+  ],
+  "<builtin>.setattr": [],
+  "diskcache.djangocache": [],
+  "diskcache.djangocache.DjangoCache.__init__": [
+    "diskcache.fanout.FanoutCache.__init__",
+    "<builtin>.super"
+  ],
+  "diskcache.djangocache.DjangoCache.directory": [],
+  "diskcache.djangocache.DjangoCache.cache": [
+    "diskcache.fanout.FanoutCache.cache"
+  ],
+  "diskcache.djangocache.DjangoCache.deque": [
+    "diskcache.fanout.FanoutCache.deque"
+  ],
+  "diskcache.djangocache.DjangoCache.index": [
+    "diskcache.fanout.FanoutCache.index"
+  ],
+  "diskcache.djangocache.DjangoCache.add": [
+    "diskcache.fanout.FanoutCache.add",
+    "diskcache.djangocache.DjangoCache.get_backend_timeout",
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "django.core.cache.backends.base.BaseCache.make_key": [],
+  "diskcache.djangocache.DjangoCache.get_backend_timeout": [],
+  "diskcache.djangocache.DjangoCache.get": [
+    "diskcache.fanout.FanoutCache.get",
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "diskcache.djangocache.DjangoCache.read": [
+    "diskcache.fanout.FanoutCache.read",
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "diskcache.djangocache.DjangoCache.set": [
+    "diskcache.fanout.FanoutCache.set",
+    "diskcache.djangocache.DjangoCache.get_backend_timeout",
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "diskcache.djangocache.DjangoCache.touch": [
+    "diskcache.djangocache.DjangoCache.get_backend_timeout",
+    "diskcache.fanout.FanoutCache.touch",
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "diskcache.djangocache.DjangoCache.pop": [
+    "diskcache.fanout.FanoutCache.pop",
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "diskcache.djangocache.DjangoCache.delete": [
+    "django.core.cache.backends.base.BaseCache.make_key",
+    "diskcache.fanout.FanoutCache.delete"
+  ],
+  "diskcache.djangocache.DjangoCache.incr": [
+    "diskcache.fanout.FanoutCache.incr",
+    "<builtin>.ValueError",
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "diskcache.djangocache.DjangoCache.decr": [
+    "diskcache.djangocache.DjangoCache.incr"
+  ],
+  "diskcache.djangocache.DjangoCache.has_key": [
+    "django.core.cache.backends.base.BaseCache.make_key"
+  ],
+  "diskcache.djangocache.DjangoCache.expire": [
+    "diskcache.fanout.FanoutCache.expire"
+  ],
+  "diskcache.djangocache.DjangoCache.stats": [
+    "diskcache.fanout.FanoutCache.stats"
+  ],
+  "diskcache.djangocache.DjangoCache.create_tag_index": [
+    "diskcache.fanout.FanoutCache.create_tag_index"
+  ],
+  "diskcache.djangocache.DjangoCache.drop_tag_index": [
+    "diskcache.fanout.FanoutCache.drop_tag_index"
+  ],
+  "diskcache.djangocache.DjangoCache.evict": [
+    "diskcache.fanout.FanoutCache.evict"
+  ],
+  "diskcache.djangocache.DjangoCache.cull": [
+    "diskcache.fanout.FanoutCache.cull"
+  ],
+  "diskcache.djangocache.DjangoCache.clear": [
+    "diskcache.fanout.FanoutCache.clear"
+  ],
+  "diskcache.djangocache.DjangoCache.close": [
+    "diskcache.fanout.FanoutCache.close"
+  ],
+  "diskcache.djangocache.DjangoCache.memoize": [
+    "<builtin>.TypeError",
+    "<builtin>.callable"
+  ],
+  "diskcache.djangocache.DjangoCache.memoize.decorator": [
+    "functools.wraps",
+    "diskcache.core.full_name"
+  ],
+  "diskcache.djangocache.DjangoCache.memoize.decorator.wrapper": [
+    "diskcache.djangocache.DjangoCache.set",
+    "diskcache.djangocache.DjangoCache.get"
+  ],
+  "diskcache.djangocache.DjangoCache.memoize.decorator.__cache_key__": [
+    "diskcache.core.args_to_key"
+  ],
+  "diskcache.cli": [],
+  "setup": [
+    "io.open",
+    "setuptools.setup"
+  ],
+  "setup.Tox.finalize_options": [
+    "setuptools.command.test.test.finalize_options"
+  ],
+  "setuptools.command.test.test.finalize_options": [],
+  "setup.Tox.run_tests": [
+    "tox.cmdline",
+    "<builtin>.exit"
+  ],
+  "tox.cmdline": [],
+  "<builtin>.exit": [],
+  "io.open": [],
+  "setuptools.setup": []
+}

@@ -1,0 +1,170 @@
+{
+  "akshare.utils.demjson": [
+    "collections.namedtuple",
+    "dynapyt.runtime.version_info",
+    "akshare.utils.demjson._get_pyver",
+    "akshare.utils.demjson._dummy_context_manager",
+    "akshare.utils.demjson.determine_float_limits",
+    "akshare.utils.demjson._undefined_class",
+    "akshare.utils.demjson._undefined_class",
+    "akshare.utils.demjson._nonnumber_float_constants",
+    "akshare.utils.demjson._make_raw_bytes",
+    "akshare.utils.demjson._make_raw_bytes",
+    "akshare.utils.demjson._make_unsafe_string_chars",
+    "builtins.frozenset",
+    "builtins.frozenset"
+  ],
+  "akshare.utils.demjson.determine_float_limits": [
+    "builtins.isinstance",
+    "builtins.float",
+    "builtins.float",
+    "builtins.float",
+    "builtins.str",
+    "builtins.str",
+    "builtins.float",
+    "builtins.float",
+    "builtins.str",
+    "str.isdigit",
+    "akshare.utils.demjson.determine_float_limits.<locals>.<lambda>",
+    "builtins.str",
+    "builtins.str",
+    "builtins.float",
+    "builtins.float",
+    "builtins.str",
+    "str.isdigit",
+    "akshare.utils.demjson.determine_float_limits.<locals>.<lambda>",
+    "collections.namedtuple",
+    "dynapyt.runtime.float_limits"
+  ],
+  "akshare.utils.demjson._nonnumber_float_constants": [
+    "builtins.float",
+    "builtins.float",
+    "builtins.float"
+  ],
+  "akshare.utils.demjson._make_raw_bytes": [
+    "builtins.bytes"
+  ],
+  "akshare.utils.demjson._make_unsafe_string_chars": [
+    "builtins.range",
+    "builtins.chr",
+    "unicodedata.category",
+    "list.append",
+    "str.join"
+  ],
+  "akshare.utils.demjson._behaviors_metaclass.__new__": [
+    "dict.get",
+    "builtins.property",
+    "dict.get",
+    "str.capitalize",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "builtins.property",
+    "type.__new__"
+  ],
+  "akshare.stock_feature.stock_ttm_lyr": [
+    "py_mini_racer.py_mini_racer.MiniRacer",
+    "py_mini_racer.py_mini_racer.MiniRacer.eval",
+    "datetime.now",
+    "datetime.date",
+    "date.isoformat",
+    "py_mini_racer.py_mini_racer.MiniRacer.call",
+    "str.lower"
+  ],
+  "akshare.stock_feature.stock_all_pb": [
+    "py_mini_racer.py_mini_racer.MiniRacer",
+    "py_mini_racer.py_mini_racer.MiniRacer.eval",
+    "datetime.now",
+    "datetime.date",
+    "date.isoformat",
+    "py_mini_racer.py_mini_racer.MiniRacer.call",
+    "str.lower"
+  ],
+  "akshare.utils.ak_session": [
+    "datetime.timedelta",
+    "requests_cache.session.CachedSession"
+  ],
+  "akshare.futures.cons": [
+    "dict.values",
+    "list.extend",
+    "re.compile",
+    "re.compile"
+  ],
+  "akshare.stock_feature.stock_a_pb": [
+    "py_mini_racer.py_mini_racer.MiniRacer",
+    "py_mini_racer.py_mini_racer.MiniRacer.eval",
+    "datetime.now",
+    "datetime.date",
+    "date.isoformat",
+    "py_mini_racer.py_mini_racer.MiniRacer.call",
+    "str.lower"
+  ],
+  "akshare.stock_feature.stock_a_pe": [
+    "py_mini_racer.py_mini_racer.MiniRacer",
+    "py_mini_racer.py_mini_racer.MiniRacer.eval",
+    "datetime.now",
+    "datetime.date",
+    "date.isoformat",
+    "py_mini_racer.py_mini_racer.MiniRacer.call",
+    "str.lower"
+  ],
+  "akshare.stock_feature.stock_a_pe_and_pb": [
+    "py_mini_racer.py_mini_racer.MiniRacer",
+    "py_mini_racer.py_mini_racer.MiniRacer.eval",
+    "datetime.now",
+    "datetime.date",
+    "date.isoformat",
+    "py_mini_racer.py_mini_racer.MiniRacer.call",
+    "str.lower"
+  ],
+  "akshare.stock_feature.stock_sy_em": [
+    "py_mini_racer.py_mini_racer.MiniRacer",
+    "py_mini_racer.py_mini_racer.MiniRacer.eval"
+  ],
+  "akshare.fund.fund_amac": [
+    "urllib3.disable_warnings"
+  ],
+  "akshare.article.risk_rv": [
+    "urllib3.disable_warnings"
+  ],
+  "akshare.option.cons": [
+    "re.compile"
+  ],
+  "akshare.futures.futures_basis": [
+    "akshare.futures.cons.get_calendar"
+  ],
+  "akshare.futures.cons.get_calendar": [
+    "akshare.futures.cons.get_json_path",
+    "io.open",
+    "json.load"
+  ],
+  "akshare.futures.cons.get_json_path": [
+    "posixpath.dirname",
+    "posixpath.abspath",
+    "posixpath.join"
+  ],
+  "akshare.futures.cot": [
+    "akshare.futures.cons.get_calendar"
+  ],
+  "akshare.futures.receipt": [
+    "akshare.futures.cons.get_calendar",
+    "pandas.core.frame.DataFrame",
+    "pandas.core.frame.DataFrame"
+  ],
+  "akshare.futures.futures_daily_bar": [
+    "akshare.futures.cons.get_calendar"
+  ],
+  "akshare.futures.futures_roll_yield": [
+    "akshare.futures.cons.get_calendar"
+  ],
+  "akshare.cost.cost_living.cost_living": [
+    "requests.api.get",
+    "pandas.io.html.read_html"
+  ],
+  "akshare.datasets.get_ths_js": [
+    "importlib.resources.path"
+  ],
+  "akshare.datasets.get_crypto_info_csv": [
+    "importlib.resources.path"
+  ]
+}

@@ -1,0 +1,3090 @@
+{
+  "docs.advanced_tools.advanced_tools": [],
+  "docs.conf": [
+    "sphinx_rtd_theme.get_html_theme_path",
+    "sys.path.insert",
+    "sys.path.append",
+    "os.path.abspath"
+  ],
+  "os.path.abspath": [],
+  "sys.path.insert": [],
+  "sys.path.append": [],
+  "sphinx_rtd_theme.get_html_theme_path": [],
+  "scripts.get-latest-imagemagick-win": [
+    "urllib.request.urlopen",
+    "<builtin>.reversed",
+    "sys.stdout.write",
+    "urllib.request.urlopen.read",
+    "urllib.request.urlopen.read.decode",
+    "urllib.request.urlopen.read.decode.split"
+  ],
+  "urllib.request.urlopen": [],
+  "urllib.request.urlopen.read": [],
+  "urllib.request.urlopen.read.decode": [],
+  "urllib.request.urlopen.read.decode.split": [],
+  "<builtin>.reversed": [],
+  "sys.stdout.write": [],
+  "examples.soundtrack": [
+    "moviepy.video.VideoClip.VideoClip.with_audio",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__"
+  ],
+  "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__": [
+    "moviepy.audio.AudioClip.AudioClip.__init__",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.__init__"
+  ],
+  "moviepy.video.io.VideoFileClip.VideoFileClip.__init__": [
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.__init__",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__"
+  ],
+  "moviepy.video.VideoClip.VideoClip.with_audio": [],
+  "moviepy": [
+    "inspect.getmembers",
+    "<builtin>.setattr"
+  ],
+  "inspect.getmembers": [],
+  "<builtin>.setattr": [],
+  "moviepy.preview": [
+    "<builtin>.ImportError"
+  ],
+  "<builtin>.ImportError": [],
+  "moviepy.show": [
+    "<builtin>.ImportError"
+  ],
+  "moviepy.audio.AudioClip": [],
+  "moviepy.audio.AudioClip.AudioClip.__init__": [
+    "<builtin>.super",
+    "<builtin>.list",
+    "<builtin>.len",
+    "<builtin>.hasattr",
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "<builtin>.super": [],
+  "moviepy.Clip.Clip.get_frame": [
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "moviepy.video.VideoClip.ImageClip.__init__.<lambda1>",
+    "moviepy.audio.AudioClip.AudioArrayClip.__init__.make_frame",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.video.VideoClip.BitmapClip.__init__",
+    "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.make_frame",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.make_frame",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__.make_mask_frame",
+    "moviepy.video.VideoClip.DataVideoClip.__init__",
+    "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__.<lambda1>",
+    "moviepy.video.VideoClip.UpdatedVideoClip.__init__.make_frame",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips.make_frame",
+    "moviepy.video.VideoClip.UpdatedVideoClip.__init__",
+    "moviepy.video.VideoClip.ImageClip.image_transform.<lambda1>",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__.<lambda2>",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__.make_frame",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__.<lambda1>",
+    "moviepy.audio.AudioClip.CompositeAudioClip.make_frame",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__.mask_make_frame",
+    "moviepy.video.VideoClip.VideoClip.add_mask.make_frame",
+    "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.mask_make_frame"
+  ],
+  "<builtin>.hasattr": [],
+  "<builtin>.list": [],
+  "<builtin>.len": [],
+  "moviepy.audio.AudioClip.AudioClip": [
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>"
+  ],
+  "moviepy.decorators.requires_duration": [
+    "moviepy.video.fx.fadeout.fadeout",
+    "moviepy.video.fx.loop.loop",
+    "moviepy.video.fx.make_loopable.make_loopable",
+    "moviepy.audio.AudioClip.AudioClip.iter_chunks",
+    "moviepy.audio.io.preview.preview",
+    "moviepy.video.compositing.transitions.slide_out",
+    "moviepy.audio.AudioClip.AudioClip.to_soundarray",
+    "moviepy.video.fx.freeze.freeze",
+    "moviepy.audio.io.ffmpeg_audiowriter.ffmpeg_audiowrite",
+    "<builtin>.ValueError"
+  ],
+  "moviepy.audio.AudioClip.AudioClip.iter_chunks": [
+    "<builtin>.list",
+    "numpy.linspace",
+    "<builtin>.int",
+    "proglog.default_bar_logger.iter_bar",
+    "moviepy.audio.AudioClip.AudioClip.to_soundarray",
+    "<builtin>.range",
+    "proglog.default_bar_logger",
+    "numpy.arange"
+  ],
+  "proglog.default_bar_logger": [],
+  "<builtin>.int": [],
+  "numpy.linspace": [],
+  "<builtin>.range": [],
+  "proglog.default_bar_logger.iter_bar": [],
+  "numpy.arange": [],
+  "moviepy.audio.AudioClip.AudioClip.to_soundarray": [
+    "numpy.maximum",
+    "moviepy.audio.AudioClip.AudioClip.iter_chunks",
+    "<builtin>.tuple",
+    "moviepy.Clip.Clip.get_frame",
+    "numpy.arange",
+    "numpy.minimum"
+  ],
+  "<builtin>.tuple": [],
+  "numpy.minimum": [],
+  "numpy.maximum": [],
+  "moviepy.audio.AudioClip.AudioClip.max_volume": [
+    "numpy.maximum",
+    "moviepy.audio.AudioClip.AudioClip.iter_chunks",
+    "numpy.zeros",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__iter__",
+    "<builtin>.abs"
+  ],
+  "numpy.zeros": [],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__iter__": [
+    "<builtin>.iter"
+  ],
+  "<builtin>.abs": [],
+  "moviepy.decorators.convert_path_to_string": [
+    "moviepy.decorators.preprocess_args"
+  ],
+  "moviepy.decorators.preprocess_args.<RETURN>": [],
+  "moviepy.audio.AudioClip.AudioClip.write_audiofile": [
+    "os.path.splitext",
+    "moviepy.audio.io.ffmpeg_audiowriter.ffmpeg_audiowrite",
+    "<builtin>.ValueError",
+    "os.path.basename"
+  ],
+  "os.path.basename": [],
+  "os.path.splitext": [],
+  "<builtin>.ValueError": [],
+  "moviepy.audio.io.ffmpeg_audiowriter.ffmpeg_audiowrite": [
+    "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.close",
+    "moviepy.audio.AudioClip.AudioClip.iter_chunks",
+    "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.__init__",
+    "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.write_frames",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__iter__",
+    "proglog.default_bar_logger",
+    "<builtin>.open"
+  ],
+  "moviepy.audio.AudioClip.AudioArrayClip.__init__": [
+    "<builtin>.list",
+    "moviepy.Clip.Clip.get_frame",
+    "moviepy.Clip.Clip.__init__",
+    "<builtin>.len"
+  ],
+  "moviepy.Clip.Clip.__init__": [],
+  "moviepy.audio.AudioClip.AudioArrayClip.__init__.make_frame": [
+    "<builtin>.isinstance",
+    "numpy.round.astype",
+    "<builtin>.len",
+    "<builtin>.int",
+    "numpy.zeros",
+    "numpy.round"
+  ],
+  "<builtin>.isinstance": [],
+  "numpy.round": [],
+  "numpy.round.astype": [],
+  "moviepy.audio.AudioClip.CompositeAudioClip.__init__": [
+    "<builtin>.max",
+    "<builtin>.isinstance",
+    "<builtin>.super",
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.max": [],
+  "moviepy.audio.AudioClip.CompositeAudioClip.starts": [],
+  "moviepy.audio.AudioClip.CompositeAudioClip.ends": [],
+  "moviepy.audio.AudioClip.CompositeAudioClip.make_frame": [
+    "<builtin>.isinstance",
+    "numpy.array",
+    "<builtin>.len",
+    "numpy.zeros",
+    "<builtin>.zip",
+    "<builtin>.sum"
+  ],
+  "numpy.array": [],
+  "<builtin>.zip": [],
+  "<builtin>.sum": [],
+  "moviepy.audio.AudioClip.concatenate_audioclips": [
+    "moviepy.Clip.Clip.with_duration",
+    "numpy.cumsum",
+    "moviepy.audio.AudioClip.CompositeAudioClip.__init__",
+    "<builtin>.zip"
+  ],
+  "numpy.cumsum": [],
+  "moviepy.Clip.Clip.with_duration": [
+    "<builtin>.ValueError"
+  ],
+  "moviepy.audio.io.ffmpeg_audiowriter": [
+    "moviepy.decorators.requires_duration"
+  ],
+  "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.__init__": [
+    "moviepy.tools.cross_platform_popen_params",
+    "os.path.join.split",
+    "subprocess.Popen"
+  ],
+  "os.path.join.split": [],
+  "moviepy.tools.cross_platform_popen_params": [],
+  "subprocess.Popen": [],
+  "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.write_frames": [
+    "subprocess.PIPE.seek",
+    "subprocess.Popen.communicate",
+    "numpy.zeros.tobytes",
+    "subprocess.PIPE.read",
+    "re.search.group.to_frame.tobytes",
+    "numpy.ones.tobytes",
+    "numpy.arange.tobytes",
+    "<builtin>.IOError",
+    "subprocess.Popen.stdin.write",
+    "numpy.ones.to_frame.tobytes",
+    "numpy.array.to_frame.tobytes",
+    "re.search.group.tobytes",
+    "numpy.maximum.tobytes",
+    "numpy.zeros.to_frame.tobytes",
+    "subprocess.PIPE.read.decode",
+    "proglog.default_bar_logger.iter_bar.tobytes",
+    "proglog.default_bar_logger.iter_bar.to_frame.tobytes",
+    "numpy.arange.to_frame.tobytes",
+    "numpy.array.tobytes"
+  ],
+  "re.search.group.to_frame.tobytes": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.tobytes": [],
+  "numpy.ones.to_frame.tobytes": [],
+  "numpy.arange.to_frame.tobytes": [],
+  "numpy.array.to_frame.tobytes": [],
+  "numpy.zeros.tobytes": [],
+  "re.search.group.tobytes": [],
+  "numpy.maximum.tobytes": [],
+  "numpy.array.tobytes": [],
+  "numpy.zeros.to_frame.tobytes": [],
+  "numpy.ones.tobytes": [],
+  "proglog.default_bar_logger.iter_bar.tobytes": [],
+  "numpy.arange.tobytes": [],
+  "subprocess.Popen.stdin.write": [],
+  "subprocess.Popen.communicate": [],
+  "subprocess.PIPE.read.decode": [],
+  "subprocess.PIPE.seek": [],
+  "subprocess.PIPE.read": [],
+  "<builtin>.IOError": [],
+  "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.close": [
+    "subprocess.Popen.stderr.close",
+    "subprocess.Popen.stdin.close",
+    "subprocess.Popen.wait",
+    "<builtin>.hasattr"
+  ],
+  "subprocess.Popen.stdin.close": [],
+  "subprocess.Popen.stderr.close": [],
+  "subprocess.Popen.wait": [],
+  "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.__del__": [
+    "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.close"
+  ],
+  "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.__enter__": [],
+  "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.__exit__": [
+    "moviepy.audio.io.ffmpeg_audiowriter.FFMPEG_AudioWriter.close"
+  ],
+  "<builtin>.open": [],
+  "moviepy.tools": [],
+  "moviepy.tools.subprocess_call": [
+    "subprocess.Popen.communicate",
+    "subprocess.Popen",
+    "<builtin>.IOError",
+    "subprocess.Popen.stderr.close",
+    "moviepy.tools.cross_platform_popen_params",
+    "proglog.default_bar_logger"
+  ],
+  "moviepy.tools.convert_to_seconds": [
+    "<builtin>.isinstance",
+    "<builtin>.float",
+    "<builtin>.reversed",
+    "re.search.group.split",
+    "<builtin>.zip",
+    "<builtin>.sum"
+  ],
+  "<builtin>.float": [],
+  "re.search.group.split": [],
+  "moviepy.tools.deprecated_version_of": [],
+  "moviepy.tools.deprecated_version_of.deprecated_func": [
+    "warnings.warn"
+  ],
+  "warnings.warn": [],
+  "moviepy.tools.find_extension": [
+    "<builtin>.ValueError"
+  ],
+  "moviepy.decorators": [],
+  "moviepy.decorators.outplace": [
+    "moviepy.Clip.Clip.with_make_frame",
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.VideoClip.VideoClip.with_opacity",
+    "moviepy.video.VideoClip.VideoClip.afx",
+    "moviepy.video.VideoClip.VideoClip.with_layer",
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "moviepy.video.VideoClip.VideoClip.with_make_frame",
+    "moviepy.Clip.Clip.with_is_mask",
+    "moviepy.video.VideoClip.VideoClip.with_mask",
+    "moviepy.Clip.Clip.with_end",
+    "moviepy.video.VideoClip.ImageClip.time_transform",
+    "moviepy.Clip.Clip.with_memoize",
+    "moviepy.video.VideoClip.VideoClip.without_audio",
+    "moviepy.video.VideoClip.VideoClip.with_position",
+    "moviepy.Clip.Clip.with_start",
+    "moviepy.video.VideoClip.VideoClip.with_audio"
+  ],
+  "moviepy.Clip.Clip.with_make_frame": [],
+  "moviepy.video.VideoClip.VideoClip.with_opacity": [
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "moviepy.video.VideoClip.VideoClip.image_transform"
+  ],
+  "moviepy.video.VideoClip.VideoClip.with_layer": [],
+  "moviepy.video.VideoClip.VideoClip.afx": [
+    "moviepy.Clip.Clip.fx"
+  ],
+  "moviepy.video.VideoClip.ImageClip.image_transform": [
+    "moviepy.video.fx.resize.resize.image_filter",
+    "<builtin>.setattr",
+    "<builtin>.getattr",
+    "moviepy.video.fx.even_size.even_size.image_filter",
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.video.VideoClip.VideoClip.with_make_frame": [
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.Clip.Clip.with_is_mask": [],
+  "moviepy.video.VideoClip.VideoClip.with_mask": [],
+  "moviepy.Clip.Clip.with_end": [
+    "<builtin>.max"
+  ],
+  "moviepy.video.VideoClip.ImageClip.time_transform": [
+    "<builtin>.setattr",
+    "<builtin>.getattr"
+  ],
+  "moviepy.Clip.Clip.with_memoize": [],
+  "moviepy.video.VideoClip.VideoClip.without_audio": [],
+  "moviepy.video.VideoClip.VideoClip.with_position": [
+    "<builtin>.hasattr"
+  ],
+  "moviepy.Clip.Clip.with_start": [],
+  "moviepy.decorators.convert_masks_to_RGB": [
+    "moviepy.video.VideoClip.VideoClip.save_frame",
+    "moviepy.video.io.preview.preview",
+    "moviepy.video.VideoClip.VideoClip.write_images_sequence"
+  ],
+  "moviepy.video.VideoClip.VideoClip.save_frame": [
+    "numpy.array.to_frame.astype",
+    "re.search.group.astype",
+    "numpy.ones.to_frame.astype",
+    "numpy.dstack.astype",
+    "proglog.default_bar_logger.iter_bar.astype",
+    "numpy.ones.astype",
+    "numpy.zeros.astype",
+    "numpy.arange.to_frame.astype",
+    "proglog.default_bar_logger.iter_bar.to_frame.astype",
+    "numpy.zeros.to_frame.astype",
+    "re.search.group.to_frame.astype",
+    "numpy.dstack",
+    "numpy.arange.astype",
+    "imageio.imsave",
+    "moviepy.Clip.Clip.get_frame",
+    "numpy.array.astype"
+  ],
+  "moviepy.video.io.preview.preview": [
+    "threading.Event.wait",
+    "threading.Event.clear",
+    "threading.Event.set",
+    "threading.Event",
+    "pygame.display.set_mode",
+    "<builtin>.str",
+    "pygame.quit",
+    "moviepy.video.io.preview.imdisplay",
+    "pygame.event.get",
+    "<builtin>.print",
+    "threading.Thread.start",
+    "<builtin>.max",
+    "time.time",
+    "pygame.mouse.get_pos",
+    "numpy.arange",
+    "threading.Thread",
+    "time.sleep"
+  ],
+  "moviepy.video.VideoClip.VideoClip.write_images_sequence": [
+    "<builtin>.list",
+    "proglog.default_bar_logger.iter_bar",
+    "<builtin>.enumerate",
+    "moviepy.video.VideoClip.VideoClip.save_frame",
+    "proglog.default_bar_logger",
+    "numpy.arange"
+  ],
+  "moviepy.decorators.apply_to_mask": [
+    "moviepy.video.fx.time_symmetrize.time_symmetrize",
+    "<builtin>.getattr",
+    "moviepy.video.fx.even_size.even_size",
+    "moviepy.video.fx.margin.margin"
+  ],
+  "moviepy.video.fx.time_symmetrize.time_symmetrize": [
+    "numpy.arange.add_mask.fx",
+    "numpy.zeros.add_mask.fx",
+    "re.search.group.fx",
+    "re.search.group.to_frame.add_mask.fx",
+    "numpy.arange.to_frame.add_mask.fx",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "numpy.arange.fx",
+    "numpy.ones.to_frame.fx",
+    "numpy.array.to_frame.add_mask.fx",
+    "proglog.default_bar_logger.iter_bar.add_mask.fx",
+    "proglog.default_bar_logger.iter_bar.to_frame.fx",
+    "re.search.group.add_mask.fx",
+    "numpy.ones.to_frame.add_mask.fx",
+    "numpy.ones.add_mask.fx",
+    "numpy.zeros.to_frame.add_mask.fx",
+    "numpy.array.to_frame.fx",
+    "numpy.zeros.fx",
+    "numpy.arange.to_frame.fx",
+    "re.search.group.to_frame.fx",
+    "numpy.ones.fx",
+    "proglog.default_bar_logger.iter_bar.fx",
+    "moviepy.Clip.Clip.fx",
+    "numpy.zeros.to_frame.fx",
+    "numpy.array.fx",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.fx",
+    "numpy.array.add_mask.fx"
+  ],
+  "moviepy.video.fx.even_size.even_size": [
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "numpy.array.add_mask.image_transform",
+    "numpy.zeros.to_frame.add_mask.image_transform",
+    "numpy.arange.to_frame.image_transform",
+    "numpy.ones.to_frame.add_mask.image_transform",
+    "numpy.array.image_transform",
+    "numpy.array.to_frame.image_transform",
+    "numpy.ones.to_frame.image_transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.image_transform",
+    "re.search.group.image_transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.image_transform",
+    "re.search.group.to_frame.image_transform",
+    "numpy.arange.add_mask.image_transform",
+    "numpy.array.to_frame.add_mask.image_transform",
+    "moviepy.video.VideoClip.VideoClip.image_transform",
+    "re.search.group.to_frame.add_mask.image_transform",
+    "numpy.zeros.add_mask.image_transform",
+    "numpy.ones.image_transform",
+    "numpy.zeros.to_frame.image_transform",
+    "numpy.arange.image_transform",
+    "proglog.default_bar_logger.iter_bar.image_transform",
+    "re.search.group.add_mask.image_transform",
+    "numpy.arange.to_frame.add_mask.image_transform",
+    "numpy.zeros.image_transform",
+    "numpy.ones.add_mask.image_transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.image_transform"
+  ],
+  "moviepy.video.fx.margin.margin": [
+    "numpy.array.to_frame.add_mask",
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "numpy.arange.add_mask",
+    "re.search.group.to_frame.add_mask",
+    "numpy.array.add_mask.image_transform",
+    "proglog.default_bar_logger.iter_bar.transform",
+    "numpy.zeros.to_frame.add_mask.image_transform",
+    "numpy.arange.to_frame.image_transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.transform",
+    "numpy.ones.to_frame.add_mask.image_transform",
+    "numpy.array.image_transform",
+    "numpy.zeros.to_frame.add_mask.transform",
+    "numpy.arange.to_frame.add_mask",
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask",
+    "numpy.zeros.add_mask",
+    "moviepy.Clip.Clip.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.transform",
+    "numpy.array.to_frame.image_transform",
+    "numpy.ones.to_frame.image_transform",
+    "<builtin>.isinstance",
+    "proglog.default_bar_logger.iter_bar.to_frame.image_transform",
+    "numpy.array.to_frame.add_mask.transform",
+    "re.search.group.to_frame.add_mask.transform",
+    "re.search.group.transform",
+    "moviepy.video.fx.margin.margin.make_bg",
+    "re.search.group.image_transform",
+    "moviepy.video.VideoClip.VideoClip.add_mask",
+    "numpy.arange.add_mask.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.image_transform",
+    "numpy.zeros.to_frame.add_mask",
+    "re.search.group.to_frame.image_transform",
+    "numpy.arange.add_mask.image_transform",
+    "numpy.array.to_frame.transform",
+    "numpy.ones.to_frame.add_mask",
+    "numpy.array.add_mask.transform",
+    "numpy.array.to_frame.add_mask.image_transform",
+    "numpy.zeros.add_mask.transform",
+    "re.search.group.to_frame.add_mask.image_transform",
+    "moviepy.video.VideoClip.VideoClip.image_transform",
+    "numpy.zeros.add_mask.image_transform",
+    "numpy.ones.image_transform",
+    "numpy.zeros.to_frame.image_transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.transform",
+    "numpy.ones.add_mask.transform",
+    "re.search.group.add_mask",
+    "numpy.arange.image_transform",
+    "proglog.default_bar_logger.iter_bar.image_transform",
+    "numpy.arange.to_frame.transform",
+    "numpy.ones.to_frame.add_mask.transform",
+    "numpy.arange.to_frame.add_mask.image_transform",
+    "re.search.group.add_mask.image_transform",
+    "numpy.zeros.image_transform",
+    "numpy.arange.transform",
+    "numpy.array.add_mask",
+    "numpy.zeros.to_frame.transform",
+    "numpy.zeros.transform",
+    "numpy.ones.transform",
+    "re.search.group.add_mask.transform",
+    "re.search.group.to_frame.transform",
+    "numpy.ones.to_frame.transform",
+    "numpy.ones.add_mask.image_transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.image_transform",
+    "numpy.arange.to_frame.add_mask.transform",
+    "numpy.array.transform",
+    "numpy.ones.add_mask",
+    "proglog.default_bar_logger.iter_bar.add_mask"
+  ],
+  "<builtin>.getattr": [],
+  "moviepy.decorators.apply_to_audio": [
+    "<builtin>.getattr",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.video.fx.time_mirror.time_mirror"
+  ],
+  "moviepy.Clip.Clip.subclip": [
+    "moviepy.Clip.Clip.time_transform",
+    "<builtin>.str",
+    "<builtin>.ValueError",
+    "moviepy.video.VideoClip.ImageClip.time_transform"
+  ],
+  "moviepy.video.fx.time_mirror.time_mirror": [
+    "numpy.ones.to_frame.add_mask.time_transform",
+    "numpy.zeros.add_mask.time_transform",
+    "numpy.arange.add_mask.time_transform",
+    "numpy.array.to_frame.add_mask.time_transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.time_transform",
+    "numpy.ones.to_frame.time_transform",
+    "numpy.array.time_transform",
+    "moviepy.video.VideoClip.ImageClip.time_transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.time_transform",
+    "proglog.default_bar_logger.iter_bar.time_transform",
+    "numpy.ones.time_transform",
+    "re.search.group.to_frame.add_mask.time_transform",
+    "re.search.group.add_mask.time_transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.time_transform",
+    "numpy.arange.to_frame.time_transform",
+    "numpy.arange.time_transform",
+    "numpy.arange.to_frame.add_mask.time_transform",
+    "numpy.ones.add_mask.time_transform",
+    "re.search.group.time_transform",
+    "numpy.array.to_frame.time_transform",
+    "moviepy.Clip.Clip.time_transform",
+    "numpy.zeros.time_transform",
+    "numpy.zeros.to_frame.time_transform",
+    "numpy.zeros.to_frame.add_mask.time_transform",
+    "numpy.array.add_mask.time_transform",
+    "re.search.group.to_frame.time_transform"
+  ],
+  "moviepy.video.fx.fadeout.fadeout": [
+    "proglog.default_bar_logger.iter_bar.transform",
+    "numpy.zeros.to_frame.add_mask.transform",
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.Clip.Clip.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.transform",
+    "numpy.array.to_frame.add_mask.transform",
+    "re.search.group.to_frame.add_mask.transform",
+    "re.search.group.transform",
+    "numpy.arange.add_mask.transform",
+    "numpy.array.to_frame.transform",
+    "numpy.array.add_mask.transform",
+    "numpy.zeros.add_mask.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.transform",
+    "numpy.ones.add_mask.transform",
+    "numpy.array",
+    "numpy.arange.to_frame.transform",
+    "numpy.ones.to_frame.add_mask.transform",
+    "numpy.arange.transform",
+    "numpy.zeros.to_frame.transform",
+    "numpy.zeros.transform",
+    "numpy.ones.transform",
+    "re.search.group.to_frame.transform",
+    "numpy.ones.to_frame.transform",
+    "re.search.group.add_mask.transform",
+    "numpy.arange.to_frame.add_mask.transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.transform",
+    "numpy.array.transform"
+  ],
+  "moviepy.video.fx.loop.loop": [
+    "moviepy.Clip.Clip.time_transform",
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.VideoClip.ImageClip.time_transform"
+  ],
+  "moviepy.video.fx.make_loopable.make_loopable": [
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.Clip.Clip.subclip"
+  ],
+  "moviepy.audio.io.preview.preview": [
+    "pygame.sndarray.make_sound",
+    "pygame.sndarray.make_sound.play",
+    "<builtin>.list",
+    "numpy.array",
+    "<builtin>.len",
+    "pygame.sndarray.make_sound.play.stop",
+    "<builtin>.int",
+    "pygame.mixer.quit",
+    "<builtin>.range",
+    "pygame.sndarray.make_sound.play.get_queue",
+    "numpy.arange",
+    "pygame.mixer.init",
+    "time.sleep",
+    "pygame.sndarray.make_sound.play.queue"
+  ],
+  "moviepy.video.compositing.transitions.slide_out": [],
+  "moviepy.video.fx.freeze.freeze": [
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "<builtin>.ValueError"
+  ],
+  "moviepy.decorators.requires_fps": [
+    "moviepy.video.VideoClip.VideoClip.n_frames",
+    "<builtin>.ValueError",
+    "<builtin>.hasattr"
+  ],
+  "moviepy.video.VideoClip.VideoClip.n_frames": [
+    "<builtin>.int"
+  ],
+  "moviepy.decorators.audio_video_fx": [
+    "<builtin>.hasattr",
+    "moviepy.audio.fx.audio_delay.audio_delay",
+    "moviepy.audio.fx.audio_normalize.audio_normalize",
+    "moviepy.audio.fx.audio_loop.audio_loop",
+    "moviepy.audio.fx.multiply_stereo_volume.multiply_stereo_volume"
+  ],
+  "moviepy.audio.fx.audio_delay.audio_delay": [
+    "numpy.linspace",
+    "<builtin>.max",
+    "moviepy.audio.fx.multiply_volume.multiply_volume",
+    "<builtin>.range",
+    "moviepy.audio.AudioClip.CompositeAudioClip.__init__"
+  ],
+  "moviepy.audio.fx.audio_normalize.audio_normalize": [
+    "moviepy.audio.fx.multiply_volume.multiply_volume"
+  ],
+  "moviepy.audio.fx.audio_loop.audio_loop": [
+    "<builtin>.int",
+    "moviepy.audio.AudioClip.concatenate_audioclips"
+  ],
+  "moviepy.audio.fx.multiply_stereo_volume.multiply_stereo_volume": [],
+  "moviepy.decorators.preprocess_args": [
+    "decorator.decorator"
+  ],
+  "moviepy.decorators.preprocess_args.wrapper": [
+    "moviepy.tools.convert_to_seconds",
+    "<builtin>.zip",
+    "inspect.getfullargspec",
+    "os.fspath"
+  ],
+  "inspect.getfullargspec": [],
+  "os.fspath": [],
+  "decorator.decorator": [],
+  "moviepy.decorators.convert_parameter_to_seconds": [
+    "moviepy.decorators.preprocess_args"
+  ],
+  "moviepy.decorators.add_mask_if_none": [
+    "numpy.array.to_frame.add_mask",
+    "numpy.arange.add_mask",
+    "numpy.ones.to_frame.add_mask",
+    "re.search.group.to_frame.add_mask",
+    "moviepy.video.compositing.transitions.crossfadeout",
+    "numpy.array.add_mask",
+    "numpy.arange.to_frame.add_mask",
+    "moviepy.video.compositing.transitions.crossfadein",
+    "re.search.group.add_mask",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask",
+    "numpy.zeros.add_mask",
+    "moviepy.video.VideoClip.VideoClip.add_mask",
+    "numpy.ones.add_mask",
+    "numpy.zeros.to_frame.add_mask",
+    "proglog.default_bar_logger.iter_bar.add_mask"
+  ],
+  "numpy.array.to_frame.add_mask": [],
+  "numpy.arange.add_mask": [],
+  "re.search.group.to_frame.add_mask": [],
+  "numpy.ones.to_frame.add_mask": [],
+  "numpy.array.add_mask": [],
+  "numpy.arange.to_frame.add_mask": [],
+  "re.search.group.add_mask": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.add_mask": [],
+  "numpy.zeros.add_mask": [],
+  "moviepy.video.VideoClip.VideoClip.add_mask": [
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.VideoClip.ColorClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.with_mask"
+  ],
+  "numpy.ones.add_mask": [],
+  "numpy.zeros.to_frame.add_mask": [],
+  "proglog.default_bar_logger.iter_bar.add_mask": [],
+  "moviepy.video.compositing.transitions.crossfadein": [
+    "numpy.arange.to_frame.copy",
+    "numpy.array.to_frame.mask.fx",
+    "numpy.ones.add_mask.copy",
+    "numpy.array.to_frame.add_mask.copy",
+    "re.search.group.to_frame.mask.fx",
+    "numpy.ones.to_frame.copy",
+    "re.search.group.to_frame.copy",
+    "numpy.arange.mask.fx",
+    "numpy.zeros.to_frame.mask.fx",
+    "numpy.ones.mask.fx",
+    "re.search.group.copy",
+    "numpy.zeros.mask.fx",
+    "proglog.default_bar_logger.iter_bar.copy",
+    "proglog.default_bar_logger.iter_bar.add_mask.copy",
+    "numpy.arange.to_frame.mask.fx",
+    "moviepy.video.VideoClip.VideoClip.__copy__",
+    "proglog.default_bar_logger.iter_bar.to_frame.copy",
+    "numpy.ones.copy",
+    "proglog.default_bar_logger.iter_bar.to_frame.mask.fx",
+    "numpy.zeros.copy",
+    "numpy.ones.to_frame.mask.fx",
+    "numpy.zeros.to_frame.add_mask.copy",
+    "numpy.zeros.add_mask.copy",
+    "numpy.array.copy",
+    "numpy.arange.to_frame.add_mask.copy",
+    "numpy.array.to_frame.copy",
+    "numpy.array.mask.fx",
+    "numpy.array.add_mask.copy",
+    "re.search.group.mask.fx",
+    "re.search.group.add_mask.copy",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.copy",
+    "numpy.arange.add_mask.copy",
+    "proglog.default_bar_logger.iter_bar.mask.fx",
+    "moviepy.Clip.Clip.fx",
+    "numpy.zeros.to_frame.copy",
+    "moviepy.Clip.Clip.copy",
+    "re.search.group.to_frame.add_mask.copy",
+    "numpy.ones.to_frame.add_mask.copy",
+    "numpy.arange.copy"
+  ],
+  "moviepy.video.compositing.transitions.crossfadeout": [
+    "numpy.arange.to_frame.copy",
+    "numpy.array.to_frame.mask.fx",
+    "numpy.ones.add_mask.copy",
+    "numpy.array.to_frame.add_mask.copy",
+    "re.search.group.to_frame.mask.fx",
+    "numpy.ones.to_frame.copy",
+    "re.search.group.to_frame.copy",
+    "numpy.arange.mask.fx",
+    "numpy.zeros.to_frame.mask.fx",
+    "numpy.ones.mask.fx",
+    "re.search.group.copy",
+    "numpy.zeros.mask.fx",
+    "proglog.default_bar_logger.iter_bar.copy",
+    "proglog.default_bar_logger.iter_bar.add_mask.copy",
+    "numpy.arange.to_frame.mask.fx",
+    "moviepy.video.VideoClip.VideoClip.__copy__",
+    "proglog.default_bar_logger.iter_bar.to_frame.copy",
+    "numpy.ones.copy",
+    "proglog.default_bar_logger.iter_bar.to_frame.mask.fx",
+    "numpy.zeros.copy",
+    "numpy.ones.to_frame.mask.fx",
+    "numpy.zeros.to_frame.add_mask.copy",
+    "numpy.zeros.add_mask.copy",
+    "numpy.array.copy",
+    "numpy.arange.to_frame.add_mask.copy",
+    "numpy.array.to_frame.copy",
+    "numpy.array.mask.fx",
+    "numpy.array.add_mask.copy",
+    "re.search.group.mask.fx",
+    "re.search.group.add_mask.copy",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.copy",
+    "numpy.arange.add_mask.copy",
+    "proglog.default_bar_logger.iter_bar.mask.fx",
+    "moviepy.Clip.Clip.fx",
+    "numpy.zeros.to_frame.copy",
+    "moviepy.Clip.Clip.copy",
+    "re.search.group.to_frame.add_mask.copy",
+    "numpy.ones.to_frame.add_mask.copy",
+    "numpy.arange.copy"
+  ],
+  "moviepy.decorators.use_clip_fps_by_default": [
+    "moviepy.decorators.use_clip_fps_by_default.find_fps",
+    "moviepy.video.tools.tracking.manual_tracking",
+    "moviepy.Clip.Clip.iter_frames",
+    "inspect.getfullargspec",
+    "moviepy.video.tools.cuts.detect_scenes",
+    "moviepy.video.io.gif_writers.write_gif",
+    "<builtin>.zip",
+    "moviepy.video.io.gif_writers.write_gif_with_tempfiles"
+  ],
+  "moviepy.decorators.use_clip_fps_by_default.find_fps": [
+    "<builtin>.AttributeError",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.AttributeError": [],
+  "moviepy.Clip.Clip.iter_frames": [
+    "numpy.array.to_frame.astype",
+    "re.search.group.astype",
+    "numpy.ones.to_frame.astype",
+    "proglog.default_bar_logger.iter_bar.astype",
+    "numpy.ones.astype",
+    "numpy.zeros.astype",
+    "numpy.arange.to_frame.astype",
+    "<builtin>.int",
+    "proglog.default_bar_logger.iter_bar",
+    "proglog.default_bar_logger.iter_bar.to_frame.astype",
+    "numpy.zeros.to_frame.astype",
+    "re.search.group.to_frame.astype",
+    "numpy.arange.astype",
+    "moviepy.Clip.Clip.get_frame",
+    "proglog.default_bar_logger",
+    "numpy.arange",
+    "numpy.array.astype"
+  ],
+  "moviepy.video.tools.cuts.detect_scenes": [
+    "numpy.nonzero",
+    "<builtin>.list",
+    "<builtin>.len",
+    "numpy.diff",
+    "<builtin>.abs",
+    "numpy.array",
+    "<builtin>.zip"
+  ],
+  "moviepy.video.io.gif_writers.write_gif": [
+    "subprocess.Popen.stdin.close",
+    "subprocess.Popen.wait",
+    "subprocess.Popen",
+    "moviepy.video.fx.loop.loop",
+    "<builtin>.str",
+    "numpy.dstack.astype",
+    "<builtin>.IOError",
+    "subprocess.Popen.stdin.write",
+    "numpy.dstack",
+    "moviepy.tools.cross_platform_popen_params",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__iter__",
+    "moviepy.Clip.Clip.iter_frames",
+    "moviepy.Clip.Clip.get_frame",
+    "proglog.default_bar_logger",
+    "numpy.dstack.astype.tobytes"
+  ],
+  "moviepy.video.tools.tracking.manual_tracking": [
+    "moviepy.video.tools.interpolators.Trajectory.save_list",
+    "pygame.display.set_mode",
+    "moviepy.video.tools.tracking.manual_tracking.gatherClicks",
+    "<builtin>.zip",
+    "moviepy.video.tools.interpolators.Trajectory.__init__",
+    "<builtin>.range"
+  ],
+  "moviepy.video.io.gif_writers.write_gif_with_tempfiles": [
+    "os.remove",
+    "<builtin>.str",
+    "<builtin>.list",
+    "moviepy.video.fx.loop.loop",
+    "<builtin>.IOError",
+    "proglog.default_bar_logger.iter_bar",
+    "<builtin>.int",
+    "<builtin>.enumerate",
+    "os.path.splitext",
+    "moviepy.video.VideoClip.VideoClip.save_frame",
+    "proglog.default_bar_logger",
+    "numpy.arange",
+    "moviepy.tools.subprocess_call"
+  ],
+  "moviepy.config": [
+    "<builtin>.IOError",
+    "winreg.OpenKey.Close",
+    "moviepy.config.try_cmd",
+    "dotenv.load_dotenv",
+    "os.getenv",
+    "os.path.exists",
+    "subprocess.check_output",
+    "os.path.isfile",
+    "moviepy.config.check",
+    "imageio.plugins.ffmpeg.get_exe",
+    "subprocess.check_output.split",
+    "winreg.QueryValueEx",
+    "dotenv.find_dotenv",
+    "winreg.OpenKey"
+  ],
+  "dotenv.find_dotenv": [],
+  "dotenv.load_dotenv": [],
+  "os.getenv": [],
+  "moviepy.config.try_cmd": [
+    "subprocess.Popen.communicate",
+    "moviepy.tools.cross_platform_popen_params",
+    "subprocess.Popen"
+  ],
+  "imageio.plugins.ffmpeg.get_exe": [],
+  "winreg.OpenKey": [],
+  "winreg.QueryValueEx": [],
+  "winreg.OpenKey.Close": [],
+  "subprocess.check_output": [],
+  "subprocess.check_output.split": [],
+  "os.path.exists": [],
+  "os.path.isfile": [],
+  "moviepy.config.check": [
+    "pathlib.Path.read_text",
+    "moviepy.config.try_cmd",
+    "<builtin>.print",
+    "pathlib.Path"
+  ],
+  "<builtin>.print": [],
+  "pathlib.Path": [],
+  "pathlib.Path.read_text": [],
+  "moviepy.Clip": [],
+  "moviepy.Clip.Clip.copy": [
+    "copy.copy"
+  ],
+  "copy.copy": [],
+  "moviepy.Clip.Clip": [
+    "moviepy.decorators.outplace",
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.apply_to_mask",
+    "moviepy.decorators.apply_to_audio",
+    "moviepy.decorators.convert_parameter_to_seconds",
+    "moviepy.decorators.use_clip_fps_by_default"
+  ],
+  "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__": [
+    "<builtin>.isinstance",
+    "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.mask_make_frame",
+    "os.path.join",
+    "<builtin>.sorted",
+    "<builtin>.list",
+    "numpy.cumsum",
+    "<builtin>.len",
+    "<builtin>.Exception",
+    "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.make_frame",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "numpy.finfo",
+    "<builtin>.range",
+    "imageio.imread",
+    "os.listdir",
+    "<builtin>.ValueError",
+    "<builtin>.sum"
+  ],
+  "moviepy.video.VideoClip.ImageClip.__init__.<lambda1>": [],
+  "moviepy.video.VideoClip.ImageClip.__init__": [
+    "<builtin>.isinstance",
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "<builtin>.len",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "imageio.imread"
+  ],
+  "moviepy.video.VideoClip.BitmapClip.__init__": [
+    "<builtin>.len",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__iter__",
+    "numpy.array"
+  ],
+  "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.make_frame": [
+    "imageio.imread",
+    "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.find_image_index"
+  ],
+  "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.make_frame": [
+    "PIL.Image.fromarray",
+    "numpy.array.to_frame.astype",
+    "re.search.group.astype",
+    "PIL.Image.fromarray.putalpha",
+    "numpy.ones.to_frame.astype",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.playing_clips",
+    "PIL.Image.fromarray.convert",
+    "proglog.default_bar_logger.iter_bar.astype",
+    "numpy.ones.astype",
+    "numpy.zeros.astype",
+    "numpy.arange.to_frame.astype",
+    "proglog.default_bar_logger.iter_bar.to_frame.astype",
+    "numpy.zeros.to_frame.astype",
+    "re.search.group.to_frame.astype",
+    "numpy.arange.astype",
+    "numpy.array",
+    "moviepy.Clip.Clip.get_frame",
+    "numpy.array.astype"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__init__.make_mask_frame": [
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__.add_textclip_if_none",
+    "numpy.array"
+  ],
+  "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__": [
+    "<builtin>.sorted",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.VideoClip.ColorClip.__init__",
+    "<builtin>.max",
+    "<builtin>.getattr",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "moviepy.audio.AudioClip.CompositeAudioClip.__init__"
+  ],
+  "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__.<lambda1>": [
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.get_frame"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__init__": [
+    "<builtin>.isinstance",
+    "<builtin>.bool",
+    "<builtin>.max",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "<builtin>.dict",
+    "moviepy.video.tools.subtitles.file_to_subtitles",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__.make_textclip"
+  ],
+  "moviepy.video.VideoClip.UpdatedVideoClip.__init__.make_frame": [
+    "numpy.zeros.to_frame.update",
+    "re.search.group.to_frame.update",
+    "numpy.arange.to_frame.update",
+    "numpy.ones.update",
+    "proglog.default_bar_logger.iter_bar.to_frame",
+    "proglog.default_bar_logger.iter_bar.to_frame.update",
+    "numpy.arange.update",
+    "re.search.group.update",
+    "numpy.ones.to_frame.update",
+    "proglog.default_bar_logger.iter_bar.update",
+    "numpy.ones.to_frame",
+    "re.search.group.to_frame",
+    "numpy.array.to_frame",
+    "numpy.array.to_frame.update",
+    "numpy.arange.to_frame",
+    "numpy.array.update",
+    "numpy.zeros.update",
+    "numpy.zeros.to_frame"
+  ],
+  "moviepy.video.compositing.concatenate.concatenate_videoclips.make_frame": [
+    "<builtin>.max",
+    "<builtin>.enumerate"
+  ],
+  "moviepy.video.VideoClip.ImageClip.image_transform.<lambda1>": [],
+  "moviepy.video.io.VideoFileClip.VideoFileClip.__init__.<lambda2>": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame"
+  ],
+  "moviepy.video.VideoClip.DataVideoClip.__init__": [
+    "<builtin>.len",
+    "moviepy.video.VideoClip.VideoClip.__init__"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__init__.make_frame": [
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__.add_textclip_if_none",
+    "numpy.array"
+  ],
+  "moviepy.video.io.VideoFileClip.VideoFileClip.__init__.<lambda1>": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame"
+  ],
+  "moviepy.video.io.VideoFileClip.VideoFileClip.__init__.mask_make_frame": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame"
+  ],
+  "moviepy.video.VideoClip.VideoClip.add_mask.make_frame": [
+    "moviepy.Clip.Clip.get_frame",
+    "numpy.ones"
+  ],
+  "moviepy.video.VideoClip.UpdatedVideoClip.__init__": [
+    "moviepy.video.VideoClip.VideoClip.__init__"
+  ],
+  "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.mask_make_frame": [
+    "imageio.imread",
+    "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.find_image_index"
+  ],
+  "moviepy.Clip.Clip.transform": [
+    "moviepy.Clip.Clip.with_make_frame",
+    "<builtin>.isinstance",
+    "moviepy.video.VideoClip.VideoClip.with_make_frame",
+    "<builtin>.setattr",
+    "<builtin>.getattr"
+  ],
+  "moviepy.Clip.Clip.transform.<lambda1>": [
+    "moviepy.video.fx.fadein.fadein.filter",
+    "moviepy.video.fx.fadeout.fadeout.filter",
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "moviepy.video.fx.headblur.headblur.filter",
+    "moviepy.video.fx.margin.margin.filter",
+    "moviepy.video.fx.resize.resize.filter"
+  ],
+  "moviepy.video.fx.fadein.fadein.filter": [
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.video.fx.fadeout.fadeout.filter": [
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.video.fx.margin.margin.filter": [
+    "moviepy.Clip.Clip.get_frame",
+    "moviepy.video.fx.margin.margin.make_bg"
+  ],
+  "moviepy.video.fx.headblur.headblur.filter": [
+    "numpy.zeros.astype",
+    "cv2.blur",
+    "<builtin>.int",
+    "<builtin>.max",
+    "numpy.zeros",
+    "numpy.dstack",
+    "cv2.circle",
+    "moviepy.Clip.Clip.get_frame",
+    "<builtin>.min"
+  ],
+  "moviepy.video.fx.resize.resize.filter": [
+    "moviepy.video.fx.resize.resize.get_new_size",
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.Clip.Clip.time_transform": [
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.Clip.Clip.transform"
+  ],
+  "moviepy.Clip.Clip.time_transform.<lambda1>": [
+    "moviepy.Clip.Clip.get_frame"
+  ],
+  "moviepy.video.VideoClip.ImageClip.transform": [
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.Clip.Clip.transform"
+  ],
+  "moviepy.Clip.Clip.fx": [
+    "moviepy.video.fx.headblur.headblur",
+    "moviepy.video.fx.time_mirror.time_mirror",
+    "moviepy.video.fx.fadeout.fadeout",
+    "moviepy.video.fx.fadein.fadein",
+    "moviepy.video.fx.painting.painting"
+  ],
+  "moviepy.video.fx.headblur.headblur": [
+    "proglog.default_bar_logger.iter_bar.transform",
+    "numpy.zeros.to_frame.add_mask.transform",
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.Clip.Clip.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.transform",
+    "numpy.array.to_frame.add_mask.transform",
+    "re.search.group.to_frame.add_mask.transform",
+    "re.search.group.transform",
+    "<builtin>.int",
+    "numpy.arange.add_mask.transform",
+    "numpy.array.to_frame.transform",
+    "numpy.array.add_mask.transform",
+    "numpy.zeros.add_mask.transform",
+    "<builtin>.IOError",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.transform",
+    "numpy.ones.add_mask.transform",
+    "numpy.arange.to_frame.transform",
+    "numpy.ones.to_frame.add_mask.transform",
+    "numpy.arange.transform",
+    "numpy.zeros.to_frame.transform",
+    "numpy.zeros.transform",
+    "numpy.ones.transform",
+    "re.search.group.to_frame.transform",
+    "numpy.ones.to_frame.transform",
+    "re.search.group.add_mask.transform",
+    "numpy.arange.to_frame.add_mask.transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.transform",
+    "numpy.array.transform"
+  ],
+  "moviepy.video.fx.painting.painting": [
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "numpy.array.add_mask.image_transform",
+    "numpy.zeros.to_frame.add_mask.image_transform",
+    "numpy.arange.to_frame.image_transform",
+    "numpy.ones.to_frame.add_mask.image_transform",
+    "numpy.array.image_transform",
+    "numpy.ones.to_frame.image_transform",
+    "numpy.array.to_frame.image_transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.image_transform",
+    "re.search.group.image_transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.image_transform",
+    "numpy.arange.add_mask.image_transform",
+    "re.search.group.to_frame.image_transform",
+    "<builtin>.IOError",
+    "numpy.array.to_frame.add_mask.image_transform",
+    "moviepy.video.VideoClip.VideoClip.image_transform",
+    "re.search.group.to_frame.add_mask.image_transform",
+    "numpy.zeros.add_mask.image_transform",
+    "numpy.ones.image_transform",
+    "numpy.zeros.to_frame.image_transform",
+    "numpy.arange.image_transform",
+    "proglog.default_bar_logger.iter_bar.image_transform",
+    "re.search.group.add_mask.image_transform",
+    "numpy.arange.to_frame.add_mask.image_transform",
+    "numpy.zeros.image_transform",
+    "numpy.ones.add_mask.image_transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.image_transform"
+  ],
+  "moviepy.video.fx.fadein.fadein": [
+    "proglog.default_bar_logger.iter_bar.transform",
+    "numpy.zeros.to_frame.add_mask.transform",
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.Clip.Clip.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.transform",
+    "numpy.array.to_frame.add_mask.transform",
+    "re.search.group.to_frame.add_mask.transform",
+    "re.search.group.transform",
+    "numpy.arange.add_mask.transform",
+    "numpy.array.to_frame.transform",
+    "numpy.array.add_mask.transform",
+    "numpy.zeros.add_mask.transform",
+    "proglog.default_bar_logger.iter_bar.to_frame.add_mask.transform",
+    "numpy.ones.add_mask.transform",
+    "numpy.array",
+    "numpy.arange.to_frame.transform",
+    "numpy.ones.to_frame.add_mask.transform",
+    "numpy.arange.transform",
+    "numpy.zeros.to_frame.transform",
+    "numpy.zeros.transform",
+    "numpy.ones.transform",
+    "re.search.group.to_frame.transform",
+    "numpy.ones.to_frame.transform",
+    "re.search.group.add_mask.transform",
+    "numpy.arange.to_frame.add_mask.transform",
+    "proglog.default_bar_logger.iter_bar.add_mask.transform",
+    "numpy.array.transform"
+  ],
+  "moviepy.Clip.Clip.with_fps": [
+    "moviepy.video.fx.multiply_speed.multiply_speed",
+    "moviepy.video.VideoClip.VideoClip.__copy__",
+    "moviepy.Clip.Clip.copy"
+  ],
+  "moviepy.video.fx.multiply_speed.multiply_speed": [
+    "moviepy.Clip.Clip.time_transform",
+    "moviepy.video.VideoClip.ImageClip.time_transform"
+  ],
+  "moviepy.video.VideoClip.VideoClip.__copy__": [
+    "copy.copy",
+    "<builtin>.setattr",
+    "<builtin>.getattr"
+  ],
+  "moviepy.Clip.Clip.is_playing": [
+    "<builtin>.isinstance"
+  ],
+  "moviepy.Clip.Clip.subclip.<lambda1>": [],
+  "<builtin>.str": [],
+  "moviepy.Clip.Clip.cutout": [
+    "moviepy.Clip.Clip.time_transform",
+    "moviepy.video.VideoClip.ImageClip.time_transform"
+  ],
+  "moviepy.Clip.Clip.cutout.<lambda1>": [],
+  "numpy.array.to_frame.astype": [],
+  "re.search.group.astype": [],
+  "numpy.ones.to_frame.astype": [],
+  "proglog.default_bar_logger.iter_bar.astype": [],
+  "numpy.ones.astype": [],
+  "numpy.zeros.astype": [],
+  "numpy.arange.to_frame.astype": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.astype": [],
+  "numpy.zeros.to_frame.astype": [],
+  "re.search.group.to_frame.astype": [],
+  "numpy.arange.astype": [],
+  "numpy.array.astype": [],
+  "moviepy.Clip.Clip.close": [],
+  "moviepy.Clip.Clip.__eq__": [
+    "<builtin>.isinstance",
+    "numpy.array_equal",
+    "moviepy.Clip.Clip.iter_frames",
+    "<builtin>.zip"
+  ],
+  "numpy.array_equal": [],
+  "moviepy.Clip.Clip.__enter__": [],
+  "moviepy.Clip.Clip.__exit__": [
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.close",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.close",
+    "moviepy.Clip.Clip.close",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.close"
+  ],
+  "moviepy.video.io.VideoFileClip.VideoFileClip.close": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.close",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.close"
+  ],
+  "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.close": [
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.close",
+    "<builtin>.hasattr",
+    "moviepy.Clip.Clip.close",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.close",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.close"
+  ],
+  "moviepy.audio.io.AudioFileClip.AudioFileClip.close": [
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.close"
+  ],
+  "moviepy.video": [],
+  "moviepy.video.fx": [],
+  "moviepy.video.fx.time_symmetrize": [
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.apply_to_mask"
+  ],
+  "proglog.default_bar_logger.iter_bar.to_frame.fx": [],
+  "numpy.arange.add_mask.fx": [],
+  "re.search.group.add_mask.fx": [],
+  "numpy.zeros.add_mask.fx": [],
+  "numpy.ones.to_frame.add_mask.fx": [],
+  "numpy.ones.add_mask.fx": [],
+  "numpy.zeros.to_frame.add_mask.fx": [],
+  "re.search.group.fx": [],
+  "numpy.array.to_frame.fx": [],
+  "numpy.ones.to_frame.fx": [],
+  "numpy.zeros.fx": [],
+  "numpy.arange.to_frame.fx": [],
+  "re.search.group.to_frame.add_mask.fx": [],
+  "re.search.group.to_frame.fx": [],
+  "numpy.ones.fx": [],
+  "proglog.default_bar_logger.iter_bar.fx": [],
+  "numpy.arange.to_frame.add_mask.fx": [],
+  "numpy.zeros.to_frame.fx": [],
+  "numpy.array.fx": [],
+  "numpy.arange.fx": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.add_mask.fx": [],
+  "numpy.array.add_mask.fx": [],
+  "numpy.array.to_frame.add_mask.fx": [],
+  "proglog.default_bar_logger.iter_bar.add_mask.fx": [],
+  "moviepy.video.compositing.concatenate.concatenate_videoclips": [
+    "numpy.maximum",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips.get_mask",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "numpy.cumsum",
+    "<builtin>.len",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "<builtin>.max",
+    "<builtin>.Exception",
+    "<builtin>.getattr",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "functools.reduce",
+    "<builtin>.zip",
+    "<builtin>.any",
+    "numpy.arange",
+    "moviepy.audio.AudioClip.CompositeAudioClip.__init__"
+  ],
+  "moviepy.video.fx.time_mirror": [
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.apply_to_audio",
+    "moviepy.decorators.apply_to_mask"
+  ],
+  "moviepy.video.fx.time_mirror.time_mirror.<lambda1>": [],
+  "numpy.ones.to_frame.add_mask.time_transform": [],
+  "numpy.zeros.add_mask.time_transform": [],
+  "numpy.arange.time_transform": [],
+  "numpy.arange.to_frame.add_mask.time_transform": [],
+  "numpy.arange.add_mask.time_transform": [],
+  "numpy.array.to_frame.add_mask.time_transform": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.add_mask.time_transform": [],
+  "numpy.ones.to_frame.time_transform": [],
+  "numpy.array.time_transform": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.time_transform": [],
+  "numpy.ones.add_mask.time_transform": [],
+  "re.search.group.time_transform": [],
+  "numpy.array.to_frame.time_transform": [],
+  "proglog.default_bar_logger.iter_bar.time_transform": [],
+  "numpy.zeros.time_transform": [],
+  "numpy.zeros.to_frame.time_transform": [],
+  "numpy.zeros.to_frame.add_mask.time_transform": [],
+  "numpy.array.add_mask.time_transform": [],
+  "numpy.ones.time_transform": [],
+  "re.search.group.to_frame.add_mask.time_transform": [],
+  "re.search.group.to_frame.time_transform": [],
+  "re.search.group.add_mask.time_transform": [],
+  "proglog.default_bar_logger.iter_bar.add_mask.time_transform": [],
+  "numpy.arange.to_frame.time_transform": [],
+  "moviepy.video.compositing.concatenate": [],
+  "moviepy.video.compositing.concatenate.concatenate_videoclips.<lambda1>": [],
+  "functools.reduce": [],
+  "<builtin>.enumerate": [],
+  "moviepy.video.compositing.concatenate.concatenate_videoclips.get_mask": [
+    "moviepy.video.VideoClip.ColorClip.__init__"
+  ],
+  "moviepy.video.VideoClip.ColorClip.__init__": [
+    "<builtin>.super",
+    "<builtin>.len",
+    "<builtin>.hasattr",
+    "numpy.tile.reshape",
+    "<builtin>.Exception",
+    "numpy.tile",
+    "numpy.isscalar"
+  ],
+  "moviepy.video.VideoClip.VideoClip.__init__": [
+    "moviepy.Clip.Clip.get_frame",
+    "<builtin>.super"
+  ],
+  "<builtin>.any": [],
+  "<builtin>.Exception": [],
+  "moviepy.video.compositing.CompositeVideoClip": [],
+  "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__.<lambda1>": [],
+  "<builtin>.sorted": [],
+  "PIL.Image.fromarray": [],
+  "PIL.Image.fromarray.convert": [],
+  "PIL.Image.fromarray.putalpha": [],
+  "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.playing_clips": [],
+  "moviepy.video.compositing.CompositeVideoClip.clips_array": [
+    "moviepy.Clip.Clip.with_duration",
+    "numpy.array.flatten",
+    "<builtin>.list",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "numpy.cumsum",
+    "numpy.array",
+    "<builtin>.enumerate",
+    "<builtin>.zip"
+  ],
+  "numpy.array.flatten": [],
+  "moviepy.video.VideoClip": [],
+  "moviepy.video.VideoClip.VideoClip.__init__.<lambda1>": [],
+  "moviepy.video.VideoClip.VideoClip.w": [],
+  "moviepy.video.VideoClip.VideoClip.h": [],
+  "moviepy.video.VideoClip.VideoClip.aspect_ratio": [
+    "<builtin>.float"
+  ],
+  "moviepy.video.VideoClip.VideoClip": [
+    "moviepy.decorators.requires_fps",
+    "moviepy.decorators.add_mask_if_none",
+    "moviepy.decorators.outplace",
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.convert_masks_to_RGB",
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.apply_to_mask",
+    "moviepy.decorators.convert_parameter_to_seconds",
+    "moviepy.decorators.use_clip_fps_by_default"
+  ],
+  "numpy.dstack": [],
+  "numpy.dstack.astype": [],
+  "imageio.imsave": [],
+  "moviepy.video.VideoClip.VideoClip.write_videofile": [
+    "os.remove",
+    "<builtin>.isinstance",
+    "os.path.join",
+    "moviepy.tools.find_extension",
+    "moviepy.audio.AudioClip.AudioClip.write_audiofile",
+    "moviepy.video.io.ffmpeg_writer.ffmpeg_write_video",
+    "os.path.exists",
+    "os.path.splitext",
+    "proglog.default_bar_logger",
+    "<builtin>.ValueError",
+    "os.path.basename"
+  ],
+  "os.path.join": [],
+  "moviepy.video.io.ffmpeg_writer.ffmpeg_write_video": [
+    "proglog.proglog.default_bar_logger",
+    "numpy.dstack",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__iter__",
+    "moviepy.Clip.Clip.iter_frames",
+    "moviepy.video.io.ffmpeg_writer.FFMPEG_VideoWriter.__init__",
+    "moviepy.Clip.Clip.get_frame",
+    "proglog.default_bar_logger",
+    "<builtin>.open"
+  ],
+  "os.remove": [],
+  "moviepy.video.VideoClip.VideoClip.write_gif": [
+    "moviepy.video.VideoClip.VideoClip.write_gif",
+    "moviepy.video.io.gif_writers.write_gif_with_image_io",
+    "moviepy.video.io.gif_writers.write_gif_with_tempfiles"
+  ],
+  "moviepy.video.io.gif_writers.write_gif_with_image_io": [
+    "imageio.save.append_data",
+    "imageio.save",
+    "<builtin>.ImportError",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__iter__",
+    "moviepy.Clip.Clip.iter_frames",
+    "proglog.default_bar_logger"
+  ],
+  "moviepy.video.VideoClip.VideoClip.subfx": [
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.Clip.Clip.with_start"
+  ],
+  "moviepy.video.VideoClip.VideoClip.image_transform": [
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.Clip.Clip.transform"
+  ],
+  "moviepy.video.VideoClip.VideoClip.image_transform.<lambda1>": [
+    "moviepy.video.fx.even_size.even_size.image_filter",
+    "moviepy.video.fx.resize.resize.image_filter"
+  ],
+  "moviepy.video.fx.even_size.even_size.image_filter": [],
+  "moviepy.video.fx.resize.resize.image_filter": [
+    "numpy.array.to_frame.astype",
+    "re.search.group.astype",
+    "numpy.ones.to_frame.astype",
+    "proglog.default_bar_logger.iter_bar.astype",
+    "numpy.ones.astype",
+    "numpy.zeros.astype",
+    "numpy.arange.to_frame.astype",
+    "proglog.default_bar_logger.iter_bar.to_frame.astype",
+    "numpy.zeros.to_frame.astype",
+    "re.search.group.to_frame.astype",
+    "numpy.arange.astype",
+    "numpy.array.astype"
+  ],
+  "moviepy.video.VideoClip.VideoClip.fill_array": [
+    "numpy.hstack",
+    "numpy.vstack"
+  ],
+  "numpy.vstack": [],
+  "numpy.hstack": [],
+  "moviepy.video.VideoClip.VideoClip.blit_on": [
+    "re.search.group.astype",
+    "<builtin>.list",
+    "numpy.zeros.astype",
+    "re.search.group.to_frame.astype",
+    "<builtin>.max",
+    "moviepy.video.VideoClip.VideoClip.with_position.<lambda1>",
+    "moviepy.Clip.Clip.get_frame",
+    "numpy.array.astype",
+    "<builtin>.isinstance",
+    "numpy.array.to_frame.astype",
+    "<builtin>.map",
+    "numpy.arange.to_frame.astype",
+    "proglog.default_bar_logger.iter_bar.astype",
+    "numpy.ones.astype",
+    "numpy.zeros.to_frame.astype",
+    "proglog.default_bar_logger.iter_bar.to_frame.astype",
+    "moviepy.video.VideoClip.VideoClip.__init__.<lambda1>",
+    "<builtin>.enumerate",
+    "numpy.arange.astype",
+    "PIL.Image.new.paste",
+    "PIL.Image.fromarray",
+    "numpy.ones.to_frame.astype",
+    "PIL.Image.fromarray.convert",
+    "moviepy.video.tools.drawing.blit",
+    "PIL.Image.new"
+  ],
+  "PIL.Image.new": [],
+  "PIL.Image.new.paste": [],
+  "moviepy.video.VideoClip.VideoClip.with_position.<lambda1>": [],
+  "<builtin>.map": [],
+  "moviepy.video.tools.drawing.blit": [
+    "<builtin>.tuple"
+  ],
+  "numpy.ones": [],
+  "moviepy.video.VideoClip.VideoClip.on_color": [
+    "moviepy.video.VideoClip.VideoClip.with_opacity",
+    "<builtin>.isinstance",
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.VideoClip.ColorClip.__init__",
+    "<builtin>.hasattr",
+    "moviepy.video.VideoClip.VideoClip.to_ImageClip",
+    "moviepy.video.VideoClip.VideoClip.with_position"
+  ],
+  "moviepy.video.VideoClip.VideoClip.to_ImageClip": [
+    "moviepy.Clip.Clip.get_frame",
+    "moviepy.video.VideoClip.VideoClip.to_ImageClip",
+    "moviepy.video.VideoClip.ImageClip.__init__"
+  ],
+  "moviepy.video.VideoClip.VideoClip.with_opacity.<lambda1>": [],
+  "moviepy.video.VideoClip.VideoClip.to_mask": [
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "moviepy.video.VideoClip.VideoClip.image_transform"
+  ],
+  "moviepy.video.VideoClip.VideoClip.to_mask.<lambda1>": [],
+  "moviepy.video.VideoClip.VideoClip.to_RGB": [
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "moviepy.video.VideoClip.VideoClip.image_transform"
+  ],
+  "moviepy.video.VideoClip.VideoClip.to_RGB.<lambda1>": [
+    "numpy.dstack.astype",
+    "numpy.dstack"
+  ],
+  "moviepy.video.VideoClip.DataVideoClip.__init__.make_frame": [
+    "<builtin>.int"
+  ],
+  "numpy.zeros.update": [],
+  "numpy.zeros.to_frame.update": [],
+  "numpy.array.update": [],
+  "numpy.arange.to_frame.update": [],
+  "re.search.group.to_frame.update": [],
+  "numpy.ones.update": [],
+  "numpy.arange.update": [],
+  "numpy.ones.to_frame.update": [],
+  "proglog.default_bar_logger.iter_bar.update": [],
+  "numpy.array.to_frame.update": [],
+  "re.search.group.update": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.update": [],
+  "proglog.default_bar_logger.iter_bar.to_frame": [],
+  "re.search.group.to_frame": [],
+  "numpy.zeros.to_frame": [],
+  "numpy.array.to_frame": [],
+  "numpy.arange.to_frame": [],
+  "numpy.ones.to_frame": [],
+  "imageio.imread": [],
+  "moviepy.video.VideoClip.ImageClip": [
+    "moviepy.decorators.outplace"
+  ],
+  "numpy.isscalar": [],
+  "numpy.tile": [],
+  "numpy.tile.reshape": [],
+  "moviepy.video.VideoClip.TextClip": [
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>"
+  ],
+  "moviepy.video.VideoClip.TextClip.__init__": [
+    "<builtin>.bytes",
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "<builtin>.str",
+    "<builtin>.IOError",
+    "moviepy.tools.subprocess_call",
+    "os.write",
+    "<builtin>.print",
+    "os.path.exists",
+    "tempfile.mkstemp",
+    "os.remove",
+    "os.close",
+    "<builtin>.ValueError"
+  ],
+  "tempfile.mkstemp": [],
+  "<builtin>.bytes": [],
+  "os.write": [],
+  "os.close": [],
+  "moviepy.video.VideoClip.TextClip.list": [
+    "subprocess.Popen.communicate",
+    "moviepy.tools.cross_platform_popen_params",
+    "<builtin>.Exception",
+    "subprocess.Popen"
+  ],
+  "moviepy.video.VideoClip.TextClip.search": [
+    "moviepy.video.VideoClip.TextClip.list"
+  ],
+  "moviepy.video.VideoClip.BitmapClip": [
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.convert_parameter_to_seconds"
+  ],
+  "moviepy.video.VideoClip.BitmapClip.__init__.<lambda1>": [
+    "<builtin>.int"
+  ],
+  "moviepy.video.VideoClip.BitmapClip.to_bitmap": [
+    "<builtin>.list",
+    "<builtin>.tuple",
+    "moviepy.video.tools.subtitles.SubtitlesClip.__iter__",
+    "moviepy.Clip.Clip.iter_frames"
+  ],
+  "moviepy.video.io.gif_writers": [
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.use_clip_fps_by_default"
+  ],
+  "numpy.dstack.astype.tobytes": [],
+  "imageio.save": [],
+  "imageio.save.append_data": [],
+  "moviepy.video.fx.loop": [
+    "moviepy.decorators.requires_duration"
+  ],
+  "moviepy.video.fx.loop.loop.<lambda1>": [],
+  "moviepy.video.tools": [],
+  "moviepy.video.io": [],
+  "moviepy.video.tools.drawing": [],
+  "moviepy.video.tools.drawing.color_gradient": [
+    "numpy.maximum",
+    "numpy.dstack.astype.sum",
+    "numpy.dstack.astype",
+    "<builtin>.ValueError",
+    "numpy.meshgrid",
+    "numpy.dstack.astype.dot",
+    "<builtin>.range",
+    "numpy.sqrt",
+    "numpy.dstack",
+    "numpy.linalg.norm",
+    "numpy.ones",
+    "numpy.array",
+    "numpy.array.astype",
+    "numpy.minimum",
+    "moviepy.video.tools.drawing.color_gradient"
+  ],
+  "numpy.meshgrid": [],
+  "numpy.linalg.norm": [],
+  "numpy.dstack.astype.dot": [],
+  "numpy.dstack.astype.sum": [],
+  "numpy.sqrt": [],
+  "moviepy.video.tools.drawing.color_split": [
+    "numpy.isscalar",
+    "<builtin>.len",
+    "<builtin>.max",
+    "numpy.linalg.norm",
+    "numpy.zeros",
+    "numpy.array",
+    "numpy.array.astype",
+    "moviepy.video.tools.drawing.color_gradient"
+  ],
+  "moviepy.video.tools.drawing.circle": [
+    "moviepy.video.tools.drawing.color_gradient"
+  ],
+  "moviepy.video.io.ffmpeg_writer": [],
+  "moviepy.video.io.ffmpeg_writer.FFMPEG_VideoWriter.__init__": [
+    "moviepy.tools.cross_platform_popen_params",
+    "subprocess.Popen"
+  ],
+  "moviepy.video.io.ffmpeg_writer.FFMPEG_VideoWriter.write_frame": [
+    "subprocess.PIPE.seek",
+    "subprocess.Popen.communicate",
+    "<builtin>.IOError",
+    "subprocess.Popen.stdin.write",
+    "subprocess.PIPE.read",
+    "subprocess.PIPE.read.decode"
+  ],
+  "moviepy.video.io.ffmpeg_writer.FFMPEG_VideoWriter.close": [
+    "subprocess.Popen.stderr.close",
+    "subprocess.Popen.stdin.close",
+    "subprocess.Popen.wait"
+  ],
+  "moviepy.video.io.ffmpeg_writer.FFMPEG_VideoWriter.__enter__": [],
+  "moviepy.video.io.ffmpeg_writer.FFMPEG_VideoWriter.__exit__": [
+    "moviepy.video.io.ffmpeg_writer.FFMPEG_VideoWriter.close"
+  ],
+  "proglog.proglog.default_bar_logger": [],
+  "moviepy.video.io.ffmpeg_writer.ffmpeg_write_image": [
+    "subprocess.Popen.communicate",
+    "<builtin>.IOError",
+    "subprocess.Popen",
+    "moviepy.tools.cross_platform_popen_params",
+    "<builtin>.open"
+  ],
+  "moviepy.video.fx.blackwhite": [],
+  "moviepy.video.fx.blackwhite.blackwhite": [
+    "<builtin>.sum",
+    "numpy.array"
+  ],
+  "moviepy.video.fx.blackwhite.blackwhite.filter": [
+    "numpy.dstack.astype",
+    "numpy.dstack"
+  ],
+  "moviepy.video.fx.invert_colors": [],
+  "moviepy.video.fx.invert_colors.invert_colors": [],
+  "moviepy.video.fx.invert_colors.invert_colors.<lambda1>": [],
+  "moviepy.video.fx.blink": [],
+  "moviepy.video.fx.blink.blink": [],
+  "moviepy.video.fx.blink.blink.<lambda1>": [],
+  "moviepy.video.fx.rotate": [
+    "<builtin>.int",
+    "<builtin>.tuple",
+    "<builtin>.hasattr"
+  ],
+  "moviepy.video.fx.rotate.rotate": [
+    "<builtin>.ValueError",
+    "<builtin>.hasattr"
+  ],
+  "moviepy.video.fx.rotate.rotate.<lambda1>": [],
+  "moviepy.video.fx.rotate.rotate.filter": [
+    "warnings.warn",
+    "PIL.Image.fromarray",
+    "PIL.Image.fromarray.rotate",
+    "<builtin>.locals",
+    "<builtin>.str",
+    "moviepy.video.fx.rotate.rotate.<lambda1>",
+    "<builtin>.len",
+    "numpy.transpose",
+    "math.degrees",
+    "numpy.array",
+    "numpy.array.astype",
+    "<builtin>.ValueError"
+  ],
+  "math.degrees": [],
+  "numpy.transpose": [],
+  "<builtin>.locals": [],
+  "PIL.Image.fromarray.rotate": [],
+  "moviepy.video.fx.painting": [],
+  "moviepy.video.fx.painting.to_painting": [
+    "numpy.maximum",
+    "skimage.filter.sobel",
+    "numpy.maximum.astype",
+    "numpy.dstack",
+    "scipy.ndimage.filters.sobel",
+    "numpy.minimum"
+  ],
+  "skimage.filter.sobel": [],
+  "scipy.ndimage.filters.sobel": [],
+  "numpy.maximum.astype": [],
+  "moviepy.video.fx.painting.painting.<lambda1>": [
+    "moviepy.video.fx.painting.to_painting"
+  ],
+  "numpy.array.add_mask.image_transform": [],
+  "numpy.array.to_frame.add_mask.image_transform": [],
+  "numpy.zeros.to_frame.add_mask.image_transform": [],
+  "numpy.arange.to_frame.image_transform": [],
+  "re.search.group.to_frame.add_mask.image_transform": [],
+  "numpy.ones.to_frame.add_mask.image_transform": [],
+  "numpy.ones.image_transform": [],
+  "numpy.zeros.to_frame.image_transform": [],
+  "numpy.array.image_transform": [],
+  "numpy.zeros.add_mask.image_transform": [],
+  "numpy.arange.image_transform": [],
+  "proglog.default_bar_logger.iter_bar.image_transform": [],
+  "numpy.arange.to_frame.add_mask.image_transform": [],
+  "numpy.array.to_frame.image_transform": [],
+  "numpy.ones.to_frame.image_transform": [],
+  "re.search.group.add_mask.image_transform": [],
+  "numpy.zeros.image_transform": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.image_transform": [],
+  "numpy.arange.add_mask.image_transform": [],
+  "re.search.group.image_transform": [],
+  "numpy.ones.add_mask.image_transform": [],
+  "proglog.default_bar_logger.iter_bar.add_mask.image_transform": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.add_mask.image_transform": [],
+  "re.search.group.to_frame.image_transform": [],
+  "moviepy.video.fx.mirror_x": [],
+  "moviepy.video.fx.mirror_x.mirror_x": [],
+  "moviepy.video.fx.mirror_x.mirror_x.<lambda1>": [],
+  "moviepy.video.fx.gamma_corr": [],
+  "moviepy.video.fx.gamma_corr.gamma_corr": [],
+  "moviepy.video.fx.gamma_corr.gamma_corr.filter": [],
+  "moviepy.video.fx.mirror_y": [],
+  "moviepy.video.fx.mirror_y.mirror_y": [],
+  "moviepy.video.fx.mirror_y.mirror_y.<lambda1>": [],
+  "moviepy.video.fx.mask_color": [],
+  "moviepy.video.fx.mask_color.mask_color": [
+    "numpy.array"
+  ],
+  "moviepy.video.fx.mask_color.mask_color.hill": [],
+  "moviepy.video.fx.mask_color.mask_color.flim": [
+    "numpy.sqrt",
+    "moviepy.video.fx.mask_color.mask_color.hill"
+  ],
+  "moviepy.video.fx.freeze_region": [],
+  "moviepy.video.fx.freeze_region.freeze_region": [
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__"
+  ],
+  "moviepy.video.fx.crop": [],
+  "moviepy.video.fx.crop.crop": [],
+  "moviepy.video.fx.crop.crop.<lambda1>": [
+    "<builtin>.int"
+  ],
+  "moviepy.video.fx.fadein": [],
+  "numpy.array.to_frame.transform": [],
+  "proglog.default_bar_logger.iter_bar.transform": [],
+  "numpy.array.add_mask.transform": [],
+  "numpy.zeros.add_mask.transform": [],
+  "numpy.zeros.to_frame.add_mask.transform": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.add_mask.transform": [],
+  "numpy.ones.add_mask.transform": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.transform": [],
+  "numpy.arange.to_frame.transform": [],
+  "numpy.ones.to_frame.add_mask.transform": [],
+  "numpy.arange.transform": [],
+  "numpy.array.to_frame.add_mask.transform": [],
+  "re.search.group.to_frame.add_mask.transform": [],
+  "re.search.group.transform": [],
+  "numpy.zeros.to_frame.transform": [],
+  "numpy.zeros.transform": [],
+  "numpy.ones.transform": [],
+  "re.search.group.to_frame.transform": [],
+  "numpy.ones.to_frame.transform": [],
+  "re.search.group.add_mask.transform": [],
+  "numpy.arange.to_frame.add_mask.transform": [],
+  "proglog.default_bar_logger.iter_bar.add_mask.transform": [],
+  "numpy.array.transform": [],
+  "numpy.arange.add_mask.transform": [],
+  "moviepy.video.fx.fadeout": [
+    "moviepy.decorators.requires_duration"
+  ],
+  "moviepy.video.fx.multiply_color": [],
+  "moviepy.video.fx.multiply_color.multiply_color": [],
+  "moviepy.video.fx.multiply_color.multiply_color.<lambda1>": [
+    "numpy.minimum",
+    "numpy.minimum.astype"
+  ],
+  "numpy.minimum.astype": [],
+  "moviepy.video.fx.lum_contrast": [],
+  "moviepy.video.fx.lum_contrast.lum_contrast": [],
+  "moviepy.video.fx.lum_contrast.lum_contrast.image_filter": [
+    "<builtin>.float"
+  ],
+  "moviepy.video.fx.headblur": [],
+  "<builtin>.min": [],
+  "cv2.circle": [],
+  "cv2.blur": [],
+  "moviepy.video.fx.mask_or": [],
+  "moviepy.video.fx.mask_or.mask_or": [
+    "<builtin>.isinstance"
+  ],
+  "moviepy.video.fx.mask_or.mask_or.<lambda1>": [
+    "numpy.maximum"
+  ],
+  "moviepy.video.fx.mask_or.mask_or.<lambda2>": [
+    "numpy.maximum"
+  ],
+  "moviepy.video.fx.even_size": [
+    "moviepy.decorators.apply_to_mask"
+  ],
+  "moviepy.video.fx.mask_and": [],
+  "moviepy.video.fx.mask_and.mask_and": [
+    "<builtin>.isinstance"
+  ],
+  "moviepy.video.fx.mask_and.mask_and.<lambda1>": [
+    "numpy.minimum"
+  ],
+  "moviepy.video.fx.mask_and.mask_and.<lambda2>": [
+    "numpy.minimum"
+  ],
+  "moviepy.video.fx.make_loopable": [
+    "moviepy.decorators.requires_duration"
+  ],
+  "moviepy.video.compositing.transitions": [
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.add_mask_if_none"
+  ],
+  "numpy.arange.to_frame.copy": [],
+  "numpy.ones.copy": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.copy": [],
+  "numpy.zeros.copy": [],
+  "numpy.ones.add_mask.copy": [],
+  "numpy.array.to_frame.add_mask.copy": [],
+  "numpy.zeros.add_mask.copy": [],
+  "numpy.zeros.to_frame.add_mask.copy": [],
+  "numpy.arange.to_frame.add_mask.copy": [],
+  "numpy.array.to_frame.copy": [],
+  "numpy.array.copy": [],
+  "numpy.array.add_mask.copy": [],
+  "numpy.ones.to_frame.copy": [],
+  "re.search.group.to_frame.copy": [],
+  "re.search.group.add_mask.copy": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.add_mask.copy": [],
+  "numpy.arange.add_mask.copy": [],
+  "re.search.group.copy": [],
+  "proglog.default_bar_logger.iter_bar.copy": [],
+  "numpy.zeros.to_frame.copy": [],
+  "proglog.default_bar_logger.iter_bar.add_mask.copy": [],
+  "re.search.group.to_frame.add_mask.copy": [],
+  "numpy.ones.to_frame.add_mask.copy": [],
+  "numpy.arange.copy": [],
+  "numpy.zeros.to_frame.mask.fx": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.mask.fx": [],
+  "numpy.array.to_frame.mask.fx": [],
+  "numpy.ones.to_frame.mask.fx": [],
+  "numpy.ones.mask.fx": [],
+  "numpy.arange.mask.fx": [],
+  "proglog.default_bar_logger.iter_bar.mask.fx": [],
+  "re.search.group.to_frame.mask.fx": [],
+  "numpy.zeros.mask.fx": [],
+  "numpy.array.mask.fx": [],
+  "re.search.group.mask.fx": [],
+  "numpy.arange.to_frame.mask.fx": [],
+  "moviepy.video.compositing.transitions.slide_in": [],
+  "moviepy.video.compositing.transitions.slide_in.<dict1>.<lambda1>": [],
+  "moviepy.video.compositing.transitions.slide_in.<lambda1>": [
+    "<builtin>.min"
+  ],
+  "moviepy.video.compositing.transitions.slide_in.<dict1>.<lambda2>": [],
+  "moviepy.video.compositing.transitions.slide_in.<lambda2>": [
+    "<builtin>.max"
+  ],
+  "moviepy.video.compositing.transitions.slide_in.<dict1>.<lambda3>": [],
+  "moviepy.video.compositing.transitions.slide_in.<lambda3>": [
+    "<builtin>.min"
+  ],
+  "moviepy.video.compositing.transitions.slide_in.<dict1>.<lambda4>": [],
+  "moviepy.video.compositing.transitions.slide_in.<lambda4>": [
+    "<builtin>.max"
+  ],
+  "moviepy.video.compositing.transitions.slide_out.<dict1>.<lambda1>": [],
+  "moviepy.video.compositing.transitions.slide_out.<lambda1>": [
+    "<builtin>.min"
+  ],
+  "moviepy.video.compositing.transitions.slide_out.<dict1>.<lambda2>": [],
+  "moviepy.video.compositing.transitions.slide_out.<lambda2>": [
+    "<builtin>.max"
+  ],
+  "moviepy.video.compositing.transitions.slide_out.<dict1>.<lambda3>": [],
+  "moviepy.video.compositing.transitions.slide_out.<lambda3>": [
+    "<builtin>.min"
+  ],
+  "moviepy.video.compositing.transitions.slide_out.<dict1>.<lambda4>": [],
+  "moviepy.video.compositing.transitions.slide_out.<lambda4>": [
+    "<builtin>.max"
+  ],
+  "moviepy.video.fx.accel_decel": [],
+  "moviepy.video.fx.accel_decel._f_accel_decel": [
+    "moviepy.video.fx.accel_decel._f_accel_decel._f"
+  ],
+  "moviepy.video.fx.accel_decel._f_accel_decel._f": [
+    "moviepy.video.fx.accel_decel._f_accel_decel._f.f2",
+    "moviepy.video.fx.accel_decel._f_accel_decel._f.f1"
+  ],
+  "moviepy.video.fx.accel_decel._f_accel_decel._f.f1": [],
+  "moviepy.video.fx.accel_decel._f_accel_decel._f.f2": [
+    "moviepy.video.fx.accel_decel._f_accel_decel._f.f1"
+  ],
+  "moviepy.video.fx.accel_decel.accel_decel": [
+    "<builtin>.ValueError"
+  ],
+  "moviepy.video.fx.accel_decel.accel_decel.<lambda1>": [
+    "moviepy.video.fx.accel_decel._f_accel_decel"
+  ],
+  "moviepy.video.fx.multiply_speed": [],
+  "moviepy.video.fx.multiply_speed.multiply_speed.<lambda1>": [],
+  "moviepy.video.fx.scroll": [],
+  "moviepy.video.fx.scroll.scroll": [],
+  "moviepy.video.fx.scroll.scroll.filter": [
+    "<builtin>.max",
+    "<builtin>.int",
+    "<builtin>.round",
+    "<builtin>.min"
+  ],
+  "<builtin>.round": [],
+  "moviepy.video.fx.supersample": [],
+  "moviepy.video.fx.supersample.supersample": [],
+  "moviepy.video.fx.supersample.supersample.filter": [
+    "numpy.linspace",
+    "numpy.mean",
+    "numpy.mean.astype",
+    "numpy.array"
+  ],
+  "numpy.mean": [],
+  "numpy.mean.astype": [],
+  "moviepy.video.fx.margin": [
+    "moviepy.decorators.apply_to_mask"
+  ],
+  "moviepy.video.fx.margin.margin.make_bg": [
+    "numpy.tile.reshape",
+    "numpy.tile.astype.reshape",
+    "numpy.tile",
+    "numpy.tile.astype"
+  ],
+  "numpy.tile.astype": [],
+  "numpy.tile.astype.reshape": [],
+  "moviepy.video.fx.margin.margin.<lambda1>": [],
+  "moviepy.video.fx.resize": [
+    "moviepy.video.fx.resize._get_resizer"
+  ],
+  "moviepy.video.fx.resize._get_cv2_resizer": [],
+  "moviepy.video.fx.resize._get_cv2_resizer.resizer": [
+    "<builtin>.int",
+    "cv2.resize"
+  ],
+  "cv2.resize": [],
+  "moviepy.video.fx.resize._get_PIL_resizer": [],
+  "moviepy.video.fx.resize._get_PIL_resizer.resizer": [
+    "PIL.Image.fromarray",
+    "<builtin>.map",
+    "<builtin>.list",
+    "numpy.array",
+    "PIL.Image.fromarray.resize"
+  ],
+  "PIL.Image.fromarray.resize": [],
+  "moviepy.video.fx.resize._get_scipy_resizer": [
+    "<builtin>.int",
+    "<builtin>.tuple",
+    "scipy.__version__.split"
+  ],
+  "scipy.__version__.split": [],
+  "moviepy.video.fx.resize._get_scipy_resizer.resizer": [
+    "<builtin>.map",
+    "scipy.misc.imresize"
+  ],
+  "scipy.misc.imresize": [],
+  "moviepy.video.fx.resize._get_resizer": [
+    "<builtin>.reversed"
+  ],
+  "moviepy.video.fx.resize.resize": [
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "moviepy.video.fx.resize.resize",
+    "<builtin>.ImportError",
+    "moviepy.video.VideoClip.VideoClip.image_transform",
+    "<builtin>.hasattr",
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.video.fx.resize.resize.translate_new_size",
+    "moviepy.Clip.Clip.transform",
+    "<builtin>.ValueError"
+  ],
+  "moviepy.video.fx.resize.resize.translate_new_size": [
+    "<builtin>.isinstance"
+  ],
+  "moviepy.video.fx.resize.resize.get_new_size": [
+    "moviepy.video.fx.resize.resize.translate_new_size",
+    "moviepy.video.fx.resize.resize.func"
+  ],
+  "moviepy.video.fx.resize.resize.func": [
+    "<builtin>.int"
+  ],
+  "moviepy.video.fx.freeze": [
+    "moviepy.decorators.requires_duration"
+  ],
+  "moviepy.video.compositing": [],
+  "moviepy.audio.io": [],
+  "moviepy.version": [],
+  "moviepy.video.io.downloader": [],
+  "moviepy.video.io.downloader.download_webfile": [
+    "urllib.request.urlopen",
+    "<builtin>.OSError",
+    "shutil.copyfileobj",
+    "<builtin>.hasattr",
+    "os.path.exists",
+    "<builtin>.open",
+    "moviepy.tools.subprocess_call"
+  ],
+  "shutil.copyfileobj": [],
+  "<builtin>.OSError": [],
+  "moviepy.audio.fx": [],
+  "moviepy.audio.fx.audio_delay": [
+    "moviepy.decorators.audio_video_fx"
+  ],
+  "moviepy.audio.fx.multiply_volume.multiply_volume": [
+    "moviepy.audio.fx.multiply_volume._multiply_volume_in_range"
+  ],
+  "moviepy.audio.fx.multiply_volume": [
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.audio_video_fx",
+    "moviepy.decorators.convert_parameter_to_seconds"
+  ],
+  "moviepy.audio.fx.multiply_volume._multiply_volume_in_range": [],
+  "moviepy.audio.fx.multiply_volume._multiply_volume_in_range.factors_filter": [
+    "numpy.array"
+  ],
+  "moviepy.audio.fx.multiply_volume._multiply_volume_in_range.multiply_stereo_volume": [
+    "moviepy.audio.fx.multiply_volume._multiply_volume_in_range.factors_filter",
+    "numpy.array",
+    "numpy.multiply",
+    "<builtin>.range"
+  ],
+  "numpy.multiply": [],
+  "moviepy.audio.fx.multiply_volume._multiply_volume_in_range.multiply_mono_volume": [
+    "moviepy.audio.fx.multiply_volume._multiply_volume_in_range.factors_filter",
+    "numpy.multiply"
+  ],
+  "moviepy.audio.fx.multiply_volume.multiply_volume.<lambda1>": [],
+  "moviepy.audio.fx.audio_loop": [
+    "moviepy.decorators.audio_video_fx"
+  ],
+  "moviepy.audio.fx.audio_fadein": [
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.audio_video_fx",
+    "moviepy.decorators.convert_parameter_to_seconds"
+  ],
+  "moviepy.audio.fx.audio_fadein._mono_factor_getter": [],
+  "moviepy.audio.fx.audio_fadein._mono_factor_getter.<lambda1>": [
+    "numpy.minimum"
+  ],
+  "moviepy.audio.fx.audio_fadein._stereo_factor_getter": [],
+  "moviepy.audio.fx.audio_fadein._stereo_factor_getter.getter": [
+    "numpy.array",
+    "numpy.minimum",
+    "<builtin>.range"
+  ],
+  "moviepy.audio.fx.audio_fadein.audio_fadein": [
+    "moviepy.audio.fx.audio_fadein._mono_factor_getter",
+    "moviepy.audio.fx.audio_fadein._stereo_factor_getter"
+  ],
+  "moviepy.audio.fx.audio_fadein.audio_fadein.<lambda1>": [],
+  "moviepy.audio.fx.audio_normalize": [
+    "moviepy.decorators.audio_video_fx"
+  ],
+  "moviepy.audio.fx.multiply_stereo_volume": [
+    "moviepy.decorators.audio_video_fx"
+  ],
+  "moviepy.audio.fx.multiply_stereo_volume.multiply_stereo_volume.stereo_volume": [
+    "<builtin>.len",
+    "<builtin>.range"
+  ],
+  "moviepy.audio.fx.audio_fadeout": [
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.audio_video_fx",
+    "moviepy.decorators.convert_parameter_to_seconds"
+  ],
+  "moviepy.audio.fx.audio_fadeout._mono_factor_getter": [],
+  "moviepy.audio.fx.audio_fadeout._mono_factor_getter.<lambda1>": [
+    "numpy.minimum"
+  ],
+  "moviepy.audio.fx.audio_fadeout._stereo_factor_getter": [],
+  "moviepy.audio.fx.audio_fadeout._stereo_factor_getter.getter": [
+    "numpy.array",
+    "numpy.minimum",
+    "<builtin>.range"
+  ],
+  "moviepy.audio.fx.audio_fadeout.audio_fadeout": [
+    "moviepy.audio.fx.audio_fadeout._mono_factor_getter",
+    "moviepy.audio.fx.audio_fadeout._stereo_factor_getter"
+  ],
+  "moviepy.audio.fx.audio_fadeout.audio_fadeout.<lambda1>": [],
+  "moviepy.video.io.ImageSequenceClip": [],
+  "os.listdir": [],
+  "numpy.finfo": [],
+  "moviepy.video.io.ImageSequenceClip.ImageSequenceClip.__init__.find_image_index": [
+    "<builtin>.max",
+    "<builtin>.len",
+    "<builtin>.range"
+  ],
+  "moviepy.video.io.ffmpeg_tools": [
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.convert_parameter_to_seconds"
+  ],
+  "moviepy.video.io.ffmpeg_tools.ffmpeg_extract_subclip": [
+    "os.path.splitext",
+    "moviepy.tools.subprocess_call",
+    "<builtin>.int"
+  ],
+  "moviepy.video.io.ffmpeg_tools.ffmpeg_merge_video_audio": [
+    "moviepy.tools.subprocess_call"
+  ],
+  "moviepy.video.io.ffmpeg_tools.ffmpeg_extract_audio": [
+    "moviepy.tools.subprocess_call"
+  ],
+  "moviepy.video.io.ffmpeg_tools.ffmpeg_resize": [
+    "moviepy.tools.subprocess_call"
+  ],
+  "moviepy.video.io.ffmpeg_tools.ffmpeg_stabilize_video": [
+    "os.path.splitext",
+    "os.path.join",
+    "moviepy.tools.subprocess_call",
+    "os.path.basename"
+  ],
+  "moviepy.video.io.VideoFileClip": [],
+  "moviepy.video.io.VideoFileClip.VideoFileClip": [
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.__init__": [
+    "moviepy.video.io.ffmpeg_reader.ffmpeg_parse_infos",
+    "<builtin>.int",
+    "<builtin>.enumerate",
+    "<builtin>.abs",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.initialize"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame": [
+    "<builtin>.print",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame_number",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.skip_frames",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.initialize",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.read_frame"
+  ],
+  "moviepy.video.io.VideoFileClip.VideoFileClip.__deepcopy__": [
+    "moviepy.video.VideoClip.VideoClip.__copy__"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.close": [
+    "subprocess.Popen.wait",
+    "subprocess.Popen.poll",
+    "subprocess.Popen.stdout.close",
+    "<builtin>.hasattr",
+    "subprocess.Popen.stderr.close",
+    "subprocess.Popen.terminate"
+  ],
+  "moviepy.video.io.ffmpeg_reader": [],
+  "moviepy.video.io.ffmpeg_reader.ffmpeg_parse_infos": [
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse",
+    "subprocess.Popen.communicate",
+    "subprocess.Popen",
+    "<builtin>.IOError",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.__init__",
+    "<builtin>.print",
+    "<builtin>.IsADirectoryError",
+    "os.path.exists",
+    "moviepy.tools.cross_platform_popen_params",
+    "subprocess.Popen.terminate",
+    "os.path.isdir",
+    "<builtin>.FileNotFoundError"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.initialize": [
+    "subprocess.Popen",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame_number",
+    "moviepy.tools.cross_platform_popen_params",
+    "<builtin>.tuple",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.close",
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.read_frame",
+    "<builtin>.min"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.get_frame_number": [
+    "<builtin>.int"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.read_frame": [
+    "warnings.warn",
+    "<builtin>.IOError",
+    "<builtin>.len",
+    "subprocess.Popen.stdout.read",
+    "<builtin>.hasattr",
+    "numpy.fromstring",
+    "numpy.frombuffer"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.skip_frames": [
+    "subprocess.Popen.stdout.read",
+    "<builtin>.range"
+  ],
+  "subprocess.Popen.stdout.read": [],
+  "numpy.frombuffer": [],
+  "numpy.fromstring": [],
+  "subprocess.Popen.poll": [],
+  "subprocess.Popen.terminate": [],
+  "subprocess.Popen.stdout.close": [],
+  "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.__del__": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.close"
+  ],
+  "moviepy.video.io.ffmpeg_reader.ffmpeg_read_image": [
+    "moviepy.video.io.ffmpeg_reader.FFMPEG_VideoReader.__init__"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.__init__": [
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser._reset_state"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser._reset_state": [],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse": [
+    "warnings.warn",
+    "<builtin>.float",
+    "<builtin>.str",
+    "<builtin>.len",
+    "<builtin>.int",
+    "re.search.groups",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.video_metadata_type_casting",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser._reset_state",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_duration",
+    "re.search.group",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_data_by_stream_type",
+    "re.search",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_metadata_field_value"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_duration": [
+    "moviepy.tools.convert_to_seconds",
+    "re.search",
+    "<builtin>.IOError",
+    "re.search.group"
+  ],
+  "re.search": [],
+  "re.search.group": [],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_metadata_field_value": [],
+  "re.search.groups": [],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_data_by_stream_type": [
+    "<builtin>.NotImplementedError"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.video_metadata_type_casting": [
+    "<builtin>.float"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_data_by_stream_type.<dict1>.<lambda1>": [],
+  "<builtin>.NotImplementedError": [],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_audio_stream_data": [
+    "<builtin>.int",
+    "re.search",
+    "re.search.group"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_video_stream_data": [
+    "<builtin>.IOError",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_tbr",
+    "<builtin>.int",
+    "re.search.groups",
+    "<builtin>.abs",
+    "re.search.group",
+    "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_fps",
+    "re.search",
+    "<builtin>.ValueError"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_fps": [
+    "<builtin>.float",
+    "re.search",
+    "re.search.group"
+  ],
+  "moviepy.video.io.ffmpeg_reader.FFmpegInfosParser.parse_tbr": [
+    "<builtin>.float",
+    "re.search",
+    "re.search.group"
+  ],
+  "os.path.isdir": [],
+  "<builtin>.IsADirectoryError": [],
+  "<builtin>.FileNotFoundError": [],
+  "moviepy.audio.io.AudioFileClip": [],
+  "moviepy.audio.io.AudioFileClip.AudioFileClip": [
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.__init__": [
+    "moviepy.video.io.ffmpeg_reader.ffmpeg_parse_infos",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.buffer_around",
+    "<builtin>.int",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.initialize",
+    "<builtin>.min"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.get_frame": [
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.buffer_around",
+    "<builtin>.isinstance",
+    "warnings.warn",
+    "<builtin>.IOError",
+    "<builtin>.str",
+    "numpy.round.astype",
+    "<builtin>.len",
+    "<builtin>.int",
+    "numpy.zeros",
+    "numpy.round"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.close": [
+    "subprocess.Popen.wait",
+    "subprocess.Popen.poll",
+    "subprocess.Popen.stdout.close",
+    "subprocess.Popen.stderr.close",
+    "subprocess.Popen.terminate"
+  ],
+  "moviepy.audio.io.readers": [],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.initialize": [
+    "subprocess.Popen",
+    "moviepy.tools.cross_platform_popen_params",
+    "numpy.round",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.close",
+    "<builtin>.min"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.buffer_around": [
+    "<builtin>.max",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.seek",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.read_chunk",
+    "numpy.vstack"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.skip_chunk": [
+    "subprocess.Popen.stdout.flush",
+    "subprocess.Popen.stdout.read"
+  ],
+  "subprocess.Popen.stdout.flush": [],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.read_chunk": [
+    "<builtin>.round",
+    "<builtin>.len",
+    "subprocess.Popen.stdout.read",
+    "<builtin>.hasattr",
+    "<builtin>.int",
+    "numpy.fromstring",
+    "numpy.zeros",
+    "numpy.concatenate",
+    "numpy.frombuffer"
+  ],
+  "numpy.concatenate": [],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.seek": [
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.initialize",
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.skip_chunk"
+  ],
+  "moviepy.audio.io.readers.FFMPEG_AudioReader.__del__": [
+    "moviepy.audio.io.readers.FFMPEG_AudioReader.close"
+  ],
+  "moviepy.audio": [],
+  "examples.moving_letters": [
+    "moviepy.video.VideoClip.VideoClip.write_videofile",
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "examples.moving_letters.moveLetters",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.video.VideoClip.VideoClip.with_position",
+    "moviepy.video.tools.segmenting.find_objects"
+  ],
+  "examples.moving_letters.<lambda1>": [
+    "numpy.cos",
+    "numpy.sin",
+    "numpy.array"
+  ],
+  "numpy.cos": [],
+  "numpy.sin": [],
+  "examples.moving_letters.vortex": [
+    "examples.moving_letters.<lambda1>"
+  ],
+  "examples.moving_letters.vortex.<lambda1>": [],
+  "examples.moving_letters.vortex.<lambda2>": [
+    "examples.moving_letters.<lambda1>",
+    "examples.moving_letters.vortex.<lambda1>"
+  ],
+  "examples.moving_letters.cascade": [
+    "numpy.array"
+  ],
+  "examples.moving_letters.cascade.<lambda1>": [
+    "numpy.sinc",
+    "<builtin>.abs"
+  ],
+  "numpy.sinc": [],
+  "examples.moving_letters.cascade.<lambda2>": [
+    "examples.moving_letters.cascade.<lambda1>"
+  ],
+  "examples.moving_letters.arrive": [
+    "numpy.array"
+  ],
+  "examples.moving_letters.arrive.<lambda1>": [
+    "<builtin>.max"
+  ],
+  "examples.moving_letters.arrive.<lambda2>": [
+    "examples.moving_letters.arrive.<lambda1>"
+  ],
+  "examples.moving_letters.vortexout": [
+    "examples.moving_letters.<lambda1>"
+  ],
+  "examples.moving_letters.vortexout.<lambda1>": [
+    "<builtin>.max"
+  ],
+  "examples.moving_letters.vortexout.<lambda2>": [
+    "examples.moving_letters.<lambda1>",
+    "examples.moving_letters.vortexout.<lambda1>"
+  ],
+  "moviepy.video.tools.segmenting.find_objects": [
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "<builtin>.sorted",
+    "<builtin>.slice",
+    "matplotlib.pyplot.show",
+    "matplotlib.pyplot.subplots",
+    "scipy.ndimage.find_objects",
+    "<builtin>.print",
+    "scipy.ndimage.measurements.label",
+    "<builtin>.enumerate",
+    "numpy.array",
+    "moviepy.Clip.Clip.get_frame",
+    "moviepy.video.VideoClip.VideoClip.add_mask"
+  ],
+  "examples.moving_letters.moveLetters": [
+    "<builtin>.len",
+    "<builtin>.enumerate"
+  ],
+  "moviepy.video.tools.segmenting": [],
+  "scipy.ndimage.measurements.label": [],
+  "scipy.ndimage.find_objects": [],
+  "moviepy.video.tools.segmenting.find_objects.<lambda1>": [],
+  "<builtin>.slice": [],
+  "matplotlib.pyplot.subplots": [],
+  "matplotlib.pyplot.show": [],
+  "examples.star_worms": [
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.VideoClip.ImageClip.image_transform",
+    "examples.star_worms.annotate",
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.write_videofile",
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "moviepy.video.VideoClip.ImageClip.transform",
+    "moviepy.video.tools.drawing.color_gradient"
+  ],
+  "examples.star_worms.<lambda1>": [
+    "<builtin>.int"
+  ],
+  "examples.star_worms.<lambda2>": [
+    "numpy.minimum"
+  ],
+  "examples.star_worms.trapzWarp": [
+    "skimage.transform.ProjectiveTransform",
+    "skimage.transform.warp.astype",
+    "skimage.transform.ProjectiveTransform.estimate",
+    "skimage.transform.warp",
+    "numpy.array"
+  ],
+  "skimage.transform.ProjectiveTransform": [],
+  "skimage.transform.ProjectiveTransform.estimate": [],
+  "skimage.transform.warp": [],
+  "skimage.transform.warp.astype": [],
+  "examples.star_worms.<lambda3>": [
+    "examples.star_worms.trapzWarp"
+  ],
+  "examples.star_worms.<lambda4>": [
+    "examples.star_worms.trapzWarp"
+  ],
+  "examples.star_worms.<lambda5>": [],
+  "examples.star_worms.annotate": [
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.on_color"
+  ],
+  "examples.star_worms.resizeCenter": [],
+  "examples.star_worms.composeCenter": [
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__"
+  ],
+  "examples.painting_effect": [
+    "moviepy.tools.convert_to_seconds",
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.VideoClip.VideoClip.write_videofile",
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "moviepy.Clip.Clip.fx",
+    "moviepy.video.VideoClip.VideoClip.to_ImageClip",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.add_mask"
+  ],
+  "examples.dancing_knights": [
+    "moviepy.Clip.Clip.with_duration",
+    "sys.stderr.write",
+    "moviepy.video.compositing.CompositeVideoClip.clips_array",
+    "moviepy.video.VideoClip.VideoClip.write_videofile",
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.tools.cuts.find_video_period",
+    "<builtin>.print",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "sys.exit",
+    "os.path.exists",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.audio.io.AudioFileClip.AudioFileClip.__init__",
+    "os.system",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.audio.tools.cuts.find_audio_period"
+  ],
+  "os.system": [],
+  "sys.stderr.write": [],
+  "sys.exit": [],
+  "moviepy.audio.tools.cuts.find_audio_period": [
+    "numpy.correlate",
+    "<builtin>.len",
+    "numpy.array.mean",
+    "<builtin>.int",
+    "numpy.array",
+    "numpy.argmax"
+  ],
+  "moviepy.video.tools.cuts.find_video_period": [
+    "moviepy.video.tools.cuts.find_video_period.frame",
+    "numpy.arange",
+    "numpy.corrcoef",
+    "numpy.argmax"
+  ],
+  "moviepy.audio.tools": [],
+  "moviepy.audio.tools.cuts": [],
+  "numpy.array.mean": [],
+  "numpy.correlate": [],
+  "numpy.argmax": [],
+  "moviepy.video.tools.cuts": [
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.convert_parameter_to_seconds",
+    "moviepy.decorators.use_clip_fps_by_default"
+  ],
+  "moviepy.video.tools.cuts.find_video_period.frame": [],
+  "numpy.corrcoef": [],
+  "moviepy.video.tools.cuts.FramesMatch.__init__": [],
+  "moviepy.video.tools.cuts.FramesMatch.__str__": [],
+  "moviepy.video.tools.cuts.FramesMatch.__repr__": [
+    "moviepy.video.tools.cuts.FramesMatch.__str__"
+  ],
+  "moviepy.video.tools.cuts.FramesMatch.__iter__": [
+    "<builtin>.iter"
+  ],
+  "<builtin>.iter": [],
+  "moviepy.video.tools.cuts.FramesMatch.__eq__": [],
+  "moviepy.video.tools.cuts.FramesMatches.__init__": [
+    "<builtin>.sorted"
+  ],
+  "moviepy.video.tools.cuts.FramesMatches.__init__.<lambda1>": [],
+  "moviepy.video.tools.cuts.FramesMatches.best": [
+    "<builtin>.int",
+    "<builtin>.len",
+    "moviepy.video.tools.cuts.FramesMatches.__init__"
+  ],
+  "moviepy.video.tools.cuts.FramesMatches.filter": [
+    "moviepy.video.tools.cuts.FramesMatches.__init__",
+    "moviepy.video.tools.cuts.FramesMatches.filter"
+  ],
+  "moviepy.video.tools.cuts.FramesMatches.save": [
+    "<builtin>.list",
+    "numpy.savetxt",
+    "numpy.array"
+  ],
+  "numpy.savetxt": [],
+  "moviepy.video.tools.cuts.FramesMatches.load": [
+    "numpy.loadtxt",
+    "moviepy.video.tools.cuts.FramesMatch.__init__",
+    "moviepy.video.tools.cuts.FramesMatches.__init__"
+  ],
+  "numpy.loadtxt": [],
+  "moviepy.video.tools.cuts.FramesMatches.from_clip": [
+    "moviepy.video.tools.cuts.FramesMatches.from_clip.dot_product",
+    "moviepy.video.tools.cuts.FramesMatches.from_clip.distance",
+    "<builtin>.sorted",
+    "<builtin>.list",
+    "moviepy.video.tools.cuts.FramesMatch.__init__",
+    "moviepy.video.tools.cuts.FramesMatches.__init__",
+    "<builtin>.max",
+    "numpy.sqrt",
+    "<builtin>.enumerate",
+    "<builtin>.abs",
+    "<builtin>.min"
+  ],
+  "moviepy.video.tools.cuts.FramesMatches.from_clip.dot_product": [],
+  "moviepy.video.tools.cuts.FramesMatches.from_clip.distance": [
+    "moviepy.video.tools.cuts.FramesMatches.from_clip.dot_product",
+    "numpy.sqrt"
+  ],
+  "moviepy.video.tools.cuts.FramesMatches.select_scenes": [
+    "<builtin>.sorted",
+    "collections.defaultdict.items",
+    "moviepy.video.tools.cuts.FramesMatch.__init__",
+    "moviepy.video.tools.cuts.FramesMatches.__init__",
+    "<builtin>.max",
+    "collections.defaultdict",
+    "<builtin>.next"
+  ],
+  "moviepy.video.tools.cuts.FramesMatches.select_scenes.<lambda1>": [],
+  "collections.defaultdict": [],
+  "collections.defaultdict.items": [],
+  "moviepy.video.tools.cuts.FramesMatches.select_scenes.<lambda2>": [],
+  "<builtin>.next": [],
+  "moviepy.video.tools.cuts.FramesMatches.write_gifs": [],
+  "numpy.diff": [],
+  "numpy.nonzero": [],
+  "examples.ukulele_concerto": [
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.on_color"
+  ],
+  "examples.ukulele_concerto.<lambda1>": [
+    "<builtin>.int",
+    "<builtin>.max"
+  ],
+  "examples.the_end": [
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.VideoClip.VideoClip.write_videofile",
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__"
+  ],
+  "examples.the_end.<lambda1>": [
+    "<builtin>.int",
+    "<builtin>.max",
+    "moviepy.video.tools.drawing.circle"
+  ],
+  "examples.logo": [
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.VideoClip.ColorClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.__init__",
+    "moviepy.Clip.Clip.subclip"
+  ],
+  "examples.logo.f": [
+    "<builtin>.int",
+    "numpy.cos",
+    "numpy.sin",
+    "numpy.array"
+  ],
+  "examples.logo.<lambda1>": [
+    "examples.logo.f"
+  ],
+  "examples.masked_credits": [
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__"
+  ],
+  "examples.masked_credits.<lambda1>": [],
+  "moviepy.video.tools.credits": [],
+  "moviepy.video.tools.credits.CreditsClip": [
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>"
+  ],
+  "moviepy.video.tools.credits.CreditsClip.__init__": [
+    "moviepy.video.fx.resize.resize",
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "<builtin>.super",
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "<builtin>.int",
+    "<builtin>.zip",
+    "<builtin>.open",
+    "<builtin>.range"
+  ],
+  "examples.compo_from_image": [
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.Clip.Clip.subclip",
+    "<builtin>.zip",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.video.tools.segmenting.find_objects"
+  ],
+  "examples.example_with_sound": [
+    "moviepy.video.VideoClip.ImageClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.write_videofile",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.Clip.Clip.subclip",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.video.tools.drawing.color_split"
+  ],
+  "examples.headblur": [
+    "moviepy.Clip.Clip.with_duration",
+    "moviepy.video.VideoClip.TextClip.__init__",
+    "moviepy.video.compositing.concatenate.concatenate_videoclips",
+    "moviepy.Clip.Clip.fx",
+    "moviepy.video.tools.interpolators.Trajectory.from_file",
+    "moviepy.video.io.VideoFileClip.VideoFileClip.__init__",
+    "moviepy.video.VideoClip.VideoClip.with_audio"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.from_file": [
+    "moviepy.video.tools.interpolators.Trajectory.__init__",
+    "numpy.loadtxt"
+  ],
+  "moviepy.video.tools.interpolators": [],
+  "moviepy.video.tools.interpolators.Interpolator.__init__": [
+    "<builtin>.max",
+    "numpy.array",
+    "<builtin>.min",
+    "<builtin>.zip"
+  ],
+  "moviepy.video.tools.interpolators.Interpolator.__call__": [
+    "numpy.interp"
+  ],
+  "numpy.interp": [],
+  "moviepy.video.tools.interpolators.Trajectory.__init__": [
+    "moviepy.video.tools.interpolators.Trajectory.update_interpolators",
+    "numpy.array"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.update_interpolators": [
+    "moviepy.video.tools.interpolators.Interpolator.__init__"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.__call__": [
+    "numpy.array",
+    "moviepy.video.tools.interpolators.Interpolator.__init__"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.addx": [
+    "moviepy.video.tools.interpolators.Trajectory.__init__"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.addy": [
+    "moviepy.video.tools.interpolators.Trajectory.__init__"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.txy": [
+    "<builtin>.zip"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.to_file": [
+    "<builtin>.list",
+    "moviepy.video.tools.interpolators.Trajectory.txy",
+    "numpy.savetxt",
+    "numpy.array"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.save_list": [
+    "numpy.savetxt",
+    "<builtin>.list",
+    "<builtin>.len",
+    "numpy.array",
+    "numpy.hstack"
+  ],
+  "moviepy.video.tools.interpolators.Trajectory.load_list": [
+    "moviepy.video.tools.interpolators.Trajectory.__init__",
+    "numpy.loadtxt",
+    "numpy.split"
+  ],
+  "numpy.split": [],
+  "moviepy.video.tools.tracking": [
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "moviepy.decorators.convert_parameter_to_seconds",
+    "moviepy.decorators.use_clip_fps_by_default"
+  ],
+  "pygame.display.set_mode": [],
+  "moviepy.video.tools.tracking.manual_tracking.gatherClicks": [
+    "pygame.mouse.get_pos",
+    "<builtin>.KeyboardInterrupt",
+    "moviepy.video.io.preview.imdisplay",
+    "pygame.event.get"
+  ],
+  "moviepy.video.io.preview.imdisplay": [
+    "proglog.default_bar_logger.iter_bar.swapaxes",
+    "proglog.default_bar_logger.iter_bar.to_frame.swapaxes",
+    "numpy.arange.swapaxes",
+    "numpy.zeros.swapaxes",
+    "numpy.arange.to_frame.swapaxes",
+    "numpy.array.to_frame.swapaxes",
+    "numpy.ones.swapaxes",
+    "re.search.group.to_frame.swapaxes",
+    "numpy.ones.to_frame.swapaxes",
+    "pygame.display.set_mode",
+    "pygame.surfarray.make_surface",
+    "re.search.group.swapaxes",
+    "numpy.zeros.to_frame.swapaxes",
+    "numpy.array.swapaxes",
+    "pygame.display.set_mode.blit",
+    "pygame.display.flip"
+  ],
+  "pygame.event.get": [],
+  "<builtin>.KeyboardInterrupt": [],
+  "pygame.mouse.get_pos": [],
+  "moviepy.video.tools.tracking.findAround": [
+    "cv2.matchTemplate",
+    "numpy.unravel_index",
+    "cv2.matchTemplate.argmax"
+  ],
+  "cv2.matchTemplate": [],
+  "cv2.matchTemplate.argmax": [],
+  "numpy.unravel_index": [],
+  "moviepy.video.tools.tracking.autoTrack": [
+    "<builtin>.IOError",
+    "moviepy.video.tools.tracking.findAround",
+    "<builtin>.zip",
+    "moviepy.video.tools.interpolators.Trajectory.__init__",
+    "numpy.arange"
+  ],
+  "moviepy.video.io.preview": [
+    "moviepy.decorators.requires_duration",
+    "moviepy.decorators.convert_masks_to_RGB",
+    "moviepy.decorators.preprocess_args.<RETURN>",
+    "pygame.init",
+    "pygame.display.set_caption",
+    "moviepy.decorators.convert_parameter_to_seconds"
+  ],
+  "pygame.init": [],
+  "pygame.display.set_caption": [],
+  "proglog.default_bar_logger.iter_bar.swapaxes": [],
+  "proglog.default_bar_logger.iter_bar.to_frame.swapaxes": [],
+  "numpy.arange.swapaxes": [],
+  "numpy.zeros.swapaxes": [],
+  "numpy.arange.to_frame.swapaxes": [],
+  "numpy.array.to_frame.swapaxes": [],
+  "numpy.ones.swapaxes": [],
+  "re.search.group.to_frame.swapaxes": [],
+  "numpy.ones.to_frame.swapaxes": [],
+  "re.search.group.swapaxes": [],
+  "numpy.zeros.to_frame.swapaxes": [],
+  "numpy.array.swapaxes": [],
+  "pygame.surfarray.make_surface": [],
+  "pygame.display.set_mode.blit": [],
+  "pygame.display.flip": [],
+  "moviepy.video.io.preview.show": [
+    "<builtin>.str",
+    "moviepy.video.compositing.CompositeVideoClip.CompositeVideoClip.__init__",
+    "moviepy.video.io.preview.imdisplay",
+    "pygame.event.get",
+    "<builtin>.print",
+    "pygame.mouse.get_pos",
+    "moviepy.video.VideoClip.VideoClip.with_position",
+    "moviepy.Clip.Clip.get_frame",
+    "time.sleep"
+  ],
+  "time.sleep": [],
+  "threading.Event": [],
+  "threading.Thread": [],
+  "threading.Thread.start": [],
+  "threading.Event.set": [],
+  "threading.Event.wait": [],
+  "time.time": [],
+  "threading.Event.clear": [],
+  "pygame.quit": [],
+  "setup": [
+    "codecs.open",
+    "os.path.join",
+    "<builtin>.ImportError",
+    "setuptools.setup",
+    "setuptools.find_packages",
+    "ez_setup.use_setuptools"
+  ],
+  "ez_setup.use_setuptools": [],
+  "setup.PyTest.initialize_options": [
+    "setuptools.command.test.test.initialize_options"
+  ],
+  "setuptools.command.test.test.initialize_options": [],
+  "setup.PyTest.finalize_options": [
+    "setuptools.command.test.test.finalize_options"
+  ],
+  "setuptools.command.test.test.finalize_options": [],
+  "setup.PyTest.run_tests": [
+    "pytest.main",
+    "sys.exit",
+    "<builtin>.ImportError"
+  ],
+  "pytest.main": [],
+  "codecs.open": [],
+  "setuptools.find_packages": [],
+  "setuptools.setup": [],
+  "moviepy.utils": [],
+  "moviepy.utils.close_all_clips": [
+    "<builtin>.isinstance",
+    "<builtin>.globals",
+    "<builtin>.tuple",
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.globals": [],
+  "moviepy.audio.fx.all": [
+    "warnings.warn"
+  ],
+  "moviepy.audio.io.preview": [
+    "moviepy.decorators.requires_duration",
+    "pygame.display.set_caption",
+    "pygame.init"
+  ],
+  "pygame.mixer.quit": [],
+  "pygame.mixer.init": [],
+  "pygame.sndarray.make_sound": [],
+  "pygame.sndarray.make_sound.play": [],
+  "pygame.sndarray.make_sound.play.get_queue": [],
+  "pygame.sndarray.make_sound.play.stop": [],
+  "pygame.sndarray.make_sound.play.queue": [],
+  "moviepy.video.tools.subtitles": [
+    "moviepy.decorators.convert_path_to_string",
+    "moviepy.decorators.preprocess_args.<RETURN>"
+  ],
+  "moviepy.video.tools.subtitles.file_to_subtitles": [
+    "moviepy.tools.convert_to_seconds",
+    "<builtin>.open",
+    "re.findall"
+  ],
+  "<builtin>.dict": [],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__init__.make_textclip": [
+    "moviepy.video.VideoClip.TextClip.__init__"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__init__.add_textclip_if_none": [
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__.make_textclip"
+  ],
+  "<builtin>.bool": [],
+  "moviepy.video.tools.subtitles.SubtitlesClip.in_subclip": [
+    "moviepy.video.tools.subtitles.SubtitlesClip.in_subclip.try_cropping",
+    "moviepy.video.tools.subtitles.SubtitlesClip.in_subclip.is_in_subclip"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.in_subclip.is_in_subclip": [],
+  "moviepy.video.tools.subtitles.SubtitlesClip.in_subclip.try_cropping": [
+    "<builtin>.max",
+    "<builtin>.min"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__getitem__": [],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__str__": [
+    "moviepy.video.tools.subtitles.SubtitlesClip.__str__.to_srt"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.__str__.to_srt": [
+    "moviepy.tools.convert_to_seconds"
+  ],
+  "moviepy.video.tools.subtitles.SubtitlesClip.match_expr": [
+    "moviepy.video.tools.subtitles.SubtitlesClip.__init__",
+    "re.findall"
+  ],
+  "re.findall": [],
+  "moviepy.video.tools.subtitles.SubtitlesClip.write_srt": [
+    "<builtin>.open",
+    "<builtin>.str"
+  ],
+  "moviepy.video.fx.all": [
+    "warnings.warn"
+  ],
+  "moviepy.video.io.bindings": [],
+  "moviepy.video.io.bindings.mplfig_to_npimage": [
+    "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_rgb",
+    "numpy.frombuffer.reshape",
+    "matplotlib.backends.backend_agg.FigureCanvasAgg.draw",
+    "<builtin>.int",
+    "matplotlib.backends.backend_agg.FigureCanvasAgg",
+    "numpy.frombuffer"
+  ],
+  "matplotlib.backends.backend_agg.FigureCanvasAgg": [],
+  "matplotlib.backends.backend_agg.FigureCanvasAgg.draw": [],
+  "matplotlib.backends.backend_agg.FigureCanvasAgg.tostring_rgb": [],
+  "numpy.frombuffer.reshape": [],
+  "moviepy.video.io.html_tools": [],
+  "moviepy.video.io.html_tools.HTML2.__add__": [
+    "moviepy.video.io.html_tools.HTML2"
+  ],
+  "moviepy.video.io.html_tools.HTML2": [],
+  "moviepy.video.io.html_tools.html_embed": [
+    "moviepy.video.io.ffmpeg_reader.ffmpeg_parse_infos",
+    "<builtin>.isinstance",
+    "<builtin>.str",
+    "base64.b64encode.decode",
+    "inspect.getfullargspec",
+    "os.path.splitext",
+    "base64.b64encode",
+    "moviepy.video.io.html_tools.html_embed",
+    "<builtin>.open",
+    "<builtin>.ValueError"
+  ],
+  "base64.b64encode": [],
+  "base64.b64encode.decode": [],
+  "moviepy.video.io.html_tools.ipython_display": [
+    "moviepy.video.io.html_tools.html_embed",
+    "moviepy.video.io.html_tools.HTML2",
+    "<builtin>.ImportError"
+  ],
+  "moviepy.video.io.sliders": [],
+  "moviepy.video.io.sliders.sliders": [
+    "matplotlib.pyplot.axes.get_xaxis.set_visible",
+    "<builtin>.isinstance",
+    "matplotlib.pyplot.axes.get_xaxis",
+    "matplotlib.pyplot.subplots",
+    "<builtin>.len",
+    "matplotlib.pyplot.show",
+    "matplotlib.pyplot.axes.get_yaxis.set_visible",
+    "<builtin>.enumerate",
+    "<builtin>.dict",
+    "matplotlib.widgets.Slider",
+    "<builtin>.zip",
+    "matplotlib.pyplot.axes",
+    "<builtin>.min",
+    "matplotlib.pyplot.axes.set_frame_on",
+    "matplotlib.pyplot.axes.get_yaxis"
+  ],
+  "matplotlib.pyplot.axes.set_frame_on": [],
+  "matplotlib.pyplot.axes.get_xaxis": [],
+  "matplotlib.pyplot.axes.get_xaxis.set_visible": [],
+  "matplotlib.pyplot.axes.get_yaxis": [],
+  "matplotlib.pyplot.axes.get_yaxis.set_visible": [],
+  "matplotlib.pyplot.axes": [],
+  "matplotlib.widgets.Slider": [],
+  "moviepy.video.io.sliders.sliders.on_changed": [
+    "<builtin>.print"
+  ],
+  "moviepy.video.io.sliders.sliders.on_key_press": [
+    "moviepy.video.io.sliders.sliders.on_changed"
+  ],
+  "moviepy.editor": [],
+  "moviepy.editor.sliders": [
+    "<builtin>.ImportError"
+  ],
+  "moviepy.editor.preview": [
+    "<builtin>.ImportError"
+  ],
+  "moviepy.editor.show": [
+    "<builtin>.ImportError"
+  ]
+}

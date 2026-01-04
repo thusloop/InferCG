@@ -1,0 +1,892 @@
+{
+  "requests.__init__": [
+    "requests.check_compatibility",
+    "builtins.getattr",
+    "warnings.simplefilter",
+    "logging.getLogger",
+    "logging.NullHandler",
+    "logging.Logger.addHandler",
+    "warnings.simplefilter"
+  ],
+  "requests.__init__.check_compatibility": [
+    "str.split",
+    "builtins.len",
+    "builtins.int",
+    "str.split",
+    "builtins.int"
+  ],
+  "requests.packages": [
+    "warnings.filterwarnings",
+    "builtins.__import__",
+    "builtins.list",
+    "str.startswith",
+    "builtins.list",
+    "str.startswith",
+    "str.replace"
+  ],
+  "requests._internal_utils": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "requests.utils": [
+    "certifi.core.where",
+    "urllib3.util.request.make_headers",
+    "re.split",
+    "str.join",
+    "builtins.frozenset",
+    "str.encode"
+  ],
+  "requests.status_codes": [
+    "requests.structures.LookupDict",
+    "requests.status_codes._init"
+  ],
+  "requests.structures.LookupDict.__init__": [
+    "dict.__init__"
+  ],
+  "requests.status_codes._init": [
+    "dict.items",
+    "builtins.setattr",
+    "str.startswith",
+    "str.upper",
+    "builtins.setattr"
+  ],
+  "requests.structures.CaseInsensitiveDict.__init__": [
+    "collections.OrderedDict",
+    "collections.abc.MutableMapping.update"
+  ],
+  "requests.structures.CaseInsensitiveDict.__setitem__": [
+    "str.lower"
+  ],
+  "requests.help.info": [
+    "platform.system",
+    "platform.release",
+    "requests.help._implementation",
+    "builtins.getattr",
+    "builtins.getattr"
+  ],
+  "requests.help._implementation": [
+    "platform.python_implementation",
+    "platform.python_version"
+  ],
+  "requests.hooks.dispatch_hook": [
+    "dict.get",
+    "builtins.hasattr",
+    "tests.test_hooks.hook",
+    "tests.test_hooks.<lambda>",
+    "tests.test_requests.TestRequests.test_hook_receives_request_arguments.<locals>.hook"
+  ],
+  "requests.api.post": [
+    "requests.api.request"
+  ],
+  "requests.api.request": [
+    "requests.sessions.Session",
+    "requests.sessions.Session.request"
+  ],
+  "requests.sessions.Session.__init__": [
+    "requests.utils.default_headers",
+    "requests.hooks.default_hooks",
+    "requests.cookies.cookiejar_from_dict",
+    "collections.OrderedDict",
+    "requests.adapters.HTTPAdapter",
+    "requests.sessions.Session.mount",
+    "requests.adapters.HTTPAdapter",
+    "requests.sessions.Session.mount"
+  ],
+  "requests.utils.default_headers": [
+    "requests.utils.default_user_agent",
+    "requests.structures.CaseInsensitiveDict"
+  ],
+  "requests.cookies.cookiejar_from_dict": [
+    "requests.cookies.RequestsCookieJar",
+    "requests.cookies.create_cookie",
+    "requests.cookies.RequestsCookieJar.set_cookie",
+    "http.cookiejar.CookieJar.set_cookie"
+  ],
+  "requests.adapters.HTTPAdapter.__init__": [
+    "urllib3.util.retry.Retry",
+    "requests.adapters.BaseAdapter.__init__",
+    "requests.adapters.HTTPAdapter.init_poolmanager",
+    "urllib3.util.retry.Retry.from_int"
+  ],
+  "requests.adapters.BaseAdapter.__init__": [
+    "object.__init__"
+  ],
+  "requests.adapters.HTTPAdapter.init_poolmanager": [
+    "urllib3.poolmanager.PoolManager"
+  ],
+  "requests.sessions.Session.mount": [
+    "builtins.len",
+    "OrderedDict.pop"
+  ],
+  "requests.sessions.Session.request": [
+    "str.upper",
+    "requests.models.Request",
+    "requests.sessions.Session.prepare_request",
+    "requests.sessions.Session.merge_environment_settings",
+    "dict.update",
+    "requests.sessions.Session.send",
+    "bytes.upper"
+  ],
+  "requests.models.Request.__init__": [
+    "requests.hooks.default_hooks",
+    "dict.items",
+    "builtins.list",
+    "requests.models.RequestHooksMixin.register_hook"
+  ],
+  "requests.sessions.Session.prepare_request": [
+    "builtins.isinstance",
+    "requests.cookies.cookiejar_from_dict",
+    "requests.cookies.RequestsCookieJar",
+    "requests.cookies.merge_cookies",
+    "requests.cookies.merge_cookies",
+    "requests.utils.get_netrc_auth",
+    "requests.models.PreparedRequest",
+    "str.upper",
+    "requests.sessions.merge_setting",
+    "tests.test_requests.TestRequests.test_basicauth_with_netrc.<locals>.get_netrc_auth_mock",
+    "requests.sessions.merge_setting",
+    "requests.sessions.merge_setting",
+    "requests.sessions.merge_hooks",
+    "requests.models.PreparedRequest.prepare",
+    "bytes.upper"
+  ],
+  "requests.cookies.merge_cookies": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "requests.cookies.RequestsCookieJar.update"
+  ],
+  "requests.cookies.RequestsCookieJar.update": [
+    "builtins.isinstance"
+  ],
+  "requests.utils.get_netrc_auth": [
+    "collections.abc.Mapping.get",
+    "posixpath.expanduser",
+    "genericpath.exists"
+  ],
+  "requests.sessions.Session.__exit__": [
+    "requests.sessions.Session.close"
+  ],
+  "requests.sessions.Session.close": [
+    "OrderedDict.values",
+    "requests.adapters.HTTPAdapter.close"
+  ],
+  "requests.adapters.HTTPAdapter.close": [
+    "urllib3.poolmanager.PoolManager.clear",
+    "dict.values",
+    "<Mock name='mock.clear' id='139754906330320'>",
+    "<Mock name='mock.clear' id='139754773060080'>"
+  ],
+  "requests.api.get": [
+    "requests.api.request"
+  ],
+  "requests.models.PreparedRequest.__init__": [
+    "requests.hooks.default_hooks"
+  ],
+  "requests.auth.HTTPDigestAuth.__init__": [
+    "_thread._local"
+  ],
+  "requests.sessions.merge_setting": [
+    "builtins.isinstance",
+    "requests.utils.to_key_val_list",
+    "requests.structures.CaseInsensitiveDict",
+    "requests.utils.to_key_val_list",
+    "collections.abc.MutableMapping.update",
+    "collections.abc.Mapping.items",
+    "collections.OrderedDict",
+    "OrderedDict.update",
+    "OrderedDict.items"
+  ],
+  "requests.utils.to_key_val_list": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "dict.items",
+    "builtins.list",
+    "collections.abc.Mapping.items",
+    "OrderedDict.items",
+    "builtins.ValueError"
+  ],
+  "requests.sessions.session": [
+    "requests.sessions.Session"
+  ],
+  "requests.models.Request.prepare": [
+    "requests.models.PreparedRequest",
+    "requests.models.PreparedRequest.prepare"
+  ],
+  "requests.models.PreparedRequest.prepare": [
+    "requests.models.PreparedRequest.prepare_method",
+    "requests.models.PreparedRequest.prepare_url",
+    "requests.models.PreparedRequest.prepare_headers",
+    "requests.models.PreparedRequest.prepare_cookies",
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.PreparedRequest.prepare_auth",
+    "requests.models.PreparedRequest.prepare_hooks"
+  ],
+  "requests.models.PreparedRequest.prepare_url": [
+    "builtins.isinstance",
+    "builtins.str",
+    "str.lstrip",
+    "str.lower",
+    "str.startswith",
+    "urllib3.util.url.parse_url",
+    "requests._internal_utils.unicode_is_ascii",
+    "str.startswith",
+    "builtins.isinstance",
+    "requests.models.RequestEncodingMixin._encode_params",
+    "urllib.parse.urlunparse",
+    "requests.utils.requote_uri",
+    "requests._internal_utils.to_native_string",
+    "bytes.decode",
+    "requests.exceptions.InvalidURL",
+    "requests.exceptions.InvalidURL"
+  ],
+  "requests._internal_utils.unicode_is_ascii": [
+    "builtins.isinstance",
+    "str.encode"
+  ],
+  "requests.models.RequestEncodingMixin._encode_params": [
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "requests.utils.to_key_val_list",
+    "urllib.parse.urlencode",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.encode",
+    "builtins.isinstance",
+    "str.encode",
+    "list.append"
+  ],
+  "requests.utils.requote_uri": [
+    "requests.utils.unquote_unreserved",
+    "urllib.parse.quote",
+    "urllib.parse.quote"
+  ],
+  "requests.utils.unquote_unreserved": [
+    "str.split",
+    "builtins.len",
+    "builtins.range",
+    "str.join",
+    "builtins.len",
+    "str.isalnum",
+    "builtins.int",
+    "builtins.chr",
+    "requests.exceptions.InvalidURL"
+  ],
+  "requests.models.PreparedRequest.prepare_headers": [
+    "requests.structures.CaseInsensitiveDict",
+    "dict.items",
+    "requests.utils.check_header_validity",
+    "collections.abc.Mapping.items",
+    "requests._internal_utils.to_native_string"
+  ],
+  "requests.models.PreparedRequest.prepare_cookies": [
+    "builtins.isinstance",
+    "requests.cookies.cookiejar_from_dict",
+    "requests.cookies.get_cookie_header"
+  ],
+  "requests.cookies.get_cookie_header": [
+    "requests.cookies.MockRequest",
+    "http.cookiejar.CookieJar.add_cookie_header",
+    "requests.cookies.MockRequest.get_new_headers",
+    "dict.get"
+  ],
+  "requests.cookies.MockRequest.__init__": [
+    "urllib.parse.urlparse"
+  ],
+  "requests.models.PreparedRequest.prepare_method": [
+    "str.upper",
+    "requests._internal_utils.to_native_string",
+    "bytes.upper"
+  ],
+  "requests._internal_utils.to_native_string": [
+    "builtins.isinstance",
+    "bytes.decode"
+  ],
+  "requests.utils.check_header_validity": [
+    "builtins.type",
+    "builtins.type",
+    "requests.utils._validate_header_part",
+    "builtins.type",
+    "requests.utils._validate_header_part"
+  ],
+  "requests.models.PreparedRequest.prepare_body": [
+    "builtins.hasattr",
+    "builtins.isinstance",
+    "builtins.all",
+    "requests.models.PreparedRequest.prepare_content_length",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "json.dumps",
+    "builtins.isinstance",
+    "requests.exceptions.InvalidJSONError"
+  ],
+  "requests.sessions.Session.get": [
+    "dict.setdefault",
+    "requests.sessions.Session.request"
+  ],
+  "requests.api.head": [
+    "dict.setdefault",
+    "requests.api.request"
+  ],
+  "requests.cookies.create_cookie": [
+    "builtins.set",
+    "dict.update",
+    "builtins.bool",
+    "builtins.bool",
+    "str.startswith",
+    "builtins.bool",
+    "http.cookiejar.Cookie"
+  ],
+  "requests.cookies.RequestsCookieJar.set_cookie": [
+    "builtins.hasattr",
+    "str.startswith",
+    "http.cookiejar.CookieJar.set_cookie"
+  ],
+  "requests.cookies.RequestsCookieJar.__setitem__": [
+    "requests.cookies.RequestsCookieJar.set"
+  ],
+  "requests.cookies.RequestsCookieJar.set": [
+    "builtins.isinstance",
+    "requests.cookies.create_cookie",
+    "requests.cookies.RequestsCookieJar.set_cookie"
+  ],
+  "requests.api.put": [
+    "requests.api.request"
+  ],
+  "requests.structures.CaseInsensitiveDict.__len__": [
+    "builtins.len"
+  ],
+  "requests.structures.CaseInsensitiveDict.__iter__": [
+    "OrderedDict.values"
+  ],
+  "requests.structures.CaseInsensitiveDict.__getitem__": [
+    "str.lower"
+  ],
+  "requests.sessions.merge_hooks": [
+    "dict.get"
+  ],
+  "requests.utils._validate_header_part": [
+    "Pattern.match",
+    "requests.exceptions.InvalidHeader"
+  ],
+  "requests.models.PreparedRequest.prepare_auth": [
+    "requests.utils.get_auth_from_url",
+    "builtins.any"
+  ],
+  "requests.utils.get_auth_from_url": [
+    "urllib.parse.urlparse",
+    "urllib.parse.unquote"
+  ],
+  "requests.models.PreparedRequest.prepare_hooks": [
+    "requests.models.RequestHooksMixin.register_hook"
+  ],
+  "requests.models.RequestHooksMixin.register_hook": [
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "list.append",
+    "builtins.isinstance"
+  ],
+  "requests.sessions.Session.merge_environment_settings": [
+    "dict.get",
+    "requests.utils.get_environ_proxies",
+    "dict.items",
+    "collections.abc.Mapping.get",
+    "collections.abc.Mapping.get",
+    "requests.sessions.merge_setting",
+    "requests.sessions.merge_setting",
+    "requests.sessions.merge_setting",
+    "requests.sessions.merge_setting",
+    "dict.get",
+    "dict.get"
+  ],
+  "requests.utils.get_environ_proxies": [
+    "requests.utils.should_bypass_proxies",
+    "urllib.request.getproxies_environment"
+  ],
+  "requests.utils.should_bypass_proxies": [
+    "requests.utils.should_bypass_proxies.<locals>.get_proxy",
+    "urllib.parse.urlparse",
+    "requests.utils.set_environ",
+    "urllib.request.proxy_bypass_environment",
+    "str.replace",
+    "str.split",
+    "requests.utils.is_ipv4_address",
+    "requests.utils.is_valid_cidr",
+    "requests.utils.address_in_network",
+    "str.endswith",
+    "<MagicMock name='proxy_bypass' id='139754910469712'>",
+    "<MagicMock name='proxy_bypass' id='139754907246768'>",
+    "<MagicMock name='proxy_bypass' id='139754909946144'>",
+    "<MagicMock name='proxy_bypass' id='139754903588672'>",
+    "<MagicMock name='proxy_bypass' id='139754584372752'>",
+    "<MagicMock name='proxy_bypass' id='139754897740064'>",
+    "<MagicMock name='proxy_bypass' id='139754807169072'>",
+    "<MagicMock name='proxy_bypass' id='139754901323632'>"
+  ],
+  "requests.utils.get_proxy": [
+    "collections.abc.Mapping.get",
+    "str.upper",
+    "dict.get"
+  ],
+  "requests.sessions.Session.send": [
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "builtins.isinstance",
+    "dict.pop",
+    "dict.get",
+    "requests.sessions.Session.get_adapter",
+    "time.time",
+    "requests.adapters.HTTPAdapter.send",
+    "time.time",
+    "datetime.timedelta",
+    "requests.hooks.dispatch_hook",
+    "requests.cookies.extract_cookies_to_jar",
+    "requests.sessions.SessionRedirectMixin.resolve_redirects",
+    "requests.utils.resolve_proxies",
+    "builtins.ValueError"
+  ],
+  "requests.sessions.Session.get_adapter": [
+    "OrderedDict.items",
+    "str.lower",
+    "str.startswith"
+  ],
+  "requests.adapters.HTTPAdapter.send": [
+    "requests.adapters.HTTPAdapter.get_connection",
+    "requests.adapters.HTTPAdapter.cert_verify",
+    "requests.adapters.HTTPAdapter.request_url",
+    "requests.adapters.HTTPAdapter.add_headers",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "urllib3.util.timeout.Timeout",
+    "urllib3.connectionpool.HTTPConnectionPool.urlopen",
+    "requests.adapters.HTTPAdapter.build_response",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "requests.exceptions.ConnectTimeout",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "requests.exceptions.ConnectionError"
+  ],
+  "requests.adapters.HTTPAdapter.get_connection": [
+    "requests.utils.select_proxy",
+    "urllib.parse.urlparse",
+    "urllib.parse.ParseResult.geturl",
+    "urllib3.poolmanager.PoolManager.connection_from_url"
+  ],
+  "requests.utils.select_proxy": [
+    "urllib.parse.urlparse",
+    "dict.get"
+  ],
+  "requests.adapters.HTTPAdapter.cert_verify": [
+    "str.lower",
+    "str.startswith",
+    "builtins.isinstance",
+    "genericpath.exists"
+  ],
+  "requests.adapters.HTTPAdapter.request_url": [
+    "requests.utils.select_proxy",
+    "urllib.parse.urlparse"
+  ],
+  "requests.models.RequestEncodingMixin.path_url": [
+    "urllib.parse.urlsplit",
+    "list.append",
+    "list.append",
+    "list.append",
+    "str.join"
+  ],
+  "requests.structures.CaseInsensitiveDict.copy": [
+    "OrderedDict.values",
+    "requests.structures.CaseInsensitiveDict"
+  ],
+  "requests.adapters.HTTPAdapter.build_response": [
+    "requests.models.Response",
+    "builtins.getattr",
+    "builtins.getattr",
+    "requests.structures.CaseInsensitiveDict",
+    "requests.utils.get_encoding_from_headers",
+    "builtins.isinstance",
+    "requests.cookies.extract_cookies_to_jar"
+  ],
+  "requests.models.Response.__init__": [
+    "requests.structures.CaseInsensitiveDict",
+    "requests.cookies.cookiejar_from_dict",
+    "datetime.timedelta"
+  ],
+  "requests.utils.get_encoding_from_headers": [
+    "collections.abc.Mapping.get",
+    "requests.utils._parse_content_type_header",
+    "str.strip"
+  ],
+  "requests.utils._parse_content_type_header": [
+    "str.split",
+    "str.strip",
+    "str.strip",
+    "str.find",
+    "str.strip",
+    "str.strip",
+    "str.lower"
+  ],
+  "requests.cookies.extract_cookies_to_jar": [
+    "builtins.hasattr",
+    "requests.cookies.MockRequest",
+    "requests.cookies.MockResponse",
+    "http.cookiejar.CookieJar.extract_cookies"
+  ],
+  "requests.sessions.SessionRedirectMixin.resolve_redirects": [
+    "requests.sessions.SessionRedirectMixin.get_redirect_target",
+    "urllib.parse.urlparse"
+  ],
+  "requests.models.Response.content": [
+    "requests.models.Response.iter_content",
+    "bytes.join"
+  ],
+  "requests.models.Response.iter_content": [
+    "builtins.isinstance",
+    "requests.utils.iter_slices",
+    "requests.models.Response.iter_content.<locals>.generate",
+    "builtins.isinstance",
+    "requests.utils.stream_decode_response_unicode",
+    "builtins.type",
+    "builtins.TypeError"
+  ],
+  "requests.models.Response.generate": [
+    "builtins.hasattr",
+    "urllib3.response.HTTPResponse.stream",
+    "tests.test_requests.TestRequests.test_response_is_iterable.<locals>.read_mock",
+    "BytesIO.read",
+    "<Mock name='mock.stream' id='139754903361120'>",
+    "requests.exceptions.ChunkedEncodingError",
+    "<Mock name='mock.stream' id='139754903920192'>",
+    "requests.exceptions.ContentDecodingError",
+    "<Mock name='mock.stream' id='139754905254160'>",
+    "requests.exceptions.ConnectionError",
+    "<Mock name='mock.stream' id='139754770941216'>",
+    "requests.exceptions.SSLError"
+  ],
+  "requests.models.RequestEncodingMixin._encode_files": [
+    "builtins.isinstance",
+    "requests.utils.to_key_val_list",
+    "requests.utils.to_key_val_list",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.str",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.encode",
+    "list.append",
+    "builtins.isinstance",
+    "builtins.len",
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "BufferedReader.read",
+    "urllib3.fields.RequestField",
+    "urllib3.fields.RequestField.make_multipart",
+    "list.append",
+    "urllib3.filepost.encode_multipart_formdata"
+  ],
+  "requests.models.PreparedRequest.prepare_content_length": [
+    "requests.utils.super_len",
+    "builtins.str"
+  ],
+  "requests.utils.super_len": [
+    "builtins.hasattr",
+    "builtins.len",
+    "builtins.hasattr",
+    "builtins.max",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "StringIO.fileno",
+    "StringIO.tell",
+    "builtins.hasattr",
+    "StringIO.seek",
+    "StringIO.tell",
+    "StringIO.seek",
+    "BytesIO.fileno",
+    "BytesIO.tell",
+    "BytesIO.seek",
+    "BytesIO.tell",
+    "BytesIO.seek",
+    "tests.test_utils.TestSuperLen.test_super_len_handles_files_raising_weird_errors_in_tell.<locals>.BoomFile.tell",
+    "tests.test_utils.TestSuperLen.test_super_len_tell_ioerror.<locals>.NoLenBoomFile.tell",
+    "TextIOWrapper.fileno",
+    "posix.fstat",
+    "_warnings.warn",
+    "TextIOWrapper.tell",
+    "BufferedReader.fileno",
+    "BufferedReader.tell",
+    "ExFileObject.fileno",
+    "ExFileObject.tell",
+    "ExFileObject.seek",
+    "ExFileObject.tell",
+    "ExFileObject.seek"
+  ],
+  "requests.utils.resolve_proxies": [
+    "urllib.parse.urlparse",
+    "dict.get",
+    "dict.copy",
+    "requests.utils.should_bypass_proxies",
+    "requests.utils.get_environ_proxies",
+    "dict.get"
+  ],
+  "requests.models.Response.links": [
+    "dict.get",
+    "requests.utils.parse_header_links",
+    "dict.get"
+  ],
+  "requests.utils.parse_header_links": [
+    "str.strip",
+    "re.split",
+    "str.split",
+    "str.strip",
+    "str.split",
+    "str.split",
+    "str.strip",
+    "list.append"
+  ],
+  "requests.cookies.RequestsCookieJar.__contains__": [
+    "collections.abc.Mapping.__contains__"
+  ],
+  "requests.cookies.RequestsCookieJar.__getitem__": [
+    "requests.cookies.RequestsCookieJar._find_no_duplicates"
+  ],
+  "requests.cookies.RequestsCookieJar._find_no_duplicates": [
+    "builtins.iter",
+    "requests.cookies.CookieConflictError"
+  ],
+  "requests.cookies.RequestsCookieJar.keys": [
+    "requests.cookies.RequestsCookieJar.iterkeys",
+    "builtins.list"
+  ],
+  "requests.cookies.RequestsCookieJar.iterkeys": [
+    "builtins.iter"
+  ],
+  "requests.cookies.RequestsCookieJar.iteritems": [
+    "builtins.iter"
+  ],
+  "requests.cookies.RequestsCookieJar.items": [
+    "requests.cookies.RequestsCookieJar.iteritems",
+    "builtins.list"
+  ],
+  "requests.cookies.RequestsCookieJar.values": [
+    "requests.cookies.RequestsCookieJar.itervalues",
+    "builtins.list"
+  ],
+  "requests.cookies.RequestsCookieJar.itervalues": [
+    "builtins.iter"
+  ],
+  "requests.cookies.RequestsCookieJar.get": [
+    "requests.cookies.RequestsCookieJar._find_no_duplicates"
+  ],
+  "requests.cookies.RequestsCookieJar.copy": [
+    "requests.cookies.RequestsCookieJar",
+    "requests.cookies.RequestsCookieJar.get_policy",
+    "http.cookiejar.CookieJar.set_policy",
+    "requests.cookies.RequestsCookieJar.update"
+  ],
+  "requests.models.Response.__iter__": [
+    "requests.models.Response.iter_content"
+  ],
+  "requests.utils.stream_decode_response_unicode": [
+    "codecs.getincrementaldecoder",
+    "encodings.ascii.IncrementalDecoder",
+    "encodings.ascii.IncrementalDecoder.decode",
+    "encodings.ascii.IncrementalDecoder.decode"
+  ],
+  "requests.utils.iter_slices": [
+    "builtins.len",
+    "builtins.len"
+  ],
+  "requests.models.Response.ok": [
+    "requests.models.Response.raise_for_status"
+  ],
+  "requests.models.Response.raise_for_status": [
+    "builtins.isinstance",
+    "bytes.decode",
+    "requests.exceptions.HTTPError",
+    "bytes.decode"
+  ],
+  "requests.exceptions.RequestException.__init__": [
+    "dict.pop",
+    "dict.pop",
+    "builtins.hasattr",
+    "OSError.__init__"
+  ],
+  "requests.cookies.RequestsCookieJar.__getstate__": [
+    "dict.copy",
+    "dict.pop"
+  ],
+  "requests.cookies.RequestsCookieJar.__setstate__": [
+    "dict.update",
+    "threading.RLock"
+  ],
+  "requests.models.Response.__getstate__": [
+    "builtins.getattr"
+  ],
+  "requests.models.Response.__setstate__": [
+    "dict.items",
+    "builtins.setattr",
+    "builtins.setattr",
+    "builtins.setattr"
+  ],
+  "requests.structures.CaseInsensitiveDict.__eq__": [
+    "builtins.isinstance",
+    "requests.structures.CaseInsensitiveDict",
+    "requests.structures.CaseInsensitiveDict.lower_items",
+    "builtins.dict"
+  ],
+  "requests.structures.CaseInsensitiveDict.lower_items": [
+    "OrderedDict.items"
+  ],
+  "requests.sessions.Session.__getstate__": [
+    "builtins.getattr"
+  ],
+  "requests.adapters.HTTPAdapter.__getstate__": [
+    "builtins.getattr"
+  ],
+  "requests.sessions.SessionRedirectMixin.should_strip_auth": [
+    "urllib.parse.urlparse",
+    "urllib.parse.urlparse",
+    "dict.get"
+  ],
+  "requests.auth._basic_auth_str": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "str.encode",
+    "builtins.isinstance",
+    "str.encode",
+    "bytes.join",
+    "base64.b64encode",
+    "bytes.strip",
+    "requests._internal_utils.to_native_string"
+  ],
+  "requests.adapters.HTTPAdapter.proxy_headers": [
+    "requests.utils.get_auth_from_url",
+    "requests.auth._basic_auth_str"
+  ],
+  "requests.models.Response.close": [
+    "StringIO.close",
+    "builtins.getattr"
+  ],
+  "requests.structures.CaseInsensitiveDict.__delitem__": [
+    "str.lower"
+  ],
+  "requests.cookies.morsel_to_cookie": [
+    "time.strptime",
+    "calendar.timegm",
+    "builtins.bool",
+    "builtins.bool",
+    "requests.cookies.create_cookie",
+    "time.time",
+    "builtins.int",
+    "builtins.TypeError"
+  ],
+  "requests.models.PreparedRequest.copy": [
+    "requests.models.PreparedRequest",
+    "requests.cookies._copy_cookie_jar"
+  ],
+  "requests.structures.CaseInsensitiveDict.__repr__": [
+    "collections.abc.Mapping.items",
+    "builtins.dict",
+    "builtins.str"
+  ],
+  "requests.structures.LookupDict.__getitem__": [
+    "dict.get"
+  ],
+  "requests.structures.LookupDict.get": [
+    "dict.get"
+  ],
+  "requests.utils.unquote_header_value": [
+    "str.replace"
+  ],
+  "requests.utils.is_ipv4_address": [
+    "_socket.inet_aton"
+  ],
+  "requests.utils.is_valid_cidr": [
+    "str.count",
+    "str.split",
+    "builtins.int",
+    "str.split",
+    "_socket.inet_aton"
+  ],
+  "requests.utils.address_in_network": [
+    "_socket.inet_aton",
+    "_struct.unpack",
+    "str.split",
+    "builtins.int",
+    "requests.utils.dotted_netmask",
+    "_socket.inet_aton",
+    "_struct.unpack",
+    "_socket.inet_aton",
+    "_struct.unpack"
+  ],
+  "requests.utils.dotted_netmask": [
+    "_struct.pack",
+    "_socket.inet_ntoa"
+  ],
+  "requests.utils.set_environ": [
+    "collections.abc.Mapping.get"
+  ],
+  "requests.utils.guess_filename": [
+    "builtins.getattr",
+    "builtins.isinstance",
+    "posixpath.basename"
+  ],
+  "requests.utils.extract_zipped_paths": [
+    "genericpath.exists",
+    "posixpath.split",
+    "genericpath.exists",
+    "posixpath.split",
+    "str.join",
+    "zipfile.is_zipfile",
+    "zipfile.ZipFile",
+    "zipfile.ZipFile.namelist",
+    "tempfile.gettempdir",
+    "str.split",
+    "posixpath.join",
+    "genericpath.exists",
+    "requests.utils.atomic_open",
+    "zipfile.ZipFile.read",
+    "BufferedWriter.write"
+  ],
+  "requests.utils.atomic_open": [
+    "posixpath.dirname",
+    "tempfile.mkstemp",
+    "os.fdopen",
+    "posix.replace"
+  ],
+  "requests.utils.get_encodings_from_content": [
+    "_warnings.warn",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "Pattern.findall",
+    "Pattern.findall",
+    "Pattern.findall"
+  ],
+  "requests.utils.guess_json_utf": [
+    "bytes.count"
+  ],
+  "requests.utils.parse_dict_header": [
+    "urllib.request.parse_http_list",
+    "str.split",
+    "requests.utils.unquote_header_value"
+  ],
+  "requests.utils.prepend_scheme_if_needed": [
+    "urllib3.util.url.parse_url",
+    "urllib.parse.urlunparse",
+    "str.join"
+  ],
+  "requests.utils.urldefragauth": [
+    "urllib.parse.urlparse",
+    "str.rsplit",
+    "urllib.parse.urlunparse"
+  ],
+  "requests.utils.add_dict_to_cookiejar": [
+    "requests.cookies.cookiejar_from_dict"
+  ]
+}

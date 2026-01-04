@@ -1,0 +1,351 @@
+{
+  "pudb.lowlevel": [
+    "pudb.lowlevel._init_loggers",
+    "re.compile"
+  ],
+  "pudb.lowlevel._init_loggers": [
+    "pudb.lowlevel.TerminalOrStreamHandler",
+    "logging.Formatter",
+    "logging.Handler.setFormatter",
+    "logging.getLogger",
+    "logging.Logger.addHandler",
+    "pudb.lowlevel.TerminalOrStreamHandler",
+    "logging.Formatter",
+    "logging.Handler.setFormatter",
+    "logging.getLogger",
+    "logging.Logger.addHandler"
+  ],
+  "pudb.settings": [
+    "posixpath.expanduser",
+    "collections.abc.Mapping.get",
+    "posixpath.join",
+    "collections.abc.Mapping.get"
+  ],
+  "pudb.__init__": [
+    "builtins.str",
+    "pudb.PudbShortcuts"
+  ],
+  "pudb.debugger": [
+    "pudb.settings.load_config",
+    "pudb.settings.save_config"
+  ],
+  "pudb.settings.load_config": [
+    "configparser.ConfigParser",
+    "genericpath.isdir",
+    "posixpath.join",
+    "configparser.RawConfigParser.read",
+    "configparser.RawConfigParser.has_section",
+    "configparser.RawConfigParser.items",
+    "builtins.dict",
+    "dict.update",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "dict.setdefault",
+    "pudb.settings.load_config.<locals>.normalize_bool_inplace",
+    "pudb.settings.load_config.<locals>.normalize_bool_inplace",
+    "pudb.settings.load_config.<locals>.normalize_bool_inplace",
+    "pudb.settings.load_config.<locals>.normalize_bool_inplace"
+  ],
+  "pudb.settings.normalize_bool_inplace": [
+    "str.lower"
+  ],
+  "pudb.settings.save_config": [
+    "configparser.ConfigParser",
+    "configparser.ConfigParser.add_section",
+    "builtins.sorted",
+    "builtins.str",
+    "configparser.ConfigParser.set",
+    "pudb.settings.get_save_config_path",
+    "posixpath.join",
+    "io.open",
+    "configparser.RawConfigParser.write",
+    "TextIOWrapper.close"
+  ],
+  "pudb.settings.get_save_config_path": [
+    "posixpath.join",
+    "os.makedirs"
+  ],
+  "pudb.var_view": [
+    "builtins.type",
+    "pudb.var_view.get_str_safe_types",
+    "urwid.widget.Text",
+    "urwid.decoration.AttrMap"
+  ],
+  "pudb.var_view.get_str_safe_types": [
+    "str.split",
+    "builtins.hasattr",
+    "builtins.getattr"
+  ],
+  "pudb.source_view": [
+    "pudb.source_view.ArgumentParser"
+  ],
+  "pudb.lowlevel.detect_encoding": [
+    "pudb.lowlevel.detect_encoding.<locals>.read_or_stop",
+    "builtins.isinstance",
+    "bytes.startswith",
+    "pudb.lowlevel.detect_encoding.<locals>.find_cookie",
+    "pudb.lowlevel.detect_encoding.<locals>.read_or_stop"
+  ],
+  "pudb.lowlevel.read_or_stop": [
+    "builtins.next"
+  ],
+  "pudb.lowlevel.find_cookie": [
+    "Pattern.findall",
+    "bytes.decode",
+    "_codecs.lookup"
+  ],
+  "pudb.lowlevel.decode_lines": [
+    "builtins.iter",
+    "pudb.lowlevel.detect_encoding",
+    "itertools.chain",
+    "builtins.hasattr",
+    "bytes.decode"
+  ],
+  "pudb.lowlevel.get_executable_lines_for_codes_recursive": [
+    "builtins.set",
+    "list.pop",
+    "pudb.lowlevel.generate_executable_lines_for_code",
+    "builtins.set",
+    "builtins.isinstance"
+  ],
+  "pudb.ui_tools.make_canvas": [
+    "builtins.zip",
+    "pudb.ui_tools.text_width",
+    "list.append",
+    "urwid.util.apply_target_encoding",
+    "pudb.ui_tools.make_canvas.<locals>.get_byte_line_attr",
+    "builtins.list",
+    "list.append",
+    "list.append",
+    "list.append",
+    "urwid.canvas.TextCanvas",
+    "builtins.len",
+    "urwid.str_util.calc_text_pos",
+    "urwid.util.rle_subseg"
+  ],
+  "pudb.ui_tools.text_width": [
+    "builtins.len",
+    "urwid.str_util.calc_width"
+  ],
+  "pudb.ui_tools.get_byte_line_attr": [
+    "pudb.ui_tools.encode_like_urwid",
+    "builtins.len"
+  ],
+  "pudb.ui_tools.encode_like_urwid": [
+    "str.replace",
+    "str.encode"
+  ],
+  "pudb.run.main": [
+    "pudb.run.get_argparse_parser",
+    "argparse.ArgumentParser.parse_args"
+  ],
+  "pudb.run.get_argparse_parser": [
+    "builtins.print",
+    "sys.exit",
+    "argparse.ArgumentParser",
+    "pudb._shtab.add_argument_to",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "pudb.settings.load_breakpoints": [
+    "genericpath.isdir",
+    "posixpath.join",
+    "list.append",
+    "<MagicMock name=open.__qualname__.__radd__().__iadd__() id=140581884571568",
+    "<MagicMock name=open().readlines id=140581883856928>",
+    "str.strip",
+    "list.extend",
+    "<MagicMock name=open().close id=140581884575312>",
+    "pudb.settings.parse_breakpoints"
+  ],
+  "pudb.settings.parse_breakpoints": [
+    "str.find",
+    "str.rfind",
+    "str.strip",
+    "<Mock id=140581884144816>",
+    "str.lstrip",
+    "builtins.int",
+    "<Mock id=140581884140496>",
+    "list.append"
+  ],
+  "pudb.settings.save_breakpoints": [
+    "<Mock id=140581888466112>",
+    "<Mock id=140581888466112>",
+    "<MagicMock name=open.__qualname__.__radd__().__iadd__() id=140581832989408",
+    "<MagicMock name=open().write id=140581888460496>",
+    "<MagicMock name=open().close id=140581890948352>"
+  ],
+  "pudb.debugger.NullSourceCodeProvider.get_lines": [
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine",
+    "pudb.source_view.SourceLine"
+  ],
+  "pudb.debugger.FileSourceCodeProvider.__init__": [
+    "<Mock name=mock.canonic id=140581839937184>",
+    "<Mock name=mock.canonic id=140581199230816>"
+  ],
+  "pudb.debugger.FileSourceCodeProvider.get_lines": [
+    "pudb.source_view.SourceLine",
+    "<MagicMock name=mock.debugger.get_file_breaks id=140581839950400>",
+    "linecache.getlines",
+    "pudb.lowlevel.decode_lines",
+    "builtins.list",
+    "builtins.set",
+    "pudb.source_view.format_source"
+  ],
+  "pudb.source_view.format_source": [
+    "builtins.len",
+    "builtins.str",
+    "pudb.source_view.UrwidFormatter",
+    "str.expandtabs",
+    "pygments.lexers.python.PythonLexer",
+    "pygments.highlight"
+  ],
+  "pudb.source_view.UrwidFormatter.__init__": [
+    "pygments.formatter.Formatter.__init__"
+  ],
+  "pudb.source_view.UrwidFormatter.format": [
+    "str.find",
+    "pudb.source_view.UrwidFormatter.add_snippet",
+    "pudb.source_view.UrwidFormatter.shipout_line",
+    "pudb.source_view.UrwidFormatter.add_snippet"
+  ],
+  "pudb.source_view.UrwidFormatter.shipout_line": [
+    "pudb.source_view.SourceLine",
+    "list.append"
+  ],
+  "pudb.debugger.DirectSourceCodeProvider.get_lines": [
+    "str.splitlines",
+    "pudb.lowlevel.decode_lines",
+    "builtins.list",
+    "builtins.set",
+    "pudb.source_view.format_source"
+  ],
+  "pudb.source_view.UrwidFormatter.add_snippet": [
+    "pudb.source_view.ArgumentParser.parse_token",
+    "builtins.len",
+    "list.append"
+  ],
+  "pudb.var_view.default_stringifier": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.type",
+    "builtins.hasattr",
+    "builtins.isinstance",
+    "builtins.type",
+    "builtins.str"
+  ],
+  "pudb.var_view.type_stringifier": [
+    "builtins.type",
+    "builtins.str"
+  ],
+  "pudb.var_view.id_stringifier": [
+    "builtins.id",
+    "str.format"
+  ],
+  "pudb.var_view.BasicValueWalker.__init__": [
+    "pudb.var_view.ValueWalker.__init__"
+  ],
+  "pudb.var_view.PudbMapping.__subclasshook__": [
+    "builtins.all"
+  ],
+  "pudb.var_view.PudbSequence.__subclasshook__": [
+    "builtins.all"
+  ],
+  "pudb.var_view.PudbCollection.__subclasshook__": [
+    "builtins.all"
+  ],
+  "pudb.var_view.ValueWalker.walk_value": [
+    "builtins.isinstance",
+    "test.test_var_view.FrameVarInfoForTesting.get_inspect_info",
+    "pudb.var_view.get_stringifier",
+    "builtins.repr",
+    "pudb.var_view.BasicValueWalker.add_item",
+    "builtins.isinstance",
+    "pudb.var_view.ValueWalker.walk_attributes",
+    "pudb.var_view.ValueWalker.walk_container",
+    "pudb.var_view.type_stringifier",
+    "test.test_var_view.BaseValueWalkerTestCase.patched_logging.<locals>.fake_exception_log"
+  ],
+  "pudb.var_view.FrameVarInfo.get_inspect_info": [
+    "pudb.var_view.InspectInfo",
+    "dict.get"
+  ],
+  "pudb.var_view.BasicValueWalker.add_item": [
+    "test.test_var_view.FrameVarInfoForTesting.get_inspect_info",
+    "pudb.var_view.VariableWidget",
+    "list.append"
+  ],
+  "pudb.var_view.VariableWidget.__init__": [
+    "builtins.isinstance"
+  ],
+  "pudb.var_view.ValueWalker.walk_attributes": [
+    "builtins.sorted",
+    "warnings.catch_warnings",
+    "warnings.simplefilter",
+    "builtins.getattr",
+    "inspect.isroutine",
+    "pudb.var_view.ValueWalker.walk_value"
+  ],
+  "pudb.var_view.ValueWalker.walk_container": [
+    "builtins.isinstance",
+    "pudb.var_view.PudbMapping.entries",
+    "builtins.enumerate",
+    "str.format",
+    "pudb.var_view.ValueWalker.walk_value",
+    "pudb.var_view.BasicValueWalker.add_item",
+    "pudb.var_view.PudbCollection.entries",
+    "pudb.var_view.PudbSequence.entries"
+  ],
+  "pudb.var_view.PudbMapping.entries": [
+    "builtins.isinstance",
+    "dict.keys",
+    "pudb.var_view.PudbMapping._safe_key_repr"
+  ],
+  "pudb.var_view.PudbMapping._safe_key_repr": [
+    "builtins.repr"
+  ],
+  "pudb.var_view.PudbCollection.entries": [
+    "builtins.isinstance",
+    "builtins.enumerate"
+  ],
+  "pudb.var_view.PudbSequence.entries": [
+    "builtins.isinstance",
+    "builtins.enumerate",
+    "builtins.str"
+  ]
+}

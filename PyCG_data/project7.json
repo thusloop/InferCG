@@ -1,0 +1,1930 @@
+{
+  "test.streamparse.cli.test_common": [
+    "logging.getLogger"
+  ],
+  "logging.getLogger": [],
+  "test.streamparse.cli.test_common.MultiStreamWordCountBolt": [
+    "streamparse.dsl.stream.Stream.__init__"
+  ],
+  "streamparse.dsl.stream.Stream.__init__": [
+    "<builtin>.list",
+    "<builtin>.TypeError",
+    "<builtin>.isinstance"
+  ],
+  "test.streamparse.cli.test_common.CliCommonTests.test_resolve_options": [
+    "unittest.TestCase.assertEqual",
+    "streamparse.cli.common.resolve_options"
+  ],
+  "test.streamparse.cli.test_common.CliCommonTests.test_resolve_options.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "streamparse.storm.spout.Spout.spec": [
+    "streamparse.dsl.spout.ShellSpoutSpec.__init__"
+  ],
+  "streamparse.storm.bolt.Bolt.spec": [
+    "streamparse.dsl.bolt.ShellBoltSpec.__init__"
+  ],
+  "streamparse.cli.common.resolve_options": [
+    "<builtin>.len",
+    "streamparse.util.get_storm_workers",
+    "<builtin>.isinstance"
+  ],
+  "unittest.TestCase.assertEqual": [],
+  "streamparse.cli.common": [],
+  "streamparse.cli.common._StoreDictAction.__init__": [
+    "<builtin>.super",
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.ValueError": [],
+  "<builtin>.super": [],
+  "streamparse.cli.common._StoreDictAction.__call__": [
+    "ruamel.yaml.YAML",
+    "ruamel.yaml.safe_load",
+    "ruamel.yaml.YAML.load",
+    "copy.copy",
+    "<builtin>.getattr",
+    "<builtin>.setattr"
+  ],
+  "<builtin>.getattr": [],
+  "<builtin>.setattr": [],
+  "copy.copy": [],
+  "ruamel.yaml.safe_load": [],
+  "ruamel.yaml.YAML": [],
+  "ruamel.yaml.YAML.load": [],
+  "streamparse.cli.common.option_alias": [],
+  "streamparse.cli.common.option_alias._create_key_val_str": [],
+  "streamparse.cli.common.add_ackers": [
+    "streamparse.cli.common.option_alias",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "argparse.ArgumentParser.add_subparsers.add_parser.add_argument": [],
+  "streamparse.cli.common.add_config": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "argparse.FileType"
+  ],
+  "argparse.FileType": [],
+  "streamparse.cli.common.add_debug": [
+    "streamparse.cli.common.option_alias",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_environment": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_name": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_options": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_override_name": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_overwrite_virtualenv": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_pattern": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_pool_size": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_requirements": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_simple_jar": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_timeout": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_user": [
+    "streamparse.cli.common.option_alias",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_wait": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "streamparse.cli.common.add_workers": [
+    "streamparse.cli.common.option_alias",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument"
+  ],
+  "<builtin>.isinstance": [],
+  "streamparse.util.get_storm_workers": [
+    "streamparse.util.ssh_tunnel",
+    "streamparse.util.get_nimbus_client",
+    "streamparse.util.get_nimbus_host_port",
+    "thriftpy2.rpc.make_client.getClusterInfo"
+  ],
+  "<builtin>.len": [],
+  "streamparse.cli.common.warn_about_deprecated_user": [
+    "warnings.warn"
+  ],
+  "warnings.warn": [],
+  "streamparse.util": [
+    "collections.defaultdict",
+    "contextlib.contextmanager"
+  ],
+  "streamparse.util._port_in_use": [
+    "socketserver.UDPServer",
+    "<builtin>.ValueError",
+    "socketserver.TCPServer"
+  ],
+  "socketserver.UDPServer": [],
+  "socketserver.TCPServer": [],
+  "collections.defaultdict": [],
+  "contextlib.contextmanager": [],
+  "streamparse.util.ssh_tunnel": [
+    "<builtin>.OSError",
+    "subprocess.Popen.kill",
+    "streamparse.util.is_ssh_for_nimbus",
+    "streamparse.util._port_in_use",
+    "time.sleep",
+    "subprocess.Popen",
+    "streamparse.util.get_nimbus_host_port",
+    "<builtin>.str",
+    "subprocess.Popen.poll",
+    "<builtin>.print"
+  ],
+  "streamparse.util.get_nimbus_host_port": [
+    "<builtin>.int",
+    "os.environ.get",
+    "os.environ.get.split",
+    "streamparse.util.die"
+  ],
+  "streamparse.util.is_ssh_for_nimbus": [],
+  "<builtin>.str": [],
+  "subprocess.Popen": [],
+  "subprocess.Popen.poll": [],
+  "<builtin>.OSError": [],
+  "time.sleep": [],
+  "<builtin>.print": [],
+  "subprocess.Popen.kill": [],
+  "streamparse.util.activate_env": [
+    "simplejson.loads.get",
+    "streamparse.util.get_nimbus_config",
+    "streamparse.util.get_storm_workers",
+    "streamparse.util.get_env_config"
+  ],
+  "streamparse.util.get_env_config": [
+    "<builtin>.len",
+    "<builtin>.list",
+    "streamparse.util.die",
+    "streamparse.util.get_config"
+  ],
+  "streamparse.util.get_nimbus_config": [
+    "thriftpy2.rpc.make_client.getNimbusConf",
+    "simplejson.loads",
+    "streamparse.util.get_nimbus_client",
+    "streamparse.util.get_nimbus_host_port",
+    "streamparse.util.ssh_tunnel"
+  ],
+  "simplejson.loads.get": [],
+  "streamparse.util.die": [
+    "fabric.colors.red",
+    "<builtin>.print",
+    "sys.exit"
+  ],
+  "fabric.colors.red": [],
+  "sys.exit": [],
+  "streamparse.util.warn": [
+    "<builtin>.print",
+    "fabric.colors.yellow"
+  ],
+  "fabric.colors.yellow": [],
+  "streamparse.util.get_config": [
+    "<builtin>.open",
+    "simplejson.load",
+    "os.path.exists",
+    "streamparse.util.die"
+  ],
+  "os.path.exists": [],
+  "<builtin>.open": [],
+  "simplejson.load": [],
+  "streamparse.util.get_topology_definition": [
+    "os.path.join",
+    "streamparse.util.get_config",
+    "<builtin>.len",
+    "streamparse.util.die",
+    "re.sub",
+    "glob.glob",
+    "os.path.exists"
+  ],
+  "glob.glob": [],
+  "re.sub": [],
+  "os.path.join": [],
+  "<builtin>.list": [],
+  "os.environ.get": [],
+  "os.environ.get.split": [],
+  "<builtin>.int": [],
+  "streamparse.util.get_nimbus_client": [
+    "thriftpy2.protocol.TBinaryProtocolFactory",
+    "thriftpy2.transport.TFramedTransportFactory",
+    "streamparse.util.get_nimbus_host_port",
+    "thriftpy2.rpc.make_client"
+  ],
+  "thriftpy2.protocol.TBinaryProtocolFactory": [],
+  "thriftpy2.transport.TFramedTransportFactory": [],
+  "thriftpy2.rpc.make_client": [],
+  "thriftpy2.rpc.make_client.getClusterInfo": [],
+  "thriftpy2.rpc.make_client.getNimbusConf": [],
+  "simplejson.loads": [],
+  "streamparse.util.local_storm_version": [
+    "<builtin>.RuntimeError",
+    "fabric.api.local",
+    "pkg_resources.parse_version",
+    "fabric.api.settings",
+    "re.findall",
+    "fabric.api.hide"
+  ],
+  "fabric.api.hide": [],
+  "fabric.api.settings": [],
+  "fabric.api.local": [],
+  "<builtin>.RuntimeError": [],
+  "re.findall": [],
+  "pkg_resources.parse_version": [],
+  "streamparse.util.nimbus_storm_version": [
+    "pkg_resources.parse_version",
+    "thriftpy2.rpc.make_client.getClusterInfo"
+  ],
+  "streamparse.util.storm_lib_version": [
+    "<builtin>.set",
+    "<builtin>.RuntimeError",
+    "fabric.api.local",
+    "pkg_resources.parse_version",
+    "fabric.api.settings",
+    "<builtin>.len",
+    "re.findall",
+    "fabric.api.hide"
+  ],
+  "<builtin>.set": [],
+  "streamparse.util.get_ui_jsons": [
+    "<builtin>.list",
+    "requests.get.json",
+    "<builtin>.RuntimeError",
+    "streamparse.util.get_env_config",
+    "requests.get",
+    "<builtin>.range",
+    "streamparse.util.get_nimbus_host_port",
+    "random.shuffle",
+    "<builtin>.str",
+    "streamparse.util.ssh_tunnel"
+  ],
+  "<builtin>.range": [],
+  "random.shuffle": [],
+  "requests.get": [],
+  "requests.get.json": [],
+  "streamparse.util.get_ui_json": [
+    "streamparse.util.get_ui_jsons"
+  ],
+  "streamparse.util.prepare_topology": [
+    "os.path.isdir",
+    "shutil.copytree",
+    "shutil.rmtree",
+    "os.path.join",
+    "<builtin>.FileNotFoundError",
+    "os.path.exists"
+  ],
+  "os.path.isdir": [],
+  "shutil.rmtree": [],
+  "shutil.copytree": [],
+  "<builtin>.FileNotFoundError": [],
+  "streamparse.util._get_file_names_command": [
+    "<builtin>.ValueError"
+  ],
+  "streamparse.util.get_logfiles_cmd": [
+    "streamparse.util._get_file_names_command",
+    "<builtin>.ValueError"
+  ],
+  "streamparse.util.print_stats_table": [
+    "streamparse.util.print_stats_table.<list1>.get",
+    "streamparse.cli.list.list_topologies.identical_vals.get",
+    "texttable.Texttable",
+    "streamparse.util.get_ui_json.<RETURN>.get",
+    "streamparse.cli.slot_usage.display_slot_usage.rows.get",
+    "thriftpy2.rpc.make_client.getClusterInfo.topologies.get",
+    "streamparse.util.get_ui_jsons.<dict1>.get",
+    "streamparse.cli.stats._print_cluster_status.ui_cluster_summary.get",
+    "<builtin>.isinstance",
+    "streamparse.cli.stats._print_spout_stats.data.get",
+    "<builtin>.len",
+    "texttable.Texttable.draw",
+    "<builtin>.vars",
+    "texttable.Texttable.set_cols_align",
+    "texttable.Texttable.header",
+    "texttable.Texttable.add_row",
+    "<builtin>.print",
+    "streamparse.cli.worker_uptime.display_worker_uptime.<list1>.get"
+  ],
+  "texttable.Texttable": [],
+  "texttable.Texttable.header": [],
+  "texttable.Texttable.set_cols_align": [],
+  "<builtin>.vars": [],
+  "streamparse.util.get_ui_jsons.<dict1>.get": [],
+  "streamparse.cli.worker_uptime.display_worker_uptime.<list1>.get": [],
+  "streamparse.util.print_stats_table.<list1>.get": [],
+  "thriftpy2.rpc.make_client.getClusterInfo.topologies.get": [],
+  "streamparse.cli.stats._print_cluster_status.ui_cluster_summary.get": [],
+  "streamparse.cli.slot_usage.display_slot_usage.rows.get": [],
+  "streamparse.cli.stats._print_spout_stats.data.get": [],
+  "streamparse.cli.list.list_topologies.identical_vals.get": [],
+  "streamparse.util.get_ui_json.<RETURN>.get": [],
+  "texttable.Texttable.add_row": [],
+  "texttable.Texttable.draw": [],
+  "streamparse.util.get_topology_from_file": [
+    "os.path.join",
+    "<builtin>.isinstance",
+    "importlib.import_module.__dict__.values",
+    "sys.path.append",
+    "os.path.split",
+    "importlib.import_module"
+  ],
+  "os.path.split": [],
+  "sys.path.append": [],
+  "importlib.import_module": [],
+  "importlib.import_module.__dict__.values": [],
+  "streamparse.util.set_topology_serializer": [
+    "simplejson.load.get",
+    "importlib.import_module.__dict__.values.thrift_spouts.values",
+    "importlib.import_module.__dict__.values.thrift_bolts.values"
+  ],
+  "simplejson.load.get": [],
+  "importlib.import_module.__dict__.values.thrift_bolts.values": [],
+  "importlib.import_module.__dict__.values.thrift_spouts.values": [],
+  "streamparse.util.run_cmd": [
+    "fabric.api.run",
+    "<builtin>.RuntimeError",
+    "fabric.api.show",
+    "fabric.api.settings",
+    "fabric.api.sudo"
+  ],
+  "fabric.api.show": [],
+  "fabric.api.run": [],
+  "fabric.api.sudo": [],
+  "streamparse.dsl.topology": [],
+  "streamparse.dsl.topology.TopologyType.__new__": [
+    "<builtin>.list",
+    "<builtin>.TypeError",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance",
+    "streamparse.dsl.topology.TopologyType.class_dict_to_specs",
+    "streamparse.dsl.topology.TopologyType.add_bolt_spec",
+    "streamparse.dsl.topology.TopologyType.add_spout_spec",
+    "streamparse.dsl.topology.TopologyType.clean_spec_inputs"
+  ],
+  "streamparse.dsl.topology.TopologyType.class_dict_to_specs": [
+    "<builtin>.TypeError",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.topology.TopologyType.add_bolt_spec": [
+    "<builtin>.ValueError"
+  ],
+  "streamparse.dsl.topology.TopologyType.add_spout_spec": [
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.TypeError": [],
+  "streamparse.dsl.topology.TopologyType.clean_spec_inputs": [
+    "<builtin>.list",
+    "<builtin>.TypeError",
+    "<builtin>.set",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.topology.TopologyType.__repr__": [
+    "<builtin>.getattr",
+    "<builtin>.repr"
+  ],
+  "<builtin>.repr": [],
+  "streamparse.dsl.topology.Topology.write": [
+    "streamparse.dsl.topology.Topology.write.write_it",
+    "<builtin>.isinstance",
+    "<builtin>.open"
+  ],
+  "streamparse.dsl.topology.Topology.write.write_it": [
+    "thriftpy2.protocol.TBinaryProtocol",
+    "thriftpy2.transport.TMemoryBuffer",
+    "thriftpy2.transport.TMemoryBuffer.getvalue"
+  ],
+  "thriftpy2.transport.TMemoryBuffer": [],
+  "thriftpy2.protocol.TBinaryProtocol": [],
+  "thriftpy2.transport.TMemoryBuffer.getvalue": [],
+  "streamparse.dsl.topology.Topology.read": [
+    "streamparse.dsl.topology.Topology.read.read_it",
+    "<builtin>.isinstance",
+    "<builtin>.open"
+  ],
+  "streamparse.dsl.topology.Topology.read.read_it": [
+    "thriftpy2.protocol.TBinaryProtocol",
+    "thriftpy2.transport.TMemoryBuffer"
+  ],
+  "streamparse.dsl.topology.Topology._spec_to_flux_dict": [
+    "<builtin>.TypeError",
+    "simplejson.loads",
+    "streamparse.dsl.util.to_python_arg_list",
+    "<builtin>.isinstance",
+    "simplejson.loads.items"
+  ],
+  "simplejson.loads.items": [],
+  "streamparse.dsl.util.to_python_arg_list": [
+    "streamparse.dsl.util.to_python_arg"
+  ],
+  "streamparse.dsl.topology.Topology._stream_to_flux_dict": [
+    "streamparse.dsl.util.to_python_arg_list"
+  ],
+  "streamparse.dsl.topology.Topology.to_flux_dict": [
+    "<builtin>.TypeError",
+    "streamparse.dsl.topology.Topology._stream_to_flux_dict",
+    "streamparse.dsl.topology.Topology._spec_to_flux_dict",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.spout": [],
+  "streamparse.dsl.spout.ShellSpoutSpec.__init__": [
+    "<builtin>.super"
+  ],
+  "streamparse.dsl.spout.JavaSpoutSpec.__init__": [
+    "<builtin>.super"
+  ],
+  "streamparse.thrift": [
+    "thriftpy2.load_fp",
+    "io.StringIO"
+  ],
+  "io.StringIO": [],
+  "thriftpy2.load_fp": [],
+  "streamparse.thrift.<lambda1>": [
+    "<builtin>.hash"
+  ],
+  "<builtin>.hash": [],
+  "streamparse.dsl.bolt": [],
+  "streamparse.dsl.bolt.ShellBoltSpec.__init__": [
+    "<builtin>.super"
+  ],
+  "streamparse.dsl.bolt.JavaBoltSpec.__init__": [
+    "<builtin>.super"
+  ],
+  "streamparse.dsl.component": [],
+  "streamparse.dsl.component.ComponentSpec.__init__": [
+    "streamparse.dsl.component.ComponentSpec._sanitize_par",
+    "streamparse.dsl.component.ComponentSpec._sanitize_inputs",
+    "streamparse.dsl.component.ComponentSpec._sanitize_config",
+    "streamparse.dsl.component.ComponentSpec._sanitize_outputs"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_par": [
+    "<builtin>.TypeError",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_config": [
+    "<builtin>.TypeError",
+    "simplejson.dumps",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_outputs": [
+    "<builtin>.TypeError",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.component.ComponentSpec._sanitize_inputs": [
+    "<builtin>.list",
+    "<builtin>.TypeError",
+    "<builtin>.isinstance"
+  ],
+  "simplejson.dumps": [],
+  "streamparse.dsl.component.ComponentSpec.__getitem__": [
+    "<builtin>.list",
+    "<builtin>.KeyError"
+  ],
+  "<builtin>.KeyError": [],
+  "streamparse.dsl.component.ComponentSpec.__repr__": [
+    "copy.deepcopy.pop",
+    "copy.deepcopy",
+    "copy.deepcopy.items"
+  ],
+  "copy.deepcopy": [],
+  "copy.deepcopy.pop": [],
+  "copy.deepcopy.items": [],
+  "streamparse.dsl.component.JavaComponentSpec.__init__": [
+    "streamparse.dsl.util.to_java_arg",
+    "<builtin>.TypeError",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance",
+    "<builtin>.enumerate",
+    "<builtin>.super"
+  ],
+  "<builtin>.enumerate": [],
+  "streamparse.dsl.util.to_java_arg": [
+    "<builtin>.TypeError",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.component.ShellComponentSpec.__init__": [
+    "<builtin>.TypeError",
+    "<builtin>.super",
+    "<builtin>.ValueError"
+  ],
+  "streamparse.dsl.stream": [],
+  "streamparse.dsl.stream._Grouping.__repr__": [
+    "<builtin>.vars",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.stream.Grouping": [
+    "thriftpy2.load_fp.Grouping.__init__"
+  ],
+  "thriftpy2.load_fp.Grouping.__init__": [],
+  "streamparse.dsl.stream.Grouping.fields": [
+    "<builtin>.list",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "thriftpy2.load_fp.Grouping.__init__"
+  ],
+  "streamparse.dsl.stream.Grouping.custom_object": [
+    "thriftpy2.load_fp.Grouping.__init__",
+    "streamparse.dsl.util.to_java_arg"
+  ],
+  "streamparse.dsl.stream.Grouping.custom_serialized": [
+    "thriftpy2.load_fp.Grouping.__init__",
+    "<builtin>.TypeError",
+    "<builtin>.isinstance"
+  ],
+  "streamparse.dsl.util": [],
+  "streamparse.dsl.util.to_python_arg": [],
+  "streamparse.dsl": [],
+  "streamparse.storm": [],
+  "streamparse.storm.spout": [],
+  "streamparse.storm.spout.JavaSpout.spec": [
+    "streamparse.dsl.spout.JavaSpoutSpec.__init__"
+  ],
+  "streamparse.storm.spout.ShellSpout.spec": [
+    "streamparse.dsl.spout.ShellSpoutSpec.__init__"
+  ],
+  "streamparse": [
+    "logging.NullHandler",
+    "logging.getLogger",
+    "logging.getLogger.addHandler"
+  ],
+  "logging.NullHandler": [],
+  "logging.getLogger.addHandler": [],
+  "streamparse.component": [],
+  "streamparse.version": [
+    "streamparse.version._safe_int",
+    "<builtin>.tuple"
+  ],
+  "streamparse.version._safe_int": [
+    "<builtin>.int"
+  ],
+  "<builtin>.tuple": [],
+  "streamparse.bolt": [],
+  "streamparse.storm.bolt": [],
+  "streamparse.storm.bolt.JavaBolt.spec": [
+    "streamparse.dsl.bolt.JavaBoltSpec.__init__"
+  ],
+  "streamparse.storm.bolt.ShellBolt.spec": [
+    "streamparse.dsl.bolt.ShellBoltSpec.__init__"
+  ],
+  "streamparse.storm.component": [],
+  "streamparse.storm.component.Component.spec": [
+    "<builtin>.TypeError"
+  ],
+  "streamparse.spout": [],
+  "streamparse.cli": [],
+  "test.streamparse.cli.test_tail": [],
+  "test.streamparse.cli.test_tail.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "streamparse.cli.tail.subparser_hook",
+    "argparse.ArgumentParser.add_subparsers"
+  ],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_subparsers": [],
+  "streamparse.cli.tail.subparser_hook": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_pattern",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_config"
+  ],
+  "streamparse.cli.tail": [
+    "fabric.api.parallel"
+  ],
+  "fabric.api.parallel": [],
+  "streamparse.cli.tail._tail_logs": [
+    "fabric.api.run",
+    "streamparse.util.get_logfiles_cmd"
+  ],
+  "streamparse.cli.tail.tail_topology": [
+    "streamparse.util.activate_env",
+    "streamparse.util.get_nimbus_client",
+    "streamparse.util.get_env_config",
+    "pkg_resources.parse_version",
+    "fabric.api.execute",
+    "streamparse.util.get_topology_definition",
+    "streamparse.util.nimbus_storm_version",
+    "streamparse.util.ssh_tunnel"
+  ],
+  "fabric.api.execute": [],
+  "argparse.ArgumentParser.add_subparsers.add_parser": [],
+  "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults": [],
+  "streamparse.cli.tail.main": [
+    "streamparse.cli.tail.tail_topology"
+  ],
+  "test.streamparse.cli.test_submit": [],
+  "test.streamparse.cli.test_submit.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.submit.subparser_hook"
+  ],
+  "streamparse.cli.submit.subparser_hook": [
+    "streamparse.cli.common.add_requirements",
+    "streamparse.cli.common.add_wait",
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_workers",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "streamparse.cli.common.add_debug",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_ackers",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_timeout",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_options",
+    "streamparse.cli.common.add_overwrite_virtualenv",
+    "streamparse.cli.common.add_user"
+  ],
+  "streamparse.cli.submit": [],
+  "streamparse.cli.submit.get_user_tasks": [
+    "os.getcwd",
+    "importlib.import_module",
+    "sys.path.insert"
+  ],
+  "os.getcwd": [],
+  "sys.path.insert": [],
+  "streamparse.cli.submit.is_safe_to_submit": [
+    "streamparse.cli.list._list_topologies",
+    "<builtin>.any"
+  ],
+  "streamparse.cli.list._list_topologies": [
+    "thriftpy2.rpc.make_client.getClusterInfo"
+  ],
+  "<builtin>.any": [],
+  "streamparse.cli.submit._kill_existing_topology": [
+    "time.sleep",
+    "streamparse.cli.submit.is_safe_to_submit",
+    "sys.stdout.flush",
+    "streamparse.cli.kill._kill_topology",
+    "<builtin>.print"
+  ],
+  "sys.stdout.flush": [],
+  "streamparse.cli.kill._kill_topology": [
+    "thriftpy2.rpc.make_client.killTopologyWithOpts"
+  ],
+  "streamparse.cli.submit._submit_topology": [
+    "streamparse.util.set_topology_serializer",
+    "thriftpy2.rpc.make_client.submitTopologyWithOpts",
+    "thriftpy2.rpc.make_client.isTopologyNameAllowed",
+    "<builtin>.ValueError",
+    "pkg_resources.parse_version",
+    "sys.stdout.flush",
+    "simplejson.dumps",
+    "streamparse.util.nimbus_storm_version",
+    "<builtin>.print"
+  ],
+  "thriftpy2.rpc.make_client.isTopologyNameAllowed": [],
+  "thriftpy2.rpc.make_client.submitTopologyWithOpts": [],
+  "streamparse.cli.submit._pre_submit_hooks": [
+    "<builtin>.getattr",
+    "<builtin>.callable",
+    "streamparse.cli.submit.get_user_tasks"
+  ],
+  "<builtin>.callable": [],
+  "streamparse.cli.submit._post_submit_hooks": [
+    "<builtin>.getattr",
+    "<builtin>.callable",
+    "streamparse.cli.submit.get_user_tasks"
+  ],
+  "streamparse.cli.submit._upload_jar": [
+    "<builtin>.open",
+    "thriftpy2.rpc.make_client.beginFileUpload",
+    "thriftpy2.rpc.make_client.uploadChunk",
+    "os.path.getsize",
+    "<builtin>.len",
+    "sys.stdout.flush",
+    "thriftpy2.rpc.make_client.finishFileUpload",
+    "<builtin>.print"
+  ],
+  "thriftpy2.rpc.make_client.beginFileUpload": [],
+  "os.path.getsize": [],
+  "thriftpy2.rpc.make_client.uploadChunk": [],
+  "thriftpy2.rpc.make_client.finishFileUpload": [],
+  "streamparse.cli.submit.submit_topology": [
+    "streamparse.util.get_nimbus_client",
+    "streamparse.util.get_topology_definition",
+    "streamparse.cli.update_virtualenv.create_or_update_virtualenvs",
+    "streamparse.cli.submit._upload_jar",
+    "streamparse.util.get_config",
+    "itertools.chain.common.parallelism_hint.get",
+    "<builtin>.isinstance",
+    "itertools.chain",
+    "streamparse.util.ssh_tunnel",
+    "<builtin>.print",
+    "importlib.import_module.__dict__.values.thrift_bolts.values",
+    "streamparse.util.get_env_config",
+    "streamparse.cli.common.warn_about_deprecated_user",
+    "streamparse.cli.jar.jar_for_deploy",
+    "sys.stdout.flush",
+    "streamparse.cli.submit._kill_existing_topology",
+    "streamparse.util.activate_env",
+    "streamparse.util.warn",
+    "importlib.import_module.__dict__.values.thrift_spouts.values",
+    "streamparse.cli.submit._post_submit_hooks",
+    "streamparse.cli.submit._pre_submit_hooks",
+    "streamparse.cli.common.resolve_options",
+    "<builtin>.any",
+    "streamparse.util.get_topology_from_file",
+    "streamparse.cli.submit._submit_topology"
+  ],
+  "streamparse.cli.update_virtualenv.create_or_update_virtualenvs": [
+    "os.path.join",
+    "streamparse.util.get_config",
+    "<builtin>.open",
+    "streamparse.util.activate_env",
+    "streamparse.util.get_env_config",
+    "fabric.api.execute",
+    "streamparse.cli.common.warn_about_deprecated_user",
+    "streamparse.cli.common.resolve_options",
+    "streamparse.util.get_topology_definition",
+    "streamparse.util.die",
+    "streamparse.util.get_topology_from_file"
+  ],
+  "itertools.chain": [],
+  "itertools.chain.common.parallelism_hint.get": [],
+  "streamparse.cli.jar.jar_for_deploy": [
+    "fabric.api.local.stdout.splitlines.endswith",
+    "fabric.api.local",
+    "fabric.api.hide",
+    "fabric.api.local.stdout.splitlines",
+    "fabric.api.local.stdout.splitlines.replace.strip.startswith",
+    "fabric.api.local.stdout.splitlines.strip.replace.startswith",
+    "fabric.api.local.stdout.splitlines.replace",
+    "fabric.api.local.stdout.splitlines.replace.strip.endswith",
+    "<builtin>.print",
+    "fabric.api.local.stdout.splitlines.strip.startswith",
+    "fabric.api.local.stdout.splitlines.strip.replace.endswith",
+    "os.path.join",
+    "streamparse.util.prepare_topology",
+    "fabric.api.local.stdout.splitlines.strip",
+    "fabric.api.local.stdout.splitlines.replace.endswith",
+    "sys.stdout.flush",
+    "fabric.api.local.stdout.splitlines.startswith",
+    "fabric.api.local.stdout.splitlines.strip.endswith",
+    "os.path.isdir",
+    "shutil.rmtree",
+    "fabric.api.local.stdout.splitlines.replace.strip",
+    "<builtin>.RuntimeError",
+    "fabric.api.settings",
+    "fabric.api.local.stdout.splitlines.replace.startswith",
+    "fabric.api.local.stdout.splitlines.strip.replace"
+  ],
+  "streamparse.cli.submit.main": [
+    "streamparse.cli.submit.submit_topology"
+  ],
+  "streamparse.cli.jar": [],
+  "fabric.api.local.stdout.splitlines": [],
+  "fabric.api.local.stdout.splitlines.replace.strip": [],
+  "fabric.api.local.stdout.splitlines.strip": [],
+  "fabric.api.local.stdout.splitlines.strip.replace.startswith": [],
+  "fabric.api.local.stdout.splitlines.startswith": [],
+  "fabric.api.local.stdout.splitlines.replace.startswith": [],
+  "fabric.api.local.stdout.splitlines.replace.strip.startswith": [],
+  "fabric.api.local.stdout.splitlines.strip.startswith": [],
+  "fabric.api.local.stdout.splitlines.replace": [],
+  "fabric.api.local.stdout.splitlines.strip.replace": [],
+  "fabric.api.local.stdout.splitlines.endswith": [],
+  "fabric.api.local.stdout.splitlines.strip.replace.endswith": [],
+  "fabric.api.local.stdout.splitlines.replace.endswith": [],
+  "fabric.api.local.stdout.splitlines.replace.strip.endswith": [],
+  "fabric.api.local.stdout.splitlines.strip.endswith": [],
+  "streamparse.cli.jar.subparser_hook": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_simple_jar",
+    "argparse.ArgumentParser.add_subparsers.add_parser"
+  ],
+  "streamparse.cli.jar.main": [
+    "streamparse.cli.jar.jar_for_deploy"
+  ],
+  "streamparse.cli.list": [],
+  "streamparse.cli.list.list_topologies": [
+    "<builtin>.dict",
+    "streamparse.util.get_nimbus_client",
+    "streamparse.util.get_env_config",
+    "<builtin>.len",
+    "<builtin>.vars",
+    "streamparse.util.print_stats_table",
+    "<builtin>.getattr",
+    "streamparse.util.ssh_tunnel",
+    "<builtin>.print",
+    "streamparse.cli.list._list_topologies"
+  ],
+  "<builtin>.dict": [],
+  "streamparse.cli.list.subparser_hook": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_environment",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "streamparse.cli.common.add_timeout",
+    "streamparse.cli.common.add_config"
+  ],
+  "streamparse.cli.list.main": [
+    "streamparse.cli.list.list_topologies"
+  ],
+  "streamparse.cli.kill": [],
+  "thriftpy2.rpc.make_client.killTopologyWithOpts": [],
+  "streamparse.cli.kill.kill_topology": [
+    "streamparse.util.get_nimbus_client",
+    "streamparse.util.get_env_config",
+    "streamparse.cli.kill._kill_topology",
+    "streamparse.util.get_topology_definition",
+    "streamparse.util.ssh_tunnel"
+  ],
+  "streamparse.cli.kill.subparser_hook": [
+    "streamparse.cli.common.add_wait",
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_environment",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_timeout",
+    "streamparse.cli.common.add_config"
+  ],
+  "streamparse.cli.kill.main": [
+    "streamparse.cli.kill.kill_topology"
+  ],
+  "streamparse.cli.update_virtualenv": [
+    "fabric.api.parallel"
+  ],
+  "streamparse.cli.update_virtualenv._create_or_update_virtualenv": [
+    "fabric.api.run",
+    "<builtin>.isinstance",
+    "fabric.contrib.files.exists",
+    "fabric.api.show",
+    "fabric.api.put",
+    "fabric.api.puts",
+    "streamparse.util.run_cmd"
+  ],
+  "fabric.api.puts": [],
+  "fabric.contrib.files.exists": [],
+  "fabric.api.put": [],
+  "streamparse.cli.update_virtualenv.subparser_hook": [
+    "streamparse.cli.common.add_requirements",
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_environment",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_options",
+    "streamparse.cli.common.add_overwrite_virtualenv",
+    "streamparse.cli.common.add_user"
+  ],
+  "streamparse.cli.update_virtualenv.main": [
+    "streamparse.cli.update_virtualenv.create_or_update_virtualenvs"
+  ],
+  "test.streamparse.cli.test_worker_uptime": [],
+  "test.streamparse.cli.test_worker_uptime.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.worker_uptime.subparser_hook"
+  ],
+  "streamparse.cli.worker_uptime.subparser_hook": [
+    "streamparse.cli.common.add_environment",
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "streamparse.cli.common.add_config"
+  ],
+  "streamparse.cli.worker_uptime": [],
+  "streamparse.cli.worker_uptime.display_worker_uptime": [
+    "<builtin>.sorted",
+    "<builtin>.set",
+    "streamparse.util.get_ui_json",
+    "streamparse.util.get_ui_jsons",
+    "streamparse.util.print_stats_table",
+    "<builtin>.dict"
+  ],
+  "<builtin>.sorted": [],
+  "streamparse.cli.worker_uptime.main": [
+    "<builtin>.print",
+    "streamparse.cli.worker_uptime.display_worker_uptime",
+    "streamparse.util.storm_lib_version",
+    "pkg_resources.parse_version"
+  ],
+  "test.streamparse.cli": [],
+  "test.streamparse.cli.test_list": [],
+  "test.streamparse.cli.test_list.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "streamparse.cli.list.subparser_hook",
+    "argparse.ArgumentParser.add_subparsers"
+  ],
+  "test.streamparse.cli.test_sparse": [],
+  "test.streamparse.cli.test_sparse.test_load_subparsers": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.sparse.load_subparsers"
+  ],
+  "streamparse.cli.sparse.load_subparsers": [
+    "<builtin>.hasattr",
+    "importlib.import_module.subparser_hook",
+    "importlib.import_module",
+    "pkgutil.iter_modules"
+  ],
+  "streamparse.cli.sparse": [
+    "streamparse.cli.sparse.main"
+  ],
+  "pkgutil.iter_modules": [],
+  "<builtin>.hasattr": [],
+  "importlib.import_module.subparser_hook": [],
+  "streamparse.cli.sparse.main": [
+    "os.getenv",
+    "<builtin>.sorted",
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "<builtin>.hasattr",
+    "argparse.ArgumentParser.parse_args",
+    "argparse.ArgumentParser.add_argument",
+    "argparse.ArgumentParser.add_subparsers",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "streamparse.util.die",
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "argparse.ArgumentParser.parse_args.func",
+    "argparse.ArgumentParser.add_subparsers.choices.keys",
+    "sys.exit",
+    "streamparse.cli.sparse.load_subparsers",
+    "os.getuid",
+    "argparse.ArgumentParser.print_help"
+  ],
+  "argparse.ArgumentParser.add_argument": [],
+  "streamparse.cli.sparse.main._help_command": [
+    "sys.exit"
+  ],
+  "argparse.ArgumentParser.add_subparsers.choices.keys": [],
+  "argparse.ArgumentParser.parse_args": [],
+  "os.getuid": [],
+  "os.getenv": [],
+  "argparse.ArgumentParser.parse_args.func": [],
+  "argparse.ArgumentParser.print_help": [],
+  "test.streamparse.cli.test_run": [
+    "unittest.mock.patch"
+  ],
+  "test.streamparse.cli.test_run.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "streamparse.cli.run.subparser_hook",
+    "argparse.ArgumentParser.add_subparsers"
+  ],
+  "streamparse.cli.run.subparser_hook": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_environment",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "streamparse.cli.common.add_debug",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_ackers",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_options",
+    "streamparse.cli.common.add_workers"
+  ],
+  "unittest.mock.patch": [],
+  "test.streamparse.cli.test_run.test_main_args_passed": [
+    "streamparse.cli.run.main",
+    "streamparse.cli.run.subparser_hook",
+    "argparse.ArgumentParser.parse_args",
+    "argparse.ArgumentParser.add_subparsers",
+    "argparse.ArgumentParser"
+  ],
+  "streamparse.cli.run.main": [
+    "streamparse.cli.run.run_local_topology"
+  ],
+  "streamparse.cli.run": [],
+  "streamparse.cli.run.run_local_topology": [
+    "streamparse.util.storm_lib_version",
+    "importlib.import_module.__dict__.values.to_flux_dict",
+    "<builtin>.ValueError",
+    "ruamel.yaml.YAML.dump",
+    "fabric.api.local",
+    "streamparse.util.get_topology_definition",
+    "streamparse.util.get_config",
+    "<builtin>.isinstance",
+    "importlib.import_module.__dict__.values.specs.par.get",
+    "streamparse.util.local_storm_version",
+    "streamparse.util.get_env_config",
+    "fabric.api.show",
+    "streamparse.cli.jar.jar_for_deploy",
+    "tempfile.NamedTemporaryFile",
+    "ruamel.yaml.YAML",
+    "streamparse.util.set_topology_serializer",
+    "ruamel.yaml.safe_dump",
+    "streamparse.cli.common.resolve_options",
+    "streamparse.util.get_topology_from_file"
+  ],
+  "importlib.import_module.__dict__.values.specs.par.get": [],
+  "tempfile.NamedTemporaryFile": [],
+  "importlib.import_module.__dict__.values.to_flux_dict": [],
+  "ruamel.yaml.safe_dump": [],
+  "ruamel.yaml.YAML.dump": [],
+  "test.streamparse.cli.test_remove_logs": [],
+  "test.streamparse.cli.test_remove_logs.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.remove_logs.subparser_hook"
+  ],
+  "streamparse.cli.remove_logs.subparser_hook": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_pool_size",
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_pattern",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_override_name",
+    "streamparse.cli.common.add_config",
+    "streamparse.cli.common.add_user"
+  ],
+  "streamparse.cli.remove_logs": [
+    "fabric.api.parallel"
+  ],
+  "streamparse.cli.remove_logs._remove_logs": [
+    "streamparse.util.get_logfiles_cmd",
+    "streamparse.util.run_cmd"
+  ],
+  "streamparse.cli.remove_logs.remove_logs": [
+    "streamparse.util.activate_env",
+    "streamparse.util.get_env_config",
+    "fabric.api.execute",
+    "streamparse.cli.common.warn_about_deprecated_user",
+    "streamparse.cli.common.resolve_options",
+    "streamparse.util.get_topology_definition",
+    "streamparse.util.get_topology_from_file"
+  ],
+  "streamparse.cli.remove_logs.main": [
+    "streamparse.cli.remove_logs.remove_logs"
+  ],
+  "test.streamparse.cli.test_jar": [],
+  "test.streamparse.cli.test_jar.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.jar.subparser_hook"
+  ],
+  "test.streamparse.cli.test_kill": [],
+  "test.streamparse.cli.test_kill.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "streamparse.cli.kill.subparser_hook",
+    "argparse.ArgumentParser.add_subparsers"
+  ],
+  "test.streamparse.cli.test_logs": [],
+  "test.streamparse.cli.test_stats": [],
+  "test.streamparse.cli.test_stats.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.stats.subparser_hook"
+  ],
+  "streamparse.cli.stats.subparser_hook": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "streamparse.cli.common.add_environment",
+    "argparse.ArgumentParser.add_subparsers.add_parser",
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "streamparse.cli.common.add_name",
+    "streamparse.cli.common.add_config"
+  ],
+  "streamparse.cli.stats": [],
+  "streamparse.cli.stats.display_stats": [
+    "streamparse.cli.stats._print_component_status",
+    "streamparse.cli.stats._print_topology_status",
+    "streamparse.cli.stats._print_all_components",
+    "streamparse.cli.stats._print_cluster_status"
+  ],
+  "streamparse.cli.stats._print_all_components": [
+    "<builtin>.map",
+    "<builtin>.zip",
+    "streamparse.cli.stats._get_topology_ui_detail",
+    "streamparse.cli.stats._print_component_status",
+    "streamparse.cli.stats._get_component_ui_detail",
+    "itertools.chain"
+  ],
+  "streamparse.cli.stats._print_component_status": [
+    "streamparse.cli.stats._print_spout_output_stats",
+    "streamparse.cli.stats._print_input_stats",
+    "streamparse.cli.stats._print_spout_stats",
+    "streamparse.cli.stats._print_component_summary",
+    "streamparse.cli.stats._get_component_ui_detail",
+    "streamparse.cli.stats._print_spout_executors",
+    "streamparse.cli.stats._print_bolt_stats",
+    "streamparse.cli.stats._print_bolt_output_stats"
+  ],
+  "streamparse.cli.stats._print_topology_status": [
+    "streamparse.cli.stats._get_topology_ui_detail",
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._print_cluster_status": [
+    "streamparse.util.get_ui_jsons",
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._get_topology_ui_detail": [
+    "streamparse.cli.stats._get_topology_id",
+    "streamparse.util.get_ui_json",
+    "streamparse.util.get_env_config"
+  ],
+  "streamparse.cli.stats._get_topology_id": [
+    "streamparse.util.get_ui_json"
+  ],
+  "streamparse.cli.stats._get_component_ui_detail": [
+    "<builtin>.list",
+    "streamparse.util.get_env_config",
+    "<builtin>.isinstance",
+    "streamparse.cli.stats._get_topology_id",
+    "<builtin>.len",
+    "streamparse.util.get_ui_jsons"
+  ],
+  "streamparse.cli.stats._print_all_components.<lambda1>": [],
+  "<builtin>.map": [],
+  "streamparse.cli.stats._print_all_components.<lambda2>": [],
+  "streamparse.cli.stats._print_all_components.<lambda3>": [],
+  "<builtin>.zip": [],
+  "streamparse.cli.stats._print_component_summary": [
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._print_spout_stats": [
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._print_spout_output_stats": [
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._print_spout_executors": [
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._print_bolt_stats": [
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._print_input_stats": [
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats._print_bolt_output_stats": [
+    "streamparse.util.print_stats_table"
+  ],
+  "streamparse.cli.stats.main": [
+    "streamparse.util.storm_lib_version",
+    "pkg_resources.parse_version",
+    "sys.stdout.flush",
+    "streamparse.cli.stats.display_stats",
+    "<builtin>.print"
+  ],
+  "test.streamparse.cli.test_attach": [],
+  "test.streamparse.cli.test_update_virtualenv": [],
+  "test.streamparse.cli.test_update_virtualenv.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.update_virtualenv.subparser_hook"
+  ],
+  "test.streamparse.cli.test_quickstart": [],
+  "test.streamparse.cli.test_quickstart.test_subparser_hook": [
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_subparsers",
+    "streamparse.cli.quickstart.subparser_hook"
+  ],
+  "streamparse.cli.quickstart.subparser_hook": [
+    "argparse.ArgumentParser.add_subparsers.add_parser.add_argument",
+    "argparse.ArgumentParser.add_subparsers.add_parser.set_defaults",
+    "argparse.ArgumentParser.add_subparsers.add_parser"
+  ],
+  "streamparse.cli.quickstart": [],
+  "streamparse.cli.quickstart.main": [
+    "streamparse.bootstrap.quickstart"
+  ],
+  "streamparse.bootstrap.quickstart": [
+    "fabric.colors.red",
+    "streamparse.bootstrap._here",
+    "streamparse.bootstrap._touch",
+    "sys.exit",
+    "streamparse.bootstrap._cp",
+    "streamparse.bootstrap._mkdir",
+    "streamparse.bootstrap._generate",
+    "streamparse.bootstrap._cd",
+    "fabric.colors.blue",
+    "<builtin>.print",
+    "os.path.exists"
+  ],
+  "streamparse.bootstrap": [
+    "streamparse.bootstrap._here",
+    "jinja2.Environment",
+    "jinja2.FileSystemLoader",
+    "contextlib.contextmanager",
+    "os.path.dirname",
+    "os.path.abspath"
+  ],
+  "os.path.dirname": [],
+  "os.path.abspath": [],
+  "streamparse.bootstrap._here": [
+    "pkg_resources.resource_filename",
+    "os.path.join"
+  ],
+  "pkg_resources.resource_filename": [],
+  "jinja2.FileSystemLoader": [],
+  "jinja2.Environment": [],
+  "streamparse.bootstrap._cd": [],
+  "streamparse.bootstrap._mkdir": [
+    "fabric.colors.green",
+    "<builtin>.print",
+    "os.makedirs"
+  ],
+  "fabric.colors.green": [],
+  "os.makedirs": [],
+  "streamparse.bootstrap._cp": [
+    "fabric.colors.green",
+    "<builtin>.print",
+    "shutil.copy"
+  ],
+  "shutil.copy": [],
+  "streamparse.bootstrap._touch": [
+    "fabric.colors.green",
+    "<builtin>.print",
+    "<builtin>.open"
+  ],
+  "streamparse.bootstrap._generate": [
+    "fabric.colors.green",
+    "<builtin>.open",
+    "jinja2.Environment.get_template",
+    "<builtin>.print",
+    "jinja2.Environment.get_template.render"
+  ],
+  "jinja2.Environment.get_template": [],
+  "jinja2.Environment.get_template.render": [],
+  "fabric.colors.blue": [],
+  "test.streamparse": [],
+  "test.streamparse.test_streamparse_run": [],
+  "test.streamparse.test_streamparse_run.StreamparseRunTests.test_streamparse_run_storm_1_0_2": [
+    "streamparse.run.main",
+    "unittest.TestCase.assertEqual",
+    "unittest.TestCase.assertTrue"
+  ],
+  "streamparse.run.main": [
+    "argparse.ArgumentParser.parse_args.target_class.rsplit",
+    "argparse.ArgumentParser.parse_args",
+    "os.path.join",
+    "argparse.ArgumentParser.add_argument",
+    "os.path.isfile",
+    "pystorm.component._SERIALIZERS.keys",
+    "<builtin>.getattr",
+    "argparse.ArgumentParser",
+    "<builtin>.len",
+    "<builtin>.next",
+    "sys.path.append",
+    "os.walk",
+    "os.getcwd",
+    "importlib.import_module"
+  ],
+  "unittest.TestCase.assertTrue": [],
+  "test.streamparse.test_streamparse_run.StreamparseRunTests.test_streamparse_run_storm_1_0_3": [
+    "streamparse.run.main",
+    "unittest.TestCase.assertEqual",
+    "unittest.TestCase.assertTrue"
+  ],
+  "streamparse.run": [
+    "streamparse.run.main"
+  ],
+  "pystorm.component._SERIALIZERS.keys": [],
+  "argparse.ArgumentParser.parse_args.target_class.rsplit": [],
+  "os.walk": [],
+  "<builtin>.next": [],
+  "os.path.isfile": [],
+  "test.streamparse.test_dsl": [
+    "logging.getLogger"
+  ],
+  "test.streamparse.test_dsl.MultiStreamWordCountBolt": [
+    "streamparse.dsl.stream.Stream.__init__"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_basic_spec": [
+    "<builtin>.len",
+    "<builtin>.list",
+    "unittest.TestCase.assertEqual",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_basic_spec.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_spec_with_inputs_as_list": [
+    "<builtin>.len",
+    "<builtin>.list",
+    "unittest.TestCase.assertEqual"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_spec_with_inputs_as_list.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_multi_stream_bolt": [
+    "<builtin>.len",
+    "<builtin>.list",
+    "unittest.TestCase.assertEqual",
+    "<builtin>.set"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_multi_stream_bolt.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_long_chain_spec": [
+    "<builtin>.list",
+    "<builtin>.len",
+    "<builtin>.range",
+    "<builtin>.getattr",
+    "unittest.TestCase.assertEqual"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_long_chain_spec.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_many_spouts_spec": [],
+  "test.streamparse.test_dsl.TopologyTests.test_many_spouts_spec.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_group_field": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "unittest.TestCase.assertRaises": [],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_group_field.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_empty_bolt_group_field": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_empty_bolt_group_field.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_duplicate_name": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_duplicate_name.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_no_input_bolt": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_no_input_bolt.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_no_outputs_spout_empty": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_no_outputs_spout_empty.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_no_outputs_spout": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_no_outputs_spout.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_base_component_rejection": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_base_component_rejection.WordCount": [
+    "streamparse.storm.component.Component.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_component_instead_of_spec": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "io.BytesIO": [],
+  "test.streamparse.test_dsl.TopologyTests.test_component_instead_of_spec.WordCount": [
+    "pystorm.component.Component.__init__",
+    "io.BytesIO",
+    "pystorm.spout.Spout.__init__"
+  ],
+  "pystorm.component.Component.__init__": [],
+  "pystorm.spout.Spout.__init__": [],
+  "test.streamparse.test_dsl.TopologyTests.test_no_spout": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_zero_par": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_zero_par.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_negative_par": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_negative_par.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_float_par": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_float_par.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_dict_par": [
+    "unittest.TestCase.assertEqual"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_dict_par.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_dict_par_bad_key_type": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_dict_par_bad_key_type.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_dict_par_bad_value_type": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_dict_par_bad_value_type.WordCount": [
+    "streamparse.storm.spout.Spout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_input_dict_key": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_input_dict_key.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_input_dict_val": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_input_dict_val.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_input_str": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_bolt_input_str.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_config_str": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_config_str.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_topology_config_str": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_topology_config_str.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_outputs_entry_int": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_outputs_entry_int.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_outputs_str": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_invalid_outputs_str.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_unknown_stream": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_unknown_stream.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_perl_bolt": [
+    "<builtin>.len",
+    "<builtin>.list",
+    "unittest.TestCase.assertEqual",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_perl_bolt.PerlWordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.bolt.ShellBolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_bolt_no_command": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_bolt_no_command.PerlWordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.bolt.ShellBolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_bolt_no_script": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_bolt_no_script.PerlWordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.bolt.ShellBolt.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_bolt_valid_arg_list": [
+    "unittest.TestCase.assertEqual",
+    "unittest.TestCase.assertIsNone"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_bolt_valid_arg_list.JavaWordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.JavaBolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "unittest.TestCase.assertIsNone": [],
+  "test.streamparse.test_dsl.TopologyTests.test_java_bolt_invalid_arg_list": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_bolt_invalid_arg_list.JavaWordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.JavaBolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_bolt_valid_serialized_java": [
+    "unittest.TestCase.assertEqual",
+    "unittest.TestCase.assertIsNone"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_bolt_valid_serialized_java.JavaWordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.JavaBolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_perl_spout": [
+    "<builtin>.len",
+    "<builtin>.list",
+    "unittest.TestCase.assertEqual",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_perl_spout.PerlWordCount": [
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.spout.ShellSpout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_spout_no_command": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_spout_no_command.PerlWordCount": [
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.spout.ShellSpout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_spout_no_script": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_shell_spout_no_script.PerlWordCount": [
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.spout.ShellSpout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_spout_valid_arg_list": [
+    "unittest.TestCase.assertEqual",
+    "unittest.TestCase.assertIsNone"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_spout_valid_arg_list.JavaWordCount": [
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.spout.JavaSpout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_spout_invalid_arg_list": [
+    "unittest.TestCase.assertRaises"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_spout_invalid_arg_list.JavaWordCount": [
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.spout.JavaSpout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_spout_valid_serialized_java": [
+    "unittest.TestCase.assertEqual",
+    "unittest.TestCase.assertIsNone"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_java_spout_valid_serialized_java.JavaWordCount": [
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.spout.JavaSpout.spec"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_basic_to_flux_dict": [
+    "streamparse.dsl.topology.Topology.to_flux_dict",
+    "unittest.TestCase.assertEqual"
+  ],
+  "test.streamparse.test_dsl.TopologyTests.test_basic_to_flux_dict.WordCount": [
+    "streamparse.storm.spout.Spout.spec",
+    "streamparse.storm.bolt.Bolt.spec",
+    "streamparse.dsl.stream.Grouping.fields"
+  ],
+  "test": [],
+  "test.streamparse_run": [],
+  "test.streamparse_run.streamparse_run_target": [],
+  "test.streamparse_run.streamparse_run_target.StreamparseRunTarget.__init__": [],
+  "test.streamparse_run.streamparse_run_target.StreamparseRunTarget.run": [],
+  "streamparse.cli.slot_usage": [],
+  "streamparse.cli.slot_usage.subparser_hook": [
+    "streamparse.cli.common.add_environment",
+    "streamparse.cli.common.add_config"
+  ],
+  "streamparse.cli.slot_usage.display_slot_usage": [
+    "<builtin>.sorted",
+    "<builtin>.set",
+    "collections.defaultdict",
+    "streamparse.util.get_ui_json",
+    "<builtin>.len",
+    "streamparse.util.get_ui_jsons",
+    "streamparse.util.print_stats_table",
+    "collections.defaultdict.items",
+    "<builtin>.print",
+    "<builtin>.dict"
+  ],
+  "streamparse.cli.slot_usage.display_slot_usage.<lambda1>": [
+    "collections.defaultdict"
+  ],
+  "collections.defaultdict.items": [],
+  "streamparse.cli.slot_usage.main": [
+    "streamparse.cli.slot_usage.display_slot_usage",
+    "<builtin>.print",
+    "streamparse.util.storm_lib_version",
+    "pkg_resources.parse_version"
+  ],
+  "streamparse.cli.visualize": [
+    "<builtin>.frozenset"
+  ],
+  "<builtin>.frozenset": [],
+  "streamparse.cli.visualize.to_graphviz": [
+    "importlib.import_module.__dict__.values.specs.inputs.items",
+    "graphviz.Digraph",
+    "<builtin>.set",
+    "graphviz.Digraph.node",
+    "graphviz.Digraph.edge",
+    "<builtin>.isinstance",
+    "<builtin>.str",
+    "<builtin>.ImportError"
+  ],
+  "<builtin>.ImportError": [],
+  "graphviz.Digraph": [],
+  "graphviz.Digraph.node": [],
+  "importlib.import_module.__dict__.values.specs.inputs.items": [],
+  "graphviz.Digraph.edge": [],
+  "streamparse.cli.visualize._get_display_cls": [
+    "functools.partial",
+    "<builtin>.ValueError"
+  ],
+  "streamparse.cli.visualize._get_display_cls.<lambda1>": [],
+  "functools.partial": [],
+  "streamparse.cli.visualize.visualize_topology": [
+    "streamparse.cli.visualize.to_graphviz",
+    "streamparse.cli.visualize._get_display_cls.<lambda1>",
+    "os.path.splitext",
+    "<builtin>.open",
+    "functools.partial",
+    "<builtin>.RuntimeError",
+    "IPython.display.SVG",
+    "graphviz.Digraph.pipe",
+    "streamparse.cli.visualize._get_display_cls",
+    "streamparse.util.get_topology_definition",
+    "<builtin>.any",
+    "streamparse.util.get_topology_from_file"
+  ],
+  "os.path.splitext": [],
+  "graphviz.Digraph.pipe": [],
+  "IPython.display.SVG": [],
+  "streamparse.cli.visualize.subparser_hook": [
+    "streamparse.cli.common.add_name"
+  ],
+  "streamparse.cli.visualize.main": [
+    "streamparse.cli.visualize.visualize_topology"
+  ],
+  "streamparse.bootstrap.project.src.bolts": [],
+  "streamparse.bootstrap.project.src.bolts.wordcount": [],
+  "streamparse.bootstrap.project.src.bolts.wordcount.WordCountBolt.initialize": [
+    "collections.Counter",
+    "os.getpid"
+  ],
+  "collections.Counter": [],
+  "os.getpid": [],
+  "streamparse.bootstrap.project.src.bolts.wordcount.WordCountBolt._increment": [],
+  "streamparse.bootstrap.project.src.bolts.wordcount.WordCountBolt.process": [
+    "pystorm.bolt.Bolt.emit",
+    "streamparse.bootstrap.project.src.bolts.wordcount.WordCountBolt._increment",
+    "pystorm.bolt.Bolt.logger.info"
+  ],
+  "pystorm.bolt.Bolt.logger.info": [],
+  "pystorm.bolt.Bolt.emit": [],
+  "streamparse.bootstrap.project.src.spouts": [],
+  "streamparse.bootstrap.project.src.spouts.words": [],
+  "streamparse.bootstrap.project.src.spouts.words.WordSpout.initialize": [
+    "itertools.cycle"
+  ],
+  "itertools.cycle": [],
+  "streamparse.bootstrap.project.src.spouts.words.WordSpout.next_tuple": [
+    "pystorm.spout.Spout.emit",
+    "<builtin>.next"
+  ],
+  "pystorm.spout.Spout.emit": [],
+  "streamparse.bootstrap.project.topologies.wordcount": [],
+  "spouts.words.WordSpout.spec": [],
+  "streamparse.bootstrap.project.topologies.wordcount.WordCount": [
+    "bolts.wordcount.WordCountBolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "spouts.words.WordSpout.spec"
+  ],
+  "bolts.wordcount.WordCountBolt.spec": [],
+  "streamparse.bootstrap.project.fabfile": [],
+  "streamparse.bootstrap.project.fabfile.pre_submit": [],
+  "streamparse.bootstrap.project.fabfile.post_submit": [],
+  "examples.kafka-jvm.src.bolts": [],
+  "examples.kafka-jvm.src.bolts.pixel_count": [],
+  "examples.kafka-jvm.src.bolts.pixel_count.PixelCounterBolt.initialize": [
+    "collections.Counter"
+  ],
+  "examples.kafka-jvm.src.bolts.pixel_count.PixelCounterBolt.group_key": [],
+  "examples.kafka-jvm.src.bolts.pixel_count.PixelCounterBolt.process_batch": [
+    "<builtin>.len",
+    "pystorm.bolt.Bolt.emit"
+  ],
+  "examples.kafka-jvm.src.bolts.pixel_deserializer": [],
+  "examples.kafka-jvm.src.bolts.pixel_deserializer.PixelDeserializerBolt.process": [
+    "simplejson.loads",
+    "simplejson.loads.get",
+    "pystorm.bolt.Bolt.emit"
+  ],
+  "examples.kafka-jvm.topologies.pixelcount": [],
+  "examples.kafka-jvm.topologies.pixelcount.PixelCount": [
+    "bolts.pixel_count.PixelCounterBolt.spec",
+    "bolts.pixel_deserializer.PixelDeserializerBolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "streamparse.storm.spout.JavaSpout.spec"
+  ],
+  "bolts.pixel_deserializer.PixelDeserializerBolt.spec": [],
+  "bolts.pixel_count.PixelCounterBolt.spec": [],
+  "examples.kafka-jvm.chef.cookbooks.python.files.default.get-pip": [
+    "shutil.rmtree",
+    "pickle.loads",
+    "examples.kafka-jvm.chef.cookbooks.python.files.default.get-pip.unpack",
+    "base64.decodebytes",
+    "pickle.loads.encode",
+    "<builtin>.exec",
+    "bz2.decompress",
+    "<builtin>.locals",
+    "sys.path.insert"
+  ],
+  "examples.kafka-jvm.chef.cookbooks.python.files.default.get-pip.unpack": [
+    "os.path.isdir",
+    "os.path.join",
+    "<builtin>.open",
+    "base64.b64decode",
+    "os.sep.join",
+    "tempfile.mkdtemp",
+    "pickle.loads.items",
+    "pickle.loads.encode.items",
+    "os.makedirs"
+  ],
+  "tempfile.mkdtemp": [],
+  "pickle.loads.items": [],
+  "pickle.loads.encode.items": [],
+  "os.sep.join": [],
+  "base64.b64decode": [],
+  "<builtin>.exec": [],
+  "pickle.loads.encode": [],
+  "base64.decodebytes": [],
+  "bz2.decompress": [],
+  "pickle.loads": [],
+  "<builtin>.locals": [],
+  "examples.kafka-jvm.fabfile": [
+    "fabric.api.task"
+  ],
+  "examples.kafka-jvm.fabfile.retry": [],
+  "examples.kafka-jvm.fabfile.retry.decorator": [],
+  "examples.kafka-jvm.fabfile.retry.decorator.wrapper": [
+    "time.sleep",
+    "<builtin>.isinstance"
+  ],
+  "examples.kafka-jvm.fabfile.random_pixel_generator": [
+    "<builtin>.int",
+    "time.time",
+    "random.choice",
+    "random.randint"
+  ],
+  "random.randint": [],
+  "random.choice": [],
+  "time.time": [],
+  "fabric.api.task": [],
+  "examples.kafka-jvm.fabfile.seed_kafka": [
+    "kafka.producer.SimpleProducer.send_messages",
+    "time.sleep",
+    "kafka.client.KafkaClient",
+    "<builtin>.next",
+    "<builtin>.range",
+    "simplejson.dumps",
+    "examples.kafka-jvm.fabfile.random_pixel_generator",
+    "simplejson.dumps.encode",
+    "kafka.producer.SimpleProducer",
+    "fabric.api.puts"
+  ],
+  "kafka.client.KafkaClient": [],
+  "kafka.producer.SimpleProducer": [],
+  "simplejson.dumps.encode": [],
+  "kafka.producer.SimpleProducer.send_messages": [],
+  "examples.redis.tools.redis_watch": [
+    "redis.StrictRedis.zrevrange",
+    "redis.StrictRedis",
+    "sys.stdout.flush",
+    "pprint.pprint"
+  ],
+  "redis.StrictRedis": [],
+  "redis.StrictRedis.zrevrange": [],
+  "pprint.pprint": [],
+  "examples.redis.tools.pid_top": [
+    "examples.redis.tools.pid_top.pidmonitor"
+  ],
+  "examples.redis.tools.pid_top.pidmonitor": [
+    "psutil.pids",
+    "psutil.Process.cmdline",
+    "psutil.Process.cpu_percent",
+    "<builtin>.print",
+    "psutil.Process"
+  ],
+  "psutil.pids": [],
+  "psutil.Process": [],
+  "psutil.Process.cmdline": [],
+  "psutil.Process.cpu_percent": [],
+  "examples.redis.src.bolts": [],
+  "examples.redis.src.bolts.WordCountBolt.initialize": [
+    "collections.Counter"
+  ],
+  "examples.redis.src.bolts.WordCountBolt._increment": [],
+  "examples.redis.src.bolts.WordCountBolt.process": [
+    "pystorm.bolt.Bolt.emit",
+    "examples.redis.src.bolts.WordCountBolt._increment",
+    "pystorm.bolt.Bolt.logger.info"
+  ],
+  "examples.redis.src.bolts.RedisWordCountBolt.initialize": [
+    "redis.StrictRedis"
+  ],
+  "examples.redis.src.bolts.RedisWordCountBolt._increment": [
+    "redis.StrictRedis.zincrby"
+  ],
+  "redis.StrictRedis.zincrby": [],
+  "examples.redis.src.bolts.RedisWordCountBolt.process": [
+    "pystorm.bolt.Bolt.emit",
+    "examples.redis.src.bolts.RedisWordCountBolt._increment",
+    "pystorm.bolt.Bolt.logger.info"
+  ],
+  "examples.redis.src": [],
+  "examples.redis.src.spouts": [],
+  "examples.redis.src.spouts.WordSpout.initialize": [
+    "itertools.cycle"
+  ],
+  "examples.redis.src.spouts.WordSpout.next_tuple": [
+    "pystorm.spout.Spout.emit",
+    "<builtin>.next"
+  ],
+  "examples.redis.topologies.wordcount_redis": [],
+  "src.spouts.WordSpout.spec": [],
+  "examples.redis.topologies.wordcount_redis.WordCount": [
+    "src.bolts.RedisWordCountBolt.spec",
+    "src.spouts.WordSpout.spec"
+  ],
+  "src.bolts.RedisWordCountBolt.spec": [],
+  "examples.redis.topologies.wordcount_mem": [],
+  "spouts.WordSpout.spec": [],
+  "examples.redis.topologies.wordcount_mem.WordCount": [
+    "bolts.WordCountBolt.spec",
+    "streamparse.dsl.stream.Grouping.fields",
+    "spouts.WordSpout.spec"
+  ],
+  "bolts.WordCountBolt.spec": [],
+  "doc.source.conf": [
+    "sphinx_rtd_theme.get_html_theme_path",
+    "version.__version__.replace",
+    "os.path.abspath",
+    "os.environ.get",
+    "sys.path.insert"
+  ],
+  "sphinx_rtd_theme.get_html_theme_path": [],
+  "version.__version__.replace": [],
+  "setup": [
+    "setuptools.find_packages",
+    "<builtin>.open",
+    "setup.readme",
+    "setuptools.setup",
+    "setup.get_version"
+  ],
+  "setup.get_version": [
+    "re.search.group",
+    "re.search",
+    "<builtin>.open"
+  ],
+  "re.search": [],
+  "re.search.group": [],
+  "setup.readme": [
+    "<builtin>.open"
+  ],
+  "setuptools.find_packages": [],
+  "setuptools.setup": []
+}

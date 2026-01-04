@@ -1,0 +1,851 @@
+{
+  "setup": [
+    "setuptools.find_packages",
+    "setuptools.setup"
+  ],
+  "setuptools.find_packages": [],
+  "setuptools.setup": [],
+  "patterns.fundamental": [],
+  "patterns.fundamental.delegation_pattern": [
+    "doctest.testmod"
+  ],
+  "patterns.fundamental.delegation_pattern.Delegator.__init__": [],
+  "patterns.fundamental.delegation_pattern.Delegator.__getattr__": [
+    "<builtin>.callable",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.getattr": [],
+  "<builtin>.callable": [],
+  "patterns.fundamental.delegation_pattern.Delegator.__getattr__.wrapper": [],
+  "patterns.fundamental.delegation_pattern.Delegate.__init__": [],
+  "patterns.fundamental.delegation_pattern.Delegate.do_something": [],
+  "doctest.testmod": [],
+  "patterns.structural.composite": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.composite.Graphic": [
+    "abc.abstractmethod"
+  ],
+  "abc.abstractmethod": [],
+  "patterns.structural.composite.Graphic.render": [
+    "<builtin>.NotImplementedError"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "patterns.structural.composite.CompositeGraphic.__init__": [],
+  "patterns.structural.composite.CompositeGraphic.render": [
+    "abc.ABC.graphics.render"
+  ],
+  "abc.ABC.graphics.render": [],
+  "patterns.structural.composite.CompositeGraphic.add": [
+    "abc.ABC.graphics.append"
+  ],
+  "abc.ABC.graphics.append": [],
+  "patterns.structural.composite.CompositeGraphic.remove": [
+    "abc.ABC.graphics.remove"
+  ],
+  "abc.ABC.graphics.remove": [],
+  "patterns.structural.composite.Ellipse.__init__": [],
+  "patterns.structural.composite.Ellipse.render": [
+    "<builtin>.print"
+  ],
+  "<builtin>.print": [],
+  "patterns.structural.composite.main": [],
+  "patterns.structural.front_controller": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.front_controller.MobileView.show_index_page": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.front_controller.TabletView.show_index_page": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.front_controller.Dispatcher.__init__": [],
+  "patterns.structural.front_controller.Dispatcher.dispatch": [
+    "<builtin>.print",
+    "patterns.structural.front_controller.TabletView.show_index_page",
+    "patterns.structural.front_controller.MobileView.show_index_page"
+  ],
+  "patterns.structural.front_controller.RequestController.__init__": [
+    "patterns.structural.front_controller.Dispatcher.__init__"
+  ],
+  "patterns.structural.front_controller.RequestController.dispatch_request": [
+    "<builtin>.print",
+    "patterns.structural.front_controller.Dispatcher.dispatch",
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.isinstance": [],
+  "patterns.structural.front_controller.Request.__init__": [],
+  "patterns.structural.front_controller.main": [],
+  "patterns.structural.bridge": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.bridge.DrawingAPI1.draw_circle": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.bridge.DrawingAPI2.draw_circle": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.bridge.CircleShape.__init__": [],
+  "patterns.structural.bridge.CircleShape.draw": [],
+  "patterns.structural.bridge.CircleShape.scale": [],
+  "patterns.structural.bridge.main": [],
+  "patterns.structural": [],
+  "patterns.structural.flyweight_with_metaclass": [
+    "patterns.structural.flyweight_with_metaclass.Card2.__init__",
+    "<builtin>.getattr",
+    "<builtin>.len"
+  ],
+  "patterns.structural.flyweight_with_metaclass.FlyweightMeta.__new__": [
+    "weakref.WeakValueDictionary",
+    "<builtin>.super"
+  ],
+  "weakref.WeakValueDictionary": [],
+  "<builtin>.super": [],
+  "patterns.structural.flyweight_with_metaclass.FlyweightMeta._serialize_params": [
+    "<builtin>.map",
+    "<builtin>.list"
+  ],
+  "<builtin>.map": [],
+  "<builtin>.list": [],
+  "patterns.structural.flyweight_with_metaclass.FlyweightMeta.__call__": [
+    "patterns.structural.flyweight_with_metaclass.FlyweightMeta._serialize_params",
+    "<builtin>.super",
+    "<builtin>.getattr"
+  ],
+  "patterns.structural.flyweight_with_metaclass.Card2.__init__": [],
+  "<builtin>.len": [],
+  "patterns.structural.flyweight": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.flyweight.Card": [
+    "weakref.WeakValueDictionary"
+  ],
+  "patterns.structural.flyweight.Card.__new__": [],
+  "patterns.structural.flyweight.Card.__repr__": [],
+  "patterns.structural.flyweight.main": [],
+  "patterns.structural.adapter": [
+    "doctest.testmod",
+    "typing.TypeVar"
+  ],
+  "typing.TypeVar": [],
+  "patterns.structural.adapter.Dog.__init__": [],
+  "patterns.structural.adapter.Dog.bark": [],
+  "patterns.structural.adapter.Cat.__init__": [],
+  "patterns.structural.adapter.Cat.meow": [],
+  "patterns.structural.adapter.Human.__init__": [],
+  "patterns.structural.adapter.Human.speak": [],
+  "patterns.structural.adapter.Car.__init__": [],
+  "patterns.structural.adapter.Car.make_noise": [],
+  "patterns.structural.adapter.Adapter.__init__": [],
+  "patterns.structural.adapter.Adapter.__getattr__": [
+    "<builtin>.getattr"
+  ],
+  "patterns.structural.adapter.Adapter.original_dict": [],
+  "patterns.structural.adapter.main": [],
+  "patterns.structural.3-tier": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.3-tier.Data.__get__": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.3-tier.BusinessLogic.product_list": [],
+  "patterns.structural.3-tier.BusinessLogic.product_information": [],
+  "patterns.structural.3-tier.Ui.__init__": [],
+  "patterns.structural.3-tier.Ui.get_product_list": [
+    "<builtin>.print",
+    "patterns.structural.3-tier.BusinessLogic.product_list"
+  ],
+  "patterns.structural.3-tier.Ui.get_product_information": [
+    "patterns.structural.3-tier.BusinessLogic.product_information",
+    "<builtin>.print"
+  ],
+  "patterns.structural.3-tier.main": [],
+  "patterns.structural.mvc": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.mvc.Model": [
+    "abc.abstractmethod"
+  ],
+  "patterns.structural.mvc.Model.__iter__": [],
+  "patterns.structural.mvc.Model.get": [],
+  "patterns.structural.mvc.Model.item_type": [],
+  "patterns.structural.mvc.ProductModel.Price.__str__": [],
+  "patterns.structural.mvc.ProductModel.__iter__": [],
+  "patterns.structural.mvc.ProductModel.get": [
+    "<builtin>.str",
+    "<builtin>.KeyError"
+  ],
+  "<builtin>.str": [],
+  "<builtin>.KeyError": [],
+  "patterns.structural.mvc.View": [
+    "abc.abstractmethod"
+  ],
+  "patterns.structural.mvc.View.show_item_list": [],
+  "patterns.structural.mvc.View.show_item_information": [],
+  "patterns.structural.mvc.View.item_not_found": [],
+  "patterns.structural.mvc.ConsoleView.show_item_list": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.mvc.ConsoleView.capitalizer": [],
+  "patterns.structural.mvc.ConsoleView.show_item_information": [
+    "<builtin>.print",
+    "<builtin>.str",
+    "patterns.structural.mvc.ConsoleView.capitalizer"
+  ],
+  "patterns.structural.mvc.ConsoleView.item_not_found": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.mvc.Controller.__init__": [],
+  "patterns.structural.mvc.Controller.show_items": [
+    "<builtin>.list"
+  ],
+  "patterns.structural.mvc.Controller.show_item_information": [],
+  "patterns.structural.mvc.main": [],
+  "patterns.structural.proxy": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.proxy.Subject.do_the_job": [
+    "<builtin>.NotImplementedError"
+  ],
+  "patterns.structural.proxy.RealSubject.do_the_job": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.proxy.Proxy.__init__": [],
+  "patterns.structural.proxy.Proxy.do_the_job": [
+    "<builtin>.print",
+    "patterns.structural.proxy.RealSubject.do_the_job"
+  ],
+  "patterns.structural.proxy.client": [],
+  "patterns.structural.proxy.main": [],
+  "patterns.structural.facade": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.facade.CPU.freeze": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.facade.CPU.jump": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.facade.CPU.execute": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.facade.Memory.load": [
+    "<builtin>.print"
+  ],
+  "patterns.structural.facade.SolidStateDrive.read": [],
+  "patterns.structural.facade.ComputerFacade.__init__": [],
+  "patterns.structural.facade.ComputerFacade.start": [
+    "patterns.structural.facade.CPU.execute",
+    "patterns.structural.facade.CPU.jump",
+    "patterns.structural.facade.Memory.load",
+    "patterns.structural.facade.SolidStateDrive.read",
+    "patterns.structural.facade.CPU.freeze"
+  ],
+  "patterns.structural.facade.main": [],
+  "patterns.structural.decorator": [
+    "doctest.testmod"
+  ],
+  "patterns.structural.decorator.TextTag.__init__": [],
+  "patterns.structural.decorator.TextTag.render": [],
+  "patterns.structural.decorator.BoldWrapper.__init__": [],
+  "patterns.structural.decorator.BoldWrapper.render": [],
+  "patterns.structural.decorator.ItalicWrapper.__init__": [],
+  "patterns.structural.decorator.ItalicWrapper.render": [],
+  "patterns.structural.decorator.main": [],
+  "patterns.dependency_injection": [
+    "doctest.testmod"
+  ],
+  "patterns.dependency_injection.ConstructorInjection.__init__": [],
+  "patterns.dependency_injection.ConstructorInjection.get_current_time_as_html_fragment": [],
+  "patterns.dependency_injection.ParameterInjection.__init__": [],
+  "patterns.dependency_injection.ParameterInjection.get_current_time_as_html_fragment": [],
+  "patterns.dependency_injection.SetterInjection.__init__": [],
+  "patterns.dependency_injection.SetterInjection.set_time_provider": [],
+  "patterns.dependency_injection.SetterInjection.get_current_time_as_html_fragment": [],
+  "patterns.dependency_injection.production_code_time_provider": [
+    "datetime.datetime.now"
+  ],
+  "datetime.datetime.now": [],
+  "patterns.dependency_injection.midnight_time_provider": [],
+  "patterns.dependency_injection.main": [],
+  "patterns": [],
+  "patterns.behavioral.template": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.template.get_text": [],
+  "patterns.behavioral.template.get_pdf": [],
+  "patterns.behavioral.template.get_csv": [],
+  "patterns.behavioral.template.convert_to_text": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.template.saver": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.template.template_function": [
+    "patterns.behavioral.template.saver",
+    "<builtin>.print",
+    "<builtin>.len"
+  ],
+  "patterns.behavioral.template.main": [],
+  "patterns.behavioral.catalog": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.catalog.Catalog.__init__": [
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.ValueError": [],
+  "patterns.behavioral.catalog.Catalog._static_method_1": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.Catalog._static_method_2": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.Catalog.main_method": [],
+  "patterns.behavioral.catalog.CatalogInstance.__init__": [
+    "<builtin>.ValueError"
+  ],
+  "patterns.behavioral.catalog.CatalogInstance._instance_method_1": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.CatalogInstance._instance_method_2": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.CatalogInstance.main_method": [],
+  "patterns.behavioral.catalog.CatalogClass.__init__": [
+    "<builtin>.ValueError"
+  ],
+  "patterns.behavioral.catalog.CatalogClass._class_method_1": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.CatalogClass._class_method_2": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.CatalogClass.main_method": [],
+  "patterns.behavioral.catalog.CatalogStatic.__init__": [
+    "<builtin>.ValueError"
+  ],
+  "patterns.behavioral.catalog.CatalogStatic._static_method_1": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.CatalogStatic._static_method_2": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.catalog.CatalogStatic.main_method": [],
+  "patterns.behavioral.catalog.main": [],
+  "patterns.behavioral": [],
+  "patterns.behavioral.registry": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.registry.RegistryHolder.__new__": [],
+  "patterns.behavioral.registry.RegistryHolder.get_registry": [
+    "<builtin>.dict"
+  ],
+  "<builtin>.dict": [],
+  "patterns.behavioral.registry.main": [],
+  "patterns.behavioral.visitor": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.visitor.Visitor.visit": [
+    "patterns.behavioral.visitor.Visitor.generic_visit",
+    "<builtin>.getattr"
+  ],
+  "patterns.behavioral.visitor.Visitor.generic_visit": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.visitor.Visitor.visit_B": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.visitor.main": [],
+  "patterns.behavioral.publish_subscribe": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.publish_subscribe.Provider.__init__": [],
+  "patterns.behavioral.publish_subscribe.Provider.notify": [],
+  "patterns.behavioral.publish_subscribe.Provider.subscribe": [],
+  "patterns.behavioral.publish_subscribe.Provider.unsubscribe": [],
+  "patterns.behavioral.publish_subscribe.Provider.update": [],
+  "patterns.behavioral.publish_subscribe.Publisher.__init__": [],
+  "patterns.behavioral.publish_subscribe.Publisher.publish": [],
+  "patterns.behavioral.publish_subscribe.Subscriber.__init__": [],
+  "patterns.behavioral.publish_subscribe.Subscriber.subscribe": [],
+  "patterns.behavioral.publish_subscribe.Subscriber.unsubscribe": [],
+  "patterns.behavioral.publish_subscribe.Subscriber.run": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.publish_subscribe.main": [],
+  "patterns.behavioral.iterator": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.iterator.count_to": [],
+  "patterns.behavioral.iterator.count_to_two": [
+    "patterns.behavioral.iterator.count_to"
+  ],
+  "patterns.behavioral.iterator.count_to_five": [
+    "patterns.behavioral.iterator.count_to"
+  ],
+  "patterns.behavioral.iterator.main": [],
+  "patterns.behavioral.specification": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.specification.Specification.and_specification": [
+    "<builtin>.NotImplementedError"
+  ],
+  "patterns.behavioral.specification.Specification.or_specification": [
+    "<builtin>.NotImplementedError"
+  ],
+  "patterns.behavioral.specification.Specification.not_specification": [
+    "<builtin>.NotImplementedError"
+  ],
+  "patterns.behavioral.specification.Specification": [
+    "abc.abstractmethod"
+  ],
+  "patterns.behavioral.specification.Specification.is_satisfied_by": [],
+  "patterns.behavioral.specification.CompositeSpecification": [
+    "abc.abstractmethod"
+  ],
+  "patterns.behavioral.specification.CompositeSpecification.is_satisfied_by": [],
+  "patterns.behavioral.specification.CompositeSpecification.and_specification": [
+    "patterns.behavioral.specification.AndSpecification.__init__"
+  ],
+  "patterns.behavioral.specification.AndSpecification.__init__": [],
+  "patterns.behavioral.specification.CompositeSpecification.or_specification": [
+    "patterns.behavioral.specification.OrSpecification.__init__"
+  ],
+  "patterns.behavioral.specification.OrSpecification.__init__": [],
+  "patterns.behavioral.specification.CompositeSpecification.not_specification": [
+    "patterns.behavioral.specification.NotSpecification.__init__"
+  ],
+  "patterns.behavioral.specification.NotSpecification.__init__": [],
+  "patterns.behavioral.specification.AndSpecification.is_satisfied_by": [
+    "<builtin>.bool"
+  ],
+  "<builtin>.bool": [],
+  "patterns.behavioral.specification.OrSpecification.is_satisfied_by": [
+    "<builtin>.bool"
+  ],
+  "patterns.behavioral.specification.NotSpecification.is_satisfied_by": [
+    "<builtin>.bool"
+  ],
+  "patterns.behavioral.specification.User.__init__": [],
+  "patterns.behavioral.specification.UserSpecification.is_satisfied_by": [
+    "<builtin>.isinstance"
+  ],
+  "patterns.behavioral.specification.SuperUserSpecification.is_satisfied_by": [
+    "<builtin>.getattr"
+  ],
+  "patterns.behavioral.specification.main": [],
+  "patterns.behavioral.strategy": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.strategy.DiscountStrategyValidator.validate": [
+    "<builtin>.print",
+    "<builtin>.str",
+    "<builtin>.ValueError"
+  ],
+  "patterns.behavioral.strategy.DiscountStrategyValidator.__set_name__": [],
+  "patterns.behavioral.strategy.DiscountStrategyValidator.__set__": [
+    "<builtin>.setattr",
+    "patterns.behavioral.strategy.DiscountStrategyValidator.validate"
+  ],
+  "<builtin>.setattr": [],
+  "patterns.behavioral.strategy.DiscountStrategyValidator.__get__": [
+    "<builtin>.getattr"
+  ],
+  "patterns.behavioral.strategy.Order.__init__": [],
+  "patterns.behavioral.strategy.Order.apply_discount": [],
+  "patterns.behavioral.strategy.Order.__repr__": [
+    "<builtin>.getattr"
+  ],
+  "patterns.behavioral.strategy.ten_percent_discount": [],
+  "patterns.behavioral.strategy.on_sale_discount": [],
+  "patterns.behavioral.strategy.main": [],
+  "patterns.behavioral.state": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.state.State.scan": [
+    "<builtin>.print",
+    "<builtin>.len"
+  ],
+  "patterns.behavioral.state.AmState.__init__": [],
+  "patterns.behavioral.state.AmState.toggle_amfm": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.state.FmState.__init__": [],
+  "patterns.behavioral.state.FmState.toggle_amfm": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.state.Radio.__init__": [
+    "patterns.behavioral.state.AmState.__init__",
+    "patterns.behavioral.state.FmState.__init__"
+  ],
+  "patterns.behavioral.state.Radio.toggle_amfm": [
+    "patterns.behavioral.state.AmState.toggle_amfm",
+    "patterns.behavioral.state.FmState.toggle_amfm"
+  ],
+  "patterns.behavioral.state.Radio.scan": [
+    "patterns.behavioral.state.State.scan"
+  ],
+  "patterns.behavioral.state.main": [],
+  "patterns.behavioral.command": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.command.HideFileCommand.__init__": [],
+  "patterns.behavioral.command.HideFileCommand.execute": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.command.HideFileCommand.undo": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.command.DeleteFileCommand.__init__": [],
+  "patterns.behavioral.command.DeleteFileCommand.execute": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.command.DeleteFileCommand.undo": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.command.MenuItem.__init__": [],
+  "patterns.behavioral.command.MenuItem.on_do_press": [],
+  "patterns.behavioral.command.MenuItem.on_undo_press": [],
+  "patterns.behavioral.command.main": [],
+  "patterns.behavioral.observer": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.observer.Observer.update": [],
+  "patterns.behavioral.observer.Subject.__init__": [],
+  "patterns.behavioral.observer.Subject.attach": [],
+  "patterns.behavioral.observer.Subject.detach": [
+    "contextlib.suppress"
+  ],
+  "contextlib.suppress": [],
+  "patterns.behavioral.observer.Subject.notify": [],
+  "patterns.behavioral.observer.Data.__init__": [
+    "<builtin>.super"
+  ],
+  "patterns.behavioral.observer.Data.data": [
+    "patterns.behavioral.observer.Subject.notify"
+  ],
+  "patterns.behavioral.observer.HexViewer.update": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.observer.DecimalViewer.update": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.observer.main": [],
+  "patterns.behavioral.iterator_alt": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.iterator_alt.NumberWords.__init__": [],
+  "patterns.behavioral.iterator_alt.NumberWords.__iter__": [],
+  "patterns.behavioral.iterator_alt.NumberWords.__next__": [
+    "<builtin>.len"
+  ],
+  "patterns.behavioral.iterator_alt.main": [],
+  "patterns.behavioral.chain_of_responsibility": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.chain_of_responsibility.Handler.__init__": [],
+  "patterns.behavioral.chain_of_responsibility.Handler.handle": [
+    "patterns.behavioral.chain_of_responsibility.Handler.check_range"
+  ],
+  "patterns.behavioral.chain_of_responsibility.Handler.check_range": [],
+  "patterns.behavioral.chain_of_responsibility.Handler": [
+    "abc.abstractmethod"
+  ],
+  "patterns.behavioral.chain_of_responsibility.ConcreteHandler0.check_range": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.chain_of_responsibility.ConcreteHandler1.check_range": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.chain_of_responsibility.ConcreteHandler2.check_range": [
+    "patterns.behavioral.chain_of_responsibility.ConcreteHandler2.get_interval_from_db",
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.chain_of_responsibility.ConcreteHandler2.get_interval_from_db": [],
+  "patterns.behavioral.chain_of_responsibility.FallbackHandler.check_range": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.chain_of_responsibility.main": [],
+  "patterns.behavioral.memento": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.memento.memento": [
+    "copy.copy",
+    "copy.deepcopy"
+  ],
+  "copy.deepcopy": [],
+  "copy.copy": [],
+  "patterns.behavioral.memento.memento.restore": [],
+  "patterns.behavioral.memento.Transaction.__init__": [
+    "patterns.behavioral.memento.Transaction.commit"
+  ],
+  "patterns.behavioral.memento.Transaction.commit": [
+    "patterns.behavioral.memento.memento"
+  ],
+  "patterns.behavioral.memento.Transaction.rollback": [],
+  "patterns.behavioral.memento.Transactional.__init__": [],
+  "patterns.behavioral.memento.Transactional.__get__": [],
+  "patterns.behavioral.memento.Transactional.__get__.transaction": [
+    "patterns.behavioral.memento.memento",
+    "patterns.behavioral.memento.memento.restore"
+  ],
+  "patterns.behavioral.memento.NumObj.__init__": [],
+  "patterns.behavioral.memento.NumObj.__repr__": [],
+  "patterns.behavioral.memento.NumObj.increment": [],
+  "patterns.behavioral.memento.NumObj": [
+    "patterns.behavioral.memento.Transactional"
+  ],
+  "patterns.behavioral.memento.Transactional": [],
+  "patterns.behavioral.memento.NumObj.do_stuff": [
+    "patterns.behavioral.memento.NumObj.increment"
+  ],
+  "patterns.behavioral.memento.main": [],
+  "patterns.behavioral.chaining_method": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.chaining_method.Person.__init__": [],
+  "patterns.behavioral.chaining_method.Person.do_action": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.chaining_method.Action.__init__": [],
+  "patterns.behavioral.chaining_method.Action.amount": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.chaining_method.Action.stop": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.chaining_method.main": [],
+  "patterns.behavioral.mediator": [
+    "doctest.testmod"
+  ],
+  "patterns.behavioral.mediator.ChatRoom.display_message": [
+    "<builtin>.print"
+  ],
+  "patterns.behavioral.mediator.User.__init__": [],
+  "patterns.behavioral.mediator.User.say": [
+    "patterns.behavioral.mediator.ChatRoom.display_message"
+  ],
+  "patterns.behavioral.mediator.User.__str__": [],
+  "patterns.behavioral.mediator.main": [],
+  "patterns.other.hsm": [],
+  "patterns.other.hsm.hsm": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine.__init__": [
+    "patterns.other.hsm.hsm.Failed.__init__",
+    "patterns.other.hsm.hsm.Suspect.__init__",
+    "patterns.other.hsm.hsm.Active.__init__",
+    "patterns.other.hsm.hsm.Standby.__init__"
+  ],
+  "patterns.other.hsm.hsm.Active.__init__": [],
+  "patterns.other.hsm.hsm.Standby.__init__": [],
+  "patterns.other.hsm.hsm.Suspect.__init__": [],
+  "patterns.other.hsm.hsm.Failed.__init__": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._next_state": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._send_diagnostics_request": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._raise_alarm": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._clear_alarm": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._perform_switchover": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._send_switchover_response": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._send_operator_inservice_response": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._send_diagnostics_failure_report": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._send_diagnostics_pass_report": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._abort_diagnostics": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine._check_mate_status": [],
+  "patterns.other.hsm.hsm.HierachicalStateMachine.on_message": [],
+  "patterns.other.hsm.hsm.Unit.__init__": [],
+  "patterns.other.hsm.hsm.Unit.on_switchover": [],
+  "patterns.other.hsm.hsm.Unit.on_fault_trigger": [],
+  "patterns.other.hsm.hsm.Unit.on_diagnostics_failed": [],
+  "patterns.other.hsm.hsm.Unit.on_diagnostics_passed": [],
+  "patterns.other.hsm.hsm.Unit.on_operator_inservice": [],
+  "patterns.other.hsm.hsm.Inservice.__init__": [],
+  "patterns.other.hsm.hsm.Inservice.on_fault_trigger": [
+    "patterns.other.hsm.hsm.HierachicalStateMachine._next_state",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._raise_alarm",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._send_diagnostics_request"
+  ],
+  "patterns.other.hsm.hsm.Inservice.on_switchover": [
+    "patterns.other.hsm.hsm.HierachicalStateMachine._send_switchover_response",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._check_mate_status",
+    "patterns.other.hsm.hsm.HierachicalStateMachine._perform_switchover"
+  ],
+  "patterns.other.hsm.hsm.Active.on_fault_trigger": [
+    "<builtin>.super"
+  ],
+  "patterns.other.hsm.hsm.Active.on_switchover": [],
+  "patterns.other.hsm.hsm.Standby.on_switchover": [
+    "patterns.other.hsm.hsm.HierachicalStateMachine._next_state",
+    "<builtin>.super"
+  ],
+  "patterns.other.hsm.hsm.OutOfService.__init__": [],
+  "patterns.other.hsm.hsm.OutOfService.on_operator_inservice": [],
+  "patterns.other.hsm.hsm.Suspect.on_diagnostics_failed": [
+    "<builtin>.super"
+  ],
+  "patterns.other.hsm.hsm.Suspect.on_diagnostics_passed": [
+    "<builtin>.super"
+  ],
+  "patterns.other.hsm.hsm.Suspect.on_operator_inservice": [
+    "<builtin>.super"
+  ],
+  "patterns.other": [],
+  "patterns.other.blackboard": [
+    "random.seed",
+    "doctest.testmod"
+  ],
+  "patterns.other.blackboard.Blackboard.__init__": [],
+  "patterns.other.blackboard.Blackboard.add_expert": [],
+  "patterns.other.blackboard.Controller.__init__": [],
+  "patterns.other.blackboard.Controller.run_loop": [],
+  "patterns.other.blackboard.AbstractExpert.__init__": [],
+  "patterns.other.blackboard.AbstractExpert": [
+    "abc.abstractmethod"
+  ],
+  "patterns.other.blackboard.AbstractExpert.is_eager_to_contribute": [
+    "<builtin>.NotImplementedError"
+  ],
+  "patterns.other.blackboard.AbstractExpert.contribute": [
+    "<builtin>.NotImplementedError"
+  ],
+  "patterns.other.blackboard.Student.is_eager_to_contribute": [],
+  "patterns.other.blackboard.Student.contribute": [
+    "random.randint"
+  ],
+  "random.randint": [],
+  "patterns.other.blackboard.Scientist.is_eager_to_contribute": [
+    "random.randint"
+  ],
+  "patterns.other.blackboard.Scientist.contribute": [
+    "random.randint"
+  ],
+  "patterns.other.blackboard.Professor.is_eager_to_contribute": [],
+  "patterns.other.blackboard.Professor.contribute": [
+    "random.randint"
+  ],
+  "patterns.other.blackboard.main": [],
+  "random.seed": [],
+  "patterns.other.graph_search": [
+    "doctest.testmod"
+  ],
+  "patterns.other.graph_search.GraphSearch.__init__": [],
+  "patterns.other.graph_search.GraphSearch.find_path_dfs": [
+    "patterns.other.graph_search.GraphSearch.find_path_dfs"
+  ],
+  "patterns.other.graph_search.GraphSearch.find_all_paths_dfs": [
+    "patterns.other.graph_search.GraphSearch.find_all_paths_dfs"
+  ],
+  "patterns.other.graph_search.GraphSearch.find_shortest_path_dfs": [
+    "patterns.other.graph_search.GraphSearch.find_shortest_path_dfs",
+    "<builtin>.len"
+  ],
+  "patterns.other.graph_search.GraphSearch.find_shortest_path_bfs": [
+    "<builtin>.len"
+  ],
+  "patterns.other.graph_search.main": [],
+  "patterns.creational": [],
+  "patterns.creational.factory": [
+    "doctest.testmod"
+  ],
+  "patterns.creational.factory.GreekLocalizer.__init__": [],
+  "patterns.creational.factory.GreekLocalizer.localize": [],
+  "patterns.creational.factory.EnglishLocalizer.localize": [],
+  "patterns.creational.factory.get_localizer": [],
+  "patterns.creational.factory.main": [],
+  "patterns.creational.borg": [
+    "doctest.testmod"
+  ],
+  "patterns.creational.borg.Borg.__init__": [],
+  "patterns.creational.borg.YourBorg.__init__": [
+    "<builtin>.hasattr",
+    "<builtin>.super"
+  ],
+  "<builtin>.hasattr": [],
+  "patterns.creational.borg.YourBorg.__str__": [],
+  "patterns.creational.borg.main": [],
+  "patterns.creational.prototype": [
+    "doctest.testmod"
+  ],
+  "patterns.creational.prototype.Prototype.__init__": [],
+  "patterns.creational.prototype.Prototype.clone": [],
+  "patterns.creational.prototype.PrototypeDispatcher.__init__": [],
+  "patterns.creational.prototype.PrototypeDispatcher.get_objects": [],
+  "patterns.creational.prototype.PrototypeDispatcher.register_object": [],
+  "patterns.creational.prototype.PrototypeDispatcher.unregister_object": [],
+  "patterns.creational.prototype.main": [],
+  "patterns.creational.pool": [
+    "doctest.testmod"
+  ],
+  "patterns.creational.pool.ObjectPool.__init__": [],
+  "patterns.creational.pool.ObjectPool.__enter__": [],
+  "patterns.creational.pool.ObjectPool.__exit__": [],
+  "patterns.creational.pool.ObjectPool.__del__": [],
+  "patterns.creational.pool.main": [],
+  "patterns.creational.lazy_evaluation": [
+    "doctest.testmod"
+  ],
+  "patterns.creational.lazy_evaluation.lazy_property.__init__": [
+    "functools.update_wrapper"
+  ],
+  "functools.update_wrapper": [],
+  "patterns.creational.lazy_evaluation.lazy_property.__get__": [],
+  "patterns.creational.lazy_evaluation.lazy_property2": [],
+  "patterns.creational.lazy_evaluation.lazy_property2._lazy_property": [
+    "<builtin>.hasattr",
+    "<builtin>.getattr",
+    "patterns.creational.lazy_evaluation.Person.parents",
+    "<builtin>.setattr"
+  ],
+  "patterns.creational.lazy_evaluation.Person.parents": [],
+  "patterns.creational.lazy_evaluation.Person.__init__": [],
+  "patterns.creational.lazy_evaluation.Person": [
+    "patterns.creational.lazy_evaluation.lazy_property",
+    "patterns.creational.lazy_evaluation.lazy_property2"
+  ],
+  "patterns.creational.lazy_evaluation.lazy_property": [],
+  "patterns.creational.lazy_evaluation.Person.relatives": [],
+  "patterns.creational.lazy_evaluation.main": [],
+  "patterns.creational.builder": [
+    "doctest.testmod"
+  ],
+  "patterns.creational.builder.Building.__init__": [
+    "patterns.creational.builder.Building.build_floor",
+    "patterns.creational.builder.Building.build_size"
+  ],
+  "patterns.creational.builder.Building.build_floor": [],
+  "patterns.creational.builder.Building.build_size": [],
+  "patterns.creational.builder.Building.__repr__": [],
+  "patterns.creational.builder.House.build_floor": [],
+  "patterns.creational.builder.House.build_size": [],
+  "patterns.creational.builder.Flat.build_floor": [],
+  "patterns.creational.builder.Flat.build_size": [],
+  "patterns.creational.builder.ComplexBuilding.__repr__": [],
+  "patterns.creational.builder.ComplexHouse.build_floor": [],
+  "patterns.creational.builder.ComplexHouse.build_size": [],
+  "patterns.creational.builder.construct_building": [],
+  "patterns.creational.builder.main": [],
+  "patterns.creational.abstract_factory": [
+    "random.seed",
+    "doctest.testmod",
+    "patterns.creational.abstract_factory.PetShop.__init__"
+  ],
+  "patterns.creational.abstract_factory.Pet.__init__": [],
+  "patterns.creational.abstract_factory.Pet.speak": [],
+  "patterns.creational.abstract_factory.Pet.__str__": [],
+  "patterns.creational.abstract_factory.Dog.speak": [
+    "<builtin>.print"
+  ],
+  "patterns.creational.abstract_factory.Dog.__str__": [],
+  "patterns.creational.abstract_factory.Cat.speak": [
+    "<builtin>.print"
+  ],
+  "patterns.creational.abstract_factory.Cat.__str__": [],
+  "patterns.creational.abstract_factory.PetShop.__init__": [],
+  "patterns.creational.abstract_factory.PetShop.buy_pet": [
+    "patterns.creational.abstract_factory.random_animal",
+    "<builtin>.print"
+  ],
+  "patterns.creational.abstract_factory.random_animal": [
+    "random.choice"
+  ],
+  "random.choice": [],
+  "patterns.creational.abstract_factory.main": []
+}

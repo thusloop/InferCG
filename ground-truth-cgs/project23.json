@@ -1,0 +1,54 @@
+{
+  "arrow.locales.Locale.__init_subclass__": [
+    "str.lower",
+    "str.replace"
+  ],
+  "arrow.locales": [
+    "dict.copy",
+    "dict.copy"
+  ],
+  "arrow.constants": [
+    "datetime.timestamp",
+    "datetime.toordinal"
+  ],
+  "arrow.formatter": [
+    "re.compile"
+  ],
+  "arrow.parser": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "arrow.arrow": [
+    "arrow.arrow.Arrow.fromdatetime",
+    "arrow.arrow.Arrow.fromdatetime"
+  ],
+  "arrow.arrow.Arrow.fromdatetime": [
+    "dateutil.tz.tz.tzutc",
+    "builtins.getattr",
+    "arrow.arrow.Arrow"
+  ],
+  "arrow.arrow.Arrow.__init__": [
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "builtins.isinstance",
+    "dict.get",
+    "datetime.datetime"
+  ],
+  "arrow.api": [
+    "arrow.factory.ArrowFactory"
+  ]
+}

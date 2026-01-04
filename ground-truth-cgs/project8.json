@@ -1,0 +1,183 @@
+{
+  "dh_virtualenv.deployment": [
+    "str.join"
+  ],
+  "dh_virtualenv.cmdline.DebhelperOptionParser.parse_args": [
+    "optparse.OptionParser._get_args",
+    "str.startswith",
+    "collections.abc.Mapping.get",
+    "str.split",
+    "list.extend",
+    "optparse.OptionParser.parse_args",
+    "optparse.OptionContainer.has_option",
+    "<MagicMock name='get' id='140340692674560'>"
+  ],
+  "dh_virtualenv.cmdline.get_default_parser": [
+    "dh_virtualenv.cmdline.DebhelperOptionParser",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option",
+    "optparse.OptionContainer.add_option"
+  ],
+  "dh_virtualenv.cmdline._check_for_deprecated_options": [
+    "warnings.catch_warnings",
+    "warnings.simplefilter",
+    "_warnings.warn",
+    "warnings.catch_warnings",
+    "warnings.simplefilter",
+    "_warnings.warn",
+    "builtins.getattr",
+    "builtins.setattr",
+    "optparse.OptionValueError",
+    "optparse.OptionValueError"
+  ],
+  "dh_virtualenv.cmdline._set_setuptools": [
+    "optparse.OptionValueError"
+  ],
+  "dh_virtualenv.cmdline._set_builtin_venv": [
+    "optparse.OptionValueError"
+  ],
+  "dh_virtualenv.deployment.Deployment.__init__": [
+    "collections.abc.Mapping.get",
+    "str.lstrip",
+    "posixpath.join",
+    "posixpath.join",
+    "posixpath.join",
+    "posixpath.join",
+    "posixpath.join",
+    "tempfile.NamedTemporaryFile",
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "list.extend",
+    "posixpath.abspath",
+    "str.format",
+    "list.append",
+    "list.extend",
+    "test.test_deployment.FakeTemporaryFile",
+    "list.append",
+    "str.format",
+    "str.format",
+    "list.append",
+    "<MagicMock name='get' id='140340692674560'>"
+  ],
+  "dh_virtualenv.deployment.Deployment.venv_bin": [
+    "posixpath.join",
+    "posixpath.abspath",
+    "<MagicMock name='join' id='140340692522688'>"
+  ],
+  "dh_virtualenv.deployment.Deployment.fix_shebangs": [
+    "posixpath.join",
+    "dh_virtualenv.deployment.Deployment.find_script_files",
+    "re.escape",
+    "str.format",
+    "subprocess.Popen",
+    "subprocess.check_call"
+  ],
+  "dh_virtualenv.deployment.Deployment.find_script_files": [
+    "str.format",
+    "str.format",
+    "subprocess.Popen",
+    "subprocess.Popen.communicate",
+    "bytes.decode",
+    "str.strip",
+    "str.split"
+  ],
+  "dh_virtualenv.deployment.Deployment.install_dependencies": [
+    "posixpath.join",
+    "test.test_deployment.<lambda>",
+    "dh_virtualenv.deployment.Deployment.pip",
+    "<MagicMock name='check_call' id='140340699286784'>",
+    "dh_virtualenv.deployment.Deployment.pip_preinstall",
+    "<MagicMock name='check_call' id='140340691951072'>",
+    "genericpath.exists",
+    "<MagicMock name='check_call' id='140340692600192'>",
+    "<MagicMock name='check_call' id='140340691482752'>",
+    "<MagicMock name='check_call' id='140340691482752'>",
+    "<MagicMock name='check_call' id='140340692704928'>",
+    "<MagicMock name='check_call' id='140340692704928'>",
+    "<MagicMock name='check_call' id='140340691850800'>",
+    "<MagicMock name='exists' id='140340691846912'>",
+    "<MagicMock name='check_call' id='140340691850800'>",
+    "<MagicMock name='check_call' id='140340691414480'>"
+  ],
+  "dh_virtualenv.deployment.Deployment.pip": [
+    "builtins.list"
+  ],
+  "dh_virtualenv.deployment.Deployment.pip_preinstall": [
+    "builtins.list"
+  ],
+  "dh_virtualenv.deployment.Deployment.install_package": [
+    "dh_virtualenv.deployment.Deployment.pip",
+    "posixpath.abspath",
+    "<MagicMock name='check_call' id='140340691850800'>",
+    "<MagicMock name='check_call' id='140340692433744'>",
+    "<MagicMock name='check_call' id='140340691414480'>"
+  ],
+  "dh_virtualenv.deployment.Deployment.create_virtualenv": [
+    "list.append",
+    "<MagicMock name='check_call' id='140340692426640'>",
+    "list.append",
+    "<MagicMock name='check_call' id='140340692677920'>",
+    "<MagicMock name='check_call' id='140340692390032'>",
+    "list.extend",
+    "<MagicMock name='check_call' id='140340692606000'>",
+    "<MagicMock name='check_call' id='140340691336304'>",
+    "<MagicMock name='check_call' id='140340690360384'>",
+    "list.append",
+    "<MagicMock name='check_call' id='140340690975904'>",
+    "list.append",
+    "<MagicMock name='check_call' id='140340692373744'>",
+    "list.extend",
+    "<MagicMock name='check_call' id='140340691381232'>",
+    "<MagicMock name='check_call' id='140340692420016'>",
+    "<MagicMock name='check_call' id='140340691414480'>"
+  ],
+  "dh_virtualenv.deployment.Deployment.fix_activate_path": [
+    "str.format",
+    "str.format",
+    "str.format",
+    "re.compile",
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "io.open",
+    "TextIOWrapper.read",
+    "Pattern.sub",
+    "TextIOWrapper.seek",
+    "TextIOWrapper.truncate",
+    "TextIOWrapper.write"
+  ],
+  "dh_virtualenv.deployment.Deployment.run_tests": [
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "posixpath.join",
+    "test.test_deployment.<lambda>",
+    "<MagicMock name='check_call' id='140340691572752'>"
+  ],
+  "dh_virtualenv.deployment.Deployment.from_options": [
+    "collections.abc.Mapping.get",
+    "dh_virtualenv.deployment.Deployment",
+    "<MagicMock name='get' id='140340692674560'>"
+  ]
+}

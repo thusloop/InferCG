@@ -1,0 +1,271 @@
+{
+    "rich_cli.markdown": [
+        "rich_cli.markdown.CodeBlock"
+    ],
+    "rich_cli.pager": [
+        "rich_cli.pager.PagerRenderable",
+        "rich_cli.pager.PagerApp"
+    ],
+    "rich_cli.__main__": [
+        "rich_cli.__main__.ForceWidth",
+        "<builtin>.sorted",
+        "rich_cli.__main__.run",
+        "<**PyStr**>.join",
+        "rich_cli.__main__.RichCommand"
+    ],
+    "contextlib": [
+        "contextlib._AsyncGeneratorContextManager",
+        "contextlib.ExitStack",
+        "contextlib.suppress",
+        "contextlib.redirect_stderr",
+        "contextlib._RedirectStream",
+        "contextlib.AbstractAsyncContextManager",
+        "contextlib.nullcontext",
+        "contextlib._GeneratorContextManagerBase",
+        "contextlib.redirect_stdout",
+        "contextlib._BaseExitStack",
+        "contextlib.ContextDecorator",
+        "contextlib.AbstractContextManager",
+        "contextlib.AsyncExitStack",
+        "contextlib._GeneratorContextManager",
+        "contextlib.closing"
+    ],
+    "csv": [
+        "csv.excel_tab",
+        "csv.Dialect",
+        "csv.unix_dialect",
+        "csv.DictReader",
+        "csv.Sniffer",
+        "csv.excel",
+        "csv.DictWriter"
+    ],
+    "enum": [
+        "enum._EnumDict",
+        "enum.Flag",
+        "enum.auto",
+        "enum.EnumMeta",
+        "enum.Enum",
+        "enum.IntFlag",
+        "enum.IntEnum"
+    ],
+    "io": [
+        "io.BufferedIOBase",
+        "io.RawIOBase",
+        "io.TextIOBase",
+        "io.IOBase"
+    ],
+    "operator": [
+        "operator.methodcaller",
+        "operator.attrgetter",
+        "operator.itemgetter"
+    ],
+    "os": [
+        "os._wrap_close",
+        "os._Environ",
+        "os.PathLike",
+        "os._AddedDllDirectory"
+    ],
+    "platform": [
+        "platform._Processor",
+        "platform.uname_result"
+    ],
+    "re": [
+        "re.RegexFlag",
+        "re.Scanner"
+    ],
+    "ctypes.wintypes": [
+        "ctypes.wintypes.WIN32_FIND_DATAA",
+        "ctypes.wintypes.POINT",
+        "ctypes.wintypes.RECT",
+        "ctypes.wintypes.SIZE",
+        "ctypes.wintypes.WIN32_FIND_DATAW",
+        "ctypes.wintypes._SMALL_RECT",
+        "ctypes.wintypes.VARIANT_BOOL",
+        "ctypes.wintypes.MSG",
+        "ctypes.wintypes.FILETIME",
+        "ctypes.wintypes._COORD"
+    ],
+    "ctypes._endian": [
+        "ctypes._endian._swapped_meta",
+        "ctypes._endian.LittleEndianStructure",
+        "ctypes._endian.BigEndianStructure"
+    ],
+    "ctypes": [
+        "ctypes.c_float",
+        "ctypes.c_char",
+        "ctypes.c_byte",
+        "ctypes.c_long",
+        "ctypes.CDLL",
+        "ctypes.c_void_p",
+        "ctypes.c_char_p",
+        "ctypes.WinDLL",
+        "ctypes.c_int",
+        "ctypes.c_short",
+        "ctypes.c_uint",
+        "ctypes.c_double",
+        "ctypes.c_ulonglong",
+        "ctypes.c_ulong",
+        "ctypes.c_wchar_p",
+        "ctypes.PyDLL",
+        "ctypes.c_ushort",
+        "ctypes.c_ubyte",
+        "ctypes.OleDLL",
+        "ctypes.py_object",
+        "ctypes.c_longlong",
+        "ctypes.c_bool",
+        "ctypes.c_longdouble",
+        "ctypes.LibraryLoader",
+        "ctypes.HRESULT",
+        "ctypes.c_wchar"
+    ],
+    "json.decoder": [
+        "json.decoder.JSONDecodeError",
+        "json.decoder.JSONDecoder"
+    ],
+    "json.encoder": [
+        "json.encoder.JSONEncoder"
+    ],
+    "urllib.error": [
+        "urllib.error.URLError",
+        "urllib.error.HTTPError",
+        "urllib.error.ContentTooShortError"
+    ],
+    "urllib.parse": [
+        "urllib.parse._NetlocResultMixinStr",
+        "urllib.parse._NetlocResultMixinBytes",
+        "urllib.parse.DefragResultBytes",
+        "urllib.parse.DefragResult",
+        "urllib.parse._NetlocResultMixinBase",
+        "urllib.parse.ParseResultBytes",
+        "urllib.parse.ParseResult",
+        "urllib.parse.SplitResult",
+        "urllib.parse.Quoter",
+        "urllib.parse._ResultMixinStr",
+        "urllib.parse.SplitResultBytes",
+        "urllib.parse._ResultMixinBytes"
+    ],
+    "urllib.request": [
+        "urllib.request.HTTPCookieProcessor",
+        "urllib.request.ProxyDigestAuthHandler",
+        "urllib.request.CacheFTPHandler",
+        "urllib.request.HTTPPasswordMgr",
+        "urllib.request.HTTPBasicAuthHandler",
+        "urllib.request.OpenerDirector",
+        "urllib.request.FileHandler",
+        "urllib.request.HTTPErrorProcessor",
+        "urllib.request.HTTPSHandler",
+        "urllib.request.Request",
+        "urllib.request.HTTPDefaultErrorHandler",
+        "urllib.request.HTTPDigestAuthHandler",
+        "urllib.request.AbstractDigestAuthHandler",
+        "urllib.request.ProxyHandler",
+        "urllib.request.DataHandler",
+        "urllib.request.FancyURLopener",
+        "urllib.request.ftpwrapper",
+        "urllib.request.HTTPHandler",
+        "urllib.request.HTTPPasswordMgrWithDefaultRealm",
+        "urllib.request.ProxyBasicAuthHandler",
+        "urllib.request.BaseHandler",
+        "urllib.request.HTTPPasswordMgrWithPriorAuth",
+        "urllib.request.FTPHandler",
+        "urllib.request.AbstractBasicAuthHandler",
+        "urllib.request.UnknownHandler",
+        "urllib.request.HTTPRedirectHandler",
+        "urllib.request.URLopener",
+        "urllib.request.AbstractHTTPHandler"
+    ],
+    "urllib.response": [
+        "urllib.response.addinfourl",
+        "urllib.response.addinfo",
+        "urllib.response.addbase",
+        "urllib.response.addclosehook"
+    ],
+    "urllib.robotparser": [
+        "urllib.robotparser.Entry",
+        "urllib.robotparser.RuleLine",
+        "urllib.robotparser.RobotFileParser"
+    ],
+    "rich_cli.markdown.CodeBlock.create": [
+        "<**PyStr**>.partition",
+        "rich_cli.markdown.CodeBlock"
+    ],
+    "rich_cli.__main__.read_resource": [
+        "<**PyStr**>.split",
+        "<**PyStr**>.lower",
+        "rich_cli.__main__.on_error",
+        "<**PyStr**>.startswith",
+        "<**PyStr**>.rpartition",
+        "<builtin>.open",
+        "<**PyFile**>.read",
+        "<**PyDict**>.get"
+    ],
+    "rich_cli.__main__.RichCommand.format_help": [
+        "rich_cli.__main__.blend_text",
+        "<**PyStr**>.join",
+        "<builtin>.len",
+        "rich_cli.__main__.RichCommand.format_help.OptionHighlighter",
+        "<builtin>.reversed"
+    ],
+    "rich_cli.__main__.main": [
+        "<**PyStr**>.split",
+        "<builtin>.bool",
+        "<**PyStr**>.lower",
+        "<builtin>.int",
+        "rich_cli.__main__.on_error",
+        "rich_cli.__main__._line_range",
+        "<**PyStr**>.startswith",
+        "rich_cli.__main__.render_ipynb",
+        "<**PyStr**>.splitlines",
+        "<builtin>.getattr",
+        "<builtin>.eval",
+        "rich_cli.__main__.main.print_usage",
+        "<builtin>.len",
+        "rich_cli.__main__.read_resource",
+        "<**PyFile**>.read",
+        "rich_cli.__main__.render_csv"
+    ],
+    "rich_cli.__main__.render_csv": [
+        "<builtin>.str",
+        "<**PyStr**>.lower",
+        "<builtin>.iter",
+        "rich_cli.__main__.on_error",
+        "<**PyStr**>.endswith",
+        "<builtin>.enumerate",
+        "rich_cli.__main__.read_resource",
+        "<builtin>.next"
+    ],
+    "rich_cli.__main__.render_ipynb": [
+        "rich_cli.__main__._line_range",
+        "<**PyStr**>.splitlines",
+        "<**PyStr**>.join",
+        "<**PyStr**>.rstrip",
+        "<builtin>.len",
+        "rich_cli.__main__.read_resource",
+        "<**PyList**>.append",
+        "<**PyDict**>.get",
+        "<builtin>.isinstance"
+    ],
+    "rich_cli.__main__._line_range": [
+        "rich_cli.__main__.on_error"
+    ],
+    "rich_cli.__main__.run": [
+        "rich_cli.__main__.main"
+    ],
+    "rich_cli.markdown.CodeBlock.__rich_console__": [
+        "<builtin>.str",
+        "<**PyStr**>.rstrip"
+    ],
+    "rich_cli.pager.PagerRenderable.__init__": [
+        "<builtin>.list"
+    ],
+    "rich_cli.pager.PagerApp.__init__": [
+        "<builtin>.super"
+    ],
+    "rich_cli.__main__.on_error": [
+        "<builtin>.str"
+    ],
+    "rich_cli.__main__.blend_text": [
+        "<builtin>.range",
+        "<builtin>.len"
+    ]
+}

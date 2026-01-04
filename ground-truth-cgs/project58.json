@@ -1,0 +1,73 @@
+{
+  "src.structlog.contextvars": [
+    "builtins.len"
+  ],
+  "src.structlog._log_levels": [
+    "dict.items",
+    "structlog._log_levels._make_filtering_bound_logger",
+    "structlog._log_levels._make_filtering_bound_logger",
+    "structlog._log_levels._make_filtering_bound_logger",
+    "structlog._log_levels._make_filtering_bound_logger",
+    "structlog._log_levels._make_filtering_bound_logger",
+    "structlog._log_levels._make_filtering_bound_logger"
+  ],
+  "src.structlog._log_levels._make_filtering_bound_logger": [
+    "dict.items",
+    "structlog._log_levels._make_filtering_bound_logger.<locals>.make_method",
+    "dict.get",
+    "str.capitalize",
+    "builtins.type"
+  ],
+  "src.structlog.tracebacks": [
+    "dataclasses.field"
+  ],
+  "src.structlog.processors": [
+    "structlog.processors.ExceptionRenderer",
+    "structlog.tracebacks.ExceptionDictTransformer",
+    "structlog.processors.ExceptionRenderer",
+    "builtins.set"
+  ],
+  "src.structlog.dev": [
+    "structlog.dev.RichTracebackFormatter",
+    "builtins.object"
+  ],
+  "src.structlog._config": [
+    "structlog.processors.StackInfoRenderer",
+    "structlog.processors.TimeStamper",
+    "collections.abc.Mapping.get",
+    "collections.abc.Mapping.get",
+    "builtins.hasattr",
+    "EncodedFile.isatty",
+    "structlog.dev.ConsoleRenderer",
+    "typing.cast",
+    "structlog._log_levels.make_filtering_bound_logger",
+    "structlog._output.PrintLoggerFactory",
+    "structlog._config._Configuration"
+  ],
+  "src.structlog.processors.TimeStamper.__init__": [
+    "structlog.processors._make_stamper"
+  ],
+  "src.structlog.processors._make_stamper": [
+    "str.upper"
+  ],
+  "src.structlog.dev.ConsoleRenderer.__init__": [
+    "structlog.dev.ConsoleRenderer.get_default_level_styles",
+    "dict.keys",
+    "builtins.max",
+    "builtins.len",
+    "builtins.len"
+  ],
+  "src.structlog.stdlib": [
+    "builtins.object",
+    "logging.LogRecord",
+    "dict.keys"
+  ],
+  "src.structlog.threadlocal": [
+    "structlog.threadlocal._determine_threadlocal",
+    "typing.TypeVar",
+    "_thread._local"
+  ],
+  "src.structlog.__init__.__getattr__": [
+    "builtins.AttributeError"
+  ]
+}

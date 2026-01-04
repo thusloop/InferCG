@@ -1,0 +1,140 @@
+{
+  "setup": [
+    "distutils.core.setup"
+  ],
+  "distutils.core.setup": [],
+  "pickledb": [],
+  "pickledb.load": [
+    "pickledb.PickleDB.__init__"
+  ],
+  "pickledb.PickleDB.__init__": [
+    "pickledb.PickleDB.set_sigterm_handler",
+    "pickledb.PickleDB.load"
+  ],
+  "<builtin>.TypeError": [],
+  "pickledb.PickleDB": [
+    "<builtin>.TypeError"
+  ],
+  "pickledb.PickleDB.load": [
+    "pickledb.PickleDB._loaddb",
+    "os.path.exists",
+    "os.path.expanduser"
+  ],
+  "pickledb.PickleDB.set_sigterm_handler": [
+    "signal.signal"
+  ],
+  "pickledb.PickleDB.__getitem__": [
+    "pickledb.PickleDB.get"
+  ],
+  "pickledb.PickleDB.get": [],
+  "pickledb.PickleDB.__setitem__": [
+    "pickledb.PickleDB.set"
+  ],
+  "pickledb.PickleDB.set": [
+    "<builtin>.isinstance",
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.__delitem__": [
+    "pickledb.PickleDB.rem"
+  ],
+  "pickledb.PickleDB.rem": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.set_sigterm_handler.sigterm_handler": [
+    "sys.exit",
+    "threading.Thread.join"
+  ],
+  "threading.Thread.join": [],
+  "sys.exit": [],
+  "signal.signal": [],
+  "os.path.expanduser": [],
+  "os.path.exists": [],
+  "pickledb.PickleDB._loaddb": [
+    "json.load",
+    "<builtin>.open",
+    "os.stat"
+  ],
+  "pickledb.PickleDB.dump": [
+    "json.dump",
+    "<builtin>.open",
+    "threading.Thread",
+    "threading.Thread.start",
+    "threading.Thread.join"
+  ],
+  "<builtin>.open": [],
+  "json.dump": [],
+  "threading.Thread": [],
+  "threading.Thread.start": [],
+  "json.load": [],
+  "os.stat": [],
+  "pickledb.PickleDB._autodumpdb": [
+    "pickledb.PickleDB.dump"
+  ],
+  "<builtin>.isinstance": [],
+  "pickledb.PickleDB.getall": [
+    "json.load.keys"
+  ],
+  "json.load.keys": [],
+  "pickledb.PickleDB.exists": [],
+  "pickledb.PickleDB.totalkeys": [
+    "<builtin>.len"
+  ],
+  "<builtin>.len": [],
+  "pickledb.PickleDB.append": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.lcreate": [
+    "<builtin>.isinstance",
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.ladd": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.lextend": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.lgetall": [],
+  "pickledb.PickleDB.lget": [],
+  "pickledb.PickleDB.lrange": [],
+  "pickledb.PickleDB.lremlist": [
+    "<builtin>.len",
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.lremvalue": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.lpop": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.llen": [
+    "<builtin>.len"
+  ],
+  "pickledb.PickleDB.lappend": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.lexists": [],
+  "pickledb.PickleDB.dcreate": [
+    "<builtin>.isinstance",
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.dadd": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.dget": [],
+  "pickledb.PickleDB.dgetall": [],
+  "pickledb.PickleDB.drem": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.dpop": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.dkeys": [],
+  "pickledb.PickleDB.dvals": [],
+  "pickledb.PickleDB.dexists": [],
+  "pickledb.PickleDB.dmerge": [
+    "pickledb.PickleDB._autodumpdb"
+  ],
+  "pickledb.PickleDB.deldb": [
+    "pickledb.PickleDB._autodumpdb"
+  ]
+}

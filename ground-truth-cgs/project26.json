@@ -1,0 +1,451 @@
+{
+  "seaborn.external.version": [
+    "seaborn.external.version.InfinityType",
+    "seaborn.external.version.NegativeInfinityType",
+    "collections.namedtuple",
+    "re.compile",
+    "re.compile"
+  ],
+  "seaborn.external.appdirs": [
+    "str.split",
+    "builtins.int",
+    "str.startswith"
+  ],
+  "seaborn.palettes": [
+    "builtins.dict",
+    "dict.copy",
+    "dict.items",
+    "builtins.len",
+    "dict.update",
+    "dict.keys",
+    "builtins.list"
+  ],
+  "seaborn.rcmod": [
+    "builtins.staticmethod",
+    "builtins.staticmethod"
+  ],
+  "seaborn._decorators.share_init_params_with_map": [
+    "inspect.signature",
+    "inspect.signature",
+    "mappingproxy.items",
+    "list.insert",
+    "inspect.Signature.replace",
+    "builtins.classmethod"
+  ],
+  "seaborn.external.docscrape": [
+    "collections.namedtuple",
+    "str.replace",
+    "str.replace",
+    "re.compile",
+    "re.compile"
+  ],
+  "seaborn._docstrings": [
+    "re.compile",
+    "builtins.dict",
+    "builtins.dict",
+    "builtins.dict",
+    "seaborn._docstrings.DocstringComponents",
+    "seaborn._docstrings.DocstringComponents",
+    "seaborn._docstrings.DocstringComponents",
+    "builtins.dict"
+  ],
+  "seaborn._docstrings.DocstringComponents.__init__": [
+    "dict.items",
+    "re.match",
+    "Match.group",
+    "dict.copy"
+  ],
+  "seaborn._docstrings.DocstringComponents.from_nested_components": [
+    "seaborn._docstrings.DocstringComponents"
+  ],
+  "seaborn.relational": [
+    "builtins.dict",
+    "seaborn._docstrings.DocstringComponents",
+    "builtins.dict",
+    "seaborn._docstrings.DocstringComponents",
+    "seaborn._docstrings.DocstringComponents",
+    "seaborn._docstrings.DocstringComponents.from_function_params",
+    "seaborn._docstrings.DocstringComponents.from_nested_components",
+    "str.format",
+    "str.format",
+    "str.format"
+  ],
+  "seaborn._docstrings.DocstringComponents.from_function_params": [
+    "pydoc.getdoc",
+    "seaborn.external.docscrape.NumpyDocString",
+    "str.join",
+    "seaborn._docstrings.DocstringComponents"
+  ],
+  "seaborn.external.docscrape.NumpyDocString.__init__": [
+    "textwrap.dedent",
+    "str.split",
+    "seaborn.external.docscrape.Reader",
+    "copy.deepcopy",
+    "seaborn.external.docscrape.NumpyDocString._parse"
+  ],
+  "seaborn.external.docscrape.Reader.__init__": [
+    "builtins.isinstance",
+    "seaborn.external.docscrape.Reader.reset"
+  ],
+  "seaborn.external.docscrape.NumpyDocString._parse": [
+    "seaborn.external.docscrape.Reader.reset",
+    "seaborn.external.docscrape.NumpyDocString._parse_summary",
+    "seaborn.external.docscrape.NumpyDocString._read_sections",
+    "builtins.list",
+    "str.startswith",
+    "str.split",
+    "str.join",
+    "str.capitalize",
+    "collections.abc.Mapping.get",
+    "seaborn.external.docscrape.NumpyDocString._parse_param_list"
+  ],
+  "seaborn.external.docscrape.NumpyDocString._parse_summary": [
+    "seaborn.external.docscrape.NumpyDocString._is_at_section",
+    "seaborn.external.docscrape.Reader.read_to_next_empty_line",
+    "str.strip",
+    "str.join",
+    "re.compile",
+    "Pattern.match",
+    "seaborn.external.docscrape.NumpyDocString._is_at_section"
+  ],
+  "seaborn.external.docscrape.NumpyDocString._is_at_section": [
+    "seaborn.external.docscrape.Reader.seek_next_non_empty_line",
+    "seaborn.external.docscrape.Reader.eof",
+    "seaborn.external.docscrape.Reader.peek",
+    "str.strip",
+    "str.startswith",
+    "seaborn.external.docscrape.Reader.peek",
+    "str.strip",
+    "builtins.len",
+    "str.startswith"
+  ],
+  "seaborn.external.docscrape.Reader.seek_next_non_empty_line": [
+    "str.strip"
+  ],
+  "seaborn.external.docscrape.Reader.eof": [
+    "builtins.len"
+  ],
+  "seaborn.external.docscrape.Reader.peek": [
+    "builtins.len"
+  ],
+  "seaborn.external.docscrape.Reader.read_to_next_empty_line": [
+    "seaborn.external.docscrape.Reader.seek_next_non_empty_line",
+    "seaborn.external.docscrape.Reader.read_to_condition"
+  ],
+  "seaborn.external.docscrape.Reader.read_to_condition": [
+    "seaborn.external.docscrape.Reader.read_to_next_empty_line.<locals>.is_empty",
+    "seaborn.external.docscrape.Reader.eof",
+    "seaborn.external.docscrape.Reader.read_to_next_unindented_line.<locals>.is_unindented"
+  ],
+  "seaborn.external.docscrape.Reader.is_empty": [
+    "str.strip"
+  ],
+  "seaborn.external.docscrape.NumpyDocString._read_sections": [
+    "seaborn.external.docscrape.Reader.eof",
+    "seaborn.external.docscrape.NumpyDocString._read_to_next_section",
+    "str.strip",
+    "str.startswith",
+    "builtins.len",
+    "seaborn.external.docscrape.NumpyDocString._strip"
+  ],
+  "seaborn.external.docscrape.NumpyDocString._read_to_next_section": [
+    "seaborn.external.docscrape.Reader.read_to_next_empty_line",
+    "seaborn.external.docscrape.NumpyDocString._is_at_section",
+    "seaborn.external.docscrape.Reader.eof",
+    "seaborn.external.docscrape.Reader.peek",
+    "str.strip",
+    "seaborn.external.docscrape.Reader.read_to_next_empty_line"
+  ],
+  "seaborn.external.docscrape.NumpyDocString._strip": [
+    "builtins.enumerate",
+    "str.strip",
+    "builtins.enumerate",
+    "str.strip",
+    "builtins.len"
+  ],
+  "seaborn.external.docscrape.NumpyDocString._parse_param_list": [
+    "seaborn.external.docscrape.Reader",
+    "seaborn.external.docscrape.Reader.eof",
+    "seaborn.external.docscrape.Reader.read",
+    "str.strip",
+    "str.split",
+    "seaborn.external.docscrape.Reader.read_to_next_unindented_line",
+    "seaborn.external.docscrape.dedent_lines",
+    "seaborn.external.docscrape.strip_blank_lines",
+    "dynapyt.runtime.Parameter",
+    "list.append"
+  ],
+  "seaborn.external.docscrape.Reader.read": [
+    "seaborn.external.docscrape.Reader.eof"
+  ],
+  "seaborn.external.docscrape.Reader.read_to_next_unindented_line": [
+    "seaborn.external.docscrape.Reader.read_to_condition"
+  ],
+  "seaborn.external.docscrape.Reader.is_unindented": [
+    "str.strip",
+    "str.lstrip",
+    "builtins.len"
+  ],
+  "seaborn.external.docscrape.dedent_lines": [
+    "str.join",
+    "textwrap.dedent",
+    "str.split"
+  ],
+  "seaborn.external.docscrape.strip_blank_lines": [
+    "str.strip",
+    "str.strip"
+  ],
+  "seaborn.regression": [
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "textwrap.dedent",
+    "builtins.dict",
+    "dict.update",
+    "textwrap.dedent",
+    "str.format",
+    "textwrap.dedent",
+    "str.format"
+  ],
+  "seaborn._core.typing": [
+    "seaborn._core.typing.Default"
+  ],
+  "seaborn.distributions": [
+    "builtins.dict",
+    "seaborn._docstrings.DocstringComponents",
+    "seaborn._docstrings.DocstringComponents",
+    "seaborn._docstrings.DocstringComponents.from_function_params",
+    "seaborn._docstrings.DocstringComponents.from_function_params",
+    "seaborn._docstrings.DocstringComponents.from_function_params",
+    "seaborn._docstrings.DocstringComponents.from_nested_components",
+    "str.format",
+    "str.format",
+    "str.format",
+    "str.format",
+    "str.format"
+  ],
+  "seaborn.cm": [
+    "builtins.dict",
+    "dict.items",
+    "matplotlib.colors.ListedColormap",
+    "matplotlib.colors.ListedColormap",
+    "seaborn._compat.register_colormap",
+    "seaborn._compat.register_colormap"
+  ],
+  "seaborn.__init__": [
+    "matplotlib.RcParams.copy"
+  ],
+  "seaborn.utils._version_predates": [
+    "seaborn.external.version.Version"
+  ],
+  "seaborn.external.version.Version.__init__": [
+    "Pattern.search",
+    "Match.group",
+    "Match.group",
+    "str.split",
+    "builtins.int",
+    "Match.group",
+    "seaborn.external.version._parse_letter_version",
+    "Match.group",
+    "seaborn.external.version._parse_letter_version",
+    "Match.group",
+    "seaborn.external.version._parse_letter_version",
+    "Match.group",
+    "seaborn.external.version._parse_local_version",
+    "dynapyt.runtime._Version",
+    "seaborn.external.version._cmpkey"
+  ],
+  "seaborn.external.version._cmpkey": [
+    "builtins.reversed",
+    "itertools.dropwhile",
+    "builtins.list",
+    "builtins.tuple"
+  ],
+  "seaborn.external.version._BaseVersion.__lt__": [
+    "builtins.isinstance"
+  ],
+  "seaborn.palettes.color_palette": [
+    "builtins.isinstance",
+    "str.lower",
+    "str.startswith",
+    "str.startswith",
+    "str.startswith",
+    "str.startswith",
+    "seaborn.palettes.mpl_palette",
+    "itertools.cycle",
+    "builtins.range",
+    "builtins.next",
+    "builtins.map",
+    "seaborn.palettes._ColorPalette",
+    "dict.get"
+  ],
+  "seaborn.palettes.mpl_palette": [
+    "str.endswith",
+    "seaborn._compat.get_colormap",
+    "numpy.linspace",
+    "<matplotlib.colors.ListedColormap object at 0x7f26d5f283d0>",
+    "builtins.map",
+    "builtins.list",
+    "seaborn.palettes._ColorPalette",
+    "<matplotlib.colors.ListedColormap object at 0x7f26d6b9ea10>"
+  ],
+  "seaborn._core.properties": [
+    "seaborn._compat.MarkerStyle",
+    "dict.items",
+    "seaborn._core.properties.Coordinate",
+    "seaborn._core.properties.Color",
+    "seaborn._core.properties.Alpha",
+    "seaborn._core.properties.Fill",
+    "seaborn._core.properties.Marker",
+    "seaborn._core.properties.PointSize",
+    "seaborn._core.properties.Stroke",
+    "seaborn._core.properties.LineWidth",
+    "seaborn._core.properties.LineStyle",
+    "seaborn._core.properties.EdgeWidth",
+    "seaborn._core.properties.Property",
+    "seaborn._core.properties.HorizontalAlignment",
+    "seaborn._core.properties.VerticalAlignment",
+    "seaborn._core.properties.Offset",
+    "seaborn._core.properties.FontSize"
+  ],
+  "seaborn._marks.base": [
+    "dataclasses.field"
+  ],
+  "seaborn._core.moves": [
+    "seaborn._core.typing.Default"
+  ],
+  "seaborn.rcmod.axes_style": [
+    "builtins.isinstance",
+    "dict.update",
+    "str.startswith",
+    "dict.update",
+    "dict.update",
+    "dict.items",
+    "seaborn.rcmod._AxesStyle"
+  ],
+  "seaborn.rcmod.plotting_context": [
+    "builtins.isinstance",
+    "dict.update",
+    "builtins.dict",
+    "dict.items",
+    "dict.keys",
+    "dict.update",
+    "seaborn.rcmod._PlottingContext"
+  ],
+  "seaborn._marks.area": [
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable"
+  ],
+  "seaborn._marks.base.document_properties": [
+    "dataclasses.fields",
+    "builtins.isinstance",
+    "str.join",
+    "textwrap.fill",
+    "str.split",
+    "str.join"
+  ],
+  "seaborn._marks.bar": [
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable"
+  ],
+  "seaborn._marks.dot": [
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable"
+  ],
+  "seaborn._marks.line": [
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable"
+  ],
+  "seaborn._marks.text": [
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable",
+    "seaborn._marks.base.Mappable"
+  ],
+  "seaborn._core.properties.LineStyle._get_dash_pattern": [
+    "builtins.isinstance",
+    "dict.get",
+    "builtins.tuple",
+    "builtins.sum",
+    "builtins.isinstance",
+    "builtins.len",
+    "builtins.isinstance",
+    "builtins.len"
+  ]
+}

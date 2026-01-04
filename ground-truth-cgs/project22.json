@@ -1,0 +1,121 @@
+{
+  "decouple": [
+    "decouple.Undefined",
+    "collections.OrderedDict",
+    "decouple.AutoConfig",
+    "configparser.RawConfigParser.read_file"
+  ],
+  "decouple.AutoConfig.__call__": [
+    "<MagicMock name=_caller_path id=140160700335584",
+    "decouple.AutoConfig._load",
+    "<decouple.Config object at 0x7f79b4c5acb0>",
+    "<MagicMock name=_caller_path id=140160698262064>",
+    "<decouple.Config object at 0x7f79b4a43f70>",
+    "<MagicMock name=_caller_path id=140160698974704>",
+    "<decouple.Config object at 0x7f79b49d9cc0>",
+    "decouple.AutoConfig._caller_path",
+    "<decouple.Config object at 0x7f79b4b35540>",
+    "<decouple.Config object at 0x7f79b4be18a0>",
+    "<decouple.Config object at 0x7f79b4a1d7e0>",
+    "<decouple.Config object at 0x7f79b4ce7940>",
+    "<decouple.Config object at 0x7f79b4cfece0>",
+    "<MagicMock name=_caller_path id=140160698409280>",
+    "<decouple.Config object at 0x7f79b49fc2b0>",
+    "<MagicMock name=_caller_path id=140160699092272>",
+    "<decouple.Config object at 0x7f79b4c21c90>"
+  ],
+  "decouple.AutoConfig._load": [
+    "posixpath.abspath",
+    "decouple.AutoConfig._find_file",
+    "posixpath.basename",
+    "OrderedDict.get",
+    "decouple.RepositoryEnv",
+    "decouple.Config",
+    "decouple.RepositoryIni",
+    "decouple.RepositoryEmpty"
+  ],
+  "decouple.AutoConfig._find_file": [
+    "posixpath.join",
+    "genericpath.isfile",
+    "posixpath.dirname",
+    "posixpath.abspath",
+    "decouple.AutoConfig._find_file",
+    "<MagicMock name=isfile id=140160697763008>",
+    "<MagicMock name=isfile id=140160697776640>",
+    "<MagicMock name=isfile id=140160698726960>"
+  ],
+  "decouple.RepositoryEnv.__init__": [
+    "io.open",
+    "str.strip",
+    "str.startswith",
+    "str.split",
+    "str.strip",
+    "str.strip",
+    "builtins.len",
+    "<MagicMock name=open.__qualname__.__radd__().__iadd__() id=140160698283344",
+    "<MagicMock name=open id=140160698458624>"
+  ],
+  "decouple.Config.__call__": [
+    "decouple.Config.get"
+  ],
+  "decouple.Config.get": [
+    "builtins.isinstance",
+    "decouple.Config._cast_do_nothing",
+    "decouple.Config._cast_boolean",
+    "builtins.isinstance",
+    "str.format",
+    "decouple.UndefinedValueError"
+  ],
+  "decouple.RepositoryIni.__init__": [
+    "configparser.ConfigParser",
+    "io.open",
+    "decouple.<lambda>",
+    "<MagicMock name=open.__qualname__.__radd__().__iadd__() id=140160698057488",
+    "<MagicMock name=open id=140160696786496>"
+  ],
+  "decouple.RepositoryIni.__contains__": [
+    "configparser.RawConfigParser.has_option"
+  ],
+  "decouple.RepositoryIni.__getitem__": [
+    "configparser.RawConfigParser.get"
+  ],
+  "decouple.AutoConfig._caller_path": [
+    "sys._getframe",
+    "posixpath.dirname"
+  ],
+  "decouple.Config._cast_boolean": [
+    "builtins.str",
+    "decouple.strtobool",
+    "builtins.bool"
+  ],
+  "decouple.strtobool": [
+    "builtins.isinstance",
+    "str.lower",
+    "builtins.ValueError"
+  ],
+  "decouple.Choices.__init__": [
+    "list.extend",
+    "list.extend"
+  ],
+  "decouple.Choices.__call__": [
+    "builtins.str",
+    "str.format",
+    "builtins.ValueError",
+    "builtins.int"
+  ],
+  "decouple.Csv.__call__": [
+    "shlex.shlex",
+    "decouple.Csv.__call__.<locals>.<lambda>",
+    "str.strip",
+    "builtins.str",
+    "builtins.int",
+    "tests.test_helper_csv.test_csv.<locals>.<lambda>",
+    "builtins.list"
+  ],
+  "decouple.RepositorySecret.__init__": [
+    "posix.listdir",
+    "posixpath.join",
+    "io.open",
+    "TextIOWrapper.read"
+  ]
+}

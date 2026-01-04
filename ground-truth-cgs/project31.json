@@ -1,0 +1,423 @@
+{
+  "geopy.util": [
+    "logging.getLogger"
+  ],
+  "geopy.format": [
+    "builtins.chr",
+    "builtins.chr",
+    "builtins.chr",
+    "builtins.chr",
+    "builtins.zip",
+    "builtins.enumerate",
+    "builtins.enumerate",
+    "geopy.units.meters"
+  ],
+  "geopy.point": [
+    "re.compile"
+  ],
+  "geopy.geocoders.what3words": [
+    "re.compile"
+  ],
+  "geopy.point.Point.__new__": [
+    "geopy.point._normalize_coordinates",
+    "object.__new__",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "geopy.point.Point.from_string",
+    "geopy.point.Point.from_point",
+    "builtins.iter",
+    "geopy.point.Point.from_sequence",
+    "builtins.ValueError"
+  ],
+  "geopy.point._normalize_coordinates": [
+    "builtins.float",
+    "builtins.float",
+    "builtins.float",
+    "math.isfinite",
+    "builtins.abs",
+    "builtins.abs",
+    "geopy.point._normalize_angle",
+    "builtins.ValueError",
+    "_warnings.warn",
+    "builtins.ValueError"
+  ],
+  "geopy.point.Point.from_string": [
+    "re.sub",
+    "re.match",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "geopy.point.Point.parse_degrees",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "geopy.point.Point.parse_degrees",
+    "Match.group",
+    "Match.group",
+    "geopy.point.Point.parse_altitude",
+    "geopy.point.Point",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "builtins.ValueError"
+  ],
+  "geopy.point.Point.parse_degrees": [
+    "builtins.float",
+    "builtins.float",
+    "builtins.float",
+    "geopy.units.degrees"
+  ],
+  "geopy.distance.geodesic.__init__": [
+    "dict.pop",
+    "geopy.distance.geodesic.set_ellipsoid",
+    "geopy.distance.Distance.__init__"
+  ],
+  "geopy.distance.geodesic.set_ellipsoid": [
+    "builtins.isinstance"
+  ],
+  "geopy.distance.Distance.__init__": [
+    "dict.pop",
+    "builtins.len",
+    "geopy.units.kilometers",
+    "builtins.len",
+    "geopy.util.pairwise",
+    "geopy.distance.great_circle.measure",
+    "geopy.distance.geodesic.measure"
+  ],
+  "geopy.distance.lonlat": [
+    "geopy.point.Point"
+  ],
+  "geopy.point.Point.__eq__": [
+    "builtins.isinstance",
+    "builtins.tuple"
+  ],
+  "geopy.point.Point.__iter__": [
+    "builtins.iter"
+  ],
+  "geopy.distance.Distance.__add__": [
+    "builtins.isinstance",
+    "geopy.distance.Distance",
+    "builtins.TypeError",
+    "geopy.distance.great_circle",
+    "geopy.distance.geodesic"
+  ],
+  "geopy.distance.Distance.__truediv__": [
+    "builtins.isinstance",
+    "geopy.distance.Distance",
+    "geopy.distance.great_circle",
+    "geopy.distance.geodesic"
+  ],
+  "geopy.distance.Distance.__floordiv__": [
+    "builtins.isinstance",
+    "geopy.distance.Distance",
+    "geopy.distance.great_circle",
+    "geopy.distance.geodesic"
+  ],
+  "geopy.distance.Distance.__mul__": [
+    "builtins.isinstance",
+    "geopy.distance.Distance",
+    "builtins.TypeError",
+    "geopy.distance.great_circle",
+    "geopy.distance.geodesic"
+  ],
+  "geopy.distance.Distance.__rmul__": [
+    "builtins.isinstance",
+    "geopy.distance.Distance",
+    "geopy.distance.great_circle",
+    "geopy.distance.geodesic"
+  ],
+  "geopy.distance.Distance.__neg__": [
+    "geopy.distance.Distance",
+    "geopy.distance.great_circle",
+    "geopy.distance.geodesic"
+  ],
+  "geopy.distance.Distance.__abs__": [
+    "builtins.abs",
+    "geopy.distance.Distance",
+    "geopy.distance.great_circle",
+    "geopy.distance.geodesic"
+  ],
+  "geopy.distance.Distance.__bool__": [
+    "builtins.bool"
+  ],
+  "geopy.units.kilometers": [
+    "geopy.units.feet",
+    "geopy.units.nautical"
+  ],
+  "geopy.units.feet": [
+    "geopy.units.miles"
+  ],
+  "geopy.distance.Distance.feet": [
+    "geopy.units.feet"
+  ],
+  "geopy.distance.Distance.meters": [
+    "geopy.units.meters"
+  ],
+  "geopy.units.meters": [
+    "geopy.units.kilometers"
+  ],
+  "geopy.distance.Distance.miles": [
+    "geopy.units.miles"
+  ],
+  "geopy.distance.Distance.nautical": [
+    "geopy.units.nautical"
+  ],
+  "geopy.distance.Distance.__le__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__cmp__": [
+    "builtins.isinstance",
+    "geopy.distance.cmp",
+    "geopy.distance.cmp"
+  ],
+  "geopy.distance.Distance.__ge__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__lt__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__gt__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__eq__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__ne__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.great_circle.__init__": [
+    "dict.pop",
+    "geopy.distance.Distance.__init__"
+  ],
+  "geopy.distance.great_circle.destination": [
+    "geopy.point.Point",
+    "geopy.units.radians",
+    "geopy.units.radians",
+    "geopy.units.radians",
+    "builtins.isinstance",
+    "builtins.float",
+    "math.sin",
+    "math.cos",
+    "math.cos",
+    "math.sin",
+    "math.asin",
+    "math.sin",
+    "math.cos",
+    "math.cos",
+    "math.sin",
+    "math.atan2",
+    "geopy.units.degrees",
+    "geopy.point.Point"
+  ],
+  "geopy.point.Point.from_point": [
+    "geopy.point.Point"
+  ],
+  "geopy.units.radians": [
+    "math.radians"
+  ],
+  "geopy.units.degrees": [
+    "math.degrees",
+    "geopy.units.arcminutes",
+    "geopy.units.arcseconds"
+  ],
+  "geopy.util.pairwise": [
+    "builtins.len",
+    "builtins.range"
+  ],
+  "geopy.distance.great_circle.measure": [
+    "geopy.point.Point",
+    "geopy.distance._ensure_same_altitude",
+    "geopy.units.radians",
+    "geopy.units.radians",
+    "math.sin",
+    "math.cos",
+    "math.sin",
+    "math.cos",
+    "math.cos",
+    "math.sin",
+    "math.sqrt",
+    "math.atan2"
+  ],
+  "geopy.point.Point.from_sequence": [
+    "itertools.islice",
+    "builtins.tuple",
+    "builtins.len",
+    "geopy.point.Point"
+  ],
+  "geopy.distance._ensure_same_altitude": [
+    "builtins.abs",
+    "builtins.ValueError"
+  ],
+  "geopy.point._normalize_angle": [
+    "math.fmod"
+  ],
+  "geopy.distance.geodesic.destination": [
+    "geopy.point.Point",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "geographiclib.geodesic.Geodesic",
+    "geographiclib.geodesic.Geodesic.Direct",
+    "geopy.point.Point"
+  ],
+  "geopy.distance.geodesic.measure": [
+    "geopy.point.Point",
+    "geopy.distance._ensure_same_altitude",
+    "builtins.isinstance",
+    "geographiclib.geodesic.Geodesic",
+    "geographiclib.geodesic.Geodesic.Inverse"
+  ],
+  "geopy.distance.Distance.__hash__": [
+    "builtins.hash"
+  ],
+  "geopy.exc.GeocoderRateLimited.__init__": [
+    "OSError.__init__"
+  ],
+  "geopy.format.format_degrees": [
+    "builtins.int",
+    "geopy.units.arcminutes",
+    "builtins.int",
+    "geopy.units.arcseconds",
+    "builtins.abs",
+    "builtins.abs",
+    "builtins.dict"
+  ],
+  "geopy.units.arcseconds": [
+    "geopy.units.arcminutes"
+  ],
+  "geopy.location.Location.__init__": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "geopy.point.Point",
+    "geopy.location._location_tuple",
+    "builtins.type",
+    "builtins.TypeError",
+    "geopy.point.Point"
+  ],
+  "geopy.point.Point.__getitem__": [
+    "builtins.tuple"
+  ],
+  "geopy.location.Location.__eq__": [
+    "builtins.isinstance"
+  ],
+  "geopy.point.Point.__getstate__": [
+    "builtins.tuple"
+  ],
+  "geopy.location.Location.__setstate__": [
+    "geopy.location._location_tuple"
+  ],
+  "geopy.location.Location.__iter__": [
+    "builtins.iter"
+  ],
+  "geopy.location.Location.__len__": [
+    "builtins.len"
+  ],
+  "geopy.point.Point.format": [
+    "builtins.abs",
+    "geopy.format.format_degrees",
+    "builtins.abs",
+    "geopy.format.format_degrees",
+    "builtins.bool",
+    "str.join",
+    "builtins.isinstance",
+    "geopy.point.Point.format_altitude",
+    "list.append"
+  ],
+  "geopy.point.Point.parse_altitude": [
+    "builtins.float",
+    "geopy.point.Point.parse_altitude.<locals>.<lambda>",
+    "geopy.units.kilometers"
+  ],
+  "geopy.point.Point.format_altitude": [
+    "geopy.format.format_distance"
+  ],
+  "geopy.format.format_distance": [
+    "geopy.format.<lambda>"
+  ],
+  "geopy.point.Point.format_decimal": [
+    "builtins.str",
+    "builtins.bool",
+    "builtins.isinstance",
+    "geopy.point.Point.format_altitude",
+    "list.append",
+    "str.join"
+  ],
+  "geopy.point.Point.__setitem__": [
+    "builtins.list",
+    "geopy.point._normalize_coordinates"
+  ],
+  "geopy.adapters.get_retry_after": [
+    "str.strip",
+    "builtins.int",
+    "email._parseaddr.parsedate_tz",
+    "email._parseaddr.mktime_tz",
+    "<MagicMock name='time' id='139763613322688'>",
+    "<MagicMock name='time' id='139763620389904'>",
+    "logging.Logger.warning"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__",
+    "str.strip",
+    "str.strip"
+  ],
+  "geopy.adapters.URLLibAdapter.__init__": [
+    "geopy.adapters._normalize_proxies",
+    "geopy.adapters.BaseAdapter.__init__",
+    "urllib.request.HTTPSHandler",
+    "urllib.request.ProxyHandler",
+    "urllib.request.build_opener"
+  ],
+  "geopy.adapters._normalize_proxies": [
+    "urllib.request.getproxies_environment"
+  ],
+  "geopy.geocoders.__init__.get_geocoder_for_service": [
+    "str.lower",
+    "dict.keys",
+    "geopy.exc.GeocoderNotFound"
+  ],
+  "geopy.geocoders.bing.Bing.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__"
+  ],
+  "geopy.geocoders.geolake.Geolake.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__",
+    "str.strip"
+  ],
+  "geopy.geocoders.geonames.GeoNames.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__"
+  ],
+  "geopy.geocoders.here.Here.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__",
+    "builtins.bool",
+    "geopy.exc.ConfigurationError",
+    "_warnings.warn"
+  ],
+  "geopy.geocoders.osm": [
+    "_warnings.warn"
+  ],
+  "geopy.geocoders.opencage.OpenCage.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__",
+    "str.strip"
+  ],
+  "geopy.geocoders.openmapquest.OpenMapQuest.__init__": [
+    "geopy.geocoders.nominatim.Nominatim.__init__"
+  ],
+  "geopy.geocoders.nominatim.Nominatim.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__",
+    "str.strip"
+  ],
+  "geopy.geocoders.smartystreets.LiveAddress.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__"
+  ],
+  "geopy.geocoders.what3words.What3Words.__init__": [
+    "geopy.geocoders.base.Geocoder.__init__"
+  ],
+  "geopy.geocoders.what3words._check_query": [
+    "Pattern.match"
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "pdoc.doc_ast": [
+    "typing.TypeVar"
+  ],
+  "pdoc.extract": [
+    "platform.system"
+  ],
+  "pdoc.doc_types": [
+    "builtins.type",
+    "builtins.type",
+    "builtins.type"
+  ],
+  "pdoc.doc_types._eval_type": [
+    "builtins.frozenset",
+    "builtins.isinstance",
+    "typing.ForwardRef",
+    "typing.get_origin",
+    "builtins.isinstance",
+    "builtins.getattr",
+    "builtins.isinstance"
+  ],
+  "pdoc.doc": [
+    "typing.TypeVar"
+  ],
+  "pdoc.markdown2.__init__": [
+    "builtins.map",
+    "str.join",
+    "logging.getLogger",
+    "random.Random.randint",
+    "builtins.bytes",
+    "pdoc.markdown2._hash_text",
+    "builtins.dict",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "pdoc.markdown2._memoized",
+    "pdoc.markdown2._memoized"
+  ],
+  "pdoc.markdown2.__init__._hash_text": [
+    "str.encode",
+    "_hashlib.openssl_sha256",
+    "HASH.hexdigest"
+  ],
+  "pdoc.render_helpers": [
+    "pygments.lexers.python.PythonLexer",
+    "pygments.formatters.html.HtmlFormatter",
+    "pygments.formatters.html.HtmlFormatter",
+    "re.compile"
+  ],
+  "pdoc.render": [
+    "collections.abc.Mapping.get",
+    "pathlib.Path",
+    "pathlib.Path.expanduser",
+    "pathlib.Path",
+    "pathlib.Path",
+    "pathlib.Path",
+    "jinja2.loaders.FileSystemLoader",
+    "jinja2.environment.Environment",
+    "pdoc.render.configure"
+  ],
+  "pdoc.render.configure": [
+    "jinja2.loaders.FileSystemLoader"
+  ],
+  "pdoc.__main__": [
+    "EncodedFile.isatty",
+    "argparse.ArgumentParser",
+    "argparse._ActionsContainer.add_argument_group",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument_group",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument_group",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument",
+    "argparse._ActionsContainer.add_argument"
+  ],
+  "pdoc._compat.BooleanOptionalAction.__init__": [
+    "list.append",
+    "str.startswith",
+    "list.append",
+    "argparse.Action.__init__"
+  ],
+  "pdoc.doc.Module.__init__": [
+    "pdoc.doc.Doc.__init__"
+  ],
+  "pdoc.doc.wrapper": [
+    "pdoc.doc.Module.__repr__",
+    "builtins.RuntimeError"
+  ],
+  "pdoc.doc.Doc.fullname": [
+    "str.rstrip"
+  ],
+  "pdoc.doc.Module.__repr__": [
+    "<MagicMock name='_docstr' id='140163142977664'>",
+    "<MagicMock name='_docstr' id='140163114766000'>"
+  ],
+  "pdoc.doc.Doc.__lt__": [
+    "builtins.isinstance",
+    "str.replace",
+    "str.replace",
+    "str.__lt__"
+  ],
+  "pdoc.extract.parse_spec": [
+    "pathlib.Path",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "pathlib.Path.exists",
+    "builtins.str",
+    "pathlib.Path.resolve",
+    "pdoc.extract.parse_spec",
+    "pathlib.Path.is_file",
+    "pdoc.extract.mock_some_common_side_effects",
+    "importlib.util.find_spec",
+    "pathlib.Path",
+    "pathlib.Path.absolute",
+    "pathlib.Path",
+    "pathlib.Path.absolute",
+    "_warnings.warn",
+    "pathlib.Path.resolve",
+    "pathlib.Path",
+    "pathlib.Path.resolve",
+    "pathlib.PurePath.with_suffix",
+    "_warnings.warn"
+  ],
+  "pdoc.extract.mock_some_common_side_effects": [
+    "unittest.mock.patch",
+    "_io.StringIO",
+    "unittest.mock.patch",
+    "_io.StringIO",
+    "_io.StringIO",
+    "unittest.mock.patch"
+  ],
+  "pdoc.extract.load_module": [
+    "importlib.import_module",
+    "builtins.RuntimeError"
+  ],
+  "pdoc.doc.Module._member_objects": [
+    "pdoc.doc._safe_getattr",
+    "dict.items",
+    "builtins.list",
+    "inspect.getmodule",
+    "pdoc.doc._safe_getattr",
+    "builtins.isinstance",
+    "builtins.str",
+    "pdoc.doc._safe_getattr"
+  ],
+  "pdoc.doc._safe_getattr": [
+    "builtins.getattr"
+  ],
+  "pdoc.doc.Module._var_docstrings": [
+    "pdoc.doc_ast.walk_tree"
+  ],
+  "pdoc.doc_ast.walk_tree": [
+    "pdoc.doc_ast.parse",
+    "pdoc.doc_ast._walk_tree"
+  ],
+  "pdoc.doc_ast.parse": [
+    "pdoc.doc_ast.get_source",
+    "builtins.isinstance",
+    "pdoc.doc_ast._parse_module"
+  ],
+  "pdoc.doc_ast.get_source": [
+    "pdoc.doc_ast._get_source"
+  ],
+  "pdoc.doc_ast._get_source": [
+    "inspect.getsource"
+  ],
+  "pdoc.doc_ast._parse_module": [
+    "pdoc.doc_ast._parse",
+    "builtins.isinstance"
+  ],
+  "pdoc.doc_ast._parse": [
+    "pdoc.doc_ast._dedent",
+    "ast.parse",
+    "_warnings.warn",
+    "ast.parse"
+  ],
+  "pdoc.doc_ast._walk_tree": [
+    "pdoc.doc_ast._nodes",
+    "pdoc.doc_ast._pairwise_longest",
+    "pdoc.doc_ast.AstInfo",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.len",
+    "builtins.isinstance",
+    "dict.setdefault",
+    "builtins.isinstance",
+    "builtins.isinstance"
+  ],
+  "pdoc.doc_ast._nodes": [
+    "pdoc.doc_ast._nodes_iter",
+    "builtins.list"
+  ],
+  "pdoc.doc_ast._nodes_iter": [
+    "builtins.isinstance"
+  ],
+  "pdoc.doc.Namespace.members": [
+    "dict.items",
+    "str.lstrip",
+    "pdoc.doc.Module._taken_from",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "inspect.isroutine",
+    "inspect.isclass",
+    "builtins.isinstance",
+    "str.rpartition",
+    "pdoc.doc.Class",
+    "pdoc.doc.Function",
+    "dict.get"
+  ],
+  "pdoc.doc.Module._taken_from": [
+    "builtins.isinstance",
+    "pdoc.doc._safe_getattr",
+    "pdoc.doc._safe_getattr",
+    "str.lstrip"
+  ],
+  "pdoc.doc_ast._pairwise_longest": [
+    "itertools.tee",
+    "builtins.next",
+    "itertools.zip_longest"
+  ],
+  "pdoc.doc.Variable.__init__": [
+    "pdoc.doc.Doc.__init__",
+    "inspect.cleandoc"
+  ],
+  "pdoc.doc.Variable.default_value_str": [
+    "builtins.repr"
+  ],
+  "pdoc.doc.Class._member_objects": [
+    "mappingproxy.items",
+    "dict.setdefault"
+  ],
+  "pdoc.doc.Doc.source_file": [
+    "inspect.getsourcefile"
+  ],
+  "pdoc.doc.Doc.source_lines": [
+    "inspect.getsourcelines"
+  ],
+  "pdoc.doc.Class.docstring": [
+    "functools.cached_property.__get__",
+    "dataclasses.is_dataclass"
+  ],
+  "pdoc.doc.Doc.docstring": [
+    "pdoc.doc._safe_getdoc"
+  ],
+  "pdoc.doc._safe_getdoc": [
+    "inspect.getdoc",
+    "_warnings.warn"
+  ],
+  "pdoc.doc_ast._dedent": [
+    "str.lstrip",
+    "str.startswith",
+    "str.split",
+    "pdoc.doc_ast._dedent"
+  ],
+  "pdoc.doc_ast.type_checking_sections": [
+    "ast.Module",
+    "test.test_doc_ast.test_type_checking_sections.<locals>.<lambda>",
+    "pdoc.doc_ast._parse_module",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "list.extend",
+    "list.extend",
+    "pdoc.doc_ast.get_source",
+    "test.test_doc_types.test_eval_fail2.<locals>.<lambda>",
+    "test.test_doc_types.test_eval_fail3.<locals>.<lambda>"
+  ],
+  "pdoc.doc_pyi._patch_doc": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "dict.items"
+  ],
+  "pdoc.doc.Module._var_annotations": [
+    "pdoc.doc_ast.walk_tree",
+    "dict.copy",
+    "pdoc.doc._safe_getattr",
+    "dict.items",
+    "pdoc.doc_types.resolve_annotations"
+  ],
+  "pdoc.doc_types.resolve_annotations": [
+    "builtins.getattr",
+    "dict.items",
+    "pdoc.doc_types.safe_eval_type"
+  ],
+  "pdoc.doc.Module._documented_members": [
+    "dict.keys"
+  ],
+  "pdoc.doc_types.safe_eval_type": [
+    "pdoc.doc_types._eval_type",
+    "builtins.str",
+    "str.split",
+    "pdoc.doc_ast.type_checking_sections",
+    "builtins.compile",
+    "pdoc.doc_types._eval_type",
+    "pdoc.extract.load_module",
+    "_warnings.warn",
+    "builtins.str",
+    "_warnings.warn",
+    "pdoc.doc_types.safe_eval_type",
+    "builtins.str",
+    "str.split",
+    "_warnings.warn",
+    "_warnings.warn",
+    "builtins.str",
+    "_warnings.warn"
+  ],
+  "pdoc.docstrings.google": [
+    "re.sub"
+  ],
+  "pdoc.docstrings.numpy": [
+    "re.split",
+    "builtins.zip"
+  ],
+  "pdoc.docstrings.rst": [
+    "pdoc.docstrings._rst_admonitions",
+    "pdoc.docstrings._rst_links",
+    "re.sub",
+    "re.sub",
+    "pdoc.docstrings._rst_footnotes",
+    "pdoc.docstrings._rst_fields"
+  ],
+  "pdoc.docstrings._rst_admonitions": [
+    "re.sub"
+  ],
+  "pdoc.docstrings._rst_links": [
+    "re.sub",
+    "re.sub",
+    "re.sub"
+  ],
+  "pdoc.docstrings._rst_footnotes": [
+    "builtins.set",
+    "re.sub",
+    "re.sub"
+  ],
+  "pdoc.docstrings._rst_fields": [
+    "re.sub"
+  ],
+  "pdoc.docstrings._rst_admonition": [
+    "Match.group",
+    "Match.group",
+    "Match.group",
+    "str.strip",
+    "Match.group",
+    "textwrap.dedent",
+    "str.strip",
+    "pathlib.Path",
+    "pathlib.Path.read_text",
+    "_warnings.warn",
+    "pdoc.docstrings._rst_admonitions",
+    "textwrap.indent"
+  ],
+  "pdoc.extract.walk_specs": [
+    "builtins.isinstance",
+    "str.startswith",
+    "pdoc.extract.parse_spec",
+    "pdoc.extract.mock_some_common_side_effects",
+    "importlib.util.find_spec",
+    "builtins.bool",
+    "pkgutil.ModuleInfo",
+    "pdoc.extract.walk_packages2",
+    "builtins.list",
+    "re.compile",
+    "dict.items",
+    "Pattern.match",
+    "traceback.format_exc",
+    "_warnings.warn",
+    "builtins.str",
+    "builtins.ValueError"
+  ],
+  "pdoc.extract.walk_packages2": [
+    "pdoc.extract.load_module",
+    "builtins.getattr",
+    "builtins.getattr",
+    "pdoc.extract.walk_packages2.<locals>.seen",
+    "pkgutil.iter_modules",
+    "str.rpartition",
+    "list.append",
+    "pdoc.extract.walk_packages2"
+  ],
+  "pdoc.extract.module_mtime": [
+    "pdoc.extract.mock_some_common_side_effects",
+    "importlib.util.find_spec",
+    "pathlib.Path",
+    "pathlib.Path.stat"
+  ],
+  "pdoc.extract.invalidate_caches": [
+    "str.startswith",
+    "importlib.invalidate_caches",
+    "linecache.clearcache",
+    "_lru_cache_wrapper.cache_clear",
+    "_lru_cache_wrapper.cache_clear",
+    "_lru_cache_wrapper.cache_clear",
+    "str.startswith"
+  ],
+  "pdoc.__main__.cli": [
+    "argparse.ArgumentParser.parse_args",
+    "builtins.getattr",
+    "pdoc.render.configure",
+    "pdoc.pdoc",
+    "builtins.print",
+    "pdoc.web.DocServer",
+    "builtins.print",
+    "<MagicMock name='open_browser' id='140163132215920'>",
+    "<MagicMock name='serve_forever' id='140163137440160'>",
+    "socketserver.TCPServer.server_close",
+    "<MagicMock name='DocServer' id='140163137894624'>",
+    "<MagicMock name='DocServer' id='140163137894624'>",
+    "builtins.print",
+    "sys.exit",
+    "<MagicMock name='open_browser' id='140163131879824'>",
+    "<MagicMock name='serve_forever' id='140163131881888'>",
+    "<MagicMock name='DocServer' id='140163125291152'>",
+    "<MagicMock name='DocServer' id='140163125291152'>"
+  ],
+  "pdoc.__init__.pdoc": [
+    "pdoc.extract.walk_specs",
+    "pdoc.doc.Module.from_name",
+    "dict.values",
+    "pdoc.render.html_module"
+  ],
+  "pdoc.doc.Module.from_name": [
+    "pdoc.extract.load_module",
+    "pdoc.doc.Module"
+  ],
+  "pdoc.render_helpers.defuse_unsafe_reprs": [
+    "unittest.mock._patch_object"
+  ],
+  "pdoc.render.html_module": [
+    "jinja2.environment.Environment.get_template"
+  ],
+  "pdoc.render_helpers.DefaultMacroExtension.parse": [
+    "builtins.next",
+    "jinja2.nodes.Macro",
+    "jinja2.parser.Parser.parse_assign_target",
+    "jinja2.parser.Parser.parse_signature",
+    "jinja2.parser.Parser.parse_statements",
+    "jinja2.nodes.Name",
+    "jinja2.nodes.Not",
+    "jinja2.nodes.Macro",
+    "jinja2.nodes.If"
+  ],
+  "pdoc.__main__.get_dev_version": [
+    "pathlib.Path",
+    "subprocess.run",
+    "subprocess.check_output",
+    "bytes.decode",
+    "str.strip",
+    "str.rsplit",
+    "str.lstrip",
+    "builtins.int"
+  ],
+  "pdoc.web.DocServer.__init__": [
+    "socketserver.TCPServer.__init__",
+    "pdoc.extract.walk_specs",
+    "pdoc.web.AllModules"
+  ],
+  "pdoc.web.AllModules.__init__": [
+    "dict.fromkeys"
+  ],
+  "pdoc.__main__._nicer_showwarning": [
+    "builtins.print",
+    "builtins.print",
+    "builtins.print"
+  ],
+  "pdoc.render_helpers.relative_link": [
+    "str.split",
+    "str.split",
+    "pdoc.render_helpers._relative_link"
+  ],
+  "pdoc.render_helpers._relative_link": [
+    "builtins.len",
+    "builtins.len",
+    "str.join",
+    "pdoc.render_helpers._relative_link"
+  ],
+  "pdoc.render_helpers.qualname_candidates": [
+    "builtins.len",
+    "list.append",
+    "list.append",
+    "str.rfind"
+  ],
+  "pdoc.render_helpers.edit_url": [
+    "dict.items",
+    "str.startswith",
+    "builtins.len",
+    "str.replace",
+    "str.lstrip"
+  ],
+  "pdoc.render_helpers.split_identifier": [
+    "_warnings.warn",
+    "pdoc.render_helpers.possible_sources"
+  ],
+  "pdoc.render_helpers.possible_sources": [
+    "str.rpartition"
+  ],
+  "pdoc.render_helpers.to_html": [
+    "pdoc.markdown2.markdown"
+  ],
+  "pdoc.markdown2.__init__.markdown": [
+    "pdoc.markdown2.Markdown",
+    "pdoc.markdown2.Markdown.convert"
+  ],
+  "pdoc.markdown2.__init__.Markdown.__init__": [
+    "builtins.isinstance",
+    "dict.update",
+    "builtins.isinstance",
+    "dict.get",
+    "dict.copy",
+    "re.compile",
+    "dict.copy"
+  ],
+  "pdoc.markdown2.__init__.Markdown.convert": [
+    "pdoc.markdown2.Markdown.reset"
+  ],
+  "pdoc.markdown2.__init__.Markdown.reset": [
+    "dict.copy",
+    "pdoc.markdown2.Markdown._setup_extras"
+  ],
+  "pdoc.markdown2.__init__.Markdown._setup_extras": [
+    "collections.defaultdict"
+  ],
+  "pdoc.extract._PdocDefusedPopen.__init__": [
+    "shutil.which",
+    "shutil.which",
+    "subprocess.Popen.__init__",
+    "collections.abc.Mapping.get",
+    "unittest.mock.patch",
+    "_warnings.warn"
+  ]
+}

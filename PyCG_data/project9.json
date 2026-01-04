@@ -1,0 +1,2572 @@
+{
+  "docs.make": [
+    "textwrap.dedent",
+    "jinja2.FileSystemLoader",
+    "pygments.lexers.python.PythonLexer",
+    "pygments.formatters.html.HtmlFormatter",
+    "<builtin>.str",
+    "pathlib.Path.parent.write_bytes",
+    "pathlib.Path.parent.is_dir",
+    "jinja2.Environment.get_template.render",
+    "pathlib.Path.parent.glob.relative_to",
+    "pathlib.Path.parent.read_text",
+    "jinja2.Environment.get_template",
+    "pathlib.Path",
+    "pygments.highlight",
+    "textwrap.dedent.strip",
+    "jinja2.Environment.get_template.render.encode",
+    "pathlib.Path.parent.glob",
+    "pathlib.Path.parent.rename",
+    "jinja2.Environment",
+    "markupsafe.Markup",
+    "shutil.rmtree",
+    "pathlib.Path.parent.glob.name.startswith",
+    "pathlib.Path.parent.open",
+    "pygments.formatters.html.HtmlFormatter.get_style_defs"
+  ],
+  "pathlib.Path": [],
+  "jinja2.FileSystemLoader": [],
+  "jinja2.Environment": [],
+  "pygments.lexers.python.PythonLexer": [],
+  "pygments.formatters.html.HtmlFormatter": [],
+  "pygments.formatters.html.HtmlFormatter.get_style_defs": [],
+  "pathlib.Path.parent.read_text": [],
+  "pygments.highlight": [],
+  "markupsafe.Markup": [],
+  "jinja2.Environment.get_template": [],
+  "jinja2.Environment.get_template.render": [],
+  "jinja2.Environment.get_template.render.encode": [],
+  "pathlib.Path.parent.write_bytes": [],
+  "pathlib.Path.parent.is_dir": [],
+  "shutil.rmtree": [],
+  "pathlib.Path.parent.rename": [],
+  "pathlib.Path.parent.open": [],
+  "textwrap.dedent": [],
+  "textwrap.dedent.strip": [],
+  "pathlib.Path.parent.glob": [],
+  "pathlib.Path.parent.glob.name.startswith": [],
+  "pathlib.Path.parent.glob.relative_to": [],
+  "<builtin>.str": [],
+  "pdoc": [
+    "typing.overload"
+  ],
+  "typing.overload": [],
+  "pdoc.pdoc": [
+    "pathlib.Path.parent.parent.mkdir",
+    "pdoc.render.search_index",
+    "jinja2.Environment.get_template.render.encode",
+    "pdoc.render.html_index",
+    "pdoc.extract.walk_specs",
+    "pathlib.Path.parent.write_bytes",
+    "pdoc.doc.Module.from_name",
+    "pdoc.render.html_module"
+  ],
+  "pdoc.extract.walk_specs": [
+    "warnings.warn",
+    "<builtin>.isinstance",
+    "<builtin>.ValueError",
+    "re.compile",
+    "pkgutil.ModuleInfo",
+    "importlib.util.find_spec",
+    "<builtin>.str",
+    "traceback.format_exc",
+    "pdoc.extract.walk_packages2",
+    "<builtin>.ModuleNotFoundError",
+    "pdoc.extract.parse_spec",
+    "<builtin>.list",
+    "<builtin>.bool",
+    "pdoc.extract.mock_some_common_side_effects",
+    "re.compile.match"
+  ],
+  "pdoc.doc.Module.from_name": [
+    "pdoc.doc.Module.__init__",
+    "pdoc.extract.load_module"
+  ],
+  "pdoc.render.html_module": [
+    "pdoc.render_helpers.root_module_name",
+    "jinja2.Environment.get_template",
+    "pdoc.render_helpers.edit_url",
+    "jinja2.Environment.get_template.render",
+    "typing.cast"
+  ],
+  "pathlib.Path.parent.parent.mkdir": [],
+  "pdoc.render.html_index": [
+    "jinja2.Environment.get_template",
+    "pdoc.render_helpers.root_module_name",
+    "jinja2.Environment.get_template.render"
+  ],
+  "pdoc.render.search_index": [
+    "pathlib.Path",
+    "pdoc.search.make_index",
+    "jinja2.Environment.get_template",
+    "pdoc.search.precompile_index",
+    "jinja2.Environment.get_template.render",
+    "typing.cast"
+  ],
+  "pdoc.doc": [
+    "typing.TypeVar"
+  ],
+  "pdoc.doc._include_fullname_in_traceback": [
+    "functools.wraps"
+  ],
+  "functools.wraps": [],
+  "pdoc.doc._include_fullname_in_traceback.wrapper": [
+    "pdoc.doc.Variable.__repr__",
+    "pdoc.doc.Class.__repr__",
+    "<builtin>.RuntimeError",
+    "pdoc.doc.Module.__repr__",
+    "pdoc.doc.Function.__repr__"
+  ],
+  "pdoc.doc.Module.__repr__": [
+    "pdoc.doc._children",
+    "pdoc.doc._docstr"
+  ],
+  "pdoc.doc.Function.__repr__": [
+    "pdoc.doc._decorators",
+    "pdoc.doc._docstr",
+    "pdoc.doc._safe_getattr"
+  ],
+  "pdoc.doc.Class.__repr__": [
+    "pdoc.doc._decorators",
+    "pdoc.doc._children",
+    "pdoc.doc._docstr"
+  ],
+  "pdoc.doc.Variable.__repr__": [
+    "pdoc.doc._docstr"
+  ],
+  "<builtin>.RuntimeError": [],
+  "typing.TypeVar": [],
+  "pdoc.doc.Doc.type": [
+    "warnings.warn"
+  ],
+  "warnings.warn": [],
+  "pdoc.doc.Doc.__init__": [],
+  "pdoc.doc.Doc": [
+    "functools.cached_property"
+  ],
+  "functools.cached_property": [],
+  "pdoc.doc.Doc.fullname": [],
+  "pdoc.doc.Doc.name": [],
+  "pdoc.doc.Doc.docstring": [
+    "pdoc.doc._safe_getdoc"
+  ],
+  "pdoc.doc._safe_getdoc": [
+    "warnings.warn",
+    "inspect.getdoc"
+  ],
+  "pdoc.doc.Doc.source": [
+    "pdoc.doc_ast.get_source"
+  ],
+  "pdoc.doc_ast.get_source": [
+    "pdoc.doc_ast._get_source"
+  ],
+  "pdoc.doc.Doc.source_file": [
+    "inspect.getfile",
+    "pathlib.Path",
+    "inspect.getsourcefile"
+  ],
+  "inspect.getsourcefile": [],
+  "inspect.getfile": [],
+  "pdoc.doc.Doc.source_lines": [
+    "inspect.getsourcelines",
+    "<builtin>.len"
+  ],
+  "inspect.getsourcelines": [],
+  "<builtin>.len": [],
+  "pdoc.doc.Doc.is_inherited": [],
+  "pdoc.doc.Doc.__lt__": [
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.isinstance": [],
+  "pdoc.doc.Namespace": [
+    "abc.abstractmethod",
+    "functools.cache",
+    "functools.cached_property",
+    "functools.lru_cache"
+  ],
+  "abc.abstractmethod": [],
+  "pdoc.doc.Namespace._member_objects": [],
+  "pdoc.doc.Namespace._var_docstrings": [],
+  "pdoc.doc.Namespace._var_annotations": [],
+  "pdoc.doc.Namespace._taken_from": [],
+  "pdoc.doc.Namespace.own_members": [],
+  "pdoc.doc.Namespace.members": [
+    "inspect.isclass",
+    "<builtin>.isinstance",
+    "os.environ.get",
+    "<builtin>.getattr",
+    "pdoc.doc.Function.__init__",
+    "pdoc.doc_pyi.include_typeinfo_from_stub_files",
+    "inspect.ismodule",
+    "pdoc.doc.Variable.__init__",
+    "inspect.isdatadescriptor",
+    "pdoc.doc.Module.from_name",
+    "pdoc.doc.Namespace._taken_from",
+    "inspect.isroutine"
+  ],
+  "pdoc.doc.Function.__init__": [
+    "<builtin>.isinstance",
+    "<builtin>.super"
+  ],
+  "pdoc.doc.Variable.__init__": [
+    "inspect.cleandoc",
+    "<builtin>.super"
+  ],
+  "inspect.isroutine": [],
+  "inspect.isclass": [],
+  "inspect.ismodule": [],
+  "os.environ.get": [],
+  "inspect.isdatadescriptor": [],
+  "<builtin>.getattr": [],
+  "pdoc.doc_pyi.include_typeinfo_from_stub_files": [
+    "pdoc.doc_pyi._import_stub_file",
+    "warnings.warn",
+    "pdoc.doc_pyi._patch_doc",
+    "pdoc.doc._safe_getattr",
+    "sys.modules.get",
+    "pdoc.doc.Module.__init__",
+    "unittest.mock.patch.dict",
+    "<builtin>.str",
+    "traceback.format_exc",
+    "pdoc.doc_pyi.find_stub_file",
+    "pdoc.doc_pyi._prepare_module"
+  ],
+  "pdoc.doc.Namespace._members_by_origin": [],
+  "pdoc.doc.Namespace.inherited_members": [],
+  "pdoc.doc.Namespace.flattened_own_members": [
+    "<builtin>.isinstance"
+  ],
+  "functools.lru_cache": [],
+  "functools.cache": [],
+  "pdoc.doc.Namespace.get": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Module.__init__": [
+    "<builtin>.super"
+  ],
+  "<builtin>.super": [],
+  "pdoc.doc.Module": [
+    "functools.lru_cache",
+    "functools.cache",
+    "pdoc.doc._include_fullname_in_traceback",
+    "functools.cached_property"
+  ],
+  "pdoc.extract.load_module": [
+    "<builtin>.RuntimeError",
+    "importlib.import_module"
+  ],
+  "pdoc.doc._docstr": [
+    "pdoc.doc._cut"
+  ],
+  "pdoc.doc._children": [
+    "textwrap.indent",
+    "<builtin>.repr"
+  ],
+  "pdoc.doc.Module.is_package": [
+    "pdoc.doc._safe_getattr"
+  ],
+  "pdoc.doc._safe_getattr": [
+    "warnings.warn",
+    "<builtin>.getattr"
+  ],
+  "pdoc.doc.Module._var_docstrings": [
+    "pdoc.doc_ast.walk_tree"
+  ],
+  "pdoc.doc_ast.walk_tree": [
+    "pdoc.doc_ast._walk_tree",
+    "pdoc.doc_ast.parse"
+  ],
+  "pdoc.doc.Module._var_annotations": [
+    "pdoc.doc_ast.walk_tree",
+    "pdoc.doc_types.resolve_annotations",
+    "pdoc.doc._safe_getattr"
+  ],
+  "pdoc.doc_types.resolve_annotations": [
+    "<builtin>.getattr",
+    "pdoc.doc_types.safe_eval_type"
+  ],
+  "pdoc.doc.Module._taken_from": [
+    "<builtin>.isinstance",
+    "pdoc.doc._safe_getattr"
+  ],
+  "pdoc.doc.Module.own_members": [
+    "<builtin>.list"
+  ],
+  "<builtin>.list": [],
+  "pdoc.doc.Module.submodules": [
+    "warnings.warn",
+    "pdoc.doc.Module.submodules.include",
+    "pkgutil.iter_modules",
+    "<builtin>.sorted",
+    "pkgutil.iter_modules.name.rpartition",
+    "pdoc.doc._safe_getattr",
+    "traceback.format_exc",
+    "pdoc.doc.Module.from_name",
+    "<builtin>.enumerate"
+  ],
+  "<builtin>.enumerate": [],
+  "pdoc.doc.Module.submodules.include": [],
+  "pkgutil.iter_modules": [],
+  "pkgutil.iter_modules.name.rpartition": [],
+  "traceback.format_exc": [],
+  "pdoc.doc.Module.submodules.<lambda1>": [],
+  "<builtin>.sorted": [],
+  "pdoc.doc.Module._documented_members": [],
+  "pdoc.doc.Module._member_objects": [
+    "warnings.warn",
+    "pdoc.extract.load_module",
+    "<builtin>.isinstance",
+    "pdoc.doc._safe_getattr",
+    "inspect.getmodule",
+    "pdoc.doc_ast.sort_by_source",
+    "<builtin>.str",
+    "<builtin>.list"
+  ],
+  "inspect.getmodule": [],
+  "pdoc.doc_ast.sort_by_source": [
+    "pdoc.doc_ast._nodes",
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "pdoc.doc_ast.parse"
+  ],
+  "pdoc.doc.Module.variables": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Module.classes": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Module.functions": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Class": [
+    "functools.lru_cache",
+    "functools.cache",
+    "pdoc.doc._include_fullname_in_traceback",
+    "functools.cached_property"
+  ],
+  "pdoc.doc._decorators": [],
+  "pdoc.doc.Class.docstring": [
+    "inspect.signature",
+    "dataclasses.is_dataclass",
+    "<builtin>.str"
+  ],
+  "dataclasses.is_dataclass": [],
+  "inspect.signature": [],
+  "pdoc.doc.Class._var_docstrings": [
+    "pdoc.doc_ast.walk_tree"
+  ],
+  "pdoc.doc.Class._var_annotations": [
+    "pdoc.doc_types.resolve_annotations",
+    "<builtin>.isinstance",
+    "pdoc.doc._safe_getattr",
+    "__future__.annotations.items",
+    "inspect.getmodule",
+    "pdoc.doc_ast.walk_tree",
+    "<builtin>.reversed"
+  ],
+  "<builtin>.reversed": [],
+  "__future__.annotations.items": [],
+  "pdoc.doc.Class._declarations": [
+    "pdoc.doc_ast.walk_tree"
+  ],
+  "pdoc.doc.Class._taken_from": [
+    "warnings.warn"
+  ],
+  "pdoc.doc.Class.own_members": [],
+  "pdoc.doc.Class._member_objects": [
+    "<builtin>.isinstance",
+    "pdoc.doc._safe_getattr",
+    "<builtin>.type",
+    "pdoc.doc_ast.sort_by_source",
+    "inspect.isabstract",
+    "<builtin>.issubclass"
+  ],
+  "inspect.isabstract": [],
+  "<builtin>.issubclass": [],
+  "<builtin>.type": [],
+  "pdoc.doc.Class.bases": [
+    "<builtin>.str",
+    "typing.get_origin",
+    "pdoc.doc._safe_getattr"
+  ],
+  "typing.get_origin": [],
+  "pdoc.doc.Class.decorators": [
+    "pdoc.doc_ast.unparse",
+    "pdoc.doc_ast.parse"
+  ],
+  "pdoc.doc_ast.parse": [
+    "pdoc.doc_ast._parse_module",
+    "<builtin>.isinstance",
+    "pdoc.doc_ast._parse_function",
+    "pdoc.doc_ast.get_source",
+    "pdoc.doc_ast._parse_class"
+  ],
+  "pdoc.doc_ast.unparse": [
+    "ast.unparse"
+  ],
+  "pdoc.doc.Class.class_variables": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Class.instance_variables": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Class.classmethods": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Class.staticmethods": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Class.methods": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Function": [
+    "functools.lru_cache",
+    "functools.cache",
+    "pdoc.doc._include_fullname_in_traceback",
+    "functools.cached_property"
+  ],
+  "pdoc.doc.Function.docstring": [
+    "sys.modules.get",
+    "<builtin>.isinstance",
+    "pdoc.doc._safe_getdoc",
+    "pdoc.doc._safe_getattr"
+  ],
+  "sys.modules.get": [],
+  "pdoc.doc.Function.is_classmethod": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Function.is_staticmethod": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Function.decorators": [
+    "pdoc.doc_ast.unparse",
+    "pdoc.doc_ast.parse"
+  ],
+  "pdoc.doc.Function.funcdef": [
+    "inspect.iscoroutinefunction",
+    "inspect.isasyncgenfunction"
+  ],
+  "inspect.iscoroutinefunction": [],
+  "inspect.isasyncgenfunction": [],
+  "pdoc.doc.Function.signature": [
+    "inspect.Signature.from_callable.parameters.values",
+    "pdoc.doc._safe_getattr",
+    "inspect.Parameter",
+    "inspect.Signature",
+    "pdoc.doc_types.safe_eval_type",
+    "inspect.getmodule",
+    "inspect.Signature.from_callable.replace",
+    "inspect.Signature.from_callable.replace.parameters.values",
+    "inspect.Signature.from_callable"
+  ],
+  "inspect.Signature": [],
+  "inspect.Signature.from_callable": [],
+  "inspect.Parameter": [],
+  "inspect.Signature.from_callable.replace": [],
+  "pdoc.doc_types.safe_eval_type": [
+    "warnings.warn",
+    "pdoc.extract.load_module",
+    "pdoc.doc_types._eval_type",
+    "pdoc.doc_types.safe_eval_type",
+    "pdoc.doc_ast.type_checking_sections",
+    "<builtin>.eval",
+    "<builtin>.str",
+    "<builtin>.compile"
+  ],
+  "inspect.Signature.from_callable.parameters.values": [],
+  "inspect.Signature.from_callable.replace.parameters.values": [],
+  "pdoc.doc.Function.signature_without_self": [
+    "<builtin>.list"
+  ],
+  "inspect.cleandoc": [],
+  "pdoc.doc.Variable": [
+    "functools.lru_cache",
+    "functools.cache",
+    "pdoc.doc._include_fullname_in_traceback",
+    "functools.cached_property"
+  ],
+  "pdoc.doc.Variable.is_classvar": [
+    "typing.get_origin"
+  ],
+  "pdoc.doc.Variable.is_enum_member": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc.Variable.default_value_str": [
+    "re.sub",
+    "<builtin>.repr"
+  ],
+  "<builtin>.repr": [],
+  "re.sub": [],
+  "pdoc.doc.Variable.annotation_str": [
+    "inspect.formatannotation"
+  ],
+  "inspect.formatannotation": [],
+  "pdoc.doc._PrettySignature._params": [
+    "<builtin>.str",
+    "inspect.Signature.parameters.values",
+    "re.sub"
+  ],
+  "inspect.Signature.parameters.values": [],
+  "pdoc.doc._PrettySignature._return_annotation_str": [
+    "inspect.formatannotation"
+  ],
+  "pdoc.doc._PrettySignature.__str__": [
+    "<builtin>.sum",
+    "pdoc.doc._PrettySignature._params",
+    "pdoc.doc._PrettySignature._return_annotation_str",
+    "<builtin>.len"
+  ],
+  "<builtin>.sum": [],
+  "pdoc.doc._cut": [
+    "<builtin>.len"
+  ],
+  "textwrap.indent": [],
+  "inspect.getdoc": [],
+  "pdoc.doc_pyi": [
+    "functools.lru_cache",
+    "functools.cache"
+  ],
+  "pdoc.doc_pyi.find_stub_file": [
+    "pathlib.Path"
+  ],
+  "pdoc.doc_pyi._import_stub_file": [
+    "<builtin>.eval",
+    "<builtin>.str",
+    "types.ModuleType",
+    "<builtin>.compile"
+  ],
+  "<builtin>.compile": [],
+  "types.ModuleType": [],
+  "<builtin>.eval": [],
+  "pdoc.doc_pyi._prepare_module": [
+    "<builtin>.isinstance",
+    "pdoc.doc_pyi._prepare_module"
+  ],
+  "pdoc.doc_pyi._patch_doc": [
+    "warnings.warn",
+    "<builtin>.isinstance",
+    "pdoc.doc_pyi._patch_doc"
+  ],
+  "unittest.mock.patch.dict": [],
+  "pdoc.extract": [
+    "contextlib.contextmanager",
+    "pdoc.extract.mock_some_common_side_effects.<RETURN>",
+    "pdoc.extract.mock_some_common_side_effects"
+  ],
+  "re.compile": [],
+  "re.compile.match": [],
+  "pdoc.extract.parse_spec": [
+    "warnings.warn",
+    "<builtin>.isinstance",
+    "pathlib.Path",
+    "pathlib.Path.parent.exists",
+    "pathlib.Path.absolute",
+    "importlib.util.find_spec",
+    "pathlib.Path.resolve",
+    "<builtin>.str",
+    "pathlib.Path.resolve.with_suffix",
+    "pdoc.extract.parse_spec",
+    "pdoc.extract.mock_some_common_side_effects",
+    "pathlib.Path.is_file"
+  ],
+  "pdoc.extract.mock_some_common_side_effects": [
+    "unittest.mock.patch",
+    "io.StringIO"
+  ],
+  "importlib.util.find_spec": [],
+  "<builtin>.ModuleNotFoundError": [],
+  "<builtin>.bool": [],
+  "pkgutil.ModuleInfo": [],
+  "pdoc.extract.walk_packages2": [
+    "warnings.warn",
+    "pdoc.extract.load_module",
+    "pkgutil.iter_modules",
+    "pkgutil.iter_modules.name.rpartition",
+    "pdoc.extract.walk_packages2.seen",
+    "traceback.format_exc",
+    "pdoc.extract.walk_packages2",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.ValueError": [],
+  "pathlib.Path.is_file": [],
+  "pathlib.Path.absolute": [],
+  "pathlib.Path.parent.exists": [],
+  "pathlib.Path.resolve": [],
+  "pathlib.Path.resolve.with_suffix": [],
+  "pdoc.extract._noop": [],
+  "platform.system": [],
+  "pdoc.extract._PdocDefusedPopen": [
+    "platform.system"
+  ],
+  "pdoc.extract._PdocDefusedPopen.__init__": [
+    "warnings.warn",
+    "unittest.mock.patch",
+    "os.environ.get",
+    "shutil.which",
+    "<builtin>.super"
+  ],
+  "shutil.which": [],
+  "unittest.mock.patch": [],
+  "contextlib.contextmanager": [],
+  "io.StringIO": [],
+  "pdoc.extract.mock_some_common_side_effects.<RETURN>": [],
+  "importlib.import_module": [],
+  "pdoc.extract.walk_packages2.seen": [],
+  "pdoc.extract.module_mtime": [
+    "pathlib.Path",
+    "importlib.util.find_spec",
+    "pathlib.Path.stat",
+    "pdoc.extract.mock_some_common_side_effects"
+  ],
+  "pathlib.Path.stat": [],
+  "pdoc.extract.invalidate_caches": [
+    "<builtin>.sorted",
+    "importlib.reload",
+    "warnings.warn",
+    "<builtin>.isinstance",
+    "<builtin>.any",
+    "traceback.format_exc",
+    "importlib.invalidate_caches",
+    "linecache.clearcache",
+    "pdoc.extract.mock_some_common_side_effects"
+  ],
+  "<builtin>.any": [],
+  "importlib.invalidate_caches": [],
+  "linecache.clearcache": [],
+  "importlib.reload": [],
+  "pdoc.docstrings": [
+    "functools.lru_cache",
+    "functools.cache"
+  ],
+  "pdoc.docstrings.convert": [
+    "os.environ.get",
+    "pdoc.docstrings.embed_images",
+    "pdoc.docstrings.numpy",
+    "pdoc.docstrings.rst",
+    "<builtin>.any",
+    "pdoc.docstrings.google"
+  ],
+  "pdoc.docstrings.rst": [
+    "re.sub",
+    "pdoc.docstrings._rst_admonitions",
+    "pdoc.docstrings._rst_footnotes",
+    "pdoc.docstrings._rst_fields",
+    "pdoc.docstrings._rst_links"
+  ],
+  "pdoc.docstrings.google": [
+    "re.sub"
+  ],
+  "pdoc.docstrings.numpy": [
+    "textwrap.dedent",
+    "pdoc.docstrings._numpy_parameters",
+    "re.split",
+    "<builtin>.zip",
+    "pdoc.docstrings._numpy_seealso"
+  ],
+  "pdoc.docstrings.embed_images": [
+    "re.sub"
+  ],
+  "pdoc.docstrings.embed_images.embed_local_image": [
+    "base64.b64encode.decode",
+    "mimetypes.guess_type",
+    "base64.b64encode"
+  ],
+  "mimetypes.guess_type": [],
+  "base64.b64encode": [],
+  "base64.b64encode.decode": [],
+  "pdoc.docstrings._google_section": [
+    "textwrap.dedent",
+    "re.split",
+    "textwrap.indent",
+    "pdoc.docstrings._indented_list",
+    "textwrap.dedent.lstrip"
+  ],
+  "textwrap.dedent.lstrip": [],
+  "pdoc.docstrings._indented_list": [
+    "re.sub.splitlines.startswith",
+    "re.sub.splitlines",
+    "textwrap.indent.splitlines",
+    "re.sub.splitlines.strip",
+    "textwrap.indent.splitlines.strip",
+    "textwrap.dedent.lstrip.splitlines",
+    "textwrap.dedent.lstrip.splitlines.startswith",
+    "re.sub.startswith",
+    "textwrap.indent.startswith",
+    "textwrap.indent.splitlines.startswith",
+    "inspect.cleandoc",
+    "textwrap.dedent.lstrip.startswith"
+  ],
+  "re.split": [],
+  "pdoc.docstrings._google_section.<lambda1>": [],
+  "re.sub.startswith": [],
+  "textwrap.indent.startswith": [],
+  "textwrap.dedent.lstrip.startswith": [],
+  "textwrap.dedent.lstrip.splitlines": [],
+  "re.sub.splitlines": [],
+  "textwrap.indent.splitlines": [],
+  "textwrap.indent.splitlines.strip": [],
+  "re.sub.splitlines.strip": [],
+  "textwrap.indent.splitlines.startswith": [],
+  "textwrap.dedent.lstrip.splitlines.startswith": [],
+  "re.sub.splitlines.startswith": [],
+  "<builtin>.zip": [],
+  "pdoc.docstrings._numpy_parameters": [
+    "re.match.group",
+    "re.match",
+    "textwrap.indent",
+    "re.match.group.strip",
+    "pdoc.docstrings._indented_list"
+  ],
+  "pdoc.docstrings._numpy_seealso": [
+    "pdoc.docstrings._indented_list"
+  ],
+  "re.match": [],
+  "re.match.group": [],
+  "re.match.group.strip": [],
+  "pdoc.docstrings._rst_admonitions": [
+    "re.sub"
+  ],
+  "pdoc.docstrings._rst_links": [
+    "re.sub"
+  ],
+  "pdoc.docstrings.rst.replace_reference": [],
+  "pdoc.docstrings._rst_footnotes": [
+    "re.sub",
+    "<builtin>.set"
+  ],
+  "pdoc.docstrings._rst_fields": [
+    "re.sub"
+  ],
+  "<builtin>.set": [],
+  "pdoc.docstrings._rst_footnotes.register_footnote": [
+    "textwrap.indent.lstrip",
+    "textwrap.indent"
+  ],
+  "textwrap.indent.lstrip": [],
+  "pdoc.docstrings._rst_footnotes.replace_references": [],
+  "pdoc.docstrings._rst_links.register_link": [
+    "re.sub"
+  ],
+  "pdoc.docstrings._rst_links.replace_link": [
+    "re.sub"
+  ],
+  "pdoc.docstrings._rst_admonitions._rst_admonition": [
+    "warnings.warn",
+    "textwrap.dedent",
+    "pdoc.docstrings._rst_admonitions",
+    "pathlib.Path",
+    "textwrap.dedent.strip",
+    "textwrap.indent"
+  ],
+  "pdoc.docstrings._rst_fields._rst_field": [
+    "textwrap.indent",
+    "<builtin>.AssertionError"
+  ],
+  "pdoc.docstrings._rst_fields._rst_field.<lambda1>": [],
+  "<builtin>.AssertionError": [],
+  "pdoc.doc_ast": [
+    "functools.lru_cache",
+    "functools.cache",
+    "typing.overload",
+    "typing.TypeVar"
+  ],
+  "pdoc.doc_ast._get_source": [
+    "inspect.getsource"
+  ],
+  "inspect.getsource": [],
+  "pdoc.doc_ast._parse_module": [
+    "<builtin>.isinstance",
+    "pdoc.doc_ast._parse"
+  ],
+  "pdoc.doc_ast._parse_class": [
+    "<builtin>.len",
+    "ast.ClassDef",
+    "<builtin>.isinstance",
+    "pdoc.doc_ast._parse"
+  ],
+  "pdoc.doc_ast._parse_function": [
+    "<builtin>.len",
+    "<builtin>.isinstance",
+    "pdoc.doc_ast._parse",
+    "ast.FunctionDef"
+  ],
+  "ast.unparse": [],
+  "pdoc.doc_ast._walk_tree": [
+    "<builtin>.isinstance",
+    "pdoc.doc_ast.unparse",
+    "<builtin>.len",
+    "pdoc.doc_ast._nodes",
+    "inspect.cleandoc.strip",
+    "inspect.cleandoc",
+    "pdoc.doc_ast._pairwise_longest"
+  ],
+  "pdoc.doc_ast._nodes": [
+    "<builtin>.list",
+    "pdoc.doc_ast._nodes_iter"
+  ],
+  "pdoc.doc_ast._pairwise_longest": [
+    "itertools.tee",
+    "<builtin>.next",
+    "itertools.zip_longest"
+  ],
+  "inspect.cleandoc.strip": [],
+  "pdoc.doc_ast.type_checking_sections": [
+    "pdoc.doc_ast._parse_module",
+    "<builtin>.isinstance",
+    "ast.Module",
+    "ast.Module.body.extend",
+    "pdoc.doc_ast.get_source"
+  ],
+  "ast.Module": [],
+  "ast.Module.body.extend": [],
+  "pdoc.doc_ast._parse": [
+    "warnings.warn",
+    "ast.parse",
+    "pdoc.doc_ast._dedent"
+  ],
+  "ast.ClassDef": [],
+  "ast.FunctionDef": [],
+  "pdoc.doc_ast._dedent": [
+    "inspect.getsource.split",
+    "pdoc.doc_ast._dedent",
+    "inspect.getsource.lstrip.split",
+    "<builtin>.any",
+    "inspect.getsource.startswith",
+    "inspect.getsource.lstrip",
+    "inspect.getsource.lstrip.startswith"
+  ],
+  "ast.parse": [],
+  "inspect.getsource.lstrip": [],
+  "inspect.getsource.lstrip.startswith": [],
+  "inspect.getsource.startswith": [],
+  "inspect.getsource.lstrip.split": [],
+  "inspect.getsource.split": [],
+  "pdoc.doc_ast._nodes_iter": [
+    "pdoc.doc_ast._init_nodes",
+    "<builtin>.isinstance"
+  ],
+  "pdoc.doc_ast._init_nodes": [
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "ast.Assign",
+    "ast.AnnAssign",
+    "ast.Pass",
+    "ast.Name",
+    "<builtin>.getattr"
+  ],
+  "ast.Name": [],
+  "ast.AnnAssign": [],
+  "ast.Assign": [],
+  "ast.Pass": [],
+  "itertools.tee": [],
+  "<builtin>.next": [],
+  "itertools.zip_longest": [],
+  "pdoc._compat": [
+    "<builtin>.object",
+    "functools.lru_cache"
+  ],
+  "pdoc._compat.ast_unparse": [
+    "astunparse.unparse",
+    "astunparse.unparse.strip"
+  ],
+  "astunparse.unparse": [],
+  "astunparse.unparse.strip": [],
+  "pdoc._compat.removesuffix": [
+    "<builtin>.len"
+  ],
+  "pdoc._compat.removeprefix": [
+    "<builtin>.len"
+  ],
+  "<builtin>.object": [],
+  "pdoc._compat.cached_property.__init__": [
+    "threading.RLock"
+  ],
+  "threading.RLock": [],
+  "pdoc._compat.cached_property.__set_name__": [
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.TypeError": [],
+  "pdoc._compat.cached_property.__get__": [
+    "functools.cached_property.func",
+    "<builtin>.type",
+    "<builtin>.TypeError"
+  ],
+  "functools.cached_property.func": [],
+  "<builtin>.classmethod": [],
+  "pdoc._compat.cached_property": [
+    "<builtin>.classmethod"
+  ],
+  "pdoc._compat.get_origin": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc._compat.formatannotation": [
+    "<builtin>.str",
+    "<builtin>.isinstance",
+    "inspect.formatannotation"
+  ],
+  "pdoc._compat.BooleanOptionalAction.__init__": [
+    "<builtin>.super"
+  ],
+  "pdoc._compat.BooleanOptionalAction.__call__": [
+    "<builtin>.setattr"
+  ],
+  "<builtin>.setattr": [],
+  "pdoc._compat.BooleanOptionalAction.format_usage": [],
+  "pdoc.doc_types": [
+    "<builtin>.type"
+  ],
+  "pdoc.doc_types._eval_type": [
+    "inspect.Signature.from_callable.return_annotation.strip",
+    "pdoc.doc_types._eval_type",
+    "<builtin>.isinstance",
+    "functools.reduce",
+    "typing._GenericAlias",
+    "typing.get_origin",
+    "sys.modules.get",
+    "<builtin>.eval",
+    "typing.ForwardRef",
+    "<builtin>.tuple",
+    "<builtin>.getattr",
+    "types.GenericAlias",
+    "inspect.Signature.from_callable.return_annotation.copy_with"
+  ],
+  "inspect.Signature.from_callable.return_annotation.strip": [],
+  "typing.ForwardRef": [],
+  "<builtin>.tuple": [],
+  "typing._GenericAlias": [],
+  "types.GenericAlias": [],
+  "functools.reduce": [],
+  "inspect.Signature.from_callable.return_annotation.copy_with": [],
+  "pdoc.render": [
+    "os.environ.get",
+    "pathlib.Path",
+    "jinja2.FileSystemLoader",
+    "pdoc.render.configure",
+    "pdoc.render_helpers.defuse_unsafe_reprs",
+    "pdoc.render_helpers.defuse_unsafe_reprs.<RETURN>",
+    "jinja2.Environment",
+    "pathlib.Path.expanduser"
+  ],
+  "pdoc.render.configure": [
+    "jinja2.FileSystemLoader"
+  ],
+  "pdoc.render_helpers.defuse_unsafe_reprs": [
+    "unittest.mock.patch.object"
+  ],
+  "pdoc.render_helpers.defuse_unsafe_reprs.<RETURN>": [],
+  "pdoc.render_helpers.root_module_name": [
+    "<builtin>.min",
+    "<builtin>.all"
+  ],
+  "typing.cast": [],
+  "pdoc.render_helpers.edit_url": [
+    "<builtin>.len",
+    "typing.cast.items"
+  ],
+  "pdoc.render.html_error": [
+    "jinja2.Environment.get_template",
+    "jinja2.Environment.get_template.render"
+  ],
+  "pdoc.render.search_index.is_public": [
+    "<builtin>.bool"
+  ],
+  "pdoc.search.make_index": [
+    "pdoc.search.make_index.make_index"
+  ],
+  "pdoc.search.precompile_index": [
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "pathlib.Path",
+    "json.dumps",
+    "textwrap.indent",
+    "json.dumps.encode",
+    "subprocess.check_output",
+    "json.loads",
+    "<builtin>.print",
+    "shutil.which",
+    "textwrap.indent.rstrip"
+  ],
+  "pdoc.render.repr_module": [
+    "<builtin>.repr"
+  ],
+  "pathlib.Path.expanduser": [],
+  "pdoc.search": [],
+  "pdoc.search.make_index.make_item": [
+    "pdoc.render_helpers.to_html",
+    "pdoc.render_helpers.to_markdown"
+  ],
+  "pdoc.render_helpers.to_markdown": [
+    "pdoc.docstrings.convert",
+    "<builtin>.getattr"
+  ],
+  "pdoc.render_helpers.to_html": [],
+  "pdoc.search.make_index.make_index": [
+    "<builtin>.isinstance",
+    "pdoc.search.make_index.make_index",
+    "pdoc.render.search_index.is_public",
+    "pdoc.render_helpers.format_signature",
+    "html.escape",
+    "pdoc.search.make_index.make_item"
+  ],
+  "html.escape": [],
+  "pdoc.render_helpers.format_signature": [
+    "<builtin>.len",
+    "markupsafe.Markup",
+    "<builtin>.sum",
+    "pdoc.render_helpers.format_signature._try_highlight",
+    "<builtin>.enumerate"
+  ],
+  "json.dumps": [],
+  "json.dumps.encode": [],
+  "subprocess.check_output": [],
+  "json.loads": [],
+  "<builtin>.print": [],
+  "textwrap.indent.rstrip": [],
+  "pdoc.render_helpers": [
+    "jinja2.contextfilter",
+    "functools.lru_cache",
+    "functools.cache",
+    "re.compile",
+    "pygments.formatters.HtmlFormatter",
+    "contextlib.contextmanager",
+    "pygments.lexers.PythonLexer",
+    "jinja2.pass_context"
+  ],
+  "pygments.lexers.PythonLexer": [],
+  "pygments.formatters.HtmlFormatter": [],
+  "pdoc.render_helpers.highlight": [
+    "warnings.warn",
+    "markupsafe.Markup",
+    "<builtin>.isinstance",
+    "pygments.highlight"
+  ],
+  "pdoc.render_helpers.format_signature._try_highlight": [
+    "pygments.highlight.strip",
+    "html.escape",
+    "pygments.highlight"
+  ],
+  "pygments.highlight.strip": [],
+  "jinja2.contextfilter": [],
+  "jinja2.pass_context": [],
+  "pdoc.render_helpers.to_markdown_with_context": [
+    "pdoc.render_helpers.to_markdown"
+  ],
+  "pdoc.render_helpers.possible_sources": [
+    "<builtin>.ValueError"
+  ],
+  "pdoc.render_helpers.split_identifier": [
+    "warnings.warn",
+    "pdoc.render_helpers.possible_sources"
+  ],
+  "pdoc.render_helpers._relative_link": [
+    "pdoc.render_helpers._relative_link",
+    "<builtin>.len"
+  ],
+  "pdoc.render_helpers.relative_link": [
+    "pdoc.render_helpers._relative_link"
+  ],
+  "pdoc.render_helpers.qualname_candidates": [
+    "<builtin>.len"
+  ],
+  "pdoc.render_helpers.linkify": [
+    "markupsafe.Markup",
+    "re.sub"
+  ],
+  "pdoc.render_helpers.linkify.linkify_repl": [
+    "pdoc.render_helpers.qualname_candidates",
+    "pdoc.render_helpers.possible_sources",
+    "<builtin>.isinstance",
+    "pdoc.render_helpers.relative_link",
+    "pdoc._compat.removesuffix"
+  ],
+  "pdoc.render_helpers.link": [
+    "markupsafe.Markup",
+    "<builtin>.isinstance",
+    "pdoc.render_helpers.relative_link",
+    "pdoc._compat.removesuffix"
+  ],
+  "typing.cast.items": [],
+  "<builtin>.min": [],
+  "<builtin>.all": [],
+  "pdoc.render_helpers.minify_css": [
+    "re.sub.replace",
+    "re.sub",
+    "markupsafe.Markup"
+  ],
+  "pdoc.render_helpers.minify_css.<lambda1>": [],
+  "re.sub.replace": [],
+  "pdoc.render_helpers.defuse_unsafe_reprs.<lambda1>": [],
+  "unittest.mock.patch.object": [],
+  "pdoc.render_helpers.DefaultMacroExtension.parse": [
+    "jinja2.nodes.If",
+    "jinja2.nodes.Name",
+    "jinja2.nodes.Not",
+    "jinja2.nodes.Macro",
+    "<builtin>.next"
+  ],
+  "jinja2.nodes.Macro": [],
+  "jinja2.nodes.Name": [],
+  "jinja2.nodes.Not": [],
+  "jinja2.nodes.If": [],
+  "pdoc.markdown2": [
+    "random.randint",
+    "pdoc.markdown2._memoized.__init__",
+    "sys.exit",
+    "re.compile",
+    "logging.getLogger",
+    "pdoc.markdown2.main",
+    "<builtin>.map",
+    "<builtin>.bytes",
+    "<builtin>.dict",
+    "pdoc.markdown2._hash_text"
+  ],
+  "<builtin>.map": [],
+  "logging.getLogger": [],
+  "random.randint": [],
+  "<builtin>.bytes": [],
+  "pdoc.markdown2._hash_text": [
+    "sys.stdin.read.replace.lstrip.encode",
+    "sys.stdin.read.rstrip.replace.encode",
+    "re.compile.sub.replace.rstrip.encode",
+    "sys.stdin.read.rstrip.encode",
+    "codecs.open.read.rstrip.lstrip.replace.encode",
+    "codecs.open.read.replace.lstrip.rstrip.encode",
+    "codecs.open.read.replace.lstrip.encode",
+    "sys.stdin.read.replace.encode",
+    "codecs.open.read.lstrip.rstrip.replace.encode",
+    "codecs.open.read.lstrip.rstrip.encode",
+    "codecs.open.read.lstrip.replace.encode",
+    "re.sub.replace.lstrip.rstrip.encode",
+    "re.compile.sub.replace.lstrip.encode",
+    "hashlib.sha256.hexdigest",
+    "re.sub.replace.rstrip.lstrip.encode",
+    "re.sub.encode",
+    "re.compile.sub.replace.encode",
+    "codecs.open.read.replace.rstrip.encode",
+    "sys.stdin.read.rstrip.lstrip.encode",
+    "re.sub.replace.encode",
+    "re.sub.replace.rstrip.encode",
+    "re.compile.sub.rstrip.replace.encode",
+    "sys.stdin.read.encode",
+    "codecs.open.read.encode",
+    "re.compile.sub.lstrip.rstrip.encode",
+    "re.sub.lstrip.replace.encode",
+    "sys.stdin.read.replace.rstrip.encode",
+    "sys.stdin.read.lstrip.replace.encode",
+    "codecs.open.read.rstrip.encode",
+    "re.compile.sub.lstrip.replace.encode",
+    "re.compile.sub.lstrip.rstrip.replace.encode",
+    "codecs.open.read.lstrip.encode",
+    "re.compile.sub.rstrip.lstrip.encode",
+    "hashlib.sha256",
+    "codecs.open.read.rstrip.lstrip.encode",
+    "re.sub.replace.lstrip.encode",
+    "re.compile.sub.replace.rstrip.lstrip.encode",
+    "re.sub.rstrip.lstrip.encode",
+    "codecs.open.read.replace.encode",
+    "re.sub.rstrip.replace.encode",
+    "codecs.open.read.replace.rstrip.lstrip.encode",
+    "re.sub.lstrip.encode",
+    "sys.stdin.read.replace.rstrip.lstrip.encode",
+    "re.compile.sub.replace.lstrip.rstrip.encode",
+    "re.sub.lstrip.rstrip.replace.encode",
+    "sys.stdin.read.lstrip.rstrip.encode",
+    "sys.stdin.read.rstrip.lstrip.replace.encode",
+    "sys.stdin.read.lstrip.encode",
+    "codecs.open.read.rstrip.replace.encode",
+    "sys.stdin.read.replace.lstrip.rstrip.encode",
+    "re.compile.sub.rstrip.lstrip.replace.encode",
+    "re.sub.rstrip.encode",
+    "sys.stdin.read.lstrip.rstrip.replace.encode",
+    "re.compile.sub.encode",
+    "re.sub.rstrip.lstrip.replace.encode",
+    "re.sub.lstrip.rstrip.encode",
+    "re.compile.sub.lstrip.encode",
+    "re.compile.sub.rstrip.encode"
+  ],
+  "sys.stdin.read.replace.lstrip.encode": [],
+  "sys.stdin.read.rstrip.replace.encode": [],
+  "re.compile.sub.replace.rstrip.encode": [],
+  "sys.stdin.read.rstrip.encode": [],
+  "codecs.open.read.rstrip.lstrip.replace.encode": [],
+  "codecs.open.read.replace.lstrip.rstrip.encode": [],
+  "codecs.open.read.replace.lstrip.encode": [],
+  "sys.stdin.read.replace.encode": [],
+  "codecs.open.read.lstrip.rstrip.replace.encode": [],
+  "codecs.open.read.lstrip.rstrip.encode": [],
+  "codecs.open.read.lstrip.replace.encode": [],
+  "re.sub.replace.lstrip.rstrip.encode": [],
+  "re.compile.sub.replace.lstrip.encode": [],
+  "re.sub.replace.rstrip.lstrip.encode": [],
+  "re.sub.encode": [],
+  "re.compile.sub.replace.encode": [],
+  "codecs.open.read.replace.rstrip.encode": [],
+  "sys.stdin.read.rstrip.lstrip.encode": [],
+  "re.sub.replace.encode": [],
+  "re.sub.replace.rstrip.encode": [],
+  "re.compile.sub.rstrip.replace.encode": [],
+  "sys.stdin.read.encode": [],
+  "codecs.open.read.encode": [],
+  "re.compile.sub.lstrip.rstrip.encode": [],
+  "re.sub.lstrip.replace.encode": [],
+  "sys.stdin.read.replace.rstrip.encode": [],
+  "sys.stdin.read.lstrip.replace.encode": [],
+  "codecs.open.read.rstrip.encode": [],
+  "re.compile.sub.lstrip.replace.encode": [],
+  "re.compile.sub.lstrip.rstrip.replace.encode": [],
+  "codecs.open.read.lstrip.encode": [],
+  "re.compile.sub.rstrip.lstrip.encode": [],
+  "codecs.open.read.rstrip.lstrip.encode": [],
+  "re.sub.replace.lstrip.encode": [],
+  "re.compile.sub.replace.rstrip.lstrip.encode": [],
+  "re.sub.rstrip.lstrip.encode": [],
+  "codecs.open.read.replace.encode": [],
+  "re.sub.rstrip.replace.encode": [],
+  "codecs.open.read.replace.rstrip.lstrip.encode": [],
+  "re.sub.lstrip.encode": [],
+  "sys.stdin.read.replace.rstrip.lstrip.encode": [],
+  "re.compile.sub.replace.lstrip.rstrip.encode": [],
+  "re.sub.lstrip.rstrip.replace.encode": [],
+  "sys.stdin.read.lstrip.rstrip.encode": [],
+  "sys.stdin.read.rstrip.lstrip.replace.encode": [],
+  "sys.stdin.read.lstrip.encode": [],
+  "codecs.open.read.rstrip.replace.encode": [],
+  "sys.stdin.read.replace.lstrip.rstrip.encode": [],
+  "re.compile.sub.rstrip.lstrip.replace.encode": [],
+  "re.sub.rstrip.encode": [],
+  "sys.stdin.read.lstrip.rstrip.replace.encode": [],
+  "re.compile.sub.encode": [],
+  "re.sub.rstrip.lstrip.replace.encode": [],
+  "re.sub.lstrip.rstrip.encode": [],
+  "re.compile.sub.lstrip.encode": [],
+  "re.compile.sub.rstrip.encode": [],
+  "hashlib.sha256": [],
+  "hashlib.sha256.hexdigest": [],
+  "<builtin>.dict": [],
+  "pdoc.markdown2.markdown_path": [
+    "codecs.open",
+    "codecs.open.read",
+    "codecs.open.close",
+    "pdoc.markdown2.Markdown.__init__",
+    "pdoc.markdown2.Markdown.convert"
+  ],
+  "codecs.open": [],
+  "codecs.open.read": [],
+  "codecs.open.close": [],
+  "pdoc.markdown2.Markdown.__init__": [
+    "re.compile",
+    "pdoc.markdown2._hash_text",
+    "<builtin>.isinstance",
+    "<builtin>.dict"
+  ],
+  "pdoc.markdown2.Markdown.convert": [
+    "pdoc.markdown2.Markdown._detab",
+    "re.compile",
+    "pdoc.markdown2.Markdown._get_emacs_vars",
+    "<builtin>.str",
+    "pdoc.markdown2.Markdown._strip_footnote_definitions",
+    "pdoc.markdown2.Markdown._hash_html_blocks",
+    "pdoc.markdown2.Markdown._do_fenced_code_blocks",
+    "pdoc.markdown2.Markdown._extract_metadata",
+    "pdoc.markdown2.Markdown._do_numbering",
+    "re.compile.split",
+    "pdoc.markdown2.Markdown._do_admonitions",
+    "pdoc.markdown2.Markdown._run_block_gamut",
+    "re.compile.split.split",
+    "re.compile.sub.replace",
+    "pdoc.markdown2.Markdown._unhash_html_spans",
+    "pdoc.markdown2.Markdown._unescape_special_chars",
+    "re.compile.sub",
+    "<builtin>.int",
+    "pdoc.markdown2.Markdown._setup_extras",
+    "codecs.open.read.replace",
+    "pdoc.markdown2.Markdown._add_footnotes",
+    "pdoc.markdown2.Markdown._hash_html_spans",
+    "<builtin>.isinstance",
+    "pdoc.markdown2.Markdown.postprocess",
+    "pdoc.markdown2.calculate_toc_html",
+    "re.sub.replace",
+    "pdoc.markdown2.Markdown.preprocess",
+    "sys.stdin.read.replace",
+    "pdoc.markdown2.Markdown.reset",
+    "pdoc.markdown2.Markdown._strip_link_definitions"
+  ],
+  "pdoc.markdown2.markdown": [
+    "pdoc.markdown2.Markdown.__init__",
+    "pdoc.markdown2.Markdown.convert"
+  ],
+  "pdoc.markdown2.Markdown": [
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown.reset": [
+    "pdoc.markdown2.Markdown._setup_extras"
+  ],
+  "pdoc.markdown2.Markdown._setup_extras": [
+    "collections.defaultdict"
+  ],
+  "collections.defaultdict": [],
+  "re.compile.sub": [],
+  "pdoc.markdown2.Markdown._get_emacs_vars": [
+    "logging.getLogger.debug",
+    "<builtin>.len",
+    "<builtin>.pow",
+    "re.compile.search.group",
+    "re.compile.search.group.splitlines",
+    "re.compile.search.group.split",
+    "re.compile.search",
+    "<builtin>.list",
+    "<builtin>.enumerate"
+  ],
+  "re.compile.split": [],
+  "re.compile.split.split": [],
+  "<builtin>.int": [],
+  "codecs.open.read.replace": [],
+  "re.compile.sub.replace": [],
+  "sys.stdin.read.replace": [],
+  "pdoc.markdown2.Markdown._detab": [
+    "codecs.open.read.rstrip.lstrip.splitlines",
+    "codecs.open.read.replace.lstrip.rstrip.splitlines",
+    "re.compile.sub.rstrip.lstrip.splitlines",
+    "codecs.open.read.lstrip.rstrip.splitlines",
+    "sys.stdin.read.replace.lstrip.rstrip.splitlines",
+    "sys.stdin.read.splitlines",
+    "re.compile.sub.replace.splitlines",
+    "re.sub.replace.rstrip.lstrip.splitlines",
+    "sys.stdin.read.replace.rstrip.lstrip.splitlines",
+    "re.compile.sub.lstrip.rstrip.splitlines",
+    "re.sub.rstrip.splitlines",
+    "re.sub.lstrip.rstrip.splitlines",
+    "re.sub.lstrip.splitlines",
+    "re.sub.replace.rstrip.splitlines",
+    "re.sub.splitlines",
+    "codecs.open.read.replace.rstrip.splitlines",
+    "re.compile.sub.splitlines",
+    "codecs.open.read.lstrip.splitlines",
+    "codecs.open.read.replace.lstrip.splitlines",
+    "codecs.open.read.replace.rstrip.lstrip.splitlines",
+    "codecs.open.read.splitlines",
+    "sys.stdin.read.replace.splitlines",
+    "sys.stdin.read.rstrip.splitlines",
+    "re.sub.replace.lstrip.rstrip.splitlines",
+    "re.sub.replace.lstrip.splitlines",
+    "re.compile.sub.replace.lstrip.rstrip.splitlines",
+    "re.compile.sub.lstrip.splitlines",
+    "sys.stdin.read.lstrip.splitlines",
+    "codecs.open.read.replace.splitlines",
+    "codecs.open.read.rstrip.splitlines",
+    "re.compile.sub.replace.rstrip.lstrip.splitlines",
+    "re.compile.sub.replace.rstrip.splitlines",
+    "sys.stdin.read.replace.rstrip.splitlines",
+    "sys.stdin.read.lstrip.rstrip.splitlines",
+    "re.sub.rstrip.lstrip.splitlines",
+    "re.sub.replace.splitlines",
+    "re.compile.sub.replace.lstrip.splitlines",
+    "sys.stdin.read.rstrip.lstrip.splitlines",
+    "re.compile.sub.rstrip.splitlines",
+    "pdoc.markdown2.Markdown._detab_line",
+    "sys.stdin.read.replace.lstrip.splitlines"
+  ],
+  "pdoc.markdown2.Markdown._extract_metadata": [
+    "re.findall.split",
+    "re.compile.sub.startswith",
+    "codecs.open.read.startswith",
+    "pdoc.markdown2._dedent",
+    "re.split",
+    "pdoc.markdown2.Markdown._extract_metadata.parse_structured_value",
+    "sys.stdin.read.startswith",
+    "re.sub.startswith",
+    "re.compile.sub.replace.startswith",
+    "codecs.open.read.replace.startswith",
+    "re.findall",
+    "re.sub.replace.startswith",
+    "sys.stdin.read.replace.startswith"
+  ],
+  "pdoc.markdown2.Markdown.preprocess": [],
+  "pdoc.markdown2.Markdown._do_fenced_code_blocks": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._hash_html_spans": [
+    "re.compile.split",
+    "pdoc.markdown2.Markdown._hash_html_spans._is_auto_link",
+    "pdoc.markdown2.Markdown._sanitize_html",
+    "pdoc.markdown2.Markdown._encode_incomplete_tags",
+    "pdoc.markdown2.Markdown._hash_html_spans._is_code_span",
+    "pdoc.markdown2._hash_text",
+    "<builtin>.enumerate"
+  ],
+  "pdoc.markdown2.Markdown._hash_html_blocks": [
+    "re.compile.sub.index",
+    "re.compile.sub.replace.index",
+    "<builtin>.len",
+    "pdoc.markdown2._memoized.__init__",
+    "re.sub.replace.index",
+    "codecs.open.read.index",
+    "codecs.open.read.replace.index",
+    "sys.stdin.read.replace.index",
+    "re.sub.index",
+    "pdoc.markdown2.Markdown._sanitize_html",
+    "re.compile.sub",
+    "pdoc.markdown2._curry",
+    "<builtin>.range",
+    "sys.stdin.read.index",
+    "pdoc.markdown2._hash_text"
+  ],
+  "pdoc.markdown2.Markdown._do_admonitions": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._do_numbering": [
+    "re.compile.finditer.end",
+    "re.compile.finditer.group",
+    "<builtin>.len",
+    "re.compile.finditer.groups",
+    "re.compile.finditer",
+    "re.compile",
+    "re.compile.finditer.start",
+    "re.compile.finditer.group.strip",
+    "<builtin>.list",
+    "<builtin>.reversed"
+  ],
+  "pdoc.markdown2.Markdown._strip_footnote_definitions": [
+    "re.compile.sub",
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown._strip_link_definitions": [
+    "re.compile.sub",
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown._run_block_gamut": [
+    "pdoc.markdown2.Markdown._hash_html_blocks",
+    "pdoc.markdown2.Markdown._do_tables",
+    "re.sub",
+    "pdoc.markdown2.Markdown._do_headers",
+    "pdoc.markdown2.Markdown._do_code_blocks",
+    "pdoc.markdown2.Markdown._do_block_quotes",
+    "pdoc.markdown2.Markdown._form_paragraphs",
+    "pdoc.markdown2.Markdown._do_lists",
+    "pdoc.markdown2.Markdown._prepare_pyshell_blocks",
+    "pdoc.markdown2.Markdown._do_wiki_tables",
+    "pdoc.markdown2.Markdown._do_fenced_code_blocks",
+    "pdoc.markdown2.Markdown._do_admonitions"
+  ],
+  "pdoc.markdown2.Markdown._add_footnotes": [
+    "pdoc.markdown2.Markdown._run_block_gamut",
+    "logging.getLogger.debug",
+    "<builtin>.len",
+    "<builtin>.enumerate"
+  ],
+  "pdoc.markdown2.Markdown.postprocess": [],
+  "pdoc.markdown2.Markdown._unescape_special_chars": [
+    "sys.stdin.read.replace",
+    "re.compile.sub.replace",
+    "codecs.open.read.replace",
+    "re.sub.replace",
+    "<builtin>.list"
+  ],
+  "pdoc.markdown2.Markdown._unhash_html_spans": [
+    "sys.stdin.read.replace",
+    "re.compile.sub.replace",
+    "codecs.open.read.replace",
+    "re.sub.replace",
+    "<builtin>.list"
+  ],
+  "pdoc.markdown2.calculate_toc_html": [
+    "<builtin>.len",
+    "pdoc.markdown2.calculate_toc_html.indent"
+  ],
+  "re.compile.sub.startswith": [],
+  "codecs.open.read.startswith": [],
+  "sys.stdin.read.startswith": [],
+  "re.compile.sub.replace.startswith": [],
+  "codecs.open.read.replace.startswith": [],
+  "re.sub.replace.startswith": [],
+  "sys.stdin.read.replace.startswith": [],
+  "re.findall": [],
+  "pdoc.markdown2.Markdown._extract_metadata.parse_structured_value": [
+    "re.findall",
+    "<builtin>.len",
+    "pdoc.markdown2.Markdown._extract_metadata.parse_structured_value"
+  ],
+  "re.findall.split": [],
+  "pdoc.markdown2._dedent": [
+    "pdoc.markdown2._dedentlines"
+  ],
+  "pdoc.markdown2.Markdown._emacs_vars_oneliner_sub": [
+    "re.findall"
+  ],
+  "<builtin>.pow": [],
+  "re.compile.search": [],
+  "re.compile.search.group": [],
+  "re.compile.search.group.split": [],
+  "logging.getLogger.debug": [],
+  "re.compile.search.group.splitlines": [],
+  "pdoc.markdown2.Markdown._detab_line": [
+    "pdoc.markdown2.Markdown._detab_line",
+    "<builtin>.len"
+  ],
+  "codecs.open.read.rstrip.lstrip.splitlines": [],
+  "codecs.open.read.replace.lstrip.rstrip.splitlines": [],
+  "re.compile.sub.rstrip.lstrip.splitlines": [],
+  "codecs.open.read.lstrip.rstrip.splitlines": [],
+  "sys.stdin.read.replace.lstrip.rstrip.splitlines": [],
+  "sys.stdin.read.splitlines": [],
+  "re.compile.sub.replace.splitlines": [],
+  "re.sub.replace.rstrip.lstrip.splitlines": [],
+  "sys.stdin.read.replace.rstrip.lstrip.splitlines": [],
+  "re.compile.sub.lstrip.rstrip.splitlines": [],
+  "re.sub.rstrip.splitlines": [],
+  "re.sub.lstrip.rstrip.splitlines": [],
+  "re.sub.lstrip.splitlines": [],
+  "re.sub.replace.rstrip.splitlines": [],
+  "codecs.open.read.replace.rstrip.splitlines": [],
+  "re.compile.sub.splitlines": [],
+  "codecs.open.read.lstrip.splitlines": [],
+  "codecs.open.read.replace.lstrip.splitlines": [],
+  "codecs.open.read.replace.rstrip.lstrip.splitlines": [],
+  "codecs.open.read.splitlines": [],
+  "sys.stdin.read.replace.splitlines": [],
+  "sys.stdin.read.rstrip.splitlines": [],
+  "re.sub.replace.lstrip.rstrip.splitlines": [],
+  "re.sub.replace.lstrip.splitlines": [],
+  "re.compile.sub.replace.lstrip.rstrip.splitlines": [],
+  "re.compile.sub.lstrip.splitlines": [],
+  "sys.stdin.read.lstrip.splitlines": [],
+  "codecs.open.read.replace.splitlines": [],
+  "codecs.open.read.rstrip.splitlines": [],
+  "re.compile.sub.replace.rstrip.lstrip.splitlines": [],
+  "re.compile.sub.replace.rstrip.splitlines": [],
+  "sys.stdin.read.replace.rstrip.splitlines": [],
+  "sys.stdin.read.lstrip.rstrip.splitlines": [],
+  "re.sub.rstrip.lstrip.splitlines": [],
+  "re.sub.replace.splitlines": [],
+  "re.compile.sub.replace.lstrip.splitlines": [],
+  "sys.stdin.read.rstrip.lstrip.splitlines": [],
+  "re.compile.sub.rstrip.splitlines": [],
+  "sys.stdin.read.replace.lstrip.splitlines": [],
+  "pdoc.markdown2.Markdown._hash_html_block_sub": [
+    "re.compile.search.start",
+    "pdoc.markdown2.Markdown._sanitize_html",
+    "re.compile.search.end",
+    "re.compile.search",
+    "pdoc.markdown2._hash_text"
+  ],
+  "pdoc.markdown2.Markdown._sanitize_html": [],
+  "re.compile.search.start": [],
+  "re.compile.search.end": [],
+  "pdoc.markdown2._curry": [],
+  "pdoc.markdown2._memoized.__init__": [],
+  "re.compile.sub.index": [],
+  "re.compile.sub.replace.index": [],
+  "re.sub.replace.index": [],
+  "codecs.open.read.index": [],
+  "codecs.open.read.replace.index": [],
+  "sys.stdin.read.replace.index": [],
+  "re.sub.index": [],
+  "sys.stdin.read.index": [],
+  "<builtin>.range": [],
+  "pdoc.markdown2.Markdown._extract_link_def_sub": [
+    "pdoc.markdown2.Markdown._encode_amps_and_angles"
+  ],
+  "pdoc.markdown2.Markdown._encode_amps_and_angles": [
+    "re.compile.sub"
+  ],
+  "re.compile.finditer": [],
+  "re.compile.finditer.groups": [],
+  "re.compile.finditer.group": [],
+  "re.compile.finditer.group.strip": [],
+  "re.compile.finditer.start": [],
+  "re.compile.finditer.end": [],
+  "pdoc.markdown2.Markdown._extract_footnote_def_sub": [
+    "pdoc.markdown2._dedent",
+    "re.sub"
+  ],
+  "pdoc.markdown2.Markdown._do_headers": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._do_lists": [
+    "<builtin>.len",
+    "re.compile",
+    "re.compile.search.start",
+    "pdoc.markdown2.Markdown._list_sub",
+    "re.compile.search",
+    "re.compile.search.span"
+  ],
+  "pdoc.markdown2.Markdown._prepare_pyshell_blocks": [
+    "re.compile.sub",
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown._do_wiki_tables": [
+    "re.compile.sub",
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown._do_tables": [
+    "re.compile.sub",
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown._do_code_blocks": [
+    "re.compile.sub",
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown._do_block_quotes": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._form_paragraphs": [
+    "re.compile.sub.strip",
+    "re.split",
+    "codecs.open.read.replace.strip",
+    "sys.stdin.read.strip",
+    "re.sub.strip.replace.lstrip",
+    "pdoc.markdown2.Markdown._run_span_gamut",
+    "pdoc.markdown2.Markdown._html_class_str_from_tag",
+    "re.compile.search",
+    "re.sub.lstrip",
+    "re.sub.replace.lstrip",
+    "re.compile.sub.replace.strip",
+    "<builtin>.enumerate",
+    "re.compile.sub.lstrip",
+    "<builtin>.len",
+    "re.compile.search.start",
+    "re.sub.rstrip.startswith",
+    "re.compile.sub.replace.lstrip",
+    "re.sub.rstrip",
+    "codecs.open.read.strip",
+    "re.sub.strip",
+    "re.compile.search.group",
+    "re.sub.strip.lstrip",
+    "sys.stdin.read.replace.strip",
+    "re.sub.replace.strip",
+    "pdoc.markdown2.Markdown._do_lists",
+    "re.compile.sub.rstrip.startswith",
+    "re.compile.sub.rstrip"
+  ],
+  "pdoc.markdown2.Markdown._pyshell_block_sub": [
+    "pdoc.markdown2._dedent",
+    "pdoc.markdown2.Markdown._do_fenced_code_blocks",
+    "pdoc.markdown2._dedentlines"
+  ],
+  "pdoc.markdown2._dedentlines": [
+    "<builtin>.min",
+    "<builtin>.print",
+    "<builtin>.ValueError",
+    "<builtin>.enumerate"
+  ],
+  "pdoc.markdown2.Markdown._table_sub": [
+    "re.sub",
+    "re.split",
+    "pdoc.markdown2.Markdown._run_span_gamut",
+    "pdoc.markdown2.Markdown._html_class_str_from_tag",
+    "<builtin>.enumerate"
+  ],
+  "pdoc.markdown2.Markdown._html_class_str_from_tag": [
+    "<builtin>.isinstance"
+  ],
+  "pdoc.markdown2.Markdown._run_span_gamut": [
+    "pdoc.markdown2.Markdown._encode_amps_and_angles",
+    "pdoc.markdown2.Markdown._do_auto_links",
+    "re.sub",
+    "pdoc.markdown2.Markdown._do_underline",
+    "pdoc.markdown2.Markdown._do_smart_punctuation",
+    "pdoc.markdown2.Markdown._do_links",
+    "pdoc.markdown2.Markdown._do_italics_and_bold",
+    "pdoc.markdown2.Markdown._escape_special_chars",
+    "pdoc.markdown2.Markdown._do_strike",
+    "pdoc.markdown2.Markdown._do_code_spans",
+    "pdoc.markdown2.Markdown._do_link_patterns"
+  ],
+  "pdoc.markdown2.Markdown._wiki_table_sub": [
+    "pdoc.markdown2.Markdown._wiki_table_sub.format_cell",
+    "re.split",
+    "re.match",
+    "pdoc.markdown2.Markdown._html_class_str_from_tag",
+    "pdoc.markdown2.Markdown._wiki_table_sub.add_hline"
+  ],
+  "pdoc.markdown2.Markdown._wiki_table_sub.add_hline": [],
+  "pdoc.markdown2.Markdown._wiki_table_sub.format_cell": [
+    "re.sub.strip",
+    "pdoc.markdown2.Markdown._run_span_gamut",
+    "re.sub"
+  ],
+  "re.sub.strip": [],
+  "pdoc.markdown2.Markdown._do_code_spans": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._escape_special_chars": [
+    "re.compile.split.replace",
+    "pdoc.markdown2.Markdown._encode_backslash_escapes",
+    "re.compile.split"
+  ],
+  "pdoc.markdown2.Markdown._do_link_patterns": [
+    "re.sub.strip.replace",
+    "re.compile.sub.replace",
+    "<builtin>.hasattr",
+    "<builtin>.any",
+    "re.sub.replace",
+    "pdoc.markdown2._hash_text",
+    "<builtin>.list",
+    "<builtin>.reversed"
+  ],
+  "pdoc.markdown2.Markdown._do_links": [
+    "re.sub.replace.startswith",
+    "sys.stdin.read.replace.startswith",
+    "re.compile.match.group",
+    "re.compile.sub.replace",
+    "re.compile.sub.replace.lower",
+    "pdoc.markdown2.Markdown._html_class_str_from_tag",
+    "codecs.open.read.replace.lower",
+    "re.compile.sub.replace.startswith",
+    "pdoc.markdown2.Markdown._hash_html_spans",
+    "codecs.open.read.replace.startswith",
+    "re.compile.match",
+    "pdoc.markdown2._xml_escape_attr",
+    "<builtin>.len",
+    "re.sub",
+    "re.sub.index",
+    "re.sub.strip.replace.index",
+    "pdoc.markdown2._html_escape_url",
+    "sys.stdin.read.replace.lower",
+    "re.compile.match.group.lower",
+    "<builtin>.min",
+    "re.compile.sub.index",
+    "re.sub.strip.index",
+    "re.compile.sub.replace.index",
+    "re.sub.replace.lower",
+    "re.sub.replace.index",
+    "re.compile.match.end",
+    "<builtin>.range",
+    "pdoc.markdown2.Markdown._extract_url_and_title",
+    "pdoc.markdown2.Markdown._unhash_html_spans"
+  ],
+  "pdoc.markdown2.Markdown._do_auto_links": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._do_strike": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._do_underline": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._do_italics_and_bold": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._do_smart_punctuation": [
+    "re.sub.strip.replace",
+    "re.compile.sub.replace",
+    "re.compile.sub",
+    "re.sub.replace",
+    "pdoc.markdown2.Markdown._do_smart_contractions"
+  ],
+  "re.compile.split.replace": [],
+  "pdoc.markdown2.Markdown._encode_backslash_escapes": [
+    "<builtin>.list"
+  ],
+  "pdoc.markdown2.Markdown._hash_html_spans._is_auto_link": [
+    "re.compile.match"
+  ],
+  "pdoc.markdown2.Markdown._hash_html_spans._is_code_span": [
+    "re.match"
+  ],
+  "pdoc.markdown2.Markdown._encode_incomplete_tags": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._find_non_whitespace": [
+    "re.compile.match.end",
+    "re.compile.match"
+  ],
+  "re.compile.match.end": [],
+  "pdoc.markdown2.Markdown._find_balanced": [
+    "<builtin>.len"
+  ],
+  "pdoc.markdown2.Markdown._extract_url_and_title": [
+    "pdoc.markdown2.Markdown._find_balanced",
+    "<builtin>.len",
+    "pdoc.markdown2.Markdown._find_non_whitespace",
+    "re.compile.search.start",
+    "re.compile.search.group",
+    "re.compile.sub",
+    "re.compile.search"
+  ],
+  "re.sub.strip.index": [],
+  "re.sub.strip.replace.index": [],
+  "pdoc.markdown2._xml_escape_attr": [
+    "pdoc.markdown2.Markdown._unhash_html_spans.<RETURN>.replace",
+    "re.compile.sub.replace",
+    "re.compile.sub",
+    "pdoc.markdown2.Markdown._do_links.title.replace",
+    "pdoc.markdown2.Markdown._hash_html_spans.<RETURN>.replace"
+  ],
+  "pdoc.markdown2._html_escape_url": [],
+  "re.compile.match.group": [],
+  "re.compile.match.group.lower": [],
+  "sys.stdin.read.replace.lower": [],
+  "codecs.open.read.replace.lower": [],
+  "re.compile.sub.replace.lower": [],
+  "re.sub.replace.lower": [],
+  "pdoc.markdown2.Markdown.header_id_from_text": [
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "pdoc.markdown2._slugify"
+  ],
+  "pdoc.markdown2._slugify": [
+    "unicodedata.normalize",
+    "re.compile.sub.strip",
+    "re.compile.sub",
+    "unicodedata.normalize.encode",
+    "unicodedata.normalize.encode.decode",
+    "re.compile.sub.strip.lower"
+  ],
+  "pdoc.markdown2.Markdown._toc_add_entry": [
+    "pdoc.markdown2.Markdown._unescape_special_chars"
+  ],
+  "pdoc.markdown2.Markdown._h_sub": [
+    "pdoc.markdown2.Markdown._toc_add_entry",
+    "<builtin>.len",
+    "pdoc.markdown2.Markdown._run_span_gamut",
+    "pdoc.markdown2.Markdown.header_id_from_text",
+    "<builtin>.min"
+  ],
+  "pdoc.markdown2.Markdown._list_sub": [
+    "re.compile.search.group",
+    "pdoc.markdown2.Markdown._process_list_items"
+  ],
+  "pdoc.markdown2.Markdown._process_list_items": [
+    "re.compile.search.group.rstrip",
+    "re.compile.sub",
+    "re.compile.sub.rstrip"
+  ],
+  "re.compile.search.span": [],
+  "pdoc.markdown2.Markdown._task_list_item_sub": [],
+  "pdoc.markdown2.Markdown._list_item_sub": [
+    "pdoc.markdown2.Markdown._run_block_gamut",
+    "<builtin>.len",
+    "re.sub.strip.endswith",
+    "pdoc.markdown2.Markdown._outdent",
+    "re.sub.strip.replace.endswith",
+    "re.compile.sub.endswith",
+    "pdoc.markdown2.Markdown._run_span_gamut",
+    "re.compile.sub",
+    "re.sub.endswith",
+    "pdoc.markdown2.Markdown._do_lists",
+    "re.compile.sub.replace.endswith",
+    "re.sub.replace.endswith",
+    "pdoc.markdown2.Markdown._uniform_outdent"
+  ],
+  "pdoc.markdown2.Markdown._outdent": [
+    "re.compile.sub"
+  ],
+  "pdoc.markdown2.Markdown._uniform_outdent": [
+    "codecs.open.read.rstrip.lstrip.splitlines",
+    "re.sub.strip.splitlines",
+    "codecs.open.read.replace.lstrip.rstrip.splitlines",
+    "re.compile.sub.rstrip.lstrip.splitlines",
+    "re.sub.strip.replace.splitlines",
+    "codecs.open.read.rstrip.lstrip.replace.splitlines",
+    "codecs.open.read.lstrip.rstrip.splitlines",
+    "sys.stdin.read.replace.lstrip.rstrip.splitlines",
+    "sys.stdin.read.splitlines",
+    "re.compile.sub.replace.splitlines",
+    "codecs.open.read.lstrip.replace.splitlines",
+    "re.sub.replace.rstrip.lstrip.splitlines",
+    "sys.stdin.read.replace.rstrip.lstrip.splitlines",
+    "re.compile.sub.lstrip.rstrip.splitlines",
+    "re.sub.rstrip.lstrip.replace.splitlines",
+    "re.sub.rstrip.splitlines",
+    "re.sub.lstrip.rstrip.splitlines",
+    "re.sub.lstrip.splitlines",
+    "re.sub.replace.rstrip.splitlines",
+    "re.compile.sub.rstrip.replace.splitlines",
+    "re.sub.splitlines",
+    "codecs.open.read.replace.rstrip.splitlines",
+    "sys.stdin.read.rstrip.replace.splitlines",
+    "re.compile.sub.splitlines",
+    "codecs.open.read.lstrip.splitlines",
+    "re.compile.sub.lstrip.rstrip.replace.splitlines",
+    "codecs.open.read.replace.lstrip.splitlines",
+    "codecs.open.read.replace.rstrip.lstrip.splitlines",
+    "sys.stdin.read.rstrip.lstrip.replace.splitlines",
+    "re.sub.lstrip.rstrip.replace.splitlines",
+    "codecs.open.read.splitlines",
+    "sys.stdin.read.rstrip.splitlines",
+    "sys.stdin.read.replace.splitlines",
+    "re.sub.replace.lstrip.rstrip.splitlines",
+    "re.sub.replace.lstrip.splitlines",
+    "<builtin>.sorted",
+    "sys.stdin.read.lstrip.replace.splitlines",
+    "re.compile.sub.replace.lstrip.rstrip.splitlines",
+    "<builtin>.len",
+    "codecs.open.read.rstrip.replace.splitlines",
+    "re.compile.sub.rstrip.lstrip.replace.splitlines",
+    "re.sub.rstrip.replace.splitlines",
+    "re.compile.sub.lstrip.splitlines",
+    "sys.stdin.read.lstrip.splitlines",
+    "codecs.open.read.replace.splitlines",
+    "codecs.open.read.rstrip.splitlines",
+    "re.sub.lstrip.replace.splitlines",
+    "re.findall",
+    "re.compile.sub.replace.rstrip.lstrip.splitlines",
+    "re.compile.sub.replace.rstrip.splitlines",
+    "sys.stdin.read.replace.rstrip.splitlines",
+    "sys.stdin.read.lstrip.rstrip.splitlines",
+    "re.compile.sub.lstrip.replace.splitlines",
+    "codecs.open.read.lstrip.rstrip.replace.splitlines",
+    "re.sub.rstrip.lstrip.splitlines",
+    "re.sub.replace.splitlines",
+    "re.compile.sub.replace.lstrip.splitlines",
+    "sys.stdin.read.rstrip.lstrip.splitlines",
+    "re.compile.sub.rstrip.splitlines",
+    "sys.stdin.read.lstrip.rstrip.replace.splitlines",
+    "sys.stdin.read.replace.lstrip.splitlines"
+  ],
+  "re.sub.strip.endswith": [],
+  "re.sub.strip.replace.endswith": [],
+  "re.compile.sub.endswith": [],
+  "re.sub.endswith": [],
+  "re.compile.sub.replace.endswith": [],
+  "re.sub.replace.endswith": [],
+  "re.compile.search.group.rstrip": [],
+  "re.compile.sub.rstrip": [],
+  "pdoc.markdown2.Markdown._get_pygments_lexer": [
+    "pygments.lexers.get_lexer_by_name"
+  ],
+  "pygments.lexers.get_lexer_by_name": [],
+  "pdoc.markdown2.Markdown._color_with_pygments": [
+    "pygments.formatters.HtmlFormatter.__init__",
+    "pygments.highlight"
+  ],
+  "pdoc.markdown2.Markdown._color_with_pygments.HtmlCodeFormatter._wrap_code": [],
+  "pdoc.markdown2.Markdown._color_with_pygments.HtmlCodeFormatter._add_newline": [],
+  "pdoc.markdown2.Markdown._color_with_pygments.HtmlCodeFormatter.wrap": [
+    "pygments.formatters.HtmlFormatter._wrap_div",
+    "pdoc.markdown2.Markdown._color_with_pygments.HtmlCodeFormatter._add_newline",
+    "pdoc.markdown2.Markdown._color_with_pygments.HtmlCodeFormatter._wrap_code",
+    "pygments.formatters.HtmlFormatter._wrap_pre"
+  ],
+  "pygments.formatters.HtmlFormatter._wrap_pre": [],
+  "pygments.formatters.HtmlFormatter._wrap_div": [],
+  "pygments.formatters.HtmlFormatter.__init__": [],
+  "pdoc.markdown2.Markdown._code_block_sub": [
+    "pdoc.markdown2.Markdown._detab",
+    "sys.stdin.read.rstrip",
+    "codecs.open.read.replace.rstrip.startswith",
+    "sys.stdin.read.replace.lstrip.split",
+    "re.sub.replace.rstrip",
+    "sys.stdin.read.replace.lstrip.rstrip",
+    "codecs.open.read.replace.rstrip.split",
+    "re.sub.lstrip.rstrip.split",
+    "re.sub.replace.rstrip.split",
+    "sys.stdin.read.replace.rstrip",
+    "re.compile.sub.replace.lstrip.rstrip",
+    "re.compile.sub.lstrip.rstrip.startswith",
+    "pdoc.markdown2.Markdown._code_block_with_lexer_sub",
+    "re.sub.rstrip.lstrip.split",
+    "re.sub.lstrip",
+    "re.sub.replace.lstrip.startswith",
+    "codecs.open.read.lstrip.rstrip.startswith",
+    "codecs.open.read.lstrip.rstrip",
+    "re.sub.split",
+    "re.compile.sub.replace.rstrip.startswith",
+    "re.compile.sub.replace.lstrip",
+    "sys.stdin.read.replace.rstrip.startswith",
+    "re.sub.lstrip.rstrip.startswith",
+    "codecs.open.read.lstrip.split",
+    "sys.stdin.read.replace.lstrip.rstrip.startswith",
+    "re.compile.sub.replace.rstrip.lstrip.split",
+    "re.sub.startswith",
+    "codecs.open.read.replace.split",
+    "re.compile.sub.replace.rstrip.split",
+    "sys.stdin.read.rstrip.lstrip.split",
+    "re.compile.sub.replace.rstrip.lstrip.startswith",
+    "sys.stdin.read.replace.lstrip",
+    "re.compile.sub.rstrip",
+    "sys.stdin.read.rstrip.startswith",
+    "sys.stdin.read.replace.rstrip.lstrip.split",
+    "codecs.open.read.rstrip.lstrip",
+    "codecs.open.read.lstrip.startswith",
+    "sys.stdin.read.replace.rstrip.lstrip.startswith",
+    "re.sub.replace.rstrip.lstrip.split",
+    "sys.stdin.read.lstrip.rstrip",
+    "re.sub.replace.startswith",
+    "sys.stdin.read.replace.startswith",
+    "codecs.open.read.rstrip.split",
+    "re.compile.sub.startswith",
+    "codecs.open.read.rstrip.startswith",
+    "re.compile.sub.lstrip.startswith",
+    "pdoc.markdown2.Markdown._html_class_str_from_tag",
+    "re.sub.lstrip.rstrip",
+    "re.sub.replace.rstrip.lstrip",
+    "re.compile.sub.replace.rstrip.lstrip",
+    "re.sub.lstrip.split",
+    "re.compile.sub.replace.startswith",
+    "re.sub.rstrip.split",
+    "codecs.open.read.replace.startswith",
+    "codecs.open.read.replace.lstrip.rstrip",
+    "sys.stdin.read.replace.lstrip.rstrip.split",
+    "re.compile.sub.lstrip",
+    "re.compile.sub.replace.split",
+    "re.compile.sub.rstrip.lstrip.startswith",
+    "<builtin>.len",
+    "re.compile.sub.rstrip.lstrip",
+    "re.sub.replace.rstrip.lstrip.startswith",
+    "sys.stdin.read.startswith",
+    "codecs.open.read.replace.lstrip.rstrip.split",
+    "re.sub.rstrip",
+    "pdoc.markdown2.Markdown._uniform_outdent_limit",
+    "re.sub.replace.lstrip.rstrip",
+    "re.sub.rstrip.lstrip.startswith",
+    "re.compile.sub.rstrip.split",
+    "sys.stdin.read.rstrip.lstrip",
+    "codecs.open.read.replace.lstrip.rstrip.startswith",
+    "sys.stdin.read.replace.rstrip.lstrip",
+    "sys.stdin.read.rstrip.lstrip.startswith",
+    "re.compile.sub.rstrip.lstrip.split",
+    "re.compile.sub.replace.lstrip.rstrip.split",
+    "re.compile.sub.replace.rstrip",
+    "re.compile.sub.replace.lstrip.rstrip.startswith",
+    "pdoc.markdown2.Markdown._get_pygments_lexer",
+    "codecs.open.read.replace.lstrip.startswith",
+    "sys.stdin.read.split",
+    "re.sub.replace.rstrip.startswith",
+    "codecs.open.read.split",
+    "re.sub.replace.lstrip",
+    "sys.stdin.read.lstrip.startswith",
+    "sys.stdin.read.lstrip",
+    "sys.stdin.read.rstrip.split",
+    "re.sub.replace.lstrip.rstrip.startswith",
+    "re.sub.replace.split",
+    "sys.stdin.read.replace.split",
+    "re.compile.sub.replace.lstrip.split",
+    "re.compile.sub.lstrip.rstrip",
+    "re.compile.sub.rstrip.startswith",
+    "re.sub.replace.lstrip.rstrip.split",
+    "re.compile.sub.lstrip.split",
+    "codecs.open.read.rstrip",
+    "sys.stdin.read.replace.rstrip.split",
+    "codecs.open.read.rstrip.lstrip.split",
+    "re.compile.sub.split",
+    "sys.stdin.read.lstrip.rstrip.startswith",
+    "sys.stdin.read.lstrip.split",
+    "pdoc.markdown2.Markdown._outdent",
+    "re.compile.sub.replace.lstrip.startswith",
+    "codecs.open.read.replace.rstrip.lstrip.split",
+    "re.sub.lstrip.startswith",
+    "codecs.open.read.replace.rstrip",
+    "codecs.open.read.lstrip",
+    "codecs.open.read.startswith",
+    "sys.stdin.read.lstrip.rstrip.split",
+    "re.sub.rstrip.startswith",
+    "codecs.open.read.replace.lstrip.split",
+    "codecs.open.read.replace.rstrip.lstrip.startswith",
+    "re.sub.replace.lstrip.split",
+    "re.sub.rstrip.lstrip",
+    "sys.stdin.read.replace.lstrip.startswith",
+    "re.compile.sub.lstrip.rstrip.split",
+    "codecs.open.read.replace.rstrip.lstrip",
+    "codecs.open.read.lstrip.rstrip.split",
+    "pdoc.markdown2.Markdown._encode_code",
+    "codecs.open.read.replace.lstrip",
+    "codecs.open.read.rstrip.lstrip.startswith"
+  ],
+  "sys.stdin.read.lstrip": [],
+  "sys.stdin.read.replace.lstrip": [],
+  "re.compile.sub.lstrip": [],
+  "sys.stdin.read.replace.rstrip.lstrip": [],
+  "codecs.open.read.rstrip.lstrip": [],
+  "codecs.open.read.lstrip": [],
+  "codecs.open.read.replace.rstrip.lstrip": [],
+  "re.compile.sub.rstrip.lstrip": [],
+  "re.sub.replace.rstrip.lstrip": [],
+  "re.compile.sub.replace.rstrip.lstrip": [],
+  "sys.stdin.read.rstrip.lstrip": [],
+  "re.compile.sub.replace.lstrip": [],
+  "re.sub.lstrip": [],
+  "re.sub.replace.lstrip": [],
+  "codecs.open.read.replace.lstrip": [],
+  "re.sub.rstrip.lstrip": [],
+  "codecs.open.read.replace.rstrip": [],
+  "codecs.open.read.lstrip.rstrip": [],
+  "codecs.open.read.replace.lstrip.rstrip": [],
+  "codecs.open.read.rstrip": [],
+  "re.sub.replace.lstrip.rstrip": [],
+  "sys.stdin.read.replace.rstrip": [],
+  "re.compile.sub.lstrip.rstrip": [],
+  "sys.stdin.read.rstrip": [],
+  "re.compile.sub.replace.lstrip.rstrip": [],
+  "re.sub.lstrip.rstrip": [],
+  "re.sub.replace.rstrip": [],
+  "sys.stdin.read.replace.lstrip.rstrip": [],
+  "sys.stdin.read.lstrip.rstrip": [],
+  "re.sub.rstrip": [],
+  "re.compile.sub.replace.rstrip": [],
+  "sys.stdin.read.rstrip.startswith": [],
+  "codecs.open.read.replace.lstrip.rstrip.startswith": [],
+  "sys.stdin.read.rstrip.lstrip.startswith": [],
+  "codecs.open.read.lstrip.startswith": [],
+  "codecs.open.read.replace.rstrip.startswith": [],
+  "sys.stdin.read.replace.rstrip.lstrip.startswith": [],
+  "sys.stdin.read.lstrip.rstrip.startswith": [],
+  "re.compile.sub.replace.lstrip.rstrip.startswith": [],
+  "re.compile.sub.replace.lstrip.startswith": [],
+  "codecs.open.read.rstrip.startswith": [],
+  "re.compile.sub.lstrip.startswith": [],
+  "re.compile.sub.lstrip.rstrip.startswith": [],
+  "codecs.open.read.replace.lstrip.startswith": [],
+  "re.sub.replace.rstrip.startswith": [],
+  "re.sub.replace.lstrip.startswith": [],
+  "codecs.open.read.lstrip.rstrip.startswith": [],
+  "re.sub.lstrip.startswith": [],
+  "sys.stdin.read.lstrip.startswith": [],
+  "re.compile.sub.rstrip.lstrip.startswith": [],
+  "re.sub.replace.rstrip.lstrip.startswith": [],
+  "re.compile.sub.replace.rstrip.startswith": [],
+  "re.sub.rstrip.startswith": [],
+  "codecs.open.read.replace.rstrip.lstrip.startswith": [],
+  "sys.stdin.read.replace.rstrip.startswith": [],
+  "re.sub.replace.lstrip.rstrip.startswith": [],
+  "sys.stdin.read.replace.lstrip.startswith": [],
+  "re.sub.lstrip.rstrip.startswith": [],
+  "re.sub.rstrip.lstrip.startswith": [],
+  "sys.stdin.read.replace.lstrip.rstrip.startswith": [],
+  "re.compile.sub.rstrip.startswith": [],
+  "re.compile.sub.replace.rstrip.lstrip.startswith": [],
+  "codecs.open.read.rstrip.lstrip.startswith": [],
+  "sys.stdin.read.replace.rstrip.lstrip.split": [],
+  "sys.stdin.read.replace.rstrip.split": [],
+  "re.compile.sub.rstrip.lstrip.split": [],
+  "codecs.open.read.rstrip.lstrip.split": [],
+  "sys.stdin.read.replace.lstrip.split": [],
+  "re.sub.replace.rstrip.lstrip.split": [],
+  "re.compile.sub.replace.lstrip.rstrip.split": [],
+  "codecs.open.read.replace.rstrip.split": [],
+  "re.compile.sub.split": [],
+  "codecs.open.read.rstrip.split": [],
+  "re.sub.lstrip.rstrip.split": [],
+  "sys.stdin.read.lstrip.split": [],
+  "re.sub.replace.rstrip.split": [],
+  "codecs.open.read.replace.rstrip.lstrip.split": [],
+  "sys.stdin.read.split": [],
+  "re.sub.lstrip.split": [],
+  "re.sub.rstrip.split": [],
+  "re.sub.rstrip.lstrip.split": [],
+  "codecs.open.read.split": [],
+  "sys.stdin.read.replace.lstrip.rstrip.split": [],
+  "re.compile.sub.replace.split": [],
+  "sys.stdin.read.rstrip.split": [],
+  "sys.stdin.read.lstrip.rstrip.split": [],
+  "re.sub.split": [],
+  "codecs.open.read.replace.lstrip.rstrip.split": [],
+  "codecs.open.read.replace.lstrip.split": [],
+  "re.sub.replace.lstrip.split": [],
+  "re.sub.replace.split": [],
+  "sys.stdin.read.replace.split": [],
+  "re.compile.sub.rstrip.split": [],
+  "re.compile.sub.replace.lstrip.split": [],
+  "re.compile.sub.lstrip.rstrip.split": [],
+  "codecs.open.read.lstrip.split": [],
+  "codecs.open.read.lstrip.rstrip.split": [],
+  "re.compile.sub.replace.rstrip.lstrip.split": [],
+  "codecs.open.read.replace.split": [],
+  "re.compile.sub.replace.rstrip.split": [],
+  "sys.stdin.read.rstrip.lstrip.split": [],
+  "re.sub.replace.lstrip.rstrip.split": [],
+  "re.compile.sub.lstrip.split": [],
+  "pdoc.markdown2.Markdown._code_block_with_lexer_sub": [
+    "pdoc.markdown2.Markdown._uniform_indent",
+    "pdoc.markdown2.Markdown._color_with_pygments",
+    "pdoc.markdown2.Markdown._uniform_outdent",
+    "pdoc.markdown2.Markdown._code_block_with_lexer_sub.unhash_code"
+  ],
+  "pdoc.markdown2.Markdown._uniform_outdent_limit": [
+    "codecs.open.read.rstrip.lstrip.splitlines",
+    "codecs.open.read.replace.lstrip.rstrip.splitlines",
+    "re.compile.sub.rstrip.lstrip.splitlines",
+    "codecs.open.read.lstrip.rstrip.splitlines",
+    "sys.stdin.read.replace.lstrip.rstrip.splitlines",
+    "sys.stdin.read.splitlines",
+    "re.compile.sub.replace.splitlines",
+    "re.sub.replace.rstrip.lstrip.splitlines",
+    "sys.stdin.read.replace.rstrip.lstrip.splitlines",
+    "re.compile.sub.lstrip.rstrip.splitlines",
+    "re.sub.rstrip.splitlines",
+    "re.sub.lstrip.rstrip.splitlines",
+    "re.sub.lstrip.splitlines",
+    "re.sub.replace.rstrip.splitlines",
+    "re.sub.splitlines",
+    "codecs.open.read.replace.rstrip.splitlines",
+    "re.compile.sub.splitlines",
+    "codecs.open.read.lstrip.splitlines",
+    "codecs.open.read.replace.lstrip.splitlines",
+    "codecs.open.read.replace.rstrip.lstrip.splitlines",
+    "codecs.open.read.splitlines",
+    "sys.stdin.read.rstrip.splitlines",
+    "sys.stdin.read.replace.splitlines",
+    "re.sub.replace.lstrip.rstrip.splitlines",
+    "re.sub.replace.lstrip.splitlines",
+    "<builtin>.sorted",
+    "re.compile.sub.replace.lstrip.rstrip.splitlines",
+    "<builtin>.len",
+    "re.compile.sub.lstrip.splitlines",
+    "sys.stdin.read.lstrip.splitlines",
+    "codecs.open.read.replace.splitlines",
+    "codecs.open.read.rstrip.splitlines",
+    "re.findall",
+    "re.compile.sub.replace.rstrip.lstrip.splitlines",
+    "re.compile.sub.replace.rstrip.splitlines",
+    "sys.stdin.read.replace.rstrip.splitlines",
+    "sys.stdin.read.lstrip.rstrip.splitlines",
+    "re.sub.rstrip.lstrip.splitlines",
+    "re.sub.replace.splitlines",
+    "re.compile.sub.replace.lstrip.splitlines",
+    "sys.stdin.read.rstrip.lstrip.splitlines",
+    "re.compile.sub.rstrip.splitlines",
+    "sys.stdin.read.replace.lstrip.splitlines"
+  ],
+  "pdoc.markdown2.Markdown._encode_code": [
+    "sys.stdin.read.rstrip.replace",
+    "re.sub.rstrip.replace",
+    "codecs.open.read.lstrip.replace",
+    "codecs.open.read.rstrip.lstrip.replace",
+    "re.compile.sub.replace",
+    "codecs.open.read.replace",
+    "re.compile.sub.lstrip.replace",
+    "sys.stdin.read.lstrip.replace",
+    "pdoc.markdown2._hash_text",
+    "codecs.open.read.rstrip.replace",
+    "re.sub.replace",
+    "re.compile.sub.rstrip.replace",
+    "sys.stdin.read.replace",
+    "re.sub.lstrip.replace",
+    "re.sub.rstrip.lstrip.replace",
+    "re.compile.sub.lstrip.rstrip.replace",
+    "sys.stdin.read.lstrip.rstrip.replace",
+    "re.compile.sub.rstrip.lstrip.replace",
+    "sys.stdin.read.rstrip.lstrip.replace",
+    "re.sub.lstrip.rstrip.replace",
+    "codecs.open.read.lstrip.rstrip.replace"
+  ],
+  "pdoc.markdown2.Markdown._code_block_with_lexer_sub.unhash_code": [
+    "sys.stdin.read.rstrip.replace",
+    "re.sub.rstrip.replace",
+    "codecs.open.read.lstrip.replace",
+    "codecs.open.read.rstrip.lstrip.replace",
+    "re.compile.sub.replace",
+    "codecs.open.read.replace",
+    "re.compile.sub.lstrip.replace",
+    "sys.stdin.read.lstrip.replace",
+    "<builtin>.list",
+    "codecs.open.read.rstrip.replace",
+    "re.sub.replace",
+    "re.compile.sub.rstrip.replace",
+    "sys.stdin.read.replace",
+    "re.sub.lstrip.replace",
+    "re.sub.rstrip.lstrip.replace",
+    "sys.stdin.read.lstrip.rstrip.replace",
+    "re.compile.sub.rstrip.lstrip.replace",
+    "re.compile.sub.lstrip.rstrip.replace",
+    "sys.stdin.read.rstrip.lstrip.replace",
+    "re.sub.lstrip.rstrip.replace",
+    "codecs.open.read.lstrip.rstrip.replace"
+  ],
+  "sys.stdin.read.rstrip.replace": [],
+  "re.sub.rstrip.replace": [],
+  "codecs.open.read.lstrip.replace": [],
+  "codecs.open.read.rstrip.lstrip.replace": [],
+  "re.compile.sub.lstrip.replace": [],
+  "sys.stdin.read.lstrip.replace": [],
+  "codecs.open.read.rstrip.replace": [],
+  "re.compile.sub.rstrip.replace": [],
+  "re.sub.lstrip.replace": [],
+  "re.sub.rstrip.lstrip.replace": [],
+  "sys.stdin.read.lstrip.rstrip.replace": [],
+  "re.compile.sub.rstrip.lstrip.replace": [],
+  "re.compile.sub.lstrip.rstrip.replace": [],
+  "sys.stdin.read.rstrip.lstrip.replace": [],
+  "re.sub.lstrip.rstrip.replace": [],
+  "codecs.open.read.lstrip.rstrip.replace": [],
+  "pdoc.markdown2.Markdown._uniform_indent": [
+    "pygments.highlight.splitlines"
+  ],
+  "pdoc.markdown2.Markdown._fenced_code_block_sub": [
+    "pdoc.markdown2.Markdown._code_block_sub"
+  ],
+  "pdoc.markdown2.Markdown._code_span_sub": [
+    "pdoc.markdown2.Markdown._html_class_str_from_tag",
+    "pdoc.markdown2.Markdown._encode_code"
+  ],
+  "pdoc.markdown2.Markdown._do_admonitions_sub": [
+    "pdoc.markdown2.Markdown._run_block_gamut",
+    "pdoc.markdown2.Markdown._uniform_outdent",
+    "pdoc.markdown2.Markdown._uniform_indent"
+  ],
+  "pdoc.markdown2.Markdown._do_smart_contractions": [
+    "re.compile.sub",
+    "re.compile.sub.replace"
+  ],
+  "re.sub.strip.replace": [],
+  "pdoc.markdown2.Markdown._dedent_two_spaces_sub": [
+    "re.sub"
+  ],
+  "pdoc.markdown2.Markdown._block_quote_sub": [
+    "re.compile.sub",
+    "pdoc.markdown2.Markdown._run_block_gamut",
+    "re.sub",
+    "re.compile.match"
+  ],
+  "codecs.open.read.strip": [],
+  "re.compile.sub.strip": [],
+  "sys.stdin.read.replace.strip": [],
+  "re.sub.replace.strip": [],
+  "codecs.open.read.replace.strip": [],
+  "re.compile.sub.replace.strip": [],
+  "sys.stdin.read.strip": [],
+  "re.sub.strip.replace.lstrip": [],
+  "re.sub.strip.lstrip": [],
+  "pdoc.markdown2.Markdown._auto_link_sub": [],
+  "pdoc.markdown2.Markdown._auto_email_link_sub": [
+    "pdoc.markdown2.Markdown._encode_email_address",
+    "pdoc.markdown2.Markdown._unescape_special_chars"
+  ],
+  "pdoc.markdown2.Markdown._encode_email_address": [
+    "pdoc.markdown2._xml_encode_email_char_at_random"
+  ],
+  "pdoc.markdown2._xml_encode_email_char_at_random": [
+    "<builtin>.ord",
+    "<builtin>.hex",
+    "random.random"
+  ],
+  "<builtin>.hasattr": [],
+  "re.sub.strip.splitlines": [],
+  "re.sub.strip.replace.splitlines": [],
+  "codecs.open.read.rstrip.lstrip.replace.splitlines": [],
+  "codecs.open.read.lstrip.replace.splitlines": [],
+  "re.sub.rstrip.lstrip.replace.splitlines": [],
+  "re.compile.sub.rstrip.replace.splitlines": [],
+  "sys.stdin.read.rstrip.replace.splitlines": [],
+  "re.compile.sub.lstrip.rstrip.replace.splitlines": [],
+  "sys.stdin.read.rstrip.lstrip.replace.splitlines": [],
+  "sys.stdin.read.lstrip.rstrip.replace.splitlines": [],
+  "sys.stdin.read.lstrip.replace.splitlines": [],
+  "codecs.open.read.rstrip.replace.splitlines": [],
+  "re.compile.sub.rstrip.lstrip.replace.splitlines": [],
+  "re.sub.rstrip.replace.splitlines": [],
+  "re.sub.lstrip.replace.splitlines": [],
+  "re.compile.sub.lstrip.replace.splitlines": [],
+  "codecs.open.read.lstrip.rstrip.replace.splitlines": [],
+  "re.sub.lstrip.rstrip.replace.splitlines": [],
+  "pygments.highlight.splitlines": [],
+  "pdoc.markdown2.calculate_toc_html.indent": [
+    "<builtin>.len"
+  ],
+  "unicodedata.normalize": [],
+  "unicodedata.normalize.encode": [],
+  "unicodedata.normalize.encode.decode": [],
+  "re.compile.sub.strip.lower": [],
+  "pdoc.markdown2._curry.result": [],
+  "pdoc.markdown2._regex_from_encoded_pattern": [
+    "re.compile",
+    "<builtin>.list",
+    "<builtin>.ValueError",
+    "re.escape"
+  ],
+  "re.escape": [],
+  "pdoc.markdown2._memoized.__call__": [
+    "pdoc.markdown2._memoized.__init__"
+  ],
+  "pdoc.markdown2._memoized.__repr__": [],
+  "pdoc.markdown2._xml_oneliner_re_from_tab_width": [
+    "re.compile"
+  ],
+  "pdoc.markdown2._hr_tag_re_from_tab_width": [
+    "re.compile"
+  ],
+  "pdoc.markdown2.Markdown._hash_html_spans.<RETURN>.replace": [],
+  "pdoc.markdown2.Markdown._unhash_html_spans.<RETURN>.replace": [],
+  "pdoc.markdown2.Markdown._do_links.title.replace": [],
+  "random.random": [],
+  "<builtin>.ord": [],
+  "<builtin>.hex": [],
+  "pdoc.markdown2._NoReflowFormatter.format_description": [],
+  "pdoc.markdown2._test": [
+    "doctest.testmod"
+  ],
+  "doctest.testmod": [],
+  "pdoc.markdown2.main": [
+    "logging.basicConfig",
+    "sys.stdout.write",
+    "<builtin>.open",
+    "logging.getLogger.setLevel",
+    "re.compile",
+    "subprocess.Popen.stdout.read.decode",
+    "optparse.OptionParser.set_defaults",
+    "os.path.exists",
+    "<builtin>.str",
+    "<builtin>.print",
+    "os.path.dirname",
+    "re.compile.split",
+    "os.path.abspath",
+    "codecs.open",
+    "codecs.open.read",
+    "re.compile.split.split",
+    "sys.path.insert",
+    "os.path.join",
+    "sys.stdin.read",
+    "<builtin>.int",
+    "subprocess.Popen.stdin.write",
+    "sys.stdin.read.encode",
+    "subprocess.Popen",
+    "pdoc.markdown2._test",
+    "codecs.open.read.encode",
+    "<builtin>.enumerate",
+    "subprocess.Popen.stdout.read",
+    "optparse.IndentedHelpFormatter.__init__",
+    "optparse.OptionParser.parse_args",
+    "subprocess.Popen.stdin.close",
+    "test_markdown2.norm_html_from_html",
+    "pdoc.markdown2.markdown",
+    "optparse.OptionParser",
+    "pdoc.markdown2._regex_from_encoded_pattern",
+    "codecs.open.close",
+    "logging.getLogger.debug",
+    "optparse.OptionParser.add_option"
+  ],
+  "logging.basicConfig": [],
+  "optparse.IndentedHelpFormatter.__init__": [],
+  "optparse.OptionParser": [],
+  "optparse.OptionParser.add_option": [],
+  "optparse.OptionParser.set_defaults": [],
+  "optparse.OptionParser.parse_args": [],
+  "logging.getLogger.setLevel": [],
+  "<builtin>.open": [],
+  "os.path.abspath": [],
+  "os.path.dirname": [],
+  "os.path.join": [],
+  "sys.stdin.read": [],
+  "subprocess.Popen": [],
+  "subprocess.Popen.stdin.write": [],
+  "subprocess.Popen.stdin.close": [],
+  "subprocess.Popen.stdout.read": [],
+  "subprocess.Popen.stdout.read.decode": [],
+  "sys.stdout.write": [],
+  "os.path.exists": [],
+  "sys.path.insert": [],
+  "test_markdown2.norm_html_from_html": [],
+  "sys.exit": [],
+  "examples.mkdocs.make": [
+    "pathlib.Path",
+    "pdoc.render.configure",
+    "pathlib.Path.parent.exists",
+    "shutil.rmtree",
+    "pdoc.pdoc",
+    "pathlib.Path.parent.glob.with_suffix",
+    "pathlib.Path.parent.glob",
+    "pathlib.Path.parent.glob.rename"
+  ],
+  "pathlib.Path.parent.glob.with_suffix": [],
+  "pathlib.Path.parent.glob.rename": [],
+  "examples.library-usage.foo": [],
+  "examples.library-usage.make": [
+    "<builtin>.open"
+  ],
+  "pdoc.__main__": [
+    "argparse.ArgumentParser.add_argument_group",
+    "sys.stdout.isatty",
+    "argparse.ArgumentParser.add_argument_group.add_argument",
+    "argparse.ArgumentParser",
+    "pdoc.__main__.cli"
+  ],
+  "sys.stdout.isatty": [],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_argument_group": [],
+  "argparse.ArgumentParser.add_argument_group.add_argument": [],
+  "pdoc.__main__.cli": [
+    "pdoc.__main__.get_dev_version",
+    "platform.platform",
+    "platform.python_version",
+    "argparse.ArgumentParser.parse_args",
+    "sys.exit",
+    "<builtin>.print",
+    "<builtin>.dict",
+    "<builtin>.getattr",
+    "argparse.ArgumentParser.print_help"
+  ],
+  "argparse.ArgumentParser.parse_args": [],
+  "pdoc.__main__.get_dev_version": [
+    "pathlib.Path",
+    "<builtin>.int",
+    "subprocess.check_output",
+    "subprocess.check_output.decode.strip.rsplit",
+    "subprocess.check_output.decode",
+    "subprocess.check_output.decode.strip",
+    "subprocess.run"
+  ],
+  "platform.python_version": [],
+  "platform.platform": [],
+  "argparse.ArgumentParser.print_help": [],
+  "subprocess.run": [],
+  "subprocess.check_output.decode": [],
+  "subprocess.check_output.decode.strip": [],
+  "subprocess.check_output.decode.strip.rsplit": [],
+  "pdoc.__main__._nicer_showwarning": [
+    "<builtin>.print"
+  ],
+  "pdoc.web": [],
+  "pdoc.web.DocHandler.do_HEAD": [
+    "pdoc.web.DocHandler.handle_request"
+  ],
+  "pdoc.web.DocHandler.handle_request": [
+    "pdoc.extract.invalidate_caches",
+    "pdoc.render.html_module",
+    "http.server.BaseHTTPRequestHandler.path.split",
+    "http.server.BaseHTTPRequestHandler.server.render_search_index",
+    "http.server.BaseHTTPRequestHandler.end_headers",
+    "pdoc.render.html_index",
+    "pdoc._compat.removesuffix",
+    "http.server.BaseHTTPRequestHandler.send_response",
+    "pdoc.extract.module_mtime",
+    "traceback.format_exc",
+    "pdoc.render.html_error",
+    "http.server.BaseHTTPRequestHandler.send_header"
+  ],
+  "pdoc.web.DocHandler.do_GET": [
+    "pdoc.web.DocHandler.handle_request",
+    "http.server.BaseHTTPRequestHandler.wfile.write",
+    "jinja2.Environment.get_template.render.encode",
+    "http.server.BaseHTTPRequestHandler.server.render_search_index.encode"
+  ],
+  "http.server.BaseHTTPRequestHandler.server.render_search_index.encode": [],
+  "http.server.BaseHTTPRequestHandler.wfile.write": [],
+  "http.server.BaseHTTPRequestHandler.path.split": [],
+  "http.server.BaseHTTPRequestHandler.send_response": [],
+  "http.server.BaseHTTPRequestHandler.send_header": [],
+  "http.server.BaseHTTPRequestHandler.end_headers": [],
+  "http.server.BaseHTTPRequestHandler.server.render_search_index": [],
+  "pdoc.web.DocHandler.log_request": [],
+  "pdoc.web.DocServer.__init__": [
+    "pdoc.extract.walk_specs",
+    "pdoc.web.AllModules.__init__",
+    "<builtin>.super"
+  ],
+  "pdoc.web.AllModules.__init__": [],
+  "pdoc.web.DocServer": [
+    "functools.lru_cache",
+    "functools.cache"
+  ],
+  "pdoc.web.DocServer.render_search_index": [
+    "warnings.warn",
+    "pdoc.render.search_index",
+    "pdoc.web.AllModules.__iter__",
+    "traceback.format_exc",
+    "pdoc.doc.Module.from_name"
+  ],
+  "pdoc.web.AllModules.__iter__": [],
+  "pdoc.web.AllModules.__len__": [],
+  "pdoc.web.AllModules.__contains__": [],
+  "pdoc.web.AllModules.__getitem__": [
+    "pdoc.doc.Module.from_name",
+    "<builtin>.KeyError"
+  ],
+  "<builtin>.KeyError": [],
+  "pdoc.web.open_browser": [
+    "webbrowser.get.open",
+    "webbrowser.get"
+  ],
+  "webbrowser.get": [],
+  "webbrowser.get.open": []
+}

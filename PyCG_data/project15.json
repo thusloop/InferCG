@@ -1,0 +1,619 @@
+{
+  "docs.conf": [
+    "re.search.group.rsplit",
+    "docs.conf.find_version",
+    "sphinx_rtd_theme.get_html_theme_path"
+  ],
+  "docs.conf.read": [
+    "os.path.abspath",
+    "<builtin>.open",
+    "os.path.dirname",
+    "os.path.join"
+  ],
+  "os.path.dirname": [],
+  "os.path.abspath": [],
+  "os.path.join": [],
+  "<builtin>.open": [],
+  "docs.conf.find_version": [
+    "<builtin>.RuntimeError",
+    "re.search",
+    "re.search.group",
+    "docs.conf.read"
+  ],
+  "re.search": [],
+  "re.search.group": [],
+  "<builtin>.RuntimeError": [],
+  "re.search.group.rsplit": [],
+  "sphinx_rtd_theme.get_html_theme_path": [],
+  "jwt.api_jwt": [
+    "jwt.api_jwt.PyJWT.__init__"
+  ],
+  "jwt.api_jwt.PyJWT.__init__": [
+    "jwt.api_jwt.PyJWT._get_default_options"
+  ],
+  "jwt.api_jwt.PyJWT._get_default_options": [],
+  "jwt.api_jwt.PyJWT.encode": [
+    "calendar.timegm",
+    "<builtin>.isinstance",
+    "<builtin>.TypeError",
+    "jwt.api_jwt.PyJWT._encode_payload"
+  ],
+  "<builtin>.isinstance": [],
+  "<builtin>.TypeError": [],
+  "calendar.timegm": [],
+  "jwt.api_jwt.PyJWT._encode_payload": [
+    "json.dumps.encode",
+    "json.dumps"
+  ],
+  "json.dumps": [],
+  "json.dumps.encode": [],
+  "jwt.api_jwt.PyJWT.decode_complete": [
+    "jwt.api_jwt.PyJWT._decode_payload",
+    "jwt.api_jwt.PyJWT._validate_claims",
+    "warnings.warn",
+    "<builtin>.tuple",
+    "<builtin>.dict"
+  ],
+  "<builtin>.tuple": [],
+  "warnings.warn": [],
+  "<builtin>.dict": [],
+  "jwt.api_jwt.PyJWT._decode_payload": [
+    "<builtin>.isinstance",
+    "json.loads"
+  ],
+  "jwt.api_jwt.PyJWT._validate_claims": [
+    "datetime.datetime.now",
+    "jwt.api_jwt.PyJWT._validate_iat",
+    "jwt.api_jwt.PyJWT._validate_exp",
+    "datetime.datetime.now.timestamp",
+    "jwt.api_jwt.PyJWT._validate_iss",
+    "jwt.api_jwt.PyJWT._validate_required_claims",
+    "jwt.api_jwt.PyJWT._validate_aud",
+    "<builtin>.isinstance",
+    "jwt.api_jwt.PyJWT._validate_nbf",
+    "<builtin>.TypeError"
+  ],
+  "json.loads": [],
+  "jwt.api_jwt.PyJWT.decode": [
+    "warnings.warn",
+    "jwt.api_jwt.PyJWT.decode_complete",
+    "<builtin>.tuple"
+  ],
+  "jwt.api_jwt.PyJWT._validate_required_claims": [
+    "jwt.exceptions.MissingRequiredClaimError.__init__",
+    "json.loads.get"
+  ],
+  "datetime.datetime.now": [],
+  "datetime.datetime.now.timestamp": [],
+  "jwt.api_jwt.PyJWT._validate_iat": [
+    "<builtin>.int"
+  ],
+  "jwt.api_jwt.PyJWT._validate_nbf": [
+    "<builtin>.int"
+  ],
+  "jwt.api_jwt.PyJWT._validate_exp": [
+    "<builtin>.int"
+  ],
+  "jwt.api_jwt.PyJWT._validate_iss": [
+    "jwt.exceptions.MissingRequiredClaimError.__init__"
+  ],
+  "jwt.api_jwt.PyJWT._validate_aud": [
+    "<builtin>.all",
+    "<builtin>.isinstance",
+    "<builtin>.any",
+    "jwt.exceptions.MissingRequiredClaimError.__init__"
+  ],
+  "json.loads.get": [],
+  "jwt.exceptions.MissingRequiredClaimError.__init__": [],
+  "<builtin>.int": [],
+  "<builtin>.any": [],
+  "<builtin>.all": [],
+  "jwt": [],
+  "jwt.api_jws": [
+    "jwt.api_jws.PyJWS.__init__"
+  ],
+  "jwt.api_jws.PyJWS.__init__": [
+    "jwt.api_jws.PyJWS._get_default_options",
+    "jwt.algorithms.get_default_algorithms",
+    "<builtin>.list",
+    "<builtin>.set"
+  ],
+  "jwt.algorithms.get_default_algorithms": [
+    "jwt.algorithms.HMACAlgorithm.__init__"
+  ],
+  "<builtin>.set": [],
+  "<builtin>.list": [],
+  "jwt.api_jws.PyJWS._get_default_options": [],
+  "jwt.api_jws.PyJWS.register_algorithm": [
+    "<builtin>.isinstance",
+    "<builtin>.ValueError",
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.ValueError": [],
+  "jwt.api_jws.PyJWS.unregister_algorithm": [
+    "<builtin>.KeyError"
+  ],
+  "<builtin>.KeyError": [],
+  "jwt.api_jws.PyJWS.get_algorithms": [
+    "<builtin>.list"
+  ],
+  "jwt.api_jws.PyJWS.get_algorithm_by_name": [
+    "<builtin>.NotImplementedError"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "jwt.api_jws.PyJWS.encode": [
+    "json.dumps.encode",
+    "json.dumps",
+    "jwt.api_jws.PyJWS._validate_headers",
+    "jwt.utils.base64url_encode",
+    "jwt.api_jws.PyJWS.get_algorithm_by_name"
+  ],
+  "jwt.api_jws.PyJWS._validate_headers": [
+    "jwt.api_jws.PyJWS._validate_kid"
+  ],
+  "jwt.utils.base64url_encode": [
+    "base64.urlsafe_b64encode.replace",
+    "base64.urlsafe_b64encode"
+  ],
+  "jwt.api_jws.PyJWS.decode_complete": [
+    "warnings.warn",
+    "<builtin>.tuple",
+    "jwt.api_jws.PyJWS._verify_signature",
+    "jwt.api_jws.PyJWS._load"
+  ],
+  "jwt.api_jws.PyJWS._load": [
+    "<builtin>.isinstance",
+    "json.loads",
+    "jwt.utils.base64url_decode"
+  ],
+  "jwt.api_jws.PyJWS._verify_signature": [
+    "jwt.api_jws.PyJWS.get_algorithm_by_name"
+  ],
+  "jwt.api_jws.PyJWS.decode": [
+    "warnings.warn",
+    "<builtin>.tuple",
+    "jwt.api_jws.PyJWS.decode_complete"
+  ],
+  "jwt.api_jws.PyJWS.get_unverified_header": [
+    "jwt.api_jws.PyJWS._validate_headers",
+    "jwt.api_jws.PyJWS._load"
+  ],
+  "jwt.utils.base64url_decode": [
+    "jwt.utils.force_bytes",
+    "base64.urlsafe_b64decode",
+    "<builtin>.len"
+  ],
+  "jwt.api_jws.PyJWS._validate_kid": [
+    "<builtin>.isinstance"
+  ],
+  "jwt.algorithms": [],
+  "jwt.algorithms.HMACAlgorithm.__init__": [],
+  "jwt.algorithms.Algorithm.compute_hash_digest": [
+    "<builtin>.getattr",
+    "cryptography.hazmat.primitives.hashes.Hash.finalize",
+    "cryptography.hazmat.backends.default_backend",
+    "<builtin>.bytes",
+    "<builtin>.isinstance",
+    "cryptography.hazmat.primitives.hashes.Hash.update",
+    "<builtin>.issubclass",
+    "cryptography.hazmat.primitives.hashes.Hash"
+  ],
+  "<builtin>.getattr": [],
+  "<builtin>.issubclass": [],
+  "cryptography.hazmat.backends.default_backend": [],
+  "cryptography.hazmat.primitives.hashes.Hash": [],
+  "cryptography.hazmat.primitives.hashes.Hash.update": [],
+  "cryptography.hazmat.primitives.hashes.Hash.finalize": [],
+  "<builtin>.bytes": [],
+  "jwt.algorithms.Algorithm.prepare_key": [],
+  "jwt.algorithms.Algorithm.sign": [],
+  "jwt.algorithms.Algorithm.verify": [],
+  "jwt.algorithms.Algorithm.to_jwk": [],
+  "jwt.algorithms.Algorithm.from_jwk": [],
+  "jwt.algorithms.NoneAlgorithm.prepare_key": [],
+  "jwt.algorithms.NoneAlgorithm.sign": [],
+  "jwt.algorithms.NoneAlgorithm.verify": [],
+  "jwt.algorithms.HMACAlgorithm.prepare_key": [
+    "jwt.utils.force_bytes",
+    "jwt.utils.is_ssh_key",
+    "jwt.utils.is_pem_format"
+  ],
+  "jwt.utils.force_bytes": [
+    "json.loads.get.encode",
+    "<builtin>.isinstance",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode",
+    "<builtin>.TypeError",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode"
+  ],
+  "jwt.utils.is_pem_format": [
+    "re.compile.search",
+    "<builtin>.bool"
+  ],
+  "jwt.utils.is_ssh_key": [
+    "re.compile.match.group",
+    "<builtin>.any",
+    "re.compile.match",
+    "<builtin>.len"
+  ],
+  "jwt.algorithms.HMACAlgorithm.to_jwk": [
+    "jwt.utils.force_bytes",
+    "base64.urlsafe_b64encode.replace.decode",
+    "jwt.utils.base64url_encode",
+    "json.dumps"
+  ],
+  "base64.urlsafe_b64encode.replace.decode": [],
+  "jwt.algorithms.HMACAlgorithm.from_jwk": [
+    "<builtin>.isinstance",
+    "json.loads",
+    "json.loads.get",
+    "jwt.utils.base64url_decode"
+  ],
+  "jwt.algorithms.HMACAlgorithm.sign": [
+    "hmac.new",
+    "hmac.new.digest"
+  ],
+  "hmac.new": [],
+  "hmac.new.digest": [],
+  "jwt.algorithms.HMACAlgorithm.verify": [
+    "hmac.compare_digest",
+    "jwt.algorithms.HMACAlgorithm.sign"
+  ],
+  "hmac.compare_digest": [],
+  "jwt.algorithms.RSAAlgorithm.__init__": [],
+  "jwt.algorithms.RSAAlgorithm.prepare_key": [
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.startswith",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key",
+    "base64.urlsafe_b64encode.replace.decode.startswith",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode.startswith",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.startswith",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.startswith",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode.startswith",
+    "<builtin>.isinstance",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode.startswith",
+    "json.loads.get.encode.startswith",
+    "jwt.utils.force_bytes",
+    "json.loads.get.startswith",
+    "<builtin>.TypeError"
+  ],
+  "cryptography.hazmat.primitives.serialization.load_pem_private_key.startswith": [],
+  "base64.urlsafe_b64encode.replace.decode.startswith": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode.startswith": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_public_key.startswith": [],
+  "cryptography.hazmat.primitives.serialization.load_ssh_public_key.startswith": [],
+  "json.loads.get.startswith": [],
+  "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode.startswith": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode.startswith": [],
+  "json.loads.get.encode.startswith": [],
+  "cryptography.hazmat.primitives.serialization.load_ssh_public_key": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_private_key": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_public_key": [],
+  "jwt.algorithms.RSAAlgorithm.to_jwk": [
+    "<builtin>.getattr",
+    "base64.urlsafe_b64encode.replace.decode",
+    "jwt.utils.to_base64url_uint",
+    "json.dumps"
+  ],
+  "jwt.utils.to_base64url_uint": [
+    "<builtin>.ValueError",
+    "jwt.utils.base64url_encode",
+    "jwt.utils.bytes_from_int",
+    "<builtin>.len"
+  ],
+  "jwt.algorithms.RSAAlgorithm.from_jwk": [
+    "cryptography.hazmat.primitives.asymmetric.rsa.rsa_crt_iqmp",
+    "cryptography.hazmat.primitives.asymmetric.rsa.RSAPrivateNumbers.private_key",
+    "cryptography.hazmat.primitives.asymmetric.rsa.rsa_recover_prime_factors",
+    "cryptography.hazmat.primitives.asymmetric.rsa.RSAPrivateNumbers",
+    "cryptography.hazmat.primitives.asymmetric.rsa.rsa_crt_dmp1",
+    "<builtin>.all",
+    "<builtin>.isinstance",
+    "cryptography.hazmat.primitives.asymmetric.rsa.rsa_crt_dmq1",
+    "json.loads",
+    "cryptography.hazmat.primitives.asymmetric.rsa.RSAPublicNumbers.public_key",
+    "json.loads.get",
+    "jwt.utils.from_base64url_uint",
+    "cryptography.hazmat.primitives.asymmetric.rsa.RSAPublicNumbers",
+    "<builtin>.any"
+  ],
+  "jwt.utils.from_base64url_uint": [
+    "jwt.utils.force_bytes",
+    "jwt.utils.base64url_decode"
+  ],
+  "cryptography.hazmat.primitives.asymmetric.rsa.RSAPublicNumbers": [],
+  "cryptography.hazmat.primitives.asymmetric.rsa.RSAPrivateNumbers": [],
+  "cryptography.hazmat.primitives.asymmetric.rsa.rsa_recover_prime_factors": [],
+  "cryptography.hazmat.primitives.asymmetric.rsa.rsa_crt_dmp1": [],
+  "cryptography.hazmat.primitives.asymmetric.rsa.rsa_crt_dmq1": [],
+  "cryptography.hazmat.primitives.asymmetric.rsa.rsa_crt_iqmp": [],
+  "cryptography.hazmat.primitives.asymmetric.rsa.RSAPrivateNumbers.private_key": [],
+  "cryptography.hazmat.primitives.asymmetric.rsa.RSAPublicNumbers.public_key": [],
+  "jwt.algorithms.RSAAlgorithm.sign": [
+    "cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15"
+  ],
+  "cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15": [],
+  "jwt.algorithms.RSAAlgorithm.verify": [
+    "cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15"
+  ],
+  "jwt.algorithms.ECAlgorithm.__init__": [],
+  "jwt.algorithms.ECAlgorithm.prepare_key": [
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.startswith",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key",
+    "base64.urlsafe_b64encode.replace.decode.startswith",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode.startswith",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.startswith",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.startswith",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode.startswith",
+    "<builtin>.isinstance",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode.startswith",
+    "json.loads.get.encode.startswith",
+    "jwt.utils.force_bytes",
+    "json.loads.get.startswith",
+    "<builtin>.TypeError"
+  ],
+  "jwt.algorithms.ECAlgorithm.sign": [
+    "jwt.utils.der_to_raw_signature",
+    "cryptography.hazmat.primitives.asymmetric.ec.ECDSA"
+  ],
+  "cryptography.hazmat.primitives.asymmetric.ec.ECDSA": [],
+  "jwt.utils.der_to_raw_signature": [
+    "cryptography.hazmat.primitives.asymmetric.utils.decode_dss_signature",
+    "jwt.utils.number_to_bytes"
+  ],
+  "jwt.algorithms.ECAlgorithm.verify": [
+    "jwt.utils.raw_to_der_signature",
+    "<builtin>.isinstance",
+    "cryptography.hazmat.primitives.asymmetric.ec.ECDSA"
+  ],
+  "jwt.utils.raw_to_der_signature": [
+    "<builtin>.bytes",
+    "jwt.utils.bytes_to_number",
+    "<builtin>.ValueError",
+    "cryptography.hazmat.primitives.asymmetric.utils.encode_dss_signature",
+    "<builtin>.len"
+  ],
+  "jwt.algorithms.ECAlgorithm.to_jwk": [
+    "base64.urlsafe_b64encode.replace.decode",
+    "<builtin>.isinstance",
+    "jwt.utils.to_base64url_uint",
+    "json.dumps"
+  ],
+  "jwt.algorithms.ECAlgorithm.from_jwk": [
+    "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateNumbers.private_key",
+    "cryptography.hazmat.primitives.asymmetric.ec.SECP521R1",
+    "jwt.utils.base64url_decode",
+    "cryptography.hazmat.primitives.asymmetric.ec.SECP256R1",
+    "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePublicNumbers.public_key",
+    "<builtin>.isinstance",
+    "json.loads",
+    "json.loads.get",
+    "cryptography.hazmat.primitives.asymmetric.ec.SECP384R1",
+    "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePublicNumbers",
+    "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateNumbers",
+    "cryptography.hazmat.primitives.asymmetric.ec.SECP256K1",
+    "<builtin>.len"
+  ],
+  "<builtin>.len": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.SECP256R1": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.SECP384R1": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.SECP521R1": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.SECP256K1": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePublicNumbers": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePublicNumbers.public_key": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateNumbers": [],
+  "cryptography.hazmat.primitives.asymmetric.ec.EllipticCurvePrivateNumbers.private_key": [],
+  "jwt.algorithms.RSAPSSAlgorithm.sign": [
+    "cryptography.hazmat.primitives.asymmetric.padding.MGF1",
+    "cryptography.hazmat.primitives.asymmetric.padding.PSS"
+  ],
+  "cryptography.hazmat.primitives.asymmetric.padding.MGF1": [],
+  "cryptography.hazmat.primitives.asymmetric.padding.PSS": [],
+  "jwt.algorithms.RSAPSSAlgorithm.verify": [
+    "cryptography.hazmat.primitives.asymmetric.padding.MGF1",
+    "cryptography.hazmat.primitives.asymmetric.padding.PSS"
+  ],
+  "jwt.algorithms.OKPAlgorithm.__init__": [],
+  "jwt.algorithms.OKPAlgorithm.prepare_key": [
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.decode",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.decode",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode.decode",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode.decode",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.decode",
+    "<builtin>.isinstance",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key",
+    "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode",
+    "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode.decode",
+    "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode"
+  ],
+  "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode": [],
+  "cryptography.hazmat.primitives.serialization.load_ssh_public_key.decode": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_private_key.decode": [],
+  "cryptography.hazmat.primitives.serialization.load_ssh_public_key.encode.decode": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_public_key.decode": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_public_key.encode.decode": [],
+  "cryptography.hazmat.primitives.serialization.load_pem_private_key.encode.decode": [],
+  "jwt.algorithms.OKPAlgorithm.sign": [
+    "<builtin>.bytes",
+    "<builtin>.type"
+  ],
+  "<builtin>.type": [],
+  "jwt.algorithms.OKPAlgorithm.verify": [
+    "<builtin>.bytes",
+    "<builtin>.type",
+    "<builtin>.isinstance"
+  ],
+  "jwt.algorithms.OKPAlgorithm.to_jwk": [
+    "json.dumps",
+    "cryptography.hazmat.primitives.serialization.NoEncryption",
+    "base64.urlsafe_b64encode.replace.decode",
+    "<builtin>.isinstance",
+    "jwt.utils.base64url_encode",
+    "jwt.utils.force_bytes"
+  ],
+  "cryptography.hazmat.primitives.serialization.NoEncryption": [],
+  "jwt.algorithms.OKPAlgorithm.from_jwk": [
+    "cryptography.hazmat.primitives.asymmetric.ed25519.Ed25519PublicKey.from_public_bytes",
+    "cryptography.hazmat.primitives.asymmetric.ed448.Ed448PrivateKey.from_private_bytes",
+    "jwt.utils.base64url_decode",
+    "<builtin>.isinstance",
+    "json.loads",
+    "cryptography.hazmat.primitives.asymmetric.ed25519.Ed25519PrivateKey.from_private_bytes",
+    "json.loads.get",
+    "cryptography.hazmat.primitives.asymmetric.ed448.Ed448PublicKey.from_public_bytes"
+  ],
+  "cryptography.hazmat.primitives.asymmetric.ed25519.Ed25519PublicKey.from_public_bytes": [],
+  "cryptography.hazmat.primitives.asymmetric.ed448.Ed448PublicKey.from_public_bytes": [],
+  "cryptography.hazmat.primitives.asymmetric.ed25519.Ed25519PrivateKey.from_private_bytes": [],
+  "cryptography.hazmat.primitives.asymmetric.ed448.Ed448PrivateKey.from_private_bytes": [],
+  "jwt.exceptions": [],
+  "jwt.exceptions.MissingRequiredClaimError.__str__": [],
+  "jwt.utils": [
+    "re.compile"
+  ],
+  "json.loads.get.encode": [],
+  "base64.urlsafe_b64decode": [],
+  "base64.urlsafe_b64encode": [],
+  "base64.urlsafe_b64encode.replace": [],
+  "jwt.utils.bytes_from_int": [],
+  "jwt.utils.number_to_bytes": [
+    "binascii.a2b_hex"
+  ],
+  "binascii.a2b_hex": [],
+  "jwt.utils.bytes_to_number": [
+    "<builtin>.int",
+    "binascii.b2a_hex"
+  ],
+  "binascii.b2a_hex": [],
+  "cryptography.hazmat.primitives.asymmetric.utils.decode_dss_signature": [],
+  "cryptography.hazmat.primitives.asymmetric.utils.encode_dss_signature": [],
+  "re.compile": [],
+  "re.compile.search": [],
+  "<builtin>.bool": [],
+  "re.compile.match": [],
+  "re.compile.match.group": [],
+  "jwt.types": [],
+  "jwt.warnings": [],
+  "jwt.jwks_client": [],
+  "jwt.jwks_client.PyJWKClient.__init__": [
+    "functools.lru_cache",
+    "jwt.jwk_set_cache.JWKSetCache.__init__"
+  ],
+  "jwt.jwk_set_cache.JWKSetCache.__init__": [],
+  "functools.lru_cache": [],
+  "jwt.jwks_client.PyJWKClient.fetch_data": [
+    "json.load",
+    "urllib.request.Request",
+    "jwt.jwk_set_cache.JWKSetCache.put",
+    "urllib.request.urlopen"
+  ],
+  "urllib.request.Request": [],
+  "urllib.request.urlopen": [],
+  "json.load": [],
+  "jwt.jwk_set_cache.JWKSetCache.put": [
+    "jwt.api_jwk.PyJWTSetWithTimestamp.__init__"
+  ],
+  "jwt.jwks_client.PyJWKClient.get_jwk_set": [
+    "<builtin>.isinstance",
+    "jwt.jwks_client.PyJWKClient.fetch_data",
+    "jwt.jwk_set_cache.JWKSetCache.get",
+    "jwt.api_jwk.PyJWKSet.from_dict"
+  ],
+  "jwt.jwk_set_cache.JWKSetCache.get": [
+    "jwt.api_jwk.PyJWTSetWithTimestamp.get_jwk_set",
+    "jwt.jwk_set_cache.JWKSetCache.is_expired"
+  ],
+  "jwt.api_jwk.PyJWKSet.from_dict": [
+    "jwt.api_jwk.PyJWKSet.__init__",
+    "json.load.get",
+    "json.loads.get"
+  ],
+  "jwt.jwks_client.PyJWKClient.get_signing_keys": [
+    "jwt.jwks_client.PyJWKClient.get_jwk_set"
+  ],
+  "jwt.jwks_client.PyJWKClient.get_signing_key": [
+    "jwt.jwks_client.PyJWKClient.match_kid",
+    "jwt.jwks_client.PyJWKClient.get_signing_keys"
+  ],
+  "jwt.jwks_client.PyJWKClient.match_kid": [],
+  "jwt.jwks_client.PyJWKClient.get_signing_key_from_jwt": [
+    "functools.lru_cache"
+  ],
+  "jwt.jwk_set_cache": [],
+  "jwt.api_jwk.PyJWTSetWithTimestamp.__init__": [
+    "time.monotonic"
+  ],
+  "jwt.jwk_set_cache.JWKSetCache.is_expired": [
+    "jwt.api_jwk.PyJWTSetWithTimestamp.get_timestamp",
+    "time.monotonic"
+  ],
+  "jwt.api_jwk.PyJWTSetWithTimestamp.get_jwk_set": [],
+  "time.monotonic": [],
+  "jwt.api_jwk.PyJWTSetWithTimestamp.get_timestamp": [],
+  "jwt.api_jwk": [],
+  "jwt.api_jwk.PyJWK.__init__": [
+    "<builtin>.isinstance",
+    "jwt.algorithms.get_default_algorithms",
+    "json.loads.get"
+  ],
+  "jwt.api_jwk.PyJWK.from_dict": [
+    "jwt.api_jwk.PyJWK.__init__"
+  ],
+  "jwt.api_jwk.PyJWK.from_json": [
+    "json.loads",
+    "jwt.api_jwk.PyJWK.from_dict"
+  ],
+  "jwt.api_jwk.PyJWK.key_type": [
+    "json.loads.get"
+  ],
+  "jwt.api_jwk.PyJWK.key_id": [
+    "json.loads.get"
+  ],
+  "jwt.api_jwk.PyJWK.public_key_use": [
+    "json.loads.get"
+  ],
+  "jwt.api_jwk.PyJWKSet.__init__": [
+    "<builtin>.isinstance",
+    "jwt.api_jwk.PyJWK.__init__",
+    "<builtin>.len"
+  ],
+  "json.load.get": [],
+  "jwt.api_jwk.PyJWKSet.from_json": [
+    "json.loads",
+    "jwt.api_jwk.PyJWKSet.from_dict"
+  ],
+  "jwt.api_jwk.PyJWKSet.__getitem__": [
+    "<builtin>.KeyError"
+  ],
+  "jwt.help": [
+    "jwt.help.main"
+  ],
+  "jwt.help.info": [
+    "platform.release",
+    "platform.python_version",
+    "platform.system",
+    "platform.python_implementation"
+  ],
+  "platform.system": [],
+  "platform.release": [],
+  "platform.python_implementation": [],
+  "platform.python_version": [],
+  "jwt.help.main": [
+    "<builtin>.print",
+    "json.dumps",
+    "jwt.help.info"
+  ],
+  "<builtin>.print": [],
+  "setup": [
+    "setuptools.setup"
+  ],
+  "setuptools.setup": []
+}

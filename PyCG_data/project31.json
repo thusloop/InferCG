@@ -1,0 +1,1653 @@
+{
+  "docs.conf": [],
+  "geopy": [],
+  "geopy.geocoders": [],
+  "geopy.geocoders.get_geocoder_for_service": [],
+  "geopy.geocoders.geolake": [],
+  "geopy.geocoders.geolake.Geolake.__init__": [
+    "<builtin>.super"
+  ],
+  "<builtin>.super": [],
+  "geopy.geocoders.geolake.Geolake.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "<builtin>.isinstance": [],
+  "urllib.parse.urlencode": [],
+  "logging.getLogger.debug": [],
+  "functools.partial": [],
+  "geopy.geocoders.base.Geocoder._call_geocoder": [
+    "functools.partial",
+    "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token.cb",
+    "geopy.geocoders.geonames.GeoNames._parse_json_timezone",
+    "geopy.geocoders.base.Geocoder._call_geocoder.fut",
+    "geopy.geocoders.base.Geocoder._adapter_error_handler",
+    "geopy.geocoders.google.GoogleV3._parse_json_timezone"
+  ],
+  "geopy.geocoders.geolake.Geolake._parse_json": [
+    "geopy.location.Location.__init__",
+    "geopy.geocoders.geolake.Geolake._get_address"
+  ],
+  "geopy.geocoders.geolake.Geolake._get_address": [
+    "geopy.util.join_filter"
+  ],
+  "geopy.location.Location.__init__": [
+    "<builtin>.isinstance",
+    "<builtin>.type",
+    "geopy.location._location_tuple",
+    "<builtin>.TypeError"
+  ],
+  "geopy.util.join_filter": [
+    "<builtin>.str"
+  ],
+  "geopy.geocoders.base": [
+    "<builtin>.next",
+    "<builtin>.type",
+    "<builtin>.object"
+  ],
+  "<builtin>.next": [],
+  "geopy.geocoders.base.<dict1>.<lambda1>": [],
+  "<builtin>.type": [],
+  "<builtin>.object": [],
+  "geopy.geocoders.base.Geocoder.__init__": [
+    "<builtin>.isinstance",
+    "<builtin>.type"
+  ],
+  "geopy.geocoders.base.Geocoder.__enter__": [
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.TypeError": [],
+  "geopy.geocoders.base.Geocoder.__exit__": [],
+  "geopy.geocoders.base.Geocoder.__aenter__": [
+    "<builtin>.TypeError"
+  ],
+  "geopy.geocoders.base.Geocoder.__aexit__": [],
+  "geopy.geocoders.base.Geocoder._coerce_point_to_string": [
+    "<builtin>.dict",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base._format_coordinate"
+  ],
+  "geopy.geocoders.base._format_coordinate": [
+    "<builtin>.abs"
+  ],
+  "<builtin>.dict": [],
+  "geopy.geocoders.base.Geocoder._format_bounding_box": [
+    "<builtin>.min",
+    "<builtin>.len",
+    "<builtin>.dict",
+    "<builtin>.max"
+  ],
+  "<builtin>.len": [],
+  "<builtin>.min": [],
+  "<builtin>.max": [],
+  "geopy.geocoders.base.Geocoder._geocoder_exception_handler": [],
+  "geopy.geocoders.base.Geocoder._call_geocoder.fut": [
+    "functools.partial",
+    "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token.cb",
+    "inspect.isawaitable",
+    "geopy.geocoders.geonames.GeoNames._parse_json_timezone",
+    "geopy.geocoders.base.Geocoder._adapter_error_handler",
+    "geopy.geocoders.google.GoogleV3._parse_json_timezone"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token.cb": [
+    "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.query_retry_callback",
+    "<builtin>.int",
+    "json.dumps",
+    "time.time",
+    "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.query_callback"
+  ],
+  "geopy.geocoders.geonames.GeoNames._parse_json_timezone": [
+    "geopy.geocoders.geonames.GeoNames._raise_for_error",
+    "geopy.timezone.from_fixed_gmt_offset",
+    "geopy.timezone.from_timezone_name"
+  ],
+  "geopy.geocoders.google.GoogleV3._parse_json_timezone": [
+    "geopy.geocoders.google.GoogleV3._check_status",
+    "geopy.timezone.from_timezone_name"
+  ],
+  "inspect.isawaitable": [],
+  "geopy.geocoders.base.Geocoder._adapter_error_handler": [
+    "<builtin>.issubclass",
+    "geopy.adapters.get_retry_after",
+    "logging.getLogger.info",
+    "<builtin>.isinstance",
+    "<builtin>.str",
+    "geopy.geocoders.base.Geocoder._geocoder_exception_handler"
+  ],
+  "logging.getLogger.info": [],
+  "<builtin>.issubclass": [],
+  "<builtin>.str": [],
+  "geopy.adapters.get_retry_after": [
+    "email.utils.parsedate_tz",
+    "logging.getLogger.warning",
+    "<builtin>.int",
+    "email.utils.mktime_tz",
+    "time.time"
+  ],
+  "<builtin>.abs": [],
+  "geopy.geocoders.base._synchronized": [
+    "threading.RLock",
+    "functools.wraps"
+  ],
+  "threading.RLock": [],
+  "geopy.geocoders.base._synchronized.locked_sync": [
+    "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token": [
+    "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.query_retry_callback",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.query_callback"
+  ],
+  "geopy.geocoders.base._synchronized.locked_async": [
+    "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token",
+    "inspect.isawaitable",
+    "asyncio.Lock.locked",
+    "geopy.compat.current_task",
+    "asyncio.Lock"
+  ],
+  "asyncio.Lock": [],
+  "asyncio.Lock.locked": [],
+  "geopy.compat.current_task": [],
+  "functools.wraps": [],
+  "geopy.geocoders.base._synchronized.f": [
+    "<builtin>.isinstance",
+    "geopy.geocoders.base._synchronized.locked_async",
+    "geopy.geocoders.base._synchronized.locked_sync"
+  ],
+  "geopy.util": [
+    "logging.getLogger"
+  ],
+  "logging.getLogger": [],
+  "geopy.util.pairwise": [
+    "<builtin>.len",
+    "<builtin>.range"
+  ],
+  "<builtin>.range": [],
+  "geopy.util.get_version": [],
+  "geopy.point": [
+    "re.compile"
+  ],
+  "re.compile": [],
+  "geopy.point._normalize_angle": [
+    "math.fmod"
+  ],
+  "math.fmod": [],
+  "geopy.point._normalize_coordinates": [
+    "<builtin>.all",
+    "<builtin>.ValueError",
+    "geopy.point._normalize_angle",
+    "<builtin>.float",
+    "warnings.warn",
+    "math.isfinite",
+    "<builtin>.abs"
+  ],
+  "<builtin>.float": [],
+  "math.isfinite": [],
+  "<builtin>.all": [],
+  "<builtin>.ValueError": [],
+  "warnings.warn": [],
+  "geopy.point.Point.__new__": [
+    "<builtin>.ValueError",
+    "geopy.point._normalize_coordinates",
+    "geopy.point.Point.from_point",
+    "<builtin>.iter",
+    "geopy.point.Point.from_sequence",
+    "<builtin>.super",
+    "<builtin>.TypeError",
+    "<builtin>.isinstance",
+    "geopy.point.Point.from_string"
+  ],
+  "geopy.point.Point.from_point": [],
+  "geopy.point.Point.from_string": [
+    "re.match",
+    "re.sub",
+    "<builtin>.ValueError",
+    "geopy.point.Point.parse_altitude",
+    "geopy.point.Point.parse_degrees",
+    "re.match.group"
+  ],
+  "<builtin>.iter": [],
+  "geopy.point.Point.from_sequence": [
+    "itertools.islice",
+    "<builtin>.len",
+    "<builtin>.ValueError",
+    "<builtin>.tuple"
+  ],
+  "geopy.point.Point.__getitem__": [
+    "<builtin>.tuple"
+  ],
+  "<builtin>.tuple": [],
+  "geopy.point.Point.__setitem__": [
+    "<builtin>.list",
+    "geopy.point._normalize_coordinates"
+  ],
+  "<builtin>.list": [],
+  "geopy.point.Point.__iter__": [
+    "<builtin>.iter"
+  ],
+  "geopy.point.Point.__getstate__": [
+    "<builtin>.tuple"
+  ],
+  "geopy.point.Point.__setstate__": [],
+  "geopy.point.Point.__repr__": [
+    "<builtin>.tuple"
+  ],
+  "geopy.point.Point.format": [
+    "<builtin>.bool",
+    "<builtin>.isinstance",
+    "geopy.format.format_degrees",
+    "geopy.point.Point.format_altitude",
+    "<builtin>.abs"
+  ],
+  "geopy.format.format_degrees": [
+    "geopy.units.arcseconds",
+    "geopy.units.arcminutes",
+    "<builtin>.int",
+    "<builtin>.dict",
+    "<builtin>.abs"
+  ],
+  "<builtin>.bool": [],
+  "geopy.point.Point.format_altitude": [
+    "geopy.format.format_distance"
+  ],
+  "geopy.point.Point.format_unicode": [
+    "geopy.point.Point.format"
+  ],
+  "geopy.point.Point.format_decimal": [
+    "<builtin>.str",
+    "<builtin>.bool",
+    "geopy.point.Point.format_altitude",
+    "<builtin>.isinstance"
+  ],
+  "geopy.format.format_distance": [],
+  "geopy.point.Point.__str__": [
+    "geopy.point.Point.format"
+  ],
+  "geopy.point.Point.__eq__": [
+    "<builtin>.isinstance",
+    "<builtin>.tuple"
+  ],
+  "geopy.point.Point.__ne__": [],
+  "geopy.point.Point.parse_degrees": [
+    "<builtin>.float",
+    "geopy.units.degrees",
+    "<builtin>.ValueError"
+  ],
+  "geopy.units.degrees": [
+    "geopy.units.arcseconds",
+    "geopy.units.arcminutes",
+    "math.degrees"
+  ],
+  "geopy.point.Point.parse_altitude": [
+    "<builtin>.float",
+    "<builtin>.NotImplementedError"
+  ],
+  "geopy.point.Point.parse_altitude.<dict1>.<lambda1>": [],
+  "geopy.point.Point.parse_altitude.<dict1>.<lambda2>": [],
+  "geopy.point.Point.parse_altitude.<lambda2>": [
+    "geopy.units.kilometers"
+  ],
+  "geopy.units.kilometers": [
+    "geopy.units.nautical",
+    "geopy.units.feet"
+  ],
+  "geopy.point.Point.parse_altitude.<dict1>.<lambda3>": [],
+  "geopy.point.Point.parse_altitude.<lambda3>": [
+    "geopy.units.kilometers"
+  ],
+  "geopy.point.Point.parse_altitude.<dict1>.<lambda4>": [],
+  "geopy.point.Point.parse_altitude.<lambda4>": [
+    "geopy.units.kilometers"
+  ],
+  "geopy.point.Point.parse_altitude.<dict1>.<lambda5>": [],
+  "geopy.point.Point.parse_altitude.<lambda5>": [
+    "geopy.units.kilometers"
+  ],
+  "geopy.point.Point.parse_altitude.<dict1>.<lambda6>": [],
+  "geopy.point.Point.parse_altitude.<lambda6>": [
+    "geopy.units.kilometers"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "re.sub": [],
+  "re.match": [],
+  "re.match.group": [],
+  "itertools.islice": [],
+  "geopy.format": [
+    "<builtin>.zip",
+    "<builtin>.enumerate",
+    "<builtin>.chr"
+  ],
+  "<builtin>.chr": [],
+  "<builtin>.int": [],
+  "geopy.units.arcminutes": [
+    "geopy.units.arcseconds",
+    "math.degrees"
+  ],
+  "geopy.units.arcseconds": [
+    "geopy.units.arcminutes",
+    "math.degrees"
+  ],
+  "geopy.format.<dict7>.<lambda1>": [],
+  "geopy.format.<dict7>.<lambda2>": [],
+  "geopy.format.<lambda2>": [
+    "geopy.units.meters"
+  ],
+  "geopy.units.meters": [
+    "geopy.units.kilometers"
+  ],
+  "geopy.format.<dict7>.<lambda3>": [],
+  "geopy.format.<lambda3>": [
+    "geopy.units.miles"
+  ],
+  "geopy.units.miles": [
+    "geopy.units.nautical",
+    "geopy.units.feet"
+  ],
+  "geopy.format.<dict7>.<lambda4>": [],
+  "geopy.format.<lambda4>": [
+    "geopy.units.feet"
+  ],
+  "geopy.units.feet": [
+    "geopy.units.miles",
+    "geopy.units.nautical"
+  ],
+  "geopy.format.<dict7>.<lambda5>": [],
+  "geopy.format.<lambda5>": [
+    "geopy.units.nautical"
+  ],
+  "geopy.units.nautical": [
+    "geopy.units.kilometers",
+    "geopy.units.feet"
+  ],
+  "geopy.format.<dict7>.<lambda6>": [],
+  "geopy.format.<lambda6>": [
+    "geopy.units.nautical"
+  ],
+  "<builtin>.zip": [],
+  "<builtin>.enumerate": [],
+  "geopy.units": [],
+  "math.degrees": [],
+  "geopy.units.radians": [
+    "geopy.units.arcseconds",
+    "geopy.units.arcminutes",
+    "math.radians"
+  ],
+  "math.radians": [],
+  "geopy.compat": [],
+  "geopy.adapters": [],
+  "geopy.adapters.AdapterHTTPError.__init__": [
+    "<builtin>.super"
+  ],
+  "email.utils.parsedate_tz": [],
+  "logging.getLogger.warning": [],
+  "email.utils.mktime_tz": [],
+  "time.time": [],
+  "geopy.adapters.BaseAdapter.__init__": [],
+  "geopy.adapters.BaseAdapter": [
+    "abc.abstractmethod"
+  ],
+  "abc.abstractmethod": [],
+  "geopy.adapters.BaseAdapter.get_json": [],
+  "geopy.adapters.BaseAdapter.get_text": [],
+  "geopy.adapters.BaseSyncAdapter.__enter__": [],
+  "geopy.adapters.BaseSyncAdapter.__exit__": [],
+  "geopy.adapters.BaseAsyncAdapter.__aenter__": [],
+  "geopy.adapters.BaseAsyncAdapter.__aexit__": [],
+  "geopy.adapters._normalize_proxies": [
+    "urllib.request.getproxies",
+    "urllib.request.getproxies.items"
+  ],
+  "urllib.request.getproxies": [],
+  "urllib.request.getproxies.items": [],
+  "geopy.adapters.URLLibAdapter.__init__": [
+    "geopy.adapters._normalize_proxies",
+    "urllib.request.build_opener",
+    "urllib.request.HTTPSHandler",
+    "urllib.request.ProxyHandler",
+    "<builtin>.super"
+  ],
+  "urllib.request.HTTPSHandler": [],
+  "urllib.request.ProxyHandler": [],
+  "urllib.request.build_opener": [],
+  "geopy.adapters.URLLibAdapter.get_json": [
+    "json.loads",
+    "geopy.adapters.URLLibAdapter.get_text"
+  ],
+  "geopy.adapters.URLLibAdapter.get_text": [
+    "<builtin>.len",
+    "<builtin>.isinstance",
+    "geopy.adapters.AdapterHTTPError.__init__",
+    "geopy.adapters.URLLibAdapter._decode_page",
+    "<builtin>.str",
+    "geopy.adapters.URLLibAdapter._read_http_error_body",
+    "urllib.request.Request"
+  ],
+  "json.loads": [],
+  "urllib.request.Request": [],
+  "geopy.adapters.URLLibAdapter._read_http_error_body": [
+    "geopy.adapters.URLLibAdapter._decode_page",
+    "logging.getLogger.debug"
+  ],
+  "geopy.adapters.URLLibAdapter._decode_page": [
+    "<builtin>.str"
+  ],
+  "geopy.adapters.RequestsAdapter.__init__": [
+    "geopy.adapters._normalize_proxies",
+    "requests.adapters.HTTPAdapter",
+    "geopy.adapters.RequestsHTTPWithSSLContextAdapter.__init__",
+    "<builtin>.ImportError",
+    "requests.Session",
+    "requests.Session.mount",
+    "<builtin>.super"
+  ],
+  "<builtin>.ImportError": [],
+  "requests.Session": [],
+  "requests.adapters.HTTPAdapter": [],
+  "requests.Session.mount": [],
+  "geopy.adapters.RequestsHTTPWithSSLContextAdapter.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.adapters.RequestsAdapter.__enter__": [],
+  "geopy.adapters.RequestsAdapter.__exit__": [
+    "requests.Session.close"
+  ],
+  "requests.Session.close": [],
+  "geopy.adapters.RequestsAdapter.__del__": [
+    "<builtin>.getattr"
+  ],
+  "<builtin>.getattr": [],
+  "geopy.adapters.RequestsAdapter.get_text": [
+    "geopy.adapters.RequestsAdapter._request"
+  ],
+  "geopy.adapters.RequestsAdapter._request": [
+    "geopy.adapters.AdapterHTTPError.__init__",
+    "<builtin>.str",
+    "<builtin>.isinstance",
+    "requests.Session.get"
+  ],
+  "geopy.adapters.RequestsAdapter.get_json": [
+    "geopy.adapters.RequestsAdapter._request",
+    "requests.Session.get.json"
+  ],
+  "requests.Session.get.json": [],
+  "requests.Session.get": [],
+  "geopy.adapters.AioHTTPAdapter.__init__": [
+    "geopy.adapters._normalize_proxies",
+    "<builtin>.ImportError",
+    "<builtin>.super"
+  ],
+  "geopy.adapters.AioHTTPAdapter.session": [
+    "abc.ABC.__dict__.get",
+    "aiohttp.ClientSession"
+  ],
+  "abc.ABC.__dict__.get": [],
+  "aiohttp.ClientSession": [],
+  "geopy.adapters.AioHTTPAdapter.__aenter__": [],
+  "geopy.adapters.AioHTTPAdapter.__aexit__": [],
+  "geopy.adapters.AioHTTPAdapter.get_text": [
+    "geopy.adapters.AioHTTPAdapter._request",
+    "geopy.adapters.AioHTTPAdapter._raise_for_status",
+    "geopy.adapters.AioHTTPAdapter._normalize_exceptions"
+  ],
+  "geopy.adapters.AioHTTPAdapter._normalize_exceptions": [
+    "<builtin>.str",
+    "<builtin>.isinstance"
+  ],
+  "geopy.adapters.AioHTTPAdapter._request": [
+    "urllib.parse.urlparse.scheme.lower",
+    "urllib.parse.urlparse",
+    "yarl.URL"
+  ],
+  "geopy.adapters.AioHTTPAdapter._raise_for_status": [
+    "geopy.adapters.AdapterHTTPError.__init__"
+  ],
+  "geopy.adapters.AioHTTPAdapter.get_json": [
+    "geopy.adapters.AioHTTPAdapter._request",
+    "geopy.adapters.AioHTTPAdapter._raise_for_status",
+    "json.loads",
+    "geopy.adapters.AioHTTPAdapter._normalize_exceptions"
+  ],
+  "urllib.parse.urlparse": [],
+  "urllib.parse.urlparse.scheme.lower": [],
+  "yarl.URL": [],
+  "geopy.adapters.AioHTTPAdapter": [
+    "contextlib.contextmanager"
+  ],
+  "contextlib.contextmanager": [],
+  "geopy.adapters.RequestsHTTPWithSSLContextAdapter.init_poolmanager": [
+    "geopy.adapters.RequestsHTTPWithSSLContextAdapter.__warn_if_old_urllib3",
+    "<builtin>.super"
+  ],
+  "geopy.adapters.RequestsHTTPWithSSLContextAdapter.__warn_if_old_urllib3": [
+    "requests.packages.urllib3.__version__.split",
+    "geopy.adapters.RequestsHTTPWithSSLContextAdapter.__warn_if_old_urllib3.silent_int",
+    "warnings.warn",
+    "urllib3.__version__.split",
+    "<builtin>.tuple"
+  ],
+  "geopy.adapters.RequestsHTTPWithSSLContextAdapter.proxy_manager_for": [
+    "geopy.adapters.RequestsHTTPWithSSLContextAdapter.__warn_if_old_urllib3",
+    "<builtin>.super"
+  ],
+  "geopy.adapters.RequestsHTTPWithSSLContextAdapter.__warn_if_old_urllib3.silent_int": [
+    "<builtin>.int"
+  ],
+  "urllib3.__version__.split": [],
+  "requests.packages.urllib3.__version__.split": [],
+  "geopy.adapters.RequestsHTTPWithSSLContextAdapter.cert_verify": [
+    "<builtin>.super"
+  ],
+  "geopy.exc": [],
+  "geopy.exc.GeocoderRateLimited.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.location": [],
+  "geopy.location._location_tuple": [],
+  "geopy.location.Location.address": [],
+  "geopy.location.Location.latitude": [],
+  "geopy.location.Location.longitude": [],
+  "geopy.location.Location.altitude": [],
+  "geopy.location.Location.point": [],
+  "geopy.location.Location.raw": [],
+  "geopy.location.Location.__getitem__": [],
+  "geopy.location.Location.__str__": [],
+  "geopy.location.Location.__repr__": [],
+  "geopy.location.Location.__iter__": [
+    "<builtin>.iter"
+  ],
+  "geopy.location.Location.__getstate__": [],
+  "geopy.location.Location.__setstate__": [
+    "geopy.location._location_tuple"
+  ],
+  "geopy.location.Location.__eq__": [
+    "<builtin>.isinstance"
+  ],
+  "geopy.location.Location.__ne__": [],
+  "geopy.location.Location.__len__": [
+    "<builtin>.len"
+  ],
+  "geopy.geocoders.photon": [],
+  "geopy.geocoders.photon.Photon.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.photon.Photon.geocode": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "<builtin>.list",
+    "logging.getLogger.debug",
+    "<builtin>.int",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.photon.Photon.reverse": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "<builtin>.int",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.photon.Photon._parse_json": [
+    "geopy.geocoders.photon.Photon._parse_resource",
+    "<builtin>.len"
+  ],
+  "geopy.geocoders.photon.Photon._parse_resource": [
+    "<builtin>.float",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.openmapquest": [],
+  "geopy.geocoders.openmapquest.OpenMapQuest.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.openmapquest.OpenMapQuest._construct_url": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.nominatim": [],
+  "geopy.geocoders.nominatim.Nominatim.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.nominatim.Nominatim._construct_url": [
+    "urllib.parse.urlencode"
+  ],
+  "geopy.geocoders.nominatim.Nominatim.geocode": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "<builtin>.int",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "geopy.geocoders.nominatim.Nominatim._construct_url",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.nominatim.Nominatim.reverse": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "geopy.geocoders.nominatim.Nominatim._construct_url",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.nominatim.Nominatim._parse_code": [
+    "<builtin>.float",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.nominatim.Nominatim._parse_json": [
+    "<builtin>.isinstance",
+    "geopy.geocoders.nominatim.Nominatim._parse_code"
+  ],
+  "geopy.geocoders.what3words": [
+    "re.compile"
+  ],
+  "geopy.geocoders.what3words._check_query": [
+    "re.compile.match"
+  ],
+  "re.compile.match": [],
+  "geopy.geocoders.what3words.What3Words.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.what3words.What3Words.geocode": [
+    "functools.partial",
+    "geopy.geocoders.what3words._check_query",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.what3words.What3Words._parse_json": [
+    "geopy.geocoders.what3words.What3Words._parse_json.parse_resource"
+  ],
+  "geopy.geocoders.what3words.What3Words._parse_json.parse_resource": [
+    "<builtin>.float",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.what3words.What3Words.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.what3words.What3Words._parse_reverse_json": [],
+  "geopy.geocoders.what3words.What3WordsV3.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.what3words.What3WordsV3.geocode": [
+    "functools.partial",
+    "geopy.geocoders.what3words._check_query",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.what3words.What3WordsV3._parse_json": [
+    "geopy.geocoders.what3words.What3WordsV3._parse_json.parse_resource"
+  ],
+  "geopy.geocoders.what3words.What3WordsV3._parse_json.parse_resource": [
+    "<builtin>.float",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.what3words.What3WordsV3.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.what3words.What3WordsV3._parse_reverse_json": [],
+  "geopy.geocoders.geonames": [],
+  "geopy.geocoders.geonames.GeoNames.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.geonames.GeoNames.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.geonames.GeoNames.reverse": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "geopy.geocoders.geonames.GeoNames._reverse_find_nearby_place_name_params",
+    "geopy.geocoders.geonames.GeoNames._reverse_find_nearby_params",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.geonames.GeoNames._reverse_find_nearby_place_name_params": [],
+  "geopy.geocoders.geonames.GeoNames._reverse_find_nearby_params": [],
+  "geopy.geocoders.geonames.GeoNames.reverse_timezone": [
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "geopy.timezone.ensure_pytz_is_installed",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.timezone.ensure_pytz_is_installed": [
+    "<builtin>.ImportError"
+  ],
+  "geopy.geocoders.geonames.GeoNames._raise_for_error": [],
+  "geopy.timezone.from_fixed_gmt_offset": [
+    "geopy.timezone.Timezone.__init__",
+    "pytz.FixedOffset",
+    "geopy.timezone.ensure_pytz_is_installed"
+  ],
+  "geopy.timezone.from_timezone_name": [
+    "geopy.timezone.Timezone.__init__",
+    "pytz.timezone",
+    "geopy.timezone.ensure_pytz_is_installed"
+  ],
+  "geopy.geocoders.geonames.GeoNames._parse_json": [
+    "geopy.geocoders.geonames.GeoNames._parse_json.parse_code",
+    "geopy.geocoders.geonames.GeoNames._raise_for_error",
+    "<builtin>.len"
+  ],
+  "geopy.geocoders.geonames.GeoNames._parse_json.parse_code": [
+    "<builtin>.float",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.timezone": [],
+  "pytz.timezone": [],
+  "geopy.timezone.Timezone.__init__": [],
+  "pytz.FixedOffset": [],
+  "geopy.timezone.Timezone.pytz_timezone": [],
+  "geopy.timezone.Timezone.raw": [],
+  "geopy.timezone.Timezone.__str__": [
+    "<builtin>.str"
+  ],
+  "geopy.timezone.Timezone.__repr__": [
+    "<builtin>.repr"
+  ],
+  "<builtin>.repr": [],
+  "geopy.timezone.Timezone.__getstate__": [],
+  "geopy.timezone.Timezone.__setstate__": [],
+  "geopy.timezone.Timezone.__eq__": [
+    "<builtin>.isinstance"
+  ],
+  "geopy.timezone.Timezone.__ne__": [],
+  "geopy.geocoders.mapbox": [],
+  "geopy.geocoders.mapbox.MapBox.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.mapbox.MapBox._parse_json": [
+    "geopy.geocoders.mapbox.MapBox._parse_json.parse_feature"
+  ],
+  "geopy.geocoders.mapbox.MapBox._parse_json.parse_feature": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.mapbox.MapBox.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.quote",
+    "<builtin>.dict",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "urllib.parse.quote": [],
+  "geopy.geocoders.mapbox.MapBox.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.quote",
+    "<builtin>.dict",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.tomtom": [],
+  "geopy.geocoders.tomtom.TomTom.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.tomtom.TomTom.geocode": [
+    "functools.partial",
+    "geopy.geocoders.tomtom.TomTom._geocode_params",
+    "geopy.geocoders.tomtom.TomTom._boolean_value",
+    "<builtin>.int",
+    "logging.getLogger.debug",
+    "urllib.parse.quote",
+    "<builtin>.dict",
+    "urllib.parse.urlencode",
+    "<builtin>.str",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.tomtom.TomTom._geocode_params": [],
+  "geopy.geocoders.tomtom.TomTom._boolean_value": [],
+  "geopy.geocoders.tomtom.TomTom.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.quote",
+    "<builtin>.dict",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.tomtom.TomTom._reverse_params",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.tomtom.TomTom._reverse_params": [],
+  "geopy.geocoders.tomtom.TomTom._parse_json": [
+    "geopy.geocoders.tomtom.TomTom._parse_search_result"
+  ],
+  "geopy.geocoders.tomtom.TomTom._parse_search_result": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.tomtom.TomTom._parse_reverse_json": [
+    "geopy.geocoders.tomtom.TomTom._parse_reverse_result"
+  ],
+  "geopy.geocoders.tomtom.TomTom._parse_reverse_result": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.tomtom.TomTom._geocoder_exception_handler": [
+    "<builtin>.isinstance"
+  ],
+  "geopy.geocoders.pickpoint": [],
+  "geopy.geocoders.pickpoint.PickPoint.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.pickpoint.PickPoint._construct_url": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.smartystreets": [],
+  "geopy.geocoders.smartystreets.LiveAddress.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.smartystreets.LiveAddress.geocode": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.smartystreets.LiveAddress._geocoder_exception_handler": [
+    "<builtin>.isinstance",
+    "<builtin>.str"
+  ],
+  "geopy.geocoders.smartystreets.LiveAddress._parse_json": [
+    "<builtin>.len",
+    "geopy.geocoders.smartystreets.LiveAddress._format_structured_address"
+  ],
+  "geopy.geocoders.smartystreets.LiveAddress._format_structured_address": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.algolia": [],
+  "geopy.geocoders.algolia.AlgoliaPlaces.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.algolia.AlgoliaPlaces.geocode": [
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "logging.getLogger.debug",
+    "functools.partial"
+  ],
+  "geopy.geocoders.algolia.AlgoliaPlaces.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.algolia.AlgoliaPlaces._parse_feature": [
+    "<builtin>.isinstance",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.algolia.AlgoliaPlaces._parse_json": [
+    "<builtin>.len",
+    "geopy.geocoders.algolia.AlgoliaPlaces._parse_feature"
+  ],
+  "geopy.geocoders.geocodio": [],
+  "geopy.geocoders.geocodio.Geocodio.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.geocodio.Geocodio.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.geocodio.Geocodio.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.geocodio.Geocodio._parse_json": [
+    "geopy.geocoders.geocodio.Geocodio._parse_json.parse_place"
+  ],
+  "geopy.geocoders.geocodio.Geocodio._parse_json.parse_place": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.geocodio.Geocodio._geocoder_exception_handler": [
+    "<builtin>.isinstance",
+    "geopy.geocoders.geocodio.Geocodio._get_error_message"
+  ],
+  "geopy.geocoders.geocodio.Geocodio._get_error_message": [
+    "json.loads.get",
+    "json.loads"
+  ],
+  "json.loads.get": [],
+  "geopy.geocoders.geocodeearth": [],
+  "geopy.geocoders.geocodeearth.GeocodeEarth.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.pelias": [],
+  "geopy.geocoders.pelias.Pelias.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.pelias.Pelias.geocode": [
+    "functools.partial",
+    "warnings.warn",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.pelias.Pelias.reverse": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.pelias.Pelias._parse_code": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.pelias.Pelias._parse_json": [
+    "geopy.geocoders.pelias.Pelias._parse_code",
+    "<builtin>.len"
+  ],
+  "geopy.geocoders.baidu": [],
+  "geopy.geocoders.baidu.Baidu.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.baidu.Baidu._format_components_param": [],
+  "geopy.geocoders.baidu.Baidu.geocode": [
+    "functools.partial",
+    "geopy.geocoders.baidu.Baidu._construct_url",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.baidu.Baidu._construct_url": [
+    "hashlib.md5",
+    "urllib.parse.quote_plus",
+    "hashlib.md5.hexdigest",
+    "urllib.parse.urlencode",
+    "urllib.parse.quote_plus.encode"
+  ],
+  "geopy.geocoders.baidu.Baidu.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "geopy.geocoders.baidu.Baidu._construct_url",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.baidu.Baidu._parse_reverse_json": [
+    "geopy.geocoders.baidu.Baidu._check_status",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.baidu.Baidu._check_status": [],
+  "geopy.geocoders.baidu.Baidu._parse_json": [
+    "geopy.geocoders.baidu.Baidu._parse_json.parse_place",
+    "geopy.geocoders.baidu.Baidu._check_status"
+  ],
+  "geopy.geocoders.baidu.Baidu._parse_json.parse_place": [
+    "geopy.location.Location.__init__"
+  ],
+  "urllib.parse.quote_plus": [],
+  "urllib.parse.quote_plus.encode": [],
+  "hashlib.md5": [],
+  "hashlib.md5.hexdigest": [],
+  "geopy.geocoders.bing": [],
+  "geopy.geocoders.bing.Bing.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.bing.Bing.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "<builtin>.str",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.bing.Bing.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.quote",
+    "<builtin>.dict",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.bing.Bing._parse_json": [
+    "geopy.exc.GeocoderRateLimited.__init__",
+    "<builtin>.len",
+    "geopy.geocoders.bing.Bing._parse_json.parse_resource"
+  ],
+  "geopy.geocoders.bing.Bing._parse_json.parse_resource": [
+    "<builtin>.float",
+    "geopy.util.join_filter",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.maptiler": [],
+  "geopy.geocoders.maptiler.MapTiler.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.maptiler.MapTiler._parse_json": [
+    "geopy.geocoders.maptiler.MapTiler._parse_json.parse_feature"
+  ],
+  "geopy.geocoders.maptiler.MapTiler._parse_json.parse_feature": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.maptiler.MapTiler.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.quote",
+    "<builtin>.dict",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.maptiler.MapTiler.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.quote",
+    "<builtin>.dict",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.banfrance": [],
+  "geopy.geocoders.banfrance.BANFrance.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.banfrance.BANFrance.geocode": [
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "logging.getLogger.debug",
+    "functools.partial"
+  ],
+  "geopy.geocoders.banfrance.BANFrance.reverse": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.banfrance.BANFrance._parse_feature": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.banfrance.BANFrance._parse_json": [
+    "<builtin>.len",
+    "geopy.geocoders.banfrance.BANFrance._parse_feature"
+  ],
+  "geopy.geocoders.azure": [],
+  "geopy.geocoders.azure.AzureMaps.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.azure.AzureMaps._geocode_params": [],
+  "geopy.geocoders.azure.AzureMaps._reverse_params": [],
+  "geopy.geocoders.ignfrance": [],
+  "geopy.geocoders.ignfrance.IGNFrance.__init__": [
+    "warnings.warn",
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.ignfrance.IGNFrance.geocode": [
+    "functools.partial",
+    "<builtin>.len",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.ignfrance.IGNFrance._request_raw_content"
+  ],
+  "geopy.geocoders.ignfrance.IGNFrance._request_raw_content": [
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.ignfrance.IGNFrance.reverse": [
+    "functools.partial",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.ignfrance.IGNFrance._request_raw_content"
+  ],
+  "geopy.geocoders.ignfrance.IGNFrance._parse_xml": [
+    "xml.etree.ElementTree.fromstring",
+    "geopy.geocoders.ignfrance.IGNFrance._parse_place",
+    "geopy.geocoders.ignfrance.IGNFrance._xml_to_json_places",
+    "geopy.geocoders.ignfrance.IGNFrance._parse_xml.remove_namespace"
+  ],
+  "xml.etree.ElementTree.fromstring": [],
+  "geopy.geocoders.ignfrance.IGNFrance._parse_xml.remove_namespace": [
+    "xml.etree.ElementTree.fromstring.iter",
+    "<builtin>.len",
+    "xml.etree.ElementTree.fromstring.iter.tag.startswith"
+  ],
+  "xml.etree.ElementTree.fromstring.iter": [],
+  "xml.etree.ElementTree.fromstring.iter.tag.startswith": [],
+  "geopy.geocoders.ignfrance.IGNFrance._xml_to_json_places": [
+    "geopy.geocoders.ignfrance.IGNFrance._xml_to_json_places.testContentAttrib",
+    "xml.etree.ElementTree.fromstring.findall.find",
+    "xml.etree.ElementTree.fromstring.findall",
+    "<builtin>.iter"
+  ],
+  "geopy.geocoders.ignfrance.IGNFrance._parse_place": [
+    "geopy.location.Location.__init__"
+  ],
+  "xml.etree.ElementTree.fromstring.findall": [],
+  "xml.etree.ElementTree.fromstring.findall.find": [],
+  "geopy.geocoders.ignfrance.IGNFrance._xml_to_json_places.testContentAttrib": [],
+  "geopy.geocoders.mapquest": [],
+  "geopy.geocoders.mapquest.MapQuest.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.mapquest.MapQuest._parse_json": [
+    "geopy.geocoders.mapquest.MapQuest._parse_json.parse_feature"
+  ],
+  "geopy.geocoders.mapquest.MapQuest._parse_json.parse_location": [],
+  "geopy.geocoders.mapquest.MapQuest._parse_json.parse_feature": [
+    "geopy.geocoders.mapquest.MapQuest._parse_json.parse_location",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.mapquest.MapQuest.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.mapquest.MapQuest.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.arcgis": [],
+  "geopy.geocoders.arcgis.ArcGIS.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder": [
+    "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token",
+    "<builtin>.int",
+    "time.time",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.query_callback"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._parse_geocode": [
+    "<builtin>.str",
+    "<builtin>.len",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._parse_reverse": [
+    "<builtin>.str",
+    "<builtin>.len",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.query_callback": [
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "functools.partial"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.maybe_reauthenticate_callback": [
+    "functools.partial",
+    "geopy.geocoders.arcgis.ArcGIS._refresh_authentication_token"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS._authenticated_call_geocoder.query_retry_callback": [
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.arcgis.ArcGIS": [
+    "geopy.geocoders.base._synchronized"
+  ],
+  "json.dumps": [],
+  "geopy.geocoders.databc": [],
+  "geopy.geocoders.databc.DataBC.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.databc.DataBC.geocode": [
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "logging.getLogger.debug",
+    "functools.partial"
+  ],
+  "geopy.geocoders.databc.DataBC._parse_json": [
+    "geopy.geocoders.databc.DataBC._parse_feature",
+    "<builtin>.len"
+  ],
+  "geopy.geocoders.databc.DataBC._parse_feature": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.yandex": [],
+  "geopy.geocoders.yandex.Yandex.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.yandex.Yandex.geocode": [
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "logging.getLogger.debug",
+    "functools.partial"
+  ],
+  "geopy.geocoders.yandex.Yandex.reverse": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.yandex.Yandex._parse_json": [
+    "geopy.geocoders.yandex.Yandex._parse_json.parse_code"
+  ],
+  "geopy.geocoders.yandex.Yandex._parse_json.parse_code": [
+    "<builtin>.float",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.google": [],
+  "geopy.geocoders.google.GoogleV3.__init__": [
+    "<builtin>.bool",
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.google.GoogleV3._get_signed_url": [
+    "base64.urlsafe_b64decode",
+    "hmac.new",
+    "hmac.new.digest",
+    "base64.urlsafe_b64encode.decode",
+    "base64.urlsafe_b64encode",
+    "base64.urlsafe_b64encode.decode.digest",
+    "urllib.parse.urlencode"
+  ],
+  "base64.urlsafe_b64decode": [],
+  "hmac.new": [],
+  "hmac.new.digest": [],
+  "base64.urlsafe_b64encode.decode.digest": [],
+  "base64.urlsafe_b64encode": [],
+  "base64.urlsafe_b64encode.decode": [],
+  "geopy.geocoders.google.GoogleV3._format_components_param": [
+    "<builtin>.isinstance",
+    "<builtin>.ValueError"
+  ],
+  "geopy.geocoders.google.GoogleV3.geocode": [
+    "functools.partial",
+    "<builtin>.ValueError",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.google.GoogleV3._format_components_param",
+    "<builtin>.str",
+    "geopy.geocoders.google.GoogleV3._get_signed_url"
+  ],
+  "geopy.geocoders.google.GoogleV3.reverse": [
+    "functools.partial",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "<builtin>.str",
+    "geopy.geocoders.google.GoogleV3._get_signed_url",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.google.GoogleV3.reverse_timezone": [
+    "logging.getLogger.debug",
+    "geopy.timezone.ensure_pytz_is_installed",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.google.GoogleV3._normalize_timezone_at_time",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.google.GoogleV3._normalize_timezone_at_time": [
+    "datetime.datetime.utcnow",
+    "<builtin>.isinstance",
+    "calendar.timegm",
+    "datetime.datetime.utcnow.utctimetuple"
+  ],
+  "geopy.geocoders.google.GoogleV3._check_status": [],
+  "datetime.datetime.utcnow": [],
+  "datetime.datetime.utcnow.utctimetuple": [],
+  "calendar.timegm": [],
+  "geopy.geocoders.google.GoogleV3._parse_json": [
+    "geopy.geocoders.google.GoogleV3._parse_json.parse_place",
+    "geopy.geocoders.google.GoogleV3._check_status"
+  ],
+  "geopy.geocoders.google.GoogleV3._parse_json.parse_place": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.opencage": [],
+  "geopy.geocoders.opencage.OpenCage.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.opencage.OpenCage.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.opencage.OpenCage.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.opencage.OpenCage._parse_json": [
+    "geopy.geocoders.opencage.OpenCage._check_status",
+    "<builtin>.len",
+    "geopy.geocoders.opencage.OpenCage._parse_json.parse_place"
+  ],
+  "geopy.geocoders.opencage.OpenCage._check_status": [],
+  "geopy.geocoders.opencage.OpenCage._parse_json.parse_place": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.here": [],
+  "geopy.geocoders.here.Here.__init__": [
+    "<builtin>.bool",
+    "warnings.warn",
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.here.Here.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "geopy.geocoders.base.Geocoder._format_bounding_box",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "geopy.geocoders.base.Geocoder._call_geocoder"
+  ],
+  "geopy.geocoders.here.Here.reverse": [
+    "functools.partial",
+    "<builtin>.float",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.here.Here._parse_json": [
+    "geopy.exc.GeocoderRateLimited.__init__",
+    "geopy.geocoders.here.Here._parse_json.parse_resource"
+  ],
+  "geopy.geocoders.here.Here._parse_json.parse_resource": [
+    "<builtin>.float",
+    "geopy.util.join_filter",
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.here.HereV7.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.geocoders.here.HereV7.geocode": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.here.HereV7.reverse": [
+    "functools.partial",
+    "logging.getLogger.debug",
+    "urllib.parse.urlencode",
+    "geopy.geocoders.base.Geocoder._call_geocoder",
+    "geopy.geocoders.base.Geocoder._coerce_point_to_string"
+  ],
+  "geopy.geocoders.here.HereV7._parse_json": [
+    "geopy.geocoders.here.HereV7._parse_json.parse_resource"
+  ],
+  "geopy.geocoders.here.HereV7._parse_json.parse_resource": [
+    "geopy.location.Location.__init__"
+  ],
+  "geopy.geocoders.here.HereV7._geocoder_exception_handler": [
+    "<builtin>.isinstance",
+    "json.loads.get",
+    "json.loads"
+  ],
+  "geopy.distance": [],
+  "geopy.distance.cmp": [],
+  "geopy.distance.lonlat": [],
+  "geopy.distance._ensure_same_altitude": [
+    "<builtin>.ValueError",
+    "<builtin>.abs"
+  ],
+  "geopy.distance.Distance.__init__": [
+    "geopy.units.kilometers",
+    "<builtin>.len",
+    "geopy.distance.Distance.measure",
+    "geopy.util.pairwise"
+  ],
+  "geopy.distance.Distance.measure": [
+    "<builtin>.NotImplementedError"
+  ],
+  "geopy.distance.Distance.__add__": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "geopy.distance.Distance.__neg__": [],
+  "geopy.distance.Distance.__sub__": [],
+  "geopy.distance.Distance.__mul__": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "geopy.distance.Distance.__rmul__": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "geopy.distance.Distance.__truediv__": [
+    "<builtin>.isinstance"
+  ],
+  "geopy.distance.Distance.__floordiv__": [
+    "<builtin>.isinstance"
+  ],
+  "geopy.distance.Distance.__abs__": [
+    "<builtin>.abs"
+  ],
+  "geopy.distance.Distance.__bool__": [
+    "<builtin>.bool"
+  ],
+  "geopy.distance.Distance.destination": [
+    "<builtin>.NotImplementedError"
+  ],
+  "geopy.distance.Distance.__repr__": [],
+  "geopy.distance.Distance.__str__": [],
+  "geopy.distance.Distance.__cmp__": [
+    "geopy.distance.cmp",
+    "<builtin>.isinstance"
+  ],
+  "geopy.distance.Distance.__hash__": [
+    "<builtin>.hash"
+  ],
+  "<builtin>.hash": [],
+  "geopy.distance.Distance.__eq__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__ne__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__gt__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__lt__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__ge__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.__le__": [
+    "geopy.distance.Distance.__cmp__"
+  ],
+  "geopy.distance.Distance.feet": [
+    "geopy.units.feet"
+  ],
+  "geopy.distance.Distance.ft": [],
+  "geopy.distance.Distance.kilometers": [],
+  "geopy.distance.Distance.km": [],
+  "geopy.distance.Distance.m": [],
+  "geopy.distance.Distance.meters": [
+    "geopy.units.meters"
+  ],
+  "geopy.distance.Distance.mi": [],
+  "geopy.distance.Distance.miles": [
+    "geopy.units.miles"
+  ],
+  "geopy.distance.Distance.nautical": [
+    "geopy.units.nautical"
+  ],
+  "geopy.distance.Distance.nm": [],
+  "geopy.distance.great_circle.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.distance.great_circle.measure": [
+    "math.cos",
+    "geopy.distance._ensure_same_altitude",
+    "math.sin",
+    "geopy.units.radians",
+    "math.sqrt",
+    "math.atan2"
+  ],
+  "math.sin": [],
+  "math.cos": [],
+  "math.sqrt": [],
+  "math.atan2": [],
+  "geopy.distance.great_circle.destination": [
+    "math.cos",
+    "math.sin",
+    "geopy.units.radians",
+    "<builtin>.float",
+    "math.atan2",
+    "<builtin>.isinstance",
+    "geopy.units.degrees",
+    "math.asin"
+  ],
+  "math.asin": [],
+  "geopy.distance.geodesic.__init__": [
+    "geopy.distance.geodesic.set_ellipsoid",
+    "<builtin>.super"
+  ],
+  "geopy.distance.geodesic.set_ellipsoid": [
+    "<builtin>.Exception",
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.Exception": [],
+  "geopy.distance.geodesic.measure": [
+    "geopy.distance._ensure_same_altitude",
+    "geographiclib.geodesic.Geodesic",
+    "geographiclib.geodesic.Geodesic.Inverse",
+    "<builtin>.isinstance"
+  ],
+  "geographiclib.geodesic.Geodesic": [],
+  "geographiclib.geodesic.Geodesic.Inverse": [],
+  "geopy.distance.geodesic.destination": [
+    "<builtin>.isinstance",
+    "geographiclib.geodesic.Geodesic",
+    "geographiclib.geodesic.Geodesic.Direct"
+  ],
+  "geographiclib.geodesic.Geodesic.Direct": [],
+  "geopy.geocoders.osm": [
+    "warnings.warn"
+  ],
+  "geopy.geocoders.googlev3": [
+    "warnings.warn"
+  ],
+  "geopy.extra": [],
+  "geopy.extra.rate_limiter": [],
+  "geopy.extra.rate_limiter._is_last_gen": [
+    "itertools.chain",
+    "<builtin>.range"
+  ],
+  "itertools.chain": [],
+  "geopy.extra.rate_limiter.BaseRateLimiter.__init__": [
+    "threading.Lock"
+  ],
+  "threading.Lock": [],
+  "geopy.extra.rate_limiter.BaseRateLimiter._clock": [
+    "timeit.default_timer"
+  ],
+  "timeit.default_timer": [],
+  "geopy.extra.rate_limiter.BaseRateLimiter._acquire_request_slot_gen": [
+    "geopy.extra.rate_limiter.BaseRateLimiter._clock"
+  ],
+  "geopy.extra.rate_limiter.BaseRateLimiter._retries_gen": [
+    "<builtin>.zip",
+    "itertools.count",
+    "logging.getLogger.warning",
+    "geopy.extra.rate_limiter._is_last_gen",
+    "<builtin>.type"
+  ],
+  "itertools.count": [],
+  "geopy.extra.rate_limiter.BaseRateLimiter._handle_exc": [
+    "<builtin>.type",
+    "logging.getLogger.warning"
+  ],
+  "geopy.extra.rate_limiter.RateLimiter.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.extra.rate_limiter.RateLimiter._sleep": [
+    "time.sleep",
+    "<builtin>.type",
+    "logging.getLogger.debug"
+  ],
+  "time.sleep": [],
+  "geopy.extra.rate_limiter.RateLimiter._acquire_request_slot": [
+    "geopy.extra.rate_limiter.BaseRateLimiter._acquire_request_slot_gen",
+    "geopy.extra.rate_limiter.RateLimiter._sleep"
+  ],
+  "geopy.extra.rate_limiter.RateLimiter.__call__": [
+    "inspect.isawaitable",
+    "<builtin>.ValueError",
+    "geopy.extra.rate_limiter.BaseRateLimiter._handle_exc",
+    "geopy.extra.rate_limiter.RateLimiter._acquire_request_slot",
+    "geopy.extra.rate_limiter.BaseRateLimiter._retries_gen",
+    "geopy.extra.rate_limiter.RateLimiter._sleep",
+    "<builtin>.RuntimeError"
+  ],
+  "<builtin>.RuntimeError": [],
+  "geopy.extra.rate_limiter.AsyncRateLimiter.__init__": [
+    "<builtin>.super"
+  ],
+  "geopy.extra.rate_limiter.AsyncRateLimiter._sleep": [
+    "asyncio.sleep",
+    "<builtin>.type",
+    "logging.getLogger.debug"
+  ],
+  "asyncio.sleep": [],
+  "geopy.extra.rate_limiter.AsyncRateLimiter._acquire_request_slot": [
+    "geopy.extra.rate_limiter.BaseRateLimiter._acquire_request_slot_gen",
+    "geopy.extra.rate_limiter.AsyncRateLimiter._sleep"
+  ],
+  "geopy.extra.rate_limiter.AsyncRateLimiter.__call__": [
+    "geopy.extra.rate_limiter.AsyncRateLimiter._acquire_request_slot",
+    "geopy.extra.rate_limiter.AsyncRateLimiter._sleep",
+    "geopy.extra.rate_limiter.BaseRateLimiter._handle_exc",
+    "geopy.extra.rate_limiter.BaseRateLimiter._retries_gen",
+    "<builtin>.RuntimeError"
+  ],
+  "setup": [
+    "<builtin>.set",
+    "setuptools.setup",
+    "<builtin>.sorted"
+  ],
+  "<builtin>.set": [],
+  "<builtin>.sorted": [],
+  "setuptools.setup": []
+}

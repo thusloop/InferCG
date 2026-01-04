@@ -1,0 +1,313 @@
+{
+  "src.future.standard_library.__init__": [
+    "logging.getLogger",
+    "logging.Formatter",
+    "logging.StreamHandler",
+    "logging.Handler.setFormatter",
+    "logging.Logger.addHandler",
+    "logging.Logger.setLevel",
+    "builtins.set",
+    "dict.values",
+    "builtins.set",
+    "builtins.len",
+    "builtins.hasattr"
+  ],
+  "src.future.utils.__init__": [
+    "builtins.hasattr",
+    "builtins.getattr"
+  ],
+  "src.future.backports.__init__": [
+    "future.standard_library.import_top_level_modules"
+  ],
+  "src.future.standard_library.__init__.import_top_level_modules": [
+    "future.standard_library.exclude_local_folder_imports",
+    "builtins.__import__"
+  ],
+  "src.future.standard_library.__init__.exclude_local_folder_imports.__init__": [
+    "builtins.len",
+    "builtins.any"
+  ],
+  "src.future.standard_library.__init__.exclude_local_folder_imports.__enter__": [
+    "copy.copy",
+    "copy.copy",
+    "posixpath.join",
+    "genericpath.exists",
+    "builtins.all",
+    "list.remove",
+    "builtins.__import__"
+  ],
+  "src.future.standard_library.__init__.exclude_local_folder_imports.__exit__": [
+    "dict.keys",
+    "builtins.set"
+  ],
+  "src.future.backports.misc": [
+    "builtins.object"
+  ],
+  "src.future.backports.misc.decorating_function": [
+    "builtins.set",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr",
+    "builtins.getattr"
+  ],
+  "src.future.moves.__init__": [
+    "future.standard_library.import_top_level_modules"
+  ],
+  "src.future.tests.base": [
+    "unittest.case.skipIf",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.hasattr"
+  ],
+  "src.future.backports.test.support": [
+    "builtins.hasattr",
+    "str.startswith",
+    "str.startswith",
+    "future.backports.test.support._is_ipv6_enabled",
+    "unittest.case.skipUnless",
+    "unittest.case.skipUnless",
+    "unittest.case.skipUnless",
+    "str.startswith",
+    "posix.getpid",
+    "str.format",
+    "posix.getcwd",
+    "builtins.hasattr",
+    "future.backports.test.support.TransientResource",
+    "future.backports.test.support.TransientResource",
+    "future.backports.test.support.TransientResource",
+    "builtins.hasattr",
+    "str.startswith"
+  ],
+  "src.future.backports.test.support._is_ipv6_enabled": [
+    "socket.socket",
+    "socket.bind",
+    "socket.socket.close"
+  ],
+  "src.future.utils.surrogateescape": [
+    "future.utils.surrogateescape.b",
+    "future.utils.surrogateescape.u",
+    "_codecs.lookup"
+  ],
+  "src.future.utils.surrogateescape.b": [
+    "str.encode"
+  ],
+  "src.future.backports.email.__init__": [
+    "future.utils.surrogateescape.register_surrogateescape"
+  ],
+  "src.future.backports.urllib.parse": [
+    "collections.namedtuple",
+    "collections.namedtuple",
+    "collections.namedtuple",
+    "future.backports.urllib.parse._fix_result_transcoding",
+    "str.encode",
+    "builtins.int",
+    "builtins.bytes",
+    "re.compile",
+    "builtins.bytes",
+    "builtins.frozenset",
+    "builtins.bytes"
+  ],
+  "src.future.backports.email.utils": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.future.backports.email.quoprimime": [
+    "builtins.range",
+    "dict.copy",
+    "str.encode",
+    "builtins.bytes",
+    "builtins.chr",
+    "builtins.ord",
+    "builtins.bytes",
+    "builtins.chr"
+  ],
+  "src.future.backports.email.header": [
+    "future.backports.email.charset.Charset",
+    "future.backports.email.charset.Charset",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.future.backports.email.charset.Charset.__init__": [
+    "builtins.isinstance",
+    "str.encode",
+    "str.lower",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "dict.get",
+    "dict.get"
+  ],
+  "src.future.backports.email._policybase": [
+    "future.utils.with_metaclass",
+    "future.backports.email._policybase.Compat32"
+  ],
+  "src.future.utils.__init__.with_metaclass": [
+    "future.utils.with_metaclass.<locals>.metaclass"
+  ],
+  "src.future.utils.__init__.metaclass.__new__": [
+    "type.__new__",
+    "abc.ABCMeta"
+  ],
+  "src.future.backports.email._policybase._extend_docstrings": [
+    "str.startswith",
+    "future.backports.email._policybase._append_doc",
+    "mappingproxy.items",
+    "str.startswith",
+    "Policy.mro",
+    "builtins.getattr",
+    "future.backports.email._policybase._append_doc"
+  ],
+  "src.future.backports.email._policybase._append_doc": [
+    "str.rsplit",
+    "str.split"
+  ],
+  "src.future.backports.email._policybase._PolicyBase.__init__": [
+    "dict.items"
+  ],
+  "src.future.backports.email._encoded_words": [
+    "re.compile",
+    "functools.partial",
+    "str.encode",
+    "builtins.bytes",
+    "future.backports.email._encoded_words._QByteMap",
+    "builtins.ord"
+  ],
+  "src.future.backports.email.message": [
+    "re.compile"
+  ],
+  "src.future.standard_library.__init__.hooks.__enter__": [
+    "copy.copy",
+    "future.standard_library.detect_hooks",
+    "future.standard_library.install_hooks"
+  ],
+  "src.future.standard_library.__init__.detect_hooks": [
+    "logging.Logger.debug",
+    "builtins.hasattr",
+    "builtins.any",
+    "logging.Logger.debug"
+  ],
+  "src.future.standard_library.__init__.hooks.__exit__": [
+    "future.standard_library.remove_hooks"
+  ],
+  "src.future.backports.html.__init__": [
+    "builtins.ord",
+    "builtins.ord",
+    "builtins.ord"
+  ],
+  "src.future.backports._markupbase": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.future.backports.html.parser": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.future.backports.email.feedparser": [
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "builtins.object"
+  ],
+  "src.future.backports.http.client": [
+    "builtins.object",
+    "list.append"
+  ],
+  "src.future.backports.http.cookiejar": [
+    "builtins.str",
+    "str.lower",
+    "list.append",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.past.utils.__init__": [
+    "builtins.hasattr"
+  ],
+  "src.past.types.basestring": [
+    "past.utils.with_metaclass"
+  ],
+  "src.past.utils.__init__.with_metaclass": [
+    "past.utils.with_metaclass.<locals>.metaclass"
+  ],
+  "src.past.utils.__init__.metaclass.__new__": [
+    "type.__new__",
+    "past.types.basestring.BaseBaseString",
+    "past.types.olddict.BaseOldDict",
+    "past.types.oldstr.BaseOldStr"
+  ],
+  "src.past.types.olddict": [
+    "past.utils.with_metaclass"
+  ],
+  "src.past.types.oldstr": [
+    "past.utils.with_metaclass"
+  ],
+  "src.future.tests.base.expectedFailurePY3": [
+    "unittest.case.expectedFailure"
+  ],
+  "src.past.builtins.misc.execfile": [
+    "inspect.stack",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "io.open",
+    "BufferedReader.read",
+    "builtins.compile",
+    "builtins.exec"
+  ],
+  "src.libfuturize.fixes.__init__": [
+    "builtins.set",
+    "builtins.set",
+    "builtins.set",
+    "builtins.set"
+  ],
+  "src.past.translation.__init__": [
+    "logging.getLogger",
+    "logging.Logger.setLevel",
+    "builtins.list",
+    "builtins.list",
+    "builtins.list",
+    "builtins.list",
+    "past.translation.Py2Fixer"
+  ],
+  "src.past.translation.__init__.Py2Fixer.__init__": [
+    "copy.copy"
+  ]
+}

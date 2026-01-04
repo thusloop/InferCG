@@ -1,0 +1,2118 @@
+{
+  "setup": [
+    "setuptools.setup",
+    "<builtin>.str",
+    "<builtin>.open"
+  ],
+  "<builtin>.open": [],
+  "<builtin>.str": [],
+  "setuptools.setup": [],
+  "pudb": [
+    "<builtin>.print",
+    "<builtin>.str"
+  ],
+  "pudb.PudbShortcuts.db": [
+    "sys._getframe",
+    "pudb.debugger.Debugger.set_trace",
+    "pudb.set_interrupt_handler",
+    "<builtin>.isinstance",
+    "pudb._get_debugger",
+    "threading.current_thread"
+  ],
+  "pudb._get_debugger": [
+    "pudb._open_tty",
+    "pudb._tty_override",
+    "pudb.debugger.Debugger.__init__"
+  ],
+  "threading.current_thread": [],
+  "<builtin>.isinstance": [],
+  "pudb.set_interrupt_handler": [
+    "signal.getsignal",
+    "sys.exc_info",
+    "traceback.format_exception",
+    "warnings.warn",
+    "threading.current_thread",
+    "<builtin>.isinstance",
+    "signal.signal"
+  ],
+  "sys._getframe": [],
+  "pudb.debugger.Debugger.set_trace": [
+    "bdb.Bdb.set_step",
+    "sys._getframe",
+    "bdb.Bdb.canonic",
+    "pudb.debugger.Debugger.set_continue",
+    "sys.settrace",
+    "pudb.debugger.DebuggerUI.set_source_code_provider"
+  ],
+  "pudb.PudbShortcuts.go": [
+    "sys._getframe",
+    "pudb.debugger.Debugger.set_trace",
+    "pudb.set_interrupt_handler",
+    "<builtin>.isinstance",
+    "pudb._get_debugger",
+    "threading.current_thread"
+  ],
+  "pudb._tty_override": [
+    "os.environ.get"
+  ],
+  "os.environ.get": [],
+  "pudb._open_tty": [
+    "io.TextIOWrapper",
+    "os.get_terminal_size",
+    "io.TextIOWrapper.fileno",
+    "<builtin>.open"
+  ],
+  "io.TextIOWrapper": [],
+  "io.TextIOWrapper.fileno": [],
+  "os.get_terminal_size": [],
+  "pudb.debugger.Debugger.__init__": [
+    "<builtin>.NotImplementedError",
+    "pudb.debugger.Debugger.setup_state",
+    "bdb.Bdb.__init__",
+    "pudb.debugger.DebuggerUI.__init__",
+    "io.StringIO",
+    "pudb.settings.load_breakpoints",
+    "bdb.Bdb.set_break",
+    "<builtin>.ValueError"
+  ],
+  "pudb._have_debugger": [
+    "<builtin>.bool"
+  ],
+  "<builtin>.bool": [],
+  "pudb.runmodule": [
+    "pudb.runscript"
+  ],
+  "pudb.runscript": [
+    "<builtin>.input",
+    "pathlib.Path.resolve",
+    "pudb.settings.load_config",
+    "<builtin>.str",
+    "urwid.AttrMap",
+    "os.chdir",
+    "urwid.Edit",
+    "<builtin>.print",
+    "urwid.SimpleListWalker",
+    "os.getcwd",
+    "urwid.Edit.get_edit_text",
+    "pudb.debugger.DebuggerUI.call_with_ui",
+    "pudb.debugger.Debugger._runmodule",
+    "pudb.debugger.Debugger.interaction",
+    "urwid.ListBox",
+    "pudb.debugger.Debugger.restart",
+    "pudb._get_debugger",
+    "subprocess.call",
+    "sys.exc_info",
+    "sys.exit",
+    "pudb.debugger.Debugger._runscript",
+    "pathlib.Path",
+    "urwid.Text"
+  ],
+  "pathlib.Path": [],
+  "pathlib.Path.resolve": [],
+  "os.getcwd": [],
+  "os.chdir": [],
+  "subprocess.call": [],
+  "<builtin>.print": [],
+  "<builtin>.input": [],
+  "pudb.debugger.Debugger._runmodule": [
+    "__main__.__dict__.clear",
+    "bdb.Bdb.run",
+    "runpy._get_module_details",
+    "bdb.Bdb.canonic",
+    "__main__.__dict__.update"
+  ],
+  "sys.exit": [],
+  "pudb.debugger.Debugger._runscript": [
+    "__main__.__dict__.clear",
+    "bdb.Bdb.run",
+    "bdb.Bdb.canonic",
+    "__main__.__dict__.update",
+    "pudb.set_interrupt_handler"
+  ],
+  "sys.exc_info": [],
+  "pudb.debugger.Debugger.interaction": [
+    "pudb.debugger.Debugger.get_shortened_stack",
+    "<builtin>.type",
+    "pudb.debugger.DebuggerUI.call_with_ui",
+    "<builtin>.getattr",
+    "gc.get_referrers",
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "pudb.debugger.Debugger.set_frame_index"
+  ],
+  "urwid.Edit": [],
+  "pudb.settings.load_config": [
+    "<builtin>.dict",
+    "configparser.ConfigParser.read",
+    "os.path.isdir",
+    "configparser.ConfigParser",
+    "configparser.ConfigParser.items",
+    "pudb.settings.load_config.normalize_bool_inplace",
+    "os.path.join",
+    "configparser.ConfigParser.has_section"
+  ],
+  "urwid.Text": [],
+  "urwid.AttrMap": [],
+  "urwid.SimpleListWalker": [],
+  "urwid.ListBox": [],
+  "pudb.debugger.DebuggerUI.call_with_ui": [
+    "pudb.debugger.DebuggerUI.interaction",
+    "pudb.debugger.DebuggerUI.hide",
+    "pudb.debugger.DebuggerUI.dialog",
+    "pudb.debugger.DebuggerUI.show"
+  ],
+  "urwid.Edit.get_edit_text": [],
+  "pudb.debugger.Debugger.restart": [
+    "linecache.checkcache",
+    "pudb.debugger.DebuggerUI.set_source_code_provider",
+    "pudb.debugger.Debugger.setup_state"
+  ],
+  "pudb.runstatement": [
+    "pudb._get_debugger",
+    "bdb.Bdb.run"
+  ],
+  "bdb.Bdb.run": [],
+  "pudb.runeval": [
+    "pudb._get_debugger",
+    "pudb.debugger.Debugger.runeval"
+  ],
+  "pudb.debugger.Debugger.runeval": [
+    "sys.exc_info",
+    "pudb.debugger.Debugger.interaction",
+    "<builtin>.super"
+  ],
+  "pudb.runcall": [
+    "pudb._get_debugger",
+    "pudb.debugger.Debugger.runcall"
+  ],
+  "pudb.debugger.Debugger.runcall": [
+    "sys.exc_info",
+    "pudb.debugger.Debugger.interaction",
+    "<builtin>.super"
+  ],
+  "pudb.set_trace": [
+    "sys._getframe",
+    "pudb.debugger.Debugger.set_trace",
+    "pudb.set_interrupt_handler",
+    "<builtin>.isinstance",
+    "pudb._get_debugger",
+    "threading.current_thread"
+  ],
+  "pudb._interrupt_handler": [
+    "pudb.debugger.Debugger.set_trace",
+    "pudb._get_debugger"
+  ],
+  "signal.getsignal": [],
+  "warnings.warn": [],
+  "signal.signal": [],
+  "traceback.format_exception": [],
+  "pudb.post_mortem": [
+    "bdb.Bdb.reset",
+    "pudb._get_debugger",
+    "pudb.debugger.Debugger.interaction",
+    "sys.exc_info"
+  ],
+  "bdb.Bdb.reset": [],
+  "pudb.pm": [
+    "sys.exc_info",
+    "pudb.post_mortem"
+  ],
+  "pudb.debugger": [
+    "pudb.settings.save_config",
+    "pudb.settings.load_config"
+  ],
+  "pudb.settings.save_config": [
+    "configparser.ConfigParser.add_section",
+    "configparser.ConfigParser.write",
+    "pudb.settings.get_save_config_path",
+    "<builtin>.sorted",
+    "configparser.ConfigParser",
+    "<builtin>.str",
+    "configparser.ConfigParser.set",
+    "os.path.join",
+    "<builtin>.open"
+  ],
+  "<builtin>.ValueError": [],
+  "bdb.Bdb.__init__": [],
+  "pudb.debugger.DebuggerUI.__init__": [
+    "os.environ.get.startswith",
+    "pudb.settings.get_save_config_path",
+    "pudb.debugger.DebuggerUI.__init__.RHColumnFocuser.__init__",
+    "urwid.Pile",
+    "pudb.debugger.DebuggerUI.__init__.initialize_cmdline_history",
+    "urwid_readline.ReadlineEdit",
+    "pudb.debugger.DebuggerUI.__init__.add_vi_nav_keys",
+    "urwid.AttrMap",
+    "urwid.Frame",
+    "curses.setupterm",
+    "urwid.Text",
+    "<builtin>.float",
+    "<builtin>.isinstance",
+    "urwid.SimpleListWalker",
+    "pudb.ui_tools.SignalWrap.__init__",
+    "urwid.Button",
+    "urwid.raw_display.Screen.set_terminal_properties",
+    "pudb.debugger.DebuggerUI.setup_palette",
+    "functools.partial",
+    "pudb.ui_tools.SignalWrap.listen",
+    "urwid.ListBox",
+    "urwid.SimpleFocusListWalker",
+    "pudb.ui_tools.SearchController.__init__",
+    "urwid.raw_display.Screen.__init__",
+    "curses.tigetnum",
+    "pudb.debugger.ThreadsafeFixedSizeRawScreen.__init__",
+    "pudb.debugger.DebuggerUI.__init__.add_help_keys",
+    "pudb.var_view.FrameVarInfoKeeper.__init__",
+    "pudb.ui_tools.make_hotkey_markup",
+    "urwid.Columns.listen",
+    "os.path.join",
+    "urwid.Columns",
+    "os.environ.get"
+  ],
+  "pudb.debugger.Debugger.setup_state": [],
+  "<builtin>.NotImplementedError": [],
+  "io.StringIO": [],
+  "pudb.settings.load_breakpoints": [
+    "os.path.join",
+    "os.path.isdir",
+    "pudb.settings.parse_breakpoints",
+    "<builtin>.open"
+  ],
+  "bdb.Bdb.set_break": [],
+  "pudb.debugger.Debugger.__del__": [],
+  "pudb.debugger.Debugger.dispatch_line": [
+    "pudb.debugger.Debugger.user_line",
+    "sys.gettrace",
+    "bdb.Bdb.stop_here",
+    "bdb.Bdb.break_here"
+  ],
+  "bdb.Bdb.stop_here": [],
+  "bdb.Bdb.break_here": [],
+  "pudb.debugger.Debugger.user_line": [
+    "sys.exc_info",
+    "pudb.debugger.DebuggerUI.show_internal_exc_dlg",
+    "pudb.debugger.DebuggerUI.update_breakpoints",
+    "bdb.Bdb.canonic",
+    "bdb.Bdb.get_break",
+    "pudb.debugger.Debugger.interaction",
+    "pudb.debugger.Debugger._waiting_for_mainpyfile"
+  ],
+  "sys.gettrace": [],
+  "pudb.debugger.Debugger.set_continue": [
+    "sys.settrace",
+    "bdb.Bdb._set_stopinfo",
+    "sys._getframe"
+  ],
+  "bdb.Bdb._set_stopinfo": [],
+  "sys.settrace": [],
+  "pudb.debugger.Debugger.set_jump": [],
+  "bdb.Bdb.canonic": [],
+  "pudb.debugger.DebuggerUI.set_source_code_provider": [
+    "pudb.debugger.FileSourceCodeProvider.get_lines",
+    "pudb.debugger.NullSourceCodeProvider.get_lines",
+    "pudb.debugger.DirectSourceCodeProvider.get_lines"
+  ],
+  "bdb.Bdb.set_step": [],
+  "pudb.debugger.Debugger.save_breakpoints": [
+    "bdb.Bdb.get_all_breaks",
+    "pudb.settings.save_breakpoints",
+    "bdb.Bdb.get_breaks",
+    "bdb.Bdb.get_all_breaks.items"
+  ],
+  "bdb.Bdb.get_all_breaks": [],
+  "bdb.Bdb.get_all_breaks.items": [],
+  "bdb.Bdb.get_breaks": [],
+  "pudb.settings.save_breakpoints": [
+    "pudb.settings.get_breakpoints_file_name",
+    "<builtin>.open"
+  ],
+  "pudb.debugger.Debugger.enter_post_mortem": [],
+  "linecache.checkcache": [],
+  "pudb.debugger.Debugger.do_clear": [
+    "bdb.Bdb.clear_bpbynumber",
+    "<builtin>.int"
+  ],
+  "<builtin>.int": [],
+  "bdb.Bdb.clear_bpbynumber": [],
+  "pudb.debugger.Debugger.set_frame_index": [
+    "pudb.debugger.FileSourceCodeProvider.__init__",
+    "pudb.debugger.DirectSourceCodeProvider.__init__",
+    "pudb.debugger.DebuggerUI.update_var_view",
+    "urwid.Columns._w.set_focus",
+    "linecache.getlines",
+    "pudb.debugger.DebuggerUI.translate_ui_stack_index",
+    "pudb.debugger.DebuggerUI.set_current_line",
+    "urwid.WidgetWrap._w.set_focus",
+    "<builtin>.len",
+    "pudb.debugger.DebuggerUI.update_stack",
+    "bdb.Bdb.curframe.f_globals.get"
+  ],
+  "<builtin>.len": [],
+  "linecache.getlines": [],
+  "bdb.Bdb.curframe.f_globals.get": [],
+  "pudb.debugger.DirectSourceCodeProvider.__init__": [],
+  "pudb.debugger.DebuggerUI.set_current_line": [
+    "pudb.debugger.DebuggerUI.show_line",
+    "<builtin>.len"
+  ],
+  "pudb.debugger.FileSourceCodeProvider.__init__": [
+    "bdb.Bdb.canonic"
+  ],
+  "pudb.debugger.DebuggerUI.update_var_view": [
+    "pudb.var_view.make_var_view",
+    "urwid.WidgetWrap._w.set_focus",
+    "urwid.Columns._w.set_focus",
+    "pudb.var_view.FrameVarInfoKeeper.get_frame_var_info"
+  ],
+  "pudb.debugger.DebuggerUI.update_stack": [
+    "<builtin>.enumerate",
+    "<builtin>.ValueError",
+    "pudb.debugger.DebuggerUI.update_stack.make_frame_ui"
+  ],
+  "pudb.debugger.DebuggerUI.translate_ui_stack_index": [
+    "<builtin>.ValueError",
+    "<builtin>.len"
+  ],
+  "urwid.WidgetWrap._w.set_focus": [],
+  "urwid.Columns._w.set_focus": [],
+  "pudb.debugger.Debugger.open_file_to_edit": [
+    "<builtin>.FileNotFoundError",
+    "os.path.isfile",
+    "os.environ.get",
+    "subprocess.call"
+  ],
+  "os.path.isfile": [],
+  "<builtin>.FileNotFoundError": [],
+  "pudb.debugger.Debugger.move_up_frame": [
+    "pudb.debugger.Debugger.set_frame_index"
+  ],
+  "pudb.debugger.Debugger.move_down_frame": [
+    "<builtin>.len",
+    "pudb.debugger.Debugger.set_frame_index"
+  ],
+  "pudb.debugger.Debugger.get_shortened_stack": [
+    "<builtin>.enumerate",
+    "bdb.Bdb.get_stack"
+  ],
+  "bdb.Bdb.get_stack": [],
+  "<builtin>.enumerate": [],
+  "gc.get_referrers": [],
+  "<builtin>.getattr": [],
+  "<builtin>.type": [],
+  "pudb.debugger.Debugger.get_stack_situation_id": [
+    "<builtin>.id",
+    "<builtin>.str"
+  ],
+  "<builtin>.id": [],
+  "pudb.debugger.Debugger.user_call": [
+    "pudb.debugger.Debugger.interaction",
+    "bdb.Bdb.stop_here"
+  ],
+  "pudb.debugger.Debugger._waiting_for_mainpyfile": [
+    "pudb.debugger.Debugger.set_continue",
+    "bdb.Bdb.canonic"
+  ],
+  "bdb.Bdb.get_break": [],
+  "pudb.debugger.DebuggerUI.update_breakpoints": [
+    "pudb.debugger.DebuggerUI._get_bp_list",
+    "pudb.ui_tools.BreakpointFrame.__init__",
+    "pudb.debugger.DebuggerUI._format_fname"
+  ],
+  "pudb.debugger.DebuggerUI.show_internal_exc_dlg": [
+    "pudb.debugger.DebuggerUI._show_internal_exc_dlg"
+  ],
+  "pudb.debugger.Debugger.user_return": [
+    "pudb.debugger.Debugger.interaction",
+    "pudb.debugger.Debugger._waiting_for_mainpyfile"
+  ],
+  "pudb.debugger.Debugger.user_exception": [
+    "pudb.debugger.Debugger.interaction"
+  ],
+  "__main__.__dict__.clear": [],
+  "__main__.__dict__.update": [],
+  "runpy._get_module_details": [],
+  "pudb.debugger.Debugger.runstatement": [
+    "sys.exc_info",
+    "pudb.debugger.Debugger.interaction",
+    "bdb.Bdb.run"
+  ],
+  "<builtin>.super": [],
+  "pudb.debugger.ThreadsafeScreenMixin.signal_init": [
+    "<builtin>.super"
+  ],
+  "pudb.debugger.ThreadsafeScreenMixin.signal_restore": [
+    "<builtin>.super"
+  ],
+  "pudb.debugger.ThreadsafeFixedSizeRawScreen.__init__": [
+    "<builtin>.super"
+  ],
+  "pudb.debugger.ThreadsafeFixedSizeRawScreen.get_cols_rows": [],
+  "pudb.debugger.SourceCodeProvider.__ne__": [],
+  "pudb.debugger.NullSourceCodeProvider.__eq__": [
+    "<builtin>.type"
+  ],
+  "pudb.debugger.NullSourceCodeProvider.identifier": [],
+  "pudb.debugger.NullSourceCodeProvider.get_source_identifier": [],
+  "pudb.debugger.NullSourceCodeProvider.clear_cache": [],
+  "pudb.debugger.NullSourceCodeProvider.get_lines": [
+    "pudb.source_view.SourceLine.__init__"
+  ],
+  "pudb.source_view.SourceLine.__init__": [],
+  "pudb.debugger.FileSourceCodeProvider.__eq__": [
+    "<builtin>.type"
+  ],
+  "pudb.debugger.FileSourceCodeProvider.identifier": [],
+  "pudb.debugger.FileSourceCodeProvider.get_source_identifier": [],
+  "pudb.debugger.FileSourceCodeProvider.clear_cache": [
+    "linecache.clearcache"
+  ],
+  "linecache.clearcache": [],
+  "pudb.debugger.FileSourceCodeProvider.get_lines": [
+    "pudb.debugger.DebuggerUI.message",
+    "sys.exc_info",
+    "pudb.lowlevel.decode_lines",
+    "linecache.getlines",
+    "bdb.Bdb.get_breaks",
+    "pudb.source_view.format_source",
+    "<builtin>.set",
+    "<builtin>.list",
+    "bdb.Bdb.get_file_breaks",
+    "<builtin>.any",
+    "pudb.source_view.SourceLine.__init__"
+  ],
+  "bdb.Bdb.get_file_breaks": [],
+  "<builtin>.any": [],
+  "pudb.lowlevel.decode_lines": [
+    "itertools.chain",
+    "<builtin>.iter",
+    "itertools.chain.decode",
+    "pudb.lowlevel.detect_encoding",
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.list": [],
+  "<builtin>.set": [],
+  "pudb.source_view.format_source": [
+    "pygments.highlight",
+    "pudb.source_view.UrwidFormatter.__init__",
+    "<builtin>.enumerate",
+    "pygments.lexers.PythonLexer",
+    "<builtin>.len",
+    "<builtin>.str",
+    "pudb.source_view.SourceLine.__init__"
+  ],
+  "pudb.debugger.DebuggerUI.message": [
+    "urwid.ListBox",
+    "urwid.Text",
+    "pudb.debugger.DebuggerUI.call_with_ui",
+    "urwid.SimpleListWalker"
+  ],
+  "pudb.debugger.DirectSourceCodeProvider.__eq__": [
+    "<builtin>.type"
+  ],
+  "pudb.debugger.DirectSourceCodeProvider.identifier": [],
+  "pudb.debugger.DirectSourceCodeProvider.get_source_identifier": [],
+  "pudb.debugger.DirectSourceCodeProvider.clear_cache": [],
+  "pudb.debugger.DirectSourceCodeProvider.get_lines": [
+    "pudb.lowlevel.decode_lines",
+    "pudb.source_view.format_source",
+    "<builtin>.set",
+    "bdb.Bdb.curframe.f_globals.get.splitlines",
+    "<builtin>.list"
+  ],
+  "bdb.Bdb.curframe.f_globals.get.splitlines": [],
+  "pudb.debugger.StoppedScreen.__init__": [],
+  "pudb.debugger.StoppedScreen.__enter__": [
+    "urwid.raw_display.Screen.stop"
+  ],
+  "urwid.raw_display.Screen.stop": [],
+  "pudb.debugger.StoppedScreen.__exit__": [
+    "urwid.raw_display.Screen.start"
+  ],
+  "urwid.raw_display.Screen.start": [],
+  "pudb.var_view.FrameVarInfoKeeper.__init__": [],
+  "pudb.ui_tools.SearchController.__init__": [],
+  "pudb.debugger.DebuggerUI.__init__.move_up": [],
+  "pudb.debugger.DebuggerUI.__init__.move_down": [],
+  "pudb.debugger.DebuggerUI.__init__.move_left": [],
+  "pudb.debugger.DebuggerUI.__init__.move_right": [],
+  "pudb.debugger.DebuggerUI.__init__.page_up": [],
+  "pudb.debugger.DebuggerUI.__init__.page_down": [],
+  "pudb.debugger.DebuggerUI.__init__.move_home": [],
+  "pudb.debugger.DebuggerUI.__init__.move_end": [],
+  "pudb.debugger.DebuggerUI.__init__.add_vi_nav_keys": [
+    "pudb.ui_tools.SignalWrap.listen",
+    "urwid.Columns.listen"
+  ],
+  "pudb.ui_tools.SignalWrap.listen": [
+    "urwid.Columns.event_listeners.append"
+  ],
+  "urwid.Columns.listen": [],
+  "pudb.debugger.DebuggerUI.__init__.add_help_keys": [
+    "pudb.ui_tools.SignalWrap.listen",
+    "urwid.Columns.listen"
+  ],
+  "pudb.ui_tools.SignalWrap.__init__": [
+    "urwid.WidgetWrap.__init__"
+  ],
+  "urwid.SimpleFocusListWalker": [],
+  "urwid_readline.ReadlineEdit": [],
+  "pudb.debugger.DebuggerUI.__init__.clear_cmdline_history": [],
+  "pudb.debugger.DebuggerUI.__init__.initialize_cmdline_history": [
+    "<builtin>.open"
+  ],
+  "pudb.settings.get_save_config_path": [
+    "os.path.join",
+    "os.makedirs"
+  ],
+  "os.path.join": [],
+  "urwid.Button": [],
+  "urwid.Columns": [],
+  "urwid.Pile": [],
+  "<builtin>.float": [],
+  "pudb.ui_tools.make_hotkey_markup": [
+    "re.match.group",
+    "re.match"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.helpside": [
+    "pudb.debugger.DebuggerUI.__init__.help"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.help": [
+    "pudb.debugger.DebuggerUI.message"
+  ],
+  "urwid.Frame": [],
+  "pudb.debugger.DebuggerUI.__init__.change_rhs_box": [
+    "urwid.WidgetWrap._invalidate",
+    "urwid.Columns._invalidate",
+    "pudb.settings.save_config"
+  ],
+  "urwid.WidgetWrap._invalidate": [],
+  "urwid.Columns._invalidate": [],
+  "pudb.debugger.DebuggerUI.__init__.get_inspect_info": [
+    "pudb.var_view.FrameVarInfoKeeper.get_frame_var_info"
+  ],
+  "pudb.var_view.FrameVarInfoKeeper.get_frame_var_info": [
+    "pudb.debugger.Debugger.get_stack_situation_id",
+    "pudb.var_view.FrameVarInfo.__init__"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.collapse_current": [
+    "pudb.debugger.DebuggerUI.__init__.get_inspect_info",
+    "urwid.SimpleListWalker.index"
+  ],
+  "urwid.SimpleListWalker.index": [],
+  "pudb.debugger.DebuggerUI.__init__.change_var_state": [
+    "urwid.WidgetWrap._w.get_focus",
+    "pudb.debugger.DebuggerUI.update_var_view",
+    "<builtin>.enumerate",
+    "pudb.debugger.DebuggerUI.__init__.collapse_current",
+    "urwid.Columns._w.get_focus",
+    "pudb.debugger.DebuggerUI.__init__.get_inspect_info",
+    "pudb.var_view.FrameVarInfoKeeper.get_frame_var_info"
+  ],
+  "urwid.WidgetWrap._w.get_focus": [],
+  "urwid.Columns._w.get_focus": [],
+  "pudb.debugger.DebuggerUI.__init__.edit_inspector_detail": [
+    "pudb.debugger.DebuggerUI.update_var_view",
+    "<builtin>.enumerate",
+    "pudb.debugger.DebuggerUI.dialog",
+    "urwid.Columns._w.get_focus",
+    "pudb.var_view.FrameVarInfoKeeper.get_frame_var_info",
+    "urwid.WidgetWrap._w.get_focus",
+    "urwid.AttrMap",
+    "urwid.Edit",
+    "urwid.Columns.get_edit_text",
+    "urwid.SimpleListWalker",
+    "urwid.Edit.get_edit_text",
+    "urwid.WidgetWrap.get_edit_text",
+    "pudb.ui_tools.labelled_value",
+    "urwid.ListBox",
+    "urwid.RadioButton",
+    "urwid.CheckBox",
+    "urwid.CheckBox.get_state",
+    "urwid.RadioButton.get_state",
+    "urwid.Text"
+  ],
+  "pudb.ui_tools.labelled_value": [
+    "urwid.Text",
+    "urwid.AttrMap",
+    "<builtin>.str"
+  ],
+  "urwid.RadioButton": [],
+  "urwid.CheckBox": [],
+  "pudb.debugger.DebuggerUI.dialog": [
+    "urwid.ListBox.listen",
+    "urwid.Overlay",
+    "urwid.SolidFill",
+    "urwid.Pile",
+    "urwid.AttrMap",
+    "urwid.LineBox",
+    "urwid.Text",
+    "urwid.WidgetWrap.set_focus_column",
+    "<builtin>.isinstance",
+    "urwid.SimpleListWalker",
+    "pudb.debugger.DebuggerUI.event_loop",
+    "pudb.ui_tools.SignalWrap.__init__",
+    "urwid.Button",
+    "pudb.debugger.DebuggerUI.dialog.ResultSettingEventHandler.__init__",
+    "pudb.ui_tools.SignalWrap.listen",
+    "urwid.ListBox",
+    "urwid.Columns.set_focus_column",
+    "pudb.debugger.DebuggerUI.dialog.ResultSetter.__init__",
+    "urwid.Columns.listen",
+    "urwid.Columns"
+  ],
+  "urwid.CheckBox.get_state": [],
+  "urwid.RadioButton.get_state": [],
+  "urwid.WidgetWrap.get_edit_text": [],
+  "urwid.Columns.get_edit_text": [],
+  "pudb.debugger.DebuggerUI.__init__.insert_watch": [
+    "pudb.debugger.DebuggerUI.update_var_view",
+    "pudb.var_view.WatchExpression.__init__",
+    "urwid.Edit.get_edit_text",
+    "pudb.var_view.FrameVarInfoKeeper.get_frame_var_info",
+    "pudb.debugger.DebuggerUI.dialog",
+    "urwid.AttrMap",
+    "urwid.WidgetWrap.get_edit_text",
+    "urwid.ListBox",
+    "urwid.Edit",
+    "urwid.Columns.get_edit_text",
+    "urwid.SimpleListWalker"
+  ],
+  "pudb.var_view.WatchExpression.__init__": [],
+  "functools.partial": [],
+  "pudb.debugger.DebuggerUI.__init__.examine_frame": [
+    "urwid.WidgetWrap._w.get_focus",
+    "urwid.Columns._w.get_focus",
+    "pudb.debugger.DebuggerUI.translate_ui_stack_index",
+    "pudb.debugger.Debugger.set_frame_index"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.open_file_editor": [
+    "pudb.debugger.DebuggerUI.message",
+    "sys.exc_info",
+    "pudb.debugger.Debugger.open_file_to_edit",
+    "pudb.debugger.StoppedScreen.__init__",
+    "os.path.getmtime",
+    "traceback.format_exception"
+  ],
+  "os.path.getmtime": [],
+  "pudb.debugger.DebuggerUI.__init__.open_editor_on_stack_frame": [
+    "urwid.WidgetWrap._w.get_focus",
+    "urwid.Columns._w.get_focus",
+    "pudb.debugger.DebuggerUI.__init__.open_file_editor",
+    "pudb.debugger.DebuggerUI.translate_ui_stack_index"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.move_stack_top": [
+    "<builtin>.len",
+    "pudb.debugger.Debugger.set_frame_index"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.move_stack_up": [
+    "pudb.debugger.Debugger.move_up_frame"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.move_stack_down": [
+    "pudb.debugger.Debugger.move_down_frame"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.set_breakpoint_source": [
+    "<builtin>.len",
+    "pudb.debugger.NullSourceCodeProvider.get_source_identifier",
+    "pudb.debugger.FileSourceCodeProvider.get_source_identifier",
+    "pudb.debugger.DirectSourceCodeProvider.get_source_identifier"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.save_breakpoints": [
+    "pudb.debugger.Debugger.save_breakpoints"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.handle_delete_breakpoint": [
+    "urwid.WidgetWrap._w.get_focus",
+    "urwid.Columns._w.get_focus",
+    "pudb.debugger.DebuggerUI._get_bp_list",
+    "pudb.debugger.DebuggerUI.__init__.delete_breakpoint"
+  ],
+  "pudb.debugger.DebuggerUI._get_bp_list": [
+    "bdb.Bdb.get_all_breaks",
+    "bdb.Bdb.get_breaks",
+    "bdb.Bdb.get_all_breaks.items"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.delete_breakpoint": [
+    "pudb.debugger.DebuggerUI.message",
+    "pudb.debugger.DebuggerUI.update_breakpoints",
+    "bdb.Bdb.clear_break",
+    "pudb.debugger.DebuggerUI.__init__.set_breakpoint_source"
+  ],
+  "bdb.Bdb.clear_break": [],
+  "pudb.debugger.DebuggerUI.__init__.enable_disable_breakpoint": [
+    "urwid.WidgetWrap._w.get_focus",
+    "pudb.debugger.DebuggerUI._get_bp_list",
+    "pudb.debugger.DebuggerUI.__init__.set_breakpoint_source",
+    "pudb.debugger.DebuggerUI.update_breakpoints",
+    "urwid.Columns._w.get_focus"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.examine_breakpoint": [
+    "pudb.debugger.FileSourceCodeProvider.__init__",
+    "pudb.debugger.DebuggerUI.__init__.set_breakpoint_source",
+    "pudb.debugger.DebuggerUI.dialog",
+    "urwid.WidgetWrap.set_focus",
+    "<builtin>.str",
+    "urwid.Columns._w.get_focus",
+    "urwid.IntEdit.value",
+    "urwid.AttrMap",
+    "urwid.WidgetWrap._w.get_focus",
+    "pudb.debugger.DebuggerUI.show_line",
+    "urwid.IntEdit",
+    "urwid.Edit",
+    "urwid.Columns.get_edit_text",
+    "urwid.SimpleListWalker",
+    "pudb.debugger.DebuggerUI._get_bp_list",
+    "urwid.Edit.get_edit_text",
+    "urwid.Columns.set_focus",
+    "pudb.debugger.DebuggerUI.update_breakpoints",
+    "urwid.WidgetWrap.get_edit_text",
+    "pudb.ui_tools.labelled_value",
+    "urwid.ListBox",
+    "urwid.Columns.value",
+    "<builtin>.int",
+    "urwid.WidgetWrap.value",
+    "urwid.CheckBox",
+    "urwid.CheckBox.get_state",
+    "pudb.debugger.DebuggerUI.__init__.delete_breakpoint",
+    "urwid.Text"
+  ],
+  "urwid.IntEdit": [],
+  "urwid.Columns.value": [],
+  "urwid.IntEdit.value": [],
+  "urwid.WidgetWrap.value": [],
+  "pudb.debugger.DebuggerUI.show_line": [
+    "urwid.ListBox.set_focus",
+    "<builtin>.len",
+    "urwid.ListBox.set_focus_valign",
+    "pudb.debugger.DebuggerUI.set_source_code_provider"
+  ],
+  "urwid.Columns.set_focus": [],
+  "urwid.WidgetWrap.set_focus": [],
+  "pudb.debugger.DebuggerUI.__init__.show_breakpoint": [
+    "urwid.WidgetWrap._w.get_focus",
+    "pudb.debugger.FileSourceCodeProvider.__init__",
+    "pudb.debugger.DebuggerUI._get_bp_list",
+    "pudb.debugger.DebuggerUI.show_line",
+    "urwid.Columns._w.get_focus"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.end": [
+    "pudb.debugger.Debugger.save_breakpoints"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.next_line": [
+    "pudb.debugger.DebuggerUI.message",
+    "bdb.Bdb.set_next",
+    "pudb.debugger.DebuggerUI.__init__.end"
+  ],
+  "bdb.Bdb.set_next": [],
+  "pudb.debugger.DebuggerUI.__init__.step": [
+    "pudb.debugger.DebuggerUI.message",
+    "pudb.debugger.DebuggerUI.__init__.end",
+    "bdb.Bdb.set_step"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.finish": [
+    "pudb.debugger.DebuggerUI.message",
+    "bdb.Bdb.set_return",
+    "pudb.debugger.DebuggerUI.__init__.end"
+  ],
+  "bdb.Bdb.set_return": [],
+  "pudb.debugger.DebuggerUI.__init__.cont": [
+    "pudb.debugger.DebuggerUI.message",
+    "pudb.debugger.Debugger.set_continue",
+    "pudb.debugger.DebuggerUI.__init__.end"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.run_to_cursor": [
+    "pudb.debugger.DebuggerUI.message",
+    "urwid.SimpleListWalker.get_focus",
+    "pudb.debugger.NullSourceCodeProvider.get_source_identifier",
+    "pudb.debugger.DirectSourceCodeProvider.get_source_identifier",
+    "bdb.Bdb.set_break",
+    "pudb.debugger.Debugger.set_continue",
+    "pudb.lowlevel.get_breakpoint_invalid_reason",
+    "pudb.debugger.DebuggerUI.__init__.end",
+    "pudb.debugger.FileSourceCodeProvider.get_source_identifier"
+  ],
+  "urwid.SimpleListWalker.get_focus": [],
+  "pudb.lowlevel.get_breakpoint_invalid_reason": [
+    "pudb.lowlevel.get_executable_lines_for_file",
+    "linecache.getline"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.jump_to_cursor": [
+    "pudb.debugger.DebuggerUI.message",
+    "urwid.SimpleListWalker.get_focus",
+    "pudb.debugger.NullSourceCodeProvider.get_source_identifier",
+    "bdb.Bdb.set_step",
+    "pudb.debugger.DebuggerUI.set_current_line",
+    "pudb.debugger.DirectSourceCodeProvider.get_source_identifier",
+    "pudb.debugger.DebuggerUI.update_stack",
+    "pudb.lowlevel.get_breakpoint_invalid_reason",
+    "pudb.debugger.Debugger.set_jump",
+    "pudb.debugger.FileSourceCodeProvider.get_source_identifier"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.go_to_line": [
+    "pudb.debugger.FileSourceCodeProvider.identifier",
+    "urwid.SimpleListWalker.get_focus",
+    "pudb.debugger.NullSourceCodeProvider.identifier",
+    "<builtin>.max",
+    "urwid.WidgetWrap.value",
+    "<builtin>.min",
+    "urwid.ListBox",
+    "pudb.debugger.DebuggerUI.dialog",
+    "pudb.ui_tools.labelled_value",
+    "urwid.IntEdit",
+    "pudb.debugger.DirectSourceCodeProvider.identifier",
+    "urwid.SimpleListWalker",
+    "<builtin>.len",
+    "urwid.Columns.value",
+    "urwid.SimpleListWalker.set_focus",
+    "urwid.IntEdit.value",
+    "<builtin>.int",
+    "urwid.AttrMap"
+  ],
+  "<builtin>.max": [],
+  "<builtin>.min": [],
+  "urwid.SimpleListWalker.set_focus": [],
+  "pudb.debugger.DebuggerUI.__init__.scroll_left": [
+    "<builtin>.max",
+    "urwid.SimpleListWalker._invalidate"
+  ],
+  "urwid.SimpleListWalker._invalidate": [],
+  "pudb.debugger.DebuggerUI.__init__.scroll_right": [
+    "urwid.SimpleListWalker._invalidate"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.search": [
+    "pudb.ui_tools.SearchController.open_search_ui"
+  ],
+  "pudb.ui_tools.SearchController.open_search_ui": [
+    "urwid.SimpleListWalker.get_focus",
+    "urwid.Columns.item_types.insert",
+    "urwid.WidgetWrap.item_types.insert",
+    "urwid.Columns.set_focus",
+    "urwid.WidgetWrap.widget_list.insert",
+    "urwid.Columns.widget_list.insert",
+    "pudb.ui_tools.SearchBox.__init__",
+    "pudb.debugger.DebuggerUI.reset_cmdline_size",
+    "urwid.WidgetWrap.set_focus",
+    "urwid.AttrMap"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.search_next": [
+    "pudb.ui_tools.SearchController.perform_search"
+  ],
+  "pudb.ui_tools.SearchController.perform_search": [
+    "pudb.debugger.DebuggerUI.message",
+    "pudb.ui_tools.SearchController.cancel_highlight",
+    "urwid.Edit.get_edit_text.lower",
+    "urwid.SimpleListWalker.set_focus",
+    "<builtin>.len"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.search_previous": [
+    "pudb.ui_tools.SearchController.perform_search"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.toggle_breakpoint": [
+    "pudb.debugger.DebuggerUI.message",
+    "urwid.SimpleListWalker.get_focus",
+    "bdb.Bdb.get_breaks.enable",
+    "pudb.debugger.NullSourceCodeProvider.get_source_identifier",
+    "bdb.Bdb.get_breaks",
+    "pudb.debugger.DirectSourceCodeProvider.get_source_identifier",
+    "pudb.debugger.DebuggerUI.update_breakpoints",
+    "pudb.debugger.DebuggerUI.dialog",
+    "bdb.Bdb.set_break",
+    "urwid.ListBox",
+    "pudb.lowlevel.get_breakpoint_invalid_reason",
+    "urwid.Text",
+    "pudb.debugger.FileSourceCodeProvider.get_source_identifier",
+    "urwid.SimpleListWalker"
+  ],
+  "bdb.Bdb.get_breaks.enable": [],
+  "pudb.debugger.DebuggerUI.__init__.pick_module": [
+    "pudb.debugger.DebuggerUI.message",
+    "urwid.Columns.get_focus",
+    "urwid.SolidFill",
+    "urwid.Pile",
+    "pudb.debugger.DebuggerUI.dialog",
+    "pudb.debugger.FileSourceCodeProvider.clear_cache",
+    "<builtin>.str",
+    "urwid.Columns._w.get_focus",
+    "urwid.AttrMap",
+    "urwid.WidgetWrap._w.get_focus",
+    "pudb.debugger.Debugger.set_frame_index",
+    "pudb.debugger.DebuggerUI.translate_ui_stack_index",
+    "pudb.debugger.DirectSourceCodeProvider.clear_cache",
+    "urwid.Edit.__init__",
+    "pudb.debugger.NullSourceCodeProvider.clear_cache",
+    "urwid.Columns.get_edit_text",
+    "pudb.debugger.DebuggerUI.set_source_code_provider",
+    "urwid.SimpleListWalker",
+    "urwid.Edit.get_edit_text",
+    "pudb.ui_tools.SignalWrap.__init__",
+    "urwid.ListBox.get_focus",
+    "urwid.WidgetWrap.get_focus",
+    "urwid.WidgetWrap.get_edit_text",
+    "urwid.ListBox",
+    "traceback.format_exception",
+    "<builtin>.__import__",
+    "pudb.debugger.DebuggerUI.__init__.pick_module.show_mod",
+    "sys.exc_info",
+    "pudb.debugger.DebuggerUI.__init__.pick_module.build_filtered_mod_list",
+    "importlib.reload",
+    "urwid.Columns"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.pick_module.mod_exists": [
+    "<builtin>.hasattr",
+    "os.path.splitext",
+    "os.path.exists"
+  ],
+  "<builtin>.hasattr": [],
+  "os.path.splitext": [],
+  "os.path.exists": [],
+  "pudb.debugger.DebuggerUI.__init__.pick_module.build_filtered_mod_list": [
+    "pudb.ui_tools.SignalWrap.__init__",
+    "urwid.Columns.set_text",
+    "sys.modules.items",
+    "<builtin>.sorted",
+    "<builtin>.list",
+    "urwid.Columns",
+    "pudb.debugger.DebuggerUI.__init__.pick_module.mod_exists",
+    "urwid.WidgetWrap.set_text",
+    "urwid.AttrMap"
+  ],
+  "sys.modules.items": [],
+  "<builtin>.sorted": [],
+  "urwid.WidgetWrap.set_text": [],
+  "urwid.Columns.set_text": [],
+  "pudb.debugger.DebuggerUI.__init__.pick_module.show_mod": [
+    "urwid.ListBox.set_focus",
+    "pudb.debugger.FileSourceCodeProvider.__init__",
+    "os.path.splitext",
+    "bdb.Bdb.canonic",
+    "pudb.debugger.DebuggerUI.set_source_code_provider"
+  ],
+  "urwid.ListBox.set_focus": [],
+  "pudb.debugger.DebuggerUI.__init__.pick_module.FilterEdit.keypress": [
+    "urwid.Edit.keypress",
+    "urwid.Edit.get_edit_text",
+    "pudb.debugger.DebuggerUI.__init__.pick_module.build_filtered_mod_list"
+  ],
+  "urwid.Edit.keypress": [],
+  "urwid.Edit.__init__": [],
+  "urwid.SolidFill": [],
+  "urwid.ListBox.get_focus": [],
+  "urwid.WidgetWrap.get_focus": [],
+  "urwid.Columns.get_focus": [],
+  "<builtin>.__import__": [],
+  "importlib.reload": [],
+  "pudb.debugger.DebuggerUI.__init__.helpmain": [
+    "pudb.debugger.DebuggerUI.__init__.help"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_get_namespace": [
+    "pudb.shell.SetPropagatingDict.__init__"
+  ],
+  "pudb.shell.SetPropagatingDict.__init__": [],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_tab_complete": [
+    "packaging.version.parse",
+    "distutils.version.LooseVersion",
+    "jedi.Interpreter",
+    "pudb.debugger.DebuggerUI.add_cmdline_content",
+    "pudb.debugger.DebuggerUI.__init__.cmdline_tab_complete.common_prefix",
+    "pudb.debugger.DebuggerUI.__init__.cmdline_get_namespace",
+    "<builtin>.len",
+    "jedi.Interpreter.complete"
+  ],
+  "pudb.debugger.DebuggerUI.add_cmdline_content": [
+    "urwid.ListBox.set_focus",
+    "pudb.debugger.DebuggerUI.set_cmdline_state",
+    "urwid.SimpleFocusListWalker.append",
+    "urwid.Columns.set_focus",
+    "logging.StreamHandler.format.rstrip",
+    "urwid.ListBox.set_focus_valign",
+    "urwid.Columns.set_focus_valign",
+    "urwid.WidgetWrap.set_focus_valign",
+    "<builtin>.len",
+    "urwid.WidgetWrap.set_focus",
+    "sys.stdout.getvalue.rstrip",
+    "urwid.AttrMap"
+  ],
+  "packaging.version.parse": [],
+  "distutils.version.LooseVersion": [],
+  "jedi.Interpreter": [],
+  "jedi.Interpreter.complete": [],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_tab_complete.common_prefix": [
+    "<builtin>.zip",
+    "<builtin>.max",
+    "<builtin>.enumerate",
+    "<builtin>.len"
+  ],
+  "<builtin>.zip": [],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_append_newline": [
+    "urwid.Columns.insert_text",
+    "urwid.WidgetWrap.insert_text"
+  ],
+  "urwid.Columns.insert_text": [],
+  "urwid.WidgetWrap.insert_text": [],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_exec": [
+    "<builtin>.compile",
+    "urwid.WidgetWrap.set_edit_text",
+    "traceback.format_list.insert",
+    "sys.exc_info",
+    "pudb.debugger.DebuggerUI.add_cmdline_content",
+    "sys.stdout.getvalue",
+    "traceback.extract_tb",
+    "pudb.debugger.DebuggerUI.__init__.cmdline_get_namespace",
+    "urwid.WidgetWrap.get_edit_text",
+    "<builtin>.len",
+    "io.StringIO",
+    "<builtin>.eval",
+    "traceback.format_exception_only",
+    "urwid.Columns.set_edit_text",
+    "traceback.format_list",
+    "urwid.Columns.get_edit_text"
+  ],
+  "<builtin>.compile": [],
+  "<builtin>.eval": [],
+  "traceback.extract_tb": [],
+  "traceback.format_list": [],
+  "traceback.format_list.insert": [],
+  "traceback.format_exception_only": [],
+  "urwid.WidgetWrap.set_edit_text": [],
+  "urwid.Columns.set_edit_text": [],
+  "sys.stdout.getvalue": [],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_history_browse": [
+    "<builtin>.len"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_history_prev": [
+    "pudb.debugger.DebuggerUI.__init__.cmdline_history_browse"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.cmdline_history_next": [
+    "pudb.debugger.DebuggerUI.__init__.cmdline_history_browse"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.toggle_cmdline_focus": [
+    "pudb.debugger.DebuggerUI.set_cmdline_state",
+    "urwid.Columns.set_focus",
+    "urwid.Columns.get_focus",
+    "urwid.WidgetWrap.get_focus",
+    "urwid.WidgetWrap.set_focus"
+  ],
+  "pudb.debugger.DebuggerUI.set_cmdline_state": [
+    "pudb.debugger.DebuggerUI.set_cmdline_size"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.set_cmdline_default_size": [
+    "pudb.debugger.DebuggerUI.set_cmdline_size",
+    "pudb.settings.save_config"
+  ],
+  "pudb.debugger.DebuggerUI.set_cmdline_size": [
+    "urwid.WidgetWrap._invalidate",
+    "urwid.Columns._invalidate"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.max_cmdline": [
+    "pudb.debugger.DebuggerUI.__init__.set_cmdline_default_size"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.min_cmdline": [
+    "pudb.debugger.DebuggerUI.__init__.set_cmdline_default_size"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.grow_cmdline": [
+    "pudb.debugger.DebuggerUI.__init__.set_cmdline_default_size"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.shrink_cmdline": [
+    "pudb.debugger.DebuggerUI.__init__.set_cmdline_default_size"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.max_sidebar": [
+    "urwid.WidgetWrap._invalidate",
+    "urwid.Columns._invalidate",
+    "pudb.settings.save_config"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.min_sidebar": [
+    "urwid.WidgetWrap._invalidate",
+    "urwid.Columns._invalidate",
+    "pudb.settings.save_config"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.grow_sidebar": [
+    "urwid.WidgetWrap._invalidate",
+    "urwid.Columns._invalidate",
+    "pudb.settings.save_config"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.shrink_sidebar": [
+    "urwid.WidgetWrap._invalidate",
+    "urwid.Columns._invalidate",
+    "pudb.settings.save_config"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.show_output": [
+    "<builtin>.input",
+    "pudb.debugger.StoppedScreen.__init__"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.reload_breakpoints_and_redisplay": [
+    "<builtin>.int",
+    "pudb.debugger.DebuggerUI.set_source_code_provider",
+    "pudb.debugger.DebuggerUI.__init__.reload_breakpoints"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.reload_breakpoints": [
+    "bdb.Bdb.clear_all_breaks",
+    "pudb.debugger.DebuggerUI.update_breakpoints",
+    "bdb.Bdb.set_break",
+    "pudb.settings.load_breakpoints"
+  ],
+  "bdb.Bdb.clear_all_breaks": [],
+  "pudb.debugger.DebuggerUI.__init__.show_traceback": [
+    "pudb.debugger.DebuggerUI.message",
+    "traceback.format_exception",
+    "pudb.debugger.DebuggerUI.dialog",
+    "<builtin>.len",
+    "pudb.debugger.Debugger.set_frame_index",
+    "urwid.ListBox",
+    "urwid.Text",
+    "urwid.SimpleListWalker"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.run_external_cmdline": [
+    "pudb.shell.run_ptpython_shell",
+    "<builtin>.compile",
+    "pudb.shell.run_ipython_kernel",
+    "pudb.debugger.DebuggerUI.update_var_view",
+    "pudb.shell.run_ipython_shell",
+    "pudb.debugger.DebuggerUI.__init__.run_external_cmdline.fallback",
+    "pudb.shell.run_bpython_shell",
+    "pudb.shell.run_classic_shell",
+    "functools.partial",
+    "pudb.shell.run_ptipython_shell",
+    "pudb.debugger.StoppedScreen.__init__",
+    "os.path.expandvars",
+    "os.path.expanduser",
+    "pudb.shell.have_ipython",
+    "<builtin>.exec",
+    "<builtin>.open"
+  ],
+  "pudb.shell.have_ipython": [],
+  "pudb.debugger.DebuggerUI.__init__.run_external_cmdline.fallback": [
+    "functools.partial"
+  ],
+  "os.path.expandvars": [],
+  "os.path.expanduser": [],
+  "<builtin>.exec": [],
+  "pudb.shell.run_ptpython_shell": [
+    "bdb.Bdb.curframe.f_globals.copy",
+    "bdb.Bdb.curframe.f_locals.copy",
+    "pudb.shell.get_ptpython_history_file",
+    "ptpython.repl.embed"
+  ],
+  "pudb.shell.run_ipython_kernel": [
+    "IPython.embed_kernel"
+  ],
+  "pudb.shell.run_ipython_shell": [
+    "<builtin>.hasattr",
+    "pudb.shell.have_ipython",
+    "pudb.shell.run_ipython_shell_v11",
+    "pudb.shell.run_ipython_shell_v10"
+  ],
+  "pudb.shell.run_bpython_shell": [
+    "pudb.shell.SetPropagatingDict.__init__",
+    "bpython.embed"
+  ],
+  "pudb.shell.run_classic_shell": [
+    "readline.parse_and_bind",
+    "pudb.shell.SetPropagatingDict.__init__",
+    "pudb.settings.get_save_config_path",
+    "readline.clear_history",
+    "readline.read_history_file",
+    "code.InteractiveConsole",
+    "readline.write_history_file",
+    "rlcompleter.Completer",
+    "readline.set_completer",
+    "os.path.join",
+    "code.InteractiveConsole.interact"
+  ],
+  "pudb.shell.run_ptipython_shell": [
+    "bdb.Bdb.curframe.f_globals.copy",
+    "ptpython.ipython.embed",
+    "bdb.Bdb.curframe.f_locals.copy",
+    "pudb.shell.get_ptpython_history_file"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.run_cmdline": [
+    "pudb.debugger.DebuggerUI.__init__.run_external_cmdline",
+    "pudb.debugger.DebuggerUI.__init__.toggle_cmdline_focus"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.focus_code": [
+    "urwid.Columns.set_focus",
+    "urwid.WidgetWrap.set_focus"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.RHColumnFocuser.__init__": [],
+  "pudb.debugger.DebuggerUI.__init__.RHColumnFocuser.__call__": [
+    "urwid.Columns.set_focus",
+    "urwid.WidgetWrap.set_focus"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.quit": [
+    "pudb.debugger.DebuggerUI.__init__.end",
+    "bdb.Bdb.set_quit",
+    "<builtin>.open"
+  ],
+  "bdb.Bdb.set_quit": [],
+  "pudb.debugger.DebuggerUI.__init__.do_edit_config": [
+    "pudb.debugger.DebuggerUI.run_edit_config"
+  ],
+  "pudb.debugger.DebuggerUI.run_edit_config": [
+    "pudb.settings.edit_config",
+    "pudb.settings.save_config"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.redraw_screen": [
+    "urwid.raw_display.Screen.clear"
+  ],
+  "urwid.raw_display.Screen.clear": [],
+  "pudb.debugger.DebuggerUI.__init__.edit_current_frame": [
+    "pudb.debugger.DebuggerUI.message",
+    "urwid.SimpleListWalker.get_focus",
+    "pudb.debugger.NullSourceCodeProvider.get_source_identifier",
+    "pudb.debugger.DirectSourceCodeProvider.get_source_identifier",
+    "pudb.debugger.DebuggerUI.__init__.open_file_editor",
+    "pudb.debugger.FileSourceCodeProvider.get_source_identifier"
+  ],
+  "pudb.debugger.DebuggerUI.__init__.<lambda1>": [
+    "pudb.debugger.DebuggerUI.__init__.reload_breakpoints_and_redisplay"
+  ],
+  "os.environ.get.startswith": [],
+  "urwid.raw_display.Screen.__init__": [],
+  "curses.setupterm": [],
+  "curses.tigetnum": [],
+  "urwid.raw_display.Screen.set_terminal_properties": [],
+  "pudb.debugger.DebuggerUI.setup_palette": [
+    "<builtin>.hasattr",
+    "pudb.theme.get_palette",
+    "urwid.raw_display.Screen.register_palette"
+  ],
+  "logging.StreamHandler.format.rstrip": [],
+  "sys.stdout.getvalue.rstrip": [],
+  "urwid.SimpleFocusListWalker.append": [],
+  "urwid.ListBox.set_focus_valign": [],
+  "urwid.Columns.set_focus_valign": [],
+  "urwid.WidgetWrap.set_focus_valign": [],
+  "pudb.debugger.DebuggerUI.reset_cmdline_size": [],
+  "pudb.settings.edit_config": [
+    "urwid.Edit.get_edit_text",
+    "<builtin>.zip",
+    "pudb.settings.edit_config._update_theme",
+    "<builtin>.bool",
+    "pudb.settings.edit_config._update_stringifier",
+    "pudb.settings.edit_config._update_current_stack_frame",
+    "urwid.CheckBox",
+    "pudb.debugger.DebuggerUI.dialog",
+    "urwid.WidgetWrap.get_edit_text",
+    "<builtin>.list",
+    "urwid.SimpleListWalker",
+    "urwid.ListBox",
+    "urwid.RadioButton",
+    "urwid.Text",
+    "urwid.Edit",
+    "urwid.Columns.get_edit_text",
+    "urwid.AttrMap"
+  ],
+  "pudb.debugger.DebuggerUI.dialog.ResultSetter.__init__": [],
+  "pudb.debugger.DebuggerUI.dialog.ResultSetter.__call__": [],
+  "pudb.debugger.DebuggerUI.dialog.enter": [],
+  "pudb.debugger.DebuggerUI.dialog.esc": [],
+  "urwid.ListBox.listen": [],
+  "urwid.Columns.set_focus_column": [],
+  "urwid.WidgetWrap.set_focus_column": [],
+  "pudb.debugger.DebuggerUI.dialog.ResultSettingEventHandler.__init__": [],
+  "pudb.debugger.DebuggerUI.dialog.ResultSettingEventHandler.__call__": [],
+  "urwid.LineBox": [],
+  "urwid.Overlay": [],
+  "pudb.debugger.DebuggerUI.event_loop": [
+    "pudb.debugger.DebuggerUI.message",
+    "pudb.debugger.ThreadsafeFixedSizeRawScreen.get_cols_rows",
+    "pudb.debugger.DebuggerUI.run_edit_config",
+    "urwid.Columns.render",
+    "urwid.Columns.keypress",
+    "sys.exc_info",
+    "urwid.raw_display.Screen.draw_screen",
+    "urwid.raw_display.Screen.get_input",
+    "pudb.ui_tools.SignalWrap.keypress",
+    "pudb.debugger.DebuggerUI.show_internal_exc_dlg",
+    "urwid.WidgetWrap.render",
+    "pudb.settings.save_config",
+    "<builtin>.hasattr"
+  ],
+  "pudb.theme.get_palette": [
+    "<builtin>.compile",
+    "pudb.theme.get_style",
+    "<builtin>.set",
+    "pudb.theme.get_palette.add_setting",
+    "os.path.expandvars",
+    "os.path.expanduser",
+    "<builtin>.isinstance",
+    "pudb.theme.get_palette.link",
+    "<builtin>.exec",
+    "dataclasses.astuple",
+    "<builtin>.open"
+  ],
+  "urwid.raw_display.Screen.register_palette": [],
+  "pudb.debugger.DebuggerUI.show_exception_dialog": [
+    "pudb.debugger.DebuggerUI._show_exception_dialog",
+    "traceback.format_exception"
+  ],
+  "pudb.debugger.DebuggerUI._show_exception_dialog": [
+    "pudb.debugger.DebuggerUI.dialog",
+    "pudb.debugger.DebuggerUI._save_traceback",
+    "urwid.ListBox",
+    "urwid.Text",
+    "urwid.SimpleListWalker"
+  ],
+  "pudb.debugger.DebuggerUI._show_internal_exc_dlg": [
+    "<builtin>.map",
+    "pudb.debugger.DebuggerUI._show_exception_dialog",
+    "sys.version.replace",
+    "traceback.format_exception"
+  ],
+  "sys.version.replace": [],
+  "<builtin>.map": [],
+  "pudb.debugger.DebuggerUI._save_traceback": [
+    "pudb.debugger.DebuggerUI.message",
+    "sys.exc_info",
+    "traceback.format_exception",
+    "os.path.exists",
+    "<builtin>.next",
+    "itertools.count",
+    "<builtin>.open"
+  ],
+  "itertools.count": [],
+  "<builtin>.next": [],
+  "pudb.debugger.DebuggerUI.show": [
+    "urwid.raw_display.Screen.start"
+  ],
+  "pudb.debugger.DebuggerUI.hide": [
+    "urwid.raw_display.Screen.stop"
+  ],
+  "pudb.debugger.DebuggerUI.interaction": [
+    "pudb.debugger.DebuggerUI.show_exception_dialog",
+    "urwid.WidgetWrap.set_text",
+    "pudb.debugger.DebuggerUI.event_loop",
+    "urwid.Columns.set_text"
+  ],
+  "urwid.Columns.render": [],
+  "urwid.WidgetWrap.render": [],
+  "urwid.raw_display.Screen.draw_screen": [],
+  "urwid.raw_display.Screen.get_input": [],
+  "pudb.ui_tools.SignalWrap.keypress": [
+    "urwid.WidgetWrap._w.keypress",
+    "urwid.Columns._w.keypress"
+  ],
+  "urwid.Columns.keypress": [],
+  "pudb.var_view.make_var_view": [
+    "pudb.var_view.TopAndMainVariableWalker.__init__",
+    "pudb.var_view.ValueWalker.walk_value",
+    "<builtin>.eval",
+    "<builtin>.list",
+    "bdb.Bdb.curframe.f_locals.keys",
+    "pudb.var_view.BasicValueWalker.__init__",
+    "pudb.var_view.WatchValueWalker.__init__"
+  ],
+  "pudb.debugger.DebuggerUI._format_fname": [
+    "os.path.basename",
+    "os.path.dirname"
+  ],
+  "os.path.basename": [],
+  "os.path.dirname": [],
+  "pudb.ui_tools.BreakpointFrame.__init__": [],
+  "pudb.debugger.DebuggerUI.update_stack.make_frame_ui": [
+    "pudb.ui_tools.StackFrame.__init__",
+    "pudb.debugger.DebuggerUI._format_fname"
+  ],
+  "pudb.ui_tools.StackFrame.__init__": [],
+  "pudb.debugger.DebuggerUI.update_cmdline_win": [
+    "pudb.debugger.DebuggerUI.set_cmdline_state"
+  ],
+  "pudb.ui_tools": [],
+  "pudb.ui_tools.text_width": [
+    "urwid.util.calc_width",
+    "<builtin>.len"
+  ],
+  "urwid.util.calc_width": [],
+  "pudb.ui_tools.encode_like_urwid": [],
+  "pudb.ui_tools.make_canvas": [
+    "pudb.ui_tools.make_canvas.get_byte_line_attr",
+    "urwid.util.calc_text_pos",
+    "<builtin>.zip",
+    "urwid.util.rle_subseg.append",
+    "urwid.util.rle_subseg",
+    "<builtin>.len",
+    "pudb.ui_tools.text_width",
+    "urwid.util.apply_target_encoding",
+    "<builtin>.list",
+    "urwid.TextCanvas"
+  ],
+  "urwid.util.rle_subseg.append": [],
+  "urwid.util.calc_text_pos": [],
+  "urwid.util.rle_subseg": [],
+  "urwid.util.apply_target_encoding": [],
+  "pudb.ui_tools.make_canvas.get_byte_line_attr": [
+    "<builtin>.len",
+    "pudb.ui_tools.encode_like_urwid"
+  ],
+  "urwid.TextCanvas": [],
+  "re.match": [],
+  "re.match.group": [],
+  "pudb.ui_tools.SelectableText.selectable": [],
+  "pudb.ui_tools.SelectableText.keypress": [],
+  "urwid.WidgetWrap.__init__": [],
+  "urwid.Columns.event_listeners.append": [],
+  "urwid.WidgetWrap._w.keypress": [],
+  "urwid.Columns._w.keypress": [],
+  "pudb.ui_tools.StackFrame.selectable": [],
+  "pudb.ui_tools.StackFrame.rows": [],
+  "pudb.ui_tools.StackFrame.render": [
+    "<builtin>.len",
+    "pudb.ui_tools.make_canvas"
+  ],
+  "pudb.ui_tools.StackFrame.keypress": [],
+  "pudb.ui_tools.BreakpointFrame.selectable": [],
+  "pudb.ui_tools.BreakpointFrame.rows": [],
+  "pudb.ui_tools.BreakpointFrame.render": [
+    "<builtin>.len",
+    "pudb.ui_tools.make_canvas"
+  ],
+  "pudb.ui_tools.BreakpointFrame.keypress": [],
+  "pudb.ui_tools.SearchController.cancel_highlight": [],
+  "pudb.ui_tools.SearchController.cancel_search": [
+    "pudb.ui_tools.SearchController.hide_search_ui",
+    "pudb.ui_tools.SearchController.cancel_highlight"
+  ],
+  "pudb.ui_tools.SearchController.hide_search_ui": [
+    "urwid.Columns.set_focus",
+    "urwid.WidgetWrap.set_focus"
+  ],
+  "pudb.ui_tools.SearchBox.__init__": [
+    "urwid.Edit.__init__"
+  ],
+  "urwid.Columns.item_types.insert": [],
+  "urwid.WidgetWrap.item_types.insert": [],
+  "urwid.WidgetWrap.widget_list.insert": [],
+  "urwid.Columns.widget_list.insert": [],
+  "urwid.Edit.get_edit_text.lower": [],
+  "pudb.ui_tools.SearchBox.keypress": [
+    "pudb.ui_tools.SearchController.perform_search",
+    "pudb.ui_tools.SearchController.cancel_search",
+    "urwid.Edit.get_edit_text",
+    "urwid.AttrMap.set_attr_map",
+    "urwid.Edit.keypress",
+    "pudb.ui_tools.SearchController.hide_search_ui"
+  ],
+  "urwid.AttrMap.set_attr_map": [],
+  "pudb.shell": [],
+  "pudb.shell.SetPropagatingDict.__setitem__": [],
+  "pudb.shell.SetPropagatingDict.__delitem__": [],
+  "rlcompleter.Completer": [],
+  "readline.set_completer": [],
+  "readline.parse_and_bind": [],
+  "readline.clear_history": [],
+  "readline.read_history_file": [],
+  "code.InteractiveConsole": [],
+  "code.InteractiveConsole.interact": [],
+  "readline.write_history_file": [],
+  "bpython.embed": [],
+  "pudb.shell.ipython_version": [
+    "pudb.shell.have_ipython"
+  ],
+  "pudb.shell.run_ipython_shell_v10": [
+    "IPython.Shell.IPShell.mainloop",
+    "IPython.Shell.IPShell",
+    "bdb.Bdb.curframe.f_locals.copy"
+  ],
+  "bdb.Bdb.curframe.f_locals.copy": [],
+  "IPython.Shell.IPShell": [],
+  "IPython.Shell.IPShell.mainloop": [],
+  "pudb.shell._update_ipython_ns": [
+    "bdb.Bdb.curframe.f_locals.copy",
+    "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.init_completer",
+    "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.user_ns.copy",
+    "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.init_history",
+    "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.init_user_ns",
+    "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.init_user_ns",
+    "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.init_completer",
+    "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.user_ns.copy",
+    "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.init_history"
+  ],
+  "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.user_ns.copy": [],
+  "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.user_ns.copy": [],
+  "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.init_history": [],
+  "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.init_history": [],
+  "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.init_user_ns": [],
+  "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.init_user_ns": [],
+  "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.init_completer": [],
+  "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.init_completer": [],
+  "pudb.shell.run_ipython_shell_v11": [
+    "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.mainloop",
+    "pudb.shell._update_ipython_ns",
+    "pudb.shell.ipython_version",
+    "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance",
+    "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.history_manager.new_session",
+    "IPython.frontend.terminal.ipapp.load_default_config",
+    "IPython.terminal.ipapp.load_default_config",
+    "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.mainloop",
+    "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.history_manager.new_session",
+    "<builtin>.print",
+    "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance"
+  ],
+  "IPython.frontend.terminal.ipapp.load_default_config": [],
+  "IPython.terminal.ipapp.load_default_config": [],
+  "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance": [],
+  "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance": [],
+  "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.history_manager.new_session": [],
+  "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.history_manager.new_session": [],
+  "IPython.terminal.interactiveshell.TerminalInteractiveShell.instance.mainloop": [],
+  "IPython.frontend.terminal.interactiveshell.TerminalInteractiveShell.instance.mainloop": [],
+  "IPython.embed_kernel": [],
+  "pudb.shell.get_ptpython_history_file": [
+    "argparse.ArgumentParser.parse_args",
+    "ptpython.entry_points.run_ptpython.get_config_and_history_file",
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_argument"
+  ],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_argument": [],
+  "argparse.ArgumentParser.parse_args": [],
+  "ptpython.entry_points.run_ptpython.get_config_and_history_file": [],
+  "bdb.Bdb.curframe.f_globals.copy": [],
+  "ptpython.repl.embed": [],
+  "ptpython.ipython.embed": [],
+  "pudb.settings": [
+    "os.path.expanduser",
+    "os.path.join",
+    "os.environ.get.split",
+    "os.environ.get"
+  ],
+  "os.environ.get.split": [],
+  "os.makedirs": [],
+  "configparser.ConfigParser": [],
+  "os.path.isdir": [],
+  "configparser.ConfigParser.read": [],
+  "configparser.ConfigParser.has_section": [],
+  "configparser.ConfigParser.items": [],
+  "<builtin>.dict": [],
+  "pudb.settings.load_config.normalize_bool_inplace": [],
+  "configparser.ConfigParser.add_section": [],
+  "configparser.ConfigParser.set": [],
+  "configparser.ConfigParser.write": [],
+  "pudb.settings.edit_config._update_theme": [
+    "urwid.raw_display.Screen.clear",
+    "pudb.debugger.DebuggerUI.setup_palette"
+  ],
+  "pudb.settings.edit_config._update_line_numbers": [
+    "urwid.SimpleListWalker._invalidate"
+  ],
+  "pudb.settings.edit_config._update_prompt_on_quit": [],
+  "pudb.settings.edit_config._update_hide_cmdline_win": [
+    "pudb.debugger.DebuggerUI.update_cmdline_win"
+  ],
+  "pudb.settings.edit_config._update_current_stack_frame": [
+    "pudb.debugger.DebuggerUI.update_stack"
+  ],
+  "pudb.settings.edit_config._update_stringifier": [
+    "pudb.debugger.DebuggerUI.update_var_view"
+  ],
+  "pudb.settings.edit_config._update_default_variables_access_level": [
+    "pudb.debugger.DebuggerUI.update_var_view"
+  ],
+  "pudb.settings.edit_config._update_wrap_variables": [
+    "pudb.debugger.DebuggerUI.update_var_view"
+  ],
+  "pudb.settings.edit_config._update_config": [
+    "urwid.ListBox.set_focus",
+    "pudb.settings.edit_config._update_default_variables_access_level",
+    "pudb.settings.edit_config._update_theme",
+    "pudb.settings.edit_config._update_current_stack_frame",
+    "pudb.settings.edit_config._update_wrap_variables",
+    "pudb.settings.edit_config._update_line_numbers",
+    "pudb.settings.edit_config._update_hide_cmdline_win",
+    "pudb.settings.edit_config._update_stringifier",
+    "pudb.settings.edit_config._update_prompt_on_quit"
+  ],
+  "pudb.settings.parse_breakpoints": [
+    "pudb.lowlevel.get_breakpoint_invalid_reason",
+    "<builtin>.int",
+    "pudb.lowlevel.lookup_module"
+  ],
+  "pudb.lowlevel.lookup_module": [
+    "os.path.islink",
+    "os.path.isabs",
+    "os.path.splitext",
+    "os.path.exists",
+    "os.readlink",
+    "os.path.join"
+  ],
+  "pudb.settings.get_breakpoints_file_name": [
+    "pudb.settings.get_save_config_path",
+    "os.path.join"
+  ],
+  "pudb.theme": [],
+  "pudb.theme.PaletteEntry.handle_256_colors": [],
+  "pudb.theme.get_style": [
+    "pudb.theme.PaletteEntry.handle_256_colors",
+    "pudb.theme.get_style",
+    "<builtin>.isinstance",
+    "dataclasses.replace.handle_256_colors",
+    "dataclasses.replace"
+  ],
+  "dataclasses.replace.handle_256_colors": [],
+  "dataclasses.replace": [],
+  "pudb.theme.get_palette.add_setting": [],
+  "pudb.theme.get_palette.link": [],
+  "dataclasses.astuple": [],
+  "pudb.lowlevel": [
+    "re.compile",
+    "pudb.lowlevel._init_loggers"
+  ],
+  "pudb.lowlevel.getlogfile": [],
+  "pudb.lowlevel.setlogfile": [
+    "datetime.datetime.now",
+    "<builtin>.open"
+  ],
+  "datetime.datetime.now": [],
+  "pudb.lowlevel.TerminalOrStreamHandler.emit": [
+    "logging.StreamHandler.release",
+    "pudb.debugger.DebuggerUI.add_cmdline_content",
+    "logging.StreamHandler.format",
+    "<builtin>.super",
+    "pudb._have_debugger",
+    "pudb._get_debugger",
+    "pudb.lowlevel.getlogfile",
+    "logging.StreamHandler.acquire",
+    "<builtin>.open"
+  ],
+  "logging.StreamHandler.acquire": [],
+  "logging.StreamHandler.format": [],
+  "logging.StreamHandler.release": [],
+  "pudb.lowlevel._init_loggers": [
+    "logging.getLogger.addHandler",
+    "logging.getLogger",
+    "logging.StreamHandler.__init__",
+    "logging.StreamHandler.setFormatter",
+    "logging.Formatter"
+  ],
+  "logging.StreamHandler.__init__": [],
+  "logging.Formatter": [],
+  "logging.StreamHandler.setFormatter": [],
+  "logging.getLogger": [],
+  "logging.getLogger.addHandler": [],
+  "pudb.lowlevel.generate_executable_lines_for_code": [],
+  "pudb.lowlevel.get_executable_lines_for_codes_recursive": [
+    "pudb.lowlevel.generate_executable_lines_for_code",
+    "<builtin>.set",
+    "<builtin>.isinstance"
+  ],
+  "pudb.lowlevel.get_executable_lines_for_file": [
+    "<builtin>.compile",
+    "pudb.lowlevel.get_executable_lines_for_codes_recursive",
+    "linecache.getlines"
+  ],
+  "linecache.getline": [],
+  "os.path.isabs": [],
+  "os.path.islink": [],
+  "os.readlink": [],
+  "re.compile": [],
+  "pudb.lowlevel.detect_encoding": [
+    "pudb.lowlevel.detect_encoding.find_cookie",
+    "pudb.lowlevel.detect_encoding.read_or_stop",
+    "<builtin>.isinstance"
+  ],
+  "pudb.lowlevel.detect_encoding.read_or_stop": [
+    "<builtin>.next"
+  ],
+  "pudb.lowlevel.detect_encoding.find_cookie": [
+    "<builtin>.SyntaxError",
+    "codecs.lookup",
+    "re.compile.findall"
+  ],
+  "re.compile.findall": [],
+  "codecs.lookup": [],
+  "<builtin>.SyntaxError": [],
+  "<builtin>.iter": [],
+  "itertools.chain": [],
+  "itertools.chain.decode": [],
+  "pudb.var_view": [
+    "<builtin>.type",
+    "urwid.Text",
+    "urwid.AttrMap",
+    "pudb.var_view.get_str_safe_types"
+  ],
+  "pudb.var_view.PudbCollection.__subclasshook__": [
+    "<builtin>.all"
+  ],
+  "<builtin>.all": [],
+  "pudb.var_view.PudbCollection.entries": [
+    "<builtin>.enumerate",
+    "<builtin>.isinstance"
+  ],
+  "pudb.var_view.PudbCollection.length": [
+    "<builtin>.len"
+  ],
+  "pudb.var_view.PudbSequence.__subclasshook__": [
+    "<builtin>.all"
+  ],
+  "pudb.var_view.PudbSequence.entries": [
+    "<builtin>.enumerate",
+    "<builtin>.isinstance",
+    "<builtin>.str"
+  ],
+  "pudb.var_view.PudbSequence.length": [
+    "<builtin>.len"
+  ],
+  "pudb.var_view.PudbMapping.__subclasshook__": [
+    "<builtin>.all"
+  ],
+  "pudb.var_view.PudbMapping._safe_key_repr": [
+    "<builtin>.repr",
+    "<builtin>.id"
+  ],
+  "<builtin>.repr": [],
+  "pudb.var_view.PudbMapping.entries": [
+    "<builtin>.isinstance",
+    "pudb.var_view.PudbMapping._safe_key_repr"
+  ],
+  "pudb.var_view.PudbMapping.length": [
+    "<builtin>.len"
+  ],
+  "pudb.var_view.FrameVarInfo.__init__": [],
+  "pudb.var_view.FrameVarInfo.get_inspect_info": [
+    "pudb.var_view.InspectInfo.__init__"
+  ],
+  "pudb.var_view.InspectInfo.__init__": [],
+  "pudb.var_view.WatchEvalError.__str__": [],
+  "pudb.var_view.VariableWidget.__init__": [
+    "<builtin>.isinstance"
+  ],
+  "pudb.var_view.VariableWidget.__str__": [],
+  "pudb.var_view.VariableWidget.selectable": [],
+  "pudb.var_view.VariableWidget._get_wrapped_lines": [
+    "<builtin>.divmod",
+    "<builtin>.bool",
+    "pudb.ui_tools.text_width",
+    "<builtin>.len",
+    "<builtin>.range"
+  ],
+  "<builtin>.divmod": [],
+  "<builtin>.range": [],
+  "pudb.var_view.VariableWidget.rows": [
+    "pudb.var_view.VariableWidget._get_wrapped_lines",
+    "<builtin>.len"
+  ],
+  "pudb.var_view.VariableWidget.render": [
+    "pudb.var_view.VariableWidget._get_wrapped_lines",
+    "<builtin>.divmod",
+    "pudb.ui_tools.make_canvas",
+    "<builtin>.bool",
+    "<builtin>.sum",
+    "urwid.util.rle_subseg",
+    "<builtin>.len",
+    "pudb.ui_tools.text_width",
+    "<builtin>.range"
+  ],
+  "<builtin>.sum": [],
+  "pudb.var_view.VariableWidget.keypress": [],
+  "pudb.var_view.get_str_safe_types": [
+    "<builtin>.hasattr",
+    "<builtin>.getattr",
+    "<builtin>.tuple"
+  ],
+  "<builtin>.tuple": [],
+  "pudb.var_view.default_stringifier": [
+    "<builtin>.type",
+    "<builtin>.repr",
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "<builtin>.str",
+    "<builtin>.hasattr"
+  ],
+  "pudb.var_view.type_stringifier": [
+    "<builtin>.type",
+    "<builtin>.str"
+  ],
+  "pudb.var_view.id_stringifier": [
+    "<builtin>.id"
+  ],
+  "pudb.var_view.error_stringifier": [],
+  "pudb.var_view.get_stringifier": [
+    "<builtin>.compile",
+    "os.path.expandvars",
+    "os.path.expanduser",
+    "abc.ABC.get_inspect_info.display_type.strip",
+    "<builtin>.exec",
+    "<builtin>.open"
+  ],
+  "abc.ABC.get_inspect_info.display_type.strip": [],
+  "pudb.var_view.get_stringifier.<lambda1>": [],
+  "pudb.var_view.get_stringifier.<lambda2>": [
+    "<builtin>.str"
+  ],
+  "pudb.var_view.get_stringifier.<lambda3>": [
+    "<builtin>.str"
+  ],
+  "pudb.var_view.ValueWalker.__init__": [],
+  "pudb.var_view.ValueWalker": [
+    "abc.abstractmethod"
+  ],
+  "abc.abstractmethod": [],
+  "pudb.var_view.ValueWalker.add_item": [],
+  "pudb.var_view.ValueWalker.add_continuation_item": [
+    "pudb.var_view.WatchValueWalker.add_item",
+    "abc.ABC.get_inspect_info",
+    "pudb.var_view.TopAndMainVariableWalker.add_item",
+    "pudb.var_view.ValueWalker.add_item",
+    "pudb.var_view.BasicValueWalker.add_item"
+  ],
+  "abc.ABC.get_inspect_info": [],
+  "pudb.var_view.TopAndMainVariableWalker.add_item": [
+    "pudb.var_view.TopAndMainVariableWalker._should_repeat_at_top",
+    "pudb.var_view.VariableWidget.__init__",
+    "abc.ABC.get_inspect_info"
+  ],
+  "pudb.var_view.BasicValueWalker.add_item": [
+    "pudb.var_view.VariableWidget.__init__",
+    "abc.ABC.get_inspect_info"
+  ],
+  "pudb.var_view.WatchValueWalker.add_item": [
+    "pudb.var_view.VariableWidget.__init__",
+    "abc.ABC.get_inspect_info"
+  ],
+  "pudb.var_view.ValueWalker.walk_container": [
+    "pudb.var_view.WatchValueWalker.add_item",
+    "<builtin>.enumerate",
+    "<builtin>.next",
+    "pudb.var_view.ValueWalker.walk_value",
+    "pudb.var_view.TopAndMainVariableWalker.add_item",
+    "<builtin>.isinstance",
+    "pudb.var_view.ValueWalker.add_continuation_item",
+    "pudb.var_view.ValueWalker.add_item",
+    "pudb.var_view.BasicValueWalker.add_item"
+  ],
+  "pudb.var_view.ValueWalker.walk_value": [
+    "pudb.var_view.get_stringifier.<lambda1>",
+    "pudb.var_view.error_stringifier",
+    "pudb.var_view.WatchValueWalker.add_item",
+    "pudb.var_view.type_stringifier",
+    "abc.ABC.get_inspect_info",
+    "pudb.var_view.get_stringifier.<lambda2>",
+    "pudb.var_view.TopAndMainVariableWalker.add_item",
+    "pudb.var_view.ValueWalker.walk_attributes",
+    "pudb.var_view.get_stringifier",
+    "<builtin>.isinstance",
+    "pudb.var_view.ValueWalker.walk_container",
+    "pudb.var_view.ValueWalker.add_item",
+    "pudb.var_view.BasicValueWalker.add_item",
+    "pudb.var_view.get_stringifier.<lambda3>"
+  ],
+  "pudb.var_view.ValueWalker.walk_attributes": [
+    "inspect.isroutine",
+    "warnings.catch_warnings",
+    "warnings.simplefilter",
+    "<builtin>.sorted",
+    "pudb.var_view.ValueWalker.walk_value",
+    "<builtin>.getattr",
+    "<builtin>.dir"
+  ],
+  "<builtin>.dir": [],
+  "warnings.catch_warnings": [],
+  "warnings.simplefilter": [],
+  "inspect.isroutine": [],
+  "pudb.var_view.BasicValueWalker.__init__": [
+    "pudb.var_view.ValueWalker.__init__"
+  ],
+  "pudb.var_view.WatchValueWalker.__init__": [
+    "pudb.var_view.ValueWalker.__init__"
+  ],
+  "pudb.var_view.TopAndMainVariableWalker.__init__": [
+    "pudb.var_view.ValueWalker.__init__"
+  ],
+  "pudb.var_view.TopAndMainVariableWalker._should_repeat_at_top": [
+    "<builtin>.len"
+  ],
+  "bdb.Bdb.curframe.f_locals.keys": [],
+  "pudb.source_view": [
+    "pudb.source_view.ArgumentParser.__init__"
+  ],
+  "pudb.source_view.SourceLine.selectable": [],
+  "pudb.source_view.SourceLine.set_current": [
+    "urwid.FlowWidget._invalidate"
+  ],
+  "urwid.FlowWidget._invalidate": [],
+  "pudb.source_view.SourceLine.set_highlight": [
+    "urwid.FlowWidget._invalidate"
+  ],
+  "pudb.source_view.SourceLine.set_breakpoint": [
+    "urwid.FlowWidget._invalidate"
+  ],
+  "pudb.source_view.SourceLine.rows": [],
+  "pudb.source_view.SourceLine.render": [
+    "urwid.TextCanvas",
+    "<builtin>.len",
+    "urwid.util.apply_target_encoding",
+    "urwid.util.trim_text_attr_cs"
+  ],
+  "urwid.util.trim_text_attr_cs": [],
+  "pudb.source_view.SourceLine.keypress": [],
+  "pudb.source_view.ArgumentParser.__init__": [],
+  "pudb.source_view.ArgumentParser.parse_token": [],
+  "pudb.source_view.UrwidFormatter.__init__": [
+    "pygments.formatter.Formatter.__init__"
+  ],
+  "pygments.formatter.Formatter.__init__": [],
+  "pudb.source_view.UrwidFormatter.add_snippet": [
+    "<builtin>.len",
+    "pudb.source_view.ArgumentParser.parse_token",
+    "<builtin>.RuntimeError",
+    "<builtin>.str"
+  ],
+  "<builtin>.RuntimeError": [],
+  "pudb.source_view.UrwidFormatter.shipout_line": [
+    "pudb.source_view.SourceLine.__init__"
+  ],
+  "pudb.source_view.UrwidFormatter.format": [
+    "pudb.source_view.UrwidFormatter.shipout_line",
+    "pudb.source_view.UrwidFormatter.add_snippet"
+  ],
+  "pygments.lexers.PythonLexer": [],
+  "pygments.highlight": [],
+  "pudb.remote": [
+    "<builtin>.int",
+    "os.environ.get"
+  ],
+  "pudb.remote.RemoteDebugger.__init__": [
+    "codecs.getreader",
+    "codecs.getwriter",
+    "codecs.StreamReaderWriter",
+    "os.get_terminal_size",
+    "<builtin>.str",
+    "pudb.debugger.Debugger.__init__",
+    "pudb.remote.RemoteDebugger.say",
+    "pudb.remote.RemoteDebugger.get_client"
+  ],
+  "pudb.remote.RemoteDebugger.get_client": [
+    "pudb.remote.RemoteDebugger.get_socket_client",
+    "pudb.remote.RemoteDebugger.get_reverse_socket_client",
+    "pudb.remote.RemoteDebugger.say"
+  ],
+  "pudb.remote.RemoteDebugger.say": [
+    "<builtin>.print"
+  ],
+  "codecs.getreader": [],
+  "codecs.getwriter": [],
+  "codecs.StreamReaderWriter": [],
+  "pudb.remote.RemoteDebugger.get_reverse_socket_client": [
+    "<builtin>.ValueError",
+    "socket.socket"
+  ],
+  "pudb.remote.RemoteDebugger.get_socket_client": [
+    "pudb.remote.RemoteDebugger.get_avail_port"
+  ],
+  "socket.socket": [],
+  "pudb.remote.RemoteDebugger.get_avail_port": [
+    "<builtin>.range",
+    "socket.socket"
+  ],
+  "pudb.remote.RemoteDebugger.close_remote_session": [
+    "codecs.StreamReaderWriter.close",
+    "pudb.remote.RemoteDebugger.say"
+  ],
+  "codecs.StreamReaderWriter.close": [],
+  "pudb.remote.debugger": [
+    "atexit.register",
+    "pudb.remote.RemoteDebugger.__init__"
+  ],
+  "pudb.remote.debugger.<lambda1>": [],
+  "atexit.register": [],
+  "pudb.remote.set_trace": [
+    "pudb.debugger.Debugger.set_trace",
+    "pudb.remote.debugger",
+    "sys._getframe"
+  ],
+  "pudb.remote.debug_remote_on_single_rank": [
+    "pudb.debugger.Debugger.runcall",
+    "pudb.remote.debugger",
+    "time.sleep"
+  ],
+  "time.sleep": [],
+  "pudb.forked": [],
+  "pudb.forked.set_trace": [
+    "sys._getframe",
+    "pudb.debugger.Debugger.set_trace",
+    "os.get_terminal_size",
+    "pudb.debugger.Debugger.__init__",
+    "<builtin>.open"
+  ],
+  "pudb._shtab": [],
+  "pudb._shtab.add_argument_to": [],
+  "pudb.b": [
+    "pudb.b.set_trace"
+  ],
+  "pudb.b.__myimport__": [
+    "pudb.b.set_trace"
+  ],
+  "pudb.b.set_trace": [
+    "pudb.debugger.Debugger.set_trace",
+    "pudb._get_debugger",
+    "pudb.set_interrupt_handler",
+    "sys._getframe"
+  ],
+  "pudb.ipython": [
+    "IPython.get_ipython",
+    "IPython.core.magic.register_line_magic"
+  ],
+  "pudb.ipython.pudb": [
+    "os.path.isfile",
+    "IPython.utils.process.arg_split",
+    "os.path.abspath",
+    "pudb.runscript",
+    "IPython.core.error.UsageError",
+    "<builtin>.print"
+  ],
+  "IPython.utils.process.arg_split": [],
+  "os.path.abspath": [],
+  "IPython.core.error.UsageError": [],
+  "IPython.core.magic.register_line_magic": [],
+  "pudb.ipython.debugger": [
+    "<builtin>.hasattr",
+    "logging.error",
+    "pudb.pm"
+  ],
+  "logging.error": [],
+  "IPython.get_ipython": [],
+  "pudb.run": [
+    "pudb.run.main"
+  ],
+  "pudb.run.get_argparse_parser": [
+    "shtab.add_argument_to",
+    "sys.exit",
+    "pudb._shtab.add_argument_to",
+    "<builtin>.print",
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_argument"
+  ],
+  "shtab.add_argument_to": [],
+  "pudb.run.main": [
+    "pudb.run.get_argparse_parser",
+    "os.path.exists",
+    "argparse.ArgumentParser.print_help",
+    "pudb.runmodule",
+    "sys.exit",
+    "<builtin>.len",
+    "argparse.ArgumentParser.parse_args",
+    "pudb.runscript",
+    "pudb.lowlevel.setlogfile",
+    "<builtin>.print"
+  ],
+  "argparse.ArgumentParser.print_help": [],
+  "pudb.__main__": [
+    "pudb.run.main"
+  ],
+  "debug_me": [
+    "debug_me.fermat",
+    "pudb.set_trace",
+    "debug_me.MyClass.__init__",
+    "debug_me.simple_func",
+    "collections.namedtuple",
+    "<builtin>.print"
+  ],
+  "collections.namedtuple": [],
+  "debug_me.MyClass.__init__": [],
+  "debug_me.simple_func": [
+    "<builtin>.dict",
+    "collections.namedtuple",
+    "<builtin>.set",
+    "<builtin>.range"
+  ],
+  "debug_me.fermat": [
+    "<builtin>.range"
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "setup": [
+    "distutils.core.setup",
+    "<builtin>.open",
+    "<builtin>.exec",
+    "<builtin>.compile",
+    "setuptools.setup"
+  ],
+  "<builtin>.open": [],
+  "<builtin>.compile": [],
+  "<builtin>.exec": [],
+  "distutils.core.setup": [],
+  "setuptools.setup": [],
+  "zerorpc.gevent_zmq": [
+    "logging.getLogger"
+  ],
+  "logging.getLogger": [],
+  "zerorpc.gevent_zmq.Context.socket": [
+    "zmq.ZMQError",
+    "zerorpc.gevent_zmq.Socket.__init__"
+  ],
+  "zmq.ZMQError": [],
+  "zerorpc.gevent_zmq.Socket.__init__": [
+    "<builtin>.super",
+    "zmq.Socket.getsockopt",
+    "gevent.core.read_event",
+    "gevent.event.Event",
+    "zmq.Socket._state_event.start",
+    "gevent.hub.get_hub",
+    "gevent.hub.get_hub.loop.io"
+  ],
+  "<builtin>.super": [],
+  "zmq.Socket.getsockopt": [],
+  "gevent.event.Event": [],
+  "gevent.hub.get_hub": [],
+  "gevent.hub.get_hub.loop.io": [],
+  "zmq.Socket._state_event.start": [],
+  "gevent.core.read_event": [],
+  "zerorpc.gevent_zmq.Socket._on_state_changed": [
+    "zmq.Socket.getsockopt",
+    "zmq.Socket._readable.set",
+    "zmq.Socket._writable.set"
+  ],
+  "zmq.Socket._writable.set": [],
+  "zmq.Socket._readable.set": [],
+  "zerorpc.gevent_zmq.Socket.close": [
+    "zmq.Socket._state_event.stop",
+    "zmq.Socket._state_event.cancel",
+    "<builtin>.super",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.getattr": [],
+  "zmq.Socket._state_event.stop": [],
+  "zmq.Socket._state_event.cancel": [],
+  "zerorpc.gevent_zmq.Socket.connect": [
+    "<builtin>.super"
+  ],
+  "zerorpc.gevent_zmq.Socket.send": [
+    "zmq.Socket._writable.wait",
+    "gevent.sleep",
+    "zerorpc.gevent_zmq.Socket._on_state_changed",
+    "<builtin>.super",
+    "zmq.Socket.getsockopt",
+    "zmq.Socket._writable.clear",
+    "logging.getLogger.error"
+  ],
+  "zmq.Socket._writable.clear": [],
+  "gevent.sleep": [],
+  "zmq.Socket._writable.wait": [],
+  "logging.getLogger.error": [],
+  "zerorpc.gevent_zmq.Socket.recv": [
+    "zmq.Socket._readable.clear",
+    "gevent.sleep",
+    "zerorpc.gevent_zmq.Socket._on_state_changed",
+    "<builtin>.super",
+    "zmq.Socket.getsockopt",
+    "logging.getLogger.error",
+    "zmq.Socket._readable.wait"
+  ],
+  "zmq.Socket._readable.clear": [],
+  "zmq.Socket._readable.wait": [],
+  "zerorpc.decorators": [],
+  "zerorpc.decorators.DecoratorBase.__init__": [
+    "<builtin>.str",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.str": [],
+  "zerorpc.decorators.DecoratorBase.__get__": [],
+  "zerorpc.decorators.DecoratorBase.__call__": [],
+  "zerorpc.decorators.DecoratorBase._zerorpc_doc": [
+    "inspect.cleandoc"
+  ],
+  "inspect.cleandoc": [],
+  "zerorpc.decorators.DecoratorBase._zerorpc_args": [
+    "inspect.getargspec"
+  ],
+  "inspect.getargspec": [],
+  "zerorpc": [],
+  "zerorpc.exceptions": [],
+  "zerorpc.exceptions.TimeoutExpired.__init__": [
+    "<builtin>.super"
+  ],
+  "zerorpc.exceptions.RemoteError.__init__": [],
+  "zerorpc.exceptions.RemoteError.__str__": [],
+  "zerorpc.socket": [],
+  "zerorpc.socket.SocketBase.__init__": [
+    "zerorpc.events.Events.__init__",
+    "zerorpc.context.Context.get_instance"
+  ],
+  "zerorpc.context.Context.get_instance": [
+    "zerorpc.context.Context.__init__"
+  ],
+  "zerorpc.events.Events.__init__": [
+    "zerorpc.events.Receiver.__init__",
+    "zerorpc.context.Context.get_instance",
+    "zerorpc.events.SequentialReceiver.__init__",
+    "zerorpc.events.Sender.__init__",
+    "zerorpc.events.SequentialSender.__init__"
+  ],
+  "zerorpc.socket.SocketBase.close": [
+    "zerorpc.events.Events.close"
+  ],
+  "zerorpc.events.Events.close": [
+    "zerorpc.events.Receiver.close",
+    "zerorpc.events.Sender.close"
+  ],
+  "zerorpc.socket.SocketBase.connect": [
+    "zerorpc.events.Events.connect"
+  ],
+  "zerorpc.events.Events.connect": [
+    "logging.getLogger.debug",
+    "zerorpc.events.Events._resolve_endpoint"
+  ],
+  "zerorpc.socket.SocketBase.bind": [
+    "zerorpc.events.Events.bind"
+  ],
+  "zerorpc.events.Events.bind": [
+    "logging.getLogger.debug",
+    "zerorpc.events.Events._resolve_endpoint"
+  ],
+  "zerorpc.socket.SocketBase.disconnect": [
+    "zerorpc.events.Events.disconnect"
+  ],
+  "zerorpc.events.Events.disconnect": [
+    "logging.getLogger.debug",
+    "zerorpc.events.Events._resolve_endpoint"
+  ],
+  "zerorpc.socket.SocketBase.debug": [],
+  "zerorpc.events": [
+    "logging.getLogger",
+    "<builtin>.setattr"
+  ],
+  "zerorpc.events.get_pyzmq_frame_buffer": [],
+  "<builtin>.setattr": [],
+  "zerorpc.events.SequentialSender.__init__": [],
+  "zerorpc.events.SequentialSender._send": [
+    "<builtin>.len",
+    "builtins.range"
+  ],
+  "<builtin>.len": [],
+  "builtins.range": [],
+  "zerorpc.events.SequentialSender.__call__": [
+    "zerorpc.events.SequentialSender._send",
+    "gevent.Timeout"
+  ],
+  "gevent.Timeout": [],
+  "zerorpc.events.SequentialReceiver.__init__": [],
+  "zerorpc.events.SequentialReceiver._recv": [
+    "<builtin>.len"
+  ],
+  "zerorpc.events.SequentialReceiver.__call__": [
+    "gevent.Timeout",
+    "zerorpc.events.SequentialReceiver._recv"
+  ],
+  "zerorpc.events.Sender.__init__": [
+    "gevent.queue.Channel",
+    "gevent.spawn"
+  ],
+  "gevent.queue.Channel": [],
+  "gevent.spawn": [],
+  "zerorpc.events.Sender.close": [
+    "gevent.spawn.kill"
+  ],
+  "gevent.spawn.kill": [],
+  "zerorpc.events.Sender._sender": [
+    "<builtin>.super"
+  ],
+  "zerorpc.events.Sender.__call__": [
+    "zerorpc.exceptions.TimeoutExpired.__init__",
+    "gevent.queue.Channel.put"
+  ],
+  "gevent.queue.Channel.put": [],
+  "zerorpc.events.Receiver.__init__": [
+    "gevent.queue.Channel",
+    "gevent.spawn"
+  ],
+  "zerorpc.events.Receiver.close": [
+    "gevent.spawn.kill"
+  ],
+  "zerorpc.events.Receiver._recver": [
+    "<builtin>.super",
+    "gevent.queue.Channel.put"
+  ],
+  "zerorpc.events.Receiver.__call__": [
+    "zerorpc.exceptions.TimeoutExpired.__init__",
+    "gevent.queue.Channel.get"
+  ],
+  "gevent.queue.Channel.get": [],
+  "zerorpc.events.Event.__init__": [],
+  "zerorpc.events.Event.header": [],
+  "zerorpc.events.Event.name": [],
+  "zerorpc.events.Event.args": [],
+  "zerorpc.events.Event.identity": [],
+  "zerorpc.events.Event.pack": [
+    "msgpack.Packer"
+  ],
+  "msgpack.Packer": [],
+  "zerorpc.events.Event.unpack": [
+    "msgpack.Unpacker",
+    "zerorpc.events.Event.__init__",
+    "msgpack.Unpacker.unpack",
+    "<builtin>.Exception",
+    "msgpack.Unpacker.feed",
+    "<builtin>.isinstance"
+  ],
+  "msgpack.Unpacker": [],
+  "msgpack.Unpacker.feed": [],
+  "msgpack.Unpacker.unpack": [],
+  "<builtin>.Exception": [],
+  "<builtin>.isinstance": [],
+  "zerorpc.events.Event.__str__": [
+    "builtins.str",
+    "zerorpc.events.Event.unpack",
+    "<builtin>.repr"
+  ],
+  "builtins.str": [],
+  "<builtin>.repr": [],
+  "zerorpc.events.Events.recv_is_supported": [],
+  "zerorpc.events.Events.emit_is_supported": [],
+  "zerorpc.events.Events.__del__": [
+    "zerorpc.events.Events.close"
+  ],
+  "zerorpc.events.Events.debug": [
+    "logging.getLogger.debug"
+  ],
+  "logging.getLogger.debug": [],
+  "zerorpc.events.Events._resolve_endpoint": [
+    "<builtin>.isinstance",
+    "zerorpc.events.Events._resolve_endpoint"
+  ],
+  "zerorpc.events.Events.new_event": [
+    "zerorpc.events.Event.__init__"
+  ],
+  "zerorpc.events.Events.emit_event": [
+    "zerorpc.events.Event.pack",
+    "<builtin>.list",
+    "zerorpc.events.Sender.__init__",
+    "logging.getLogger.debug",
+    "zerorpc.events.SequentialSender.__init__"
+  ],
+  "<builtin>.list": [],
+  "zerorpc.events.Events.recv": [
+    "<builtin>.len",
+    "zerorpc.events.Receiver.__init__",
+    "zerorpc.events.get_pyzmq_frame_buffer",
+    "zerorpc.events.Event.unpack",
+    "zerorpc.events.SequentialReceiver.__init__",
+    "logging.getLogger.debug"
+  ],
+  "zerorpc.events.Events.setsockopt": [],
+  "zerorpc.events.Events.context": [],
+  "zerorpc.channel_base": [],
+  "zerorpc.channel_base.ChannelBase.context": [
+    "<builtin>.NotImplementedError"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "zerorpc.channel_base.ChannelBase.recv_is_supported": [
+    "<builtin>.NotImplementedError"
+  ],
+  "zerorpc.channel_base.ChannelBase.emit_is_supported": [
+    "<builtin>.NotImplementedError"
+  ],
+  "zerorpc.channel_base.ChannelBase.close": [
+    "<builtin>.NotImplementedError"
+  ],
+  "zerorpc.channel_base.ChannelBase.new_event": [
+    "<builtin>.NotImplementedError"
+  ],
+  "zerorpc.channel_base.ChannelBase.emit_event": [
+    "<builtin>.NotImplementedError"
+  ],
+  "zerorpc.channel_base.ChannelBase.emit": [
+    "zerorpc.channel.ChannelMultiplexer.new_event",
+    "zerorpc.channel_base.ChannelBase.emit_event",
+    "zerorpc.channel.ChannelMultiplexer.emit_event",
+    "zerorpc.events.Events.new_event",
+    "zerorpc.channel.BufferedChannel.new_event",
+    "zerorpc.channel.BufferedChannel.emit_event",
+    "zerorpc.channel.Channel.emit_event",
+    "zerorpc.channel_base.ChannelBase.new_event",
+    "zerorpc.heartbeat.HeartBeatOnChannel.emit_event",
+    "zerorpc.heartbeat.HeartBeatOnChannel.new_event",
+    "zerorpc.events.Events.emit_event",
+    "zerorpc.channel.Channel.new_event"
+  ],
+  "zerorpc.channel.BufferedChannel.new_event": [
+    "zerorpc.heartbeat.HeartBeatOnChannel.new_event"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.new_event": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel.new_event": [
+    "zerorpc.channel.Channel.new_event"
+  ],
+  "zerorpc.channel.Channel.new_event": [
+    "zerorpc.channel.ChannelMultiplexer.new_event",
+    "logging.getLogger.debug"
+  ],
+  "zerorpc.channel.BufferedChannel.emit_event": [
+    "zerorpc.heartbeat.HeartBeatOnChannel.emit_event"
+  ],
+  "zerorpc.channel.Channel.emit_event": [
+    "zerorpc.channel.ChannelMultiplexer.emit_event"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.emit_event": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel.emit_event": [
+    "zerorpc.channel.Channel.emit_event",
+    "zerorpc.heartbeat.HeartBeatOnChannel._lost_remote_exception"
+  ],
+  "zerorpc.channel_base.ChannelBase.recv": [
+    "<builtin>.NotImplementedError"
+  ],
+  "zerorpc.context": [],
+  "zerorpc.context.Context.__init__": [
+    "<builtin>.super",
+    "zerorpc.context.Context._reset_msgid"
+  ],
+  "zerorpc.context.Context._reset_msgid": [
+    "random.randrange",
+    "uuid.uuid4",
+    "future.utils.tobytes"
+  ],
+  "zerorpc.context.Context._middlewares": [],
+  "zerorpc.context.Context._hooks": [],
+  "zerorpc.context.Context._msg_id_base": [],
+  "zerorpc.context.Context._msg_id_counter": [],
+  "zerorpc.context.Context._msg_id_counter_stop": [],
+  "uuid.uuid4": [],
+  "future.utils.tobytes": [],
+  "random.randrange": [],
+  "zerorpc.context.Context.new_msgid": [
+    "zerorpc.context.Context._reset_msgid",
+    "future.utils.tobytes"
+  ],
+  "zerorpc.context.Context.register_middleware": [
+    "<builtin>.getattr"
+  ],
+  "zerorpc.context.Context.hook_resolve_endpoint": [],
+  "zerorpc.context.Context.hook_load_task_context": [],
+  "zerorpc.context.Context.hook_get_task_context": [],
+  "zerorpc.context.Context.hook_server_before_exec": [],
+  "zerorpc.context.Context.hook_server_after_exec": [],
+  "zerorpc.context.Context.hook_server_inspect_exception": [
+    "zerorpc.context.Context.hook_get_task_context"
+  ],
+  "zerorpc.context.Context.hook_client_handle_remote_error": [],
+  "zerorpc.context.Context.hook_client_before_request": [],
+  "zerorpc.context.Context.hook_client_after_request": [],
+  "zerorpc.context.Context.hook_client_patterns_list": [],
+  "zerorpc.channel": [
+    "logging.getLogger"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.__init__": [
+    "gevent.queue.Queue",
+    "gevent.spawn"
+  ],
+  "gevent.queue.Queue": [],
+  "zerorpc.channel.ChannelMultiplexer.recv_is_supported": [],
+  "zerorpc.channel.ChannelMultiplexer.emit_is_supported": [],
+  "zerorpc.channel.ChannelMultiplexer.close": [
+    "gevent.spawn.kill"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.recv": [
+    "gevent.queue.Queue.get"
+  ],
+  "gevent.queue.Queue.get": [],
+  "zerorpc.channel.ChannelMultiplexer._channel_dispatcher": [
+    "gevent.queue.Queue.put",
+    "logging.getLogger.exception",
+    "logging.getLogger.warning"
+  ],
+  "logging.getLogger.exception": [],
+  "logging.getLogger.warning": [],
+  "gevent.queue.Queue.put": [],
+  "zerorpc.channel.ChannelMultiplexer.channel": [
+    "zerorpc.channel.Channel.__init__",
+    "gevent.spawn"
+  ],
+  "zerorpc.channel.Channel.__init__": [
+    "gevent.queue.Queue",
+    "gevent.queue.Queue.put",
+    "logging.getLogger.debug"
+  ],
+  "zerorpc.channel.ChannelMultiplexer.active_channels": [],
+  "zerorpc.channel.ChannelMultiplexer.context": [],
+  "zerorpc.channel.Channel.recv_is_supported": [],
+  "zerorpc.channel.Channel.emit_is_supported": [],
+  "zerorpc.channel.Channel.close": [
+    "logging.getLogger.debug"
+  ],
+  "zerorpc.channel.Channel.recv": [
+    "zerorpc.exceptions.TimeoutExpired.__init__",
+    "gevent.queue.Queue.get"
+  ],
+  "zerorpc.channel.Channel.context": [],
+  "zerorpc.channel.BufferedChannel.__init__": [
+    "gevent.queue.Queue",
+    "gevent.event.Event",
+    "gevent.spawn"
+  ],
+  "zerorpc.channel.BufferedChannel.recv_is_supported": [],
+  "zerorpc.channel.BufferedChannel.emit_is_supported": [],
+  "zerorpc.channel.BufferedChannel.on_close_if": [],
+  "zerorpc.channel.BufferedChannel.close": [
+    "gevent.spawn.kill",
+    "zerorpc.heartbeat.HeartBeatOnChannel.close"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.close": [
+    "zerorpc.channel.Channel.close",
+    "gevent.spawn.kill"
+  ],
+  "zerorpc.channel.BufferedChannel._recver": [
+    "logging.getLogger.exception",
+    "gevent.queue.Queue.qsize",
+    "<builtin>.RuntimeError",
+    "<builtin>.int",
+    "gevent.queue.Queue.put",
+    "zerorpc.heartbeat.HeartBeatOnChannel.recv",
+    "zerorpc.channel.BufferedChannel.close"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.recv": [
+    "zerorpc.exceptions.TimeoutExpired.__init__",
+    "gevent.queue.Channel.get",
+    "zerorpc.heartbeat.HeartBeatOnChannel._lost_remote_exception"
+  ],
+  "<builtin>.int": [],
+  "gevent.queue.Queue.qsize": [],
+  "<builtin>.RuntimeError": [],
+  "zerorpc.channel.BufferedChannel._request_data": [
+    "zerorpc.channel_base.ChannelBase.emit"
+  ],
+  "zerorpc.channel.BufferedChannel.recv": [
+    "zerorpc.exceptions.TimeoutExpired.__init__",
+    "gevent.queue.Queue.get",
+    "zerorpc.channel.BufferedChannel._request_data"
+  ],
+  "zerorpc.channel.BufferedChannel.channel": [],
+  "zerorpc.channel.BufferedChannel.context": [],
+  "zerorpc.core": [
+    "logging.getLogger"
+  ],
+  "zerorpc.core.ServerBase.__init__": [
+    "zerorpc.decorators.DecoratorBase.__init__",
+    "zerorpc.context.Context.get_instance",
+    "zerorpc.channel.ChannelMultiplexer.__init__",
+    "gevent.pool.Pool",
+    "zerorpc.core.ServerBase._inject_builtins",
+    "zerorpc.core.ServerBase._extract_name",
+    "future.utils.iteritems",
+    "<builtin>.isinstance",
+    "zerorpc.core.ServerBase._filter_methods"
+  ],
+  "zerorpc.core.ServerBase._extract_name": [
+    "<builtin>.repr",
+    "<builtin>.getattr",
+    "<builtin>.type"
+  ],
+  "gevent.pool.Pool": [],
+  "zerorpc.core.ServerBase._filter_methods": [
+    "<builtin>.dir",
+    "<builtin>.set",
+    "<builtin>.dict",
+    "<builtin>.getattr",
+    "<builtin>.callable",
+    "<builtin>.isinstance"
+  ],
+  "zerorpc.core.ServerBase._inject_builtins": [],
+  "future.utils.iteritems": [],
+  "<builtin>.dir": [],
+  "<builtin>.set": [],
+  "<builtin>.callable": [],
+  "<builtin>.dict": [],
+  "<builtin>.type": [],
+  "zerorpc.core.ServerBase.close": [
+    "zerorpc.channel.ChannelMultiplexer.close",
+    "zerorpc.core.ServerBase.stop"
+  ],
+  "zerorpc.core.ServerBase.stop": [
+    "gevent.spawn.kill"
+  ],
+  "zerorpc.core.ServerBase._format_args_spec": [
+    "<builtin>.dict",
+    "<builtin>.reversed",
+    "builtins.zip"
+  ],
+  "<builtin>.reversed": [],
+  "builtins.zip": [],
+  "zerorpc.core.ServerBase._zerorpc_inspect": [
+    "future.utils.iteritems",
+    "<builtin>.dict",
+    "zerorpc.core.ServerBase._format_args_spec"
+  ],
+  "zerorpc.core.ServerBase._inject_builtins.<lambda1>": [],
+  "zerorpc.core.ServerBase._inject_builtins.<lambda2>": [],
+  "zerorpc.core.ServerBase._inject_builtins.<lambda3>": [],
+  "zerorpc.core.ServerBase._inject_builtins.<lambda4>": [],
+  "zerorpc.core.ServerBase._inject_builtins.<lambda5>": [],
+  "zerorpc.core.ServerBase.__call__": [
+    "<builtin>.NameError"
+  ],
+  "<builtin>.NameError": [],
+  "zerorpc.core.ServerBase._print_traceback": [
+    "builtins.str",
+    "traceback.format_exc",
+    "logging.getLogger.exception",
+    "<builtin>.repr"
+  ],
+  "traceback.format_exc": [],
+  "zerorpc.core.ServerBase._async_task": [
+    "<builtin>.NameError",
+    "zerorpc.channel.ChannelMultiplexer.channel",
+    "zerorpc.channel.BufferedChannel.__init__",
+    "zerorpc.core.ServerBase._print_traceback",
+    "<builtin>.list",
+    "sys.exc_info",
+    "zerorpc.heartbeat.HeartBeatOnChannel.__init__",
+    "zerorpc.channel.BufferedChannel.new_event",
+    "zerorpc.channel.BufferedChannel.emit_event",
+    "zerorpc.channel.BufferedChannel.recv",
+    "zerorpc.channel.BufferedChannel.close"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.__init__": [
+    "gevent.queue.Channel",
+    "gevent.spawn",
+    "gevent.getcurrent",
+    "zerorpc.heartbeat.HeartBeatOnChannel._start_heartbeat"
+  ],
+  "sys.exc_info": [],
+  "zerorpc.core.ServerBase._acceptor": [
+    "zerorpc.channel.ChannelMultiplexer.recv",
+    "gevent.pool.Pool.spawn"
+  ],
+  "gevent.pool.Pool.spawn": [],
+  "zerorpc.core.ServerBase.run": [
+    "gevent.pool.Pool.join",
+    "gevent.spawn",
+    "gevent.spawn.get",
+    "zerorpc.core.ServerBase.stop"
+  ],
+  "gevent.spawn.get": [],
+  "gevent.pool.Pool.join": [],
+  "zerorpc.core.ClientBase.__init__": [
+    "zerorpc.channel.ChannelMultiplexer.__init__",
+    "zerorpc.context.Context.get_instance"
+  ],
+  "zerorpc.core.ClientBase.close": [
+    "zerorpc.channel.ChannelMultiplexer.close"
+  ],
+  "zerorpc.core.ClientBase._handle_remote_error": [
+    "zerorpc.exceptions.RemoteError.__init__"
+  ],
+  "zerorpc.core.ClientBase._select_pattern": [],
+  "zerorpc.core.ClientBase._process_response": [
+    "zerorpc.core.ClientBase._process_response.raise_error",
+    "zerorpc.core.ClientBase._select_pattern",
+    "zerorpc.exceptions.TimeoutExpired.__init__",
+    "<builtin>.RuntimeError",
+    "zerorpc.channel.BufferedChannel.recv"
+  ],
+  "zerorpc.core.ClientBase._process_response.raise_error": [
+    "zerorpc.exceptions.TimeoutExpired.__init__",
+    "zerorpc.channel.BufferedChannel.close"
+  ],
+  "zerorpc.core.ClientBase.__call__": [
+    "gevent.event.AsyncResult",
+    "zerorpc.channel.ChannelMultiplexer.channel",
+    "zerorpc.channel.BufferedChannel.__init__",
+    "zerorpc.core.ClientBase._process_response",
+    "gevent.spawn",
+    "zerorpc.channel.BufferedChannel.new_event",
+    "zerorpc.heartbeat.HeartBeatOnChannel.__init__",
+    "zerorpc.channel.BufferedChannel.emit_event",
+    "gevent.spawn.link",
+    "<builtin>.isinstance"
+  ],
+  "gevent.event.AsyncResult": [],
+  "gevent.spawn.link": [],
+  "zerorpc.core.ClientBase.__getattr__": [],
+  "zerorpc.core.ClientBase.__getattr__.<lambda1>": [
+    "zerorpc.core.ClientBase.__init__"
+  ],
+  "zerorpc.core.Server.__init__": [
+    "zerorpc.socket.SocketBase.__init__",
+    "zerorpc.core.ServerBase.__init__",
+    "zerorpc.core.ServerBase._filter_methods",
+    "zerorpc.core.ServerBase._extract_name"
+  ],
+  "zerorpc.core.Server.close": [
+    "zerorpc.socket.SocketBase.close",
+    "zerorpc.core.Client.close",
+    "zerorpc.core.ServerBase.close"
+  ],
+  "zerorpc.core.Client.close": [
+    "zerorpc.socket.SocketBase.close",
+    "zerorpc.core.Client.close",
+    "zerorpc.core.ClientBase.close"
+  ],
+  "zerorpc.core.Client.__init__": [
+    "zerorpc.socket.SocketBase.__init__",
+    "zerorpc.core.ClientBase.__init__",
+    "zerorpc.socket.SocketBase.connect"
+  ],
+  "zerorpc.core.Pusher.__init__": [
+    "<builtin>.super"
+  ],
+  "zerorpc.core.Pusher.__call__": [
+    "zerorpc.channel_base.ChannelBase.emit"
+  ],
+  "zerorpc.core.Pusher.__getattr__": [],
+  "zerorpc.core.Pusher.__getattr__.<lambda1>": [
+    "zerorpc.core.Pusher.__init__"
+  ],
+  "zerorpc.core.Puller.__init__": [
+    "<builtin>.super",
+    "zerorpc.core.ServerBase._filter_methods"
+  ],
+  "zerorpc.core.Puller.close": [
+    "<builtin>.super",
+    "zerorpc.core.Puller.stop"
+  ],
+  "zerorpc.core.Puller.stop": [
+    "gevent.spawn.kill"
+  ],
+  "zerorpc.core.Puller.__call__": [
+    "<builtin>.NameError"
+  ],
+  "zerorpc.core.Puller._receiver": [
+    "sys.exc_info",
+    "zerorpc.events.Events.recv",
+    "<builtin>.NameError",
+    "logging.getLogger.exception"
+  ],
+  "zerorpc.core.Puller.run": [
+    "gevent.spawn",
+    "gevent.spawn.get"
+  ],
+  "zerorpc.core.Publisher.__init__": [
+    "<builtin>.super"
+  ],
+  "zerorpc.core.Subscriber.__init__": [
+    "<builtin>.super",
+    "zerorpc.events.Events.setsockopt"
+  ],
+  "zerorpc.core.fork_task_context": [
+    "zerorpc.context.Context.get_instance"
+  ],
+  "zerorpc.core.fork_task_context.wrapped": [],
+  "zerorpc.heartbeat": [],
+  "gevent.getcurrent": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel._start_heartbeat": [
+    "gevent.spawn"
+  ],
+  "zerorpc.heartbeat.HeartBeatOnChannel.recv_is_supported": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel.emit_is_supported": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel._heartbeat": [
+    "gevent.sleep",
+    "zerorpc.channel_base.ChannelBase.emit",
+    "gevent.kill",
+    "time.time",
+    "zerorpc.heartbeat.HeartBeatOnChannel._lost_remote_exception"
+  ],
+  "time.time": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel._lost_remote_exception": [],
+  "gevent.kill": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel._recver": [
+    "time.time",
+    "gevent.queue.Queue.get.header.get",
+    "zerorpc.channel.Channel.recv",
+    "zerorpc.heartbeat.HeartBeatOnChannel._start_heartbeat",
+    "gevent.queue.Channel.put"
+  ],
+  "gevent.queue.Queue.get.header.get": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel.channel": [],
+  "zerorpc.heartbeat.HeartBeatOnChannel.context": [],
+  "zerorpc.version": [],
+  "zerorpc.patterns": [],
+  "zerorpc.patterns.ReqRep.process_call": [],
+  "zerorpc.patterns.ReqRep.accept_answer": [],
+  "zerorpc.patterns.ReqRep.process_answer": [],
+  "zerorpc.patterns.ReqStream.process_call": [
+    "<builtin>.iter"
+  ],
+  "<builtin>.iter": [],
+  "zerorpc.patterns.ReqStream.accept_answer": [],
+  "zerorpc.patterns.ReqStream.process_answer": [
+    "zerorpc.patterns.ReqStream.process_answer.iterator"
+  ],
+  "zerorpc.patterns.ReqStream.process_answer.is_stream_done": [],
+  "zerorpc.patterns.ReqStream.process_answer.iterator": [],
+  "zerorpc.cli": [
+    "argparse.ArgumentParser.add_argument",
+    "argparse.ArgumentParser.add_mutually_exclusive_group",
+    "argparse.ArgumentParser.add_mutually_exclusive_group.add_argument",
+    "argparse.ArgumentParser"
+  ],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_mutually_exclusive_group": [],
+  "argparse.ArgumentParser.add_mutually_exclusive_group.add_argument": [],
+  "argparse.ArgumentParser.add_argument": [],
+  "zerorpc.cli.setup_links": [
+    "zerorpc.socket.SocketBase.bind",
+    "<builtin>.print",
+    "zerorpc.socket.SocketBase.connect"
+  ],
+  "<builtin>.print": [],
+  "zerorpc.cli.run_server": [
+    "os.getcwd",
+    "<builtin>.print",
+    "zerorpc.core.ServerBase.run",
+    "<builtin>.__import__",
+    "zerorpc.cli.setup_links",
+    "argparse.ArgumentParser.parse_args.command.rsplit",
+    "<builtin>.getattr",
+    "<builtin>.callable",
+    "sys.path.insert"
+  ],
+  "os.getcwd": [],
+  "sys.path.insert": [],
+  "argparse.ArgumentParser.parse_args.command.rsplit": [],
+  "<builtin>.__import__": [],
+  "zerorpc.cli.zerorpc_inspect_legacy": [
+    "<builtin>.len",
+    "zerorpc.cli.zerorpc_inspect_legacy.remote_detailled_methods",
+    "<builtin>.max",
+    "inspect.formatargspec"
+  ],
+  "zerorpc.cli.zerorpc_inspect_legacy.remote_detailled_methods": [],
+  "<builtin>.max": [],
+  "inspect.formatargspec": [],
+  "zerorpc.cli.zerorpc_inspect_python_argspecs": [
+    "<builtin>.len",
+    "<builtin>.max",
+    "zerorpc.cli.zerorpc_inspect_python_argspecs.format_method"
+  ],
+  "zerorpc.cli.zerorpc_inspect_python_argspecs.format_method": [
+    "inspect.formatargspec"
+  ],
+  "zerorpc.cli.zerorpc_inspect_generic": [
+    "zerorpc.cli.zerorpc_inspect_generic.format_method",
+    "<builtin>.max",
+    "<builtin>.len"
+  ],
+  "zerorpc.cli.zerorpc_inspect_generic.format_method": [
+    "builtins.map"
+  ],
+  "zerorpc.cli.zerorpc_inspect_generic.format_method.format_arg": [],
+  "builtins.map": [],
+  "zerorpc.cli.zerorpc_inspect": [
+    "<builtin>.isinstance",
+    "zerorpc.cli.zerorpc_inspect_legacy",
+    "zerorpc.cli.zerorpc_inspect_generic",
+    "zerorpc.cli.zerorpc_inspect_python_argspecs"
+  ],
+  "zerorpc.cli.run_client": [
+    "<builtin>.print",
+    "zerorpc.cli.setup_links",
+    "json.dump",
+    "pprint.pprint",
+    "zerorpc.core.Client.__init__",
+    "sys.stdout.write",
+    "<builtin>.isinstance",
+    "zerorpc.cli.zerorpc_inspect",
+    "json.loads"
+  ],
+  "json.loads": [],
+  "json.dump": [],
+  "pprint.pprint": [],
+  "sys.stdout.write": [],
+  "zerorpc.cli.main": [
+    "argparse.ArgumentParser.print_help",
+    "logging.getLogger",
+    "logging.basicConfig",
+    "argparse.ArgumentParser.parse_args.params.insert",
+    "argparse.ArgumentParser.parse_args",
+    "zerorpc.cli.run_client",
+    "logging.getLogger.setLevel",
+    "zerorpc.cli.run_server"
+  ],
+  "logging.basicConfig": [],
+  "argparse.ArgumentParser.parse_args": [],
+  "logging.getLogger.setLevel": [],
+  "argparse.ArgumentParser.parse_args.params.insert": [],
+  "argparse.ArgumentParser.print_help": []
+}

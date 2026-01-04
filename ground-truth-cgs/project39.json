@@ -1,0 +1,9 @@
+{
+  "pypdf._codecs.adobe_glyphs": [
+    "pypdf._codecs.adobe_glyphs._complete"
+  ],
+  "pypdf._codecs.adobe_glyphs._complete": [
+    "builtins.range",
+    "builtins.chr"
+  ]
+}

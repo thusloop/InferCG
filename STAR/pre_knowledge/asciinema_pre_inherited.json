@@ -1,0 +1,1418 @@
+{
+    "asciinema.api.APIError": {
+        "site": 11,
+        "inherited": [],
+        "method": []
+    },
+    "asciinema.api.Api": {
+        "site": 15,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "url",
+                    "user",
+                    "install_id",
+                    "http_adapter"
+                ],
+                "len_defaults": 1,
+                "property": false,
+                "site": 17,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            },
+            {
+                "name": "hostname",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 23,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            },
+            {
+                "name": "auth_url",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 26,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            },
+            {
+                "name": "upload_url",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 29,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            },
+            {
+                "name": "upload_asciicast",
+                "args": [
+                    "self",
+                    "path"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 32,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            },
+            {
+                "name": "_headers",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 55,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            },
+            {
+                "name": "_user_agent",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 58,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            },
+            {
+                "name": "_handle_error",
+                "args": [
+                    "self",
+                    "status",
+                    "body"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 67,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\api.py"
+            }
+        ]
+    },
+    "asciinema.async_worker.async_worker": {
+        "site": 12,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 14,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\async_worker.py"
+            },
+            {
+                "name": "__enter__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 17,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\async_worker.py"
+            },
+            {
+                "name": "__exit__",
+                "args": [
+                    "self",
+                    "exc_type",
+                    "exc_value",
+                    "exc_traceback"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 22,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\async_worker.py"
+            },
+            {
+                "name": "enqueue",
+                "args": [
+                    "self",
+                    "payload"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 26,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\async_worker.py"
+            },
+            {
+                "name": "run",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 29,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\async_worker.py"
+            }
+        ]
+    },
+    "asciinema.config.ConfigError": {
+        "site": 8,
+        "inherited": [],
+        "method": []
+    },
+    "asciinema.config.Config": {
+        "site": 16,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "config_home",
+                    "env"
+                ],
+                "len_defaults": 1,
+                "property": false,
+                "site": 18,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "upgrade",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 26,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "__read_install_id",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 40,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "__gen_install_id",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 46,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "__save_install_id",
+                "args": [
+                    "self",
+                    "id"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 49,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "__create_config_home",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 55,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "__api_token",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 59,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "__user_token",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 65,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "install_id",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 72,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "api_url",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 81,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "record_stdin",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 88,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "record_command",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 92,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "record_env",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 96,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "record_idle_time_limit",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 100,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "record_yes",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 105,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "record_quiet",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 109,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "play_idle_time_limit",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 113,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "play_speed",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 118,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "notifications_enabled",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 122,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            },
+            {
+                "name": "notifications_command",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 126,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\config.py"
+            }
+        ]
+    },
+    "asciinema.http_adapter.HTTPConnectionError": {
+        "site": 1,
+        "inherited": [],
+        "method": []
+    },
+    "asciinema.notifier.Notifier": {
+        "site": 6,
+        "inherited": [],
+        "method": [
+            {
+                "name": "is_available",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 7,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            },
+            {
+                "name": "notify",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 10,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            },
+            {
+                "name": "get_icon_path",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 15,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            }
+        ]
+    },
+    "asciinema.notifier.AppleScriptNotifier": {
+        "site": 22,
+        "inherited": [
+            "asciinema.notifier.Notifier"
+        ],
+        "method": [
+            {
+                "name": "args",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 25,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            }
+        ]
+    },
+    "asciinema.notifier.LibNotifyNotifier": {
+        "site": 30,
+        "inherited": [
+            "asciinema.notifier.Notifier"
+        ],
+        "method": [
+            {
+                "name": "args",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 33,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            }
+        ]
+    },
+    "asciinema.notifier.TerminalNotifier": {
+        "site": 42,
+        "inherited": [
+            "asciinema.notifier.Notifier"
+        ],
+        "method": [
+            {
+                "name": "args",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 45,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            }
+        ]
+    },
+    "asciinema.notifier.CustomCommandNotifier": {
+        "site": 54,
+        "inherited": [
+            "asciinema.notifier.Notifier"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "command"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 55,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            },
+            {
+                "name": "notify",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 59,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            }
+        ]
+    },
+    "asciinema.notifier.NoopNotifier": {
+        "site": 67,
+        "inherited": [],
+        "method": [
+            {
+                "name": "notify",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 68,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\notifier.py"
+            }
+        ]
+    },
+    "asciinema.player.Player": {
+        "site": 9,
+        "inherited": [],
+        "method": [
+            {
+                "name": "play",
+                "args": [
+                    "self",
+                    "asciicast",
+                    "idle_time_limit",
+                    "speed"
+                ],
+                "len_defaults": 2,
+                "property": false,
+                "site": 11,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\player.py"
+            },
+            {
+                "name": "_play",
+                "args": [
+                    "self",
+                    "asciicast",
+                    "idle_time_limit",
+                    "speed",
+                    "stdin"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 19,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\player.py"
+            }
+        ]
+    },
+    "asciinema.recorder.async_writer": {
+        "site": 59,
+        "inherited": [
+            "asciinema.async_worker.async_worker"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "writer",
+                    "path",
+                    "metadata",
+                    "append"
+                ],
+                "len_defaults": 1,
+                "property": false,
+                "site": 60,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\recorder.py"
+            },
+            {
+                "name": "write_stdin",
+                "args": [
+                    "self",
+                    "ts",
+                    "data"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 67,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\recorder.py"
+            },
+            {
+                "name": "write_stdout",
+                "args": [
+                    "self",
+                    "ts",
+                    "data"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 70,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\recorder.py"
+            },
+            {
+                "name": "run",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 73,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\recorder.py"
+            }
+        ]
+    },
+    "asciinema.recorder.async_notifier": {
+        "site": 84,
+        "inherited": [
+            "asciinema.async_worker.async_worker"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "notifier"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 85,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\recorder.py"
+            },
+            {
+                "name": "notify",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 89,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\recorder.py"
+            },
+            {
+                "name": "perform",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 92,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\recorder.py"
+            }
+        ]
+    },
+    "asciinema.term.raw": {
+        "site": 7,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "fd"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 8,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\term.py"
+            },
+            {
+                "name": "__enter__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 12,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\term.py"
+            },
+            {
+                "name": "__exit__",
+                "args": [
+                    "self",
+                    "type",
+                    "value",
+                    "traceback"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 20,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\term.py"
+            }
+        ]
+    },
+    "asciinema.urllib_http_adapter.MultipartFormdataEncoder": {
+        "site": 13,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 14,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\urllib_http_adapter.py"
+            },
+            {
+                "name": "u",
+                "args": [
+                    "cls",
+                    "s"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 19,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\urllib_http_adapter.py"
+            },
+            {
+                "name": "iter",
+                "args": [
+                    "self",
+                    "fields",
+                    "files"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 24,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\urllib_http_adapter.py"
+            },
+            {
+                "name": "encode",
+                "args": [
+                    "self",
+                    "fields",
+                    "files"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 53,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\urllib_http_adapter.py"
+            }
+        ]
+    },
+    "asciinema.urllib_http_adapter.URLLibHttpAdapter": {
+        "site": 60,
+        "inherited": [],
+        "method": [
+            {
+                "name": "post",
+                "args": [
+                    "self",
+                    "url",
+                    "fields",
+                    "files",
+                    "headers",
+                    "username",
+                    "password"
+                ],
+                "len_defaults": 5,
+                "property": false,
+                "site": 62,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\urllib_http_adapter.py"
+            },
+            {
+                "name": "_parse_headers",
+                "args": [
+                    "self",
+                    "response"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 89,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\urllib_http_adapter.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.raw.writer": {
+        "site": 4,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "path",
+                    "metadata",
+                    "append",
+                    "buffering"
+                ],
+                "len_defaults": 3,
+                "property": false,
+                "site": 6,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\raw.py"
+            },
+            {
+                "name": "__enter__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 14,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\raw.py"
+            },
+            {
+                "name": "__exit__",
+                "args": [
+                    "self",
+                    "exc_type",
+                    "exc_value",
+                    "exc_traceback"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 18,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\raw.py"
+            },
+            {
+                "name": "write_stdout",
+                "args": [
+                    "self",
+                    "ts",
+                    "data"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 21,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\raw.py"
+            },
+            {
+                "name": "write_stdin",
+                "args": [
+                    "self",
+                    "ts",
+                    "data"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 24,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\raw.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.v1.LoadError": {
+        "site": 13,
+        "inherited": [],
+        "method": []
+    },
+    "asciinema.asciicast.v1.Asciicast": {
+        "site": 17,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "attrs"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 19,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            },
+            {
+                "name": "v2_header",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": true,
+                "site": 25,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            },
+            {
+                "name": "__stdout_events",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 30,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            },
+            {
+                "name": "events",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 34,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            },
+            {
+                "name": "stdout_events",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 37,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.v1.open_from_file": {
+        "site": 41,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "first_line",
+                    "file"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 44,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            },
+            {
+                "name": "__enter__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 48,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            },
+            {
+                "name": "__exit__",
+                "args": [
+                    "self",
+                    "exc_type",
+                    "exc_value",
+                    "exc_traceback"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 59,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v1.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.v2.LoadError": {
+        "site": 12,
+        "inherited": [],
+        "method": []
+    },
+    "asciinema.asciicast.v2.Asciicast": {
+        "site": 16,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "f",
+                    "header"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 18,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "events",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 24,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "stdout_events",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 28,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.v2.open_from_file": {
+        "site": 38,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "first_line",
+                    "file"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 41,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "__enter__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 45,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "__exit__",
+                "args": [
+                    "self",
+                    "exc_type",
+                    "exc_value",
+                    "exc_traceback"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 55,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.v2.writer": {
+        "site": 83,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "path",
+                    "metadata",
+                    "append",
+                    "buffering",
+                    "width",
+                    "height"
+                ],
+                "len_defaults": 5,
+                "property": false,
+                "site": 85,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "__enter__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 98,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "__exit__",
+                "args": [
+                    "self",
+                    "exc_type",
+                    "exc_value",
+                    "exc_traceback"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 106,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "write_stdout",
+                "args": [
+                    "self",
+                    "ts",
+                    "data"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 109,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "write_stdin",
+                "args": [
+                    "self",
+                    "ts",
+                    "data"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 115,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "__write_event",
+                "args": [
+                    "self",
+                    "ts",
+                    "etype",
+                    "data"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 121,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            },
+            {
+                "name": "__write_line",
+                "args": [
+                    "self",
+                    "obj"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 124,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\v2.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.LoadError": {
+        "site": 14,
+        "inherited": [],
+        "method": []
+    },
+    "asciinema.asciicast.Parser": {
+        "site": 18,
+        "inherited": [
+            "html.parser.HTMLParser"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 19,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\__init__.py"
+            },
+            {
+                "name": "handle_starttag",
+                "args": [
+                    "self",
+                    "tag",
+                    "attrs_list"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 23,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\__init__.py"
+            }
+        ]
+    },
+    "asciinema.asciicast.open_from_url": {
+        "site": 83,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "url"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 86,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\__init__.py"
+            },
+            {
+                "name": "__enter__",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 89,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\__init__.py"
+            },
+            {
+                "name": "__exit__",
+                "args": [
+                    "self",
+                    "exc_type",
+                    "exc_value",
+                    "exc_traceback"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 107,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\asciicast\\__init__.py"
+            }
+        ]
+    },
+    "asciinema.commands.auth.AuthCommand": {
+        "site": 4,
+        "inherited": [
+            "asciinema.commands.command.Command"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "args",
+                    "config",
+                    "env"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 6,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\auth.py"
+            },
+            {
+                "name": "execute",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 9,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\auth.py"
+            }
+        ]
+    },
+    "asciinema.commands.cat.CatCommand": {
+        "site": 7,
+        "inherited": [
+            "asciinema.commands.command.Command"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "args",
+                    "config",
+                    "env"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 9,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\cat.py"
+            },
+            {
+                "name": "execute",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 13,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\cat.py"
+            }
+        ]
+    },
+    "asciinema.commands.command.Command": {
+        "site": 6,
+        "inherited": [],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "args",
+                    "config",
+                    "env"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 8,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\command.py"
+            },
+            {
+                "name": "print",
+                "args": [
+                    "self",
+                    "text",
+                    "file",
+                    "end",
+                    "force"
+                ],
+                "len_defaults": 3,
+                "property": false,
+                "site": 12,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\command.py"
+            },
+            {
+                "name": "print_info",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 16,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\command.py"
+            },
+            {
+                "name": "print_warning",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 19,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\command.py"
+            },
+            {
+                "name": "print_error",
+                "args": [
+                    "self",
+                    "text"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 22,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\command.py"
+            }
+        ]
+    },
+    "asciinema.commands.play.PlayCommand": {
+        "site": 6,
+        "inherited": [
+            "asciinema.commands.command.Command"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "args",
+                    "config",
+                    "env",
+                    "player"
+                ],
+                "len_defaults": 1,
+                "property": false,
+                "site": 8,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\play.py"
+            },
+            {
+                "name": "execute",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 15,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\play.py"
+            }
+        ]
+    },
+    "asciinema.commands.record.RecordCommand": {
+        "site": 13,
+        "inherited": [
+            "asciinema.commands.command.Command"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "args",
+                    "config",
+                    "env"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 15,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\record.py"
+            },
+            {
+                "name": "execute",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 32,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\record.py"
+            }
+        ]
+    },
+    "asciinema.commands.upload.UploadCommand": {
+        "site": 5,
+        "inherited": [
+            "asciinema.commands.command.Command"
+        ],
+        "method": [
+            {
+                "name": "__init__",
+                "args": [
+                    "self",
+                    "args",
+                    "config",
+                    "env"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 7,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\upload.py"
+            },
+            {
+                "name": "execute",
+                "args": [
+                    "self"
+                ],
+                "len_defaults": 0,
+                "property": false,
+                "site": 11,
+                "filepath": "E:\\001_some_AI_code\\003_AutoExtension\\STAR\\repo\\asciinema\\asciinema\\commands\\upload.py"
+            }
+        ]
+    }
+}

@@ -1,0 +1,237 @@
+{
+  "docs.conf": [
+    "pallets_sphinx_themes.get_version",
+    "pallets_sphinx_themes.ProjectLink"
+  ],
+  "pallets_sphinx_themes.get_version": [],
+  "pallets_sphinx_themes.ProjectLink": [],
+  "blinker._utilities": [],
+  "blinker._utilities.callable": [
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.hasattr": [],
+  "blinker._utilities.defaultdict.__init__": [
+    "<builtin>.hasattr",
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.TypeError": [],
+  "blinker._utilities.defaultdict.__getitem__": [
+    "collections.defaultdict.__missing__"
+  ],
+  "collections.defaultdict.__missing__": [],
+  "blinker._utilities.defaultdict.__missing__": [
+    "collections.defaultdict.default_factory",
+    "<builtin>.KeyError"
+  ],
+  "<builtin>.KeyError": [],
+  "collections.defaultdict.default_factory": [],
+  "blinker._utilities.defaultdict.__reduce__": [
+    "collections.defaultdict.items",
+    "<builtin>.type"
+  ],
+  "<builtin>.type": [],
+  "collections.defaultdict.items": [],
+  "blinker._utilities.defaultdict.copy": [
+    "collections.defaultdict.__copy__"
+  ],
+  "collections.defaultdict.__copy__": [],
+  "blinker._utilities.defaultdict.__copy__": [
+    "<builtin>.type"
+  ],
+  "blinker._utilities.defaultdict.__deepcopy__": [
+    "collections.defaultdict.items",
+    "copy.deepcopy",
+    "<builtin>.type"
+  ],
+  "copy.deepcopy": [],
+  "blinker._utilities.defaultdict.__repr__": [],
+  "blinker._utilities._symbol.__init__": [],
+  "blinker._utilities._symbol.__reduce__": [],
+  "blinker._utilities._symbol.__repr__": [],
+  "blinker._utilities.symbol.__new__": [
+    "blinker._utilities._symbol.__init__"
+  ],
+  "blinker._utilities.hashable_identity": [
+    "<builtin>.hasattr",
+    "<builtin>.isinstance",
+    "<builtin>.id"
+  ],
+  "<builtin>.id": [],
+  "<builtin>.isinstance": [],
+  "blinker._utilities.reference": [
+    "weakref.ref.__init__",
+    "blinker._utilities.callable",
+    "<builtin>.setattr",
+    "blinker._utilities.callable_reference"
+  ],
+  "blinker._utilities.callable_reference": [
+    "<builtin>.hasattr",
+    "blinker._saferef.BoundMethodWeakref.__init__",
+    "weakref.ref.__init__"
+  ],
+  "weakref.ref.__init__": [],
+  "<builtin>.setattr": [],
+  "blinker._saferef.BoundMethodWeakref.__init__": [
+    "<builtin>.str",
+    "weakref.ref",
+    "operator.attrgetter",
+    "blinker._saferef.BoundMethodWeakref.calculate_key"
+  ],
+  "blinker._utilities.lazy_property.__init__": [],
+  "blinker._utilities.lazy_property.__get__": [
+    "<builtin>.setattr"
+  ],
+  "blinker._saferef": [
+    "operator.attrgetter"
+  ],
+  "blinker._saferef.callable": [
+    "<builtin>.hasattr"
+  ],
+  "operator.attrgetter": [],
+  "blinker._saferef.safe_ref": [
+    "<builtin>.hasattr",
+    "weakref.ref",
+    "operator.attrgetter",
+    "blinker._saferef.BoundMethodWeakref.__init__",
+    "blinker._saferef.callable"
+  ],
+  "weakref.ref": [],
+  "weakref.WeakValueDictionary": [],
+  "blinker._saferef.BoundMethodWeakref": [
+    "<builtin>.classmethod",
+    "weakref.WeakValueDictionary"
+  ],
+  "blinker._saferef.BoundMethodWeakref.__new__": [
+    "weakref.WeakValueDictionary.get",
+    "weakref.WeakValueDictionary.get.deletion_methods.append",
+    "blinker._saferef.BoundMethodWeakref.calculate_key",
+    "<builtin>.super"
+  ],
+  "blinker._saferef.BoundMethodWeakref.calculate_key": [
+    "<builtin>.id",
+    "operator.attrgetter"
+  ],
+  "weakref.WeakValueDictionary.get": [],
+  "weakref.WeakValueDictionary.get.deletion_methods.append": [],
+  "<builtin>.super": [],
+  "blinker._saferef.BoundMethodWeakref.__init__.remove": [
+    "traceback.print_exc",
+    "blinker._saferef.callable",
+    "<builtin>.print",
+    "sys.exc_info"
+  ],
+  "traceback.print_exc": [],
+  "sys.exc_info": [],
+  "<builtin>.print": [],
+  "<builtin>.str": [],
+  "<builtin>.classmethod": [],
+  "blinker._saferef.BoundMethodWeakref.__str__": [],
+  "blinker._saferef.BoundMethodWeakref.__nonzero__": [
+    "blinker._saferef.BoundMethodWeakref.__init__"
+  ],
+  "blinker._saferef.BoundMethodWeakref.__cmp__": [
+    "<builtin>.isinstance",
+    "<builtin>.type"
+  ],
+  "blinker._saferef.BoundMethodWeakref.__call__": [],
+  "blinker": [],
+  "blinker.base": [
+    "blinker.base.Signal.__init__"
+  ],
+  "blinker.base.Signal": [
+    "contextlib.contextmanager",
+    "blinker._utilities.lazy_property"
+  ],
+  "blinker._utilities.lazy_property": [],
+  "blinker.base.Signal.receiver_connected": [
+    "blinker.base.Signal.__init__"
+  ],
+  "blinker.base.Signal.__init__": [
+    "collections.defaultdict"
+  ],
+  "blinker.base.Signal.receiver_disconnected": [
+    "blinker.base.Signal.__init__"
+  ],
+  "collections.defaultdict": [],
+  "blinker.base.Signal.connect": [
+    "blinker._utilities.reference",
+    "blinker.base.Signal.disconnect",
+    "blinker._utilities.hashable_identity"
+  ],
+  "blinker.base.Signal.disconnect": [
+    "blinker.base.Signal._disconnect",
+    "blinker._utilities.hashable_identity"
+  ],
+  "blinker.base.Signal.connect_via": [],
+  "blinker.base.Signal.connect_via.decorator": [
+    "blinker.base.Signal.connect"
+  ],
+  "contextlib.contextmanager": [],
+  "blinker.base.Signal.connected_to": [
+    "blinker.base.Signal.connect",
+    "blinker.base.Signal.disconnect"
+  ],
+  "blinker.base.Signal.temporarily_connected_to": [
+    "warnings.warn",
+    "blinker.base.Signal.connected_to"
+  ],
+  "warnings.warn": [],
+  "blinker.base.Signal.send": [
+    "<builtin>.len",
+    "blinker.base.Signal.receivers_for",
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.len": [],
+  "blinker.base.Signal.receivers_for": [
+    "<builtin>.isinstance",
+    "blinker.base.Signal._disconnect",
+    "blinker._utilities.hashable_identity"
+  ],
+  "blinker.base.Signal.has_receivers_for": [
+    "blinker._utilities.hashable_identity"
+  ],
+  "blinker.base.Signal._disconnect": [
+    "collections.defaultdict.pop",
+    "collections.defaultdict.values",
+    "collections.defaultdict.values.discard"
+  ],
+  "collections.defaultdict.pop": [],
+  "collections.defaultdict.values": [],
+  "collections.defaultdict.values.discard": [],
+  "blinker.base.Signal._cleanup_receiver": [
+    "blinker.base.Signal._disconnect"
+  ],
+  "blinker.base.Signal._cleanup_sender": [
+    "collections.defaultdict.pop"
+  ],
+  "blinker.base.Signal._cleanup_bookkeeping": [
+    "<builtin>.list"
+  ],
+  "<builtin>.list": [],
+  "blinker.base.Signal._clear_state": [
+    "collections.defaultdict.clear"
+  ],
+  "collections.defaultdict.clear": [],
+  "blinker.base.NamedSignal.__init__": [
+    "blinker.base.Signal.__init__"
+  ],
+  "blinker.base.NamedSignal.__repr__": [
+    "blinker.base.NamedSignal.__repr__"
+  ],
+  "blinker.base.Namespace.signal": [
+    "blinker.base.NamedSignal.__init__"
+  ],
+  "blinker.base.WeakNamespace.signal": [
+    "blinker.base.NamedSignal.__init__",
+    "weakref.WeakValueDictionary.setdefault"
+  ],
+  "weakref.WeakValueDictionary.setdefault": [],
+  "setup": [
+    "setuptools.setup",
+    "distutils.core.setup",
+    "<builtin>.open"
+  ],
+  "<builtin>.open": [],
+  "setuptools.setup": [],
+  "distutils.core.setup": []
+}

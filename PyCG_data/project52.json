@@ -1,0 +1,4913 @@
+{
+  "setup": [
+    "setuptools.setup"
+  ],
+  "setuptools.setup": [],
+  "mezzanine.pages.apps": [],
+  "mezzanine.pages.apps.PagesConfig.ready": [],
+  "mezzanine": [],
+  "mezzanine.pages": [],
+  "mezzanine.pages.checks": [
+    "django.core.checks.register"
+  ],
+  "django.core.checks.register": [],
+  "mezzanine.pages.checks.check_context_processor": [
+    "django.core.checks.Warning",
+    "<builtin>.any"
+  ],
+  "<builtin>.any": [],
+  "django.core.checks.Warning": [],
+  "mezzanine.conf": [
+    "django.utils.module_loading.module_has_submodule",
+    "importlib.import_module",
+    "<builtin>.sorted"
+  ],
+  "mezzanine.conf.register_setting": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError",
+    "<builtin>.type",
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.TypeError": [],
+  "<builtin>.hasattr": [],
+  "<builtin>.isinstance": [],
+  "<builtin>.type": [],
+  "mezzanine.conf.Settings.<dict1>.<lambda1>": [],
+  "functools.partial": [],
+  "mezzanine.conf.Settings": [
+    "functools.partial"
+  ],
+  "mezzanine.conf.Settings._current_request": [
+    "mezzanine.core.request.current_request"
+  ],
+  "mezzanine.core.request.current_request": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.conf.Settings.use_editable": [
+    "warnings.warn",
+    "mezzanine.conf.Settings.clear_cache"
+  ],
+  "mezzanine.conf.Settings.clear_cache": [
+    "weakref.WeakKeyDictionary.pop",
+    "<builtin>.hasattr"
+  ],
+  "warnings.warn": [],
+  "weakref.WeakKeyDictionary.pop": [],
+  "mezzanine.conf.Settings._get_editable": [
+    "mezzanine.conf.Settings._load",
+    "weakref.WeakKeyDictionary",
+    "<builtin>.hasattr"
+  ],
+  "weakref.WeakKeyDictionary": [],
+  "mezzanine.conf.Settings._load": [
+    "mezzanine.conf.Settings._to_python",
+    "modeltranslation.manager.MultilingualManager.filter.delete",
+    "modeltranslation.manager.MultilingualManager.all",
+    "warnings.warn",
+    "<builtin>.hasattr",
+    "modeltranslation.manager.MultilingualManager.filter"
+  ],
+  "mezzanine.conf.Settings._to_python": [
+    "<builtin>.repr",
+    "warnings.warn"
+  ],
+  "<builtin>.repr": [],
+  "modeltranslation.manager.MultilingualManager.all": [],
+  "modeltranslation.manager.MultilingualManager.filter": [],
+  "modeltranslation.manager.MultilingualManager.filter.delete": [],
+  "mezzanine.conf.Settings.__getattr__": [
+    "mezzanine.conf.Settings._get_editable",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.getattr": [],
+  "mezzanine.conf.Settings.__setattr__": [
+    "<builtin>.setattr"
+  ],
+  "<builtin>.setattr": [],
+  "mezzanine.conf.Settings.__delattr__": [
+    "<builtin>.delattr"
+  ],
+  "<builtin>.delattr": [],
+  "mezzanine.conf.<lambda1>": [],
+  "<builtin>.sorted": [],
+  "importlib.import_module": [],
+  "django.utils.module_loading.module_has_submodule": [],
+  "mezzanine.conf.models": [],
+  "django.db.models.CharField": [],
+  "mezzanine.conf.models.Setting": [
+    "django.db.models.CharField"
+  ],
+  "django.utils.translation.gettext_lazy": [],
+  "mezzanine.conf.models.Setting.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.conf.models.Setting.__str__": [],
+  "mezzanine.core.models": [
+    "mezzanine.utils.models.get_user_model_name",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.utils.models.get_user_model_name": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.core.models.wrapped_manager": [
+    "django.db.models.Manager.__init__",
+    "modeltranslation.manager.MultilingualManager.__init__",
+    "mezzanine.core.managers.CurrentSiteManager.__init__"
+  ],
+  "django.db.models.Manager.__init__": [],
+  "modeltranslation.manager.MultilingualManager.__init__": [],
+  "mezzanine.core.managers.CurrentSiteManager.__init__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.models.SiteRelated": [
+    "django.db.models.ForeignKey",
+    "mezzanine.core.models.wrapped_manager"
+  ],
+  "django.db.models.ForeignKey": [],
+  "mezzanine.core.models.SiteRelated.save": [
+    "<builtin>.super",
+    "mezzanine.utils.sites.current_site_id"
+  ],
+  "mezzanine.utils.sites.current_site_id": [
+    "mezzanine.utils.cache.cache_get",
+    "mezzanine.utils.cache.cache_installed",
+    "<builtin>.getattr",
+    "mezzanine.core.request.current_request",
+    "django.contrib.sites.models.Site.objects.get",
+    "mezzanine.utils.cache.cache_set",
+    "<builtin>.hasattr",
+    "os.environ.get"
+  ],
+  "<builtin>.super": [],
+  "mezzanine.core.models.Slugged": [
+    "django.db.models.CharField",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.core.models.Slugged.__str__": [],
+  "mezzanine.core.models.Slugged.save": [
+    "mezzanine.core.models.Slugged.generate_unique_slug",
+    "<builtin>.super"
+  ],
+  "mezzanine.core.models.Slugged.generate_unique_slug": [
+    "mezzanine.core.models.Slugged.get_slug",
+    "mezzanine.utils.models.base_concrete_model",
+    "mezzanine.utils.urls.unique_slug"
+  ],
+  "mezzanine.utils.models.base_concrete_model": [
+    "mezzanine.utils.models._base_concrete_model",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.core.models.Slugged.get_slug": [
+    "modeltranslation.utils.build_localized_fieldname",
+    "mezzanine.utils.urls.slugify",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.utils.urls.unique_slug": [
+    "django.contrib.auth.get_user_model.objects.exclude.get",
+    "mezzanine.core.models.Slugged.generate_unique_slug.slug_qs.get"
+  ],
+  "modeltranslation.utils.build_localized_fieldname": [],
+  "mezzanine.utils.urls.slugify": [
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.core.models.Slugged.admin_link": [
+    "mezzanine.core.models.gettext",
+    "bs4.BeautifulSoup.findAll.get.replace",
+    "bs4.BeautifulSoup.findAll.get",
+    "django.db.models.Model.get_absolute_url",
+    "django.utils.html.format_html",
+    "django.utils.translation.gettext"
+  ],
+  "django.db.models.Model.get_absolute_url": [],
+  "bs4.BeautifulSoup.findAll.get": [],
+  "django.utils.translation.gettext": [],
+  "mezzanine.core.models.gettext": [],
+  "bs4.BeautifulSoup.findAll.get.replace": [],
+  "django.utils.html.format_html": [],
+  "mezzanine.core.models.MetaData": [
+    "django.db.models.BooleanField",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.TextField",
+    "django.db.models.CharField",
+    "mezzanine.generic.fields.KeywordsField.__init__"
+  ],
+  "django.db.models.TextField": [],
+  "django.db.models.BooleanField": [],
+  "mezzanine.generic.fields.KeywordsField.__init__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.models.MetaData.save": [
+    "<builtin>.super",
+    "mezzanine.core.models.MetaData.description_from_content",
+    "django.utils.html.strip_tags"
+  ],
+  "mezzanine.core.models.MetaData.description_from_content": [
+    "<builtin>.str",
+    "django.utils.translation.gettext.lower",
+    "django.db.models.Model._meta.get_fields",
+    "<builtin>.getattr",
+    "mezzanine.utils.html.TagCloser.__init__",
+    "<builtin>.isinstance",
+    "mezzanine.core.templatetags.mezzanine_tags.richtext_filters",
+    "django.utils.translation.gettext.lower.find",
+    "django.utils.safestring.mark_safe.lower.find",
+    "django.utils.safestring.mark_safe.lower"
+  ],
+  "django.utils.html.strip_tags": [],
+  "mezzanine.core.models.MetaData.meta_title": [
+    "<builtin>.str",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.str": [],
+  "django.db.models.Model._meta.get_fields": [],
+  "mezzanine.core.templatetags.mezzanine_tags.richtext_filters": [
+    "<builtin>.isinstance",
+    "warnings.warn",
+    "mezzanine.utils.importing.import_dotted_path",
+    "django.utils.safestring.mark_safe"
+  ],
+  "django.utils.translation.gettext.lower": [],
+  "django.utils.safestring.mark_safe.lower": [],
+  "django.utils.translation.gettext.lower.find": [],
+  "django.utils.safestring.mark_safe.lower.find": [],
+  "mezzanine.utils.html.TagCloser.__init__": [
+    "html.parser.HTMLParser.feed",
+    "html.parser.HTMLParser.__init__"
+  ],
+  "django.db.models.DateTimeField": [],
+  "mezzanine.core.models.TimeStamped": [
+    "django.db.models.DateTimeField"
+  ],
+  "mezzanine.core.models.TimeStamped.save": [
+    "<builtin>.super",
+    "django.utils.timezone.now"
+  ],
+  "django.utils.timezone.now": [],
+  "mezzanine.core.models.Displayable": [
+    "django.db.models.URLField",
+    "django.db.models.IntegerField",
+    "django.db.models.BooleanField",
+    "django.db.models.DateTimeField",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.core.models.wrapped_manager"
+  ],
+  "django.db.models.IntegerField": [],
+  "django.db.models.URLField": [],
+  "mezzanine.core.models.Displayable.save": [
+    "<builtin>.super",
+    "django.utils.timezone.now"
+  ],
+  "mezzanine.core.models.Displayable.get_admin_url": [
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "mezzanine.utils.urls.admin_url": [
+    "modeltranslation.manager.MultilingualManager.published.select_related.get_content_models._meta.object_name.lower",
+    "django.contrib.auth.get_user_model.get_content_models._meta.object_name.lower",
+    "django.shortcuts.get_object_or_404.get_content_model.__class__._meta.object_name.lower",
+    "django.contrib.admin.ModelAdmin.model._meta.object_name.lower",
+    "django.db.models.Model._meta.object_name.lower",
+    "django.db.models.Model.get_content_models._meta.object_name.lower",
+    "django.contrib.auth.get_user_model._meta.object_name.lower",
+    "django.urls.reverse",
+    "modeltranslation.manager.MultilingualManager.published.select_related._meta.object_name.lower"
+  ],
+  "mezzanine.core.models.Displayable.publish_date_since": [
+    "django.utils.timesince.timesince"
+  ],
+  "django.utils.timesince.timesince": [],
+  "mezzanine.core.models.Displayable.published": [
+    "django.utils.timezone.now"
+  ],
+  "mezzanine.core.models.Displayable.get_absolute_url": [
+    "<builtin>.NotImplementedError"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "mezzanine.core.models.Displayable.get_absolute_url_with_host": [
+    "mezzanine.core.models.Displayable.get_absolute_url",
+    "mezzanine.core.request.current_request"
+  ],
+  "mezzanine.core.models.Displayable.set_short_url": [
+    "mezzanine.core.models.Displayable.generate_short_url",
+    "mezzanine.core.models.Displayable.get_absolute_url_with_host",
+    "mezzanine.core.models.Displayable.save"
+  ],
+  "mezzanine.core.models.Displayable.generate_short_url": [
+    "urllib.request.urlopen.read.decode",
+    "json.loads",
+    "urllib.request.urlopen",
+    "urllib.parse.urlencode",
+    "mezzanine.core.models.Displayable.get_absolute_url_with_host",
+    "urllib.request.urlopen.read"
+  ],
+  "urllib.parse.urlencode": [],
+  "urllib.request.urlopen": [],
+  "urllib.request.urlopen.read": [],
+  "urllib.request.urlopen.read.decode": [],
+  "json.loads": [],
+  "mezzanine.core.models.Displayable._get_next_or_previous_by_publish_date": [
+    "mezzanine.utils.models.base_concrete_model"
+  ],
+  "mezzanine.core.models.Displayable.get_next_by_publish_date": [
+    "mezzanine.core.models.Displayable._get_next_or_previous_by_publish_date"
+  ],
+  "mezzanine.core.models.Displayable.get_previous_by_publish_date": [
+    "mezzanine.core.models.Displayable._get_next_or_previous_by_publish_date"
+  ],
+  "mezzanine.core.models.RichText": [
+    "django.db.models.TextField.__init__",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.db.models.TextField.__init__": [],
+  "mezzanine.core.models.OrderableBase.__new__": [
+    "<builtin>.super",
+    "<builtin>.setattr",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.core.models.Orderable": [
+    "django.db.models.IntegerField.__init__",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.db.models.IntegerField.__init__": [],
+  "mezzanine.core.models.Orderable.with_respect_to": [
+    "<builtin>.isinstance",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.core.models.Orderable.save": [
+    "<builtin>.super",
+    "mezzanine.utils.models.base_concrete_model",
+    "mezzanine.core.models.Orderable.with_respect_to"
+  ],
+  "mezzanine.core.models.Orderable.delete": [
+    "<builtin>.super",
+    "mezzanine.utils.models.base_concrete_model",
+    "django.db.models.F",
+    "mezzanine.core.models.Orderable.with_respect_to"
+  ],
+  "django.db.models.F": [],
+  "mezzanine.core.models.Orderable._get_next_or_previous_by_order": [
+    "mezzanine.utils.models.base_concrete_model",
+    "mezzanine.core.models.Orderable.with_respect_to"
+  ],
+  "mezzanine.core.models.Orderable.get_next_by_order": [
+    "mezzanine.core.models.Orderable._get_next_or_previous_by_order"
+  ],
+  "mezzanine.core.models.Orderable.get_previous_by_order": [
+    "mezzanine.core.models.Orderable._get_next_or_previous_by_order"
+  ],
+  "mezzanine.core.models.Ownable": [
+    "django.db.models.ForeignKey",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.core.models.Ownable.is_editable": [],
+  "mezzanine.core.models.ContentTyped": [
+    "django.db.models.CharField"
+  ],
+  "mezzanine.core.models.ContentTyped.get_content_model_name": [
+    "django.db.models.Model._meta.object_name.lower"
+  ],
+  "django.db.models.Model._meta.object_name.lower": [],
+  "mezzanine.core.models.ContentTyped.get_content_models": [
+    "django.apps.apps.get_models",
+    "mezzanine.utils.models.base_concrete_model",
+    "<builtin>.issubclass"
+  ],
+  "django.apps.apps.get_models": [],
+  "<builtin>.issubclass": [],
+  "mezzanine.core.models.ContentTyped.set_content_model": [
+    "mezzanine.utils.models.base_concrete_model",
+    "mezzanine.core.models.ContentTyped.get_content_model_name"
+  ],
+  "mezzanine.core.models.ContentTyped.get_content_model": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.core.models.SitePermission": [
+    "django.db.models.ManyToManyField",
+    "django.db.models.OneToOneField",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.db.models.OneToOneField": [],
+  "django.db.models.ManyToManyField": [],
+  "mezzanine.core.models.SitePermission.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.utils.models": [],
+  "mezzanine.utils.models.get_user_model": [
+    "django.contrib.auth.get_user_model",
+    "warnings.warn"
+  ],
+  "django.contrib.auth.get_user_model": [],
+  "mezzanine.utils.models._base_concrete_model": [
+    "<builtin>.issubclass",
+    "<builtin>.reversed"
+  ],
+  "<builtin>.reversed": [],
+  "mezzanine.utils.models.upload_to": [
+    "django.conf.settings.UPLOAD_TO_HANDLERS.items",
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "django.conf.settings.UPLOAD_TO_HANDLERS.items": [],
+  "mezzanine.utils.importing.import_dotted_path": [
+    "django.conf.settings.ACCOUNTS_PROFILE_FORM_CLASS.rsplit",
+    "<builtin>.getattr",
+    "django.conf.settings.RICHTEXT_WIDGET_CLASS.rsplit",
+    "<builtin>.ImportError",
+    "importlib.import_module"
+  ],
+  "mezzanine.utils.models.AdminThumbMixin.admin_thumb": [
+    "mezzanine.core.templatetags.mezzanine_tags.thumbnail",
+    "django.utils.html.format_html",
+    "<builtin>.getattr",
+    "django.conf.settings.ADMIN_THUMB_SIZE.split"
+  ],
+  "django.conf.settings.ADMIN_THUMB_SIZE.split": [],
+  "mezzanine.core.templatetags.mezzanine_tags.thumbnail": [
+    "PIL.Image.new.transpose.save.convert._getexif",
+    "PIL.ImageOps.fit.convert.save",
+    "PIL.Image.new.save.transpose",
+    "PIL.Image.new.transpose.convert.save.info.pop",
+    "<builtin>.int",
+    "PIL.ImageOps.fit",
+    "django.core.files.storage.default_storage.exists",
+    "PIL.Image.open.transpose.save.convert._getexif",
+    "PIL.Image.open.transpose.convert.info.pop",
+    "PIL.ImageOps.fit._getexif",
+    "PIL.Image.new.transpose.save._getexif",
+    "django.core.files.storage.default_storage.save",
+    "PIL.ImageOps.fit.save.convert",
+    "PIL.Image.new.convert.transpose.save.info.pop",
+    "PIL.Image.new.convert.transpose",
+    "os.path.exists",
+    "<builtin>.min",
+    "PIL.Image.new.transpose.save",
+    "urllib.parse.unquote.split",
+    "PIL.Image.new.transpose._getexif",
+    "PIL.Image.new.save.transpose.convert._getexif",
+    "PIL.Image.new.convert.transpose.save._getexif",
+    "PIL.ImageOps.fit.save._getexif",
+    "PIL.ImageOps.fit.convert.transpose.info.pop",
+    "PIL.Image.new.transpose.convert.info.pop",
+    "PIL.Image.open.save.info.pop",
+    "PIL.Image.new.convert.save.transpose",
+    "PIL.Image.open.convert.info.pop",
+    "PIL.ImageOps.fit.convert.transpose",
+    "PIL.Image.new.transpose",
+    "PIL.ImageOps.fit.save.transpose._getexif",
+    "PIL.Image.open.save.convert.transpose._getexif",
+    "PIL.Image.open.transpose.save",
+    "PIL.Image.open.convert.transpose",
+    "PIL.ImageOps.fit.convert.transpose._getexif",
+    "PIL.ImageOps.fit.convert.transpose.save._getexif",
+    "PIL.ImageOps.fit.transpose.save.convert.info.pop",
+    "PIL.Image.new.convert.transpose._getexif",
+    "PIL.Image.open.transpose._getexif",
+    "<builtin>.max",
+    "PIL.Image.new.convert.save._getexif",
+    "PIL.Image.new.transpose.convert._getexif",
+    "PIL.Image.open.transpose.save.convert.info.pop",
+    "PIL.Image.open.convert.save.transpose",
+    "PIL.Image.new.transpose.save.convert.info.pop",
+    "PIL.Image.new.save.convert._getexif",
+    "PIL.Image.open.transpose.convert.save._getexif",
+    "<builtin>.open",
+    "PIL.Image.open.transpose.convert.save",
+    "PIL.Image.open",
+    "PIL.ImageOps.fit.transpose",
+    "PIL.Image.open.convert.transpose.save.info.pop",
+    "urllib.unquote",
+    "PIL.ImageOps.fit.transpose.save.convert",
+    "PIL.ImageOps.fit.save.transpose.convert._getexif",
+    "bs4.BeautifulSoup.findAll.get.replace.startswith",
+    "PIL.ImageOps.fit.transpose.convert.save.info.pop",
+    "PIL.ImageOps.fit.transpose.convert.info.pop",
+    "PIL.Image.open._getexif",
+    "bs4.BeautifulSoup.findAll.get.replace",
+    "PIL.Image.open.save.convert.transpose",
+    "os.path.dirname",
+    "PIL.Image.new.convert.save",
+    "urllib.parse.quote",
+    "<builtin>.str",
+    "mezzanine.core.exceptions.FileSystemEncodingChanged.__init__",
+    "PIL.Image.open.save.transpose._getexif",
+    "PIL.ImageOps.fit.transpose.save.convert._getexif",
+    "PIL.Image.new.info.pop",
+    "PIL.ImageOps.fit.transpose.convert.save",
+    "PIL.ImageOps.fit.transpose.convert.save._getexif",
+    "PIL.Image.new",
+    "PIL.Image.open.convert.transpose.save",
+    "PIL.ImageOps.fit.transpose._getexif",
+    "PIL.Image.open.transpose.convert",
+    "PIL.Image.new.convert._getexif",
+    "urllib.quote",
+    "PIL.Image.new.convert",
+    "urllib.parse.unquote",
+    "PIL.Image.open.save.convert.info.pop",
+    "PIL.Image.new.convert.info.pop",
+    "PIL.ImageOps.fit.save.transpose.convert",
+    "PIL.ImageOps.fit.convert.transpose.save",
+    "urllib.unquote.split",
+    "PIL.Image.new.save.convert.transpose.info.pop",
+    "PIL.ImageOps.fit.save.convert.info.pop",
+    "PIL.ImageOps.fit.transpose.convert._getexif",
+    "PIL.Image.open.convert.save",
+    "django.core.files.File",
+    "PIL.Image.new.save.transpose.convert.info.pop",
+    "PIL.ImageOps.fit.info.pop",
+    "PIL.Image.new.convert.save.transpose._getexif",
+    "PIL.Image.new.transpose.save.convert",
+    "PIL.Image.open.transpose.convert.save.info.pop",
+    "PIL.ImageOps.fit.convert.save.transpose._getexif",
+    "os.remove",
+    "PIL.ImageOps.fit.save.transpose",
+    "PIL.ImageOps.fit.convert",
+    "PIL.Image.open.transpose.info.pop",
+    "PIL.Image.open.transpose",
+    "PIL.Image.open.transpose.convert._getexif",
+    "PIL.Image.new.transpose.convert.save",
+    "PIL.Image.open.convert.transpose._getexif",
+    "PIL.Image.open.convert.save._getexif",
+    "django.core.files.storage.default_storage.open",
+    "os.path.splitext",
+    "PIL.ImageOps.fit.convert._getexif",
+    "PIL.Image.open.convert.save.info.pop",
+    "os.path.split",
+    "PIL.ImageOps.fit.save.convert._getexif",
+    "PIL.Image.open.save.transpose.convert.info.pop",
+    "PIL.ImageOps.fit.save.convert.transpose",
+    "PIL.Image.open.save.transpose.info.pop",
+    "PIL.Image.open.convert.transpose.save._getexif",
+    "PIL.ImageOps.fit.transpose.info.pop",
+    "PIL.Image.new.save.convert",
+    "PIL.Image.open.save._getexif",
+    "PIL.Image.open.save.transpose.convert._getexif",
+    "PIL.Image.open.transpose.save._getexif",
+    "PIL.ImageOps.fit.convert.save._getexif",
+    "PIL.ImageOps.fit.transpose.save.info.pop",
+    "PIL.ImageOps.fit.convert.save.transpose",
+    "PIL.Image.new.save.convert.transpose",
+    "PIL.ImageOps.fit.convert.info.pop",
+    "PIL.Image.open.save.convert._getexif",
+    "PIL.Image.new.save.transpose.convert",
+    "PIL.Image.new.save.transpose.info.pop",
+    "PIL.Image.new.transpose.info.pop",
+    "os.makedirs",
+    "PIL.ImageOps.fit.transpose.save._getexif",
+    "PIL.Image.new.save.convert.transpose._getexif",
+    "PIL.Image.open.convert.save.transpose._getexif",
+    "PIL.Image.new.save.convert.info.pop",
+    "PIL.Image.open.transpose.save.convert",
+    "PIL.Image.open.save.convert",
+    "PIL.Image.new.transpose.convert.save._getexif",
+    "PIL.Image.new._getexif",
+    "PIL.ImageOps.fit.convert.transpose.save.info.pop",
+    "PIL.Image.open.save.convert.transpose.info.pop",
+    "PIL.Image.new.save",
+    "PIL.ImageOps.fit.save.transpose.convert.info.pop",
+    "PIL.ImageOps.fit.save",
+    "PIL.ImageOps.fit.save.transpose.info.pop",
+    "PIL.Image.open.convert.transpose.info.pop",
+    "PIL.Image.new.convert.transpose.save",
+    "PIL.ImageOps.fit.convert.save.info.pop",
+    "PIL.Image.new.transpose.convert",
+    "PIL.ImageOps.fit.save.info.pop",
+    "<builtin>.float",
+    "bs4.BeautifulSoup.findAll.get.startswith",
+    "PIL.Image.new.transpose.save.info.pop",
+    "PIL.ImageOps.fit.transpose.save",
+    "PIL.Image.open.save.transpose.convert",
+    "PIL.Image.new.save.info.pop",
+    "PIL.ImageOps.fit.transpose.convert",
+    "PIL.Image.open.save",
+    "PIL.ImageOps.fit.save.convert.transpose._getexif",
+    "PIL.Image.new.save._getexif",
+    "PIL.Image.new.convert.save.transpose.info.pop",
+    "PIL.Image.open.save.transpose",
+    "PIL.Image.new.convert.save.info.pop",
+    "PIL.Image.new.save.transpose._getexif",
+    "PIL.ImageOps.fit.save.convert.transpose.info.pop",
+    "PIL.ImageOps.fit.convert.save.transpose.info.pop",
+    "os.path.join",
+    "PIL.Image.open.convert.save.transpose.info.pop",
+    "PIL.Image.open.transpose.save.info.pop",
+    "PIL.Image.new.convert.transpose.info.pop",
+    "PIL.Image.new.paste",
+    "PIL.Image.open.info.pop",
+    "PIL.Image.open.convert._getexif",
+    "PIL.Image.open.convert"
+  ],
+  "mezzanine.utils.models.ModelMixinBase.__new__": [
+    "<builtin>.issubclass",
+    "<builtin>.super",
+    "<builtin>.isinstance",
+    "<builtin>.setattr",
+    "django.core.exceptions.ImproperlyConfigured"
+  ],
+  "django.core.exceptions.ImproperlyConfigured": [],
+  "mezzanine.utils.importing": [],
+  "mezzanine.utils.importing.path_for_import": [
+    "importlib.import_module",
+    "os.path.abspath",
+    "os.path.dirname"
+  ],
+  "os.path.abspath": [],
+  "os.path.dirname": [],
+  "django.conf.settings.ACCOUNTS_PROFILE_FORM_CLASS.rsplit": [],
+  "django.conf.settings.RICHTEXT_WIDGET_CLASS.rsplit": [],
+  "<builtin>.ImportError": [],
+  "mezzanine.utils.importing.get_app_name_list": [
+    "django.apps.apps.get_app_configs"
+  ],
+  "django.apps.apps.get_app_configs": [],
+  "mezzanine.core.templatetags.mezzanine_tags": [
+    "django.template.Library",
+    "django.template.Library.simple_tag",
+    "django.template.Library.filter",
+    "django.template.Library.tag",
+    "django.template.Library.to_end_tag",
+    "django.template.Library.render_tag",
+    "mezzanine.core.templatetags.mezzanine_tags.initialize_nevercache",
+    "django.template.Library.inclusion_tag"
+  ],
+  "django.template.Library": [],
+  "django.template.Library.tag": [],
+  "mezzanine.core.templatetags.mezzanine_tags.compress": [
+    "compressor.templatetags.compress.compress"
+  ],
+  "compressor.templatetags.compress.compress": [],
+  "django.template.Library.to_end_tag": [],
+  "mezzanine.core.templatetags.mezzanine_tags.initialize_nevercache": [
+    "django.template.Library.to_end_tag",
+    "mezzanine.utils.cache.cache_installed",
+    "django.template.Library.tag"
+  ],
+  "mezzanine.utils.cache.cache_installed": [
+    "mezzanine.utils.conf.middlewares_or_subclasses_installed",
+    "<builtin>.getattr",
+    "<builtin>.bool"
+  ],
+  "mezzanine.core.templatetags.mezzanine_tags.initialize_nevercache.nevercache": [
+    "django.template.base.TextNode",
+    "mezzanine.utils.cache.nevercache_token"
+  ],
+  "mezzanine.utils.cache.nevercache_token": [],
+  "django.template.base.TextNode": [],
+  "django.template.Library.simple_tag": [],
+  "mezzanine.core.templatetags.mezzanine_tags.fields_for": [
+    "django.template.loader.get_template.render",
+    "django.template.loader.get_template"
+  ],
+  "django.template.loader.get_template": [],
+  "django.template.loader.get_template.render": [],
+  "django.template.Library.inclusion_tag": [],
+  "mezzanine.core.templatetags.mezzanine_tags.errors_for": [],
+  "django.template.Library.filter": [],
+  "mezzanine.core.templatetags.mezzanine_tags.sort_by": [
+    "<builtin>.sorted"
+  ],
+  "mezzanine.core.templatetags.mezzanine_tags.sort_by.key_func": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.core.templatetags.mezzanine_tags.is_installed": [
+    "warnings.warn"
+  ],
+  "mezzanine.core.templatetags.mezzanine_tags.EvalWrapper.__init__": [],
+  "mezzanine.core.templatetags.mezzanine_tags.EvalWrapper.eval": [],
+  "mezzanine.core.templatetags.mezzanine_tags.ifinstalled": [
+    "django.template.TemplateSyntaxError",
+    "django.template.defaulttags.IfNode"
+  ],
+  "django.template.TemplateSyntaxError": [],
+  "django.template.defaulttags.IfNode": [],
+  "django.template.Library.render_tag": [],
+  "mezzanine.core.templatetags.mezzanine_tags.set_short_url_for": [],
+  "mezzanine.core.templatetags.mezzanine_tags.gravatar_url": [
+    "django_comments.models.Comment.email.lower",
+    "hashlib.md5.hexdigest",
+    "django_comments.models.Comment.email.lower.encode",
+    "hashlib.md5"
+  ],
+  "django_comments.models.Comment.email.lower": [],
+  "django_comments.models.Comment.email.lower.encode": [],
+  "hashlib.md5": [],
+  "hashlib.md5.hexdigest": [],
+  "mezzanine.core.templatetags.mezzanine_tags.metablock": [
+    "django.template.defaultfilters.escape",
+    "mezzanine.utils.html.decode_entities",
+    "django.utils.html.strip_tags"
+  ],
+  "mezzanine.utils.html.decode_entities": [
+    "re.sub.replace",
+    "django.utils.html.strip_tags.replace",
+    "re.sub"
+  ],
+  "django.template.defaultfilters.escape": [],
+  "mezzanine.core.templatetags.mezzanine_tags.pagination_for": [],
+  "mezzanine.core.templatetags.mezzanine_tags.search_form": [
+    "django.apps.apps.get_model",
+    "django.apps.apps.get_model._meta.verbose_name_plural.capitalize",
+    "<builtin>.sorted",
+    "<builtin>.list"
+  ],
+  "<builtin>.list": [],
+  "django.apps.apps.get_model": [],
+  "django.apps.apps.get_model._meta.verbose_name_plural.capitalize": [],
+  "urllib.parse.unquote": [],
+  "urllib.unquote": [],
+  "urllib.unquote.split": [],
+  "urllib.parse.unquote.split": [],
+  "bs4.BeautifulSoup.findAll.get.startswith": [],
+  "bs4.BeautifulSoup.findAll.get.replace.startswith": [],
+  "os.path.split": [],
+  "os.path.splitext": [],
+  "<builtin>.max": [],
+  "<builtin>.min": [],
+  "os.path.join": [],
+  "os.path.exists": [],
+  "os.makedirs": [],
+  "urllib.parse.quote": [],
+  "urllib.quote": [],
+  "mezzanine.core.exceptions.FileSystemEncodingChanged.__init__": [],
+  "django.core.files.storage.default_storage.exists": [],
+  "django.core.files.storage.default_storage.open": [],
+  "PIL.Image.open": [],
+  "PIL.ImageOps.fit.save.transpose.convert._getexif": [],
+  "PIL.Image.new.transpose.save.convert._getexif": [],
+  "PIL.Image.open.transpose.convert._getexif": [],
+  "PIL.Image.open._getexif": [],
+  "PIL.Image.open.convert.transpose._getexif": [],
+  "PIL.Image.open.convert.save._getexif": [],
+  "PIL.Image.open.transpose.save.convert._getexif": [],
+  "PIL.ImageOps.fit.convert._getexif": [],
+  "PIL.ImageOps.fit._getexif": [],
+  "PIL.Image.new.transpose.save._getexif": [],
+  "PIL.ImageOps.fit.save.convert._getexif": [],
+  "PIL.Image.open.convert.transpose.save._getexif": [],
+  "PIL.Image.open.save.transpose._getexif": [],
+  "PIL.ImageOps.fit.transpose.save.convert._getexif": [],
+  "PIL.Image.new.transpose._getexif": [],
+  "PIL.Image.new.save.transpose.convert._getexif": [],
+  "PIL.Image.new.convert.transpose.save._getexif": [],
+  "PIL.ImageOps.fit.save._getexif": [],
+  "PIL.Image.open.save._getexif": [],
+  "PIL.Image.open.save.transpose.convert._getexif": [],
+  "PIL.Image.open.transpose.save._getexif": [],
+  "PIL.ImageOps.fit.convert.save._getexif": [],
+  "PIL.ImageOps.fit.transpose.convert.save._getexif": [],
+  "PIL.ImageOps.fit.transpose._getexif": [],
+  "PIL.ImageOps.fit.save.transpose._getexif": [],
+  "PIL.Image.open.save.convert.transpose._getexif": [],
+  "PIL.Image.open.save.convert._getexif": [],
+  "PIL.Image.new.convert._getexif": [],
+  "PIL.ImageOps.fit.save.convert.transpose._getexif": [],
+  "PIL.Image.new.save._getexif": [],
+  "PIL.ImageOps.fit.convert.transpose._getexif": [],
+  "PIL.ImageOps.fit.convert.transpose.save._getexif": [],
+  "PIL.Image.new.convert.transpose._getexif": [],
+  "PIL.Image.open.transpose._getexif": [],
+  "PIL.ImageOps.fit.transpose.save._getexif": [],
+  "PIL.Image.new.save.convert.transpose._getexif": [],
+  "PIL.Image.new.convert.save._getexif": [],
+  "PIL.Image.new.transpose.convert._getexif": [],
+  "PIL.Image.new.save.transpose._getexif": [],
+  "PIL.Image.open.convert.save.transpose._getexif": [],
+  "PIL.ImageOps.fit.transpose.convert._getexif": [],
+  "PIL.Image.new.save.convert._getexif": [],
+  "PIL.Image.new.convert.save.transpose._getexif": [],
+  "PIL.Image.open.transpose.convert.save._getexif": [],
+  "PIL.Image.new.transpose.convert.save._getexif": [],
+  "PIL.ImageOps.fit.convert.save.transpose._getexif": [],
+  "PIL.Image.new._getexif": [],
+  "PIL.Image.open.convert._getexif": [],
+  "PIL.ImageOps.fit.transpose.convert.save.info.pop": [],
+  "PIL.ImageOps.fit.transpose.convert.info.pop": [],
+  "PIL.Image.new.transpose.convert.save.info.pop": [],
+  "PIL.ImageOps.fit.save.transpose.info.pop": [],
+  "PIL.Image.open.convert.transpose.info.pop": [],
+  "PIL.Image.open.convert.save.info.pop": [],
+  "PIL.Image.open.transpose.convert.info.pop": [],
+  "PIL.ImageOps.fit.convert.save.info.pop": [],
+  "PIL.ImageOps.fit.save.info.pop": [],
+  "PIL.Image.open.save.transpose.convert.info.pop": [],
+  "PIL.Image.new.convert.transpose.save.info.pop": [],
+  "PIL.Image.open.save.transpose.info.pop": [],
+  "PIL.ImageOps.fit.transpose.info.pop": [],
+  "PIL.Image.new.info.pop": [],
+  "PIL.Image.new.transpose.save.info.pop": [],
+  "PIL.ImageOps.fit.convert.transpose.info.pop": [],
+  "PIL.Image.new.transpose.convert.info.pop": [],
+  "PIL.Image.open.save.info.pop": [],
+  "PIL.Image.open.convert.info.pop": [],
+  "PIL.ImageOps.fit.transpose.save.info.pop": [],
+  "PIL.ImageOps.fit.convert.info.pop": [],
+  "PIL.Image.new.save.info.pop": [],
+  "PIL.Image.new.save.transpose.info.pop": [],
+  "PIL.Image.new.convert.save.transpose.info.pop": [],
+  "PIL.Image.open.save.convert.info.pop": [],
+  "PIL.Image.new.convert.info.pop": [],
+  "PIL.Image.new.transpose.info.pop": [],
+  "PIL.ImageOps.fit.transpose.save.convert.info.pop": [],
+  "PIL.Image.new.convert.save.info.pop": [],
+  "PIL.Image.new.save.convert.transpose.info.pop": [],
+  "PIL.Image.open.transpose.save.convert.info.pop": [],
+  "PIL.ImageOps.fit.save.convert.transpose.info.pop": [],
+  "PIL.ImageOps.fit.save.convert.info.pop": [],
+  "PIL.ImageOps.fit.convert.save.transpose.info.pop": [],
+  "PIL.Image.open.convert.save.transpose.info.pop": [],
+  "PIL.Image.new.save.convert.info.pop": [],
+  "PIL.Image.new.save.transpose.convert.info.pop": [],
+  "PIL.Image.new.transpose.save.convert.info.pop": [],
+  "PIL.ImageOps.fit.info.pop": [],
+  "PIL.Image.open.transpose.convert.save.info.pop": [],
+  "PIL.Image.open.transpose.save.info.pop": [],
+  "PIL.Image.new.convert.transpose.info.pop": [],
+  "PIL.Image.open.info.pop": [],
+  "PIL.Image.open.convert.transpose.save.info.pop": [],
+  "PIL.ImageOps.fit.convert.transpose.save.info.pop": [],
+  "PIL.Image.open.save.convert.transpose.info.pop": [],
+  "PIL.Image.open.transpose.info.pop": [],
+  "PIL.ImageOps.fit.save.transpose.convert.info.pop": [],
+  "PIL.Image.new.transpose": [],
+  "PIL.Image.open.transpose": [],
+  "PIL.Image.new.save.transpose": [],
+  "PIL.Image.open.convert.transpose": [],
+  "PIL.Image.open.save.convert.transpose": [],
+  "PIL.Image.open.convert.save.transpose": [],
+  "PIL.Image.new.convert.save.transpose": [],
+  "PIL.Image.open.save.transpose": [],
+  "PIL.ImageOps.fit.convert.transpose": [],
+  "PIL.ImageOps.fit.convert.save.transpose": [],
+  "PIL.ImageOps.fit.transpose": [],
+  "PIL.ImageOps.fit.save.transpose": [],
+  "PIL.ImageOps.fit.save.convert.transpose": [],
+  "PIL.Image.new.save.convert.transpose": [],
+  "PIL.Image.new.convert.transpose": [],
+  "<builtin>.int": [],
+  "PIL.Image.open.transpose.save.convert": [],
+  "PIL.Image.open.transpose.convert": [],
+  "PIL.Image.new.save.transpose.convert": [],
+  "PIL.Image.open.convert": [],
+  "PIL.ImageOps.fit.transpose.convert": [],
+  "PIL.Image.new.save.convert": [],
+  "PIL.Image.new.transpose.save.convert": [],
+  "PIL.Image.open.save.convert": [],
+  "PIL.Image.new.convert": [],
+  "PIL.Image.open.save.transpose.convert": [],
+  "PIL.Image.new.transpose.convert": [],
+  "PIL.ImageOps.fit.save.transpose.convert": [],
+  "PIL.ImageOps.fit.save.convert": [],
+  "PIL.ImageOps.fit.convert": [],
+  "PIL.ImageOps.fit.transpose.save.convert": [],
+  "<builtin>.float": [],
+  "PIL.Image.new": [],
+  "PIL.Image.new.paste": [],
+  "PIL.ImageOps.fit": [],
+  "PIL.Image.new.convert.save": [],
+  "PIL.ImageOps.fit.convert.save": [],
+  "PIL.Image.open.convert.save": [],
+  "PIL.Image.open.transpose.save": [],
+  "PIL.Image.new.transpose.save": [],
+  "PIL.Image.open.save": [],
+  "PIL.Image.new.transpose.convert.save": [],
+  "PIL.Image.new.convert.transpose.save": [],
+  "PIL.Image.open.transpose.convert.save": [],
+  "PIL.ImageOps.fit.transpose.convert.save": [],
+  "PIL.ImageOps.fit.transpose.save": [],
+  "PIL.ImageOps.fit.convert.transpose.save": [],
+  "PIL.Image.new.save": [],
+  "PIL.Image.open.convert.transpose.save": [],
+  "PIL.ImageOps.fit.save": [],
+  "<builtin>.open": [],
+  "django.core.files.File": [],
+  "django.core.files.storage.default_storage.save": [],
+  "os.remove": [],
+  "mezzanine.core.templatetags.mezzanine_tags.editable_loader": [
+    "mezzanine.core.fields.RichTextField.formfield",
+    "django.template.loader.get_template.render",
+    "django.template.loader.get_template",
+    "django.db.models.TextField.__init__"
+  ],
+  "mezzanine.core.fields.RichTextField.formfield": [
+    "<builtin>.super",
+    "django.core.exceptions.ImproperlyConfigured",
+    "mezzanine.utils.importing.import_dotted_path",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.utils.safestring.mark_safe": [],
+  "mezzanine.core.templatetags.mezzanine_tags.editable": [
+    "<builtin>.str",
+    "<builtin>.len",
+    "<builtin>.getattr",
+    "mezzanine.utils.views.is_editable",
+    "django.template.loader.get_template",
+    "mezzanine.core.templatetags.mezzanine_tags.editable.parse_field",
+    "django.template.loader.get_template.render",
+    "mezzanine.core.forms.get_edit_form",
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.core.templatetags.mezzanine_tags.editable.parse_field": [
+    "<builtin>.callable",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.callable": [],
+  "<builtin>.len": [],
+  "mezzanine.utils.views.is_editable": [
+    "mezzanine.utils.sites.has_site_permission",
+    "django.contrib.auth.get_permission_codename",
+    "mezzanine.utils.deprecation.is_authenticated",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.core.forms.get_edit_form": [
+    "mezzanine.core.forms.get_edit_form.EditForm.__init__"
+  ],
+  "mezzanine.core.templatetags.mezzanine_tags.try_url": [
+    "warnings.warn",
+    "django.urls.reverse"
+  ],
+  "django.urls.reverse": [],
+  "mezzanine.core.templatetags.mezzanine_tags.admin_app_list": [
+    "django.utils.text.capfirst",
+    "<builtin>.list",
+    "warnings.warn",
+    "<builtin>.hasattr",
+    "<builtin>.isinstance",
+    "django.contrib.admin.site._registry.items",
+    "<builtin>.enumerate",
+    "django.urls.reverse",
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "<builtin>.enumerate": [],
+  "django.contrib.admin.site._registry.items": [],
+  "django.utils.text.capfirst": [],
+  "mezzanine.core.templatetags.mezzanine_tags.admin_app_list.<lambda1>": [],
+  "mezzanine.core.templatetags.mezzanine_tags.admin_dropdown_menu": [
+    "<builtin>.list",
+    "django.contrib.sites.models.Site.objects.none",
+    "django.contrib.sites.models.Site.objects.all",
+    "mezzanine.utils.sites.current_site_id",
+    "mezzanine.core.templatetags.mezzanine_tags.admin_app_list"
+  ],
+  "django.contrib.sites.models.Site.objects.all": [],
+  "django.contrib.sites.models.Site.objects.none": [],
+  "mezzanine.core.templatetags.mezzanine_tags.app_list": [
+    "mezzanine.core.templatetags.mezzanine_tags.admin_app_list"
+  ],
+  "mezzanine.core.templatetags.mezzanine_tags.recent_actions": [],
+  "mezzanine.core.templatetags.mezzanine_tags.dashboard_column": [
+    "<builtin>.int",
+    "django.template.Template",
+    "<builtin>.tuple",
+    "django.template.Template.render"
+  ],
+  "<builtin>.tuple": [],
+  "django.template.Template": [],
+  "django.template.Template.render": [],
+  "mezzanine.core.templatetags.mezzanine_tags.translate_url": [
+    "mezzanine.utils.urls.home_slug",
+    "django.urls.resolve",
+    "django.utils.translation.activate",
+    "django.urls.reverse",
+    "django.utils.translation.get_language"
+  ],
+  "django.urls.resolve": [],
+  "django.utils.translation.get_language": [],
+  "django.utils.translation.activate": [],
+  "mezzanine.utils.urls.home_slug": [
+    "django.urls.get_script_prefix",
+    "<builtin>.len",
+    "django.urls.reverse.startswith",
+    "django.urls.resolve",
+    "django.urls.reverse"
+  ],
+  "mezzanine.utils.html": [
+    "mezzanine.utils.deprecation.mark_safe"
+  ],
+  "mezzanine.utils.html.absolute_urls": [
+    "<builtin>.str",
+    "mezzanine.core.request.current_request",
+    "bs4.BeautifulSoup",
+    "bs4.BeautifulSoup.findAll.get",
+    "bs4.BeautifulSoup.findAll"
+  ],
+  "bs4.BeautifulSoup": [],
+  "bs4.BeautifulSoup.findAll": [],
+  "mezzanine.utils.html.decode_entities.decode": [
+    "<builtin>.int",
+    "<builtin>.chr"
+  ],
+  "<builtin>.chr": [],
+  "re.sub.replace": [],
+  "django.utils.html.strip_tags.replace": [],
+  "re.sub": [],
+  "mezzanine.utils.deprecation.mark_safe": [
+    "<builtin>.callable",
+    "django.utils.safestring.mark_safe",
+    "functools.wraps"
+  ],
+  "mezzanine.utils.html.escape": [
+    "<builtin>.isinstance",
+    "bleach.clean",
+    "bleach.css_sanitizer.CSSSanitizer",
+    "<builtin>.list"
+  ],
+  "bleach.css_sanitizer.CSSSanitizer": [],
+  "bleach.clean": [],
+  "mezzanine.utils.html.thumbnails": [
+    "<builtin>.str",
+    "bs4.BeautifulSoup.findAll.get.lower.startswith",
+    "bs4.BeautifulSoup.findAll.get.lower",
+    "bs4.BeautifulSoup",
+    "bs4.BeautifulSoup.findAll.get",
+    "mezzanine.core.templatetags.mezzanine_tags.thumbnail",
+    "bs4.BeautifulSoup.findAll",
+    "django.conf.settings.MEDIA_URL.lower"
+  ],
+  "django.conf.settings.MEDIA_URL.lower": [],
+  "bs4.BeautifulSoup.findAll.get.lower": [],
+  "bs4.BeautifulSoup.findAll.get.lower.startswith": [],
+  "html.parser.HTMLParser.__init__": [],
+  "html.parser.HTMLParser.feed": [],
+  "mezzanine.utils.html.TagCloser.handle_starttag": [],
+  "mezzanine.utils.html.TagCloser.handle_endtag": [],
+  "mezzanine.utils.deprecation": [],
+  "mezzanine.utils.deprecation.request_is_ajax": [
+    "django.utils.safestring.mark_safe.META.get"
+  ],
+  "django.utils.safestring.mark_safe.META.get": [],
+  "mezzanine.utils.deprecation.get_middleware_setting_name": [
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.utils.deprecation.get_middleware_setting": [
+    "mezzanine.utils.deprecation.get_middleware_setting_name",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.utils.deprecation.is_authenticated": [],
+  "mezzanine.utils.deprecation.get_related_model": [],
+  "functools.wraps": [],
+  "mezzanine.utils.deprecation.mark_safe.wrapper": [
+    "django.utils.translation.gettext",
+    "django.utils.safestring.mark_safe",
+    "mezzanine.utils.html.thumbnails",
+    "mezzanine.utils.html.escape"
+  ],
+  "mezzanine.core.defaults": [
+    "mezzanine.conf.register_setting",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.core.templatetags": [],
+  "mezzanine.core.request": [
+    "threading.local"
+  ],
+  "threading.local": [],
+  "mezzanine.core.request.CurrentRequestMiddleware.process_request": [],
+  "mezzanine.utils.views": [],
+  "django.contrib.auth.get_permission_codename": [],
+  "mezzanine.utils.sites.has_site_permission": [
+    "mezzanine.utils.conf.middlewares_or_subclasses_installed",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.utils.views.ip_for_request": [],
+  "mezzanine.utils.views.is_spam_akismet": [
+    "django.utils.translation.gettext.lower",
+    "mezzanine.utils.views.ip_for_request",
+    "urllib.request.urlopen",
+    "django.get_version",
+    "urllib.parse.urlencode",
+    "<builtin>.isinstance",
+    "mezzanine.utils.views.Request",
+    "urllib.request.Request",
+    "django.utils.translation.gettext",
+    "urllib.request.urlopen.read"
+  ],
+  "django.get_version": [],
+  "mezzanine.utils.views.Request": [],
+  "urllib.request.Request": [],
+  "mezzanine.utils.views.is_spam": [
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.utils.views.paginate": [
+    "django.core.paginator.Paginator.page",
+    "<builtin>.len",
+    "<builtin>.min",
+    "<builtin>.list",
+    "<builtin>.int",
+    "django.core.paginator.Paginator",
+    "<builtin>.max"
+  ],
+  "django.core.paginator.Paginator": [],
+  "django.core.paginator.Paginator.page": [],
+  "mezzanine.utils.views.render": [
+    "warnings.warn",
+    "django.template.RequestContext",
+    "django.template.RequestContext.update",
+    "django.template.response.TemplateResponse"
+  ],
+  "django.template.RequestContext.update": [],
+  "django.template.RequestContext": [],
+  "django.template.response.TemplateResponse": [],
+  "mezzanine.utils.views.set_cookie": [
+    "django.shortcuts.redirect.set_cookie",
+    "datetime.datetime.strftime",
+    "datetime.timedelta",
+    "django.http.HttpResponseBadRequest.set_cookie",
+    "django.http.HttpResponse.set_cookie",
+    "datetime.datetime.utcnow"
+  ],
+  "datetime.datetime.utcnow": [],
+  "datetime.timedelta": [],
+  "datetime.datetime.strftime": [],
+  "django.shortcuts.redirect.set_cookie": [],
+  "django.http.HttpResponse.set_cookie": [],
+  "django.http.HttpResponseBadRequest.set_cookie": [],
+  "mezzanine.utils.sites": [
+    "threading.local",
+    "contextlib.contextmanager"
+  ],
+  "mezzanine.utils.cache.cache_get": [
+    "django.core.cache.cache.get",
+    "mezzanine.utils.cache.cache_set",
+    "mezzanine.utils.cache._hashed_key",
+    "time.time"
+  ],
+  "django.contrib.sites.models.Site.objects.get": [],
+  "mezzanine.utils.cache.cache_set": [
+    "django.core.cache.cache.set",
+    "mezzanine.utils.cache._hashed_key",
+    "time.time"
+  ],
+  "os.environ.get": [],
+  "contextlib.contextmanager": [],
+  "mezzanine.utils.sites.override_current_site_id": [],
+  "mezzanine.utils.conf.middlewares_or_subclasses_installed": [
+    "mezzanine.utils.conf.middlewares_or_subclasses_installed.flatten",
+    "mezzanine.utils.deprecation.get_middleware_setting",
+    "<builtin>.all",
+    "<builtin>.filter",
+    "<builtin>.set",
+    "<builtin>.map"
+  ],
+  "mezzanine.utils.sites.host_theme_path": [
+    "django.contrib.sites.models.Site.objects.get",
+    "django.contrib.sites.models.Site.objects.get.domain.lower",
+    "os.path.abspath",
+    "os.path.dirname",
+    "<builtin>.__import__",
+    "mezzanine.utils.sites.current_site_id"
+  ],
+  "django.contrib.sites.models.Site.objects.get.domain.lower": [],
+  "<builtin>.__import__": [],
+  "mezzanine.utils.cache": [
+    "functools.lru_cache"
+  ],
+  "mezzanine.utils.cache._hashed_key": [
+    "django.utils.cache._i18n_cache_key_suffix.encode",
+    "hashlib.md5.hexdigest",
+    "hashlib.md5"
+  ],
+  "django.utils.cache._i18n_cache_key_suffix.encode": [],
+  "time.time": [],
+  "django.core.cache.cache.set": [],
+  "django.core.cache.cache.get": [],
+  "functools.lru_cache": [],
+  "<builtin>.bool": [],
+  "mezzanine.utils.cache.cache_key_prefix": [
+    "mezzanine.utils.sites.current_site_id",
+    "django.utils.cache._i18n_cache_key_suffix"
+  ],
+  "django.utils.cache._i18n_cache_key_suffix": [],
+  "mezzanine.utils.cache.add_cache_bypass": [
+    "<builtin>.str",
+    "django_comments.forms.CommentForm.get_comment_object.get_absolute_url.split",
+    "mezzanine.utils.cache.cache_installed",
+    "time.time"
+  ],
+  "django_comments.forms.CommentForm.get_comment_object.get_absolute_url.split": [],
+  "mezzanine.utils.conf": [],
+  "mezzanine.utils.conf.SitesAllowedHosts.__iter__": [
+    "django.contrib.sites.models.Site.objects.all",
+    "<builtin>.iter",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.iter": [],
+  "mezzanine.utils.conf.SitesAllowedHosts.__add__": [
+    "<builtin>.list"
+  ],
+  "mezzanine.utils.conf.set_dynamic_settings": [
+    "mezzanine.utils.conf.set_dynamic_settings.<lambda1>",
+    "mezzanine.utils.timezone.get_best_local_timezone",
+    "<builtin>.len",
+    "os.path.join",
+    "<builtin>.list",
+    "mezzanine.utils.conf.set_dynamic_settings.<lambda2>",
+    "mezzanine.utils.conf.set_dynamic_settings.<lambda3>",
+    "warnings.warn",
+    "<builtin>.isinstance",
+    "<builtin>.__import__",
+    "mezzanine.utils.conf.set_dynamic_settings.<lambda4>",
+    "<builtin>.tuple"
+  ],
+  "mezzanine.utils.conf.set_dynamic_settings.<lambda1>": [],
+  "mezzanine.utils.conf.set_dynamic_settings.<lambda2>": [],
+  "mezzanine.utils.conf.set_dynamic_settings.<lambda3>": [],
+  "mezzanine.utils.conf.set_dynamic_settings.<lambda4>": [],
+  "mezzanine.utils.timezone.get_best_local_timezone": [
+    "pytz.timezone",
+    "tzlocal.get_localzone",
+    "datetime.timedelta",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.utils.conf.set_dynamic_settings.mezzanine_settings": [],
+  "mezzanine.utils.conf.real_project_name": [],
+  "<builtin>.set": [],
+  "<builtin>.all": [],
+  "mezzanine.utils.conf.middlewares_or_subclasses_installed.flatten": [],
+  "<builtin>.map": [],
+  "mezzanine.utils.conf.middlewares_or_subclasses_installed.<lambda1>": [
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.filter": [],
+  "mezzanine.utils.timezone": [],
+  "tzlocal.get_localzone": [],
+  "pytz.timezone": [],
+  "mezzanine.utils.urls": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.get_content_models._meta.object_name.lower": [],
+  "django.contrib.auth.get_user_model.get_content_models._meta.object_name.lower": [],
+  "django.shortcuts.get_object_or_404.get_content_model.__class__._meta.object_name.lower": [],
+  "django.contrib.admin.ModelAdmin.model._meta.object_name.lower": [],
+  "django.db.models.Model.get_content_models._meta.object_name.lower": [],
+  "django.contrib.auth.get_user_model._meta.object_name.lower": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related._meta.object_name.lower": [],
+  "django.urls.get_script_prefix": [],
+  "django.urls.reverse.startswith": [],
+  "mezzanine.utils.urls.slugify_unicode": [
+    "<builtin>.str",
+    "django.utils.encoding.smart_str",
+    "re.sub",
+    "re.sub.lower",
+    "unicodedata.category"
+  ],
+  "django.utils.encoding.smart_str": [],
+  "unicodedata.category": [],
+  "re.sub.lower": [],
+  "django.contrib.auth.get_user_model.objects.exclude.get": [],
+  "mezzanine.core.models.Slugged.generate_unique_slug.slug_qs.get": [],
+  "mezzanine.utils.urls.next_url": [
+    "django.utils.http.url_has_allowed_host_and_scheme",
+    "django.utils.http.is_safe_url"
+  ],
+  "django.utils.http.url_has_allowed_host_and_scheme": [],
+  "django.utils.http.is_safe_url": [],
+  "mezzanine.utils.urls.login_redirect": [
+    "django.shortcuts.redirect",
+    "django.urls.get_script_prefix",
+    "mezzanine.utils.urls.next_url",
+    "django.urls.reverse"
+  ],
+  "django.shortcuts.redirect": [],
+  "mezzanine.utils.urls.path_to_slug": [
+    "django.utils.translation.get_language_from_path",
+    "mezzanine.utils.urls.clean_slashes"
+  ],
+  "django.utils.translation.get_language_from_path": [],
+  "mezzanine.utils.urls.clean_slashes": [],
+  "mezzanine.accounts.urls": [
+    "django.urls.re_path",
+    "<builtin>.getattr"
+  ],
+  "django.urls.re_path": [],
+  "mezzanine.accounts.views": [
+    "django.contrib.auth.get_user_model",
+    "django.views.decorators.debug.sensitive_post_parameters",
+    "django.contrib.auth.decorators.login_required"
+  ],
+  "django.views.decorators.debug.sensitive_post_parameters": [],
+  "mezzanine.accounts.views.login": [
+    "mezzanine.utils.urls.login_redirect",
+    "django.contrib.auth.login",
+    "django.utils.translation.gettext_lazy",
+    "django.template.RequestContext.update",
+    "django.template.response.TemplateResponse",
+    "mezzanine.accounts.views._",
+    "django.utils.translation.ngettext",
+    "django.contrib.messages.info",
+    "django.utils.safestring.mark_safe",
+    "mezzanine.core.forms.Html5Mixin.__init__"
+  ],
+  "mezzanine.core.forms.Html5Mixin.__init__": [
+    "<builtin>.super",
+    "<builtin>.isinstance",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.accounts.views._": [],
+  "django.utils.translation.ngettext": [],
+  "django.contrib.messages.info": [],
+  "django.contrib.auth.login": [],
+  "mezzanine.accounts.views.logout": [
+    "django.urls.get_script_prefix",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.accounts.views._",
+    "django.utils.translation.ngettext",
+    "django.shortcuts.redirect",
+    "django.contrib.auth.logout",
+    "mezzanine.utils.urls.next_url",
+    "django.contrib.messages.info",
+    "django.utils.safestring.mark_safe"
+  ],
+  "django.contrib.auth.logout": [],
+  "mezzanine.accounts.views.signup": [
+    "mezzanine.utils.urls.next_url",
+    "mezzanine.utils.urls.login_redirect",
+    "django.contrib.auth.login",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.accounts.get_profile_form",
+    "django.template.RequestContext.update",
+    "django.template.response.TemplateResponse",
+    "mezzanine.accounts.views._",
+    "mezzanine.utils.email.send_approve_mail",
+    "django.utils.translation.ngettext",
+    "django.shortcuts.redirect",
+    "mezzanine.utils.email.send_verification_mail",
+    "django.contrib.messages.info",
+    "django.utils.safestring.mark_safe"
+  ],
+  "mezzanine.accounts.get_profile_form": [
+    "django.core.exceptions.ImproperlyConfigured",
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.utils.email.send_approve_mail": [
+    "mezzanine.utils.email.subject_template",
+    "mezzanine.utils.email.send_mail_template",
+    "mezzanine.utils.urls.admin_url",
+    "mezzanine.utils.email.split_addresses"
+  ],
+  "mezzanine.utils.email.send_verification_mail": [
+    "mezzanine.utils.email.subject_template",
+    "django.utils.http.int_to_base36",
+    "django.contrib.auth.tokens.default_token_generator.make_token",
+    "mezzanine.utils.email.send_mail_template",
+    "mezzanine.utils.urls.next_url",
+    "django.urls.reverse"
+  ],
+  "mezzanine.accounts.views.signup_verify": [
+    "django.contrib.messages.error",
+    "mezzanine.utils.urls.login_redirect",
+    "django.contrib.auth.login",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.accounts.views._",
+    "django.contrib.auth.authenticate.save",
+    "django.contrib.auth.authenticate",
+    "django.utils.translation.ngettext",
+    "django.shortcuts.redirect",
+    "django.contrib.messages.info",
+    "django.utils.safestring.mark_safe"
+  ],
+  "django.contrib.auth.authenticate": [],
+  "django.contrib.auth.authenticate.save": [],
+  "django.contrib.messages.error": [],
+  "django.contrib.auth.decorators.login_required": [],
+  "mezzanine.accounts.views.profile_redirect": [
+    "django.shortcuts.redirect"
+  ],
+  "mezzanine.accounts.views.profile": [
+    "django.shortcuts.get_object_or_404",
+    "django.template.RequestContext.update",
+    "django.template.response.TemplateResponse"
+  ],
+  "django.shortcuts.get_object_or_404": [],
+  "mezzanine.accounts.views.account_redirect": [
+    "django.shortcuts.redirect"
+  ],
+  "mezzanine.accounts.views.profile_update": [
+    "django.template.RequestContext.update",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.accounts.get_profile_form",
+    "django.template.response.TemplateResponse",
+    "mezzanine.accounts.views._",
+    "django.utils.translation.ngettext",
+    "django.shortcuts.redirect",
+    "django.contrib.messages.info",
+    "django.utils.safestring.mark_safe"
+  ],
+  "mezzanine.accounts.views.password_reset": [
+    "django.template.RequestContext.update",
+    "django.utils.translation.gettext_lazy",
+    "django.template.response.TemplateResponse",
+    "mezzanine.accounts.views._",
+    "django.utils.translation.ngettext",
+    "mezzanine.utils.email.send_verification_mail",
+    "django.contrib.messages.info",
+    "django.utils.safestring.mark_safe",
+    "mezzanine.core.forms.Html5Mixin.__init__"
+  ],
+  "mezzanine.accounts.views.password_reset_verify": [
+    "django.contrib.messages.error",
+    "django.contrib.auth.login",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.accounts.views._",
+    "django.contrib.auth.authenticate",
+    "django.utils.translation.ngettext",
+    "django.shortcuts.redirect",
+    "django.utils.safestring.mark_safe"
+  ],
+  "mezzanine.utils.email": [],
+  "mezzanine.utils.email.split_addresses": [],
+  "mezzanine.utils.email.subject_template": [
+    "django.template.loader.get_template.render",
+    "django.template.loader.get_template",
+    "django.template.loader.get_template.render.splitlines"
+  ],
+  "django.template.loader.get_template.render.splitlines": [],
+  "mezzanine.utils.email.send_mail_template": [
+    "django.core.mail.EmailMultiAlternatives.attach",
+    "mezzanine.utils.email.send_mail_template.<lambda1>",
+    "mezzanine.conf.context_processors.settings",
+    "django.core.mail.EmailMultiAlternatives.send",
+    "django.core.mail.EmailMultiAlternatives.attach_alternative",
+    "<builtin>.isinstance",
+    "django.core.mail.EmailMultiAlternatives"
+  ],
+  "mezzanine.conf.context_processors.settings": [
+    "mezzanine.conf.context_processors.TemplateSettings.__init__"
+  ],
+  "mezzanine.utils.email.send_mail_template.<lambda1>": [
+    "django.template.loader.get_template.render",
+    "django.template.loader.get_template"
+  ],
+  "django.core.mail.EmailMultiAlternatives": [],
+  "django.core.mail.EmailMultiAlternatives.attach_alternative": [],
+  "django.core.mail.EmailMultiAlternatives.attach": [],
+  "django.core.mail.EmailMultiAlternatives.send": [],
+  "django.utils.http.int_to_base36": [],
+  "django.contrib.auth.tokens.default_token_generator.make_token": [],
+  "mezzanine.utils.email.send_approved_mail": [
+    "mezzanine.utils.email.subject_template",
+    "mezzanine.utils.email.send_mail_template"
+  ],
+  "mezzanine.conf.context_processors": [],
+  "mezzanine.conf.context_processors.TemplateSettings.__init__": [
+    "<builtin>.super",
+    "<builtin>.set"
+  ],
+  "mezzanine.conf.context_processors.TemplateSettings.__getattr__": [
+    "mezzanine.conf.context_processors.TemplateSettings.__getitem__"
+  ],
+  "mezzanine.conf.context_processors.TemplateSettings.__getitem__": [
+    "<builtin>.super",
+    "warnings.warn",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.conf.context_processors.TemplateSettings.__setitem__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.conf.context_processors.TemplateSettings.__repr__": [
+    "<builtin>.repr",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.conf.context_processors.TemplateSettings.__str__": [
+    "<builtin>.repr"
+  ],
+  "mezzanine.accounts": [],
+  "mezzanine.accounts.get_profile_model": [
+    "django.apps.apps.get_model",
+    "<builtin>.getattr",
+    "django.core.exceptions.ImproperlyConfigured"
+  ],
+  "mezzanine.accounts.get_profile_for_user": [
+    "mezzanine.accounts.get_profile_model",
+    "<builtin>.hasattr",
+    "django.apps.apps.get_model._default_manager.using",
+    "django.apps.apps.get_model._default_manager.using.get_or_create",
+    "mezzanine.accounts.get_profile_user_fieldname"
+  ],
+  "django.apps.apps.get_model._default_manager.using": [],
+  "mezzanine.accounts.get_profile_user_fieldname": [
+    "mezzanine.accounts.get_profile_model",
+    "mezzanine.utils.deprecation.get_related_model",
+    "django.core.exceptions.ImproperlyConfigured",
+    "django.contrib.auth.get_user_model"
+  ],
+  "django.apps.apps.get_model._default_manager.using.get_or_create": [],
+  "mezzanine.accounts.forms": [
+    "<builtin>.tuple",
+    "django.contrib.auth.get_user_model",
+    "<builtin>.getattr",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.accounts.forms.ProfileFieldsForm.Meta": [
+    "mezzanine.accounts.get_profile_user_fieldname",
+    "mezzanine.accounts.get_profile_model"
+  ],
+  "django.forms.CharField": [],
+  "mezzanine.accounts.forms.LoginForm": [
+    "django.forms.CharField",
+    "django.forms.PasswordInput",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.forms.PasswordInput": [],
+  "mezzanine.accounts.forms.LoginForm.clean": [
+    "django.forms.ValidationError",
+    "django.utils.translation.gettext_lazy",
+    "django.contrib.auth.authenticate",
+    "django.forms.Form.cleaned_data.get",
+    "django.utils.translation.gettext"
+  ],
+  "django.forms.Form.cleaned_data.get": [],
+  "django.forms.ValidationError": [],
+  "mezzanine.accounts.forms.LoginForm.save": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.accounts.forms.ProfileForm": [
+    "django.forms.CharField",
+    "django.forms.PasswordInput",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.accounts.forms.ProfileForm.__init__": [
+    "mezzanine.accounts.get_profile_for_user",
+    "<builtin>.getattr",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.accounts.forms.ProfileForm.get_profile_fields_form",
+    "django.forms.ModelForm.fields.startswith",
+    "<builtin>.super",
+    "<builtin>.isinstance",
+    "django.forms.ModelForm.fields.update",
+    "django.utils.translation.gettext",
+    "django.forms.ModelForm.__init__",
+    "django.contrib.auth.get_user_model._meta.get_fields"
+  ],
+  "django.contrib.auth.get_user_model._meta.get_fields": [],
+  "django.forms.ModelForm.fields.startswith": [],
+  "mezzanine.accounts.forms.ProfileForm.get_profile_fields_form": [],
+  "django.forms.ModelForm.__init__": [],
+  "django.forms.ModelForm.fields.update": [],
+  "mezzanine.accounts.forms.ProfileForm.clean_username": [
+    "django.forms.ValidationError",
+    "django.utils.translation.gettext_lazy",
+    "django.forms.ModelForm.cleaned_data.get.lower",
+    "django.contrib.auth.get_user_model.objects.exclude",
+    "mezzanine.utils.urls.slugify",
+    "django.utils.translation.gettext",
+    "django.forms.ModelForm.cleaned_data.get"
+  ],
+  "django.forms.ModelForm.cleaned_data.get": [],
+  "django.forms.ModelForm.cleaned_data.get.lower": [],
+  "django.contrib.auth.get_user_model.objects.exclude": [],
+  "mezzanine.accounts.forms.ProfileForm.clean_password2": [
+    "<builtin>.len",
+    "django.utils.translation.gettext_lazy",
+    "django.utils.translation.gettext",
+    "django.forms.ModelForm.cleaned_data.get",
+    "django.forms.ModelForm.error_class"
+  ],
+  "django.forms.ModelForm.error_class": [],
+  "mezzanine.accounts.forms.ProfileForm.clean_email": [
+    "django.forms.ValidationError",
+    "<builtin>.len",
+    "django.utils.translation.gettext_lazy",
+    "django.contrib.auth.get_user_model.objects.exclude",
+    "django.contrib.auth.get_user_model.objects.exclude.filter",
+    "django.utils.translation.gettext",
+    "django.forms.ModelForm.cleaned_data.get"
+  ],
+  "django.contrib.auth.get_user_model.objects.exclude.filter": [],
+  "mezzanine.accounts.forms.ProfileForm.save": [
+    "mezzanine.accounts.get_profile_for_user",
+    "django.contrib.auth.authenticate.set_password",
+    "django.contrib.auth.get_user_model.objects.exclude",
+    "django.contrib.auth.authenticate.set_unusable_password",
+    "mezzanine.accounts.forms.ProfileForm.get_profile_fields_form",
+    "django.utils.http.int_to_base36",
+    "django.contrib.auth.authenticate.save",
+    "django.contrib.auth.tokens.default_token_generator.make_token",
+    "django.contrib.auth.authenticate",
+    "<builtin>.super",
+    "mezzanine.utils.urls.slugify",
+    "django.forms.ModelForm.cleaned_data.get",
+    "django.forms.ModelForm.__init__",
+    "mezzanine.utils.urls.unique_slug"
+  ],
+  "django.contrib.auth.authenticate.set_password": [],
+  "django.contrib.auth.authenticate.set_unusable_password": [],
+  "mezzanine.accounts.forms.PasswordResetForm": [
+    "django.forms.CharField"
+  ],
+  "mezzanine.accounts.forms.PasswordResetForm.clean": [
+    "django.contrib.auth.get_user_model.objects.get",
+    "django.forms.ValidationError",
+    "django.utils.translation.gettext_lazy",
+    "django.forms.Form.cleaned_data.get",
+    "django.utils.translation.gettext",
+    "django.db.models.Q"
+  ],
+  "django.db.models.Q": [],
+  "django.contrib.auth.get_user_model.objects.get": [],
+  "mezzanine.accounts.forms.PasswordResetForm.save": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.core.forms": [],
+  "mezzanine.core.forms.TinyMceWidget.media": [
+    "django.forms.Media",
+    "django.utils.functional.lazy",
+    "mezzanine.utils.static.<lambda1>"
+  ],
+  "django.utils.functional.lazy": [],
+  "mezzanine.utils.static.<lambda1>": [],
+  "django.forms.Media": [],
+  "mezzanine.core.forms.TinyMceWidget.__init__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.forms.TinyMceWidget.use_required_attribute": [],
+  "mezzanine.core.forms.OrderWidget.is_hidden": [],
+  "mezzanine.core.forms.OrderWidget.render": [
+    "<builtin>.super",
+    "django.utils.safestring.mark_safe"
+  ],
+  "mezzanine.core.forms.DynamicInlineAdminForm.Media": [
+    "django.utils.functional.lazy",
+    "mezzanine.utils.static.<lambda1>"
+  ],
+  "mezzanine.core.forms.SplitSelectDateTimeWidget.__init__": [
+    "django.forms.widgets.SelectDateWidget",
+    "django.forms.MultiWidget.__init__",
+    "django.forms.TimeInput"
+  ],
+  "django.forms.widgets.SelectDateWidget": [],
+  "django.forms.TimeInput": [],
+  "django.forms.MultiWidget.__init__": [],
+  "mezzanine.core.forms.SplitSelectDateTimeWidget.decompress": [
+    "django.forms.utils.to_current_timezone.date",
+    "django.forms.utils.to_current_timezone.time",
+    "django.forms.utils.to_current_timezone",
+    "<builtin>.isinstance",
+    "django.forms.utils.to_current_timezone.split"
+  ],
+  "django.forms.utils.to_current_timezone.split": [],
+  "django.forms.utils.to_current_timezone": [],
+  "django.forms.utils.to_current_timezone.date": [],
+  "django.forms.utils.to_current_timezone.time": [],
+  "mezzanine.core.forms.SplitSelectDateTimeWidget.value_from_datadict": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.forms.CheckboxSelectMultiple.render": [
+    "<builtin>.super",
+    "django.utils.safestring.mark_safe"
+  ],
+  "mezzanine.core.forms.get_edit_form.EditForm": [
+    "django.forms.CharField"
+  ],
+  "mezzanine.core.forms.get_edit_form.EditForm.__init__": [
+    "<builtin>.super",
+    "<builtin>.str",
+    "uuid.uuid4",
+    "django.forms.CharField.keys"
+  ],
+  "uuid.uuid4": [],
+  "django.forms.CharField.keys": [],
+  "mezzanine.forms.fields": [
+    "mezzanine.utils.importing.import_dotted_path",
+    "<builtin>.getattr",
+    "django.core.exceptions.ImproperlyConfigured",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.forms.fields.<lambda1>": [
+    "<builtin>.type"
+  ],
+  "mezzanine.forms": [],
+  "mezzanine.utils": [],
+  "mezzanine.utils.static": [
+    "<builtin>.getattr",
+    "django.utils.functional.lazy"
+  ],
+  "mezzanine.urls": [
+    "<builtin>.str",
+    "<builtin>.len",
+    "<builtin>.getattr",
+    "django.views.i18n.JavaScriptCatalog.as_view",
+    "django.urls.include",
+    "django.urls.re_path",
+    "django.urls.path"
+  ],
+  "django.views.i18n.JavaScriptCatalog.as_view": [],
+  "django.urls.include": [],
+  "django.urls.path": [],
+  "mezzanine.urls.<list5>.<lambda1>": [],
+  "django.http.HttpResponse": [],
+  "mezzanine.urls.<lambda1>": [
+    "django.http.HttpResponse"
+  ],
+  "mezzanine.core.sitemaps": [],
+  "mezzanine.core.sitemaps.DisplayableSitemap.items": [
+    "<builtin>.list",
+    "django.db.models.Manager.url_map",
+    "django.db.models.Manager.url_map.values"
+  ],
+  "django.db.models.Manager.url_map": [],
+  "django.db.models.Manager.url_map.values": [],
+  "mezzanine.core.sitemaps.DisplayableSitemap.lastmod": [
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.core.sitemaps.DisplayableSitemap.get_urls": [
+    "<builtin>.super",
+    "django.contrib.sites.models.Site.objects.get",
+    "mezzanine.utils.sites.current_site_id"
+  ],
+  "mezzanine.blog": [],
+  "mezzanine.blog.models": [],
+  "mezzanine.blog.models.BlogPost": [
+    "django.db.models.BooleanField",
+    "django.db.models.ManyToManyField",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.utils.models.upload_to",
+    "mezzanine.generic.fields.BaseGenericRelation.__init__",
+    "mezzanine.core.fields.FileField.__init__"
+  ],
+  "mezzanine.generic.fields.BaseGenericRelation.__init__": [
+    "<builtin>.super",
+    "<builtin>.getattr",
+    "django.core.exceptions.ImproperlyConfigured"
+  ],
+  "mezzanine.core.fields.FileField.__init__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.blog.models.BlogPost.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.blog.models.BlogPost.get_absolute_url": [
+    "<builtin>.str",
+    "<builtin>.len",
+    "<builtin>.getattr",
+    "django.urls.reverse"
+  ],
+  "mezzanine.blog.models.BlogCategory.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.blog.models.BlogCategory.get_absolute_url": [
+    "django.urls.reverse"
+  ],
+  "mezzanine.generic": [],
+  "mezzanine.generic.get_model": [],
+  "mezzanine.generic.get_form": [],
+  "mezzanine.generic.forms": [],
+  "mezzanine.generic.forms.KeywordsWidget.Media": [
+    "django.utils.functional.lazy",
+    "mezzanine.utils.static.<lambda1>"
+  ],
+  "mezzanine.generic.forms.KeywordsWidget.__init__": [
+    "<builtin>.super",
+    "django.forms.TextInput"
+  ],
+  "django.forms.TextInput": [],
+  "mezzanine.generic.forms.KeywordsWidget.decompress": [
+    "<builtin>.str",
+    "<builtin>.list",
+    "django.contrib.sites.managers.CurrentSiteManager.all",
+    "<builtin>.hasattr",
+    "<builtin>.isinstance",
+    "django.contrib.sites.managers.CurrentSiteManager.all.filter",
+    "<builtin>.zip"
+  ],
+  "django.contrib.sites.managers.CurrentSiteManager.all": [],
+  "django.contrib.sites.managers.CurrentSiteManager.all.filter": [],
+  "<builtin>.zip": [],
+  "mezzanine.generic.forms.KeywordsWidget.render": [
+    "<builtin>.str",
+    "django.contrib.sites.managers.CurrentSiteManager.all",
+    "<builtin>.super",
+    "django.contrib.sites.managers.CurrentSiteManager.all.order_by",
+    "django.utils.safestring.mark_safe"
+  ],
+  "django.contrib.sites.managers.CurrentSiteManager.all.order_by": [],
+  "mezzanine.generic.forms.KeywordsWidget.value_from_datadict": [],
+  "mezzanine.generic.forms.ThreadedCommentForm": [
+    "django.forms.EmailField",
+    "django.forms.CharField",
+    "django.forms.URLField",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.forms.EmailField": [],
+  "django.forms.URLField": [],
+  "mezzanine.generic.forms.ThreadedCommentForm.__init__": [
+    "<builtin>.super",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "mezzanine.generic.forms.ThreadedCommentForm.get_comment_model": [],
+  "mezzanine.generic.forms.ThreadedCommentForm.check_for_duplicate_comment": [],
+  "mezzanine.generic.forms.ThreadedCommentForm.save": [
+    "<builtin>.str",
+    "mezzanine.generic.forms.ThreadedCommentForm.get_comment_model",
+    "mezzanine.utils.views.ip_for_request",
+    "<builtin>.getattr",
+    "django.contrib.sites.managers.CurrentSiteManager.filter",
+    "django.contrib.sites.managers.CurrentSiteManager.filter.submit_date.date",
+    "django_comments.forms.CommentForm.get_comment_object.submit_date.date",
+    "django_comments.signals.comment_was_posted.send",
+    "django.utils.translation.gettext_lazy",
+    "django_comments.forms.CommentForm.get_comment_object.get_absolute_url",
+    "mezzanine.utils.cache.add_cache_bypass",
+    "mezzanine.utils.email.split_addresses",
+    "django_comments.forms.CommentForm.data.get",
+    "mezzanine.utils.email.send_mail_template",
+    "django_comments.forms.CommentForm.get_comment_object",
+    "django.utils.translation.gettext",
+    "mezzanine.utils.deprecation.is_authenticated",
+    "django_comments.forms.CommentForm.get_comment_object.save"
+  ],
+  "django_comments.forms.CommentForm.get_comment_object": [],
+  "django_comments.forms.CommentForm.data.get": [],
+  "django.contrib.sites.managers.CurrentSiteManager.filter": [],
+  "django.contrib.sites.managers.CurrentSiteManager.filter.submit_date.date": [],
+  "django_comments.forms.CommentForm.get_comment_object.submit_date.date": [],
+  "django_comments.forms.CommentForm.get_comment_object.save": [],
+  "django_comments.signals.comment_was_posted.send": [],
+  "django_comments.forms.CommentForm.get_comment_object.get_absolute_url": [],
+  "mezzanine.generic.forms.RatingForm": [
+    "django.forms.ChoiceField",
+    "<builtin>.zip",
+    "<builtin>.list"
+  ],
+  "django.forms.ChoiceField": [],
+  "mezzanine.generic.forms.RatingForm.__init__": [
+    "<builtin>.super",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "mezzanine.generic.forms.RatingForm.rating_manager": [
+    "django_comments.forms.CommentSecurityForm.target_object.get_ratingfield_name",
+    "<builtin>.getattr"
+  ],
+  "django_comments.forms.CommentSecurityForm.target_object.get_ratingfield_name": [],
+  "mezzanine.generic.forms.RatingForm.clean": [
+    "django.utils.translation.gettext",
+    "django.forms.ValidationError",
+    "mezzanine.utils.deprecation.is_authenticated",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.generic.forms.RatingForm.save": [
+    "<builtin>.int",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "mezzanine.generic.models": [],
+  "mezzanine.generic.models.ThreadedComment": [
+    "django.db.models.BooleanField",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.ForeignKey",
+    "mezzanine.core.managers.CurrentSiteManager.__init__",
+    "mezzanine.generic.fields.BaseGenericRelation.__init__"
+  ],
+  "mezzanine.generic.models.ThreadedComment.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.generic.models.ThreadedComment.get_absolute_url": [
+    "django_comments.models.Comment.content_object.get_absolute_url"
+  ],
+  "django_comments.models.Comment.content_object.get_absolute_url": [],
+  "mezzanine.generic.models.ThreadedComment.save": [
+    "<builtin>.super",
+    "mezzanine.utils.sites.current_site_id"
+  ],
+  "mezzanine.generic.models.ThreadedComment.intro": [
+    "django.template.defaultfilters.truncatewords_html"
+  ],
+  "django.template.defaultfilters.truncatewords_html": [],
+  "mezzanine.generic.models.ThreadedComment.avatar_link": [
+    "mezzanine.core.templatetags.mezzanine_tags.gravatar_url",
+    "django.utils.html.format_html"
+  ],
+  "mezzanine.generic.models.ThreadedComment.admin_link": [
+    "mezzanine.core.models.gettext",
+    "bs4.BeautifulSoup.findAll.get.replace",
+    "bs4.BeautifulSoup.findAll.get",
+    "django.utils.html.format_html",
+    "mezzanine.generic.models.ThreadedComment.get_absolute_url",
+    "django.utils.translation.gettext"
+  ],
+  "mezzanine.generic.models.ThreadedComment.email_hash": [],
+  "mezzanine.generic.models.Keyword": [
+    "mezzanine.core.managers.CurrentSiteManager.__init__"
+  ],
+  "mezzanine.generic.models.Keyword.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.generic.models.AssignedKeyword": [
+    "django.db.models.IntegerField",
+    "django.db.models.ForeignKey",
+    "django.contrib.contenttypes.fields.GenericForeignKey",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.contrib.contenttypes.fields.GenericForeignKey": [],
+  "mezzanine.generic.models.AssignedKeyword.__str__": [
+    "<builtin>.str"
+  ],
+  "mezzanine.generic.models.Rating": [
+    "django.db.models.IntegerField",
+    "django.db.models.DateTimeField",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.ForeignKey",
+    "django.contrib.contenttypes.fields.GenericForeignKey",
+    "mezzanine.utils.models.get_user_model_name"
+  ],
+  "mezzanine.generic.models.Rating.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.generic.models.Rating.save": [
+    "<builtin>.super",
+    "<builtin>.str",
+    "<builtin>.map",
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.ValueError": [],
+  "mezzanine.generic.managers": [],
+  "mezzanine.generic.managers.CommentManager.visible": [
+    "django_comments.managers.CommentManager.all.filter",
+    "django.contrib.sites.managers.CurrentSiteManager.all",
+    "django.contrib.sites.managers.CurrentSiteManager.all.filter"
+  ],
+  "django_comments.managers.CommentManager.all.filter": [],
+  "mezzanine.generic.managers.CommentManager.count_queryset": [
+    "django.contrib.sites.managers.CurrentSiteManager.all.count",
+    "django_comments.managers.CommentManager.all.count",
+    "django.contrib.sites.managers.CurrentSiteManager.all.filter.count",
+    "mezzanine.generic.managers.CommentManager.visible",
+    "django_comments.managers.CommentManager.all.filter.count"
+  ],
+  "django.contrib.sites.managers.CurrentSiteManager.all.count": [],
+  "django_comments.managers.CommentManager.all.filter.count": [],
+  "django.contrib.sites.managers.CurrentSiteManager.all.filter.count": [],
+  "django_comments.managers.CommentManager.all.count": [],
+  "mezzanine.generic.managers.KeywordManager.get_by_natural_key": [
+    "django.contrib.sites.managers.CurrentSiteManager.get"
+  ],
+  "django.contrib.sites.managers.CurrentSiteManager.get": [],
+  "mezzanine.generic.managers.KeywordManager.get_or_create_iexact": [
+    "<builtin>.dict",
+    "django.contrib.sites.managers.CurrentSiteManager.create",
+    "django.contrib.sites.managers.CurrentSiteManager.filter"
+  ],
+  "<builtin>.dict": [],
+  "django.contrib.sites.managers.CurrentSiteManager.create": [],
+  "mezzanine.generic.managers.KeywordManager.delete_unused": [
+    "django.contrib.sites.managers.CurrentSiteManager.all.filter",
+    "django.contrib.sites.managers.CurrentSiteManager.all",
+    "django.contrib.sites.managers.CurrentSiteManager.filter",
+    "django.contrib.sites.managers.CurrentSiteManager.all.filter.delete"
+  ],
+  "django.contrib.sites.managers.CurrentSiteManager.all.filter.delete": [],
+  "mezzanine.core.managers": [],
+  "mezzanine.core.managers.ManagerDescriptor.__get__": [
+    "<builtin>.AttributeError"
+  ],
+  "<builtin>.AttributeError": [],
+  "mezzanine.core.managers.PublishedManager.published": [
+    "django.db.models.Q",
+    "django.utils.timezone.now",
+    "django.db.models.Manager.all",
+    "django.db.models.Manager.filter"
+  ],
+  "django.db.models.Manager.all": [],
+  "django.db.models.Manager.filter": [],
+  "mezzanine.core.managers.PublishedManager.get_by_natural_key": [
+    "django.db.models.Manager.get"
+  ],
+  "django.db.models.Manager.get": [],
+  "mezzanine.core.managers.search_fields_to_dict": [
+    "<builtin>.len",
+    "<builtin>.list",
+    "<builtin>.int",
+    "<builtin>.dict",
+    "<builtin>.zip"
+  ],
+  "mezzanine.core.managers.SearchableQuerySet.__init__": [
+    "<builtin>.super",
+    "<builtin>.set"
+  ],
+  "mezzanine.core.managers.SearchableQuerySet.search": [
+    "django.db.models.query.QuerySet.filter.distinct",
+    "functools.reduce",
+    "django.db.models.query.QuerySet.filter",
+    "mezzanine.core.managers.SearchableQuerySet.search.<lambda1>",
+    "django.db.models.Q",
+    "mezzanine.core.managers.search_fields_to_dict",
+    "django.db.models.query.QuerySet.none",
+    "django.db.models.query.QuerySet.distinct"
+  ],
+  "django.db.models.query.QuerySet.none": [],
+  "mezzanine.core.managers.SearchableQuerySet.search.<lambda1>": [],
+  "functools.reduce": [],
+  "django.db.models.query.QuerySet.filter": [],
+  "django.db.models.query.QuerySet.filter.distinct": [],
+  "django.db.models.query.QuerySet.distinct": [],
+  "mezzanine.core.managers.SearchableQuerySet._clone": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.managers.SearchableQuerySet.order_by": [
+    "<builtin>.super",
+    "<builtin>.len"
+  ],
+  "mezzanine.core.managers.SearchableQuerySet.annotate_scores": [
+    "<builtin>.len",
+    "<builtin>.getattr",
+    "<builtin>.list",
+    "django.utils.timezone.now.total_seconds",
+    "<builtin>.int",
+    "django.utils.timezone.now",
+    "<builtin>.super",
+    "<builtin>.iter",
+    "<builtin>.enumerate",
+    "<builtin>.sum"
+  ],
+  "<builtin>.sum": [],
+  "django.utils.timezone.now.total_seconds": [],
+  "mezzanine.core.managers.SearchableManager.__init__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.managers.SearchableManager.get_search_fields": [
+    "<builtin>.getattr",
+    "<builtin>.reversed",
+    "<builtin>.isinstance",
+    "mezzanine.core.managers.search_fields_to_dict",
+    "django.db.models.Manager.model._meta.get_fields"
+  ],
+  "django.db.models.Manager.model._meta.get_fields": [],
+  "mezzanine.core.managers.SearchableManager.get_queryset": [
+    "mezzanine.core.managers.SearchableManager.get_search_fields",
+    "mezzanine.core.managers.SearchableQuerySet.__init__"
+  ],
+  "mezzanine.core.managers.SearchableManager.contribute_to_class": [
+    "<builtin>.super",
+    "<builtin>.setattr",
+    "django.db.models.manager.ManagerDescriptor"
+  ],
+  "django.db.models.manager.ManagerDescriptor": [],
+  "mezzanine.core.managers.SearchableManager.search": [
+    "django.apps.apps.get_models.objects.published.search",
+    "<builtin>.issubclass",
+    "<builtin>.getattr",
+    "functools.reduce",
+    "django.apps.apps.get_model.objects.published.search",
+    "functools.reduce.update",
+    "django.apps.apps.get_model.objects.published",
+    "django.apps.apps.get_model",
+    "django.apps.apps.get_models",
+    "django.apps.apps.get_models.objects.published",
+    "django.apps.apps.get_model._meta.get_parent_list",
+    "django.apps.apps.get_model.objects.get_queryset",
+    "django.apps.apps.get_model.objects.get_queryset.search",
+    "<builtin>.sorted",
+    "<builtin>.set",
+    "django.apps.apps.get_models.objects.get_queryset",
+    "django.core.exceptions.ImproperlyConfigured",
+    "django.apps.apps.get_models.objects.get_queryset.search"
+  ],
+  "django.apps.apps.get_model._meta.get_parent_list": [],
+  "functools.reduce.update": [],
+  "django.apps.apps.get_models.objects.published": [],
+  "django.apps.apps.get_model.objects.published": [],
+  "django.apps.apps.get_model.objects.get_queryset": [],
+  "django.apps.apps.get_models.objects.get_queryset": [],
+  "django.apps.apps.get_models.objects.published.search": [],
+  "django.apps.apps.get_model.objects.get_queryset.search": [],
+  "django.apps.apps.get_model.objects.published.search": [],
+  "django.apps.apps.get_models.objects.get_queryset.search": [],
+  "mezzanine.core.managers.SearchableManager.search.<lambda1>": [],
+  "mezzanine.core.managers.CurrentSiteManager.get_queryset": [
+    "<builtin>.super",
+    "mezzanine.utils.sites.current_site_id",
+    "django.contrib.sites.managers.CurrentSiteManager._get_field_name"
+  ],
+  "django.contrib.sites.managers.CurrentSiteManager._get_field_name": [],
+  "mezzanine.core.managers.DisplayableManager.url_map": [
+    "<builtin>.issubclass",
+    "django.apps.apps.get_models.objects.published.filter",
+    "<builtin>.hasattr",
+    "django.apps.apps.get_models",
+    "django.apps.apps.get_models.objects.published",
+    "<builtin>.setattr",
+    "django.apps.apps.get_models.objects.published.filter.exclude"
+  ],
+  "mezzanine.core.managers.DisplayableManager.url_map.Home": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.apps.apps.get_models.objects.published.filter": [],
+  "django.apps.apps.get_models.objects.published.filter.exclude": [],
+  "mezzanine.generic.fields": [],
+  "mezzanine.generic.fields.BaseGenericRelation.contribute_to_class": [
+    "django.db.models.signals.post_delete.connect",
+    "mezzanine.utils.deprecation.get_related_model",
+    "<builtin>.super",
+    "<builtin>.isinstance",
+    "copy.copy",
+    "django.db.models.signals.post_save.connect",
+    "django.contrib.contenttypes.fields.GenericRelation.__class__.__name__.lower",
+    "django.core.exceptions.ImproperlyConfigured"
+  ],
+  "copy.copy": [],
+  "django.contrib.contenttypes.fields.GenericRelation.__class__.__name__.lower": [],
+  "mezzanine.generic.fields.BaseGenericRelation.contribute_to_class.<lambda1>": [],
+  "django.db.models.signals.post_save.connect": [],
+  "django.db.models.signals.post_delete.connect": [],
+  "mezzanine.generic.fields.BaseGenericRelation._related_items_changed": [
+    "<builtin>.issubclass",
+    "mezzanine.generic.fields.CommentsField.related_items_changed",
+    "<builtin>.getattr",
+    "<builtin>.hasattr",
+    "mezzanine.generic.fields.KeywordsField.related_items_changed",
+    "mezzanine.generic.fields.RatingField.related_items_changed",
+    "mezzanine.generic.fields.BaseGenericRelation.related_items_changed"
+  ],
+  "mezzanine.generic.fields.KeywordsField.related_items_changed": [
+    "<builtin>.str",
+    "<builtin>.setattr",
+    "<builtin>.getattr",
+    "<builtin>.list"
+  ],
+  "mezzanine.generic.fields.CommentsField.related_items_changed": [
+    "<builtin>.setattr",
+    "<builtin>.list"
+  ],
+  "mezzanine.generic.fields.RatingField.related_items_changed": [
+    "<builtin>.len",
+    "<builtin>.setattr",
+    "<builtin>.sum"
+  ],
+  "mezzanine.generic.fields.BaseGenericRelation.related_items_changed": [],
+  "mezzanine.generic.fields.BaseGenericRelation.value_from_object": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.generic.fields.CommentsField": [
+    "django.db.models.IntegerField"
+  ],
+  "mezzanine.generic.fields.KeywordsField": [
+    "django.db.models.CharField"
+  ],
+  "mezzanine.generic.fields.KeywordsField.formfield": [
+    "<builtin>.super"
+  ],
+  "mezzanine.generic.fields.KeywordsField.save_form_data": [
+    "<builtin>.str",
+    "mezzanine.generic.managers.KeywordManager.delete_unused",
+    "<builtin>.getattr",
+    "<builtin>.set"
+  ],
+  "mezzanine.generic.fields.KeywordsField.contribute_to_class": [
+    "<builtin>.super",
+    "<builtin>.type",
+    "<builtin>.list",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.generic.fields.RatingField": [
+    "django.db.models.IntegerField",
+    "django.db.models.FloatField"
+  ],
+  "django.db.models.FloatField": [],
+  "mezzanine.core.fields": [
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.core.fields.OrderField.formfield": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.fields.RichTextField.clean": [
+    "mezzanine.utils.html.escape"
+  ],
+  "mezzanine.core.fields.MultiChoiceField.formfield": [
+    "django.utils.text.capfirst",
+    "django.db.models.CharField.has_default",
+    "django.db.models.CharField.get_default",
+    "mezzanine.pages.fields.MenusField.get_default",
+    "mezzanine.pages.fields.MenusField.has_default",
+    "django.forms.MultipleChoiceField"
+  ],
+  "django.db.models.CharField.has_default": [],
+  "mezzanine.pages.fields.MenusField.has_default": [],
+  "mezzanine.pages.fields.MenusField.get_default": [
+    "<builtin>.getattr",
+    "django.db.models.CharField.get_choices",
+    "<builtin>.callable",
+    "django.db.models.CharField.default",
+    "<builtin>.tuple"
+  ],
+  "django.db.models.CharField.get_default": [],
+  "django.forms.MultipleChoiceField": [],
+  "mezzanine.core.fields.MultiChoiceField.get_db_prep_value": [
+    "<builtin>.isinstance",
+    "<builtin>.str"
+  ],
+  "mezzanine.core.fields.MultiChoiceField.from_db_value": [
+    "mezzanine.core.fields.MultiChoiceField.to_python"
+  ],
+  "mezzanine.core.fields.MultiChoiceField.to_python": [
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.core.fields.MultiChoiceField.validate": [
+    "django.core.exceptions.ValidationError",
+    "<builtin>.str",
+    "<builtin>.set"
+  ],
+  "django.core.exceptions.ValidationError": [],
+  "mezzanine.core.fields.MultiChoiceField.value_to_string": [
+    "django.db.models.CharField.value_from_object"
+  ],
+  "django.db.models.CharField.value_from_object": [],
+  "mezzanine.template": [],
+  "mezzanine.template.Library.as_tag": [
+    "warnings.warn",
+    "django.template.Library.tag",
+    "functools.wraps"
+  ],
+  "mezzanine.template.Library.as_tag.tag_wrapper": [
+    "django.template.Node.__init__"
+  ],
+  "mezzanine.template.Library.as_tag.tag_wrapper.AsTagNode.render": [
+    "mezzanine.template.Library.as_tag.tag_wrapper.AsTagNode.render.resolve"
+  ],
+  "mezzanine.template.Library.as_tag.tag_wrapper.AsTagNode.render.resolve": [
+    "django.template.Variable",
+    "django.template.Variable.resolve"
+  ],
+  "django.template.Variable": [],
+  "django.template.Variable.resolve": [],
+  "django.template.Node.__init__": [],
+  "mezzanine.template.Library.render_tag": [
+    "django.template.Library.tag",
+    "functools.wraps"
+  ],
+  "mezzanine.template.Library.render_tag.tag_wrapper": [
+    "django.template.Node.__init__"
+  ],
+  "mezzanine.template.Library.render_tag.tag_wrapper.RenderTagNode.render": [],
+  "mezzanine.template.Library.to_end_tag": [
+    "django.template.Library.tag",
+    "functools.wraps"
+  ],
+  "mezzanine.template.Library.to_end_tag.tag_wrapper": [
+    "mezzanine.template.Library.to_end_tag.tag_wrapper.ToEndTagNode.__init__"
+  ],
+  "mezzanine.template.Library.to_end_tag.tag_wrapper.ToEndTagNode.__init__": [],
+  "mezzanine.template.Library.to_end_tag.tag_wrapper.ToEndTagNode.render": [],
+  "mezzanine.core.exceptions": [],
+  "mezzanine.core": [],
+  "mezzanine.pages.models": [],
+  "mezzanine.pages.models.BasePage": [
+    "mezzanine.core.models.wrapped_manager"
+  ],
+  "mezzanine.pages.models.Page": [
+    "django.db.models.BooleanField",
+    "mezzanine.pages.fields.MenusField.__init__",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField"
+  ],
+  "mezzanine.pages.fields.MenusField.__init__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.pages.models.Page.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.pages.models.Page.__str__": [],
+  "mezzanine.pages.models.Page.get_absolute_url": [
+    "urllib.parse.urljoin",
+    "django.urls.reverse"
+  ],
+  "urllib.parse.urljoin": [],
+  "mezzanine.pages.models.Page.save": [
+    "<builtin>.super",
+    "mezzanine.core.models.ContentTyped.set_content_model"
+  ],
+  "mezzanine.pages.models.Page.description_from_content": [
+    "<builtin>.super",
+    "mezzanine.core.models.ContentTyped.get_content_model"
+  ],
+  "mezzanine.pages.models.Page.get_ascendants": [
+    "mezzanine.utils.sites.override_current_site_id",
+    "modeltranslation.manager.MultilingualManager.with_ascendants_for_slug",
+    "<builtin>.hasattr"
+  ],
+  "modeltranslation.manager.MultilingualManager.with_ascendants_for_slug": [],
+  "mezzanine.pages.models.Page.get_slug": [
+    "<builtin>.super"
+  ],
+  "mezzanine.pages.models.Page.set_slug": [
+    "<builtin>.len",
+    "modeltranslation.manager.MultilingualManager.filter",
+    "modeltranslation.manager.MultilingualManager.filter.overridden",
+    "modeltranslation.manager.MultilingualManager.filter.save",
+    "mezzanine.pages.models.Page.save"
+  ],
+  "modeltranslation.manager.MultilingualManager.filter.overridden": [],
+  "modeltranslation.manager.MultilingualManager.filter.save": [],
+  "mezzanine.pages.models.Page.set_parent": [
+    "<builtin>.AttributeError",
+    "mezzanine.pages.models.Page.set_slug",
+    "mezzanine.pages.models.Page.save"
+  ],
+  "mezzanine.pages.models.Page.overridden": [
+    "django.urls.resolve",
+    "django.urls.reverse"
+  ],
+  "mezzanine.pages.models.Page.can_add": [],
+  "mezzanine.pages.models.Page.can_change": [],
+  "mezzanine.pages.models.Page.can_delete": [],
+  "mezzanine.pages.models.Page.can_move": [],
+  "mezzanine.pages.models.Page.set_helpers": [
+    "mezzanine.utils.urls.path_to_slug",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.pages.models.Page.set_helpers.is_c_or_a": [
+    "mezzanine.pages.models.Page.set_helpers.is_c_or_a"
+  ],
+  "mezzanine.pages.models.Page.set_helpers.<lambda1>": [
+    "mezzanine.pages.models.Page.set_helpers.is_c_or_a",
+    "<builtin>.bool"
+  ],
+  "mezzanine.pages.models.Page.in_menu_template": [
+    "<builtin>.str"
+  ],
+  "mezzanine.pages.models.Page.get_template_name": [],
+  "mezzanine.pages.models.RichTextPage.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.pages.models.Link.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.pages.models.PageMoveException.__init__": [
+    "django.utils.translation.gettext"
+  ],
+  "mezzanine.pages.models.PageMoveException.__str__": [],
+  "mezzanine.pages.managers": [],
+  "mezzanine.pages.managers.PageManager.published": [
+    "<builtin>.super",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "mezzanine.pages.managers.PageManager.with_ascendants_for_slug": [
+    "mezzanine.utils.urls.home_slug",
+    "<builtin>.len",
+    "<builtin>.list",
+    "mezzanine.pages.managers.PageManager.published",
+    "<builtin>.range",
+    "<builtin>.enumerate"
+  ],
+  "<builtin>.range": [],
+  "mezzanine.pages.fields": [],
+  "django.db.models.CharField.default": [],
+  "django.db.models.CharField.get_choices": [],
+  "mezzanine.pages.fields.MenusField._get_choices": [
+    "<builtin>.getattr"
+  ],
+  "mezzanine.pages.fields.MenusField._set_choices": [],
+  "<builtin>.property": [],
+  "mezzanine.pages.fields.MenusField": [
+    "<builtin>.property"
+  ],
+  "mezzanine.pages.views": [
+    "django.contrib.admin.views.decorators.staff_member_required"
+  ],
+  "django.contrib.admin.views.decorators.staff_member_required": [],
+  "mezzanine.pages.views.admin_page_ordering": [
+    "django.db.models.Model.objects.filter.order_by",
+    "modeltranslation.manager.MultilingualManager.published.select_related.objects.get",
+    "modeltranslation.manager.MultilingualManager.published.select_related.objects.filter.order_by",
+    "django.shortcuts.get_object_or_404",
+    "mezzanine.pages.views.admin_page_ordering.get_id",
+    "django.contrib.auth.get_user_model.objects.filter.update",
+    "django.shortcuts.get_object_or_404.get_content_model.can_move",
+    "django.db.models.Model.objects.filter.update",
+    "django.contrib.sites.managers.CurrentSiteManager.filter",
+    "django.contrib.sites.managers.CurrentSiteManager.filter.update",
+    "django.db.models.Model.objects.filter",
+    "modeltranslation.manager.MultilingualManager.published.select_related.objects.filter.update",
+    "modeltranslation.manager.MultilingualManager.published.select_related.objects.filter",
+    "<builtin>.enumerate",
+    "django.shortcuts.get_object_or_404.get_content_model",
+    "modeltranslation.manager.MultilingualManager.get",
+    "modeltranslation.manager.MultilingualManager.filter",
+    "django.db.models.Model.objects.get",
+    "django.contrib.messages.error",
+    "django.shortcuts.get_object_or_404.set_parent",
+    "modeltranslation.manager.MultilingualManager.filter.order_by",
+    "django.contrib.sites.managers.CurrentSiteManager.get",
+    "django.contrib.sites.managers.CurrentSiteManager.filter.order_by",
+    "django.http.HttpResponse",
+    "django.contrib.auth.get_user_model.objects.filter.order_by",
+    "modeltranslation.manager.MultilingualManager.filter.update",
+    "django.contrib.auth.get_user_model.objects.filter"
+  ],
+  "mezzanine.pages.views.admin_page_ordering.get_id": [
+    "<builtin>.int"
+  ],
+  "django.db.models.Model.objects.get": [],
+  "modeltranslation.manager.MultilingualManager.get": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.objects.get": [],
+  "django.shortcuts.get_object_or_404.get_content_model": [],
+  "django.shortcuts.get_object_or_404.get_content_model.can_move": [],
+  "django.shortcuts.get_object_or_404.set_parent": [],
+  "django.db.models.Model.objects.filter": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.objects.filter": [],
+  "django.contrib.auth.get_user_model.objects.filter": [],
+  "modeltranslation.manager.MultilingualManager.filter.order_by": [],
+  "django.db.models.Model.objects.filter.order_by": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.objects.filter.order_by": [],
+  "django.contrib.sites.managers.CurrentSiteManager.filter.order_by": [],
+  "django.contrib.auth.get_user_model.objects.filter.order_by": [],
+  "django.db.models.Model.objects.filter.update": [],
+  "django.contrib.sites.managers.CurrentSiteManager.filter.update": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.objects.filter.update": [],
+  "modeltranslation.manager.MultilingualManager.filter.update": [],
+  "django.contrib.auth.get_user_model.objects.filter.update": [],
+  "mezzanine.pages.views.page": [
+    "<builtin>.str",
+    "mezzanine.utils.urls.home_slug",
+    "mezzanine.pages.middleware.PageMiddleware.installed",
+    "django.template.response.TemplateResponse",
+    "django.http.Http404",
+    "<builtin>.hasattr",
+    "django.core.exceptions.ImproperlyConfigured"
+  ],
+  "mezzanine.pages.middleware.PageMiddleware.installed": [
+    "mezzanine.utils.conf.middlewares_or_subclasses_installed",
+    "<builtin>.setattr"
+  ],
+  "django.http.Http404": [],
+  "mezzanine.pages.middleware": [],
+  "mezzanine.pages.middleware.PageMiddleware.__init__": [
+    "<builtin>.super",
+    "django.core.exceptions.MiddlewareNotUsed"
+  ],
+  "django.core.exceptions.MiddlewareNotUsed": [],
+  "mezzanine.pages.middleware.PageMiddleware.process_view": [
+    "mezzanine.utils.urls.path_to_slug",
+    "modeltranslation.manager.MultilingualManager.with_ascendants_for_slug",
+    "<builtin>.ValueError",
+    "mezzanine.pages.views.page",
+    "<builtin>.type",
+    "django.contrib.auth.views.redirect_to_login",
+    "<builtin>.isinstance",
+    "<builtin>.setattr",
+    "mezzanine.pages.context_processors.page",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "mezzanine.pages.context_processors.page": [
+    "<builtin>.isinstance",
+    "<builtin>.getattr"
+  ],
+  "django.contrib.auth.views.redirect_to_login": [],
+  "mezzanine.pages.context_processors": [],
+  "mezzanine.pages.page_processors": [
+    "collections.defaultdict"
+  ],
+  "collections.defaultdict": [],
+  "mezzanine.pages.page_processors.processor_for": [
+    "django.apps.apps.get_model",
+    "<builtin>.isinstance",
+    "<builtin>.TypeError",
+    "<builtin>.issubclass"
+  ],
+  "mezzanine.pages.page_processors.processor_for.decorator": [
+    "django.apps.apps.get_model._meta.object_name.lower"
+  ],
+  "django.apps.apps.get_model._meta.object_name.lower": [],
+  "mezzanine.pages.page_processors.autodiscover": [
+    "importlib.import_module",
+    "mezzanine.utils.importing.get_app_name_list",
+    "django.utils.module_loading.module_has_submodule"
+  ],
+  "mezzanine.pages.translation": [
+    "modeltranslation.translator.translator.register"
+  ],
+  "modeltranslation.translator.translator.register": [],
+  "mezzanine.core.translation": [],
+  "mezzanine.pages.urls": [
+    "mezzanine.pages.page_processors.autodiscover",
+    "django.urls.path"
+  ],
+  "mezzanine.pages.templatetags": [],
+  "mezzanine.pages.templatetags.pages_tags": [
+    "django.template.Library",
+    "django.template.Library.as_tag",
+    "django.template.Library.render_tag"
+  ],
+  "mezzanine.pages.templatetags.pages_tags.page_menu": [
+    "mezzanine.core.models.ContentTyped.get_content_models",
+    "<builtin>.setattr",
+    "modeltranslation.manager.MultilingualManager.published.select_related.exclude.get",
+    "mezzanine.pages.templatetags.pages_tags.page_menu.<lambda1>",
+    "modeltranslation.manager.MultilingualManager.published",
+    "django.template.Variable.resolve",
+    "modeltranslation.manager.MultilingualManager.published.select_related",
+    "django.template.TemplateSyntaxError",
+    "django.template.loader.get_template",
+    "modeltranslation.manager.MultilingualManager.published.select_related.order_by.set_helpers",
+    "<builtin>.isinstance",
+    "modeltranslation.manager.MultilingualManager.published.select_related.order_by.in_menu_template",
+    "modeltranslation.manager.MultilingualManager.published.select_related.order_by",
+    "mezzanine.utils.urls.home_slug",
+    "<builtin>.getattr",
+    "django.template.loader.get_template.render",
+    "collections.defaultdict",
+    "modeltranslation.manager.MultilingualManager.published.select_related.exclude",
+    "django.template.Variable",
+    "mezzanine.pages.templatetags.pages_tags.page_menu.<lambda2>"
+  ],
+  "mezzanine.pages.templatetags.pages_tags.page_menu.<lambda1>": [],
+  "mezzanine.pages.templatetags.pages_tags.page_menu.<lambda1>.<lambda1>": [
+    "<builtin>.len"
+  ],
+  "mezzanine.pages.templatetags.pages_tags.page_menu.<lambda2>": [],
+  "mezzanine.pages.templatetags.pages_tags.page_menu.<lambda2>.<lambda1>": [
+    "mezzanine.pages.templatetags.pages_tags.page_menu.<lambda1>"
+  ],
+  "modeltranslation.manager.MultilingualManager.published": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.exclude": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.exclude.get": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.order_by": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.order_by.set_helpers": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.order_by.in_menu_template": [],
+  "django.template.Library.as_tag": [],
+  "mezzanine.pages.templatetags.pages_tags.models_for_pages": [
+    "mezzanine.pages.admin.PageAdmin.get_content_models",
+    "warnings.warn"
+  ],
+  "mezzanine.pages.admin.PageAdmin.get_content_models": [
+    "<builtin>.super",
+    "<builtin>.sorted"
+  ],
+  "mezzanine.pages.templatetags.pages_tags.set_model_permissions": [
+    "<builtin>.setattr"
+  ],
+  "mezzanine.pages.templatetags.pages_tags.set_page_permissions": [
+    "<builtin>.setattr",
+    "<builtin>.getattr",
+    "django.core.exceptions.ImproperlyConfigured",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.pages.admin": [
+    "django.contrib.admin.site.register",
+    "copy.deepcopy"
+  ],
+  "copy.deepcopy": [],
+  "mezzanine.pages.admin.PageAdminForm.clean_slug": [
+    "<builtin>.isinstance",
+    "mezzanine.utils.urls.clean_slashes"
+  ],
+  "mezzanine.pages.admin.PageAdmin.check_permission": [
+    "django.core.exceptions.PermissionDenied",
+    "<builtin>.getattr"
+  ],
+  "django.core.exceptions.PermissionDenied": [],
+  "mezzanine.pages.admin.PageAdmin.add_view": [
+    "django.http.HttpResponseRedirect",
+    "<builtin>.super",
+    "mezzanine.pages.admin.PageAdmin.get_content_models"
+  ],
+  "django.http.HttpResponseRedirect": [],
+  "mezzanine.pages.admin.PageAdmin.change_view": [
+    "<builtin>.super",
+    "django.shortcuts.get_object_or_404",
+    "django.shortcuts.get_object_or_404.get_content_model"
+  ],
+  "mezzanine.pages.admin.PageAdmin.delete_view": [
+    "mezzanine.pages.admin.PageAdmin.check_permission",
+    "<builtin>.super",
+    "django.shortcuts.get_object_or_404",
+    "django.shortcuts.get_object_or_404.get_content_model"
+  ],
+  "mezzanine.pages.admin.PageAdmin.save_model": [
+    "<builtin>.super"
+  ],
+  "mezzanine.pages.admin.PageAdmin._maintain_parent": [
+    "django.http.HttpResponseRedirect"
+  ],
+  "mezzanine.pages.admin.PageAdmin.response_add": [
+    "<builtin>.super",
+    "mezzanine.pages.admin.PageAdmin._maintain_parent"
+  ],
+  "mezzanine.pages.admin.PageAdmin.response_change": [
+    "<builtin>.super",
+    "mezzanine.pages.admin.PageAdmin._maintain_parent"
+  ],
+  "mezzanine.pages.admin.PageAdmin.get_content_models.sort_key": [
+    "<builtin>.len"
+  ],
+  "mezzanine.pages.admin.LinkAdmin.formfield_for_dbfield": [
+    "<builtin>.super"
+  ],
+  "mezzanine.pages.admin.LinkAdmin.save_form": [
+    "<builtin>.super"
+  ],
+  "django.contrib.admin.site.register": [],
+  "mezzanine.core.admin": [
+    "django.contrib.admin.site.unregister",
+    "django.contrib.auth.get_user_model",
+    "django.contrib.admin.site.register"
+  ],
+  "mezzanine.core.admin.BaseTranslationModelAdmin.Media": [
+    "django.utils.functional.lazy",
+    "mezzanine.utils.static.<lambda1>"
+  ],
+  "mezzanine.core.admin.DisplayableAdminForm.clean_content": [
+    "django.forms.ModelForm.cleaned_data.get",
+    "django.forms.ValidationError",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.core.admin.DisplayableAdmin": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.core.admin.DisplayableAdmin.__init__": [
+    "<builtin>.super",
+    "<builtin>.set",
+    "<builtin>.list",
+    "django.contrib.admin.ModelAdmin.model.objects.get_search_fields"
+  ],
+  "django.contrib.admin.ModelAdmin.model.objects.get_search_fields": [],
+  "mezzanine.core.admin.DisplayableAdmin.check_permission": [],
+  "mezzanine.core.admin.DisplayableAdmin.save_model": [
+    "<builtin>.super",
+    "collections.OrderedDict",
+    "django.utils.translation.activate",
+    "django.utils.translation.get_language"
+  ],
+  "collections.OrderedDict": [],
+  "mezzanine.core.admin.BaseDynamicInlineAdmin.get_fields": [
+    "<builtin>.super",
+    "<builtin>.issubclass",
+    "<builtin>.list"
+  ],
+  "mezzanine.core.admin.BaseDynamicInlineAdmin.get_fieldsets": [
+    "<builtin>.super",
+    "<builtin>.issubclass",
+    "<builtin>.list",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.core.admin.get_inline_base_class": [],
+  "mezzanine.core.admin.StackedDynamicInlineAdmin.__init__": [
+    "<builtin>.super",
+    "<builtin>.getattr",
+    "<builtin>.Exception"
+  ],
+  "<builtin>.Exception": [],
+  "mezzanine.core.admin.OwnableAdmin.save_form": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.admin.OwnableAdmin.get_queryset": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.admin.ContentTypedAdmin.__init__": [
+    "django.db.models.Model.get_content_model_name",
+    "django.db.models.Model._meta.get_fields",
+    "django.contrib.auth.get_user_model.get_content_model_name",
+    "modeltranslation.manager.MultilingualManager.published.select_related.get_content_model_name",
+    "mezzanine.utils.models.base_concrete_model",
+    "<builtin>.reversed",
+    "<builtin>.hasattr",
+    "<builtin>.super",
+    "mezzanine.core.models.ContentTyped.get_content_model_name",
+    "django.contrib.auth.get_user_model._meta.get_fields",
+    "modeltranslation.manager.MultilingualManager.published.select_related._meta.get_fields",
+    "copy.deepcopy"
+  ],
+  "modeltranslation.manager.MultilingualManager.published.select_related._meta.get_fields": [],
+  "django.db.models.Model.get_content_model_name": [],
+  "django.contrib.auth.get_user_model.get_content_model_name": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.get_content_model_name": [],
+  "mezzanine.core.admin.ContentTypedAdmin.base_concrete_modeladmin": [
+    "<builtin>.Exception"
+  ],
+  "mezzanine.core.admin.ContentTypedAdmin.has_module_permission": [],
+  "mezzanine.core.admin.ContentTypedAdmin.change_view": [
+    "django.http.HttpResponseRedirect",
+    "<builtin>.super",
+    "django.shortcuts.get_object_or_404",
+    "django.shortcuts.get_object_or_404.get_content_model",
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "mezzanine.core.admin.ContentTypedAdmin.changelist_view": [
+    "django.http.HttpResponseRedirect",
+    "mezzanine.core.admin.ContentTypedAdmin.get_content_models",
+    "<builtin>.super",
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "mezzanine.core.admin.ContentTypedAdmin.get_content_models": [
+    "django.contrib.auth.get_user_model.get_content_models",
+    "mezzanine.core.models.ContentTyped.get_content_models",
+    "django.db.models.Model.get_content_models",
+    "<builtin>.setattr",
+    "modeltranslation.manager.MultilingualManager.published.select_related.get_content_models",
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "django.contrib.auth.get_user_model.get_content_models": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.get_content_models": [],
+  "django.db.models.Model.get_content_models": [],
+  "mezzanine.core.admin.SitePermissionUserAdminForm.clean_email": [
+    "django.forms.ValidationError",
+    "django.utils.translation.gettext_lazy",
+    "django.contrib.auth.get_user_model.objects.exclude",
+    "django.contrib.auth.get_user_model.objects.exclude.filter.exists",
+    "django.contrib.auth.admin.UserAdmin.form.cleaned_data.get",
+    "django.contrib.auth.get_user_model.objects.exclude.filter"
+  ],
+  "django.contrib.auth.admin.UserAdmin.form.cleaned_data.get": [],
+  "django.contrib.auth.get_user_model.objects.exclude.filter.exists": [],
+  "mezzanine.core.admin.SitePermissionUserAdmin.save_model": [
+    "django.contrib.auth.admin.UserAdmin.model.objects.get.get_all_permissions",
+    "django.contrib.messages.error",
+    "<builtin>.len",
+    "django.db.models.Model.objects.filter.exists",
+    "<builtin>.super",
+    "django.db.models.Model.objects.filter",
+    "django.contrib.auth.admin.UserAdmin.model.objects.get"
+  ],
+  "django.contrib.auth.admin.UserAdmin.model.objects.get": [],
+  "django.contrib.auth.admin.UserAdmin.model.objects.get.get_all_permissions": [],
+  "django.db.models.Model.objects.filter.exists": [],
+  "django.contrib.admin.site.unregister": [],
+  "mezzanine.core.admin.SiteRedirectAdminForm.clean_old_path": [
+    "django.forms.ValidationError",
+    "django.utils.translation.gettext_lazy",
+    "django.contrib.redirects.models.Redirect.objects.exclude.get",
+    "django.contrib.redirects.models.Redirect.objects.exclude",
+    "django.contrib.redirects.admin.RedirectAdmin.form.cleaned_data.get"
+  ],
+  "django.contrib.redirects.admin.RedirectAdmin.form.cleaned_data.get": [],
+  "django.contrib.redirects.models.Redirect.objects.exclude": [],
+  "django.contrib.redirects.models.Redirect.objects.exclude.get": [],
+  "mezzanine.core.admin.SiteRedirectAdmin.get_queryset": [
+    "<builtin>.super",
+    "mezzanine.utils.sites.current_site_id"
+  ],
+  "mezzanine.core.admin.SiteRedirectAdmin.save_form": [
+    "<builtin>.super",
+    "mezzanine.utils.sites.current_site_id"
+  ],
+  "mezzanine.pages.defaults": [
+    "mezzanine.conf.register_setting",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.pages.migrations.0002_auto_20141227_0224": [],
+  "django.db.migrations.AlterField": [],
+  "mezzanine.pages.migrations.0002_auto_20141227_0224.Migration": [
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.pages.migrations.0003_auto_20150527_1555": [],
+  "mezzanine.pages.migrations.0003_auto_20150527_1555.Migration": [
+    "django.db.models.DateTimeField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.pages.migrations.0004_auto_20170411_0504": [],
+  "mezzanine.pages.migrations.0004_auto_20170411_0504.Migration": [
+    "django.db.models.CharField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.pages.migrations": [],
+  "mezzanine.pages.migrations.0001_initial": [],
+  "django.db.models.AutoField": [],
+  "mezzanine.pages.migrations.0001_initial.Migration": [
+    "django.db.models.BooleanField",
+    "django.db.models.IntegerField",
+    "django.db.models.URLField",
+    "django.db.models.DateTimeField",
+    "django.db.models.OneToOneField",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField",
+    "django.db.models.TextField",
+    "django.db.models.AutoField",
+    "django.db.migrations.AddField",
+    "django.db.migrations.CreateModel"
+  ],
+  "django.db.migrations.CreateModel": [],
+  "django.db.migrations.AddField": [],
+  "mezzanine.accounts.models": [
+    "django.db.models.signals.post_save.connect",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.accounts.models.create_profile": [
+    "mezzanine.accounts.get_profile_for_user",
+    "django.db.connection.close"
+  ],
+  "django.db.connection.close": [],
+  "mezzanine.accounts.templatetags": [],
+  "mezzanine.accounts.templatetags.accounts_tags": [
+    "django.template.Library.filter",
+    "django.contrib.auth.get_user_model",
+    "django.template.Library",
+    "django.template.Library.as_tag"
+  ],
+  "mezzanine.accounts.templatetags.accounts_tags.login_form": [
+    "mezzanine.core.forms.Html5Mixin.__init__"
+  ],
+  "mezzanine.accounts.templatetags.accounts_tags.signup_form": [
+    "mezzanine.accounts.get_profile_form"
+  ],
+  "mezzanine.accounts.templatetags.accounts_tags.profile_form": [
+    "mezzanine.accounts.get_profile_form",
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.accounts.templatetags.accounts_tags.profile_fields": [
+    "django.forms.ModelForm.instance._mezzanine_profile._meta.get_fields.verbose_name.title",
+    "mezzanine.accounts.get_profile_for_user",
+    "<builtin>.getattr",
+    "django.contrib.auth.authenticate._mezzanine_profile._meta.get_fields.verbose_name.title",
+    "<builtin>.list",
+    "collections.OrderedDict",
+    "django.forms.ModelForm.instance._mezzanine_profile._meta.get_fields",
+    "collections.OrderedDict.items",
+    "mezzanine.accounts.get_profile_user_fieldname",
+    "django.contrib.auth.authenticate._mezzanine_profile._meta.get_fields",
+    "<builtin>.tuple"
+  ],
+  "django.forms.ModelForm.instance._mezzanine_profile._meta.get_fields": [],
+  "django.contrib.auth.authenticate._mezzanine_profile._meta.get_fields": [],
+  "django.forms.ModelForm.instance._mezzanine_profile._meta.get_fields.verbose_name.title": [],
+  "django.contrib.auth.authenticate._mezzanine_profile._meta.get_fields.verbose_name.title": [],
+  "collections.OrderedDict.items": [],
+  "mezzanine.accounts.templatetags.accounts_tags.username_or": [
+    "<builtin>.callable",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.accounts.admin": [
+    "django.contrib.admin.site.unregister",
+    "django.contrib.auth.get_user_model",
+    "django.contrib.admin.site.register"
+  ],
+  "mezzanine.accounts.admin.UserProfileAdmin.save_model": [
+    "<builtin>.super",
+    "django.contrib.auth.get_user_model.objects.get",
+    "mezzanine.utils.email.send_verification_mail",
+    "mezzanine.utils.email.send_approved_mail"
+  ],
+  "mezzanine.accounts.admin.ProfileInline": [
+    "mezzanine.accounts.get_profile_model"
+  ],
+  "mezzanine.accounts.admin.ProfileInline.get_min_num": [],
+  "mezzanine.accounts.defaults": [
+    "mezzanine.conf.register_setting",
+    "warnings.warn",
+    "<builtin>.getattr",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.conf.translation": [
+    "modeltranslation.translator.translator.register"
+  ],
+  "mezzanine.conf.forms": [],
+  "mezzanine.conf.forms.SettingsForm.__init__": [
+    "collections.OrderedDict",
+    "mezzanine.conf.forms.SettingsForm._init_field",
+    "<builtin>.super",
+    "<builtin>.sorted",
+    "django.utils.translation.activate",
+    "django.utils.translation.get_language"
+  ],
+  "mezzanine.conf.forms.SettingsForm._init_field": [
+    "mezzanine.conf.forms.SettingsForm.format_help",
+    "<builtin>.getattr",
+    "modeltranslation.manager.MultilingualManager.get",
+    "django.forms.ChoiceField",
+    "django.forms.ChoiceField.__name__.lower"
+  ],
+  "mezzanine.conf.forms.SettingsForm.format_help": [
+    "django.template.defaultfilters.urlize.replace",
+    "django.utils.translation.gettext.split",
+    "django.template.defaultfilters.urlize",
+    "django.utils.safestring.mark_safe.split",
+    "django.utils.translation.gettext.replace",
+    "django.utils.safestring.mark_safe.replace",
+    "django.template.defaultfilters.urlize.split",
+    "<builtin>.enumerate",
+    "django.utils.safestring.mark_safe"
+  ],
+  "django.forms.ChoiceField.__name__.lower": [],
+  "mezzanine.conf.forms.SettingsForm.__iter__": [
+    "<builtin>.list",
+    "django.utils.translation.gettext_lazy",
+    "<builtin>.super",
+    "collections.defaultdict",
+    "<builtin>.setattr",
+    "<builtin>.sorted",
+    "mezzanine.conf.forms.SettingsForm.__iter__.<lambda1>",
+    "<builtin>.iter",
+    "<builtin>.enumerate"
+  ],
+  "mezzanine.conf.forms.SettingsForm.__iter__.<lambda1>": [],
+  "mezzanine.conf.forms.SettingsForm.__iter__.<lambda2>": [],
+  "mezzanine.conf.forms.SettingsForm.save": [
+    "collections.OrderedDict",
+    "modeltranslation.utils.build_localized_fieldname",
+    "django.forms.Form.cleaned_data.items",
+    "modeltranslation.manager.MultilingualManager.get_or_create",
+    "<builtin>.setattr",
+    "django.utils.translation.activate",
+    "django.utils.translation.get_language"
+  ],
+  "django.forms.Form.cleaned_data.items": [],
+  "modeltranslation.manager.MultilingualManager.get_or_create": [],
+  "django.template.defaultfilters.urlize.split": [],
+  "django.utils.safestring.mark_safe.split": [],
+  "django.utils.translation.gettext.split": [],
+  "django.template.defaultfilters.urlize": [],
+  "django.utils.translation.gettext.replace": [],
+  "django.template.defaultfilters.urlize.replace": [],
+  "django.utils.safestring.mark_safe.replace": [],
+  "mezzanine.conf.admin": [
+    "django.contrib.admin.site.register"
+  ],
+  "mezzanine.conf.admin.SettingsAdmin.Media": [
+    "copy.copy",
+    "<builtin>.str",
+    "django.utils.functional.lazy",
+    "mezzanine.utils.static.<lambda1>"
+  ],
+  "mezzanine.conf.admin.SettingsAdmin.changelist_redirect": [
+    "django.http.HttpResponseRedirect",
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "mezzanine.conf.admin.SettingsAdmin.add_view": [
+    "mezzanine.conf.admin.SettingsAdmin.changelist_redirect"
+  ],
+  "mezzanine.conf.admin.SettingsAdmin.change_view": [
+    "mezzanine.conf.admin.SettingsAdmin.changelist_redirect"
+  ],
+  "mezzanine.conf.admin.SettingsAdmin.changelist_view": [
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.conf.admin.SettingsAdmin.changelist_redirect",
+    "mezzanine.conf.forms.SettingsForm.__init__",
+    "<builtin>.super",
+    "django.forms.Form.is_valid",
+    "mezzanine.conf.Settings.clear_cache",
+    "mezzanine.conf.forms.SettingsForm.save",
+    "django.utils.encoding.force_str",
+    "django.contrib.messages.info"
+  ],
+  "django.forms.Form.is_valid": [],
+  "django.utils.encoding.force_str": [],
+  "mezzanine.conf.migrations": [],
+  "mezzanine.conf.migrations.0001_initial": [],
+  "mezzanine.conf.migrations.0001_initial.Migration": [
+    "django.db.models.ForeignKey",
+    "django.db.models.AutoField",
+    "django.db.models.CharField",
+    "django.db.migrations.CreateModel"
+  ],
+  "mezzanine.template.loaders.host_themes": [],
+  "mezzanine.template.loaders.host_themes.Loader.get_dirs": [
+    "os.path.join",
+    "mezzanine.utils.sites.host_theme_path"
+  ],
+  "mezzanine.template.loaders": [],
+  "mezzanine.template.loader_tags": [
+    "django.template.Library"
+  ],
+  "mezzanine.forms.models": [],
+  "mezzanine.forms.models.Form": [
+    "django.db.models.BooleanField",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.CharField",
+    "django.db.models.TextField",
+    "django.db.models.EmailField",
+    "django.db.models.TextField.__init__"
+  ],
+  "django.db.models.EmailField": [],
+  "mezzanine.forms.models.Form.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.forms.models.FieldManager.visible": [
+    "django.db.models.Manager.filter"
+  ],
+  "mezzanine.forms.models.AbstractBaseField": [
+    "django.db.models.BooleanField",
+    "django.db.models.IntegerField",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.CharField",
+    "django.db.models.TextField",
+    "mezzanine.core.models.wrapped_manager"
+  ],
+  "mezzanine.forms.models.AbstractBaseField.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.forms.models.AbstractBaseField.__str__": [],
+  "mezzanine.forms.models.AbstractBaseField.get_choices": [],
+  "mezzanine.forms.models.AbstractBaseField.is_a": [],
+  "mezzanine.forms.models.Field": [
+    "django.db.models.ForeignKey"
+  ],
+  "mezzanine.forms.models.FormEntry": [
+    "django.db.models.ForeignKey",
+    "django.db.models.DateTimeField",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.forms.models.FormEntry.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.forms.models.FieldEntry": [
+    "django.db.models.IntegerField",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField"
+  ],
+  "mezzanine.forms.models.FieldEntry.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.forms.translation": [
+    "modeltranslation.translator.translator.register"
+  ],
+  "mezzanine.forms.forms": [
+    "django.utils.translation.gettext",
+    "django.forms.ChoiceField",
+    "django.core.files.storage.FileSystemStorage"
+  ],
+  "django.core.files.storage.FileSystemStorage": [],
+  "mezzanine.forms.forms.<dict1>.<lambda1>": [],
+  "mezzanine.forms.forms.<dict1>.<lambda2>": [],
+  "mezzanine.forms.forms.<dict1>.<lambda3>": [],
+  "mezzanine.forms.forms.<dict1>.<lambda4>": [],
+  "mezzanine.forms.forms.<dict1>.<lambda5>": [],
+  "mezzanine.forms.forms.<dict1>.<lambda6>": [],
+  "mezzanine.forms.forms.<lambda6>": [
+    "<builtin>.set",
+    "mezzanine.utils.email.split_addresses"
+  ],
+  "mezzanine.forms.forms.<dict1>.<lambda7>": [],
+  "mezzanine.forms.forms.<lambda7>": [
+    "<builtin>.set",
+    "mezzanine.utils.email.split_addresses"
+  ],
+  "mezzanine.forms.forms.<dict1>.<lambda8>": [],
+  "mezzanine.forms.forms.<lambda8>": [
+    "<builtin>.set",
+    "mezzanine.utils.email.split_addresses"
+  ],
+  "mezzanine.forms.forms.<dict1>.<lambda9>": [],
+  "mezzanine.forms.forms.<lambda9>": [
+    "<builtin>.set",
+    "mezzanine.utils.email.split_addresses"
+  ],
+  "mezzanine.forms.forms.FormForForm.__init__": [
+    "<builtin>.str",
+    "django.template.Template",
+    "<builtin>.list",
+    "mezzanine.utils.email.split_addresses",
+    "<builtin>.super",
+    "<builtin>.range",
+    "<builtin>.setattr",
+    "django.template.Template.render",
+    "datetime.datetime.now"
+  ],
+  "datetime.datetime.now": [],
+  "mezzanine.forms.forms.FormForForm.save": [
+    "django.db.models.Model.__init__",
+    "<builtin>.str",
+    "os.path.join",
+    "django.core.files.storage.FileSystemStorage.save",
+    "uuid.uuid4",
+    "django.utils.timezone.now",
+    "<builtin>.super",
+    "<builtin>.isinstance",
+    "django.db.models.Model.objects.bulk_create"
+  ],
+  "django.core.files.storage.FileSystemStorage.save": [],
+  "django.db.models.Model.__init__": [],
+  "django.db.models.Model.objects.bulk_create": [],
+  "mezzanine.forms.forms.FormForForm.email_to": [
+    "<builtin>.issubclass"
+  ],
+  "mezzanine.forms.forms.EntriesForm.__init__": [
+    "<builtin>.str",
+    "django.forms.BooleanField",
+    "django.shortcuts.get_object_or_404.fields.all",
+    "django.db.models.Model._meta.get_field",
+    "django.forms.widgets.SelectDateWidget",
+    "django.forms.DateField",
+    "django.shortcuts.get_object_or_404.fields.all.is_a",
+    "django.shortcuts.get_object_or_404.fields.all.get_choices",
+    "django.forms.CharField",
+    "django.forms.CheckboxSelectMultiple",
+    "<builtin>.super",
+    "django.utils.translation.gettext",
+    "django.forms.MultipleChoiceField"
+  ],
+  "django.shortcuts.get_object_or_404.fields.all": [],
+  "django.db.models.Model._meta.get_field": [],
+  "django.forms.BooleanField": [],
+  "django.shortcuts.get_object_or_404.fields.all.is_a": [],
+  "django.shortcuts.get_object_or_404.fields.all.get_choices": [],
+  "django.forms.CheckboxSelectMultiple": [],
+  "django.forms.DateField": [],
+  "mezzanine.forms.forms.EntriesForm.__iter__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.forms.forms.EntriesForm.columns": [],
+  "mezzanine.forms.forms.EntriesForm.rows": [
+    "django.utils.safestring.mark_safe.build_absolute_uri.split",
+    "<builtin>.len",
+    "django.db.models.Model.objects.filter.order_by",
+    "django.utils.safestring.mark_safe",
+    "django.utils.translation.gettext.build_absolute_uri.split",
+    "django.shortcuts.get_object_or_404.fields.all.is_a",
+    "<builtin>.int",
+    "django.utils.safestring.mark_safe.split",
+    "datetime.date",
+    "django.utils.safestring.mark_safe.build_absolute_uri",
+    "django.forms.Form.cleaned_data.get",
+    "django.db.models.Model.objects.filter",
+    "os.path.split",
+    "django.db.models.Model.objects.filter.order_by.select_related",
+    "django.utils.translation.gettext.build_absolute_uri",
+    "django.db.models.Model.objects.filter.order_by.select_related.filter",
+    "django.urls.reverse"
+  ],
+  "django.db.models.Model.objects.filter.order_by.select_related": [],
+  "django.db.models.Model.objects.filter.order_by.select_related.filter": [],
+  "django.utils.safestring.mark_safe.build_absolute_uri.split": [],
+  "django.utils.translation.gettext.build_absolute_uri.split": [],
+  "datetime.date": [],
+  "django.utils.translation.gettext.build_absolute_uri": [],
+  "django.utils.safestring.mark_safe.build_absolute_uri": [],
+  "mezzanine.forms.admin": [
+    "django.contrib.admin.site.register",
+    "<builtin>.list",
+    "django.utils.translation.gettext_lazy",
+    "django.core.files.storage.FileSystemStorage",
+    "copy.deepcopy.insert",
+    "copy.deepcopy"
+  ],
+  "copy.deepcopy.insert": [],
+  "mezzanine.forms.admin.FieldAdminInlineForm.__init__": [
+    "<builtin>.super",
+    "django.contrib.admin.widgets.AdminTextInputWidget",
+    "django.forms.ModelForm.fields.startswith"
+  ],
+  "django.contrib.admin.widgets.AdminTextInputWidget": [],
+  "mezzanine.forms.admin.FormAdmin.Media": [
+    "django.utils.functional.lazy",
+    "mezzanine.utils.static.<lambda1>"
+  ],
+  "mezzanine.forms.admin.FormAdmin.get_urls": [
+    "<builtin>.super",
+    "django.urls.re_path",
+    "django.contrib.admin.ModelAdmin.admin_site.admin_view"
+  ],
+  "django.contrib.admin.ModelAdmin.admin_site.admin_view": [],
+  "mezzanine.forms.admin.FormAdmin.entries_view": [
+    "mezzanine.forms.forms.EntriesForm.rows",
+    "io.BytesIO",
+    "django.db.models.Model.objects.filter.delete",
+    "django.http.HttpResponse.write",
+    "django.utils.translation.gettext_lazy",
+    "csv.writer",
+    "io.BytesIO.getvalue",
+    "django.shortcuts.get_object_or_404",
+    "<builtin>.bytes",
+    "io.StringIO.getvalue",
+    "mezzanine.forms.forms.EntriesForm.__init__",
+    "datetime.datetime.now.ctime",
+    "django.contrib.messages.info",
+    "django.utils.translation.ngettext",
+    "django.http.HttpResponseRedirect",
+    "django.db.models.Model.objects.filter",
+    "mezzanine.utils.urls.slugify",
+    "csv.writer.writerow",
+    "datetime.datetime.now",
+    "mezzanine.utils.urls.admin_url",
+    "django.shortcuts.render",
+    "django.db.models.Model.objects.filter.count",
+    "mezzanine.forms.admin.FormAdmin.entries_view.<lambda1>",
+    "django.forms.Form.is_valid",
+    "django.http.HttpResponse",
+    "mezzanine.forms.forms.EntriesForm.columns",
+    "io.StringIO"
+  ],
+  "datetime.datetime.now.ctime": [],
+  "io.StringIO": [],
+  "csv.writer": [],
+  "io.BytesIO": [],
+  "<builtin>.bytes": [],
+  "mezzanine.forms.admin.FormAdmin.entries_view.<lambda1>": [
+    "csv.writer.writerow",
+    "<builtin>.hasattr"
+  ],
+  "csv.writer.writerow": [],
+  "io.StringIO.getvalue": [],
+  "io.BytesIO.getvalue": [],
+  "django.http.HttpResponse.write": [],
+  "django.db.models.Model.objects.filter.count": [],
+  "django.db.models.Model.objects.filter.delete": [],
+  "django.shortcuts.render": [],
+  "mezzanine.forms.admin.FormAdmin.file_view": [
+    "os.path.join",
+    "django.http.HttpResponse.write",
+    "<builtin>.open",
+    "django.shortcuts.get_object_or_404",
+    "django.http.HttpResponse",
+    "mimetypes.guess_type"
+  ],
+  "mimetypes.guess_type": [],
+  "mezzanine.forms.defaults": [
+    "mezzanine.conf.register_setting",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.forms.page_processors": [
+    "mezzanine.pages.page_processors.processor_for.decorator",
+    "mezzanine.pages.page_processors.processor_for"
+  ],
+  "mezzanine.forms.page_processors.format_value": [
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.forms.page_processors.form_processor": [
+    "django.forms.ModelForm.fields.items",
+    "django.forms.ModelForm.is_valid",
+    "mezzanine.forms.forms.FormForForm.__init__",
+    "mezzanine.forms.forms.FormForForm.save",
+    "django.template.RequestContext",
+    "django.forms.ModelForm.files.values.read",
+    "mezzanine.forms.forms.FormForForm.email_to",
+    "django.forms.ModelForm.files.values.seek",
+    "mezzanine.forms.page_processors.format_value",
+    "django.shortcuts.redirect",
+    "mezzanine.utils.email.split_addresses",
+    "django.dispatch.Signal.send",
+    "mezzanine.utils.email.send_mail_template",
+    "mezzanine.utils.views.is_spam",
+    "django.forms.ModelForm.files.values"
+  ],
+  "django.forms.ModelForm.is_valid": [],
+  "django.forms.ModelForm.files.values": [],
+  "django.forms.ModelForm.files.values.seek": [],
+  "django.forms.ModelForm.files.values.read": [],
+  "django.forms.ModelForm.fields.items": [],
+  "django.dispatch.Signal.send": [],
+  "mezzanine.forms.signals": [
+    "django.dispatch.Signal"
+  ],
+  "django.dispatch.Signal": [],
+  "mezzanine.forms.migrations.0003_emailfield": [],
+  "mezzanine.forms.migrations.0003_emailfield.Migration": [
+    "django.db.models.EmailField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.forms.migrations.0002_auto_20141227_0224": [],
+  "mezzanine.forms.migrations.0002_auto_20141227_0224.Migration": [
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.forms.migrations.0005_auto_20151026_1600": [],
+  "mezzanine.forms.migrations.0005_auto_20151026_1600.Migration": [
+    "django.db.models.CharField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.forms.migrations.0004_auto_20150517_0510": [],
+  "mezzanine.forms.migrations.0004_auto_20150517_0510.Migration": [
+    "django.db.models.CharField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.forms.migrations.0006_auto_20170425_2225": [],
+  "mezzanine.forms.migrations.0006_auto_20170425_2225.Migration": [
+    "django.db.models.TextField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.forms.migrations": [],
+  "mezzanine.forms.migrations.0001_initial": [],
+  "mezzanine.forms.migrations.0001_initial.Migration": [
+    "django.db.models.BooleanField",
+    "django.db.models.IntegerField",
+    "django.db.models.DateTimeField",
+    "django.db.models.OneToOneField",
+    "django.db.migrations.AddField",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField",
+    "django.db.models.TextField",
+    "django.db.models.AutoField",
+    "django.db.models.EmailField",
+    "django.db.migrations.CreateModel"
+  ],
+  "mezzanine.utils.admin": [],
+  "mezzanine.utils.admin.SingletonAdmin.handle_save": [
+    "django.shortcuts.redirect",
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.utils.admin.SingletonAdmin.add_view": [
+    "django.contrib.admin.ModelAdmin.model.objects.get",
+    "<builtin>.super",
+    "django.shortcuts.redirect",
+    "mezzanine.utils.admin.SingletonAdmin.handle_save",
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "django.contrib.admin.ModelAdmin.model.objects.get": [],
+  "mezzanine.utils.admin.SingletonAdmin.changelist_view": [
+    "<builtin>.super",
+    "django.shortcuts.redirect",
+    "django.contrib.admin.ModelAdmin.model.objects.get",
+    "mezzanine.utils.urls.admin_url"
+  ],
+  "mezzanine.utils.admin.SingletonAdmin.change_view": [
+    "<builtin>.super",
+    "mezzanine.utils.admin.SingletonAdmin.handle_save",
+    "django.contrib.admin.ModelAdmin.model.objects.count"
+  ],
+  "django.contrib.admin.ModelAdmin.model.objects.count": [],
+  "mezzanine.utils.docs": [],
+  "mezzanine.utils.docs.deep_force_unicode": [
+    "<builtin>.type",
+    "<builtin>.isinstance",
+    "django.utils.encoding.force_str.items",
+    "django.utils.encoding.force_str",
+    "<builtin>.map"
+  ],
+  "django.utils.encoding.force_str.items": [],
+  "mezzanine.utils.docs.build_settings_docs": [
+    "os.path.exists",
+    "<builtin>.str",
+    "os.path.join",
+    "mezzanine.utils.docs.deep_force_unicode",
+    "<builtin>.open",
+    "<builtin>.isinstance",
+    "<builtin>.repr",
+    "<builtin>.sorted",
+    "django.utils.encoding.force_str",
+    "socket.gethostname"
+  ],
+  "socket.gethostname": [],
+  "mezzanine.utils.docs.build_modelgraph": [
+    "os.path.exists",
+    "os.path.join",
+    "shutil.copyfile",
+    "mezzanine.utils.importing.import_dotted_path",
+    "warnings.warn",
+    "shutil.move",
+    "os.path.dirname",
+    "os.makedirs",
+    "PIL.Image.open",
+    "django.core.management.call_command"
+  ],
+  "django.core.management.call_command": [],
+  "shutil.move": [],
+  "shutil.copyfile": [],
+  "mezzanine.utils.tests": [],
+  "mezzanine.utils.tests.TestCase.setUp": [
+    "django.contrib.auth.get_user_model",
+    "django.test.client.RequestFactory",
+    "django.contrib.auth.get_user_model.objects.create_superuser"
+  ],
+  "django.contrib.auth.get_user_model.objects.create_superuser": [],
+  "django.test.client.RequestFactory": [],
+  "mezzanine.utils.tests.TestCase.tearDown": [
+    "django.contrib.auth.get_user_model.objects.create_superuser.delete"
+  ],
+  "django.contrib.auth.get_user_model.objects.create_superuser.delete": [],
+  "mezzanine.utils.tests.TestCase.queries_used_for_template": [
+    "django.template.Template",
+    "<builtin>.len",
+    "django.db.connection.queries_log.clear",
+    "django.template.Context",
+    "django.template.Template.render"
+  ],
+  "django.db.connection.queries_log.clear": [],
+  "django.template.Context": [],
+  "mezzanine.utils.tests.TestCase.create_recursive_objects": [
+    "<builtin>.range",
+    "<builtin>.list"
+  ],
+  "mezzanine.utils.tests.copy_test_to_media": [
+    "os.path.exists",
+    "os.path.join",
+    "os.path.isdir",
+    "shutil.copyfile",
+    "shutil.copytree",
+    "os.path.dirname",
+    "os.makedirs",
+    "mezzanine.utils.importing.path_for_import"
+  ],
+  "os.path.isdir": [],
+  "shutil.copytree": [],
+  "mezzanine.core.apps": [],
+  "mezzanine.core.apps.CoreConfig.ready": [],
+  "mezzanine.core.checks": [
+    "django.core.checks.register"
+  ],
+  "mezzanine.core.checks.check_template_settings": [
+    "django.core.checks.Warning",
+    "<builtin>.any"
+  ],
+  "mezzanine.core.checks.check_sites_middleware": [
+    "mezzanine.utils.conf.middlewares_or_subclasses_installed",
+    "django.core.checks.Warning"
+  ],
+  "mezzanine.core.auth_backends": [
+    "django.contrib.auth.get_user_model"
+  ],
+  "mezzanine.core.auth_backends.MezzanineBackend.authenticate": [
+    "django.contrib.auth.get_user_model.objects.get",
+    "django.db.models.Q",
+    "django.contrib.auth.tokens.default_token_generator.check_token",
+    "django.utils.http.base36_to_int"
+  ],
+  "django.utils.http.base36_to_int": [],
+  "django.contrib.auth.tokens.default_token_generator.check_token": [],
+  "mezzanine.core.views": [
+    "django.views.decorators.csrf.requires_csrf_token",
+    "mimetypes.init",
+    "django.contrib.admin.views.decorators.staff_member_required"
+  ],
+  "mimetypes.init": [],
+  "mezzanine.core.views.set_site": [
+    "<builtin>.len",
+    "django.core.exceptions.PermissionDenied",
+    "<builtin>.int",
+    "django.urls.reverse.startswith",
+    "django_comments.forms.CommentForm.get_comment_object.get_absolute_url.startswith",
+    "django.forms.ModelForm.get_absolute_url.split",
+    "django.shortcuts.redirect",
+    "django.forms.ModelForm.get_absolute_url.startswith",
+    "django.urls.reverse.split",
+    "django_comments.forms.CommentForm.get_comment_object.get_absolute_url.split",
+    "django.db.models.Model.objects.get",
+    "mezzanine.utils.urls.next_url",
+    "django.urls.get_script_prefix.startswith",
+    "django.urls.get_script_prefix.split",
+    "django.urls.reverse"
+  ],
+  "django.forms.ModelForm.get_absolute_url.startswith": [],
+  "django.urls.get_script_prefix.startswith": [],
+  "django_comments.forms.CommentForm.get_comment_object.get_absolute_url.startswith": [],
+  "django.urls.reverse.split": [],
+  "django.urls.get_script_prefix.split": [],
+  "django.forms.ModelForm.get_absolute_url.split": [],
+  "mezzanine.core.views.direct_to_template": [
+    "<builtin>.callable",
+    "django.template.response.TemplateResponse",
+    "django.template.RequestContext.items"
+  ],
+  "django.template.RequestContext.items": [],
+  "mezzanine.core.views.edit": [
+    "django.forms.ModelForm.is_valid",
+    "django.forms.ModelForm.save",
+    "mezzanine.utils.views.is_editable",
+    "django.utils.translation.gettext_lazy",
+    "<builtin>.list",
+    "django.contrib.admin.options.ModelAdmin.construct_change_message",
+    "mezzanine.core.forms.get_edit_form",
+    "django.apps.apps.get_model",
+    "django.contrib.admin.options.ModelAdmin",
+    "django.apps.apps.get_model.objects.get",
+    "django.http.HttpResponse",
+    "mezzanine.utils.sites.has_site_permission",
+    "django.contrib.admin.options.ModelAdmin.log_change"
+  ],
+  "django.apps.apps.get_model.objects.get": [],
+  "django.forms.ModelForm.save": [],
+  "django.contrib.admin.options.ModelAdmin": [],
+  "django.contrib.admin.options.ModelAdmin.construct_change_message": [],
+  "django.contrib.admin.options.ModelAdmin.log_change": [],
+  "mezzanine.core.views.search": [
+    "django.apps.apps.get_model.objects.search",
+    "django.template.RequestContext.update",
+    "mezzanine.utils.views.paginate",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.Model._meta.verbose_name_plural.capitalize",
+    "django.apps.apps.get_model._meta.verbose_name_plural.capitalize",
+    "django.apps.apps.get_model",
+    "modeltranslation.manager.MultilingualManager.search",
+    "django.template.response.TemplateResponse"
+  ],
+  "django.db.models.Model._meta.verbose_name_plural.capitalize": [],
+  "modeltranslation.manager.MultilingualManager.search": [],
+  "django.apps.apps.get_model.objects.search": [],
+  "mezzanine.core.views.static_proxy": [
+    "urllib.parse.urljoin",
+    "django.http.HttpResponse",
+    "django.http.HttpResponseNotFound",
+    "<builtin>.open",
+    "<builtin>.isinstance",
+    "os.path.split",
+    "django.contrib.staticfiles.finders.find",
+    "mezzanine.core.views.static_proxy.<lambda1>",
+    "mimetypes.guess_type",
+    "urllib.parse.urlparse"
+  ],
+  "mezzanine.core.views.static_proxy.<lambda1>": [],
+  "django.contrib.staticfiles.finders.find": [],
+  "urllib.parse.urlparse": [],
+  "django.http.HttpResponseNotFound": [],
+  "mezzanine.core.views.displayable_links_js": [
+    "json.dumps",
+    "<builtin>.getattr",
+    "django.db.models.Manager.url_map.items",
+    "django.utils.translation.gettext_lazy",
+    "mezzanine.core.views.displayable_links_js.<lambda2>",
+    "<builtin>.hasattr",
+    "mezzanine.core.views.displayable_links_js.<lambda1>",
+    "<builtin>.sorted",
+    "django.http.HttpResponse",
+    "django.db.models.Manager.url_map"
+  ],
+  "mezzanine.core.views.displayable_links_js.<lambda1>": [
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.core.views.displayable_links_js.<lambda2>": [],
+  "django.db.models.Manager.url_map.items": [],
+  "mezzanine.core.views.displayable_links_js.<lambda3>": [],
+  "json.dumps": [],
+  "django.views.decorators.csrf.requires_csrf_token": [],
+  "mezzanine.core.views.page_not_found": [
+    "django.template.loader.get_template.render",
+    "django.http.HttpResponseNotFound",
+    "django.template.loader.get_template"
+  ],
+  "mezzanine.core.views.server_error": [
+    "django.template.loader.get_template.render",
+    "django.template.loader.get_template",
+    "django.http.HttpResponseServerError"
+  ],
+  "django.http.HttpResponseServerError": [],
+  "mezzanine.core.urls": [
+    "django.contrib.auth.views.PasswordResetView.as_view",
+    "django.contrib.auth.views.PasswordResetCompleteView.as_view",
+    "django.contrib.auth.views.PasswordResetConfirmView.as_view",
+    "django.contrib.auth.views.PasswordResetDoneView.as_view",
+    "django.urls.path"
+  ],
+  "django.contrib.auth.views.PasswordResetView.as_view": [],
+  "django.contrib.auth.views.PasswordResetDoneView.as_view": [],
+  "django.contrib.auth.views.PasswordResetCompleteView.as_view": [],
+  "django.contrib.auth.views.PasswordResetConfirmView.as_view": [],
+  "mezzanine.core.management.commands.runserver": [],
+  "mezzanine.core.management.commands.runserver.MezzStaticFilesHandler._should_handle": [],
+  "mezzanine.core.management.commands.runserver.MezzStaticFilesHandler.get_response": [
+    "<builtin>.super",
+    "django.views.static.serve"
+  ],
+  "django.views.static.serve": [],
+  "mezzanine.core.management.commands.runserver.banner": [
+    "platform.system",
+    "django.get_version",
+    "django.utils.termcolors.colorize",
+    "platform.release",
+    "django.core.management.color.supports_color",
+    "<builtin>.enumerate",
+    "<builtin>.map",
+    "sys.version.split"
+  ],
+  "mezzanine.core.management.commands.runserver.banner.<lambda1>": [],
+  "mezzanine.core.management.commands.runserver.banner.<dict2>.<lambda1>": [],
+  "mezzanine.core.management.commands.runserver.banner.<dict2>.<lambda2>": [],
+  "mezzanine.core.management.commands.runserver.banner.<dict2>.<lambda3>": [],
+  "mezzanine.core.management.commands.runserver.banner.<dict2>.<lambda4>": [],
+  "mezzanine.core.management.commands.runserver.banner.<dict2>.<lambda5>": [],
+  "django.db.connection._DatabaseWrapper__get_dbms_version": [],
+  "mezzanine.core.management.commands.runserver.banner.<lambda5>": [
+    "django.db.connection._DatabaseWrapper__get_dbms_version"
+  ],
+  "mezzanine.core.management.commands.runserver.banner.<dict2>.<lambda6>": [],
+  "django.db.connection.server_version.split": [],
+  "mezzanine.core.management.commands.runserver.banner.<lambda6>": [
+    "django.db.connection.server_version.split"
+  ],
+  "sys.version.split": [],
+  "platform.system": [],
+  "platform.release": [],
+  "django.core.management.color.supports_color": [],
+  "mezzanine.core.management.commands.runserver.banner.<list1>.<lambda1>": [],
+  "mezzanine.core.management.commands.runserver.banner.<list1>.<lambda2>": [],
+  "mezzanine.core.management.commands.runserver.banner.<list1>.<lambda3>": [],
+  "mezzanine.core.management.commands.runserver.banner.<list1>.<lambda4>": [],
+  "mezzanine.core.management.commands.runserver.banner.<list1>.<lambda5>": [],
+  "mezzanine.core.management.commands.runserver.banner.<list1>.<lambda6>": [],
+  "mezzanine.core.management.commands.runserver.banner.<list1>.<lambda7>": [],
+  "django.utils.termcolors.colorize": [],
+  "mezzanine.core.management.commands.runserver.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.core.management.commands.runserver.Command.inner_run": [
+    "<builtin>.super",
+    "mezzanine.core.management.commands.runserver.banner",
+    "django.contrib.staticfiles.management.commands.runserver.Command.stdout.write"
+  ],
+  "django.contrib.staticfiles.management.commands.runserver.Command.stdout.write": [],
+  "mezzanine.core.management.commands.runserver.Command.get_handler": [
+    "<builtin>.super",
+    "django.contrib.staticfiles.handlers.StaticFilesHandler.__init__"
+  ],
+  "django.contrib.staticfiles.handlers.StaticFilesHandler.__init__": [],
+  "mezzanine.core.management.commands": [],
+  "mezzanine.core.management.commands.createdb": [],
+  "mezzanine.core.management.commands.createdb.Command.add_arguments": [],
+  "mezzanine.core.management.commands.createdb.Command.handle": [
+    "<builtin>.int",
+    "django.db.connection.introspection.table_names",
+    "django.core.management.call_command",
+    "<builtin>.set",
+    "django.core.management.base.CommandError"
+  ],
+  "django.db.connection.introspection.table_names": [],
+  "django.core.management.base.CommandError": [],
+  "mezzanine.core.management.commands.createdb.Command.confirm": [
+    "<builtin>.input"
+  ],
+  "<builtin>.input": [],
+  "mezzanine.core.management.commands.createdb.Command.create_site": [
+    "<builtin>.input",
+    "django.contrib.sites.models.Site.save",
+    "django.contrib.sites.models.Site.objects.get",
+    "django.contrib.sites.models.Site.objects.get.save",
+    "<builtin>.print",
+    "django.contrib.sites.models.Site",
+    "socket.gethostname"
+  ],
+  "<builtin>.print": [],
+  "django.contrib.sites.models.Site": [],
+  "django.contrib.sites.models.Site.save": [],
+  "django.contrib.sites.models.Site.objects.get.save": [],
+  "mezzanine.core.management.commands.createdb.Command.create_user": [
+    "django.contrib.auth.get_user_model",
+    "django.contrib.auth.get_user_model.objects.create_superuser",
+    "django.contrib.auth.get_user_model.objects.count",
+    "<builtin>.print",
+    "django.core.management.call_command"
+  ],
+  "django.contrib.auth.get_user_model.objects.count": [],
+  "mezzanine.core.management.commands.createdb.Command.create_pages": [
+    "mezzanine.core.management.commands.createdb.Command.confirm",
+    "modeltranslation.manager.MultilingualManager.get",
+    "mezzanine.utils.tests.copy_test_to_media",
+    "modeltranslation.manager.MultilingualManager.get.save",
+    "<builtin>.print",
+    "django.core.management.call_command"
+  ],
+  "modeltranslation.manager.MultilingualManager.get.save": [],
+  "mezzanine.core.management.commands.createdb.Command.create_shop": [
+    "mezzanine.core.management.commands.createdb.Command.confirm",
+    "mezzanine.utils.tests.copy_test_to_media",
+    "django.core.management.call_command",
+    "<builtin>.print"
+  ],
+  "mezzanine.core.management.commands.createdb.Command.translation_fields": [
+    "django.core.management.call_command",
+    "mezzanine.core.management.commands.createdb.Command.confirm",
+    "modeltranslation.management.commands.sync_translation_fields.Command",
+    "modeltranslation.management.commands.update_translation_fields.Command"
+  ],
+  "modeltranslation.management.commands.sync_translation_fields.Command": [],
+  "modeltranslation.management.commands.update_translation_fields.Command": [],
+  "mezzanine.galleries": [],
+  "mezzanine.galleries.models": [
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.galleries.models.BaseGallery": [
+    "mezzanine.utils.models.upload_to",
+    "django.db.models.FileField",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "django.db.models.FileField": [],
+  "mezzanine.galleries.models.BaseGallery.save": [
+    "io.BytesIO",
+    "warnings.warn",
+    "zipfile.ZipFile.namelist.encode.decode",
+    "django.db.models.Model.images.create",
+    "django.core.files.storage.default_storage.save",
+    "os.path.split",
+    "zipfile.ZipFile.close",
+    "zipfile.ZipFile.namelist",
+    "<builtin>.str",
+    "django.db.models.FileField.delete",
+    "django.core.files.base.ContentFile",
+    "PIL.Image.open.verify",
+    "<builtin>.super",
+    "PIL.Image.open.load",
+    "zipfile.ZipFile.namelist.encode",
+    "zipfile.ZipFile",
+    "<builtin>.isinstance",
+    "zipfile.ZipFile.read",
+    "chardet.detect",
+    "os.path.join",
+    "PIL.Image.open",
+    "zipfile.ZipFile.namelist.decode"
+  ],
+  "zipfile.ZipFile": [],
+  "zipfile.ZipFile.namelist": [],
+  "zipfile.ZipFile.read": [],
+  "PIL.Image.open.load": [],
+  "PIL.Image.open.verify": [],
+  "zipfile.ZipFile.namelist.encode": [],
+  "chardet.detect": [],
+  "zipfile.ZipFile.namelist.decode": [],
+  "zipfile.ZipFile.namelist.encode.decode": [],
+  "django.core.files.base.ContentFile": [],
+  "django.db.models.Model.images.create": [],
+  "zipfile.ZipFile.close": [],
+  "django.db.models.FileField.delete": [],
+  "mezzanine.galleries.models.Gallery.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.galleries.models.GalleryImage": [
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField",
+    "mezzanine.utils.models.upload_to",
+    "mezzanine.core.fields.FileField.__init__"
+  ],
+  "mezzanine.galleries.models.GalleryImage.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.galleries.models.GalleryImage.__str__": [],
+  "mezzanine.galleries.models.GalleryImage.save": [
+    "django.utils.encoding.force_str.replace",
+    "<builtin>.super",
+    "django.utils.encoding.force_str.rsplit",
+    "django.utils.encoding.force_str.replace.rsplit",
+    "django.utils.encoding.force_str",
+    "<builtin>.enumerate"
+  ],
+  "django.utils.encoding.force_str.rsplit": [],
+  "django.utils.encoding.force_str.replace.rsplit": [],
+  "django.utils.encoding.force_str.replace": [],
+  "mezzanine.core.management.commands.collecttemplates": [],
+  "mezzanine.core.management.commands.collecttemplates.Command.add_arguments": [],
+  "mezzanine.core.management.commands.collecttemplates.Command.handle": [
+    "os.path.exists",
+    "<builtin>.input",
+    "os.path.join",
+    "<builtin>.len",
+    "<builtin>.int",
+    "os.path.dirname",
+    "os.makedirs",
+    "os.walk",
+    "django.core.management.base.BaseCommand.stdout.write",
+    "shutil.copy2",
+    "<builtin>.set",
+    "mezzanine.utils.importing.path_for_import",
+    "django.core.management.base.CommandError"
+  ],
+  "os.walk": [],
+  "django.core.management.base.BaseCommand.stdout.write": [],
+  "shutil.copy2": [],
+  "mezzanine.core.management": [
+    "django.db.models.signals.post_syncdb.disconnect",
+    "django.db.models.signals.post_migrate.disconnect"
+  ],
+  "django.db.models.signals.post_syncdb.disconnect": [],
+  "django.db.models.signals.post_migrate.disconnect": [],
+  "mezzanine.core.middleware": [
+    "functools.lru_cache"
+  ],
+  "mezzanine.core.middleware.AdminLoginInterfaceSelectorMiddleware.process_view": [
+    "django.contrib.messages.error",
+    "mezzanine.utils.deprecation.is_authenticated",
+    "django.utils.safestring.mark_safe",
+    "django.http.HttpResponseRedirect",
+    "django.utils.translation.gettext",
+    "mezzanine.utils.urls.next_url",
+    "django.urls.reverse"
+  ],
+  "mezzanine.core.middleware.SitePermissionMiddleware.process_view": [
+    "django.contrib.admin.site.login",
+    "mezzanine.utils.sites.current_site_id",
+    "django.contrib.auth.logout",
+    "django.db.models.Model.objects.get",
+    "django.urls.reverse"
+  ],
+  "django.contrib.admin.site.login": [],
+  "mezzanine.core.middleware.TemplateForDeviceMiddleware.__init__": [
+    "<builtin>.super",
+    "warnings.warn"
+  ],
+  "mezzanine.core.middleware.TemplateForHostMiddleware.__init__": [
+    "<builtin>.super",
+    "warnings.warn"
+  ],
+  "mezzanine.core.middleware.UpdateCacheMiddleware.process_response": [
+    "django.template.Template",
+    "django.template.Template.render.encode.decode",
+    "<builtin>.getattr",
+    "mezzanine.core.middleware.UpdateCacheMiddleware.process_response.<lambda1>",
+    "<builtin>.len",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "<builtin>.callable",
+    "django.template.Template.render.encode",
+    "django.middleware.csrf.CsrfViewMiddleware.process_response",
+    "<builtin>.hasattr",
+    "mezzanine.utils.cache.nevercache_token",
+    "django.utils.cache.get_max_age",
+    "django.template.Template.render",
+    "mezzanine.utils.cache.cache_key_prefix",
+    "<builtin>.enumerate",
+    "django.template.RequestContext",
+    "mezzanine.core.middleware.csrf_middleware_installed",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "django.utils.cache.get_max_age": [],
+  "mezzanine.core.middleware.UpdateCacheMiddleware.process_response.<lambda1>": [
+    "mezzanine.utils.cache.cache_set"
+  ],
+  "django.template.Template.render.encode.decode": [],
+  "django.template.Template.render.encode": [],
+  "mezzanine.core.middleware.csrf_middleware_installed": [
+    "mezzanine.utils.conf.middlewares_or_subclasses_installed"
+  ],
+  "django.middleware.csrf.CsrfViewMiddleware": [],
+  "django.middleware.csrf.CsrfViewMiddleware.process_response": [],
+  "mezzanine.core.middleware.FetchFromCacheMiddleware.process_request": [
+    "mezzanine.utils.cache.cache_get",
+    "mezzanine.utils.cache.cache_installed",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "django.middleware.csrf.get_token",
+    "django.middleware.csrf.CsrfViewMiddleware.process_view",
+    "django.http.HttpResponse",
+    "mezzanine.utils.cache.cache_key_prefix",
+    "mezzanine.core.middleware.csrf_middleware_installed",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "mezzanine.core.middleware.FetchFromCacheMiddleware.process_request.<lambda1>": [],
+  "django.middleware.csrf.CsrfViewMiddleware.process_view": [],
+  "django.middleware.csrf.get_token": [],
+  "mezzanine.core.middleware.SSLRedirectMiddleware.__init__": [
+    "<builtin>.super",
+    "warnings.warn"
+  ],
+  "mezzanine.core.middleware.SSLRedirectMiddleware.languages": [
+    "<builtin>.dict",
+    "<builtin>.hasattr"
+  ],
+  "mezzanine.core.middleware.SSLRedirectMiddleware.process_request": [
+    "django.http.HttpResponsePermanentRedirect",
+    "mezzanine.core.middleware.SSLRedirectMiddleware.languages",
+    "django.urls.resolve",
+    "django.http.HttpResponseRedirect"
+  ],
+  "django.http.HttpResponsePermanentRedirect": [],
+  "mezzanine.core.middleware.RedirectFallbackMiddleware.__init__": [
+    "<builtin>.super",
+    "django.core.exceptions.MiddlewareNotUsed"
+  ],
+  "mezzanine.core.middleware.RedirectFallbackMiddleware.process_response": [
+    "django.http.HttpResponsePermanentRedirect",
+    "django.contrib.redirects.models.Redirect.objects.get",
+    "mezzanine.utils.sites.current_site_id",
+    "django.http.HttpResponseGone"
+  ],
+  "django.contrib.redirects.models.Redirect.objects.get": [],
+  "django.http.HttpResponseGone": [],
+  "mezzanine.core.migrations": [],
+  "mezzanine.core.migrations.0002_auto_20150414_2140": [],
+  "mezzanine.core.migrations.0002_auto_20150414_2140.Migration": [
+    "django.db.migrations.AlterField",
+    "django.db.models.OneToOneField"
+  ],
+  "mezzanine.core.migrations.0001_initial": [],
+  "django.db.migrations.swappable_dependency": [],
+  "mezzanine.core.migrations.0001_initial.Migration": [
+    "django.db.models.ManyToManyField",
+    "django.db.migrations.swappable_dependency",
+    "django.db.models.ForeignKey",
+    "django.db.models.AutoField",
+    "django.db.migrations.CreateModel"
+  ],
+  "mezzanine.galleries.translation": [
+    "modeltranslation.translator.translator.register"
+  ],
+  "mezzanine.galleries.admin": [
+    "django.contrib.admin.site.register"
+  ],
+  "mezzanine.galleries.admin.GalleryAdmin.Media": [
+    "django.utils.functional.lazy",
+    "mezzanine.utils.static.<lambda1>"
+  ],
+  "mezzanine.galleries.migrations.0002_auto_20141227_0224": [],
+  "mezzanine.galleries.migrations.0002_auto_20141227_0224.Migration": [
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.galleries.migrations": [],
+  "mezzanine.galleries.migrations.0001_initial": [],
+  "mezzanine.galleries.migrations.0001_initial.Migration": [
+    "django.db.models.IntegerField",
+    "django.db.models.OneToOneField",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField",
+    "django.db.models.FileField",
+    "django.db.models.AutoField",
+    "django.db.migrations.CreateModel"
+  ],
+  "mezzanine.mobile.models": [],
+  "mezzanine.mobile": [
+    "warnings.warn"
+  ],
+  "mezzanine.boot.models": [],
+  "mezzanine.boot.lazy_admin": [],
+  "mezzanine.boot.lazy_admin.LazyAdminSite.__init__": [
+    "<builtin>.super"
+  ],
+  "mezzanine.boot.lazy_admin.LazyAdminSite.register": [],
+  "mezzanine.boot.lazy_admin.LazyAdminSite.unregister": [],
+  "mezzanine.boot.lazy_admin.LazyAdminSite.lazy_registration": [
+    "django.contrib.admin.sites.site._registry.items",
+    "<builtin>.getattr",
+    "django.contrib.admin.sites.AdminSite.unregister",
+    "<builtin>.eval",
+    "<builtin>.tuple",
+    "<builtin>.exec"
+  ],
+  "django.contrib.admin.sites.site._registry.items": [],
+  "<builtin>.exec": [],
+  "<builtin>.eval": [],
+  "django.contrib.admin.sites.AdminSite.unregister": [],
+  "mezzanine.boot.lazy_admin.LazyAdminSite.urls": [
+    "django.contrib.auth.get_user_model",
+    "<builtin>.getattr",
+    "mezzanine.utils.importing.import_dotted_path",
+    "django.conf.urls.include",
+    "<builtin>.super",
+    "django.urls.re_path",
+    "django.contrib.auth.get_user_model._meta.object_name.lower",
+    "django.contrib.admin.sites.AdminSite._registry.values",
+    "django.contrib.admin.sites.AdminSite.admin_view"
+  ],
+  "mezzanine.boot.lazy_admin.LazyAdminSite.urls.<list2>.<lambda1>": [],
+  "mezzanine.boot.lazy_admin.LazyAdminSite.urls.<lambda1>": [
+    "django.shortcuts.redirect"
+  ],
+  "django.conf.urls.include": [],
+  "django.contrib.admin.sites.AdminSite._registry.values": [],
+  "django.contrib.admin.sites.AdminSite.admin_view": [],
+  "mezzanine.generic.views": [
+    "django.contrib.admin.views.decorators.staff_member_required"
+  ],
+  "mezzanine.generic.views.admin_keywords_submit": [
+    "mezzanine.generic.managers.KeywordManager.get_or_create_iexact",
+    "<builtin>.str",
+    "string.punctuation.replace",
+    "django.http.HttpResponse"
+  ],
+  "string.punctuation.replace": [],
+  "mezzanine.generic.views.initial_validation": [
+    "django.contrib.messages.error",
+    "mezzanine.utils.deprecation.request_is_ajax",
+    "django_comments.forms.CommentForm.get_comment_object.get_absolute_url.upper",
+    "django.forms.ModelForm.get_absolute_url.upper",
+    "<builtin>.getattr",
+    "django.utils.safestring.mark_safe",
+    "django.utils.translation.gettext_lazy",
+    "<builtin>.len",
+    "json.dumps",
+    "django.urls.get_script_prefix.upper",
+    "django.apps.apps.get_model",
+    "django.shortcuts.redirect",
+    "django.apps.apps.get_model.objects.get",
+    "django.http.HttpResponse",
+    "django.urls.reverse",
+    "django.http.HttpResponseBadRequest",
+    "mezzanine.utils.deprecation.is_authenticated",
+    "django.urls.reverse.upper"
+  ],
+  "django_comments.forms.CommentForm.get_comment_object.get_absolute_url.upper": [],
+  "django.forms.ModelForm.get_absolute_url.upper": [],
+  "django.urls.reverse.upper": [],
+  "django.urls.get_script_prefix.upper": [],
+  "django.http.HttpResponseBadRequest": [],
+  "mezzanine.generic.views.comment": [
+    "json.dumps",
+    "mezzanine.utils.importing.import_dotted_path",
+    "mezzanine.utils.views.is_spam",
+    "mezzanine.utils.views.set_cookie",
+    "mezzanine.utils.cache.add_cache_bypass",
+    "mezzanine.generic.views.initial_validation",
+    "django.shortcuts.redirect",
+    "<builtin>.isinstance",
+    "django.http.HttpResponse",
+    "mezzanine.utils.deprecation.request_is_ajax",
+    "django.forms.ModelForm.get_absolute_url",
+    "django.template.response.TemplateResponse"
+  ],
+  "django.forms.ModelForm.get_absolute_url": [],
+  "mezzanine.generic.views.rating": [
+    "json.dumps",
+    "<builtin>.getattr",
+    "<builtin>.set",
+    "mezzanine.utils.views.set_cookie",
+    "mezzanine.utils.cache.add_cache_bypass",
+    "mezzanine.generic.forms.RatingForm.__init__",
+    "mezzanine.generic.views.initial_validation",
+    "mezzanine.generic.forms.RatingForm.save",
+    "django.shortcuts.redirect",
+    "<builtin>.isinstance",
+    "django.http.HttpResponse",
+    "mezzanine.utils.deprecation.request_is_ajax",
+    "django_comments.forms.CommentSecurityForm.is_valid"
+  ],
+  "django_comments.forms.CommentSecurityForm.is_valid": [],
+  "mezzanine.boot": [
+    "mezzanine.boot.lazy_admin.LazyAdminSite.__init__",
+    "mezzanine.boot.parse_extra_model_fields",
+    "<builtin>.getattr",
+    "django.apps.apps.lazy_model_operation"
+  ],
+  "mezzanine.boot.parse_field_path": [],
+  "mezzanine.boot.import_field": [
+    "django.core.exceptions.ImproperlyConfigured",
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.boot.parse_extra_model_fields": [
+    "mezzanine.boot.import_field",
+    "collections.defaultdict",
+    "mezzanine.boot.parse_field_path",
+    "django.core.exceptions.ImproperlyConfigured"
+  ],
+  "mezzanine.boot.add_extra_model_fields": [
+    "collections.defaultdict.get"
+  ],
+  "collections.defaultdict.get": [],
+  "django.apps.apps.lazy_model_operation": [],
+  "mezzanine.boot.autodiscover": [
+    "mezzanine.boot.lazy_admin.LazyAdminSite.lazy_registration",
+    "django.contrib.admin.autodiscover"
+  ],
+  "django.contrib.admin.autodiscover": [],
+  "mezzanine.project_template.manage": [
+    "django.core.management.execute_from_command_line",
+    "os.environ.setdefault",
+    "mezzanine.utils.conf.real_project_name"
+  ],
+  "os.environ.setdefault": [],
+  "django.core.management.execute_from_command_line": [],
+  "mezzanine.project_template": [],
+  "mezzanine.project_template.project_name.urls": [
+    "django.contrib.admin.autodiscover",
+    "django.urls.include",
+    "django.urls.path",
+    "django.conf.urls.i18n.i18n_patterns",
+    "django.views.generic.TemplateView.as_view"
+  ],
+  "django.conf.urls.i18n.i18n_patterns": [],
+  "django.views.generic.TemplateView.as_view": [],
+  "mezzanine.project_template.project_name.wsgi": [
+    "django.core.wsgi.get_wsgi_application",
+    "os.environ.setdefault",
+    "mezzanine.utils.conf.real_project_name"
+  ],
+  "django.core.wsgi.get_wsgi_application": [],
+  "mezzanine.project_template.project_name.settings": [
+    "os.path.exists",
+    "os.path.join",
+    "imp.new_module",
+    "django.utils.translation.gettext_lazy",
+    "<builtin>.globals",
+    "os.path.abspath",
+    "os.path.basename",
+    "os.path.dirname",
+    "<builtin>.open",
+    "mezzanine.utils.conf.set_dynamic_settings",
+    "<builtin>.exec"
+  ],
+  "os.path.basename": [],
+  "imp.new_module": [],
+  "<builtin>.globals": [],
+  "mezzanine.project_template.project_name": [],
+  "mezzanine.generic.urls": [
+    "django.urls.path"
+  ],
+  "mezzanine.generic.templatetags.keyword_tags": [
+    "django.template.Library",
+    "django.template.Library.as_tag"
+  ],
+  "mezzanine.generic.templatetags.keyword_tags.keywords_for": [
+    "django.contrib.contenttypes.models.ContentType.objects.get",
+    "<builtin>.min",
+    "<builtin>.getattr",
+    "django.contrib.sites.managers.CurrentSiteManager.filter",
+    "<builtin>.int",
+    "django.contrib.sites.managers.CurrentSiteManager.filter.annotate",
+    "<builtin>.isinstance",
+    "django.db.models.Model.objects.filter",
+    "django.db.models.Count",
+    "<builtin>.max",
+    "<builtin>.round"
+  ],
+  "django.contrib.contenttypes.models.ContentType.objects.get": [],
+  "django.db.models.Count": [],
+  "django.contrib.sites.managers.CurrentSiteManager.filter.annotate": [],
+  "<builtin>.round": [],
+  "mezzanine.generic.templatetags.comment_tags": [
+    "django.template.Library.filter",
+    "django.template.Library",
+    "django.template.Library.inclusion_tag"
+  ],
+  "mezzanine.generic.templatetags.comment_tags.comments_for": [
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.generic.templatetags.comment_tags.comment_thread": [
+    "<builtin>.int",
+    "collections.defaultdict",
+    "<builtin>.isinstance"
+  ],
+  "mezzanine.generic.templatetags.comment_tags.recent_comments": [
+    "django.contrib.sites.managers.CurrentSiteManager.all.select_related.order_by",
+    "django.contrib.sites.managers.CurrentSiteManager.all",
+    "django.contrib.sites.managers.CurrentSiteManager.all.select_related",
+    "django_comments.managers.CommentManager.all.select_related.order_by"
+  ],
+  "django.contrib.sites.managers.CurrentSiteManager.all.select_related": [],
+  "django_comments.managers.CommentManager.all.select_related.order_by": [],
+  "django.contrib.sites.managers.CurrentSiteManager.all.select_related.order_by": [],
+  "mezzanine.generic.templatetags.comment_tags.comment_filter": [
+    "<builtin>.callable",
+    "mezzanine.utils.importing.import_dotted_path"
+  ],
+  "mezzanine.generic.templatetags.comment_tags.comment_filter.filter_func": [
+    "django.template.defaultfilters.urlize",
+    "django.template.defaultfilters.linebreaksbr"
+  ],
+  "django.template.defaultfilters.linebreaksbr": [],
+  "mezzanine.generic.templatetags.disqus_tags": [
+    "django.template.Library",
+    "django.template.Library.inclusion_tag",
+    "django.template.Library.simple_tag"
+  ],
+  "mezzanine.generic.templatetags.disqus_tags.disqus_id_for": [],
+  "mezzanine.generic.templatetags.disqus_tags.disqus_sso_script": [
+    "mezzanine.generic.templatetags.disqus_tags._get_disqus_sso",
+    "<builtin>.getattr",
+    "mezzanine.utils.deprecation.is_authenticated"
+  ],
+  "mezzanine.generic.templatetags.disqus_tags._get_disqus_sso": [
+    "json.dumps",
+    "<builtin>.int",
+    "base64.b64encode",
+    "time.time",
+    "hmac.HMAC",
+    "hmac.HMAC.hexdigest",
+    "json.dumps.encode"
+  ],
+  "json.dumps.encode": [],
+  "base64.b64encode": [],
+  "hmac.HMAC": [],
+  "hmac.HMAC.hexdigest": [],
+  "mezzanine.generic.templatetags": [],
+  "mezzanine.generic.templatetags.rating_tags": [
+    "django.template.Library",
+    "django.template.Library.inclusion_tag"
+  ],
+  "mezzanine.generic.templatetags.rating_tags.rating_for": [
+    "mezzanine.generic.forms.RatingForm.__init__",
+    "<builtin>.getattr"
+  ],
+  "mezzanine.generic.admin": [
+    "django.contrib.admin.site.register",
+    "<builtin>.getattr",
+    "<builtin>.bool"
+  ],
+  "mezzanine.generic.admin.ThreadedCommentAdmin": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.generic.admin.ThreadedCommentAdmin.get_actions": [
+    "<builtin>.super"
+  ],
+  "mezzanine.generic.admin.ThreadedCommentAdmin.has_add_permission": [],
+  "mezzanine.generic.defaults": [
+    "mezzanine.conf.register_setting",
+    "<builtin>.getattr",
+    "<builtin>.list",
+    "django.utils.translation.gettext_lazy",
+    "<builtin>.range"
+  ],
+  "mezzanine.generic.migrations.0002_auto_20141227_0224": [],
+  "mezzanine.generic.migrations.0002_auto_20141227_0224.Migration": [
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.generic.migrations.0003_auto_20170411_0504": [],
+  "mezzanine.generic.migrations.0003_auto_20170411_0504.Migration": [
+    "django.db.models.CharField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.generic.migrations": [],
+  "mezzanine.generic.migrations.0001_initial": [],
+  "mezzanine.generic.migrations.0001_initial.Migration": [
+    "django.db.models.BooleanField",
+    "django.db.models.IntegerField",
+    "django.db.models.DateTimeField",
+    "django.db.models.OneToOneField",
+    "django.db.migrations.swappable_dependency",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField",
+    "django.db.models.AutoField",
+    "django.db.migrations.AddField",
+    "django.db.migrations.CreateModel",
+    "django.db.models.FloatField"
+  ],
+  "mezzanine.bin.management.commands.mezzanine_project": [],
+  "django.core.management.commands.startproject.Command.help.replace": [],
+  "mezzanine.bin.management.commands.mezzanine_project.Command": [
+    "django.core.management.commands.startproject.Command.help.replace"
+  ],
+  "mezzanine.bin.management.commands.mezzanine_project.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.bin.management.commands.mezzanine_project.Command.handle": [
+    "os.path.exists",
+    "<builtin>.str",
+    "os.path.join",
+    "tempfile.mkdtemp",
+    "mezzanine.bin.management.commands.mezzanine_project.Command.handle",
+    "shutil.rmtree",
+    "shutil.move",
+    "os.path.abspath",
+    "os.path.dirname",
+    "<builtin>.super",
+    "distutils.dir_util.copy_tree",
+    "os.remove",
+    "django.utils.crypto.get_random_string",
+    "importlib.import_module",
+    "mezzanine.bin.management.commands.mezzanine_project.Command.get_project_directory"
+  ],
+  "django.utils.crypto.get_random_string": [],
+  "mezzanine.bin.management.commands.mezzanine_project.Command.get_project_directory": [
+    "os.path.exists",
+    "os.path.expanduser",
+    "os.path.join",
+    "django.core.management.CommandError",
+    "os.getcwd",
+    "os.path.abspath"
+  ],
+  "tempfile.mkdtemp": [],
+  "distutils.dir_util.copy_tree": [],
+  "shutil.rmtree": [],
+  "os.getcwd": [],
+  "os.path.expanduser": [],
+  "django.core.management.CommandError": [],
+  "mezzanine.bin.management.commands.mezzanine_project.Command.handle_template": [
+    "<builtin>.super",
+    "<builtin>.str",
+    "os.path.join"
+  ],
+  "mezzanine.bin.management.commands": [],
+  "mezzanine.bin.management": [],
+  "mezzanine.bin.mezzanine_project": [
+    "mezzanine.bin.mezzanine_project.create_project"
+  ],
+  "mezzanine.bin.mezzanine_project.create_project": [
+    "django.core.management.execute_from_command_line",
+    "django.conf.settings.configure",
+    "<builtin>.list"
+  ],
+  "django.conf.settings.configure": [],
+  "mezzanine.bin": [],
+  "mezzanine.blog.views": [
+    "django.contrib.auth.get_user_model"
+  ],
+  "mezzanine.blog.views.blog_post_list": [
+    "django.apps.apps.get_model.objects.search.select_related.prefetch_related.filter",
+    "django.utils.translation.gettext_lazy",
+    "<builtin>.int",
+    "django.shortcuts.get_object_or_404",
+    "modeltranslation.manager.MultilingualManager.published.select_related.prefetch_related.filter",
+    "modeltranslation.manager.MultilingualManager.published.filter",
+    "<builtin>.str",
+    "django.core.paginator.Paginator.page.filter.select_related",
+    "modeltranslation.manager.MultilingualManager.published",
+    "django.core.paginator.Paginator.filter",
+    "django.apps.apps.get_model.objects.search.filter.select_related.prefetch_related",
+    "modeltranslation.manager.MultilingualManager.published.select_related",
+    "django.core.paginator.Paginator.page.select_related.prefetch_related",
+    "django.core.paginator.Paginator.select_related.prefetch_related",
+    "django.core.paginator.Paginator.select_related",
+    "modeltranslation.manager.MultilingualManager.search.filter.select_related",
+    "django.core.paginator.Paginator.page.select_related",
+    "modeltranslation.manager.MultilingualManager.search.select_related",
+    "django.core.paginator.Paginator.filter.select_related.prefetch_related",
+    "django.core.paginator.Paginator.select_related.prefetch_related.filter",
+    "django.apps.apps.get_model.objects.search.filter.select_related",
+    "modeltranslation.manager.MultilingualManager.published.select_related.prefetch_related",
+    "modeltranslation.manager.MultilingualManager.search.filter.select_related.prefetch_related",
+    "django.apps.apps.get_model.objects.search.select_related",
+    "django.apps.apps.get_model.objects.search.filter",
+    "modeltranslation.manager.MultilingualManager.search.select_related.prefetch_related.filter",
+    "django.core.paginator.Paginator.filter.select_related",
+    "modeltranslation.manager.MultilingualManager.search.filter",
+    "django.template.response.TemplateResponse",
+    "modeltranslation.manager.MultilingualManager.search.select_related.prefetch_related",
+    "modeltranslation.manager.MultilingualManager.published.filter.select_related",
+    "django.apps.apps.get_model.objects.search.select_related.prefetch_related",
+    "mezzanine.utils.views.paginate",
+    "django.template.RequestContext.update",
+    "django.http.Http404",
+    "django.core.paginator.Paginator.page.select_related.prefetch_related.filter",
+    "django.core.paginator.Paginator.page.filter.select_related.prefetch_related",
+    "django.core.paginator.Paginator.page.filter",
+    "modeltranslation.manager.MultilingualManager.published.filter.select_related.prefetch_related"
+  ],
+  "django.apps.apps.get_model.objects.search.select_related.prefetch_related.filter": [],
+  "django.core.paginator.Paginator.page.select_related.prefetch_related.filter": [],
+  "django.core.paginator.Paginator.filter": [],
+  "django.core.paginator.Paginator.select_related.prefetch_related.filter": [],
+  "django.core.paginator.Paginator.page.filter": [],
+  "django.apps.apps.get_model.objects.search.filter": [],
+  "modeltranslation.manager.MultilingualManager.search.select_related.prefetch_related.filter": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.prefetch_related.filter": [],
+  "modeltranslation.manager.MultilingualManager.search.filter": [],
+  "modeltranslation.manager.MultilingualManager.published.filter": [],
+  "modeltranslation.manager.MultilingualManager.search.filter.select_related": [],
+  "django.core.paginator.Paginator.page.select_related": [],
+  "modeltranslation.manager.MultilingualManager.search.select_related": [],
+  "modeltranslation.manager.MultilingualManager.published.filter.select_related": [],
+  "django.core.paginator.Paginator.page.filter.select_related": [],
+  "django.apps.apps.get_model.objects.search.filter.select_related": [],
+  "django.apps.apps.get_model.objects.search.select_related": [],
+  "django.core.paginator.Paginator.filter.select_related": [],
+  "django.core.paginator.Paginator.select_related": [],
+  "modeltranslation.manager.MultilingualManager.search.select_related.prefetch_related": [],
+  "django.apps.apps.get_model.objects.search.select_related.prefetch_related": [],
+  "django.core.paginator.Paginator.filter.select_related.prefetch_related": [],
+  "django.core.paginator.Paginator.page.filter.select_related.prefetch_related": [],
+  "modeltranslation.manager.MultilingualManager.published.select_related.prefetch_related": [],
+  "django.apps.apps.get_model.objects.search.filter.select_related.prefetch_related": [],
+  "modeltranslation.manager.MultilingualManager.search.filter.select_related.prefetch_related": [],
+  "modeltranslation.manager.MultilingualManager.published.filter.select_related.prefetch_related": [],
+  "django.core.paginator.Paginator.page.select_related.prefetch_related": [],
+  "django.core.paginator.Paginator.select_related.prefetch_related": [],
+  "mezzanine.blog.views.blog_post_detail": [
+    "<builtin>.str",
+    "django.template.RequestContext.update",
+    "modeltranslation.manager.MultilingualManager.published",
+    "modeltranslation.manager.MultilingualManager.published.select_related",
+    "django.shortcuts.get_object_or_404",
+    "django.template.response.TemplateResponse",
+    "django.shortcuts.get_object_or_404.related_posts.published"
+  ],
+  "django.shortcuts.get_object_or_404.related_posts.published": [],
+  "mezzanine.blog.views.blog_post_feed": [
+    "django.http.Http404"
+  ],
+  "mezzanine.blog.feeds": [
+    "django.contrib.auth.get_user_model"
+  ],
+  "mezzanine.blog.feeds.<lambda1>": [],
+  "mezzanine.blog.feeds.PostsRSS.__init__": [
+    "<builtin>.super",
+    "modeltranslation.manager.MultilingualManager.published",
+    "django.utils.html.strip_tags",
+    "modeltranslation.manager.MultilingualManager.published.get"
+  ],
+  "modeltranslation.manager.MultilingualManager.published.get": [],
+  "mezzanine.blog.feeds.PostsRSS.__call__": [
+    "<builtin>.super",
+    "django.contrib.sites.models.Site.objects.get",
+    "mezzanine.utils.sites.current_site_id",
+    "mezzanine.core.request.current_request"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.add_domain": [
+    "mezzanine.blog.feeds.PostsRSS.add_domain"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.title": [
+    "mezzanine.blog.feeds.<lambda1>"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.description": [
+    "mezzanine.blog.feeds.<lambda1>"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.link": [
+    "mezzanine.blog.feeds.PostsRSS.add_domain",
+    "django.urls.reverse"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.items": [
+    "modeltranslation.manager.MultilingualManager.published",
+    "modeltranslation.manager.MultilingualManager.published.select_related.prefetch_related",
+    "modeltranslation.manager.MultilingualManager.published.select_related",
+    "django.shortcuts.get_object_or_404",
+    "modeltranslation.manager.MultilingualManager.published.select_related.prefetch_related.filter"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.item_description": [
+    "mezzanine.blog.feeds.<lambda1>",
+    "mezzanine.core.templatetags.mezzanine_tags.richtext_filters",
+    "mezzanine.utils.html.absolute_urls"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.categories": [
+    "modeltranslation.manager.MultilingualManager.all",
+    "modeltranslation.manager.MultilingualManager.published.select_related.objects.all",
+    "django.contrib.sites.managers.CurrentSiteManager.all"
+  ],
+  "modeltranslation.manager.MultilingualManager.published.select_related.objects.all": [],
+  "mezzanine.blog.feeds.PostsRSS.feed_url": [
+    "mezzanine.blog.feeds.PostsRSS.add_domain"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.item_link": [
+    "<builtin>.super",
+    "mezzanine.blog.feeds.PostsRSS.add_domain"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.item_author_name": [],
+  "mezzanine.blog.feeds.PostsRSS.item_author_link": [
+    "mezzanine.blog.feeds.PostsRSS.add_domain",
+    "django.urls.reverse"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.item_pubdate": [],
+  "mezzanine.blog.feeds.PostsRSS.item_categories": [],
+  "mezzanine.blog.feeds.PostsRSS.item_enclosure_url": [
+    "mezzanine.blog.feeds.PostsRSS.add_domain"
+  ],
+  "mezzanine.blog.feeds.PostsRSS.item_enclosure_length": [],
+  "mezzanine.blog.feeds.PostsRSS.item_enclosure_mime_type": [],
+  "mezzanine.blog.feeds.PostsAtom.subtitle": [
+    "mezzanine.blog.feeds.PostsRSS.description"
+  ],
+  "mezzanine.blog.feeds.PostsAtom.item_updateddate": [],
+  "mezzanine.blog.translation": [
+    "modeltranslation.translator.translator.register"
+  ],
+  "mezzanine.blog.urls": [
+    "django.urls.re_path",
+    "django.urls.path"
+  ],
+  "mezzanine.blog.forms": [],
+  "mezzanine.blog.forms.BlogPostForm.__init__": [
+    "<builtin>.super",
+    "django.forms.HiddenInput",
+    "django.db.models.Model._meta.get_field"
+  ],
+  "django.forms.HiddenInput": [],
+  "mezzanine.blog.management.commands.import_wordpress": [],
+  "mezzanine.blog.management.commands.import_wordpress.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.blog.management.commands.import_wordpress.Command.get_text": [],
+  "mezzanine.blog.management.commands.import_wordpress.Command.handle_import": [
+    "datetime.datetime.strptime",
+    "<builtin>.getattr",
+    "datetime.timedelta",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_page",
+    "feedparser.parse",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_post",
+    "xml.dom.minidom.parse",
+    "mezzanine.blog.management.commands.import_wordpress.Command.wp_caption",
+    "mezzanine.blog.management.commands.import_wordpress.Command.get_text",
+    "django.utils.html.linebreaks",
+    "xml.dom.minidom.parse.getElementsByTagName",
+    "collections.defaultdict",
+    "time.mktime",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_comment",
+    "datetime.datetime.fromtimestamp",
+    "<builtin>.enumerate",
+    "django.core.management.base.CommandError"
+  ],
+  "feedparser.parse": [],
+  "xml.dom.minidom.parse": [],
+  "xml.dom.minidom.parse.getElementsByTagName": [],
+  "mezzanine.blog.management.commands.import_wordpress.Command.wp_caption": [
+    "<builtin>.int",
+    "re.finditer",
+    "re.finditer.group"
+  ],
+  "django.utils.html.linebreaks": [],
+  "time.mktime": [],
+  "datetime.datetime.fromtimestamp": [],
+  "mezzanine.blog.management.base.BaseImporterCommand.add_post": [
+    "django.utils.html.strip_tags.split",
+    "mezzanine.utils.html.decode_entities",
+    "django.utils.html.strip_tags"
+  ],
+  "datetime.datetime.strptime": [],
+  "mezzanine.blog.management.base.BaseImporterCommand.add_comment": [
+    "django.core.management.base.CommandError"
+  ],
+  "mezzanine.blog.management.base.BaseImporterCommand.add_page": [
+    "re.sub.replace",
+    "mezzanine.utils.html.decode_entities",
+    "django.utils.html.strip_tags",
+    "re.sub.replace.split"
+  ],
+  "re.finditer": [],
+  "re.finditer.group": [],
+  "mezzanine.blog.management.base": [
+    "django.contrib.auth.get_user_model"
+  ],
+  "mezzanine.blog.management.base.BaseImporterCommand.add_arguments": [],
+  "mezzanine.blog.management.base.BaseImporterCommand.__init__": [
+    "<builtin>.super"
+  ],
+  "django.utils.html.strip_tags.split": [],
+  "re.sub.replace.split": [],
+  "mezzanine.blog.management.base.BaseImporterCommand.trunc": [
+    "<builtin>.input",
+    "<builtin>.len",
+    "<builtin>.getattr",
+    "django_comments.models.Comment._meta.get_field",
+    "django.db.models.Model._meta.get_field",
+    "django.contrib.redirects.models.Redirect._meta.get_field"
+  ],
+  "django.contrib.redirects.models.Redirect._meta.get_field": [],
+  "django_comments.models.Comment._meta.get_field": [],
+  "mezzanine.blog.management.base.BaseImporterCommand.handle": [
+    "django.contrib.auth.get_user_model.objects.get",
+    "<builtin>.int",
+    "mezzanine.blog.management.base.BaseImporterCommand.trunc",
+    "mezzanine.blog.management.base.BaseImporterCommand.handle_import",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_meta",
+    "<builtin>.print",
+    "modeltranslation.manager.MultilingualManager.get_or_create",
+    "<builtin>.setattr",
+    "django.contrib.sites.models.Site.objects.get_current",
+    "django.core.management.base.CommandError"
+  ],
+  "django.contrib.sites.models.Site.objects.get_current": [],
+  "mezzanine.blog.management.base.BaseImporterCommand.handle_import": [],
+  "mezzanine.blog.management.base.BaseImporterCommand.add_meta": [
+    "urllib.parse.urlparse.path.strip",
+    "mezzanine.blog.management.base.BaseImporterCommand.trunc",
+    "<builtin>.print",
+    "django.contrib.sites.models.Site.objects.get_current",
+    "mezzanine.generic.managers.KeywordManager.get_or_create_iexact",
+    "django.contrib.redirects.models.Redirect.objects.get_or_create",
+    "urllib.parse.urlparse"
+  ],
+  "urllib.parse.urlparse.path.strip": [],
+  "django.contrib.redirects.models.Redirect.objects.get_or_create": [],
+  "mezzanine.blog.management": [],
+  "mezzanine.blog.management.commands.import_blogml": [],
+  "mezzanine.blog.management.commands.import_blogml.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.blog.management.commands.import_blogml.Command.handle_import": [
+    "xml.etree.ElementTree.parse.findall.findall",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_post",
+    "xml.etree.ElementTree.parse",
+    "mezzanine.blog.management.commands.import_blogml.Command.handle_import._process_categories",
+    "mezzanine.blog.management.commands.import_blogml.Command.handle_import._process_comment_element",
+    "mezzanine.blog.management.commands.import_blogml.Command.handle_import._process_post_element",
+    "xml.etree.ElementTree.parse.findall",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_comment",
+    "django.core.management.base.CommandError",
+    "django.utils.timezone.get_current_timezone"
+  ],
+  "django.utils.timezone.get_current_timezone": [],
+  "xml.etree.ElementTree.parse": [],
+  "mezzanine.blog.management.commands.import_blogml.Command.handle_import._process_post_element": [
+    "xml.etree.ElementTree.parse.findall.findall",
+    "dateutil.parser.parse",
+    "<builtin>.list",
+    "<builtin>.dict",
+    "dateutil.parser.parse.replace",
+    "xml.etree.ElementTree.parse.findall.find"
+  ],
+  "xml.etree.ElementTree.parse.findall.find": [],
+  "dateutil.parser.parse": [],
+  "dateutil.parser.parse.replace": [],
+  "xml.etree.ElementTree.parse.findall.findall": [],
+  "mezzanine.blog.management.commands.import_blogml.Command.handle_import._process_comment_element": [
+    "<builtin>.dict",
+    "dateutil.parser.parse.replace",
+    "dateutil.parser.parse"
+  ],
+  "mezzanine.blog.management.commands.import_blogml.Command.handle_import._process_categories": [
+    "<builtin>.dict",
+    "xml.etree.ElementTree.parse.findall",
+    "<builtin>.zip",
+    "<builtin>.tuple"
+  ],
+  "xml.etree.ElementTree.parse.findall": [],
+  "mezzanine.blog.management.commands.import_posterous": [],
+  "mezzanine.blog.management.commands.import_posterous.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.blog.management.commands.import_posterous.Command.request": [
+    "requests.get",
+    "json.loads",
+    "requests.get.text.startswith",
+    "django.core.management.base.CommandError"
+  ],
+  "requests.get": [],
+  "requests.get.text.startswith": [],
+  "mezzanine.blog.management.commands.import_posterous.Command.handle_import": [
+    "<builtin>.len",
+    "datetime.datetime.strptime",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_post",
+    "mezzanine.blog.management.commands.import_posterous.Command.request",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_comment",
+    "time.sleep",
+    "django.core.management.base.CommandError"
+  ],
+  "time.sleep": [],
+  "mezzanine.blog.management.commands.import_rss": [],
+  "mezzanine.blog.management.commands.import_rss.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.blog.management.commands.import_rss.Command.handle_import": [
+    "BeautifulSoup.BeautifulSoup",
+    "urllib.parse.urljoin",
+    "<builtin>.getattr",
+    "dateutil.parser.parse",
+    "feedparser.parse",
+    "datetime.timedelta",
+    "urllib.request.urlopen",
+    "BeautifulSoup.BeautifulSoup.findAll.get",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_post",
+    "<builtin>.hasattr",
+    "BeautifulSoup.BeautifulSoup.findAll",
+    "urllib.request.urlopen.read",
+    "django.core.management.base.CommandError"
+  ],
+  "BeautifulSoup.BeautifulSoup": [],
+  "BeautifulSoup.BeautifulSoup.findAll": [],
+  "BeautifulSoup.BeautifulSoup.findAll.get": [],
+  "mezzanine.blog.management.commands.import_blogger": [],
+  "mezzanine.blog.management.commands.import_blogger.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.blog.management.commands.import_blogger.Command.handle_import": [
+    "gdata.service.Query",
+    "mezzanine.blog.management.commands.import_blogger.Command.parse_datetime",
+    "re.search",
+    "gdata.service.GDataService",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_post",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_comment",
+    "re.search.end",
+    "gdata.service.Query.ToUri",
+    "gdata.service.GDataService.Get",
+    "<builtin>.enumerate",
+    "django.core.management.base.CommandError"
+  ],
+  "gdata.service.GDataService": [],
+  "gdata.service.Query": [],
+  "gdata.service.Query.ToUri": [],
+  "gdata.service.GDataService.Get": [],
+  "re.search": [],
+  "re.search.end": [],
+  "mezzanine.blog.management.commands.import_blogger.Command.parse_datetime": [
+    "datetime.datetime.strptime",
+    "datetime.timedelta"
+  ],
+  "mezzanine.blog.management.commands.import_tumblr": [],
+  "mezzanine.blog.management.commands.import_tumblr.title_from_content": [
+    "django.utils.html.strip_tags"
+  ],
+  "mezzanine.blog.management.commands.import_tumblr.Command.add_arguments": [
+    "<builtin>.super"
+  ],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_import": [
+    "<builtin>.len",
+    "datetime.datetime.strptime",
+    "<builtin>.getattr",
+    "json.loads",
+    "<builtin>.int",
+    "mezzanine.blog.management.base.BaseImporterCommand.add_post",
+    "urllib.request.urlopen",
+    "<builtin>.print",
+    "<builtin>.OSError",
+    "time.sleep",
+    "urllib.request.urlopen.read",
+    "urllib.request.urlopen.read.split",
+    "django.core.management.base.CommandError"
+  ],
+  "<builtin>.OSError": [],
+  "urllib.request.urlopen.read.split": [],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_regular_post": [],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_link_post": [],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_quote_post": [],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_photo_post": [
+    "mezzanine.blog.management.commands.import_tumblr.title_from_content"
+  ],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_conversation_post": [],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_video_post": [
+    "mezzanine.blog.management.commands.import_tumblr.title_from_content"
+  ],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_audio_post": [
+    "mezzanine.blog.management.commands.import_tumblr.title_from_content"
+  ],
+  "mezzanine.blog.management.commands.import_tumblr.Command.handle_answer_post": [],
+  "mezzanine.blog.management.commands": [],
+  "mezzanine.blog.templatetags": [],
+  "mezzanine.blog.templatetags.blog_tags": [
+    "django.contrib.auth.get_user_model",
+    "django.template.Library",
+    "django.template.Library.inclusion_tag",
+    "django.template.Library.as_tag"
+  ],
+  "mezzanine.blog.templatetags.blog_tags.blog_months": [
+    "datetime.datetime",
+    "modeltranslation.manager.MultilingualManager.published",
+    "modeltranslation.manager.MultilingualManager.published.values_list",
+    "django.utils.timezone.get_current_timezone"
+  ],
+  "modeltranslation.manager.MultilingualManager.published.values_list": [],
+  "datetime.datetime": [],
+  "mezzanine.blog.templatetags.blog_tags.blog_categories": [
+    "<builtin>.list",
+    "modeltranslation.manager.MultilingualManager.published",
+    "modeltranslation.manager.MultilingualManager.filter.annotate",
+    "modeltranslation.manager.MultilingualManager.filter",
+    "django.db.models.Count"
+  ],
+  "modeltranslation.manager.MultilingualManager.filter.annotate": [],
+  "mezzanine.blog.templatetags.blog_tags.blog_authors": [
+    "<builtin>.list",
+    "modeltranslation.manager.MultilingualManager.published",
+    "django.contrib.auth.get_user_model.objects.filter",
+    "django.db.models.Count",
+    "django.contrib.auth.get_user_model.objects.filter.annotate"
+  ],
+  "django.contrib.auth.get_user_model.objects.filter.annotate": [],
+  "mezzanine.blog.templatetags.blog_tags.blog_recent_posts": [
+    "django.contrib.auth.get_user_model.objects.get",
+    "modeltranslation.manager.MultilingualManager.get",
+    "<builtin>.list",
+    "modeltranslation.manager.MultilingualManager.published",
+    "modeltranslation.manager.MultilingualManager.published.select_related",
+    "django.contrib.sites.managers.CurrentSiteManager.get",
+    "mezzanine.blog.templatetags.blog_tags.blog_recent_posts.<lambda1>",
+    "modeltranslation.manager.MultilingualManager.published.select_related.filter"
+  ],
+  "mezzanine.blog.templatetags.blog_tags.blog_recent_posts.<lambda1>": [
+    "django.db.models.Q"
+  ],
+  "modeltranslation.manager.MultilingualManager.published.select_related.filter": [],
+  "mezzanine.blog.templatetags.blog_tags.quick_blog": [
+    "mezzanine.blog.forms.BlogPostForm.__init__"
+  ],
+  "mezzanine.blog.admin": [
+    "django.contrib.admin.site.register",
+    "<builtin>.list",
+    "django.utils.translation.gettext_lazy",
+    "copy.deepcopy.insert",
+    "copy.deepcopy"
+  ],
+  "mezzanine.blog.admin.BlogPostAdmin.save_form": [
+    "django.contrib.admin.ModelAdmin.save_form",
+    "mezzanine.core.admin.OwnableAdmin.save_form"
+  ],
+  "django.contrib.admin.ModelAdmin.save_form": [],
+  "mezzanine.blog.admin.BlogCategoryAdmin.has_module_permission": [],
+  "mezzanine.twitter.admin": [],
+  "mezzanine.twitter.admin.TweetableAdminMixin.formfield_for_dbfield": [
+    "<builtin>.super",
+    "mezzanine.twitter.get_auth_settings",
+    "mezzanine.twitter.admin.TweetableAdminMixin.formfield_for_dbfield.wrapper"
+  ],
+  "mezzanine.twitter.get_auth_settings": [
+    "<builtin>.all"
+  ],
+  "mezzanine.twitter.admin.TweetableAdminMixin.formfield_for_dbfield.wrapper": [],
+  "mezzanine.twitter.admin.TweetableAdminMixin.formfield_for_dbfield.wrapper.wrapped": [
+    "django.utils.safestring.mark_safe",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.twitter.admin.TweetableAdminMixin.save_model": [
+    "mezzanine.twitter.get_auth_settings",
+    "<builtin>.len",
+    "twitter.Api",
+    "<builtin>.super",
+    "twitter.Api.PostUpdate",
+    "django.template.defaultfilters.truncatechars"
+  ],
+  "django.template.defaultfilters.truncatechars": [],
+  "twitter.Api": [],
+  "twitter.Api.PostUpdate": [],
+  "mezzanine.twitter": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.blog.defaults": [
+    "mezzanine.conf.register_setting",
+    "warnings.warn",
+    "<builtin>.getattr",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.blog.migrations.0002_auto_20150527_1555": [],
+  "mezzanine.blog.migrations.0002_auto_20150527_1555.Migration": [
+    "django.db.models.DateTimeField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.blog.migrations.0003_auto_20170411_0504": [],
+  "mezzanine.blog.migrations.0003_auto_20170411_0504.Migration": [
+    "django.db.models.CharField",
+    "django.db.migrations.AlterField"
+  ],
+  "mezzanine.blog.migrations": [],
+  "mezzanine.blog.migrations.0001_initial": [],
+  "mezzanine.blog.migrations.0001_initial.Migration": [
+    "django.db.models.BooleanField",
+    "django.db.models.IntegerField",
+    "django.db.models.URLField",
+    "django.db.models.ManyToManyField",
+    "django.db.models.DateTimeField",
+    "django.db.migrations.swappable_dependency",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField",
+    "django.db.models.TextField",
+    "django.db.models.AutoField",
+    "django.db.migrations.CreateModel",
+    "django.db.models.FloatField"
+  ],
+  "mezzanine.twitter.apps": [],
+  "mezzanine.twitter.apps.TwitterConfig.ready": [],
+  "mezzanine.twitter.checks": [
+    "django.core.checks.Warning",
+    "django.core.checks.register"
+  ],
+  "mezzanine.twitter.checks.check_twitter": [],
+  "mezzanine.twitter.models": [
+    "re.compile"
+  ],
+  "re.compile": [],
+  "mezzanine.twitter.models.Query": [
+    "django.db.models.BooleanField",
+    "django.db.models.CharField",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.twitter.models.Query.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.twitter.models.Query.__str__": [
+    "django.db.models.Model.get_type_display"
+  ],
+  "django.db.models.Model.get_type_display": [],
+  "mezzanine.twitter.models.Query.run": [
+    "urllib.parse.quote",
+    "mezzanine.twitter.get_auth_settings",
+    "<builtin>.str",
+    "django.utils.timezone.make_aware",
+    "datetime.datetime.strptime",
+    "<builtin>.getattr",
+    "<builtin>.ord",
+    "requests.get.json",
+    "django.db.models.CharField.lstrip",
+    "django.db.models.Model.tweets.get_or_create",
+    "django.db.models.Model.save",
+    "requests_oauthlib.OAuth1",
+    "requests.get",
+    "urllib.parse.quote.lstrip",
+    "re.compile.sub",
+    "django.utils.html.urlize"
+  ],
+  "urllib.parse.quote.lstrip": [],
+  "django.db.models.CharField.lstrip": [],
+  "requests_oauthlib.OAuth1": [],
+  "requests.get.json": [],
+  "django.db.models.Model.tweets.get_or_create": [],
+  "django.utils.html.urlize": [],
+  "re.compile.sub": [],
+  "<builtin>.ord": [],
+  "django.utils.timezone.make_aware": [],
+  "django.db.models.Model.save": [],
+  "mezzanine.twitter.models.Tweet": [
+    "django.db.models.URLField",
+    "django.db.models.DateTimeField",
+    "django.utils.translation.gettext_lazy",
+    "django.db.models.ForeignKey",
+    "django.db.models.TextField",
+    "django.db.models.CharField",
+    "django.db.models.Manager.__init__"
+  ],
+  "mezzanine.twitter.models.Tweet.Meta": [
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.twitter.models.Tweet.__str__": [],
+  "mezzanine.twitter.models.Tweet.is_retweet": [],
+  "mezzanine.twitter.managers": [],
+  "mezzanine.twitter.managers.TweetManager.get_for": [
+    "django.db.models.Model.objects.get_or_create"
+  ],
+  "django.db.models.Model.objects.get_or_create": [],
+  "mezzanine.twitter.management.commands": [],
+  "mezzanine.twitter.management.commands.poll_twitter": [],
+  "mezzanine.twitter.management.commands.poll_twitter.Command.add_arguments": [],
+  "mezzanine.twitter.management.commands.poll_twitter.Command.handle": [
+    "django.db.models.Model.objects.all.run",
+    "django.db.models.Model.objects.all",
+    "django.db.models.Model.objects.all.filter.run",
+    "django.db.close_connection",
+    "<builtin>.print",
+    "django.db.models.Model.objects.all.filter"
+  ],
+  "django.db.models.Model.objects.all": [],
+  "django.db.models.Model.objects.all.filter": [],
+  "django.db.models.Model.objects.all.run": [],
+  "django.db.models.Model.objects.all.filter.run": [],
+  "django.db.close_connection": [],
+  "mezzanine.twitter.management": [],
+  "mezzanine.twitter.templatetags": [],
+  "mezzanine.twitter.templatetags.twitter_tags": [
+    "django.template.Library",
+    "django.template.Library.as_tag"
+  ],
+  "mezzanine.twitter.templatetags.twitter_tags.tweets_for": [
+    "<builtin>.str",
+    "<builtin>.len",
+    "mezzanine.twitter.managers.TweetManager.get_for",
+    "<builtin>.int",
+    "collections.defaultdict",
+    "collections.defaultdict.values",
+    "<builtin>.sum"
+  ],
+  "collections.defaultdict.values": [],
+  "mezzanine.twitter.templatetags.twitter_tags.tweets_for.<lambda1>": [],
+  "mezzanine.twitter.templatetags.twitter_tags.tweets_for_user": [
+    "mezzanine.twitter.templatetags.twitter_tags.tweets_for"
+  ],
+  "mezzanine.twitter.templatetags.twitter_tags.tweets_for_list": [
+    "mezzanine.twitter.templatetags.twitter_tags.tweets_for"
+  ],
+  "mezzanine.twitter.templatetags.twitter_tags.tweets_for_search": [
+    "mezzanine.twitter.templatetags.twitter_tags.tweets_for"
+  ],
+  "mezzanine.twitter.templatetags.twitter_tags.tweets_default": [
+    "mezzanine.twitter.templatetags.twitter_tags.tweets_for"
+  ],
+  "mezzanine.twitter.defaults": [
+    "mezzanine.conf.register_setting",
+    "django.utils.translation.gettext_lazy"
+  ],
+  "mezzanine.twitter.migrations": [],
+  "mezzanine.twitter.migrations.0001_initial": [],
+  "mezzanine.twitter.migrations.0001_initial.Migration": [
+    "django.db.models.BooleanField",
+    "django.db.models.URLField",
+    "django.db.models.DateTimeField",
+    "django.db.models.ForeignKey",
+    "django.db.models.CharField",
+    "django.db.models.TextField",
+    "django.db.models.AutoField",
+    "django.db.migrations.CreateModel"
+  ]
+}

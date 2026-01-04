@@ -1,0 +1,269 @@
+{
+  "setup": [
+    "setuptools.setup"
+  ],
+  "setuptools.setup": [],
+  "html2text.typing": [],
+  "html2text.typing.OutCallback.__call__": [],
+  "html2text": [],
+  "html2text.HTML2Text.__init__": [
+    "re.compile",
+    "<builtin>.super"
+  ],
+  "<builtin>.super": [],
+  "re.compile": [],
+  "html2text.HTML2Text.feed": [
+    "<builtin>.super"
+  ],
+  "html2text.HTML2Text.handle": [
+    "html2text.HTML2Text.optwrap",
+    "html2text.HTML2Text.finish",
+    "html2text.HTML2Text.feed",
+    "html2text.utils.pad_tables_in_text"
+  ],
+  "html2text.HTML2Text.finish": [
+    "html.parser.HTMLParser.close",
+    "html2text.HTML2Text.pbr",
+    "html2text.HTML2Text.o"
+  ],
+  "html2text.HTML2Text.optwrap": [
+    "re.compile.match",
+    "<builtin>.len",
+    "html2text.utils.skipwrap",
+    "textwrap.wrap"
+  ],
+  "html2text.utils.pad_tables_in_text": [
+    "html2text.utils.reformat_table"
+  ],
+  "html2text.HTML2Text.outtextf": [],
+  "html.parser.HTMLParser.close": [],
+  "html2text.HTML2Text.pbr": [],
+  "html2text.HTML2Text.o": [
+    "re.sub.lstrip.replace",
+    "re.compile.sub.replace.lstrip",
+    "<builtin>.str",
+    "re.sub.startswith",
+    "re.compile.sub.lstrip",
+    "re.compile.sub.strip.startswith",
+    "re.compile.sub.startswith",
+    "re.compile.sub.strip.replace.lstrip",
+    "urllib.parse.urljoin",
+    "re.compile.sub.strip.replace",
+    "re.sub.lstrip.startswith",
+    "re.compile.sub.lstrip.replace.startswith",
+    "html2text.HTML2Text.outtextf",
+    "re.sub.replace",
+    "re.compile.sub.replace.startswith",
+    "<builtin>.len",
+    "re.compile.sub.replace",
+    "re.compile.sub.lstrip.replace",
+    "re.sub.replace.startswith",
+    "re.sub.lstrip",
+    "re.compile.sub.strip.replace.startswith",
+    "re.compile.sub.strip.lstrip.startswith",
+    "re.compile.sub.replace.lstrip.startswith",
+    "re.compile.sub.strip.lstrip.replace.startswith",
+    "re.sub.replace.lstrip",
+    "re.compile.sub.strip.lstrip",
+    "re.compile.sub.lstrip.startswith",
+    "re.compile.sub.strip.lstrip.replace",
+    "re.sub",
+    "re.sub.lstrip.replace.startswith",
+    "re.compile.sub.strip.replace.lstrip.startswith",
+    "re.sub.replace.lstrip.startswith"
+  ],
+  "html2text.HTML2Text.handle_charref": [
+    "html2text.HTML2Text.handle_data",
+    "html2text.HTML2Text.charref"
+  ],
+  "html2text.HTML2Text.charref": [
+    "<builtin>.int",
+    "<builtin>.chr"
+  ],
+  "html2text.HTML2Text.handle_data": [
+    "html2text.utils.dumb_css_parser",
+    "re.compile.match",
+    "html2text.utils.hn",
+    "html2text.HTML2Text.o",
+    "re.compile.sub.strip",
+    "html2text.utils.escape_md_section",
+    "re.match"
+  ],
+  "html2text.HTML2Text.handle_entityref": [
+    "html2text.HTML2Text.entityref",
+    "html2text.HTML2Text.handle_data"
+  ],
+  "html2text.HTML2Text.entityref": [],
+  "html2text.HTML2Text.handle_starttag": [
+    "<builtin>.dict",
+    "html2text.HTML2Text.handle_tag"
+  ],
+  "<builtin>.dict": [],
+  "html2text.HTML2Text.handle_tag": [
+    "<builtin>.str",
+    "html2text.HTML2Text.previousIndex",
+    "urllib.parse.urljoin",
+    "html2text.HTML2Text.pbr",
+    "html2text.HTML2Text.outtextf",
+    "html2text.HTML2Text.handle_emphasis",
+    "html2text.utils.hn",
+    "html2text.HTML2Text.o",
+    "html2text.HTML2Text.soft_br",
+    "html2text.utils.google_list_style",
+    "html2text.HTML2Text.p",
+    "html2text.utils.escape_md",
+    "re.compile.match",
+    "html2text.utils.element_style",
+    "html2text.elements.AnchorElement.__init__",
+    "html2text.utils.list_numbering_start",
+    "html2text.HTML2Text.google_nest_count",
+    "html2text.utils.google_has_height",
+    "html2text.HTML2Text.handle_tag.link_url",
+    "html2text.elements.ListElement.__init__"
+  ],
+  "html2text.HTML2Text.handle_endtag": [
+    "html2text.HTML2Text.handle_tag"
+  ],
+  "html2text.HTML2Text.previousIndex": [
+    "<builtin>.enumerate"
+  ],
+  "<builtin>.enumerate": [],
+  "html2text.HTML2Text.handle_emphasis": [
+    "html2text.utils.google_text_emphasis",
+    "html2text.utils.google_fixed_width_font",
+    "html2text.HTML2Text.o"
+  ],
+  "html2text.utils.google_text_emphasis": [],
+  "html2text.utils.google_fixed_width_font": [],
+  "html2text.utils.element_style": [
+    "html2text.utils.dumb_property_dict"
+  ],
+  "html2text.utils.hn": [
+    "<builtin>.len",
+    "<builtin>.int"
+  ],
+  "html2text.HTML2Text.p": [],
+  "html2text.utils.google_has_height": [],
+  "html2text.HTML2Text.soft_br": [
+    "html2text.HTML2Text.pbr"
+  ],
+  "html2text.HTML2Text.handle_tag.link_url": [
+    "re.compile.sub.strip",
+    "urllib.parse.urljoin",
+    "html2text.HTML2Text.o",
+    "html2text.utils.escape_md"
+  ],
+  "urllib.parse.urljoin": [],
+  "re.compile.sub.strip": [],
+  "html2text.utils.escape_md": [
+    "re.compile.sub"
+  ],
+  "html2text.elements.AnchorElement.__init__": [],
+  "<builtin>.str": [],
+  "re.compile.match": [],
+  "html2text.utils.google_list_style": [],
+  "html2text.utils.list_numbering_start": [
+    "<builtin>.int"
+  ],
+  "html2text.elements.ListElement.__init__": [],
+  "html2text.HTML2Text.google_nest_count": [
+    "<builtin>.int"
+  ],
+  "re.compile.sub.replace.lstrip": [],
+  "re.sub.replace.lstrip": [],
+  "re.compile.sub.strip.lstrip": [],
+  "re.compile.sub.lstrip": [],
+  "re.compile.sub.strip.replace.lstrip": [],
+  "re.sub.lstrip": [],
+  "re.sub": [],
+  "re.compile.sub.strip.replace.startswith": [],
+  "re.compile.sub.strip.lstrip.startswith": [],
+  "re.compile.sub.replace.lstrip.startswith": [],
+  "re.compile.sub.strip.lstrip.replace.startswith": [],
+  "re.sub.startswith": [],
+  "re.compile.sub.strip.startswith": [],
+  "re.compile.sub.startswith": [],
+  "re.sub.replace.startswith": [],
+  "re.compile.sub.replace.startswith": [],
+  "re.compile.sub.lstrip.startswith": [],
+  "re.sub.lstrip.startswith": [],
+  "re.sub.lstrip.replace.startswith": [],
+  "re.compile.sub.lstrip.replace.startswith": [],
+  "re.compile.sub.strip.replace.lstrip.startswith": [],
+  "re.sub.replace.lstrip.startswith": [],
+  "<builtin>.len": [],
+  "re.sub.lstrip.replace": [],
+  "re.sub.replace": [],
+  "re.compile.sub.lstrip.replace": [],
+  "re.compile.sub.strip.lstrip.replace": [],
+  "re.compile.sub.strip.replace": [],
+  "re.compile.sub.replace": [],
+  "re.match": [],
+  "html2text.utils.dumb_css_parser": [
+    "html2text.utils.dumb_property_dict"
+  ],
+  "html2text.utils.escape_md_section": [
+    "re.compile.sub"
+  ],
+  "<builtin>.int": [],
+  "<builtin>.chr": [],
+  "html2text.utils.skipwrap": [
+    "re.compile.match",
+    "<builtin>.len",
+    "re.compile.search",
+    "<builtin>.bool"
+  ],
+  "textwrap.wrap": [],
+  "html2text.html2text": [
+    "html2text.HTML2Text.__init__",
+    "html2text.HTML2Text.handle"
+  ],
+  "html2text.elements": [],
+  "html2text.config": [
+    "re.escape",
+    "re.compile"
+  ],
+  "re.escape": [],
+  "html2text.utils": [],
+  "html2text.utils.dumb_property_dict": [],
+  "re.compile.search": [],
+  "<builtin>.bool": [],
+  "re.compile.sub": [],
+  "html2text.utils.reformat_table": [
+    "<builtin>.max",
+    "<builtin>.zip",
+    "<builtin>.len",
+    "<builtin>.set"
+  ],
+  "<builtin>.max": [],
+  "<builtin>.zip": [],
+  "<builtin>.set": [],
+  "html2text.__main__": [
+    "html2text.cli.main"
+  ],
+  "html2text.cli.main": [
+    "argparse.ArgumentParser.parse_args",
+    "<builtin>.print",
+    "sys.stdin.buffer.read.decode",
+    "<builtin>.open",
+    "HTML2Text",
+    "<builtin>.map",
+    "sys.stdin.buffer.read",
+    "sys.stdout.write",
+    "HTML2Text.handle",
+    "argparse.ArgumentParser.add_argument",
+    "argparse.ArgumentParser"
+  ],
+  "html2text.cli": [],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_argument": [],
+  "<builtin>.map": [],
+  "argparse.ArgumentParser.parse_args": [],
+  "<builtin>.open": [],
+  "sys.stdin.buffer.read": [],
+  "sys.stdin.buffer.read.decode": [],
+  "<builtin>.print": [],
+  "HTML2Text": [],
+  "HTML2Text.handle": [],
+  "sys.stdout.write": []
+}

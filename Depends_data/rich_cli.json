@@ -1,0 +1,34 @@
+{
+    "rich_cli.__main__.main": [
+        "rich_cli.__main__.main.print_usage",
+        "rich_cli.__main__._line_range",
+        "rich_cli.__main__.render_csv",
+        "rich_cli.__main__.render_ipynb",
+        "rich_cli.__main__.on_error",
+        "rich_cli.__main__.read_resource"
+    ],
+    "rich_cli.__main__.RichCommand.format_help": [
+        "rich_cli.__main__.blend_text"
+    ],
+    "rich_cli.__main__.run": [
+        "rich_cli.__main__.main"
+    ],
+    "rich_cli.__main__.read_resource": [
+        "rich_cli.__main__.on_error"
+    ],
+    "rich_cli.__main__.render_csv": [
+        "rich_cli.__main__.read_resource",
+        "rich_cli.__main__.on_error"
+    ],
+    "rich_cli.win_vt.enable_windows_virtual_terminal_processing": [
+        "rich_cli.win_vt._set_console_mode",
+        "rich_cli.win_vt._get_console_mode"
+    ],
+    "rich_cli.__main__.render_ipynb": [
+        "rich_cli.__main__._line_range",
+        "rich_cli.__main__.read_resource"
+    ],
+    "rich_cli.__main__._line_range": [
+        "rich_cli.__main__.on_error"
+    ]
+}

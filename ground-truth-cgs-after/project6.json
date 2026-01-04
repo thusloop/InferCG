@@ -1,0 +1,57 @@
+{
+  "supervisor.xmlrpc": [
+    "re.compile"
+  ],
+  "supervisor.states": [
+    "supervisor.states._names_by_code",
+    "supervisor.states._names_by_code",
+    "supervisor.states._names_by_code"
+  ],
+  "supervisor.states._names_by_code": [
+    "str.startswith",
+    "builtins.getattr"
+  ],
+  "supervisor.loggers": [
+    "supervisor.loggers._levelNumbers"
+  ],
+  "supervisor.loggers._levelNumbers": [
+    "mappingproxy.items",
+    "str.startswith"
+  ],
+  "supervisor.datatypes": [
+    "supervisor.datatypes.RangeCheckedConversion",
+    "builtins.int",
+    "supervisor.datatypes.SuffixMultiplier",
+    "str.startswith",
+    "builtins.getattr"
+  ],
+  "supervisor.datatypes.SuffixMultiplier.__init__": [
+    "dict.keys",
+    "builtins.len",
+    "builtins.len"
+  ],
+  "supervisor.poller": [
+    "supervisor.poller.implements_kqueue",
+    "supervisor.poller.implements_poll"
+  ],
+  "supervisor.poller.implements_kqueue": [
+    "builtins.hasattr"
+  ],
+  "supervisor.poller.implements_poll": [
+    "builtins.hasattr"
+  ],
+  "supervisor.options": [
+    "supervisor.options._read_version_txt"
+  ],
+  "supervisor.options._read_version_txt": [
+    "posixpath.dirname",
+    "posixpath.abspath",
+    "posixpath.join",
+    "io.open",
+    "TextIOWrapper.read",
+    "str.strip"
+  ],
+  "supervisor.supervisorctl": [
+    "builtins.property"
+  ]
+}

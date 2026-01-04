@@ -1,0 +1,63 @@
+{
+    "src.web.faces.upload": [
+        "src.web.emotion_gender_processor.process_image"
+    ],
+    "src.web.emotion_gender_processor.process_image": [
+        "src.utils.inference.load_detection_model",
+        "src.utils.datasets.get_labels",
+        "src.utils.inference.draw_bounding_box",
+        "src.utils.inference.draw_text",
+        "src.utils.inference.apply_offsets",
+        "src.utils.inference.detect_faces",
+        "src.utils.preprocessor.preprocess_input"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.preprocess_images": [
+        "src.utils.preprocessor.preprocess_input"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.flow": [
+        "src.utils.data_augmentation.ImageGenerator._wrap_in_dictionary",
+        "src.utils.preprocessor.to_categorical",
+        "src.utils.data_augmentation.ImageGenerator._do_random_crop",
+        "src.utils.preprocessor._imresize",
+        "src.utils.preprocessor._imread",
+        "src.utils.data_augmentation.ImageGenerator.transform",
+        "src.utils.data_augmentation.ImageGenerator.preprocess_images"
+    ],
+    "src.utils.datasets.DataManager._load_KDEF": [
+        "src.utils.datasets.get_class_to_arg"
+    ],
+    "src.utils.grad_cam.load_image": [
+        "src.utils.preprocessor.preprocess_input"
+    ],
+    "src.utils.grad_cam.calculate_guided_gradient_CAM_v2": [
+        "src.utils.grad_cam.deprocess_image",
+        "src.utils.grad_cam.calculate_gradient_weighted_CAM"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.saturation": [
+        "src.utils.data_augmentation.ImageGenerator._gray_scale"
+    ],
+    "src.utils.grad_cam.calculate_guided_gradient_CAM": [
+        "src.utils.grad_cam.deprocess_image",
+        "src.utils.grad_cam.calculate_gradient_weighted_CAM"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.transform": [
+        "src.utils.data_augmentation.ImageGenerator.lighting",
+        "src.utils.data_augmentation.ImageGenerator.horizontal_flip",
+        "src.utils.data_augmentation.ImageGenerator.vertical_flip"
+    ],
+    "src.utils.visualizer.display_image": [
+        "src.utils.visualizer.pretty_imshow"
+    ],
+    "src.utils.grad_cam.compile_gradient_function": [
+        "src.utils.grad_cam.normalize",
+        "src.utils.grad_cam.target_category_loss"
+    ],
+    "src.utils.data_augmentation.ImageGenerator.contrast": [
+        "src.utils.data_augmentation.ImageGenerator._gray_scale"
+    ],
+    "src.utils.datasets.DataManager.get_data": [
+        "src.utils.datasets.DataManager._load_fer2013",
+        "src.utils.datasets.DataManager._load_imdb",
+        "src.utils.datasets.DataManager._load_KDEF"
+    ]
+}

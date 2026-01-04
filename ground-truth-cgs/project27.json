@@ -1,0 +1,339 @@
+{
+  "fs.__init__": [
+    "builtins.__import__",
+    "pkg_resources.declare_namespace"
+  ],
+  "fs.path": [
+    "re.compile",
+    "builtins.frozenset"
+  ],
+  "fs.opener.__init__": [
+    "builtins.__import__",
+    "pkg_resources.declare_namespace"
+  ],
+  "fs.opener.parse": [
+    "collections.namedtuple",
+    "re.compile"
+  ],
+  "fs.opener.registry": [
+    "fs.opener.registry.Registry"
+  ],
+  "fs.opener.registry.Registry.install": [
+    "builtins.isinstance",
+    "fs.opener.appfs.AppFSOpener",
+    "builtins.isinstance",
+    "fs.opener.ftpfs.FTPOpener",
+    "fs.opener.memoryfs.MemOpener",
+    "fs.opener.osfs.OSFSOpener",
+    "fs.opener.tarfs.TarOpener",
+    "fs.opener.tempfs.TempOpener",
+    "fs.opener.zipfs.ZipOpener"
+  ],
+  "fs.walk": [
+    "typing.TypeVar",
+    "collections.namedtuple",
+    "fs.walk.Walker"
+  ],
+  "fs.walk.Walker.__init__": [
+    "builtins.callable",
+    "object.__init__"
+  ],
+  "fs._url_tools": [
+    "platform.system"
+  ],
+  "fs.lrucache": [
+    "typing.TypeVar",
+    "typing.TypeVar"
+  ],
+  "fs.glob": [
+    "collections.namedtuple",
+    "collections.namedtuple",
+    "collections.namedtuple",
+    "fs.lrucache.LRUCache"
+  ],
+  "fs.lrucache.LRUCache.__init__": [
+    "OrderedDict.__init__"
+  ],
+  "fs.mode.Mode.validate": [
+    "builtins.frozenset",
+    "frozenset.issuperset"
+  ],
+  "fs.mode.validate_openbin_mode": [
+    "builtins.frozenset"
+  ],
+  "fs.wildcard": [
+    "fs.lrucache.LRUCache"
+  ],
+  "fs.base": [
+    "fs.base._new_name",
+    "fs.base._new_name",
+    "fs.base._new_name",
+    "fs.base._new_name",
+    "fs.base._new_name",
+    "fs.base._new_name",
+    "fs.base._new_name"
+  ],
+  "fs.base._new_name": [
+    "str.format",
+    "builtins.getattr"
+  ],
+  "fs.error_tools": [
+    "platform.system",
+    "dict.copy"
+  ],
+  "fs.permissions": [
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty",
+    "fs.permissions._PermProperty"
+  ],
+  "fs.permissions._PermProperty.__init__": [
+    "str.format"
+  ],
+  "fs.osfs": [
+    "logging.getLogger",
+    "platform.system"
+  ],
+  "fs.wrapfs": [
+    "typing.TypeVar",
+    "typing.TypeVar"
+  ],
+  "fs.subfs": [
+    "typing.TypeVar"
+  ],
+  "fs.appfs._CopyInitMeta.__new__": [
+    "dict.setdefault",
+    "type.__new__"
+  ],
+  "fs.memoryfs.MemoryFS.__init__": [
+    "dict.copy",
+    "fs.memoryfs.MemoryFS._make_dir_entry",
+    "fs.base.FS.__init__"
+  ],
+  "fs.memoryfs.MemoryFS._make_dir_entry": [
+    "fs.memoryfs._DirEntry"
+  ],
+  "fs.memoryfs._DirEntry.__init__": [
+    "collections.OrderedDict",
+    "threading.RLock",
+    "time.time",
+    "_io.BytesIO"
+  ],
+  "fs.base.FS.__init__": [
+    "threading.RLock",
+    "object.__init__"
+  ],
+  "fs.base.FS.__del__": [
+    "fs.memoryfs.MemoryFS.close",
+    "fs.base.FS.close"
+  ],
+  "fs.memoryfs.MemoryFS.close": [
+    "fs.base.FS.close"
+  ],
+  "fs._ftp_parse": [
+    "datetime.fromtimestamp",
+    "re.compile",
+    "re.compile"
+  ],
+  "fs._tzcompat": [
+    "datetime.timedelta",
+    "fs._tzcompat.UTC"
+  ],
+  "fs.memoryfs.MemoryFS.makedir": [
+    "fs.base.FS.validatepath",
+    "fs.path.split",
+    "fs.memoryfs.MemoryFS._get_dir_entry",
+    "fs.memoryfs._DirEntry.get_entry",
+    "fs.memoryfs.MemoryFS._make_dir_entry",
+    "fs.memoryfs._DirEntry.set_entry",
+    "fs.base.FS.opendir"
+  ],
+  "fs.base.FS.validatepath": [
+    "fs.base.FS.check",
+    "builtins.isinstance",
+    "fs.base.FS.getmeta",
+    "dict.get",
+    "typing.cast",
+    "builtins.set",
+    "set.intersection",
+    "dict.get",
+    "typing.cast",
+    "fs.path.normpath",
+    "fs.path.abspath"
+  ],
+  "fs.base.FS.check": [
+    "fs.base.FS.isclosed"
+  ],
+  "fs.base.FS.isclosed": [
+    "builtins.getattr"
+  ],
+  "fs.base.FS.getmeta": [
+    "dict.copy"
+  ],
+  "fs.path.normpath": [
+    "Pattern.search",
+    "str.rstrip"
+  ],
+  "fs.path.abspath": [
+    "str.startswith"
+  ],
+  "fs.path.split": [
+    "str.rsplit"
+  ],
+  "fs.memoryfs.MemoryFS._get_dir_entry": [
+    "fs.path.normpath",
+    "fs.path.iteratepath",
+    "fs.memoryfs._DirEntry.get_entry"
+  ],
+  "fs.path.iteratepath": [
+    "fs.path.normpath",
+    "fs.path.relpath",
+    "str.split"
+  ],
+  "fs.path.relpath": [
+    "str.lstrip"
+  ],
+  "fs.memoryfs._DirEntry.get_entry": [
+    "OrderedDict.get"
+  ],
+  "fs.base.FS.opendir": [
+    "fs.memoryfs.MemoryFS.getinfo",
+    "fs.subfs.SubFS"
+  ],
+  "fs.memoryfs.MemoryFS.getinfo": [
+    "fs.base.FS.validatepath",
+    "fs.memoryfs.MemoryFS._get_dir_entry",
+    "fs.memoryfs._DirEntry.to_info",
+    "fs.errors.ResourceNotFound"
+  ],
+  "fs.memoryfs._DirEntry.to_info": [
+    "fs.info.Info"
+  ],
+  "fs.info.Info.__init__": [
+    "dict.keys",
+    "builtins.frozenset"
+  ],
+  "fs.info.Info.is_dir": [
+    "fs.info.Info.get",
+    "typing.cast"
+  ],
+  "fs.info.Info.get": [
+    "dict.get"
+  ],
+  "fs.subfs.SubFS.__init__": [
+    "fs.wrapfs.WrapFS.__init__",
+    "fs.path.normpath",
+    "fs.path.abspath"
+  ],
+  "fs.wrapfs.WrapFS.__init__": [
+    "fs.base.FS.__init__"
+  ],
+  "fs.base.FS.touch": [
+    "time.time",
+    "fs.base.FS.create"
+  ],
+  "fs.base.FS.create": [
+    "fs.base.FS.exists",
+    "fs.base.FS.open",
+    "contextlib.closing"
+  ],
+  "fs.base.FS.exists": [
+    "fs.memoryfs.MemoryFS.getinfo"
+  ],
+  "fs.errors.ResourceError.__init__": [
+    "fs.errors.FSError.__init__"
+  ],
+  "fs.errors.FSError.__init__": [
+    "Exception.__init__"
+  ],
+  "fs.base.FS.open": [
+    "fs.mode.validate_open_mode",
+    "str.replace",
+    "fs.memoryfs.MemoryFS.openbin",
+    "fs.iotools.make_stream"
+  ],
+  "fs.mode.validate_open_mode": [
+    "fs.mode.Mode"
+  ],
+  "fs.mode.Mode.__init__": [
+    "fs.mode.Mode.validate"
+  ],
+  "fs.memoryfs.MemoryFS.openbin": [
+    "fs.mode.Mode",
+    "fs.mode.Mode.validate_bin",
+    "fs.base.FS.validatepath",
+    "fs.path.split",
+    "fs.memoryfs.MemoryFS._get_dir_entry",
+    "fs.memoryfs.MemoryFS._make_dir_entry",
+    "fs.memoryfs._DirEntry.set_entry",
+    "fs.memoryfs._MemoryFile",
+    "fs.memoryfs._DirEntry.add_open_file"
+  ],
+  "fs.mode.Mode.validate_bin": [
+    "fs.mode.Mode.validate"
+  ],
+  "fs.mode.Mode.__contains__": [
+    "builtins.isinstance"
+  ],
+  "fs.memoryfs._MemoryFile.__init__": [
+    "object.__init__",
+    "fs.mode.Mode",
+    "typing.cast",
+    "time.time",
+    "time.time",
+    "BytesIO.seek",
+    "BytesIO.truncate"
+  ],
+  "fs.memoryfs._DirEntry.add_open_file": [
+    "list.append"
+  ],
+  "fs.memoryfs._MemoryFile.close": [
+    "fs.memoryfs._DirEntry.remove_open_file",
+    "_MemoryFile.close"
+  ],
+  "fs.memoryfs._DirEntry.remove_open_file": [
+    "list.remove"
+  ],
+  "fs.ftpfs": [
+    "typing.TypeVar"
+  ],
+  "fs.base._method": [
+    "str.format",
+    "_warnings.warn",
+    "fs.base.FS.writetext"
+  ],
+  "fs.base.FS.writetext": [
+    "builtins.isinstance",
+    "fs.base.FS.open",
+    "contextlib.closing",
+    "TextIOWrapper.write"
+  ],
+  "fs.memoryfs._MemoryFile.write": [
+    "fs.memoryfs._MemoryFile._seek_lock",
+    "fs.memoryfs._MemoryFile.on_modify",
+    "BytesIO.write"
+  ],
+  "fs.memoryfs._MemoryFile._seek_lock": [
+    "BytesIO.seek",
+    "BytesIO.tell"
+  ],
+  "fs.memoryfs._MemoryFile.on_modify": [
+    "time.time"
+  ],
+  "fs.wrap": [
+    "typing.TypeVar",
+    "typing.TypeVar",
+    "typing.TypeVar"
+  ],
+  "fs.multifs": [
+    "collections.namedtuple"
+  ]
+}

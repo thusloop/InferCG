@@ -1,0 +1,590 @@
+{
+  "src.PIL.TiffTags": [
+    "collections.namedtuple",
+    "PIL.TiffTags._populate",
+    "set.remove",
+    "set.remove",
+    "set.remove",
+    "set.remove"
+  ],
+  "src.PIL.TiffTags._populate": [
+    "dict.items",
+    "builtins.len",
+    "PIL.TiffTags.TagInfo",
+    "dict.items",
+    "dict.items",
+    "dict.items",
+    "PIL.TiffTags.TagInfo"
+  ],
+  "src.PIL.TiffTags.TagInfo.__new__": [
+    "_TagInfo.__new__"
+  ],
+  "src.PIL.Image": [
+    "logging.getLogger",
+    "builtins.int",
+    "builtins.getattr",
+    "builtins.hasattr",
+    "builtins.setattr",
+    "builtins.hasattr",
+    "PIL.Image._apply_env_variables",
+    "atexit.register"
+  ],
+  "src.PIL.ImageMath": [
+    "dict.items",
+    "builtins.list"
+  ],
+  "src.PIL.Image.__getattr__": [
+    "builtins.AttributeError"
+  ],
+  "src.PIL.features.pilinfo": [
+    "PIL.Image.init"
+  ],
+  "src.PIL.Image.init": [
+    "logging.Logger.debug",
+    "builtins.__import__"
+  ],
+  "src.PIL.BlpImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_decoder",
+    "PIL.Image.register_decoder",
+    "PIL.Image.register_save",
+    "PIL.Image.register_encoder"
+  ],
+  "src.PIL.Image.register_open": [
+    "str.upper",
+    "list.append"
+  ],
+  "src.PIL.Image.register_extension": [
+    "str.upper",
+    "str.lower"
+  ],
+  "src.PIL.Image.register_save": [
+    "str.upper"
+  ],
+  "src.PIL.BmpImagePlugin": [
+    "dict.items",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime",
+    "PIL.Image.register_decoder",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.Image.register_mime": [
+    "str.upper"
+  ],
+  "src.PIL.BufrStubImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.CurImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.PcxImagePlugin": [
+    "logging.getLogger",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.DcxImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.DdsImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.EpsImagePlugin": [
+    "re.compile",
+    "re.compile",
+    "str.startswith",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extensions",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.Image.register_extensions": [
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.FitsImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extensions"
+  ],
+  "src.PIL.FitsStubImagePlugin": [
+    "PIL.Image.register_save"
+  ],
+  "src.PIL.FliImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extensions"
+  ],
+  "src.PIL.FpxImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.FtexImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extensions"
+  ],
+  "src.PIL.GbrImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.Image.new": [
+    "PIL.Image._check_size",
+    "builtins.isinstance",
+    "PIL.Image.Image",
+    "PIL._imaging.fill",
+    "PIL.Image.Image._new"
+  ],
+  "src.PIL.Image._check_size": [
+    "builtins.isinstance",
+    "builtins.len"
+  ],
+  "src.PIL.Image.Image._new": [
+    "PIL.Image.Image",
+    "dict.copy"
+  ],
+  "src.PIL.Image.Image.putdata": [
+    "PIL.Image.Image._ensure_mutable",
+    "ImagingCore.putdata"
+  ],
+  "src.PIL.Image.Image._ensure_mutable": [
+    "PIL.Image.Image.load"
+  ],
+  "src.PIL.Image.Image.load": [
+    "ImagingCore.pixel_access"
+  ],
+  "src.PIL.Image.Image.__getattr__": [
+    "builtins.AttributeError"
+  ],
+  "src.PIL.ImageQt": [
+    "list.sort"
+  ],
+  "src.PIL.features.check": [
+    "PIL.features.check_module",
+    "PIL.features.check_feature",
+    "PIL.features.check_codec"
+  ],
+  "src.PIL.features.check_module": [
+    "__feature_import__"
+  ],
+  "src.PIL.features.check_feature": [
+    "__feature_import__",
+    "builtins.getattr"
+  ],
+  "src.PIL.Image.register_save_all": [
+    "str.upper"
+  ],
+  "src.PIL.BlpImagePlugin.__getattr__": [
+    "dict.items",
+    "str.startswith",
+    "builtins.AttributeError"
+  ],
+  "src.PIL.EpsImagePlugin.has_ghostscript": [
+    "str.startswith",
+    "subprocess.check_call"
+  ],
+  "src.PIL.features.version": [
+    "PIL.features.version_feature"
+  ],
+  "src.PIL.features.version_feature": [
+    "PIL.features.check_feature",
+    "__feature_import__",
+    "builtins.getattr"
+  ],
+  "src.PIL.FtexImagePlugin.__getattr__": [
+    "dict.items",
+    "str.startswith",
+    "builtins.AttributeError"
+  ],
+  "src.PIL.GifImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_save_all",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.GribStubImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.Hdf5StubImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extensions"
+  ],
+  "src.PIL.IcnsImagePlugin": [
+    "PIL.features.check_codec",
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_save",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.IcoImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.ImImagePlugin": [
+    "builtins.range",
+    "re.compile",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.ImtImagePlugin": [
+    "re.compile",
+    "PIL.Image.register_open"
+  ],
+  "src.PIL.IptcImagePlugin": [
+    "PIL._binary.o8",
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL._binary.o8": [
+    "builtins.bytes"
+  ],
+  "src.PIL.JpegImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extensions",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.Jpeg2KImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extensions",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.Image.open": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "PIL._util.is_path",
+    "io.open",
+    "BufferedReader.seek",
+    "BufferedReader.read",
+    "PIL.Image.preinit",
+    "PIL.Image.open.<locals>._open_core"
+  ],
+  "src.PIL._util.is_path": [
+    "builtins.isinstance"
+  ],
+  "src.PIL.PpmImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_decoder",
+    "PIL.Image.register_decoder",
+    "PIL.Image.register_extensions",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.Image._open_core": [
+    "str.upper",
+    "PIL.BlpImagePlugin._accept",
+    "builtins.type",
+    "PIL.BmpImagePlugin._accept",
+    "PIL.BmpImagePlugin._dib_accept",
+    "PIL.BufrStubImagePlugin._accept",
+    "PIL.CurImagePlugin._accept",
+    "PIL.PcxImagePlugin._accept",
+    "PIL.DcxImagePlugin._accept",
+    "PIL.DdsImagePlugin._accept",
+    "PIL.EpsImagePlugin._accept",
+    "PIL.FitsImagePlugin._accept",
+    "PIL.FliImagePlugin._accept",
+    "PIL.FpxImagePlugin._accept",
+    "PIL.FtexImagePlugin._accept",
+    "PIL.GbrImagePlugin._accept",
+    "PIL.PngImagePlugin._accept",
+    "PIL.GifImagePlugin._accept",
+    "PIL.GribStubImagePlugin._accept",
+    "PIL.Hdf5StubImagePlugin._accept",
+    "PIL.IcnsImagePlugin._accept",
+    "PIL.IcoImagePlugin._accept",
+    "BufferedReader.seek",
+    "PIL.ImImagePlugin.ImImageFile",
+    "PIL.ImtImagePlugin.ImtImageFile",
+    "PIL.IptcImagePlugin.IptcImageFile",
+    "PIL.JpegImagePlugin._accept",
+    "PIL.Jpeg2KImagePlugin._accept",
+    "PIL.PpmImagePlugin._accept",
+    "BufferedReader.close",
+    "PIL.PngImagePlugin.PngImageFile",
+    "PIL.Image._decompression_bomb_check"
+  ],
+  "src.PIL.BmpImagePlugin._dib_accept": [
+    "PIL._binary.i32le"
+  ],
+  "src.PIL._binary.i32le": [
+    "_struct.unpack_from"
+  ],
+  "src.PIL.DcxImagePlugin._accept": [
+    "builtins.len",
+    "PIL._binary.i32le"
+  ],
+  "src.PIL.McIdasImagePlugin": [
+    "PIL.Image.register_open"
+  ],
+  "src.PIL.MicImagePlugin": [
+    "PIL.Image.register_open"
+  ],
+  "src.PIL.MspImagePlugin": [
+    "PIL.Image.register_decoder",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save"
+  ],
+  "src.PIL.PdfParser": [
+    "collections.namedtuple",
+    "builtins.range",
+    "builtins.set",
+    "builtins.ord",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "builtins.ord",
+    "builtins.ord",
+    "builtins.ord",
+    "builtins.ord",
+    "builtins.ord",
+    "builtins.ord",
+    "builtins.ord",
+    "builtins.ord",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.PIL.PixarImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL._binary.o32be": [
+    "_struct.pack"
+  ],
+  "src.PIL.PsdImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.SgiImagePlugin": [
+    "PIL.Image.register_decoder",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_mime",
+    "PIL.Image.register_extensions"
+  ],
+  "src.PIL.SpiderImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_save"
+  ],
+  "src.PIL.SunImagePlugin": [
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension"
+  ],
+  "src.PIL.WebPImagePlugin": [
+    "PIL.Image.register_open"
+  ],
+  "src.PIL.WmfImagePlugin": [
+    "builtins.hasattr",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extensions"
+  ],
+  "src.PIL.XbmImagePlugin": [
+    "re.compile",
+    "PIL.Image.register_open",
+    "PIL.Image.register_save",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.XpmImagePlugin": [
+    "re.compile",
+    "PIL.Image.register_open",
+    "PIL.Image.register_extension",
+    "PIL.Image.register_mime"
+  ],
+  "src.PIL.XVThumbImagePlugin": [
+    "builtins.range",
+    "builtins.range",
+    "builtins.range",
+    "PIL._binary.o8",
+    "PIL.Image.register_open"
+  ],
+  "src.PIL.ImageFont": [
+    "PIL.ImageFont._ImagingFtNotInstalled",
+    "builtins.object"
+  ],
+  "src.PIL.ImageFont.__getattr__": [
+    "dict.items",
+    "str.startswith",
+    "builtins.AttributeError"
+  ],
+  "src.PIL.PyAccess": [
+    "cffi.api.FFI",
+    "cffi.api.FFI.cdef",
+    "logging.getLogger"
+  ],
+  "src.PIL.EpsImagePlugin._accept": [
+    "builtins.len",
+    "PIL._binary.i32le"
+  ],
+  "src.PIL.FliImagePlugin._accept": [
+    "builtins.len",
+    "PIL._binary.i16le"
+  ],
+  "src.PIL._binary.i16le": [
+    "_struct.unpack_from"
+  ],
+  "src.PIL.GbrImagePlugin._accept": [
+    "builtins.len",
+    "PIL._binary.i32be"
+  ],
+  "src.PIL._binary.i32be": [
+    "_struct.unpack_from"
+  ],
+  "src.PIL.ImageFile.ImageFile.__init__": [
+    "PIL.Image.Image.__init__",
+    "PIL._util.is_path",
+    "PIL.ImImagePlugin.ImImageFile._open",
+    "PIL.ImtImagePlugin.ImtImageFile._open",
+    "builtins.SyntaxError",
+    "PIL.IptcImagePlugin.IptcImageFile._open",
+    "PIL.PngImagePlugin.PngImageFile._open"
+  ],
+  "src.PIL.ImImagePlugin.ImImageFile._open": [
+    "BufferedReader.read",
+    "BufferedReader.seek",
+    "BufferedReader.read",
+    "BufferedReader.readline",
+    "builtins.len",
+    "Pattern.match",
+    "bytes.decode",
+    "builtins.SyntaxError"
+  ],
+  "src.PIL.ImtImagePlugin.ImtImageFile._open": [
+    "BufferedReader.read",
+    "bytes.split",
+    "list.pop",
+    "bytes.join",
+    "builtins.len",
+    "builtins.ord",
+    "Pattern.match"
+  ],
+  "src.PIL.IptcImagePlugin.IptcImageFile._open": [
+    "BufferedReader.tell",
+    "PIL.IptcImagePlugin.IptcImageFile.field"
+  ],
+  "src.PIL.IptcImagePlugin.IptcImageFile.field": [
+    "BufferedReader.read",
+    "builtins.len",
+    "builtins.SyntaxError"
+  ],
+  "src.PIL.Image.Image.transpose": [
+    "PIL.Image.Image.load",
+    "ImagingCore.transpose",
+    "PIL.Image.Image._new"
+  ],
+  "src.PIL.Image.merge": [
+    "PIL.Image.getmodebands",
+    "builtins.len",
+    "PIL.Image.getmodetype",
+    "PIL.Image.Image.load",
+    "PIL._imaging.merge",
+    "PIL.Image.Image._new"
+  ],
+  "src.PIL.Image.getmodebands": [
+    "PIL.ImageMode.getmode",
+    "builtins.len"
+  ],
+  "src.PIL.ImageMode.getmode": [
+    "dict.items",
+    "PIL.ImageMode.ModeDescriptor",
+    "dict.items",
+    "PIL.ImageMode.ModeDescriptor"
+  ],
+  "src.PIL.Image.getmodetype": [
+    "PIL.ImageMode.getmode"
+  ],
+  "src.PIL.ImageFile._safe_read": [
+    "BufferedReader.read",
+    "builtins.len"
+  ],
+  "src.PIL.ImageFile.ImageFile.load": [
+    "PIL.Image.Image.load",
+    "builtins.len",
+    "builtins.hasattr",
+    "PIL.PngImagePlugin.PngImageFile.load_prepare",
+    "list.sort",
+    "itertools.groupby",
+    "builtins.list",
+    "BufferedReader.seek",
+    "PIL.Image._getdecoder",
+    "ImagingDecoder.setimage",
+    "PIL.PngImagePlugin.PngImageFile.load_read",
+    "ImagingDecoder.decode",
+    "ImagingDecoder.cleanup",
+    "PIL.PngImagePlugin.PngImageFile.load_end",
+    "BufferedReader.close",
+    "PIL.Image.Image.load"
+  ],
+  "src.PIL.ImageFile.ImageFile.load_prepare": [
+    "PIL._imaging.new"
+  ],
+  "src.PIL.Image._getdecoder": [
+    "builtins.isinstance",
+    "builtins.getattr",
+    "PIL._imaging.zip_decoder"
+  ],
+  "src.PIL.ImageCms": [
+    "PIL._util.DeferredError",
+    "dict.values",
+    "builtins.isinstance"
+  ],
+  "src.PIL.ImageCms.__getattr__": [
+    "dict.items",
+    "str.startswith",
+    "builtins.AttributeError"
+  ],
+  "src.PIL.Image.Image.putpixel": [
+    "PIL.Image.Image.load",
+    "ImagingCore.putpixel"
+  ],
+  "src.PIL.ImagePalette.ImagePalette.__init__": [
+    "builtins.bytearray"
+  ],
+  "src.PIL.ImageShow": [
+    "shutil.which",
+    "shutil.which",
+    "shutil.which",
+    "shutil.which",
+    "shutil.which"
+  ]
+}

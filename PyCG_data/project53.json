@@ -1,0 +1,704 @@
+{
+  "code2flow.model": [
+    "code2flow.model.Namespace.__init__"
+  ],
+  "code2flow.model.Namespace.__init__": [
+    "<builtin>.dict",
+    "<builtin>.super"
+  ],
+  "<builtin>.dict": [],
+  "<builtin>.super": [],
+  "code2flow.model.Namespace.__getattr__": [],
+  "code2flow.model.is_installed": [
+    "os.access",
+    "os.path.isfile",
+    "os.path.join"
+  ],
+  "os.path.join": [],
+  "os.path.isfile": [],
+  "os.access": [],
+  "code2flow.model.djoin": [
+    "<builtin>.isinstance",
+    "<builtin>.len"
+  ],
+  "<builtin>.len": [],
+  "<builtin>.isinstance": [],
+  "code2flow.model.flatten": [],
+  "code2flow.model._resolve_str_variable": [
+    "<builtin>.any"
+  ],
+  "<builtin>.any": [],
+  "code2flow.model.BaseLanguage": [
+    "abc.abstractmethod"
+  ],
+  "abc.abstractmethod": [],
+  "code2flow.model.BaseLanguage.assert_dependencies": [],
+  "code2flow.model.BaseLanguage.get_tree": [],
+  "code2flow.model.BaseLanguage.separate_namespaces": [],
+  "code2flow.model.BaseLanguage.make_nodes": [],
+  "code2flow.model.BaseLanguage.make_root_node": [],
+  "code2flow.model.BaseLanguage.make_class_group": [],
+  "code2flow.model.Variable.__init__": [],
+  "code2flow.model.Variable.__repr__": [
+    "<builtin>.repr"
+  ],
+  "<builtin>.repr": [],
+  "code2flow.model.Variable.to_string": [
+    "<builtin>.isinstance"
+  ],
+  "code2flow.model.Call.__init__": [],
+  "code2flow.model.Call.__repr__": [],
+  "code2flow.model.Call.to_string": [],
+  "code2flow.model.Call.is_attr": [],
+  "code2flow.model.Call.matches_variable": [
+    "<builtin>.isinstance",
+    "code2flow.model.Call.is_attr",
+    "<builtin>.getattr",
+    "<builtin>.len"
+  ],
+  "<builtin>.getattr": [],
+  "code2flow.model.Node.__init__": [
+    "os.urandom.hex",
+    "os.urandom"
+  ],
+  "os.urandom": [],
+  "os.urandom.hex": [],
+  "code2flow.model.Node.__repr__": [],
+  "code2flow.model.Node.__lt__": [
+    "code2flow.model.Node.name"
+  ],
+  "code2flow.model.Node.name": [
+    "code2flow.model.Node.first_group",
+    "code2flow.model.Node.token_with_ownership",
+    "code2flow.model.Group.filename"
+  ],
+  "code2flow.model.Node.first_group": [
+    "<builtin>.isinstance"
+  ],
+  "code2flow.model.Group.filename": [
+    "code2flow.model.Group.filename"
+  ],
+  "code2flow.model.Node.token_with_ownership": [
+    "code2flow.model.djoin",
+    "code2flow.model.Node.is_attr"
+  ],
+  "code2flow.model.Node.file_group": [],
+  "code2flow.model.Node.is_attr": [
+    "<builtin>.isinstance"
+  ],
+  "code2flow.model.Node.namespace_ownership": [
+    "code2flow.model.djoin"
+  ],
+  "code2flow.model.Node.label": [],
+  "code2flow.model.Node.remove_from_parent": [
+    "code2flow.model.Node.first_group"
+  ],
+  "code2flow.model.Node.get_variables": [
+    "code2flow.model.Node.get_variables",
+    "<builtin>.list",
+    "code2flow.model.Group.get_variables",
+    "<builtin>.any"
+  ],
+  "<builtin>.list": [],
+  "code2flow.model.Node.get_variables.<lambda1>": [],
+  "code2flow.model.Group.get_variables": [
+    "<builtin>.any",
+    "code2flow.model._wrap_as_variables",
+    "<builtin>.sorted"
+  ],
+  "code2flow.model.Node.resolve_variables": [
+    "<builtin>.isinstance",
+    "code2flow.model._resolve_str_variable"
+  ],
+  "code2flow.model.Node.to_dot": [
+    "code2flow.model.Node.label",
+    "code2flow.model.Node.name"
+  ],
+  "code2flow.model.Node.to_dict": [
+    "code2flow.model.Node.label",
+    "code2flow.model.Node.name"
+  ],
+  "code2flow.model._wrap_as_variables": [
+    "code2flow.model.Variable.__init__"
+  ],
+  "code2flow.model.Edge.__init__": [],
+  "code2flow.model.Edge.__repr__": [],
+  "code2flow.model.Edge.__lt__": [],
+  "code2flow.model.Edge.to_dot": [
+    "<builtin>.int",
+    "<builtin>.len"
+  ],
+  "<builtin>.int": [],
+  "code2flow.model.Edge.to_dict": [],
+  "code2flow.model.Group.__init__": [
+    "os.urandom.hex",
+    "os.urandom"
+  ],
+  "code2flow.model.Group.__repr__": [],
+  "code2flow.model.Group.__lt__": [
+    "code2flow.model.Group.label"
+  ],
+  "code2flow.model.Group.label": [],
+  "code2flow.model.Group.add_subgroup": [],
+  "code2flow.model.Group.add_node": [],
+  "code2flow.model.Group.all_nodes": [
+    "<builtin>.list"
+  ],
+  "code2flow.model.Group.get_constructor": [],
+  "code2flow.model.Group.all_groups": [],
+  "code2flow.model.Group.get_variables.<lambda1>": [],
+  "<builtin>.sorted": [],
+  "code2flow.model.Group.remove_from_parent": [],
+  "code2flow.model.Group.all_parents": [
+    "code2flow.model.Group.all_parents"
+  ],
+  "code2flow.model.Group.to_dot": [
+    "code2flow.model.Group.label"
+  ],
+  "code2flow.php": [],
+  "code2flow.php.lineno": [],
+  "code2flow.php.get_name": [
+    "code2flow.model.djoin",
+    "<builtin>.isinstance",
+    "code2flow.php.get_name"
+  ],
+  "code2flow.php.get_call_from_expr": [
+    "code2flow.model.Call.__init__",
+    "code2flow.php.lineno",
+    "code2flow.php.get_name"
+  ],
+  "code2flow.php.walk": [
+    "<builtin>.isinstance",
+    "code2flow.php.walk"
+  ],
+  "code2flow.php.children": [
+    "<builtin>.isinstance"
+  ],
+  "code2flow.php.make_calls": [
+    "code2flow.php.walk",
+    "code2flow.php.get_call_from_expr",
+    "<builtin>.list",
+    "<builtin>.filter"
+  ],
+  "<builtin>.filter": [],
+  "code2flow.php.process_assign": [
+    "code2flow.php.lineno",
+    "code2flow.php.get_call_from_expr",
+    "code2flow.model.Variable.__init__"
+  ],
+  "code2flow.php.make_local_variables": [
+    "code2flow.php.lineno",
+    "<builtin>.isinstance",
+    "code2flow.model.Variable.__init__",
+    "code2flow.php.process_assign",
+    "code2flow.php.walk",
+    "<builtin>.filter",
+    "<builtin>.list",
+    "code2flow.model.djoin"
+  ],
+  "code2flow.php.get_inherits": [
+    "code2flow.model.djoin"
+  ],
+  "code2flow.php.run_ast_parser": [
+    "os.path.realpath",
+    "subprocess.Popen.communicate",
+    "subprocess.Popen",
+    "os.path.dirname",
+    "os.path.join"
+  ],
+  "os.path.realpath": [],
+  "os.path.dirname": [],
+  "subprocess.Popen": [],
+  "subprocess.Popen.communicate": [],
+  "code2flow.php.PHP.assert_dependencies": [
+    "code2flow.model.is_installed",
+    "os.path.realpath",
+    "os.path.dirname",
+    "os.path.join",
+    "code2flow.php.run_ast_parser"
+  ],
+  "code2flow.php.PHP.get_tree": [
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "json.loads",
+    "<builtin>.AssertionError",
+    "code2flow.php.run_ast_parser"
+  ],
+  "<builtin>.AssertionError": [],
+  "json.loads": [],
+  "code2flow.php.PHP.separate_namespaces": [
+    "code2flow.php.children",
+    "code2flow.php.PHP.separate_namespaces"
+  ],
+  "code2flow.php.PHP.make_nodes": [
+    "code2flow.php.lineno",
+    "code2flow.model.Node.__init__",
+    "code2flow.php.PHP.make_nodes",
+    "code2flow.model.djoin",
+    "code2flow.php.make_calls",
+    "code2flow.model.flatten",
+    "code2flow.php.make_local_variables",
+    "code2flow.php.PHP.separate_namespaces"
+  ],
+  "code2flow.php.PHP.make_root_node": [
+    "code2flow.php.make_calls",
+    "code2flow.php.lineno",
+    "code2flow.model.Node.__init__",
+    "code2flow.php.make_local_variables"
+  ],
+  "code2flow.php.PHP.make_class_group": [
+    "code2flow.php.lineno",
+    "code2flow.model.Group.add_subgroup",
+    "code2flow.php.get_name",
+    "code2flow.model.Variable.__init__",
+    "code2flow.php.PHP.make_class_group",
+    "code2flow.php.PHP.make_nodes",
+    "code2flow.php.get_inherits",
+    "code2flow.model.Group.add_node",
+    "code2flow.php.PHP.make_root_node",
+    "code2flow.model.djoin",
+    "code2flow.model.Group.__init__",
+    "code2flow.php.PHP.separate_namespaces"
+  ],
+  "code2flow.php.PHP.file_import_tokens": [],
+  "code2flow": [],
+  "code2flow.engine": [],
+  "code2flow.engine.LanguageParams.__init__": [],
+  "code2flow.engine.SubsetParams.__init__": [],
+  "code2flow.engine.SubsetParams.generate": [
+    "code2flow.engine.SubsetParams.__init__",
+    "<builtin>.AssertionError"
+  ],
+  "code2flow.engine._find_target_node": [
+    "<builtin>.AssertionError",
+    "<builtin>.len"
+  ],
+  "code2flow.engine._filter_nodes_for_subset": [
+    "code2flow.engine._find_target_node",
+    "<builtin>.set",
+    "collections.defaultdict",
+    "<builtin>.range"
+  ],
+  "collections.defaultdict": [],
+  "<builtin>.set": [],
+  "<builtin>.range": [],
+  "code2flow.engine._filter_edges_for_subset": [],
+  "code2flow.engine._filter_groups_for_subset": [],
+  "code2flow.engine._filter_for_subset": [
+    "code2flow.engine._filter_nodes_for_subset",
+    "<builtin>.list",
+    "code2flow.engine._filter_edges_for_subset",
+    "code2flow.engine._filter_groups_for_subset"
+  ],
+  "code2flow.engine.generate_json": [
+    "json.dumps"
+  ],
+  "json.dumps": [],
+  "code2flow.engine.write_file": [
+    "code2flow.engine.generate_json",
+    "argparse.ArgumentParser.parse_args.output.write",
+    "<builtin>.len"
+  ],
+  "argparse.ArgumentParser.parse_args.output.write": [],
+  "code2flow.engine.determine_language": [
+    "logging.info",
+    "<builtin>.AssertionError"
+  ],
+  "logging.info": [],
+  "code2flow.engine.get_sources_and_language": [
+    "code2flow.engine.determine_language",
+    "os.walk",
+    "os.path.isfile",
+    "os.path.join",
+    "<builtin>.len",
+    "<builtin>.list",
+    "logging.info",
+    "<builtin>.set",
+    "<builtin>.AssertionError",
+    "<builtin>.sorted"
+  ],
+  "os.walk": [],
+  "code2flow.engine.make_file_group": [
+    "code2flow.model.Group.__init__",
+    "code2flow.model.Group.add_subgroup",
+    "code2flow.model.Group.add_node",
+    "os.path.split"
+  ],
+  "os.path.split": [],
+  "code2flow.engine._find_link_for_call": [
+    "<builtin>.isinstance",
+    "<builtin>.len"
+  ],
+  "code2flow.engine._find_links": [
+    "<builtin>.isinstance",
+    "<builtin>.filter",
+    "code2flow.engine._find_link_for_call",
+    "<builtin>.list"
+  ],
+  "code2flow.engine.map_it": [
+    "logging.info",
+    "logging.warning",
+    "code2flow.model.Group.all_groups",
+    "code2flow.engine.make_file_group",
+    "code2flow.model.Variable.__init__",
+    "code2flow.engine._limit_namespaces",
+    "<builtin>.filter",
+    "<builtin>.list",
+    "code2flow.engine._find_links",
+    "collections.defaultdict",
+    "code2flow.model.Edge.__init__",
+    "code2flow.engine._limit_functions",
+    "collections.defaultdict.get",
+    "code2flow.model.flatten",
+    "<builtin>.set",
+    "<builtin>.sorted"
+  ],
+  "logging.warning": [],
+  "code2flow.engine._limit_namespaces": [
+    "logging.warning",
+    "<builtin>.print",
+    "<builtin>.all",
+    "<builtin>.list",
+    "<builtin>.set"
+  ],
+  "code2flow.engine._limit_functions": [
+    "logging.warning",
+    "<builtin>.list",
+    "<builtin>.set"
+  ],
+  "collections.defaultdict.get": [],
+  "<builtin>.print": [],
+  "<builtin>.all": [],
+  "code2flow.engine._generate_graphviz": [
+    "<builtin>.open",
+    "logging.warning",
+    "time.time",
+    "subprocess.run",
+    "logging.info"
+  ],
+  "time.time": [],
+  "<builtin>.open": [],
+  "subprocess.run": [],
+  "code2flow.engine._generate_final_img": [
+    "code2flow.engine._generate_graphviz",
+    "logging.info"
+  ],
+  "code2flow.engine.code2flow": [
+    "<builtin>.open",
+    "code2flow.engine.get_sources_and_language",
+    "<builtin>.isinstance",
+    "logging.info",
+    "code2flow.engine.map_it",
+    "code2flow.engine.write_file",
+    "code2flow.model.is_installed",
+    "code2flow.engine._filter_for_subset",
+    "time.time",
+    "code2flow.engine._generate_final_img",
+    "<builtin>.set",
+    "<builtin>.len",
+    "argparse.ArgumentParser.parse_args.output.rsplit",
+    "code2flow.engine.LanguageParams.__init__",
+    "logging.basicConfig",
+    "<builtin>.AssertionError"
+  ],
+  "logging.basicConfig": [],
+  "argparse.ArgumentParser.parse_args.output.rsplit": [],
+  "code2flow.engine.main": [
+    "code2flow.engine.SubsetParams.generate",
+    "argparse.ArgumentParser.parse_args",
+    "argparse.ArgumentParser",
+    "<builtin>.filter",
+    "<builtin>.list",
+    "argparse.ArgumentParser.add_argument",
+    "code2flow.engine.code2flow",
+    "code2flow.engine.LanguageParams.__init__",
+    "<builtin>.AssertionError"
+  ],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_argument": [],
+  "argparse.ArgumentParser.parse_args": [],
+  "code2flow.javascript": [],
+  "code2flow.javascript.lineno": [
+    "<builtin>.type",
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.type": [],
+  "code2flow.javascript.walk": [
+    "<builtin>.type",
+    "code2flow.javascript.walk"
+  ],
+  "code2flow.javascript.resolve_owner": [
+    "code2flow.model.djoin",
+    "code2flow.javascript.resolve_owner"
+  ],
+  "code2flow.javascript.get_call_from_func_element": [
+    "code2flow.javascript.lineno",
+    "code2flow.model.Call.__init__",
+    "code2flow.javascript.resolve_owner"
+  ],
+  "code2flow.javascript.make_calls": [
+    "code2flow.model.Call.__init__",
+    "code2flow.javascript.get_call_from_func_element",
+    "code2flow.javascript.walk",
+    "code2flow.javascript.lineno"
+  ],
+  "code2flow.javascript.process_assign": [
+    "code2flow.model.Variable.__init__",
+    "code2flow.javascript.get_call_from_func_element",
+    "<builtin>.len",
+    "code2flow.javascript.lineno",
+    "code2flow.model.djoin",
+    "<builtin>.set"
+  ],
+  "code2flow.javascript.make_local_variables": [
+    "<builtin>.isinstance",
+    "code2flow.javascript.process_assign",
+    "code2flow.model.Variable.__init__",
+    "code2flow.javascript.walk",
+    "<builtin>.filter",
+    "<builtin>.list",
+    "code2flow.javascript.lineno"
+  ],
+  "code2flow.javascript.children": [
+    "<builtin>.type",
+    "<builtin>.filter"
+  ],
+  "code2flow.javascript.get_inherits": [
+    "code2flow.model.djoin"
+  ],
+  "code2flow.javascript.get_acorn_version": [
+    "subprocess.Popen.stderr.read",
+    "subprocess.Popen.stdout.read.decode",
+    "subprocess.Popen",
+    "subprocess.Popen.stderr.read.decode",
+    "subprocess.Popen.stdout.read",
+    "os.path.dirname",
+    "subprocess.Popen.wait",
+    "os.path.realpath",
+    "subprocess.Popen.stdout.read.decode.strip"
+  ],
+  "subprocess.Popen.wait": [],
+  "subprocess.Popen.stderr.read": [],
+  "subprocess.Popen.stderr.read.decode": [],
+  "subprocess.Popen.stdout.read": [],
+  "subprocess.Popen.stdout.read.decode": [],
+  "subprocess.Popen.stdout.read.decode.strip": [],
+  "code2flow.javascript.Javascript.assert_dependencies": [
+    "logging.warning",
+    "subprocess.Popen.stdout.read.decode.strip.startswith",
+    "code2flow.model.is_installed",
+    "code2flow.javascript.get_acorn_version",
+    "logging.info"
+  ],
+  "subprocess.Popen.stdout.read.decode.strip.startswith": [],
+  "code2flow.javascript.Javascript.get_tree": [
+    "<builtin>.isinstance",
+    "os.path.join",
+    "os.path.realpath",
+    "subprocess.check_output",
+    "json.loads",
+    "os.path.dirname",
+    "<builtin>.AssertionError"
+  ],
+  "subprocess.check_output": [],
+  "code2flow.javascript.Javascript.separate_namespaces": [
+    "code2flow.javascript.children",
+    "code2flow.javascript.Javascript.separate_namespaces"
+  ],
+  "code2flow.javascript.Javascript.make_nodes": [
+    "logging.warning",
+    "code2flow.javascript.make_local_variables",
+    "code2flow.model.Node.__init__",
+    "code2flow.javascript.Javascript.make_nodes",
+    "code2flow.javascript.Javascript.separate_namespaces",
+    "code2flow.javascript.lineno",
+    "code2flow.javascript.make_calls",
+    "code2flow.model.flatten"
+  ],
+  "code2flow.javascript.Javascript.make_root_node": [
+    "code2flow.javascript.make_calls",
+    "code2flow.model.Node.__init__",
+    "code2flow.javascript.make_local_variables"
+  ],
+  "code2flow.javascript.Javascript.make_class_group": [
+    "code2flow.javascript.Javascript.make_nodes",
+    "code2flow.javascript.get_inherits",
+    "code2flow.javascript.Javascript.separate_namespaces",
+    "code2flow.javascript.lineno",
+    "code2flow.model.Group.__init__",
+    "code2flow.model.Group.add_node"
+  ],
+  "code2flow.javascript.Javascript.file_import_tokens": [],
+  "code2flow.python": [],
+  "code2flow.python.get_call_from_func_element": [
+    "<builtin>.getattr",
+    "<builtin>.type",
+    "code2flow.model.Call.__init__",
+    "code2flow.model.djoin",
+    "<builtin>.reversed"
+  ],
+  "<builtin>.reversed": [],
+  "code2flow.python.make_calls": [
+    "code2flow.python.get_call_from_func_element",
+    "<builtin>.type",
+    "ast.walk"
+  ],
+  "ast.walk": [],
+  "code2flow.python.process_assign": [
+    "code2flow.python.get_call_from_func_element",
+    "<builtin>.type",
+    "code2flow.model.Variable.__init__"
+  ],
+  "code2flow.python.process_import": [
+    "code2flow.model.djoin",
+    "<builtin>.isinstance",
+    "<builtin>.hasattr",
+    "code2flow.model.Variable.__init__"
+  ],
+  "<builtin>.hasattr": [],
+  "code2flow.python.make_local_variables": [
+    "code2flow.model.Variable.__init__",
+    "code2flow.python.process_assign",
+    "<builtin>.type",
+    "ast.walk",
+    "<builtin>.filter",
+    "<builtin>.list",
+    "code2flow.python.process_import"
+  ],
+  "code2flow.python.get_inherits": [
+    "<builtin>.type"
+  ],
+  "code2flow.python.Python.assert_dependencies": [],
+  "code2flow.python.Python.get_tree": [
+    "<builtin>.open",
+    "ast.parse"
+  ],
+  "ast.parse": [],
+  "code2flow.python.Python.separate_namespaces": [
+    "<builtin>.type",
+    "<builtin>.getattr",
+    "code2flow.python.Python.separate_namespaces"
+  ],
+  "code2flow.python.Python.make_nodes": [
+    "code2flow.python.make_local_variables",
+    "code2flow.python.make_calls",
+    "code2flow.model.djoin",
+    "code2flow.model.Node.__init__"
+  ],
+  "code2flow.python.Python.make_root_node": [
+    "code2flow.python.make_local_variables",
+    "code2flow.python.make_calls",
+    "code2flow.model.Node.__init__"
+  ],
+  "code2flow.python.Python.make_class_group": [
+    "logging.warning",
+    "<builtin>.type",
+    "code2flow.python.Python.make_nodes",
+    "code2flow.python.Python.separate_namespaces",
+    "code2flow.python.get_inherits",
+    "code2flow.model.djoin",
+    "code2flow.model.Group.add_node",
+    "code2flow.model.Group.__init__"
+  ],
+  "code2flow.python.Python.file_import_tokens": [
+    "os.path.split"
+  ],
+  "code2flow.ruby": [],
+  "code2flow.ruby.resolve_owner": [
+    "<builtin>.isinstance"
+  ],
+  "code2flow.ruby.get_call_from_send_el": [
+    "code2flow.model.Call.__init__",
+    "code2flow.ruby.resolve_owner"
+  ],
+  "code2flow.ruby.walk": [
+    "code2flow.ruby.walk",
+    "<builtin>.isinstance"
+  ],
+  "code2flow.ruby.make_calls": [
+    "code2flow.ruby.walk",
+    "code2flow.ruby.get_call_from_send_el"
+  ],
+  "code2flow.ruby.process_assign": [
+    "code2flow.ruby.get_call_from_send_el",
+    "code2flow.model.Variable.__init__"
+  ],
+  "code2flow.ruby.make_local_variables": [
+    "<builtin>.isinstance",
+    "code2flow.model.Variable.__init__",
+    "code2flow.ruby.process_assign",
+    "<builtin>.filter",
+    "<builtin>.list"
+  ],
+  "code2flow.ruby.as_lines": [
+    "<builtin>.isinstance"
+  ],
+  "code2flow.ruby.get_tree_body": [
+    "code2flow.ruby.as_lines"
+  ],
+  "code2flow.ruby.get_inherits": [],
+  "code2flow.ruby.Ruby.assert_dependencies": [
+    "code2flow.model.is_installed"
+  ],
+  "code2flow.ruby.Ruby.get_tree": [
+    "json.loads",
+    "subprocess.check_output",
+    "<builtin>.isinstance",
+    "<builtin>.AssertionError"
+  ],
+  "code2flow.ruby.Ruby.separate_namespaces": [
+    "code2flow.ruby.as_lines"
+  ],
+  "code2flow.ruby.Ruby.make_nodes": [
+    "code2flow.ruby.make_local_variables",
+    "code2flow.ruby.make_calls",
+    "code2flow.ruby.Ruby.make_nodes",
+    "code2flow.ruby.Ruby.separate_namespaces",
+    "code2flow.model.Node.__init__",
+    "code2flow.ruby.get_tree_body",
+    "code2flow.model.flatten"
+  ],
+  "code2flow.ruby.Ruby.make_root_node": [
+    "code2flow.ruby.make_calls",
+    "code2flow.ruby.make_local_variables",
+    "code2flow.model.Node.__init__"
+  ],
+  "code2flow.ruby.Ruby.make_class_group": [
+    "code2flow.ruby.Ruby.make_nodes",
+    "code2flow.model.Group.add_subgroup",
+    "code2flow.model.Variable.__init__",
+    "code2flow.ruby.Ruby.separate_namespaces",
+    "code2flow.ruby.Ruby.make_class_group",
+    "code2flow.ruby.get_tree_body",
+    "code2flow.ruby.get_inherits",
+    "code2flow.model.Group.add_node",
+    "code2flow.model.Group.__init__"
+  ],
+  "code2flow.ruby.Ruby.file_import_tokens": [],
+  "setup": [
+    "<builtin>.open",
+    "setuptools.setup"
+  ],
+  "setuptools.setup": [],
+  "make_expected": [
+    "<builtin>.open",
+    "pprint.pformat.split",
+    "tests.test_graphs.get_edges_set_from_file",
+    "<builtin>.map",
+    "<builtin>.print",
+    "pprint.pformat.replace",
+    "tests.test_graphs.get_nodes_set_from_file",
+    "tempfile.NamedTemporaryFile",
+    "<builtin>.list",
+    "pprint.pformat",
+    "os.path.split",
+    "code2flow.engine.main"
+  ],
+  "tempfile.NamedTemporaryFile": [],
+  "tests.test_graphs.get_edges_set_from_file": [],
+  "tests.test_graphs.get_nodes_set_from_file": [],
+  "<builtin>.map": [],
+  "pprint.pformat": [],
+  "pprint.pformat.replace": [],
+  "pprint.pformat.split": []
+}

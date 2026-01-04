@@ -1,0 +1,832 @@
+{
+    "assignments.chained.main": [
+        "assignments.chained.main.func2",
+        "assignments.chained.main.func1"
+    ],
+    "assignments.chained.main.func1": [],
+    "assignments.chained.main.func2": [],
+    "assignments.recursive_tuple.main": [
+        "assignments.recursive_tuple.main.func6",
+        "assignments.recursive_tuple.main.func1",
+        "assignments.recursive_tuple.main.func5",
+        "assignments.recursive_tuple.main.func2",
+        "assignments.recursive_tuple.main.func3",
+        "assignments.recursive_tuple.main.func4"
+    ],
+    "assignments.recursive_tuple.main.func1": [],
+    "assignments.recursive_tuple.main.func2": [],
+    "assignments.recursive_tuple.main.func3": [],
+    "assignments.recursive_tuple.main.func4": [],
+    "assignments.recursive_tuple.main.func5": [],
+    "assignments.recursive_tuple.main.func6": [],
+    "assignments.starred.main": [
+        "assignments.starred.main.func4",
+        "assignments.starred.main.func2",
+        "assignments.starred.main.func1",
+        "assignments.starred.main.func3"
+    ],
+    "assignments.starred.main.func1": [],
+    "assignments.starred.main.func2": [],
+    "assignments.starred.main.func3": [],
+    "assignments.starred.main.func4": [],
+    "assignments.tuple.main": [
+        "assignments.tuple.main.func3",
+        "assignments.tuple.main.func2",
+        "assignments.tuple.main.func1"
+    ],
+    "assignments.tuple.main.func1": [],
+    "assignments.tuple.main.func2": [],
+    "assignments.tuple.main.func3": [],
+    "builtins.functions.<builtin>.len": [],
+    "builtins.functions.main": [
+        "builtins.functions.<builtin>.len"
+    ],
+    "builtins.map.main": [
+        "builtins.map.main.func",
+        "builtins.map.<builtin>.map",
+        "builtins.map.main.func3.func",
+        "builtins.map.main.func2",
+        "builtins.map.main.func3"
+    ],
+    "builtins.map.main.func": [],
+    "builtins.map.main.func2": [
+        "builtins.map.main.func"
+    ],
+    "builtins.map.main.func3": [],
+    "builtins.map.<builtin>.map": [],
+    "builtins.types.main": [
+        "builtins.types.<**PyDict**>.items",
+        "builtins.types.<**PyStr**>.split",
+        "builtins.types.<**PyStr**>.join"
+    ],
+    "builtins.types.<**PyStr**>.join": [],
+    "builtins.types.<**PyStr**>.split": [],
+    "builtins.types.<**PyDict**>.items": [],
+    "classes.assigned_call.main": [
+        "classes.assigned_call.main.MyClass.func"
+    ],
+    "classes.assigned_call.main.MyClass.func": [],
+    "classes.assigned_self_call.main": [
+        "classes.assigned_self_call.main.MyClass.func2"
+    ],
+    "classes.assigned_self_call.main.MyClass.func2": [
+        "classes.assigned_self_call.main.MyClass.func1"
+    ],
+    "classes.assigned_self_call.main.MyClass.func1": [],
+    "classes.base_class_attr.main.A.B.bfunc": [],
+    "classes.base_class_attr.main.C.cfunc": [],
+    "classes.base_class_attr.main": [
+        "classes.base_class_attr.main.C.cfunc",
+        "classes.base_class_attr.main.A.B.bfunc"
+    ],
+    "classes.base_class_calls_child.main.A.func": [
+        "classes.base_class_calls_child.main.B.func2",
+        "classes.base_class_calls_child.main.C.func2"
+    ],
+    "classes.base_class_calls_child.main.B.func2": [],
+    "classes.base_class_calls_child.main.C.func2": [],
+    "classes.base_class_calls_child.main.B.__init__": [],
+    "classes.base_class_calls_child.main.C.__init__": [],
+    "classes.base_class_calls_child.main": [
+        "classes.base_class_calls_child.main.C.__init__",
+        "classes.base_class_calls_child.main.B.__init__",
+        "classes.base_class_calls_child.main.A.func"
+    ],
+    "classes.call.main": [
+        "classes.call.main.MyClass.func"
+    ],
+    "classes.call.main.MyClass.func": [],
+    "classes.direct_call.main": [
+        "classes.direct_call.main.MyClass.__init__",
+        "classes.direct_call.main.MyClass.func"
+    ],
+    "classes.direct_call.main.MyClass.__init__": [],
+    "classes.direct_call.main.MyClass.func": [],
+    "classes.imported_attr_access.main": [
+        "classes.imported_attr_access.to_import.func"
+    ],
+    "classes.imported_attr_access.to_import.func": [],
+    "classes.imported_attr_access.to_import": [],
+    "classes.imported_call.main": [
+        "classes.imported_call.to_import.MyClass.func",
+        "classes.imported_call.to_import.MyClass.__init__"
+    ],
+    "classes.imported_call.to_import.MyClass.__init__": [],
+    "classes.imported_call.to_import.MyClass.func": [],
+    "classes.imported_call.to_import": [],
+    "classes.imported_call_without_init.main": [
+        "classes.imported_call_without_init.to_import.MyClass.func"
+    ],
+    "classes.imported_call_without_init.to_import.MyClass.func": [],
+    "classes.imported_call_without_init.to_import": [],
+    "classes.imported_nested_attr_access.main": [
+        "classes.imported_nested_attr_access.nest.imported.func"
+    ],
+    "classes.imported_nested_attr_access.nest.imported.func": [],
+    "classes.imported_nested_attr_access.nest.imported": [],
+    "classes.instance.main": [
+        "classes.instance.main.MyClass.func",
+        "classes.instance.main.MyClass.__init__"
+    ],
+    "classes.instance.main.MyClass.__init__": [],
+    "classes.instance.main.MyClass.func": [],
+    "classes.nested_call.main": [
+        "classes.nested_call.main.MyClass.func"
+    ],
+    "classes.nested_call.main.MyClass.func": [
+        "classes.nested_call.main.MyClass.func.nested"
+    ],
+    "classes.nested_call.main.MyClass.func.nested": [],
+    "classes.nested_class_calls.main.C.func": [],
+    "classes.nested_class_calls.main.B.__init__": [],
+    "classes.nested_class_calls.main.B.func": [
+        "classes.nested_class_calls.main.C.func"
+    ],
+    "classes.nested_class_calls.main.A.__init__": [],
+    "classes.nested_class_calls.main.A.func": [
+        "classes.nested_class_calls.main.B.func",
+        "classes.nested_class_calls.main.B.__init__"
+    ],
+    "classes.nested_class_calls.main": [
+        "classes.nested_class_calls.main.A.func",
+        "classes.nested_class_calls.main.A.__init__"
+    ],
+    "classes.parameter_call.main": [
+        "classes.parameter_call.main.MyClass.func1"
+    ],
+    "classes.parameter_call.main.MyClass.func1": [
+        "classes.parameter_call.main.MyClass.func2"
+    ],
+    "classes.parameter_call.main.MyClass.func2": [
+        "classes.parameter_call.main.MyClass.func3"
+    ],
+    "classes.parameter_call.main.MyClass.func3": [],
+    "classes.return_call.main": [
+        "classes.return_call.main.MyClass.func1",
+        "classes.return_call.main.MyClass.func2"
+    ],
+    "classes.return_call.main.MyClass.func1": [],
+    "classes.return_call.main.MyClass.func2": [],
+    "classes.return_call_direct.main": [
+        "classes.return_call_direct.main.MyClass.func2",
+        "classes.return_call_direct.main.MyClass.func1"
+    ],
+    "classes.return_call_direct.main.MyClass.func1": [],
+    "classes.return_call_direct.main.MyClass.func2": [],
+    "classes.self_assignment.main": [
+        "classes.self_assignment.main.A.func",
+        "classes.self_assignment.main.A.__init__"
+    ],
+    "classes.self_assignment.main.A.__init__": [],
+    "classes.self_assignment.main.A.func": [
+        "classes.self_assignment.main.A.func2"
+    ],
+    "classes.self_assignment.main.A.func2": [],
+    "classes.self_assign_func.main.A.func": [],
+    "classes.self_assign_func.main.B.__init__": [],
+    "classes.self_assign_func.main.B.func": [
+        "classes.self_assign_func.main.A.func"
+    ],
+    "classes.self_assign_func.main": [
+        "classes.self_assign_func.main.B.__init__",
+        "classes.self_assign_func.main.B.func"
+    ],
+    "classes.self_call.main": [
+        "classes.self_call.main.MyClass.func2",
+        "classes.self_call.main.MyClass.__init__"
+    ],
+    "classes.self_call.main.MyClass.__init__": [
+        "classes.self_call.main.MyClass.func1"
+    ],
+    "classes.self_call.main.MyClass.func2": [
+        "classes.self_call.main.MyClass.func1"
+    ],
+    "classes.self_call.main.MyClass.func1": [],
+    "classes.static_method_call.main": [
+        "classes.static_method_call.main.MyClass.func"
+    ],
+    "classes.static_method_call.main.MyClass.func": [],
+    "classes.super_class_return.main": [
+        "classes.super_class_return.main.B.func2",
+        "classes.super_class_return.main.A.func1"
+    ],
+    "classes.super_class_return.main.A.func1": [],
+    "classes.super_class_return.main.B.func2": [],
+    "classes.tuple_assignment.main": [
+        "classes.tuple_assignment.main.MyClass.func1",
+        "classes.tuple_assignment.main.MyClass.func3",
+        "classes.tuple_assignment.main.MyClass2.__init__",
+        "classes.tuple_assignment.main.MyClass.func2",
+        "classes.tuple_assignment.main.MyClass.__init__"
+    ],
+    "classes.tuple_assignment.main.MyClass.__init__": [],
+    "classes.tuple_assignment.main.MyClass.func1": [],
+    "classes.tuple_assignment.main.MyClass.func2": [],
+    "classes.tuple_assignment.main.MyClass.func3": [],
+    "classes.tuple_assignment.main.MyClass2.__init__": [],
+    "decorators.assigned.main": [
+        "decorators.assigned.main.func",
+        "decorators.assigned.main.dec"
+    ],
+    "decorators.assigned.main.func": [],
+    "decorators.assigned.main.dec": [],
+    "decorators.call.main": [
+        "decorators.call.main.func",
+        "decorators.call.main.dec"
+    ],
+    "decorators.call.main.dec": [],
+    "decorators.call.main.func": [],
+    "decorators.nested.main": [
+        "decorators.nested.main.func"
+    ],
+    "decorators.nested.main.func": [
+        "decorators.nested.main.func.dec"
+    ],
+    "decorators.nested.main.dec": [],
+    "decorators.nested.main.func.dec": [],
+    "decorators.nested.main.func.inner": [],
+    "decorators.nested_decorators.main": [
+        "decorators.nested_decorators.main.dec1",
+        "decorators.nested_decorators.main.dec1.inner",
+        "decorators.nested_decorators.main.dec2",
+        "decorators.nested_decorators.main.func"
+    ],
+    "decorators.nested_decorators.main.dec1": [],
+    "decorators.nested_decorators.main.dec2": [],
+    "decorators.nested_decorators.main.func": [],
+    "decorators.nested_decorators.main.dec1.inner": [
+        "decorators.nested_decorators.main.dec2.inner"
+    ],
+    "decorators.nested_decorators.main.dec2.inner": [
+        "decorators.nested_decorators.main.func"
+    ],
+    "decorators.param_call.main": [
+        "decorators.param_call.main.dec",
+        "decorators.param_call.main.func"
+    ],
+    "decorators.param_call.main.func": [],
+    "decorators.param_call.main.dec": [
+        "decorators.param_call.main.func"
+    ],
+    "decorators.return.main": [
+        "decorators.return.main.func1",
+        "decorators.return.main.func1.dec",
+        "decorators.return.main.func2"
+    ],
+    "decorators.return.main.func1": [],
+    "decorators.return.main.func2": [],
+    "decorators.return.main.func1.dec": [],
+    "decorators.return_different_func.main": [
+        "decorators.return_different_func.main.dec",
+        "decorators.return_different_func.main.func2"
+    ],
+    "decorators.return_different_func.main.dec": [],
+    "decorators.return_different_func.main.func": [],
+    "decorators.return_different_func.main.func2": [
+        "decorators.return_different_func.main.dec.inner"
+    ],
+    "decorators.return_different_func.main.dec.inner": [
+        "decorators.return_different_func.main.func"
+    ],
+    "dicts.add_key.main": [
+        "dicts.add_key.main.func"
+    ],
+    "dicts.add_key.main.func": [],
+    "dicts.assign.main": [
+        "dicts.assign.main.func2",
+        "dicts.assign.main.func1"
+    ],
+    "dicts.assign.main.func1": [],
+    "dicts.assign.main.func2": [],
+    "dicts.call.main": [
+        "dicts.call.main.func2",
+        "dicts.call.main.func1"
+    ],
+    "dicts.call.main.func1": [],
+    "dicts.call.main.func2": [],
+    "dicts.ext_key.main": [
+        "dicts.ext_key.main.func"
+    ],
+    "dicts.ext_key.ext": [],
+    "dicts.ext_key.main.func": [],
+    "dicts.nested.main": [
+        "dicts.nested.main.func2",
+        "dicts.nested.main.func1"
+    ],
+    "dicts.nested.main.func1": [],
+    "dicts.nested.main.func2": [],
+    "dicts.new_key_param.main": [
+        "dicts.new_key_param.main.func2",
+        "dicts.new_key_param.main.func"
+    ],
+    "dicts.new_key_param.main.func": [],
+    "dicts.new_key_param.main.func2": [],
+    "dicts.param.main": [
+        "dicts.param.main.func1"
+    ],
+    "dicts.param.main.func1": [
+        "dicts.param.main.func2"
+    ],
+    "dicts.param.main.func2": [],
+    "dicts.param_key.main.func1": [
+        "dicts.param_key.main.func3",
+        "dicts.param_key.main.func2"
+    ],
+    "dicts.param_key.main.func2": [],
+    "dicts.param_key.main.func3": [],
+    "dicts.param_key.main": [
+        "dicts.param_key.main.func1"
+    ],
+    "dicts.return.main": [
+        "dicts.return.main.func1",
+        "dicts.return.main.func2"
+    ],
+    "dicts.return.main.func1": [],
+    "dicts.return.main.func2": [],
+    "dicts.return_assign.main": [
+        "dicts.return_assign.main.func2",
+        "dicts.return_assign.main.func1"
+    ],
+    "dicts.return_assign.main.func1": [],
+    "dicts.return_assign.main.func2": [],
+    "dicts.type_coercion.main": [
+        "dicts.type_coercion.main.func1"
+    ],
+    "dicts.type_coercion.main.func1": [],
+    "dicts.type_coercion.main.func2": [],
+    "dicts.update.main": [
+        "dicts.update.main.func2",
+        "dicts.update.main.func1",
+        "dicts.update.<**PyDict**>.update"
+    ],
+    "dicts.update.main.func1": [],
+    "dicts.update.main.func2": [],
+    "direct_calls.assigned_call.main": [
+        "direct_calls.assigned_call.main.func",
+        "direct_calls.assigned_call.main.return_func"
+    ],
+    "direct_calls.assigned_call.main.func": [],
+    "direct_calls.assigned_call.main.return_func": [],
+    "direct_calls.imported_return_call.main": [
+        "direct_calls.imported_return_call.to_import.return_func",
+        "direct_calls.imported_return_call.to_import.func"
+    ],
+    "direct_calls.imported_return_call.to_import.func": [],
+    "direct_calls.imported_return_call.to_import.return_func": [],
+    "direct_calls.imported_return_call.to_import": [],
+    "direct_calls.return_call.main.func": [],
+    "direct_calls.return_call.main.return_func": [],
+    "direct_calls.return_call.main.return_func.nested_return_func": [],
+    "direct_calls.return_call.main": [
+        "direct_calls.return_call.main.func",
+        "direct_calls.return_call.main.return_func",
+        "direct_calls.return_call.main.return_func.nested_return_func"
+    ],
+    "direct_calls.with_parameters.main": [
+        "direct_calls.with_parameters.main.func",
+        "direct_calls.with_parameters.main.func3",
+        "direct_calls.with_parameters.main.func2"
+    ],
+    "direct_calls.with_parameters.main.func": [],
+    "direct_calls.with_parameters.main.func2": [],
+    "direct_calls.with_parameters.main.func3": [],
+    "exceptions.raise.main": [
+        "exceptions.raise.main.A.__init__"
+    ],
+    "exceptions.raise.main.A.__init__": [],
+    "exceptions.raise_assigned.main": [
+        "exceptions.raise_assigned.main.A.__init__"
+    ],
+    "exceptions.raise_assigned.main.A.__init__": [],
+    "exceptions.raise_attr.main": [
+        "exceptions.raise_attr.main.A.B.__init__"
+    ],
+    "exceptions.raise_attr.main.A.B.__init__": [],
+    "functions.assigned_call.main.func": [],
+    "functions.assigned_call.main": [
+        "functions.assigned_call.main.func"
+    ],
+    "functions.assigned_call_lit_param.main": [
+        "functions.assigned_call_lit_param.main.func"
+    ],
+    "functions.assigned_call_lit_param.main.func": [],
+    "functions.call.main.func": [],
+    "functions.call.main": [
+        "functions.call.main.func"
+    ],
+    "functions.imported_call.main": [
+        "functions.imported_call.to_import.func"
+    ],
+    "functions.imported_call.to_import.func": [],
+    "functions.imported_call.to_import": [],
+    "generators.iterable.main": [
+        "generators.iterable.main.func.__init__",
+        "generators.iterable.main.func.__iter__",
+        "generators.iterable.main.func.__next__"
+    ],
+    "generators.iterable.main.func.__init__": [],
+    "generators.iterable.main.func.__iter__": [],
+    "generators.iterable.main.func.__next__": [
+        "generators.iterable.<builtin>.StopIteration"
+    ],
+    "generators.iterable.<builtin>.StopIteration": [],
+    "generators.iterable_assigned.main": [
+        "generators.iterable_assigned.main.Cls.__iter__",
+        "generators.iterable_assigned.main.Cls.__next__",
+        "generators.iterable_assigned.main.Cls.__init__"
+    ],
+    "generators.iterable_assigned.main.Cls.__init__": [],
+    "generators.iterable_assigned.main.Cls.__next__": [],
+    "generators.iterable_assigned.main.Cls.__iter__": [],
+    "generators.iter_param.main": [
+        "generators.iter_param.main.func",
+        "generators.iter_param.main.Cls.__init__"
+    ],
+    "generators.iter_param.main.func": [
+        "generators.iter_param.main.Cls.__next__",
+        "generators.iter_param.main.Cls.__iter__"
+    ],
+    "generators.iter_param.main.Cls.__init__": [],
+    "generators.iter_param.main.Cls.__iter__": [],
+    "generators.iter_param.main.Cls.__next__": [],
+    "generators.iter_return.main": [
+        "generators.iter_return.main.func",
+        "generators.iter_return.main.Cls.__iter__",
+        "generators.iter_return.main.Cls.__init__",
+        "generators.iter_return.main.Cls.__next__"
+    ],
+    "generators.iter_return.main.func": [],
+    "generators.iter_return.main.Cls.__init__": [],
+    "generators.iter_return.main.Cls.__iter__": [],
+    "generators.iter_return.main.Cls.__next__": [],
+    "generators.no_iter.main": [
+        "generators.no_iter.main.Cls.__init__"
+    ],
+    "generators.no_iter.main.Cls.__init__": [],
+    "generators.no_iter.main.Cls.__iter__": [],
+    "generators.no_iter.main.Cls.__next__": [],
+    "generators.yield.main": [
+        "generators.yield.main.func2",
+        "generators.yield.main.func1"
+    ],
+    "generators.yield.main.func1": [],
+    "generators.yield.main.func2": [],
+    "imports.chained_import.main": [
+        "imports.chained_import.from_import.func2"
+    ],
+    "imports.chained_import.from_import.func2": [
+        "imports.chained_import.chained_import.func1"
+    ],
+    "imports.chained_import.chained_import.func1": [],
+    "imports.chained_import.from_import": [],
+    "imports.chained_import.chained_import": [],
+    "imports.import_all.main": [
+        "imports.import_all.from_module.func2",
+        "imports.import_all.from_module.func1"
+    ],
+    "imports.import_all.from_module.func1": [],
+    "imports.import_all.from_module.func2": [],
+    "imports.import_all.from_module": [],
+    "imports.import_as.main.func": [],
+    "imports.import_as.to_import.func": [],
+    "imports.import_as.to_import": [],
+    "imports.import_as.main": [],
+    "imports.import_from.main": [
+        "imports.import_from.from_module.func"
+    ],
+    "imports.import_from.from_module.func": [],
+    "imports.import_from.from_module": [],
+    "imports.init_func_import.main": [
+        "imports.init_func_import.nested.mod.func2",
+        "imports.init_func_import.nested.func"
+    ],
+    "imports.init_func_import.nested": [],
+    "imports.init_func_import.nested.func": [],
+    "imports.init_func_import.nested.mod": [],
+    "imports.init_func_import.nested.mod.func2": [],
+    "imports.init_import.main": [
+        "imports.init_import.nested.nested.Smth.func"
+    ],
+    "imports.init_import.nested.nested.Smth.func": [],
+    "imports.init_import.nested.nested": [],
+    "imports.init_import.nested": [],
+    "imports.parent_import.main.func": [],
+    "imports.parent_import.nested.to_import.func": [],
+    "imports.parent_import.to_import2.func": [],
+    "imports.parent_import.nested.to_import": [],
+    "imports.parent_import.to_import2": [],
+    "imports.parent_import.nested": [],
+    "imports.parent_import.main": [],
+    "imports.relative_import.main.func": [],
+    "imports.relative_import.to_import.func": [],
+    "imports.relative_import.to_import": [],
+    "imports.relative_import.main": [],
+    "imports.relative_import_with_name.main": [
+        "imports.relative_import_with_name.nested.to_import.func1"
+    ],
+    "imports.relative_import_with_name.nested.to_import.func1": [
+        "imports.relative_import_with_name.nested.relative.func2"
+    ],
+    "imports.relative_import_with_name.nested.relative.func2": [],
+    "imports.relative_import_with_name.nested.to_import": [],
+    "imports.relative_import_with_name.nested.relative": [],
+    "imports.relative_import_with_name.nested": [],
+    "imports.simple_import.main.func": [],
+    "imports.simple_import.to_import.func": [],
+    "imports.simple_import.to_import": [],
+    "imports.simple_import.main": [],
+    "imports.submodule_import.main.func": [],
+    "imports.submodule_import.to_import.func": [],
+    "imports.submodule_import.to_import.to_import.func": [],
+    "imports.submodule_import.to_import": [],
+    "imports.submodule_import.to_import.to_import": [],
+    "imports.submodule_import.main": [],
+    "imports.submodule_import_all.main": [
+        "imports.submodule_import_all.from_module.nested_module.func1",
+        "imports.submodule_import_all.from_module.nested_module.func2"
+    ],
+    "imports.submodule_import_all.from_module.nested_module.func1": [],
+    "imports.submodule_import_all.from_module.nested_module.func2": [],
+    "imports.submodule_import_all.from_module.nested_module": [],
+    "imports.submodule_import_all.from_module": [],
+    "imports.submodule_import_as.main.func": [],
+    "imports.submodule_import_as.to_import.func": [],
+    "imports.submodule_import_as.to_import.to_import.func": [],
+    "imports.submodule_import_as.to_import": [],
+    "imports.submodule_import_as.to_import.to_import": [],
+    "imports.submodule_import_as.main": [],
+    "imports.submodule_import_from.main": [
+        "imports.submodule_import_from.from_module.nested_module.func1",
+        "imports.submodule_import_from.from_module.nested_module.func2"
+    ],
+    "imports.submodule_import_from.from_module.nested_module.func1": [],
+    "imports.submodule_import_from.from_module.nested_module.func2": [],
+    "imports.submodule_import_from.from_module": [],
+    "imports.submodule_import_from.from_module.nested_module": [],
+    "kwargs.assigned_call.main": [
+        "kwargs.assigned_call.main.func"
+    ],
+    "kwargs.assigned_call.main.func": [
+        "kwargs.assigned_call.main.func2"
+    ],
+    "kwargs.assigned_call.main.func2": [],
+    "kwargs.call.main": [
+        "kwargs.call.main.func"
+    ],
+    "kwargs.call.main.func": [
+        "kwargs.call.main.func2",
+        "kwargs.call.main.func3",
+        "kwargs.call.main.func4"
+    ],
+    "kwargs.call.main.func2": [],
+    "kwargs.call.main.func3": [],
+    "kwargs.call.main.func4": [],
+    "kwargs.chained_call.main": [
+        "kwargs.chained_call.main.func1"
+    ],
+    "kwargs.chained_call.main.func1": [
+        "kwargs.chained_call.main.func2"
+    ],
+    "kwargs.chained_call.main.func2": [
+        "kwargs.chained_call.main.func2",
+        "kwargs.chained_call.main.func3"
+    ],
+    "kwargs.chained_call.main.func3": [],
+    "lambdas.call.main": [
+        "lambdas.call.main.<lambda1>"
+    ],
+    "lambdas.call.main.<lambda1>": [],
+    "lambdas.calls_parameter.main": [
+        "lambdas.calls_parameter.main.<lambda1>"
+    ],
+    "lambdas.calls_parameter.main.func1": [],
+    "lambdas.calls_parameter.main.func2": [],
+    "lambdas.calls_parameter.main.<lambda1>": [
+        "lambdas.calls_parameter.main.func1",
+        "lambdas.calls_parameter.main.func2"
+    ],
+    "lambdas.chained_calls.main": [
+        "lambdas.chained_calls.main.func1"
+    ],
+    "lambdas.chained_calls.main.func1": [
+        "lambdas.chained_calls.main.<lambda1>",
+        "lambdas.chained_calls.main.func2"
+    ],
+    "lambdas.chained_calls.main.func2": [
+        "lambdas.chained_calls.main.<lambda2>",
+        "lambdas.chained_calls.main.func3"
+    ],
+    "lambdas.chained_calls.main.func3": [
+        "lambdas.chained_calls.main.<lambda3>"
+    ],
+    "lambdas.chained_calls.main.<lambda1>": [],
+    "lambdas.chained_calls.main.<lambda2>": [],
+    "lambdas.chained_calls.main.<lambda3>": [],
+    "lambdas.parameter_call.main": [
+        "lambdas.parameter_call.main.func"
+    ],
+    "lambdas.parameter_call.main.func": [
+        "lambdas.parameter_call.main.<lambda1>"
+    ],
+    "lambdas.parameter_call.main.<lambda1>": [],
+    "lambdas.return_call.main": [
+        "lambdas.return_call.main.func.<lambda1>",
+        "lambdas.return_call.main.func"
+    ],
+    "lambdas.return_call.main.func": [],
+    "lambdas.return_call.main.func.<lambda1>": [],
+    "lists.comprehension_if.main": [
+        "lists.comprehension_if.<builtin>.range",
+        "lists.comprehension_if.main.func"
+    ],
+    "lists.comprehension_if.main.func": [],
+    "lists.comprehension_if.<builtin>.range": [],
+    "lists.comprehension_val.main": [
+        "lists.comprehension_val.main.func",
+        "lists.comprehension_val.<builtin>.range"
+    ],
+    "lists.comprehension_val.main.func": [],
+    "lists.comprehension_val.<builtin>.range": [],
+    "lists.ext_index.main": [
+        "lists.ext_index.main.func2"
+    ],
+    "lists.ext_index.main.func1": [],
+    "lists.ext_index.main.func2": [],
+    "lists.ext_index.ext": [],
+    "lists.nested.main": [
+        "lists.nested.main.func1"
+    ],
+    "lists.nested.main.func1": [],
+    "lists.nested.main.func2": [],
+    "lists.nested_comprehension.main": [
+        "lists.nested_comprehension.main.func1",
+        "lists.nested_comprehension.<builtin>.range",
+        "lists.nested_comprehension.main.func2"
+    ],
+    "lists.nested_comprehension.main.func1": [],
+    "lists.nested_comprehension.main.func2": [],
+    "lists.nested_comprehension.<builtin>.range": [],
+    "lists.param_index.main": [
+        "lists.param_index.main.func1"
+    ],
+    "lists.param_index.main.func1": [
+        "lists.param_index.main.func2"
+    ],
+    "lists.param_index.main.func2": [],
+    "lists.simple.main": [
+        "lists.simple.main.func3",
+        "lists.simple.main.func2",
+        "lists.simple.main.func1",
+        "lists.simple.main.func4"
+    ],
+    "lists.simple.main.func1": [],
+    "lists.simple.main.func2": [],
+    "lists.simple.main.func3": [],
+    "lists.simple.main.func4": [],
+    "lists.slice.main": [
+        "lists.slice.main.func2"
+    ],
+    "lists.slice.main.func1": [],
+    "lists.slice.main.func2": [],
+    "lists.slice.main.func3": [],
+    "mro.basic.main": [
+        "mro.basic.main.A.func"
+    ],
+    "mro.basic.main.A.func": [],
+    "mro.basic_init.main": [
+        "mro.basic_init.main.B.func",
+        "mro.basic_init.main.A.__init__"
+    ],
+    "mro.basic_init.main.A.__init__": [],
+    "mro.basic_init.main.B.func": [],
+    "mro.parents_same_superclass.main": [
+        "mro.parents_same_superclass.main.A.__init__",
+        "mro.parents_same_superclass.main.C.func"
+    ],
+    "mro.parents_same_superclass.main.A.__init__": [],
+    "mro.parents_same_superclass.main.A.func": [],
+    "mro.parents_same_superclass.main.C.func": [],
+    "mro.self_assignment.main": [
+        "mro.self_assignment.main.A.func",
+        "mro.self_assignment.main.A.funca",
+        "mro.self_assignment.main.B.funcb",
+        "mro.self_assignment.main.B.func"
+    ],
+    "mro.self_assignment.main.A.funca": [],
+    "mro.self_assignment.main.B.funcb": [],
+    "mro.self_assignment.main.A.func": [],
+    "mro.self_assignment.main.B.func": [],
+    "mro.super_call.main": [
+        "mro.super_call.main.C.__init__"
+    ],
+    "mro.super_call.main.C.__init__": [
+        "mro.super_call.<builtin>.super",
+        "mro.super_call.main.B.__init__"
+    ],
+    "mro.super_call.main.B.__init__": [
+        "mro.super_call.main.A.__init__",
+        "mro.super_call.<builtin>.super"
+    ],
+    "mro.super_call.main.A.__init__": [],
+    "mro.super_call.<builtin>.super": [],
+    "mro.two_parents.main": [
+        "mro.two_parents.main.B.__init__",
+        "mro.two_parents.main.A.func"
+    ],
+    "mro.two_parents.main.B.__init__": [],
+    "mro.two_parents.main.B.func": [],
+    "mro.two_parents.main.A.func": [],
+    "mro.two_parents_method_defined.main": [
+        "mro.two_parents_method_defined.main.C.__init__",
+        "mro.two_parents_method_defined.main.C.func"
+    ],
+    "mro.two_parents_method_defined.main.C.__init__": [],
+    "mro.two_parents_method_defined.main.C.func": [],
+    "mro.two_parents_method_defined.main.A.__init__": [],
+    "mro.two_parents_method_defined.main.B.func": [],
+    "parameters.assigned_call.main.func": [
+        "parameters.assigned_call.main.param_func"
+    ],
+    "parameters.assigned_call.main.param_func": [],
+    "parameters.assigned_call.main": [
+        "parameters.assigned_call.main.func"
+    ],
+    "parameters.call.main.func": [
+        "parameters.call.main.param_func"
+    ],
+    "parameters.call.main.param_func": [],
+    "parameters.call.main": [
+        "parameters.call.main.func"
+    ],
+    "parameters.imported_assigned_call.main": [
+        "parameters.imported_assigned_call.to_import.func"
+    ],
+    "parameters.imported_assigned_call.main.param_func": [],
+    "parameters.imported_assigned_call.to_import.func": [
+        "parameters.imported_assigned_call.main.param_func"
+    ],
+    "parameters.imported_assigned_call.to_import": [],
+    "parameters.imported_call.main": [
+        "parameters.imported_call.to_import.func"
+    ],
+    "parameters.imported_call.main.param_func": [],
+    "parameters.imported_call.to_import.func": [
+        "parameters.imported_call.main.param_func"
+    ],
+    "parameters.imported_call.to_import": [],
+    "parameters.nested_call.main.func": [
+        "parameters.nested_call.main.param_func"
+    ],
+    "parameters.nested_call.main.param_func": [
+        "parameters.nested_call.main.nested_func"
+    ],
+    "parameters.nested_call.main.nested_func": [],
+    "parameters.nested_call.main": [
+        "parameters.nested_call.main.func"
+    ],
+    "parameters.param_call.main": [
+        "parameters.param_call.main.func",
+        "parameters.param_call.main.func2"
+    ],
+    "parameters.param_call.main.func": [
+        "parameters.param_call.main.func3"
+    ],
+    "parameters.param_call.main.func2": [],
+    "parameters.param_call.main.func3": [],
+    "returns.call.main.func": [],
+    "returns.call.main.return_func": [],
+    "returns.call.main": [
+        "returns.call.main.func",
+        "returns.call.main.return_func"
+    ],
+    "returns.imported_call.main": [
+        "returns.imported_call.to_import.return_func",
+        "returns.imported_call.to_import.func"
+    ],
+    "returns.imported_call.to_import.func": [],
+    "returns.imported_call.to_import.return_func": [],
+    "returns.imported_call.to_import": [],
+    "returns.nested_import_call.main": [
+        "returns.nested_import_call.to_import2.return_func",
+        "returns.nested_import_call.to_import.func"
+    ],
+    "returns.nested_import_call.to_import.func": [],
+    "returns.nested_import_call.to_import2.return_func": [],
+    "returns.nested_import_call.to_import": [],
+    "returns.nested_import_call.to_import2": [],
+    "returns.return_complex.main": [
+        "returns.return_complex.main.func5",
+        "returns.return_complex.main.func4",
+        "returns.return_complex.main.func",
+        "returns.return_complex.main.func2"
+    ],
+    "returns.return_complex.main.func": [],
+    "returns.return_complex.main.func2": [],
+    "returns.return_complex.main.func3": [],
+    "returns.return_complex.main.func4": [
+        "returns.return_complex.main.func3"
+    ],
+    "returns.return_complex.main.func5": [
+        "returns.return_complex.main.func2"
+    ]
+}

@@ -1,0 +1,238 @@
+{
+  "src.black.mode": [
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "enum.auto",
+    "dataclasses.field",
+    "dataclasses.field"
+  ],
+  "src.black.cache": [
+    "black.cache.get_cache_dir"
+  ],
+  "src.black.cache.get_cache_dir": [
+    "platformdirs.user_cache_dir",
+    "collections.abc.Mapping.get",
+    "pathlib.Path"
+  ],
+  "src.black.strings": [
+    "re.compile",
+    "re.compile"
+  ],
+  "src.blib2to3.pgen2.token": [
+    "dict.items",
+    "builtins.list",
+    "builtins.type"
+  ],
+  "src.blib2to3.pgen2.grammar": [
+    "typing.TypeVar",
+    "str.splitlines",
+    "str.split",
+    "builtins.getattr"
+  ],
+  "src.blib2to3.pgen2.tokenize": [
+    "blib2to3.pgen2.tokenize.any",
+    "blib2to3.pgen2.tokenize.maybe",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.maybe",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "blib2to3.pgen2.tokenize.group",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "blib2to3.pgen2.tokenize._combinations",
+    "blib2to3.pgen2.tokenize._combinations",
+    "re.compile",
+    "re.compile",
+    "re.compile",
+    "re.compile"
+  ],
+  "src.blib2to3.pgen2.tokenize.any": [
+    "blib2to3.pgen2.tokenize.group"
+  ],
+  "src.blib2to3.pgen2.tokenize.group": [
+    "str.join"
+  ],
+  "src.blib2to3.pgen2.tokenize.maybe": [
+    "blib2to3.pgen2.tokenize.group"
+  ],
+  "src.blib2to3.pgen2.tokenize._combinations": [
+    "str.casefold"
+  ],
+  "src.blib2to3.pytree": [
+    "typing.TypeVar"
+  ],
+  "src.blib2to3.pgen2.driver": [
+    "dataclasses.field"
+  ],
+  "src.black.nodes": [
+    "blib2to3.pygram.initialize"
+  ],
+  "src.blib2to3.pygram.initialize": [
+    "posixpath.dirname",
+    "posixpath.join",
+    "posixpath.dirname",
+    "posixpath.join",
+    "blib2to3.pgen2.driver.load_packaged_grammar"
+  ],
+  "src.blib2to3.pgen2.driver.load_packaged_grammar": [
+    "genericpath.isfile",
+    "blib2to3.pgen2.driver._generate_pickle_name",
+    "blib2to3.pgen2.driver.load_grammar"
+  ],
+  "src.blib2to3.pgen2.driver._generate_pickle_name": [
+    "posixpath.splitext",
+    "builtins.map",
+    "str.join",
+    "posixpath.basename",
+    "posixpath.join"
+  ],
+  "src.blib2to3.pgen2.driver.load_grammar": [
+    "logging.getLogger",
+    "blib2to3.pgen2.driver._newer",
+    "blib2to3.pgen2.pgen.generate_grammar"
+  ],
+  "src.blib2to3.pgen2.driver._newer": [
+    "genericpath.exists"
+  ],
+  "src.blib2to3.pgen2.pgen.generate_grammar": [
+    "blib2to3.pgen2.pgen.ParserGenerator"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.__init__": [
+    "io.open",
+    "blib2to3.pgen2.tokenize.generate_tokens",
+    "blib2to3.pgen2.pgen.ParserGenerator.gettoken",
+    "blib2to3.pgen2.pgen.ParserGenerator.parse"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.gettoken": [
+    "builtins.next",
+    "builtins.next"
+  ],
+  "src.blib2to3.pgen2.tokenize.generate_tokens": [
+    "TextIOWrapper.readline",
+    "builtins.len",
+    "str.rstrip",
+    "builtins.len",
+    "builtins.len",
+    "builtins.len",
+    "Pattern.match",
+    "Match.span",
+    "str.isidentifier"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.parse": [
+    "blib2to3.pgen2.pgen.ParserGenerator.expect",
+    "blib2to3.pgen2.pgen.ParserGenerator.expect",
+    "blib2to3.pgen2.pgen.ParserGenerator.parse_rhs",
+    "blib2to3.pgen2.pgen.ParserGenerator.expect",
+    "blib2to3.pgen2.pgen.ParserGenerator.make_dfa",
+    "builtins.len",
+    "blib2to3.pgen2.pgen.ParserGenerator.simplify_dfa",
+    "builtins.len"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.expect": [
+    "blib2to3.pgen2.pgen.ParserGenerator.gettoken"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.parse_rhs": [
+    "blib2to3.pgen2.pgen.ParserGenerator.parse_alt",
+    "blib2to3.pgen2.pgen.NFAState",
+    "blib2to3.pgen2.pgen.NFAState",
+    "blib2to3.pgen2.pgen.NFAState.addarc",
+    "blib2to3.pgen2.pgen.NFAState.addarc",
+    "blib2to3.pgen2.pgen.ParserGenerator.gettoken",
+    "blib2to3.pgen2.pgen.ParserGenerator.parse_alt",
+    "blib2to3.pgen2.pgen.NFAState.addarc",
+    "blib2to3.pgen2.pgen.NFAState.addarc"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.parse_alt": [
+    "blib2to3.pgen2.pgen.ParserGenerator.parse_item",
+    "blib2to3.pgen2.pgen.ParserGenerator.parse_item",
+    "blib2to3.pgen2.pgen.NFAState.addarc"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.parse_item": [
+    "blib2to3.pgen2.pgen.ParserGenerator.parse_atom",
+    "blib2to3.pgen2.pgen.ParserGenerator.gettoken",
+    "blib2to3.pgen2.pgen.NFAState.addarc"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.parse_atom": [
+    "blib2to3.pgen2.pgen.ParserGenerator.gettoken",
+    "blib2to3.pgen2.pgen.ParserGenerator.parse_rhs",
+    "blib2to3.pgen2.pgen.NFAState",
+    "blib2to3.pgen2.pgen.NFAState",
+    "blib2to3.pgen2.pgen.NFAState.addarc",
+    "blib2to3.pgen2.pgen.ParserGenerator.gettoken",
+    "blib2to3.pgen2.pgen.ParserGenerator.expect"
+  ],
+  "src.blib2to3.pgen2.pgen.NFAState.addarc": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "list.append"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.make_dfa": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "blib2to3.pgen2.pgen.ParserGenerator.make_dfa.<locals>.closure",
+    "blib2to3.pgen2.pgen.DFAState",
+    "dict.setdefault",
+    "blib2to3.pgen2.pgen.ParserGenerator.make_dfa.<locals>.addclosure",
+    "dict.items",
+    "builtins.sorted",
+    "blib2to3.pgen2.pgen.DFAState",
+    "list.append",
+    "blib2to3.pgen2.pgen.DFAState.addarc"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.closure": [
+    "blib2to3.pgen2.pgen.ParserGenerator.make_dfa.<locals>.addclosure"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.addclosure": [
+    "builtins.isinstance",
+    "blib2to3.pgen2.pgen.ParserGenerator.make_dfa.<locals>.addclosure"
+  ],
+  "src.blib2to3.pgen2.pgen.DFAState.__init__": [
+    "builtins.isinstance",
+    "builtins.iter",
+    "builtins.next",
+    "builtins.isinstance",
+    "builtins.isinstance"
+  ],
+  "src.blib2to3.pgen2.pgen.DFAState.addarc": [
+    "builtins.isinstance",
+    "builtins.isinstance"
+  ],
+  "src.blib2to3.pgen2.pgen.ParserGenerator.simplify_dfa": [
+    "builtins.enumerate",
+    "builtins.len",
+    "builtins.range",
+    "blib2to3.pgen2.pgen.DFAState.unifystate"
+  ],
+  "src.blib2to3.pgen2.pgen.DFAState.__eq__": [
+    "builtins.isinstance",
+    "builtins.len",
+    "dict.items",
+    "dict.get"
+  ],
+  "src.blib2to3.pgen2.pgen.DFAState.unifystate": [
+    "dict.items"
+  ]
+}

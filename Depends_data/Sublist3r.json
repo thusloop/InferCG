@@ -1,0 +1,200 @@
+{
+    "sublist3r.YahooEnum.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "sublist3r.Virustotal.enumerate": [
+        "sublist3r.Virustotal.extract_domains",
+        "sublist3r.Virustotal.send_req",
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.CrtSearch.req": [
+        "sublist3r.enumratorBase.get_response"
+    ],
+    "sublist3r.enumratorBase.print_banner": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.Virustotal.send_req": [
+        "sublist3r.enumratorBase.get_response",
+        "sublist3r.enumratorBase.print_"
+    ],
+    "subbrute.subbrute.run": [
+        "subbrute.subbrute.killproc",
+        "subbrute.subbrute.check_open",
+        "subbrute.subbrute.verify_nameservers.end",
+        "subbrute.subbrute.trace"
+    ],
+    "subbrute.subbrute.lookup.get_ns_blocking": [
+        "subbrute.subbrute.trace"
+    ],
+    "sublist3r.NetcraftEnum.enumerate": [
+        "sublist3r.NetcraftEnum.req",
+        "sublist3r.NetcraftEnum.get_cookies",
+        "sublist3r.NetcraftEnum.get_next",
+        "sublist3r.enumratorBase.get_response",
+        "sublist3r.NetcraftEnum.extract_domains"
+    ],
+    "sublist3r.CrtSearch.extract_domains": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "subbrute.subbrute.lookup.run": [
+        "subbrute.subbrute.lookup.check",
+        "subbrute.subbrute.lookup.get_ns_blocking",
+        "subbrute.subbrute.trace"
+    ],
+    "sublist3r.Virustotal.extract_domains": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "subbrute.subbrute.lookup.__init__": [
+        "subbrute.subbrute.signal_init"
+    ],
+    "sublist3r.NetcraftEnum.extract_domains": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.NetcraftEnum.req": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.enumratorBase.send_req": [
+        "sublist3r.enumratorBase.get_response"
+    ],
+    "sublist3r.BaiduEnum.extract_domains": [
+        "sublist3r.BaiduEnum.findsubs",
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.YahooEnum.extract_domains": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "subbrute.subbrute.check_open": [
+        "subbrute.subbrute.error"
+    ],
+    "sublist3r.DNSdumpster.enumerate": [
+        "sublist3r.DNSdumpster.get_csrftoken",
+        "sublist3r.DNSdumpster.extract_domains",
+        "sublist3r.DNSdumpster.req"
+    ],
+    "sublist3r.interactive": [
+        "sublist3r.parse_args",
+        "sublist3r.no_color",
+        "sublist3r.main",
+        "sublist3r.banner"
+    ],
+    "subbrute.subbrute.verify_nameservers.run": [
+        "subbrute.subbrute.verify_nameservers.verify"
+    ],
+    "sublist3r.ThreatCrowd.enumerate": [
+        "sublist3r.ThreatCrowd.extract_domains",
+        "sublist3r.ThreatCrowd.req"
+    ],
+    "sublist3r.Virustotal.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "sublist3r.BaiduEnum.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "subbrute.subbrute.extract_subdomains": [
+        "subbrute.subbrute.trace"
+    ],
+    "sublist3r.DNSdumpster.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "subbrute.subbrute.lookup.check": [
+        "subbrute.subbrute.trace",
+        "subbrute.subbrute.lookup.get_ns",
+        "subbrute.subbrute.extract_hosts",
+        "subbrute.subbrute.error",
+        "subbrute.subbrute.lookup.get_ns_blocking"
+    ],
+    "sublist3r.ThreatCrowd.extract_domains": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.ThreatCrowd.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "sublist3r.BingEnum.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "subbrute.subbrute.verify_nameservers.add_nameserver": [
+        "subbrute.subbrute.trace"
+    ],
+    "sublist3r.CrtSearch.enumerate": [
+        "sublist3r.CrtSearch.extract_domains",
+        "sublist3r.CrtSearch.req"
+    ],
+    "sublist3r.GoogleEnum.check_response_errors": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.enumratorBaseThreaded.run": [
+        "sublist3r.enumratorBase.enumerate"
+    ],
+    "sublist3r.PassiveDNS.req": [
+        "sublist3r.enumratorBase.get_response"
+    ],
+    "sublist3r.PassiveDNS.enumerate": [
+        "sublist3r.PassiveDNS.req",
+        "sublist3r.PassiveDNS.extract_domains"
+    ],
+    "subbrute.subbrute.verify_nameservers.__init__": [
+        "subbrute.subbrute.signal_init"
+    ],
+    "subbrute.subbrute.verify_nameservers.find_wildcards": [
+        "subbrute.subbrute.trace"
+    ],
+    "sublist3r.PassiveDNS.extract_domains": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "sublist3r.parser_error": [
+        "sublist3r.banner"
+    ],
+    "sublist3r.GoogleEnum.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "sublist3r.ThreatCrowd.req": [
+        "sublist3r.enumratorBase.get_response"
+    ],
+    "sublist3r.NetcraftEnum.get_cookies": [
+        "sublist3r.NetcraftEnum.create_cookies"
+    ],
+    "sublist3r.enumratorBaseThreaded.__init__": [
+        "sublist3r.enumratorBase.__init__"
+    ],
+    "sublist3r.enumratorBase.__init__": [
+        "sublist3r.enumratorBase.print_banner"
+    ],
+    "sublist3r.enumratorBase.enumerate": [
+        "sublist3r.enumratorBase.generate_query",
+        "sublist3r.enumratorBase.get_page",
+        "sublist3r.enumratorBase.send_req",
+        "sublist3r.enumratorBase.should_sleep",
+        "sublist3r.enumratorBase.check_max_pages",
+        "sublist3r.enumratorBase.check_max_subdomains",
+        "sublist3r.enumratorBase.check_response_errors",
+        "sublist3r.enumratorBase.extract_domains"
+    ],
+    "sublist3r.CrtSearch.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "sublist3r.PassiveDNS.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "sublist3r.main": [
+        "sublist3r.portscan.run",
+        "sublist3r.write_file",
+        "subbrute.subbrute.print_target"
+    ],
+    "sublist3r.AskEnum.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ],
+    "sublist3r.GoogleEnum.extract_domains": [
+        "sublist3r.enumratorBase.print_"
+    ],
+    "subbrute.subbrute.print_target": [
+        "subbrute.subbrute.run"
+    ],
+    "subbrute.subbrute.verify_nameservers.verify": [
+        "subbrute.subbrute.verify_nameservers.find_wildcards",
+        "subbrute.subbrute.trace",
+        "subbrute.subbrute.verify_nameservers.add_nameserver"
+    ],
+    "sublist3r.NetcraftEnum.__init__": [
+        "sublist3r.enumratorBaseThreaded.__init__"
+    ]
+}

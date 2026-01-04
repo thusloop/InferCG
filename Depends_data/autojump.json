@@ -1,0 +1,450 @@
+{
+    "bin.autojump_argparse.HelpFormatter.add_arguments": [
+        "bin.autojump_argparse.HelpFormatter.add_argument"
+    ],
+    "tests.unit.autojump_utils_test.test_take": [
+        "bin.autojump_utils.take"
+    ],
+    "bin.autojump_argparse._SubParsersAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "bin.autojump_argparse.ArgumentParser._read_args_from_files": [
+        "bin.autojump_argparse.ArgumentParser.convert_arg_line_to_args",
+        "bin.autojump_argparse.ArgumentParser.error"
+    ],
+    "tests.unit.autojump_utils_test.test_get_index": [
+        "bin.autojump_utils.get_tab_entry_info"
+    ],
+    "tests.unit.autojump_match_test.TestMatchAnywhere.test_single_needle": [
+        "bin.autojump_match.match_anywhere"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args": [
+        "bin.autojump_argparse._get_action_name",
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser._read_args_from_files",
+        "bin.autojump_argparse.ArgumentParser._parse_optional",
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_positionals",
+        "bin.autojump_argparse.ArgumentParser._get_positional_actions",
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_optional"
+    ],
+    "bin.autojump_argparse._HelpAction.__call__": [
+        "bin.autojump_argparse.ArgumentParser.print_help",
+        "bin.autojump_argparse.ArgumentParser.exit"
+    ],
+    "uninstall.remove_user_data": [
+        "uninstall.rmdir"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_optional": [
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser._get_option_tuples"
+    ],
+    "bin.autojump_argparse._SubParsersAction.__call__": [
+        "bin.autojump_argparse.ArgumentParser.parse_known_args"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_action_invocation": [
+        "bin.autojump_argparse.HelpFormatter._format_args",
+        "bin.autojump_argparse.HelpFormatter._metavar_formatter"
+    ],
+    "bin.autojump_data.migrate_osx_xdg_data": [
+        "bin.autojump_utils.is_osx",
+        "bin.autojump_utils.move_file"
+    ],
+    "bin.autojump_argparse._AppendAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "bin.autojump_argparse.ArgumentError.__init__": [
+        "bin.autojump_argparse._get_action_name"
+    ],
+    "bin.autojump_utils.print_entry": [
+        "bin.autojump_utils.print_local"
+    ],
+    "install.parse_arguments": [
+        "bin.autojump_argparse.ArgumentParser.parse_args",
+        "bin.autojump_argparse._ActionsContainer.add_argument",
+        "install.get_shell"
+    ],
+    "bin.autojump_argparse.HelpFormatter._expand_help": [
+        "bin.autojump_argparse.HelpFormatter._get_help_string"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_values": [
+        "bin.autojump_argparse.ArgumentParser._check_value",
+        "bin.autojump_argparse.ArgumentParser._get_value"
+    ],
+    "tests.unit.autojump_utils_test.test_sanitize": [
+        "tests.unit.autojump_utils_test.u",
+        "bin.autojump_utils.sanitize"
+    ],
+    "bin.autojump_argparse._ActionsContainer._add_container_actions": [
+        "bin.autojump_argparse._ActionsContainer.add_argument_group",
+        "bin.autojump_argparse._ActionsContainer.add_mutually_exclusive_group"
+    ],
+    "bin.autojump_argparse.ArgumentParser.print_help": [
+        "bin.autojump_argparse.ArgumentParser._print_message",
+        "bin.autojump_argparse.ArgumentParser.format_help"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_backslashes_for_windows_paths": [
+        "bin.autojump_match.match_consecutive"
+    ],
+    "bin.autojump_data.load_backup": [
+        "bin.autojump_utils.move_file",
+        "bin.autojump_data.load"
+    ],
+    "bin.autojump_argparse._HelpAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "bin.autojump_utils.encode_local": [
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_argparse._ActionsContainer._pop_action_class": [
+        "bin.autojump_argparse._ActionsContainer._registry_get"
+    ],
+    "bin.autojump_match.match_fuzzy": [
+        "bin.autojump_utils.last"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_consecutive": [
+        "bin.autojump_match.match_consecutive"
+    ],
+    "tests.unit.autojump_utils_test.test_encode_local_ascii": [
+        "tests.unit.autojump_utils_test.u",
+        "bin.autojump_utils.encode_local"
+    ],
+    "bin.autojump_argparse._CountAction.__call__": [
+        "bin.autojump_argparse._ensure_value"
+    ],
+    "bin.autojump_utils.second": [
+        "bin.autojump_utils.is_python3",
+        "bin.autojump_utils.is_python2"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_text": [
+        "bin.autojump_argparse.HelpFormatter._fill_text"
+    ],
+    "bin.autojump_argparse._ActionsContainer.add_argument": [
+        "bin.autojump_argparse._ActionsContainer._add_action",
+        "bin.autojump_argparse._callable",
+        "bin.autojump_argparse._ActionsContainer._pop_action_class",
+        "bin.autojump_argparse._ActionsContainer._get_positional_kwargs",
+        "bin.autojump_argparse._ActionsContainer._registry_get",
+        "bin.autojump_argparse._ActionsContainer._get_optional_kwargs"
+    ],
+    "bin.autojump_argparse._MutuallyExclusiveGroup.__init__": [
+        "bin.autojump_argparse._ArgumentGroup.__init__"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_usage": [
+        "bin.autojump_argparse.HelpFormatter._format_usage.get_lines"
+    ],
+    "bin.autojump_argparse.ArgumentParser.parse_args": [
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser.parse_known_args"
+    ],
+    "tests.unit.autojump_utils_test.test_encode_local_ascii_fails": [
+        "tests.unit.autojump_utils_test.u",
+        "bin.autojump_utils.encode_local"
+    ],
+    "tests.unit.autojump_match_test.TestMatchAnywhere.test_ignore_case": [
+        "bin.autojump_match.match_anywhere"
+    ],
+    "bin.autojump_argparse._ActionsContainer.__init__": [
+        "bin.autojump_argparse._ActionsContainer.register",
+        "bin.autojump_argparse._ActionsContainer._get_handler"
+    ],
+    "tests.unit.autojump_utils_test.test_encode_local_empty": [
+        "bin.autojump_utils.encode_local",
+        "tests.unit.autojump_utils_test.u"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_foo_bar_baz": [
+        "bin.autojump_match.match_consecutive"
+    ],
+    "tests.unit.autojump_utils_test.test_unico": [
+        "tests.unit.autojump_utils_test.u",
+        "bin.autojump_utils.unico"
+    ],
+    "bin.autojump_argparse.ArgumentParser.parse_known_args": [
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser._parse_known_args",
+        "bin.autojump_argparse.ArgumentParser._get_value"
+    ],
+    "tests.unit.autojump_utils_test.test_get_needle": [
+        "bin.autojump_utils.get_tab_entry_info"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_windows_ignore_case": [
+        "bin.autojump_match.match_consecutive"
+    ],
+    "tests.unit.autojump_utils_test.test_dont_surround_quotes_not_in_bash": [
+        "bin.autojump_utils.surround_quotes"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_action": [
+        "bin.autojump_argparse.HelpFormatter._expand_help",
+        "bin.autojump_argparse.HelpFormatter._format_action_invocation",
+        "bin.autojump_argparse.HelpFormatter._join_parts",
+        "bin.autojump_argparse.HelpFormatter._iter_indented_subactions",
+        "bin.autojump_argparse.HelpFormatter._split_lines"
+    ],
+    "install.main": [
+        "install.show_post_installation_message",
+        "install.cp",
+        "install.mkdir",
+        "install.modify_autojump_sh",
+        "install.modify_autojump_lua"
+    ],
+    "bin.autojump_argparse._CountAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "bin.autojump_utils.unico": [
+        "bin.autojump_utils.is_python2"
+    ],
+    "bin.autojump_argparse.HelpFormatter.start_section": [
+        "bin.autojump_argparse.HelpFormatter._indent",
+        "bin.autojump_argparse.HelpFormatter._add_item"
+    ],
+    "bin.autojump_data.save": [
+        "bin.autojump_utils.create_dir",
+        "bin.autojump_utils.move_file",
+        "bin.autojump_utils.unico"
+    ],
+    "bin.autojump_argparse._ActionsContainer._add_action": [
+        "bin.autojump_argparse._ActionsContainer._check_conflict"
+    ],
+    "bin.autojump_argparse._VersionAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "tests.unit.autojump_utils_test.test_encode_local_unicode": [
+        "bin.autojump_utils.encode_local",
+        "tests.unit.autojump_utils_test.u"
+    ],
+    "bin.autojump_utils.sanitize": [
+        "bin.autojump_utils.unico"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_args": [
+        "bin.autojump_argparse.HelpFormatter._metavar_formatter"
+    ],
+    "bin.autojump_argparse._StoreAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "bin.autojump_utils.surround_quotes": [
+        "bin.autojump_utils.in_bash"
+    ],
+    "tests.unit.autojump_utils_test.test_first": [
+        "bin.autojump_utils.first"
+    ],
+    "bin.autojump_data.entriefy": [
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_argparse._AppendAction.__call__": [
+        "bin.autojump_argparse._ensure_value"
+    ],
+    "uninstall.main": [
+        "uninstall.remove_user_data",
+        "uninstall.remove_system_installation",
+        "uninstall.remove_user_installation",
+        "uninstall.remove_custom_installation"
+    ],
+    "bin.autojump_argparse.HelpFormatter.add_argument": [
+        "bin.autojump_argparse.HelpFormatter._iter_indented_subactions",
+        "bin.autojump_argparse.HelpFormatter._add_item"
+    ],
+    "bin.autojump_argparse._AppendConstAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_thing": [
+        "bin.autojump_match.match_consecutive"
+    ],
+    "bin.autojump_argparse.HelpFormatter._iter_indented_subactions": [
+        "bin.autojump_argparse.HelpFormatter._dedent",
+        "bin.autojump_argparse.HelpFormatter._indent"
+    ],
+    "bin.autojump_argparse._VersionAction.__call__": [
+        "bin.autojump_argparse.ArgumentParser.exit",
+        "bin.autojump_argparse.ArgumentParser._get_formatter"
+    ],
+    "tests.unit.autojump_utils_test.test_get_path": [
+        "bin.autojump_utils.get_tab_entry_info"
+    ],
+    "bin.autojump_utils.print_tab_menu": [
+        "bin.autojump_utils.print_local"
+    ],
+    "bin.autojump_argparse.ArgumentParser.__init__": [
+        "bin.autojump_argparse._ActionsContainer.add_argument",
+        "bin.autojump_argparse._ActionsContainer._add_container_actions",
+        "bin.autojump_argparse._ActionsContainer.register"
+    ],
+    "bin.autojump_argparse._SubParsersAction._ChoicesPseudoAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "bin.autojump_argparse.ArgumentParser.add_subparsers": [
+        "bin.autojump_argparse.ArgumentParser.error",
+        "bin.autojump_argparse.ArgumentParser._get_formatter",
+        "bin.autojump_argparse.ArgumentParser._get_positional_actions",
+        "bin.autojump_argparse._ActionsContainer._pop_action_class",
+        "bin.autojump_argparse._ActionsContainer.add_argument_group"
+    ],
+    "bin.autojump_argparse._AppendConstAction.__call__": [
+        "bin.autojump_argparse._ensure_value"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_option_tuples": [
+        "bin.autojump_argparse.ArgumentParser.error"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.take_action": [
+        "bin.autojump_argparse.ArgumentParser._get_values",
+        "bin.autojump_argparse._get_action_name"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_value": [
+        "bin.autojump_argparse._callable",
+        "bin.autojump_argparse._ActionsContainer._registry_get"
+    ],
+    "bin.autojump_argparse._StoreFalseAction.__init__": [
+        "bin.autojump_argparse._StoreConstAction.__init__"
+    ],
+    "tests.unit.autojump_match_test.TestMatchAnywhere.test_consecutive": [
+        "bin.autojump_match.match_anywhere"
+    ],
+    "bin.autojump_argparse.ArgumentParser.print_usage": [
+        "bin.autojump_argparse.ArgumentParser._print_message",
+        "bin.autojump_argparse.ArgumentParser.format_usage"
+    ],
+    "bin.autojump_argparse._ActionsContainer._check_conflict": [
+        "bin.autojump_argparse._ActionsContainer._get_handler"
+    ],
+    "bin.autojump_data.load": [
+        "bin.autojump_data.load_backup",
+        "bin.autojump_data.migrate_osx_xdg_data",
+        "bin.autojump_utils.is_osx"
+    ],
+    "uninstall.parse_arguments": [
+        "bin.autojump_argparse.ArgumentParser.parse_args",
+        "bin.autojump_argparse._ActionsContainer.add_argument"
+    ],
+    "tests.unit.autojump_utils_test.test_second": [
+        "bin.autojump_utils.second"
+    ],
+    "bin.autojump_argparse.ArgumentParser._match_argument": [
+        "bin.autojump_argparse.ArgumentParser._get_nargs_pattern"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_actions_usage": [
+        "bin.autojump_argparse.HelpFormatter._format_args",
+        "bin.autojump_argparse.sorted"
+    ],
+    "bin.autojump_argparse.ArgumentParser.error": [
+        "bin.autojump_argparse.ArgumentParser.print_usage",
+        "bin.autojump_argparse.ArgumentParser.exit"
+    ],
+    "bin.autojump_argparse._AttributeHolder._get_kwargs": [
+        "bin.autojump_argparse.sorted"
+    ],
+    "bin.autojump_argparse._StoreTrueAction.__init__": [
+        "bin.autojump_argparse._StoreConstAction.__init__"
+    ],
+    "bin.autojump_utils.has_uppercase": [
+        "bin.autojump_utils.is_python3"
+    ],
+    "bin.autojump_argparse._ArgumentGroup._remove_action": [
+        "bin.autojump_argparse._ActionsContainer._remove_action"
+    ],
+    "bin.autojump_argparse.ArgumentParser.exit": [
+        "bin.autojump_argparse.ArgumentParser._print_message"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_wildcard_in_needle": [
+        "bin.autojump_match.match_consecutive"
+    ],
+    "tests.unit.autojump_utils_test.test_get_none": [
+        "bin.autojump_utils.get_tab_entry_info"
+    ],
+    "bin.autojump_argparse.ArgumentParser.format_usage": [
+        "bin.autojump_argparse.ArgumentParser._get_formatter"
+    ],
+    "uninstall.remove_system_installation": [
+        "uninstall.rm",
+        "uninstall.rmdir"
+    ],
+    "bin.autojump_argparse.HelpFormatter.end_section": [
+        "bin.autojump_argparse.HelpFormatter._dedent"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_single_needle": [
+        "bin.autojump_match.match_consecutive"
+    ],
+    "bin.autojump_argparse.ArgumentParser.format_help": [
+        "bin.autojump_argparse.ArgumentParser._get_formatter"
+    ],
+    "tests.unit.autojump_match_test.TestMatchAnywhere.test_backslashes_for_windows_paths": [
+        "bin.autojump_match.match_anywhere"
+    ],
+    "bin.autojump_argparse.HelpFormatter.add_usage": [
+        "bin.autojump_argparse.HelpFormatter._add_item"
+    ],
+    "tests.unit.autojump_utils_test.test_surround_quotes_in_bash": [
+        "bin.autojump_utils.surround_quotes"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_optional": [
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.take_action"
+    ],
+    "bin.autojump_argparse.ArgumentParser.format_version": [
+        "bin.autojump_argparse.ArgumentParser._get_formatter"
+    ],
+    "bin.autojump_utils.print_local": [
+        "bin.autojump_utils.encode_local"
+    ],
+    "tests.unit.autojump_utils_test.test_has_uppercase": [
+        "bin.autojump_utils.has_uppercase"
+    ],
+    "bin.autojump_utils.first": [
+        "bin.autojump_utils.is_python3"
+    ],
+    "tests.unit.autojump_match_test.TestMatchAnywhere.test_skip": [
+        "bin.autojump_match.match_anywhere"
+    ],
+    "bin.autojump_argparse._AttributeHolder.__repr__": [
+        "bin.autojump_argparse._AttributeHolder._get_args",
+        "bin.autojump_argparse._AttributeHolder._get_kwargs"
+    ],
+    "tests.unit.autojump_utils_test.test_last": [
+        "bin.autojump_utils.last"
+    ],
+    "bin.autojump_argparse.ArgumentParser.print_version": [
+        "bin.autojump_argparse.ArgumentParser.format_version",
+        "bin.autojump_argparse.ArgumentParser._print_message"
+    ],
+    "uninstall.remove_user_installation": [
+        "uninstall.rmdir",
+        "uninstall.rm"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_positionals": [
+        "bin.autojump_argparse.ArgumentParser._parse_known_args.take_action"
+    ],
+    "bin.autojump_argparse._StoreConstAction.__init__": [
+        "bin.autojump_argparse.Action.__init__"
+    ],
+    "uninstall.remove_custom_installation": [
+        "uninstall.rmdir",
+        "uninstall.rm",
+        "uninstall.is_empty_dir"
+    ],
+    "bin.autojump_argparse._ArgumentGroup._add_action": [
+        "bin.autojump_argparse._ActionsContainer._add_action"
+    ],
+    "bin.autojump_utils.move_file": [
+        "bin.autojump_utils.is_windows"
+    ],
+    "bin.autojump_argparse.HelpFormatter.add_text": [
+        "bin.autojump_argparse.HelpFormatter._add_item"
+    ],
+    "tests.unit.autojump_match_test.TestMatchAnywhere.test_wildcard_in_needle": [
+        "bin.autojump_match.match_anywhere"
+    ],
+    "bin.autojump_utils.last": [
+        "bin.autojump_utils.is_python3"
+    ],
+    "install.show_post_installation_message": [
+        "install.get_shell"
+    ],
+    "bin.autojump_argparse.ArgumentParser._match_arguments_partial": [
+        "bin.autojump_argparse.ArgumentParser._get_nargs_pattern"
+    ],
+    "tests.unit.autojump_utils_test.test_in_bash": [
+        "bin.autojump_utils.in_bash"
+    ],
+    "tests.unit.autojump_utils_test.u": [
+        "bin.autojump_utils.is_python3"
+    ],
+    "tests.unit.autojump_match_test.TestMatchConsecutive.test_ignore_case": [
+        "bin.autojump_match.match_consecutive"
+    ]
+}

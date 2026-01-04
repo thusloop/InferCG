@@ -1,0 +1,439 @@
+{
+  "example": [
+    "flask.ext.api.FlaskAPI",
+    "flask.ext.api.FlaskAPI.route",
+    "flask.ext.api.FlaskAPI.run"
+  ],
+  "flask.ext.api.FlaskAPI": [],
+  "example.note_repr": [
+    "flask.url_for",
+    "flask.request.host_url.rstrip"
+  ],
+  "flask.request.host_url.rstrip": [],
+  "flask.url_for": [],
+  "flask.ext.api.FlaskAPI.route": [],
+  "example.notes_list": [
+    "<builtin>.sorted",
+    "<builtin>.max",
+    "flask.request.data.get",
+    "example.note_repr",
+    "<builtin>.str"
+  ],
+  "flask.request.data.get": [],
+  "<builtin>.str": [],
+  "<builtin>.max": [],
+  "<builtin>.sorted": [],
+  "example.notes_detail": [
+    "example.note_repr",
+    "<builtin>.str",
+    "flask.request.data.get",
+    "flask.ext.api.exceptions.NotFound"
+  ],
+  "flask.ext.api.exceptions.NotFound": [],
+  "flask.ext.api.FlaskAPI.run": [],
+  "scent": [
+    "sniffer.api.select_runnable",
+    "sniffer.api.file_validator",
+    "sniffer.api.runnable"
+  ],
+  "time.time": [],
+  "scent.Options": [
+    "time.time",
+    "<builtin>.int"
+  ],
+  "<builtin>.int": [],
+  "sniffer.api.select_runnable": [],
+  "sniffer.api.file_validator": [],
+  "scent.python_files": [],
+  "scent.html_files": [],
+  "sniffer.api.runnable": [],
+  "scent.run_targets": [
+    "scent.show_coverage",
+    "scent.call",
+    "scent.show_notification",
+    "<builtin>.enumerate"
+  ],
+  "<builtin>.enumerate": [],
+  "scent.call": [
+    "subprocess.call",
+    "scent.call",
+    "<builtin>.print"
+  ],
+  "scent.show_notification": [
+    "pync.Notifier.notify"
+  ],
+  "scent.show_coverage": [
+    "subprocess.call"
+  ],
+  "<builtin>.print": [],
+  "subprocess.call": [],
+  "pync.Notifier.notify": [],
+  "setup": [
+    "setup.get_packages",
+    "setuptools.setup",
+    "setup.get_package_data",
+    "setup.get_version"
+  ],
+  "setup.get_version": [
+    "re.search.group",
+    "os.path.join",
+    "<builtin>.open",
+    "re.search"
+  ],
+  "os.path.join": [],
+  "<builtin>.open": [],
+  "re.search": [],
+  "re.search.group": [],
+  "setup.get_packages": [
+    "os.walk",
+    "os.path.join",
+    "os.path.exists"
+  ],
+  "os.walk": [],
+  "os.path.exists": [],
+  "setup.get_package_data": [
+    "os.walk",
+    "os.path.join",
+    "os.path.exists"
+  ],
+  "setuptools.setup": [],
+  "flask_api.decorators": [],
+  "flask_api.decorators.set_parsers": [],
+  "flask_api.decorators.set_parsers.decorator": [
+    "functools.wraps"
+  ],
+  "functools.wraps": [],
+  "flask_api.decorators.set_parsers.decorator.decorated_function": [
+    "<builtin>.len",
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.len": [],
+  "<builtin>.isinstance": [],
+  "flask_api.decorators.set_renderers": [],
+  "flask_api.decorators.set_renderers.decorator": [
+    "functools.wraps"
+  ],
+  "flask_api.decorators.set_renderers.decorator.decorated_function": [
+    "<builtin>.len",
+    "<builtin>.isinstance"
+  ],
+  "flask_api.settings": [
+    "flask_api.settings.APISettings.__init__"
+  ],
+  "flask_api.settings.perform_imports": [
+    "flask_api.settings.perform_imports",
+    "flask_api.settings.import_from_string",
+    "<builtin>.isinstance"
+  ],
+  "flask_api.settings.import_from_string": [
+    "importlib.import_module",
+    "<builtin>.ImportError",
+    "<builtin>.getattr"
+  ],
+  "importlib.import_module": [],
+  "<builtin>.getattr": [],
+  "<builtin>.ImportError": [],
+  "flask_api.settings.APISettings.__init__": [],
+  "flask_api.settings.APISettings.DEFAULT_PARSERS": [
+    "flask_api.settings.perform_imports"
+  ],
+  "flask_api.settings.APISettings.DEFAULT_RENDERERS": [
+    "flask_api.settings.perform_imports"
+  ],
+  "flask_api.compat": [],
+  "flask_api.compat.apply_markdown": [
+    "markdown.Markdown.convert",
+    "markdown.extensions.toc.TocExtension",
+    "markdown.Markdown"
+  ],
+  "markdown.extensions.toc.TocExtension": [],
+  "markdown.Markdown": [],
+  "markdown.Markdown.convert": [],
+  "flask_api.compat.is_flask_legacy": [
+    "<builtin>.int",
+    "flask.__version__.split"
+  ],
+  "flask.__version__.split": [],
+  "flask_api.parsers": [],
+  "flask_api.parsers.BaseParser.parse": [
+    "<builtin>.NotImplementedError"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "flask_api.parsers.JSONParser.parse": [
+    "json.loads",
+    "flask_api.exceptions.APIException.__init__",
+    "<builtin>.str"
+  ],
+  "json.loads": [],
+  "flask_api.exceptions.APIException.__init__": [],
+  "flask_api.parsers.MultiPartParser.parse": [
+    "werkzeug.formparser.MultiPartParser",
+    "flask_api.exceptions.APIException.__init__",
+    "<builtin>.str",
+    "werkzeug.formparser.MultiPartParser.parse"
+  ],
+  "werkzeug.formparser.MultiPartParser": [],
+  "werkzeug.formparser.MultiPartParser.parse": [],
+  "flask_api.parsers.URLEncodedParser.parse": [
+    "werkzeug.urls.url_decode_stream"
+  ],
+  "werkzeug.urls.url_decode_stream": [],
+  "flask_api": [],
+  "flask_api.app": [
+    "flask.Blueprint"
+  ],
+  "flask.Blueprint": [],
+  "flask_api.app.urlize_quoted_links": [
+    "re.sub"
+  ],
+  "re.sub": [],
+  "flask_api.app.FlaskAPI.__init__": [
+    "flask_api.settings.APISettings.__init__",
+    "<builtin>.super",
+    "flask.Flask.register_blueprint"
+  ],
+  "<builtin>.super": [],
+  "flask.Flask.register_blueprint": [],
+  "flask_api.app.FlaskAPI.preprocess_request": [
+    "<builtin>.super"
+  ],
+  "flask_api.app.FlaskAPI.make_response": [
+    "<builtin>.len",
+    "<builtin>.ValueError",
+    "flask.Response.force_type",
+    "flask_api.response.APIResponse.__init__",
+    "flask.Response.headers.extend",
+    "<builtin>.isinstance",
+    "flask.Response.force_type.headers.extend"
+  ],
+  "<builtin>.ValueError": [],
+  "flask_api.response.APIResponse.__init__": [
+    "flask.Response.set_data",
+    "flask.request.accepted_renderer.render",
+    "flask_api.response.APIResponse.get_renderer_options",
+    "<builtin>.str",
+    "<builtin>.isinstance",
+    "<builtin>.super"
+  ],
+  "flask.Response.force_type": [],
+  "flask.Response.headers.extend": [],
+  "flask.Response.force_type.headers.extend": [],
+  "flask_api.app.FlaskAPI.handle_user_exception": [
+    "flask.Flask.error_handler_spec.get",
+    "itertools.chain",
+    "flask.Flask.handle_http_exception",
+    "flask.Flask.error_handler_spec.get.get",
+    "<builtin>.isinstance",
+    "flask.Flask.trap_http_exception",
+    "<builtin>.dict",
+    "sys.exc_info",
+    "flask_api.app.FlaskAPI.handle_api_exception",
+    "flask_api.compat.is_flask_legacy"
+  ],
+  "sys.exc_info": [],
+  "flask.Flask.trap_http_exception": [],
+  "flask.Flask.handle_http_exception": [],
+  "flask_api.app.FlaskAPI.handle_api_exception": [
+    "flask_api.response.APIResponse.__init__"
+  ],
+  "flask.Flask.error_handler_spec.get": [],
+  "flask.Flask.error_handler_spec.get.get": [],
+  "itertools.chain": [],
+  "<builtin>.dict": [],
+  "flask_api.app.FlaskAPI.create_url_adapter": [
+    "flask.Flask.url_map.bind",
+    "flask.Flask.url_map.bind_to_environ"
+  ],
+  "flask.Flask.url_map.bind_to_environ": [],
+  "flask.Flask.url_map.bind": [],
+  "flask_api.exceptions": [],
+  "flask_api.exceptions.APIException.__str__": [],
+  "flask_api.status": [],
+  "flask_api.status.is_informational": [],
+  "flask_api.status.is_success": [],
+  "flask_api.status.is_redirect": [],
+  "flask_api.status.is_client_error": [],
+  "flask_api.status.is_server_error": [],
+  "flask_api.request": [],
+  "flask_api.request.APIRequest.data": [
+    "flask_api.request.APIRequest._parse",
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.hasattr": [],
+  "flask_api.request.APIRequest._parse": [
+    "<builtin>.len",
+    "flask_api.negotiation.DefaultNegotiation.select_parser",
+    "flask_api.request.APIRequest._get_parser_options",
+    "werkzeug.datastructures.MultiDict",
+    "<builtin>.isinstance",
+    "flask_api.request.APIRequest._set_empty_data"
+  ],
+  "flask_api.request.APIRequest.form": [
+    "flask_api.request.APIRequest._parse",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.request.APIRequest.files": [
+    "flask_api.request.APIRequest._parse",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.request.APIRequest._set_empty_data": [
+    "werkzeug.datastructures.MultiDict"
+  ],
+  "flask_api.request.APIRequest._get_parser_options": [],
+  "flask_api.negotiation.DefaultNegotiation.select_parser": [
+    "flask_api.exceptions.APIException.__init__",
+    "flask_api.mediatypes.MediaType.satisfies",
+    "flask_api.mediatypes.MediaType.__init__"
+  ],
+  "werkzeug.datastructures.MultiDict": [],
+  "flask_api.request.APIRequest.accepted_renderer": [
+    "flask_api.request.APIRequest._perform_content_negotiation",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.request.APIRequest._perform_content_negotiation": [
+    "flask_api.negotiation.DefaultNegotiation.select_renderer"
+  ],
+  "flask_api.request.APIRequest.accepted_media_type": [
+    "flask_api.request.APIRequest._perform_content_negotiation",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.negotiation.DefaultNegotiation.select_renderer": [
+    "flask_api.exceptions.APIException.__init__",
+    "flask.request.headers.get",
+    "flask_api.mediatypes.parse_accept_header",
+    "flask_api.mediatypes.MediaType.__init__"
+  ],
+  "flask_api.request.APIRequest.method": [
+    "flask_api.request.APIRequest._perform_method_overloading",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.request.APIRequest._perform_method_overloading": [
+    "<builtin>.len",
+    "flask.Request.get_data",
+    "werkzeug.urls.url_decode_stream",
+    "io.BytesIO",
+    "werkzeug.wsgi.get_content_length",
+    "<builtin>.super",
+    "flask.Request.headers.get",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.request.APIRequest.content_type": [
+    "flask_api.request.APIRequest._perform_method_overloading",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.request.APIRequest.content_length": [
+    "flask_api.request.APIRequest._perform_method_overloading",
+    "<builtin>.hasattr"
+  ],
+  "flask_api.request.APIRequest.stream": [
+    "flask_api.request.APIRequest._perform_method_overloading",
+    "<builtin>.hasattr"
+  ],
+  "flask.Request.headers.get": [],
+  "werkzeug.wsgi.get_content_length": [],
+  "flask.Request.get_data": [],
+  "io.BytesIO": [],
+  "flask_api.request.APIRequest.full_path": [
+    "flask.Request.query_string.decode"
+  ],
+  "flask.Request.query_string.decode": [],
+  "flask_api.negotiation": [],
+  "flask_api.negotiation.BaseNegotiation.select_parser": [
+    "<builtin>.NotImplementedError"
+  ],
+  "flask_api.negotiation.BaseNegotiation.select_renderer": [
+    "<builtin>.NotImplementedError"
+  ],
+  "flask_api.mediatypes.MediaType.__init__": [
+    "flask_api.mediatypes.MediaType._parse"
+  ],
+  "flask_api.mediatypes.MediaType.satisfies": [],
+  "flask.request.headers.get": [],
+  "flask_api.mediatypes.parse_accept_header": [
+    "flask_api.mediatypes.MediaType.__init__",
+    "<builtin>.set"
+  ],
+  "flask_api.mediatypes": [],
+  "flask_api.mediatypes.MediaType._parse": [
+    "flask.request.content_type.partition"
+  ],
+  "flask_api.mediatypes.MediaType.full_type": [],
+  "flask_api.mediatypes.MediaType.precedence": [
+    "<builtin>.list"
+  ],
+  "<builtin>.list": [],
+  "flask.request.content_type.partition": [],
+  "flask_api.mediatypes.MediaType.__repr__": [
+    "<builtin>.str"
+  ],
+  "flask_api.mediatypes.MediaType.__str__": [
+    "<builtin>.sorted"
+  ],
+  "flask_api.mediatypes.MediaType.__hash__": [
+    "<builtin>.str",
+    "<builtin>.hash"
+  ],
+  "<builtin>.hash": [],
+  "flask_api.mediatypes.MediaType.__eq__": [],
+  "<builtin>.set": [],
+  "flask_api.response": [],
+  "flask_api.response.APIResponse.get_renderer_options": [],
+  "flask.request.accepted_renderer.render": [],
+  "flask.Response.set_data": [],
+  "flask_api.renderers": [],
+  "flask_api.renderers.dedent": [
+    "<builtin>.len",
+    "re.sub.strip.splitlines",
+    "re.sub.splitlines",
+    "re.compile",
+    "markdown.Markdown.convert.strip",
+    "pydoc.html.preformat.strip",
+    "markdown.Markdown.convert.strip.splitlines",
+    "pydoc.html.preformat.splitlines",
+    "re.sub",
+    "re.sub.strip",
+    "markdown.Markdown.convert.splitlines",
+    "pydoc.html.preformat.strip.splitlines",
+    "<builtin>.min"
+  ],
+  "re.sub.strip.splitlines": [],
+  "re.sub.splitlines": [],
+  "markdown.Markdown.convert.strip.splitlines": [],
+  "pydoc.html.preformat.splitlines": [],
+  "markdown.Markdown.convert.splitlines": [],
+  "pydoc.html.preformat.strip.splitlines": [],
+  "<builtin>.min": [],
+  "re.compile": [],
+  "markdown.Markdown.convert.strip": [],
+  "pydoc.html.preformat.strip": [],
+  "re.sub.strip": [],
+  "flask_api.renderers.convert_to_title": [],
+  "flask_api.renderers.BaseRenderer.render": [
+    "<builtin>.NotImplementedError"
+  ],
+  "flask_api.renderers.JSONRenderer.render": [
+    "<builtin>.int",
+    "json.dumps",
+    "<builtin>.max",
+    "<builtin>.min"
+  ],
+  "json.dumps": [],
+  "flask_api.renderers.HTMLRenderer.render": [],
+  "flask_api.renderers.BrowsableAPIRenderer.render": [
+    "<builtin>.issubclass",
+    "flask_api.mediatypes.MediaType.__init__",
+    "pydoc.html.preformat",
+    "<builtin>.str",
+    "flask.globals._request_ctx_stack.top.url_adapter.allowed_methods",
+    "flask_api.renderers.dedent",
+    "flask_api.renderers.convert_to_title",
+    "flask_api.compat.apply_markdown",
+    "flask_api.renderers.BrowsableAPIRenderer._html_escape",
+    "flask.render_template"
+  ],
+  "<builtin>.issubclass": [],
+  "flask_api.renderers.BrowsableAPIRenderer._html_escape": [],
+  "flask.globals._request_ctx_stack.top.url_adapter.allowed_methods": [],
+  "pydoc.html.preformat": [],
+  "flask.render_template": []
+}

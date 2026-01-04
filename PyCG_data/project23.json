@@ -1,0 +1,778 @@
+{
+  "docs.conf": [
+    "<builtin>.exec",
+    "sys.path.insert",
+    "os.path.abspath",
+    "<builtin>.open"
+  ],
+  "os.path.abspath": [],
+  "sys.path.insert": [],
+  "<builtin>.open": [],
+  "<builtin>.exec": [],
+  "arrow.api": [
+    "arrow.factory.ArrowFactory.__init__",
+    "typing.overload"
+  ],
+  "arrow.factory.ArrowFactory.__init__": [],
+  "typing.overload": [],
+  "arrow.api.get": [
+    "arrow.factory.ArrowFactory.get"
+  ],
+  "arrow.factory.ArrowFactory.get": [
+    "arrow.util.iso_to_gregorian",
+    "<builtin>.float",
+    "dateutil.tz.tzutc",
+    "arrow.arrow.Arrow.fromdate",
+    "arrow.parser.DateTimeParser.parse",
+    "arrow.parser.DateTimeParser.__init__",
+    "arrow.arrow.Arrow.fromtimestamp",
+    "calendar.timegm",
+    "<builtin>.len",
+    "arrow.arrow.Arrow.utcfromtimestamp",
+    "arrow.util.is_timestamp",
+    "arrow.parser.TzinfoParser.parse",
+    "arrow.arrow.Arrow.fromdatetime",
+    "arrow.arrow.Arrow.__init__",
+    "arrow.arrow.Arrow.now",
+    "<builtin>.TypeError",
+    "arrow.arrow.Arrow.utcnow",
+    "<builtin>.isinstance",
+    "arrow.parser.DateTimeParser.parse_iso"
+  ],
+  "arrow.api.utcnow": [
+    "arrow.factory.ArrowFactory.utcnow"
+  ],
+  "arrow.factory.ArrowFactory.utcnow": [
+    "arrow.arrow.Arrow.utcnow"
+  ],
+  "arrow.api.now": [
+    "arrow.factory.ArrowFactory.now"
+  ],
+  "arrow.factory.ArrowFactory.now": [
+    "arrow.arrow.Arrow.now",
+    "dateutil.tz.tzlocal",
+    "<builtin>.isinstance",
+    "arrow.parser.TzinfoParser.parse"
+  ],
+  "arrow.api.factory": [
+    "arrow.factory.ArrowFactory.__init__"
+  ],
+  "arrow.arrow": [
+    "arrow.arrow.Arrow.fromdatetime"
+  ],
+  "arrow.arrow.Arrow.__init__": [
+    "datetime.datetime",
+    "<builtin>.isinstance",
+    "dateutil.tz.tzutc",
+    "<builtin>.hasattr",
+    "arrow.parser.TzinfoParser.parse"
+  ],
+  "dateutil.tz.tzutc": [],
+  "<builtin>.isinstance": [],
+  "<builtin>.hasattr": [],
+  "arrow.parser.TzinfoParser.parse": [
+    "dateutil.tz.gettz",
+    "<builtin>.int",
+    "dateutil.tz.tzlocal",
+    "dateutil.tz.tzutc",
+    "dateutil.tz.tzoffset"
+  ],
+  "datetime.datetime": [],
+  "arrow.arrow.Arrow.now": [
+    "datetime.datetime.now",
+    "<builtin>.getattr",
+    "arrow.arrow.Arrow.__init__",
+    "dateutil.tz.tzlocal"
+  ],
+  "dateutil.tz.tzlocal": [],
+  "datetime.datetime.now": [],
+  "<builtin>.getattr": [],
+  "arrow.arrow.Arrow.utcnow": [
+    "datetime.datetime.now",
+    "<builtin>.getattr",
+    "arrow.arrow.Arrow.__init__",
+    "dateutil.tz.tzutc"
+  ],
+  "arrow.arrow.Arrow.fromtimestamp": [
+    "<builtin>.float",
+    "<builtin>.getattr",
+    "arrow.util.normalize_timestamp",
+    "dateutil.tz.tzlocal",
+    "<builtin>.isinstance",
+    "arrow.arrow.Arrow.__init__",
+    "<builtin>.ValueError",
+    "datetime.datetime.fromtimestamp",
+    "arrow.util.is_timestamp",
+    "arrow.parser.TzinfoParser.parse"
+  ],
+  "arrow.util.is_timestamp": [
+    "<builtin>.float",
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.ValueError": [],
+  "<builtin>.float": [],
+  "arrow.util.normalize_timestamp": [
+    "<builtin>.ValueError"
+  ],
+  "datetime.datetime.fromtimestamp": [],
+  "arrow.arrow.Arrow.utcfromtimestamp": [
+    "datetime.datetime.utcfromtimestamp",
+    "<builtin>.float",
+    "<builtin>.getattr",
+    "arrow.util.normalize_timestamp",
+    "arrow.arrow.Arrow.__init__",
+    "dateutil.tz.tzutc",
+    "<builtin>.ValueError",
+    "arrow.util.is_timestamp"
+  ],
+  "datetime.datetime.utcfromtimestamp": [],
+  "arrow.arrow.Arrow.fromdatetime": [
+    "<builtin>.getattr",
+    "arrow.arrow.Arrow.__init__",
+    "dateutil.tz.tzutc"
+  ],
+  "arrow.arrow.Arrow.fromdate": [
+    "arrow.arrow.Arrow.__init__",
+    "dateutil.tz.tzutc"
+  ],
+  "arrow.arrow.Arrow.strptime": [
+    "<builtin>.getattr",
+    "datetime.datetime.strptime",
+    "arrow.arrow.Arrow.__init__"
+  ],
+  "datetime.datetime.strptime": [],
+  "arrow.arrow.Arrow.fromordinal": [
+    "<builtin>.getattr",
+    "arrow.util.validate_ordinal",
+    "datetime.datetime.fromordinal",
+    "arrow.arrow.Arrow.__init__"
+  ],
+  "arrow.util.validate_ordinal": [
+    "<builtin>.type",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "datetime.datetime.fromordinal": [],
+  "arrow.arrow.Arrow.range": [
+    "arrow.arrow.Arrow._get_datetime",
+    "arrow.arrow.Arrow._get_frames",
+    "<builtin>.getattr",
+    "arrow.arrow.Arrow.fromdatetime",
+    "arrow.arrow.Arrow._get_iteration_params",
+    "arrow.arrow.Arrow._get_tzinfo",
+    "arrow.arrow.Arrow.__init__",
+    "arrow.arrow.Arrow._is_last_day_of_month"
+  ],
+  "arrow.arrow.Arrow._get_frames": [
+    "<builtin>.ValueError"
+  ],
+  "arrow.arrow.Arrow._get_tzinfo": [
+    "<builtin>.ValueError",
+    "arrow.parser.TzinfoParser.parse",
+    "<builtin>.isinstance",
+    "dateutil.tz.tzutc"
+  ],
+  "arrow.arrow.Arrow._get_datetime": [
+    "<builtin>.float",
+    "arrow.arrow.Arrow.utcfromtimestamp",
+    "<builtin>.isinstance",
+    "<builtin>.ValueError",
+    "arrow.util.is_timestamp"
+  ],
+  "arrow.arrow.Arrow._get_iteration_params": [
+    "<builtin>.ValueError"
+  ],
+  "arrow.arrow.Arrow._is_last_day_of_month": [
+    "calendar.monthrange"
+  ],
+  "arrow.arrow.Arrow.span": [
+    "arrow.arrow.Arrow._get_frames",
+    "<builtin>.getattr",
+    "arrow.arrow.Arrow.isoweekday",
+    "arrow.arrow.Arrow.shift",
+    "<builtin>.ValueError",
+    "arrow.util.validate_bounds",
+    "<builtin>.len",
+    "arrow.arrow.Arrow.range"
+  ],
+  "arrow.util.validate_bounds": [
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.len": [],
+  "arrow.arrow.Arrow.isoweekday": [
+    "datetime.datetime.isoweekday"
+  ],
+  "arrow.arrow.Arrow.shift": [
+    "dateutil.tz.datetime_exists",
+    "arrow.arrow.Arrow.fromdatetime",
+    "<builtin>.ValueError",
+    "dateutil.relativedelta.relativedelta",
+    "dateutil.tz.resolve_imaginary"
+  ],
+  "arrow.arrow.Arrow.floor": [
+    "arrow.arrow.Arrow.span"
+  ],
+  "arrow.arrow.Arrow.ceil": [
+    "arrow.arrow.Arrow.span"
+  ],
+  "arrow.arrow.Arrow.span_range": [
+    "arrow.arrow.Arrow.fromdatetime",
+    "dateutil.relativedelta.relativedelta",
+    "arrow.arrow.Arrow.range",
+    "arrow.arrow.Arrow._get_tzinfo"
+  ],
+  "dateutil.relativedelta.relativedelta": [],
+  "arrow.arrow.Arrow.interval": [
+    "<builtin>.iter",
+    "arrow.arrow.Arrow.span_range",
+    "<builtin>.ValueError",
+    "arrow.arrow.Arrow.range",
+    "<builtin>.next"
+  ],
+  "<builtin>.iter": [],
+  "<builtin>.next": [],
+  "arrow.arrow.Arrow.__repr__": [
+    "arrow.arrow.Arrow.__str__"
+  ],
+  "arrow.arrow.Arrow.__str__": [
+    "datetime.datetime.isoformat"
+  ],
+  "datetime.datetime.isoformat": [],
+  "arrow.arrow.Arrow.__format__": [
+    "arrow.arrow.Arrow.format",
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "arrow.arrow.Arrow.format": [
+    "arrow.formatter.DateTimeFormatter.__init__",
+    "arrow.formatter.DateTimeFormatter.format"
+  ],
+  "<builtin>.str": [],
+  "arrow.arrow.Arrow.__hash__": [
+    "datetime.datetime.__hash__"
+  ],
+  "datetime.datetime.__hash__": [],
+  "arrow.arrow.Arrow.__getattr__": [
+    "<builtin>.getattr",
+    "arrow.arrow.Arrow.isocalendar",
+    "<builtin>.int",
+    "typing.cast"
+  ],
+  "arrow.arrow.Arrow.isocalendar": [
+    "datetime.datetime.isocalendar"
+  ],
+  "<builtin>.int": [],
+  "typing.cast": [],
+  "arrow.arrow.Arrow.tzinfo": [
+    "typing.cast"
+  ],
+  "arrow.arrow.Arrow.datetime": [],
+  "arrow.arrow.Arrow.naive": [
+    "datetime.datetime.replace"
+  ],
+  "datetime.datetime.replace": [],
+  "arrow.arrow.Arrow.timestamp": [
+    "datetime.datetime.timestamp"
+  ],
+  "datetime.datetime.timestamp": [],
+  "arrow.arrow.Arrow.int_timestamp": [
+    "<builtin>.int",
+    "arrow.arrow.Arrow.timestamp"
+  ],
+  "arrow.arrow.Arrow.float_timestamp": [
+    "arrow.arrow.Arrow.timestamp"
+  ],
+  "arrow.arrow.Arrow.fold": [],
+  "arrow.arrow.Arrow.ambiguous": [
+    "dateutil.tz.datetime_ambiguous"
+  ],
+  "dateutil.tz.datetime_ambiguous": [],
+  "arrow.arrow.Arrow.imaginary": [
+    "dateutil.tz.datetime_exists"
+  ],
+  "dateutil.tz.datetime_exists": [],
+  "arrow.arrow.Arrow.clone": [
+    "arrow.arrow.Arrow.fromdatetime"
+  ],
+  "arrow.arrow.Arrow.replace": [
+    "datetime.datetime.replace.replace",
+    "arrow.arrow.Arrow.fromdatetime",
+    "arrow.arrow.Arrow._get_tzinfo",
+    "<builtin>.ValueError",
+    "datetime.datetime.replace"
+  ],
+  "datetime.datetime.replace.replace": [],
+  "dateutil.tz.resolve_imaginary": [],
+  "arrow.arrow.Arrow.to": [
+    "<builtin>.getattr",
+    "arrow.parser.TzinfoParser.parse",
+    "<builtin>.isinstance",
+    "datetime.datetime.astimezone"
+  ],
+  "datetime.datetime.astimezone": [],
+  "arrow.formatter.DateTimeFormatter.__init__": [
+    "arrow.locales.get_locale"
+  ],
+  "arrow.formatter.DateTimeFormatter.format": [],
+  "arrow.arrow.Arrow.humanize": [
+    "arrow.locales.get_locale",
+    "<builtin>.type",
+    "<builtin>.float",
+    "<builtin>.TypeError",
+    "datetime.datetime.total_seconds",
+    "<builtin>.abs",
+    "<builtin>.int",
+    "<builtin>.isinstance",
+    "dateutil.tz.tzutc",
+    "<builtin>.ValueError",
+    "math.trunc",
+    "<builtin>.len",
+    "datetime.datetime.utcnow",
+    "arrow.arrow.Arrow.humanize.gather_timeframes",
+    "datetime.datetime.utcnow.replace.astimezone",
+    "datetime.datetime.utcnow.replace",
+    "<builtin>.round",
+    "typing.cast"
+  ],
+  "arrow.locales.get_locale": [
+    "<builtin>.ValueError"
+  ],
+  "datetime.datetime.utcnow": [],
+  "datetime.datetime.utcnow.replace": [],
+  "datetime.datetime.utcnow.replace.astimezone": [],
+  "<builtin>.type": [],
+  "<builtin>.TypeError": [],
+  "datetime.datetime.total_seconds": [],
+  "<builtin>.round": [],
+  "<builtin>.abs": [],
+  "math.trunc": [],
+  "arrow.arrow.Arrow.humanize.gather_timeframes": [
+    "<builtin>.abs",
+    "typing.cast",
+    "math.trunc"
+  ],
+  "arrow.arrow.Arrow.dehumanize": [
+    "re.compile",
+    "arrow.locales.get_locale",
+    "<builtin>.any",
+    "<builtin>.str",
+    "re.compile.search",
+    "<builtin>.abs",
+    "re.compile.findall",
+    "arrow.arrow.Arrow.fromdatetime",
+    "<builtin>.int",
+    "<builtin>.isinstance",
+    "<builtin>.ValueError",
+    "re.compile.search.group"
+  ],
+  "re.compile": [],
+  "re.compile.search": [],
+  "re.compile.search.group": [],
+  "<builtin>.any": [],
+  "re.compile.findall": [],
+  "arrow.arrow.Arrow.is_between": [
+    "arrow.util.validate_bounds",
+    "<builtin>.TypeError",
+    "<builtin>.isinstance",
+    "<builtin>.type"
+  ],
+  "arrow.arrow.Arrow.date": [
+    "arrow.arrow.Arrow._datetime.date"
+  ],
+  "arrow.arrow.Arrow._datetime.date": [],
+  "arrow.arrow.Arrow.time": [
+    "arrow.arrow.Arrow._datetime.time"
+  ],
+  "arrow.arrow.Arrow._datetime.time": [],
+  "arrow.arrow.Arrow.timetz": [
+    "datetime.datetime.timetz"
+  ],
+  "datetime.datetime.timetz": [],
+  "arrow.arrow.Arrow.astimezone": [
+    "datetime.datetime.astimezone"
+  ],
+  "arrow.arrow.Arrow.utcoffset": [
+    "datetime.datetime.utcoffset"
+  ],
+  "datetime.datetime.utcoffset": [],
+  "arrow.arrow.Arrow.dst": [
+    "datetime.datetime.dst"
+  ],
+  "datetime.datetime.dst": [],
+  "arrow.arrow.Arrow.timetuple": [
+    "datetime.datetime.timetuple"
+  ],
+  "datetime.datetime.timetuple": [],
+  "arrow.arrow.Arrow.utctimetuple": [
+    "datetime.datetime.utctimetuple"
+  ],
+  "datetime.datetime.utctimetuple": [],
+  "arrow.arrow.Arrow.toordinal": [
+    "datetime.datetime.toordinal"
+  ],
+  "datetime.datetime.toordinal": [],
+  "arrow.arrow.Arrow.weekday": [
+    "datetime.datetime.weekday"
+  ],
+  "datetime.datetime.weekday": [],
+  "datetime.datetime.isoweekday": [],
+  "datetime.datetime.isocalendar": [],
+  "arrow.arrow.Arrow.isoformat": [
+    "datetime.datetime.isoformat"
+  ],
+  "arrow.arrow.Arrow.ctime": [
+    "datetime.datetime.ctime"
+  ],
+  "datetime.datetime.ctime": [],
+  "arrow.arrow.Arrow.strftime": [
+    "datetime.datetime.strftime"
+  ],
+  "datetime.datetime.strftime": [],
+  "arrow.arrow.Arrow.for_json": [
+    "arrow.arrow.Arrow.isoformat"
+  ],
+  "arrow.arrow.Arrow.__add__": [
+    "arrow.arrow.Arrow.fromdatetime",
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__radd__": [
+    "arrow.arrow.Arrow.__add__"
+  ],
+  "arrow.arrow.Arrow": [
+    "typing.overload"
+  ],
+  "arrow.arrow.Arrow.__sub__": [
+    "arrow.arrow.Arrow.fromdatetime",
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__rsub__": [
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__eq__": [
+    "arrow.arrow.Arrow._get_datetime",
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__ne__": [
+    "arrow.arrow.Arrow.__eq__",
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__gt__": [
+    "arrow.arrow.Arrow._get_datetime",
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__ge__": [
+    "arrow.arrow.Arrow._get_datetime",
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__lt__": [
+    "arrow.arrow.Arrow._get_datetime",
+    "<builtin>.isinstance"
+  ],
+  "arrow.arrow.Arrow.__le__": [
+    "arrow.arrow.Arrow._get_datetime",
+    "<builtin>.isinstance"
+  ],
+  "calendar.monthrange": [],
+  "arrow.formatter": [],
+  "arrow.formatter.DateTimeFormatter": [
+    "re.compile"
+  ],
+  "arrow.formatter.DateTimeFormatter.format.<lambda1>": [
+    "arrow.formatter.DateTimeFormatter._format_token",
+    "typing.cast"
+  ],
+  "arrow.formatter.DateTimeFormatter._format_token": [
+    "typing.cast.total_seconds",
+    "<builtin>.abs",
+    "<builtin>.int",
+    "dateutil.tz.tzutc",
+    "<builtin>.divmod",
+    "typing.cast"
+  ],
+  "typing.cast.total_seconds": [],
+  "<builtin>.divmod": [],
+  "arrow.locales": [],
+  "arrow.locales.get_locale_by_class_name": [
+    "<builtin>.ValueError",
+    "<builtin>.globals"
+  ],
+  "<builtin>.globals": [],
+  "arrow.locales.Locale.__init_subclass__": [
+    "<builtin>.LookupError"
+  ],
+  "<builtin>.LookupError": [],
+  "arrow.locales.Locale.__init__": [],
+  "arrow.locales.Locale.describe": [
+    "math.trunc",
+    "arrow.locales.Locale._format_relative",
+    "arrow.locales.Locale._format_timeframe"
+  ],
+  "arrow.locales.Locale._format_timeframe": [
+    "<builtin>.abs",
+    "typing.cast",
+    "math.trunc",
+    "typing.cast.format"
+  ],
+  "arrow.locales.Locale._format_relative": [],
+  "arrow.locales.Locale.describe_multi": [
+    "math.trunc",
+    "arrow.locales.Locale._format_relative",
+    "arrow.locales.Locale._format_timeframe"
+  ],
+  "arrow.locales.Locale.day_name": [],
+  "arrow.locales.Locale.day_abbreviation": [],
+  "arrow.locales.Locale.month_name": [],
+  "arrow.locales.Locale.month_abbreviation": [],
+  "arrow.locales.Locale.month_number": [
+    "arrow.locales.Locale._name_to_ordinal"
+  ],
+  "arrow.locales.Locale._name_to_ordinal": [
+    "<builtin>.enumerate"
+  ],
+  "arrow.locales.Locale.year_full": [],
+  "arrow.locales.Locale.year_abbreviation": [],
+  "arrow.locales.Locale.meridian": [],
+  "arrow.locales.Locale.ordinal_number": [
+    "arrow.locales.Locale._ordinal_number"
+  ],
+  "arrow.locales.Locale._ordinal_number": [],
+  "<builtin>.enumerate": [],
+  "typing.cast.format": [],
+  "arrow.locales.EnglishLocale._ordinal_number": [
+    "<builtin>.abs"
+  ],
+  "arrow.locales.EnglishLocale.describe": [
+    "<builtin>.super"
+  ],
+  "<builtin>.super": [],
+  "arrow.locales.ItalianLocale._ordinal_number": [],
+  "arrow.locales.SpanishLocale._ordinal_number": [],
+  "arrow.locales.FrenchBaseLocale._ordinal_number": [
+    "<builtin>.abs"
+  ],
+  "arrow.locales.FinnishLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.FinnishLocale._ordinal_number": [],
+  "arrow.locales.KoreanLocale._ordinal_number": [
+    "<builtin>.len"
+  ],
+  "arrow.locales.KoreanLocale._format_relative": [
+    "<builtin>.int",
+    "<builtin>.super"
+  ],
+  "arrow.locales.SlavicBaseLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.GermanBaseLocale._ordinal_number": [],
+  "arrow.locales.GermanBaseLocale.describe": [
+    "<builtin>.abs",
+    "math.trunc",
+    "<builtin>.super"
+  ],
+  "arrow.locales.NorwegianLocale._ordinal_number": [],
+  "arrow.locales.NewNorwegianLocale._ordinal_number": [],
+  "arrow.locales.TagalogLocale._ordinal_number": [],
+  "arrow.locales.ArabicLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.IcelandicLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.ValueError",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.DanishLocale._ordinal_number": [],
+  "arrow.locales.CzechLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.SlovakLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.HebrewLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.HebrewLocale.describe_multi": [
+    "math.trunc",
+    "<builtin>.len",
+    "arrow.locales.Locale._format_relative",
+    "<builtin>.enumerate",
+    "arrow.locales.HebrewLocale._format_timeframe"
+  ],
+  "arrow.locales.HungarianLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.EsperantoLocale._ordinal_number": [],
+  "arrow.locales.ThaiLocale.year_full": [],
+  "arrow.locales.ThaiLocale.year_abbreviation": [],
+  "arrow.locales.ThaiLocale._format_relative": [],
+  "arrow.locales.LaotianLocale.year_full": [],
+  "arrow.locales.LaotianLocale.year_abbreviation": [],
+  "arrow.locales.LaotianLocale._format_relative": [],
+  "arrow.locales.BengaliLocale._ordinal_number": [],
+  "arrow.locales.EstonianLocale._format_timeframe": [
+    "<builtin>.abs"
+  ],
+  "arrow.locales.CroatianLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.MalteseLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.OdiaLocale._ordinal_number": [],
+  "arrow.locales.SerbianLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.LuxembourgishLocale._ordinal_number": [],
+  "arrow.locales.LuxembourgishLocale.describe": [
+    "<builtin>.abs",
+    "math.trunc",
+    "<builtin>.super"
+  ],
+  "arrow.locales.ZuluLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.TamilLocale._ordinal_number": [],
+  "arrow.locales.SinhalaLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.SinhalaLocale.describe": [
+    "<builtin>.abs",
+    "math.trunc",
+    "<builtin>.super"
+  ],
+  "arrow.locales.AmharicLocale._ordinal_number": [],
+  "arrow.locales.AmharicLocale._format_timeframe": [
+    "<builtin>.abs",
+    "<builtin>.isinstance"
+  ],
+  "arrow.locales.AmharicLocale.describe": [
+    "<builtin>.abs",
+    "math.trunc",
+    "<builtin>.super"
+  ],
+  "arrow.constants": [
+    "datetime.datetime",
+    "datetime.datetime.timestamp",
+    "datetime.datetime.max.toordinal",
+    "datetime.datetime.max.timestamp"
+  ],
+  "datetime.datetime.max.timestamp": [],
+  "datetime.datetime.max.toordinal": [],
+  "arrow.parser": [],
+  "arrow.parser.DateTimeParser": [
+    "re.compile",
+    "typing.overload"
+  ],
+  "arrow.parser.DateTimeParser.__init__": [
+    "arrow.locales.get_locale",
+    "functools.lru_cache"
+  ],
+  "functools.lru_cache": [],
+  "arrow.parser.DateTimeParser.parse_iso": [
+    "re.split",
+    "re.sub.split",
+    "re.sub.count",
+    "<builtin>.len",
+    "re.sub",
+    "re.sub.strip",
+    "arrow.parser.DateTimeParser._parse_multiformat"
+  ],
+  "re.sub.strip": [],
+  "re.sub": [],
+  "re.sub.count": [],
+  "re.sub.split": [],
+  "re.split": [],
+  "arrow.parser.DateTimeParser._parse_multiformat": [
+    "arrow.parser.DateTimeParser.parse"
+  ],
+  "arrow.parser.DateTimeParser.parse": [
+    "arrow.parser.DateTimeParser._parse_token",
+    "functools.lru_cache",
+    "<builtin>.isinstance",
+    "arrow.parser.DateTimeParser._generate_pattern_re",
+    "arrow.parser.DateTimeParser._build_datetime",
+    "re.sub",
+    "arrow.parser.DateTimeParser._parse_multiformat"
+  ],
+  "arrow.parser.DateTimeParser._generate_pattern_re": [
+    "re.compile",
+    "<builtin>.range",
+    "re.escape.split",
+    "re.sub",
+    "<builtin>.len",
+    "re.sub.split",
+    "typing.cast",
+    "re.findall",
+    "re.escape"
+  ],
+  "arrow.parser.DateTimeParser._parse_token": [
+    "<builtin>.int",
+    "arrow.parser.TzinfoParser.parse",
+    "<builtin>.float"
+  ],
+  "arrow.parser.DateTimeParser._build_datetime": [
+    "datetime.datetime",
+    "arrow.util.normalize_timestamp",
+    "<builtin>.int",
+    "arrow.util.next_weekday",
+    "dateutil.tz.tzutc",
+    "datetime.datetime.fromtimestamp",
+    "datetime.timedelta",
+    "datetime.datetime.strptime"
+  ],
+  "re.escape": [],
+  "re.findall": [],
+  "re.escape.split": [],
+  "<builtin>.range": [],
+  "arrow.util.next_weekday": [
+    "<builtin>.ValueError",
+    "typing.cast",
+    "dateutil.rrule.rrule"
+  ],
+  "datetime.timedelta": [],
+  "arrow.parser.DateTimeParser._generate_choice_re": [
+    "re.compile"
+  ],
+  "arrow.parser.TzinfoParser": [
+    "re.compile"
+  ],
+  "dateutil.tz.tzoffset": [],
+  "dateutil.tz.gettz": [],
+  "arrow.util": [],
+  "dateutil.rrule.rrule": [],
+  "arrow.util.iso_to_gregorian": [
+    "datetime.date",
+    "datetime.timedelta",
+    "<builtin>.ValueError"
+  ],
+  "datetime.date": [],
+  "arrow.factory": [],
+  "arrow.factory.ArrowFactory": [
+    "typing.overload"
+  ],
+  "calendar.timegm": [],
+  "arrow": [],
+  "arrow._version": [],
+  "setup": [
+    "<builtin>.exec",
+    "pathlib.Path",
+    "pathlib.Path.read_text",
+    "setuptools.setup"
+  ],
+  "pathlib.Path": [],
+  "pathlib.Path.read_text": [],
+  "setuptools.setup": []
+}

@@ -1,0 +1,1071 @@
+{
+    "bpytop": [
+        "bpytop.ProcCollector",
+        "<**PyStr**>.split",
+        "bpytop.Meters",
+        "bpytop.Banner",
+        "bpytop.Fx",
+        "bpytop.Symbol",
+        "bpytop.Config",
+        "bpytop.Graph",
+        "bpytop.Term",
+        "bpytop.CpuBox",
+        "bpytop.CpuCollector",
+        "<builtin>.SystemExit",
+        "bpytop.Color",
+        "<**PyList**>.append",
+        "bpytop.Timer",
+        "bpytop.Colors",
+        "bpytop.Nonblocking",
+        "bpytop.Config.__setattr__",
+        "bpytop.NetBox",
+        "bpytop.MemCollector",
+        "bpytop.Key",
+        "bpytop.Theme",
+        "bpytop.Box",
+        "bpytop.ProcBox",
+        "<builtin>.print",
+        "bpytop.TimeIt",
+        "bpytop.Raw",
+        "bpytop.get_cpu_name",
+        "bpytop.Collector",
+        "bpytop.SubBox",
+        "bpytop.NetCollector",
+        "bpytop.Mv",
+        "<builtin>.getattr",
+        "bpytop.Draw",
+        "bpytop.Menu",
+        "bpytop.Init",
+        "<**PyStr**>.join",
+        "bpytop.UpdateChecker",
+        "bpytop.get_cpu_core_mapping",
+        "bpytop.MemBox",
+        "bpytop.Meter",
+        "bpytop.main",
+        "bpytop.Graphs"
+    ],
+    "argparse": [
+        "argparse.RawDescriptionHelpFormatter",
+        "argparse._ActionsContainer",
+        "argparse.Action",
+        "argparse._AppendConstAction",
+        "argparse.Namespace",
+        "argparse.FileType",
+        "argparse.ArgumentTypeError",
+        "argparse._StoreAction",
+        "argparse._ArgumentGroup",
+        "argparse.MetavarTypeHelpFormatter",
+        "argparse._AttributeHolder",
+        "argparse.RawTextHelpFormatter",
+        "argparse.ArgumentDefaultsHelpFormatter",
+        "argparse._CountAction",
+        "argparse._HelpAction",
+        "argparse._StoreTrueAction",
+        "argparse.BooleanOptionalAction",
+        "argparse.ArgumentParser",
+        "argparse.ArgumentError",
+        "argparse._VersionAction",
+        "argparse._AppendAction",
+        "argparse._ExtendAction",
+        "argparse._SubParsersAction",
+        "argparse.HelpFormatter",
+        "argparse._StoreConstAction",
+        "argparse._StoreFalseAction",
+        "argparse._MutuallyExclusiveGroup"
+    ],
+    "datetime": [
+        "datetime.timezone",
+        "datetime.date",
+        "datetime.datetime",
+        "datetime.time",
+        "datetime.timedelta",
+        "datetime.tzinfo",
+        "datetime.IsoCalendarDate"
+    ],
+    "io": [
+        "io.BufferedIOBase",
+        "io.RawIOBase",
+        "io.TextIOBase",
+        "io.IOBase"
+    ],
+    "os": [
+        "os._wrap_close",
+        "os._Environ",
+        "os.PathLike",
+        "os._AddedDllDirectory"
+    ],
+    "random": [
+        "random.SystemRandom",
+        "random.Random"
+    ],
+    "re": [
+        "re.RegexFlag",
+        "re.Scanner"
+    ],
+    "shutil": [
+        "shutil.SameFileError",
+        "shutil.ReadError",
+        "shutil._GiveupOnFastCopy",
+        "shutil.ExecError",
+        "shutil.RegistryError",
+        "shutil.Error",
+        "shutil.SpecialFileError"
+    ],
+    "string": [
+        "string.Template",
+        "string.Formatter"
+    ],
+    "subprocess": [
+        "subprocess.SubprocessError",
+        "subprocess.STARTUPINFO",
+        "subprocess.Handle",
+        "subprocess.CalledProcessError",
+        "subprocess.TimeoutExpired",
+        "subprocess.Popen",
+        "subprocess.CompletedProcess"
+    ],
+    "threading": [
+        "threading.BoundedSemaphore",
+        "threading.Thread",
+        "threading._MainThread",
+        "threading.BrokenBarrierError",
+        "threading.Event",
+        "threading._RLock",
+        "threading.Timer",
+        "threading._DummyThread",
+        "threading.Condition",
+        "threading.Semaphore",
+        "threading.Barrier"
+    ],
+    "collections": [
+        "collections.Counter",
+        "collections._OrderedDictValuesView",
+        "collections._Link",
+        "collections._OrderedDictKeysView",
+        "collections._OrderedDictItemsView",
+        "collections.UserList",
+        "collections.OrderedDict",
+        "collections.UserDict",
+        "collections.ChainMap",
+        "collections.UserString"
+    ],
+    "logging.config": [
+        "logging.config.ConvertingTuple",
+        "logging.config.ConvertingList",
+        "logging.config.BaseConfigurator",
+        "logging.config.ConvertingMixin",
+        "logging.config.DictConfigurator",
+        "logging.config.ConvertingDict"
+    ],
+    "logging.handlers": [
+        "logging.handlers.QueueListener",
+        "logging.handlers.BufferingHandler",
+        "logging.handlers.SocketHandler",
+        "logging.handlers.MemoryHandler",
+        "logging.handlers.DatagramHandler",
+        "logging.handlers.TimedRotatingFileHandler",
+        "logging.handlers.WatchedFileHandler",
+        "logging.handlers.NTEventLogHandler",
+        "logging.handlers.BaseRotatingHandler",
+        "logging.handlers.SysLogHandler",
+        "logging.handlers.SMTPHandler",
+        "logging.handlers.HTTPHandler",
+        "logging.handlers.RotatingFileHandler",
+        "logging.handlers.QueueHandler"
+    ],
+    "logging": [
+        "logging.LoggerAdapter",
+        "logging.Manager",
+        "logging.Filter",
+        "logging.LogRecord",
+        "logging.Filterer",
+        "logging.StreamHandler",
+        "logging.StrFormatStyle",
+        "logging.PlaceHolder",
+        "logging.RootLogger",
+        "logging.NullHandler",
+        "logging.Formatter",
+        "logging.StringTemplateStyle",
+        "logging.Handler",
+        "logging.Logger",
+        "logging.FileHandler",
+        "logging.PercentStyle",
+        "logging.BufferingFormatter",
+        "logging._StderrHandler"
+    ],
+    "urllib.error": [
+        "urllib.error.URLError",
+        "urllib.error.HTTPError",
+        "urllib.error.ContentTooShortError"
+    ],
+    "urllib.parse": [
+        "urllib.parse._NetlocResultMixinStr",
+        "urllib.parse._NetlocResultMixinBytes",
+        "urllib.parse.DefragResultBytes",
+        "urllib.parse.DefragResult",
+        "urllib.parse._NetlocResultMixinBase",
+        "urllib.parse.ParseResultBytes",
+        "urllib.parse.ParseResult",
+        "urllib.parse.SplitResult",
+        "urllib.parse.Quoter",
+        "urllib.parse._ResultMixinStr",
+        "urllib.parse.SplitResultBytes",
+        "urllib.parse._ResultMixinBytes"
+    ],
+    "urllib.request": [
+        "urllib.request.HTTPCookieProcessor",
+        "urllib.request.ProxyDigestAuthHandler",
+        "urllib.request.CacheFTPHandler",
+        "urllib.request.HTTPPasswordMgr",
+        "urllib.request.HTTPBasicAuthHandler",
+        "urllib.request.OpenerDirector",
+        "urllib.request.FileHandler",
+        "urllib.request.HTTPErrorProcessor",
+        "urllib.request.HTTPSHandler",
+        "urllib.request.Request",
+        "urllib.request.HTTPDefaultErrorHandler",
+        "urllib.request.HTTPDigestAuthHandler",
+        "urllib.request.AbstractDigestAuthHandler",
+        "urllib.request.ProxyHandler",
+        "urllib.request.DataHandler",
+        "urllib.request.FancyURLopener",
+        "urllib.request.ftpwrapper",
+        "urllib.request.HTTPHandler",
+        "urllib.request.HTTPPasswordMgrWithDefaultRealm",
+        "urllib.request.ProxyBasicAuthHandler",
+        "urllib.request.BaseHandler",
+        "urllib.request.HTTPPasswordMgrWithPriorAuth",
+        "urllib.request.FTPHandler",
+        "urllib.request.AbstractBasicAuthHandler",
+        "urllib.request.UnknownHandler",
+        "urllib.request.HTTPRedirectHandler",
+        "urllib.request.URLopener",
+        "urllib.request.AbstractHTTPHandler"
+    ],
+    "urllib.response": [
+        "urllib.response.addinfourl",
+        "urllib.response.addinfo",
+        "urllib.response.addbase",
+        "urllib.response.addclosehook"
+    ],
+    "urllib.robotparser": [
+        "urllib.robotparser.Entry",
+        "urllib.robotparser.RuleLine",
+        "urllib.robotparser.RobotFileParser"
+    ],
+    "bpytop.Config.__init__": [
+        "bpytop.Config.__setattr__",
+        "<builtin>.getattr",
+        "<builtin>.setattr",
+        "bpytop.Config.load_config",
+        "<**PyDict**>.keys"
+    ],
+    "bpytop.Config.load_config": [
+        "<**PyStr**>.split",
+        "<builtin>.bool",
+        "<builtin>.str",
+        "bpytop.Config.__setattr__",
+        "<**PyStr**>.find",
+        "<builtin>.type",
+        "<builtin>.int",
+        "<**PyStr**>.startswith",
+        "bpytop.strtobool",
+        "<builtin>.getattr",
+        "<**PyStr**>.isdigit",
+        "<builtin>.open",
+        "<**PyStr**>.strip",
+        "<**PyList**>.append"
+    ],
+    "bpytop.Term.refresh": [
+        "bpytop.clean_quit",
+        "<builtin>.str",
+        "bpytop.Key",
+        "bpytop.Mv",
+        "bpytop.Key.last",
+        "bpytop.Box.draw_bg",
+        "<builtin>.getattr",
+        "bpytop.Key.has_key",
+        "bpytop.Draw",
+        "bpytop.create_box",
+        "bpytop.Box.calc_sizes",
+        "bpytop.Timer.finish",
+        "bpytop.Draw.now",
+        "<**PyStr**>.capitalize",
+        "<builtin>.min",
+        "<**PyList**>.copy",
+        "<**PyDict**>.copy"
+    ],
+    "bpytop.Key.start": [
+        "bpytop.Key._get_key"
+    ],
+    "bpytop.Key.input_wait": [
+        "bpytop.Draw.now"
+    ],
+    "bpytop.Key._get_key": [
+        "<**PyStr**>.split",
+        "<builtin>.int",
+        "bpytop.Raw.__exit__",
+        "bpytop.Nonblocking.__enter__",
+        "<**PyList**>.clear",
+        "<**PyList**>.append",
+        "bpytop.Nonblocking",
+        "<**PyStr**>.endswith",
+        "bpytop.Raw",
+        "bpytop.clean_quit",
+        "<builtin>.list",
+        "<**PyStr**>.startswith",
+        "<**PyDict**>.keys",
+        "<**PyStr**>.lstrip",
+        "bpytop.Raw.__enter__",
+        "bpytop.Nonblocking.__exit__",
+        "<**PyDict**>.items",
+        "<**PyStr**>.rstrip",
+        "<**PyFile**>.read"
+    ],
+    "bpytop.Draw.buffer": [
+        "<**PyStr**>.startswith",
+        "<**PyStr**>.endswith",
+        "<**PyStr**>.join",
+        "<**PyStr**>.rstrip",
+        "bpytop.Draw.out",
+        "<**PyStr**>.lstrip"
+    ],
+    "bpytop.Draw.out": [
+        "bpytop.Draw.now",
+        "<builtin>.sorted",
+        "bpytop.Draw.clear"
+    ],
+    "bpytop.Color.__init__": [
+        "<**PyStr**>.split",
+        "<builtin>.str",
+        "<builtin>.int",
+        "bpytop.Color.truecolor_to_256",
+        "<builtin>.all",
+        "<**PyStr**>.zfill",
+        "<**PyStr**>.startswith",
+        "<builtin>.ValueError",
+        "<**PyStr**>.join",
+        "<builtin>.hex",
+        "<builtin>.len",
+        "<**PyStr**>.lstrip",
+        "<builtin>.map"
+    ],
+    "bpytop.Color.escape_color": [
+        "<builtin>.int",
+        "<builtin>.len",
+        "bpytop.Color.truecolor_to_256"
+    ],
+    "bpytop.Color.fg": [
+        "bpytop.Color.escape_color",
+        "<builtin>.len"
+    ],
+    "bpytop.Color.bg": [
+        "bpytop.Color.escape_color",
+        "<builtin>.len"
+    ],
+    "bpytop.Theme.__init__": [
+        "bpytop.Theme._load_theme",
+        "bpytop.Theme.refresh"
+    ],
+    "bpytop.Theme.__call__": [
+        "<**PyDict**>.keys",
+        "bpytop.Theme._load_theme"
+    ],
+    "bpytop.Theme._load_theme": [
+        "bpytop.Theme._load_file",
+        "bpytop.Color.__iter__",
+        "<builtin>.range",
+        "<**PyDict**>.items",
+        "bpytop.Color.__str__",
+        "bpytop.Color.__repr__",
+        "<builtin>.list",
+        "bpytop.Color.fg",
+        "<builtin>.getattr",
+        "<builtin>.setattr",
+        "bpytop.Draw.now",
+        "bpytop.Color",
+        "<**PyDict**>.get"
+    ],
+    "bpytop.Banner.draw": [
+        "<builtin>.enumerate",
+        "bpytop.Mv.to",
+        "bpytop.Draw.out"
+    ],
+    "bpytop.Graph.__init__": [
+        "<builtin>.int",
+        "<**PyList**>.reverse",
+        "<builtin>.range",
+        "bpytop.Color.__str__",
+        "bpytop.Color.__repr__",
+        "bpytop.min_max",
+        "<**PyList**>.insert",
+        "<builtin>.min",
+        "<**PyList**>.append",
+        "bpytop.Graph._create",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.Graph._create": [
+        "<builtin>.bool",
+        "<builtin>.range",
+        "bpytop.Term",
+        "<builtin>.len",
+        "<builtin>.float",
+        "<builtin>.round"
+    ],
+    "bpytop.Graph.__call__": [
+        "<builtin>.range",
+        "<**PyStr**>.startswith",
+        "bpytop.min_max",
+        "<**PyStr**>.replace",
+        "bpytop.Graph._create",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.Meter.__init__": [
+        "bpytop.Meter._create"
+    ],
+    "bpytop.Meter.__call__": [
+        "bpytop.Meter._create",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.Box.calc_sizes": [
+        "<**PyStr**>.split",
+        "bpytop.ProcBox._calc_size",
+        "bpytop.CpuBox._calc_size",
+        "bpytop.MemBox._calc_size",
+        "bpytop.NetBox._calc_size"
+    ],
+    "bpytop.Box.draw_update_ms": [
+        "bpytop.Draw.clear",
+        "<builtin>.range",
+        "bpytop.Draw",
+        "bpytop.Draw.buffer",
+        "bpytop.Mv.to",
+        "<builtin>.len",
+        "bpytop.Draw.out",
+        "<builtin>.hasattr"
+    ],
+    "bpytop.Box.draw_clock": [
+        "bpytop.Draw",
+        "bpytop.Draw.buffer",
+        "bpytop.Mv.to",
+        "<builtin>.len",
+        "<**PyStr**>.replace",
+        "bpytop.Draw.out",
+        "<builtin>.hasattr"
+    ],
+    "bpytop.Box.empty_bg": [
+        "bpytop.Banner.draw"
+    ],
+    "bpytop.Box.draw_bg": [
+        "bpytop.Box.draw_clock",
+        "bpytop.CpuBox._draw_bg",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Draw.buffer",
+        "bpytop.Box.empty_bg",
+        "<**PyStr**>.join",
+        "bpytop.ProcBox._draw_bg",
+        "bpytop.NetBox._draw_bg",
+        "bpytop.MemBox._draw_bg"
+    ],
+    "bpytop.CpuBox._draw_bg": [
+        "<builtin>.range",
+        "bpytop.Mv.to",
+        "bpytop.create_box"
+    ],
+    "bpytop.CpuBox.battery_activity": [
+        "<**PyStr**>.lower",
+        "<**PyStr**>.startswith",
+        "<builtin>.sorted",
+        "<builtin>.getattr",
+        "<builtin>.hasattr",
+        "bpytop.readfile"
+    ],
+    "bpytop.CpuBox._draw_fg": [
+        "<builtin>.str",
+        "bpytop.temperature",
+        "bpytop.Draw.clear",
+        "bpytop.Graph",
+        "<**PyDict**>.get",
+        "<builtin>.range",
+        "bpytop.Draw.buffer",
+        "bpytop.CpuBox.battery_activity",
+        "bpytop.Graph.__call__",
+        "<builtin>.hasattr",
+        "bpytop.Fx.trans",
+        "bpytop.Draw",
+        "bpytop.min_max",
+        "<**PyStr**>.join",
+        "<builtin>.max",
+        "<builtin>.float",
+        "bpytop.Graph.__str__",
+        "bpytop.Meter",
+        "bpytop.Mv.to",
+        "bpytop.Graphs",
+        "<builtin>.round",
+        "bpytop.Meter.__call__"
+    ],
+    "bpytop.MemBox._draw_bg": [
+        "<builtin>.range",
+        "<**PyStr**>.join",
+        "bpytop.Mv.to",
+        "bpytop.create_box"
+    ],
+    "bpytop.MemBox._draw_fg": [
+        "<**PyStr**>.split",
+        "bpytop.Meters",
+        "<builtin>.str",
+        "<builtin>.int",
+        "bpytop.Fx",
+        "bpytop.Graph",
+        "<builtin>.len",
+        "<**PyStr**>.capitalize",
+        "<**PyList**>.append",
+        "<**PyDict**>.get",
+        "<builtin>.range",
+        "bpytop.Draw.buffer",
+        "bpytop.Graph.__call__",
+        "bpytop.Fx.trans",
+        "bpytop.Mv",
+        "<builtin>.list",
+        "bpytop.Draw",
+        "<builtin>.max",
+        "<**PyDict**>.keys",
+        "bpytop.MemBox._draw_bg",
+        "bpytop.MemBox._calc_size",
+        "bpytop.Meter",
+        "bpytop.Mv.to",
+        "<builtin>.enumerate",
+        "bpytop.Graphs",
+        "bpytop.Meter.__call__"
+    ],
+    "bpytop.NetBox._draw_bg": [
+        "bpytop.create_box"
+    ],
+    "bpytop.NetBox._draw_fg": [
+        "<builtin>.bool",
+        "<builtin>.range",
+        "bpytop.Draw.buffer",
+        "bpytop.Graph",
+        "bpytop.Mv.to",
+        "<builtin>.len",
+        "bpytop.NetBox._draw_bg",
+        "bpytop.Graph.__call__",
+        "bpytop.Graph.__str__"
+    ],
+    "bpytop.ProcBox._draw_bg": [
+        "bpytop.create_box"
+    ],
+    "bpytop.ProcBox.selector": [
+        "bpytop.Collector.collect",
+        "<builtin>.round",
+        "<**PyList**>.insert"
+    ],
+    "bpytop.ProcBox._draw_fg": [
+        "<builtin>.str",
+        "<builtin>.int",
+        "bpytop.Term.title",
+        "bpytop.Mv",
+        "bpytop.Graph",
+        "bpytop.Mv.to",
+        "<builtin>.len",
+        "bpytop.Graphs",
+        "<**PyDict**>.get"
+    ],
+    "bpytop.Collector.start": [
+        "bpytop.Collector._runner"
+    ],
+    "bpytop.Collector._runner": [
+        "bpytop.clean_quit",
+        "bpytop.NetCollector._draw",
+        "bpytop.Box.draw_clock",
+        "bpytop.TimeIt.start",
+        "bpytop.CpuCollector._draw",
+        "bpytop.MemCollector._draw",
+        "bpytop.TimeIt.stop",
+        "bpytop.ProcCollector._collect",
+        "bpytop.MemCollector._collect",
+        "bpytop.NetCollector._collect",
+        "bpytop.ProcCollector._draw",
+        "bpytop.CpuCollector._collect",
+        "<**PyList**>.pop",
+        "bpytop.Draw.out",
+        "<**PyList**>.append"
+    ],
+    "bpytop.CpuCollector._collect": [
+        "<builtin>.str",
+        "bpytop.CpuCollector._collect_temps",
+        "<builtin>.getattr",
+        "<builtin>.setattr",
+        "<builtin>.enumerate",
+        "<builtin>.len",
+        "<**PyList**>.append",
+        "<**PyStr**>.replace",
+        "<builtin>.round",
+        "<builtin>.hasattr"
+    ],
+    "bpytop.CpuCollector._collect_temps": [
+        "<**PyStr**>.split",
+        "<builtin>.str",
+        "<builtin>.int",
+        "<**PyStr**>.strip",
+        "<builtin>.len",
+        "<**PyList**>.insert",
+        "<builtin>.sum",
+        "<**PyList**>.append",
+        "<**PyStr**>.lower",
+        "<builtin>.range",
+        "bpytop.CpuBox._calc_size",
+        "<**PyStr**>.replace",
+        "<builtin>.hasattr",
+        "<**PyStr**>.startswith",
+        "<builtin>.getattr",
+        "<builtin>.max",
+        "<builtin>.float",
+        "<**PyDict**>.values",
+        "<**PyDict**>.items",
+        "<builtin>.enumerate",
+        "<builtin>.round"
+    ],
+    "bpytop.CpuCollector._draw": [
+        "bpytop.CpuBox._draw_fg"
+    ],
+    "bpytop.MemCollector._collect": [
+        "<**PyStr**>.split",
+        "<builtin>.round",
+        "<**PyStr**>.rsplit",
+        "<**PyStr**>.lower",
+        "<builtin>.list",
+        "<**PyDict**>.items",
+        "<**PyStr**>.startswith",
+        "<builtin>.getattr",
+        "bpytop.floating_humanizer",
+        "bpytop.MemBox",
+        "<**PyStr**>.strip",
+        "<builtin>.len",
+        "<**PyStr**>.replace",
+        "<**PyList**>.append",
+        "<builtin>.hasattr"
+    ],
+    "bpytop.MemCollector._draw": [
+        "bpytop.MemBox._draw_fg"
+    ],
+    "bpytop.NetCollector.switch": [
+        "bpytop.Collector.collect",
+        "<builtin>.len",
+        "bpytop.Collector"
+    ],
+    "bpytop.NetCollector._collect": [
+        "<builtin>.round",
+        "<**PyList**>.index",
+        "<builtin>.getattr",
+        "<builtin>.sorted",
+        "bpytop.floating_humanizer",
+        "bpytop.units_to_bytes",
+        "<builtin>.len",
+        "<builtin>.max",
+        "<**PyList**>.append",
+        "bpytop.NetCollector._get_nics"
+    ],
+    "bpytop.NetCollector._draw": [
+        "bpytop.NetBox._draw_fg"
+    ],
+    "bpytop.ProcCollector._collect": [
+        "<**PyStr**>.split",
+        "<builtin>.str",
+        "<**PyStr**>.lower",
+        "<**PyList**>.append",
+        "<**PyDict**>.copy",
+        "bpytop.Box",
+        "<builtin>.sorted",
+        "bpytop.floating_humanizer",
+        "<**PyStr**>.join",
+        "<**PyList**>.extend",
+        "<builtin>.eval",
+        "<**PyStr**>.strip",
+        "<builtin>.len",
+        "bpytop.ProcCollector._tree",
+        "<**PyStr**>.replace",
+        "<builtin>.round",
+        "<builtin>.hasattr",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.ProcCollector._tree": [
+        "<**PyDict**>.copy",
+        "<builtin>.list",
+        "<builtin>.sorted",
+        "<builtin>.eval",
+        "<builtin>.len",
+        "<builtin>.min",
+        "<**PyList**>.remove",
+        "<**PyList**>.append",
+        "bpytop.ProcCollector._tree.create_tree"
+    ],
+    "bpytop.ProcCollector._tree.create_tree": [
+        "<builtin>.str",
+        "<**PyStr**>.lower",
+        "bpytop.ProcCollector._tree.create_tree",
+        "<**PyStr**>.join",
+        "<builtin>.len",
+        "<**PyStr**>.replace",
+        "<builtin>.round",
+        "<**PyDict**>.get",
+        "<builtin>.hasattr",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.ProcCollector.sorting": [
+        "bpytop.Collector.collect",
+        "<**PyList**>.index",
+        "<builtin>.len"
+    ],
+    "bpytop.ProcCollector._draw": [
+        "bpytop.ProcBox",
+        "bpytop.ProcBox._draw_fg"
+    ],
+    "bpytop.Menu.main": [
+        "bpytop.Key.mouse_moved",
+        "<builtin>.len",
+        "bpytop.Collector.collect",
+        "bpytop.Menu.options",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Timer.left",
+        "bpytop.Key",
+        "bpytop.Key.input_wait",
+        "bpytop.Fx.uncolor",
+        "bpytop.Key.get_mouse",
+        "bpytop.Menu.help",
+        "bpytop.clean_quit",
+        "<**PyList**>.index",
+        "bpytop.Banner.draw",
+        "<builtin>.list",
+        "<**PyDict**>.keys",
+        "bpytop.Timer.not_zero",
+        "<**PyDict**>.items",
+        "bpytop.Key.get",
+        "bpytop.Mv.to",
+        "bpytop.Draw.now",
+        "bpytop.Timer.stamp"
+    ],
+    "bpytop.Menu.help": [
+        "bpytop.create_box",
+        "<builtin>.len",
+        "bpytop.Collector.collect",
+        "bpytop.Timer",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Timer.left",
+        "bpytop.Key.input_wait",
+        "<builtin>.range",
+        "bpytop.Fx.uncolor",
+        "bpytop.Key.get_mouse",
+        "bpytop.clean_quit",
+        "bpytop.Banner.draw",
+        "<**PyStr**>.startswith",
+        "bpytop.Timer.not_zero",
+        "bpytop.Mv.down",
+        "<**PyDict**>.items",
+        "bpytop.Key.get",
+        "bpytop.Mv.to",
+        "<builtin>.enumerate",
+        "bpytop.Draw.now",
+        "bpytop.Timer.stamp"
+    ],
+    "bpytop.Menu.options": [
+        "bpytop.Fx.uncolor",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Theme.refresh"
+    ],
+    "bpytop.Timer.left": [
+        "bpytop.Timer.stamp"
+    ],
+    "bpytop.Timer.finish": [
+        "bpytop.Key.break_wait"
+    ],
+    "bpytop.UpdateChecker.run": [
+        "bpytop.UpdateChecker._checker"
+    ],
+    "bpytop.Init.start": [
+        "<builtin>.round",
+        "<builtin>.str",
+        "bpytop.Fx.trans",
+        "bpytop.Banner.draw",
+        "<builtin>.range",
+        "bpytop.Color.__str__",
+        "bpytop.Color.__repr__",
+        "bpytop.Draw",
+        "bpytop.Color.fg",
+        "bpytop.Draw.buffer",
+        "bpytop.Graph",
+        "bpytop.Mv.to",
+        "bpytop.Color",
+        "bpytop.Draw.out",
+        "<**PyList**>.append"
+    ],
+    "bpytop.Init.success": [
+        "bpytop.Draw.buffer",
+        "bpytop.Init.draw_bg"
+    ],
+    "bpytop.Init.fail": [
+        "bpytop.Draw.buffer",
+        "bpytop.clean_quit",
+        "bpytop.Draw"
+    ],
+    "bpytop.Init.draw_bg": [
+        "bpytop.Draw.buffer",
+        "<builtin>.range",
+        "bpytop.Mv.to",
+        "bpytop.Draw.out"
+    ],
+    "bpytop.Init.done": [
+        "bpytop.Draw.now",
+        "bpytop.Init.draw_bg",
+        "bpytop.Draw.clear"
+    ],
+    "bpytop.create_box": [
+        "<builtin>.range",
+        "bpytop.Color.__str__",
+        "bpytop.Color.__repr__",
+        "bpytop.Color.__call__",
+        "bpytop.Mv.to"
+    ],
+    "bpytop.now_sleeping": [
+        "bpytop.Term.title",
+        "bpytop.Term.echo",
+        "bpytop.Key",
+        "bpytop.Draw.now",
+        "bpytop.Key.stop",
+        "bpytop.Collector.stop"
+    ],
+    "bpytop.now_awake": [
+        "bpytop.Term.title",
+        "bpytop.Term.refresh",
+        "bpytop.Key.start",
+        "bpytop.Term.echo",
+        "bpytop.Box.draw_bg",
+        "bpytop.Collector.start",
+        "bpytop.Draw.now",
+        "bpytop.Box.calc_sizes"
+    ],
+    "bpytop.quit_sigint": [
+        "bpytop.clean_quit"
+    ],
+    "bpytop.clean_quit": [
+        "<builtin>.SystemExit",
+        "bpytop.Term.title",
+        "bpytop.Term.echo",
+        "bpytop.Config.save_config",
+        "bpytop.Draw.now",
+        "bpytop.Key.stop",
+        "<builtin>.print",
+        "<builtin>.round",
+        "bpytop.Collector.stop"
+    ],
+    "bpytop.process_keys": [
+        "<**PyStr**>.split",
+        "bpytop.Draw.clear",
+        "bpytop.NetCollector.switch",
+        "<builtin>.len",
+        "bpytop.Collector.collect",
+        "bpytop.Menu.options",
+        "<**PyList**>.remove",
+        "<**PyList**>.append",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Term.refresh",
+        "bpytop.Key.get_mouse",
+        "bpytop.ProcBox.selector",
+        "bpytop.Menu.help",
+        "bpytop.clean_quit",
+        "<**PyList**>.index",
+        "<builtin>.list",
+        "bpytop.Key.has_key",
+        "bpytop.ProcCollector.sorting",
+        "<**PyStr**>.join",
+        "bpytop.Key.get",
+        "bpytop.Menu.main"
+    ],
+    "bpytop.main": [
+        "bpytop.Box.draw_bg",
+        "bpytop.TimeIt.stop",
+        "bpytop.Init.done",
+        "bpytop.Collector.collect",
+        "<builtin>.isinstance",
+        "bpytop.Term.refresh",
+        "bpytop.Term.title",
+        "bpytop.Key.start",
+        "bpytop.Theme",
+        "bpytop.Box",
+        "bpytop.Collector.start",
+        "bpytop.Draw.buffer",
+        "bpytop.Init.success",
+        "bpytop.Box.calc_sizes",
+        "bpytop.clean_quit",
+        "bpytop.now_sleeping",
+        "bpytop.Fx.trans",
+        "bpytop.Term.echo",
+        "bpytop.CpuCollector.get_sensors",
+        "bpytop.UpdateChecker.run",
+        "bpytop.TimeIt.start",
+        "bpytop.main.run",
+        "bpytop.Init.start",
+        "bpytop.Init.fail",
+        "bpytop.Draw.now",
+        "bpytop.Draw.out",
+        "bpytop.now_awake"
+    ],
+    "bpytop.main.run": [
+        "bpytop.Timer.left",
+        "bpytop.Term.refresh",
+        "bpytop.Key.input_wait",
+        "bpytop.Collector.collect",
+        "bpytop.Timer.not_zero",
+        "bpytop.Timer.stamp",
+        "bpytop.process_keys"
+    ],
+    "bpytop.strtobool": [
+        "<builtin>.type",
+        "<**PyStr**>.lower",
+        "<builtin>.ValueError"
+    ],
+    "bpytop.Config.save_config": [
+        "<builtin>.str",
+        "<builtin>.open"
+    ],
+    "bpytop.Term.title": [
+        "<**PyDict**>.get"
+    ],
+    "bpytop.Fx.trans": [
+        "<**PyStr**>.replace"
+    ],
+    "bpytop.Key.last": [
+        "<**PyList**>.pop"
+    ],
+    "bpytop.Key.get": [
+        "<**PyList**>.pop"
+    ],
+    "bpytop.Key.has_key": [
+        "<builtin>.bool"
+    ],
+    "bpytop.Draw.now": [
+        "<builtin>.print"
+    ],
+    "bpytop.Draw.saved_buffer": [
+        "<builtin>.sorted"
+    ],
+    "bpytop.Color.__repr__": [
+        "<builtin>.repr"
+    ],
+    "bpytop.Color.__call__": [
+        "<**PyStr**>.join",
+        "<builtin>.getattr",
+        "<builtin>.len"
+    ],
+    "bpytop.Color.truecolor_to_256": [
+        "<builtin>.round"
+    ],
+    "bpytop.Theme.refresh": [
+        "<**PyStr**>.endswith",
+        "<builtin>.str"
+    ],
+    "bpytop.Theme._load_file": [
+        "<builtin>.str",
+        "<**PyStr**>.startswith",
+        "<builtin>.open",
+        "<**PyStr**>.find"
+    ],
+    "bpytop.Graph.__repr__": [
+        "<builtin>.repr"
+    ],
+    "bpytop.Meter.__repr__": [
+        "<builtin>.repr"
+    ],
+    "bpytop.Meter._create": [
+        "<builtin>.range",
+        "<builtin>.round"
+    ],
+    "bpytop.CpuBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.MemBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.NetBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.ProcBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.Collector.collect": [
+        "<**PyList**>.remove",
+        "<builtin>.list"
+    ],
+    "bpytop.CpuCollector.get_sensors": [
+        "<builtin>.bool",
+        "<**PyStr**>.lower",
+        "<**PyDict**>.items",
+        "<**PyStr**>.startswith",
+        "<**PyStr**>.isdigit",
+        "<**PyStr**>.endswith",
+        "<**PyStr**>.rstrip",
+        "<**PyStr**>.strip",
+        "<**PyStr**>.replace",
+        "<builtin>.hasattr"
+    ],
+    "bpytop.NetCollector._get_nics": [
+        "<**PyList**>.index",
+        "<builtin>.sorted",
+        "<builtin>.getattr",
+        "<**PyDict**>.keys",
+        "<**PyList**>.append"
+    ],
+    "bpytop.UpdateChecker._checker": [
+        "<**PyStr**>.index",
+        "<**PyStr**>.startswith",
+        "<**PyStr**>.strip"
+    ],
+    "bpytop.get_cpu_name": [
+        "<**PyStr**>.split",
+        "<**PyList**>.index",
+        "<**PyStr**>.isdigit",
+        "<**PyStr**>.endswith",
+        "<**PyStr**>.join",
+        "<**PyStr**>.replace",
+        "<**PyStr**>.lstrip"
+    ],
+    "bpytop.get_cpu_core_mapping": [
+        "<**PyStr**>.index",
+        "<**PyList**>.index",
+        "<builtin>.int",
+        "<builtin>.range",
+        "<**PyStr**>.startswith",
+        "<**PyList**>.extend",
+        "<builtin>.open",
+        "<**PyStr**>.strip",
+        "<**PyList**>.append"
+    ],
+    "bpytop.floating_humanizer": [
+        "<builtin>.int",
+        "<builtin>.len",
+        "<builtin>.float",
+        "<builtin>.round",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.units_to_bytes": [
+        "<**PyStr**>.lower",
+        "<builtin>.int",
+        "<**PyStr**>.isdigit",
+        "<**PyStr**>.endswith",
+        "<builtin>.float",
+        "<**PyStr**>.replace",
+        "<builtin>.round"
+    ],
+    "bpytop.min_max": [
+        "<builtin>.min",
+        "<builtin>.max"
+    ],
+    "bpytop.readfile": [
+        "<**PyFile**>.read",
+        "<builtin>.open",
+        "<**PyStr**>.strip"
+    ],
+    "bpytop.temperature": [
+        "<builtin>.round"
+    ]
+}

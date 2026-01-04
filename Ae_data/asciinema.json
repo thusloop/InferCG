@@ -1,0 +1,539 @@
+{
+    "asciinema.api.Api.__init__": [
+        "asciinema.urllib_http_adapter.URLLibHttpAdapter"
+    ],
+    "asciinema.api.Api.upload_asciicast": [
+        "<builtin>.str",
+        "asciinema.api.Api.upload_url",
+        "json.loads",
+        "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+        "<builtin>.open",
+        "asciinema.api.Api._handle_error",
+        "asciinema.api.APIError",
+        "asciinema.api.Api._headers"
+    ],
+    "asciinema.api.Api._headers": [
+        "asciinema.api.Api._user_agent"
+    ],
+    "asciinema.api.Api._handle_error": [
+        "asciinema.api.APIError",
+        "<**PyDict**>.get"
+    ],
+    "asciinema.async_worker.async_worker.__enter__": [
+        "multiprocessing.Process.start",
+        "asciinema.recorder.async_writer.run",
+        "asciinema.async_worker.async_worker.run",
+        "multiprocessing.Process"
+    ],
+    "asciinema.config.Config.upgrade": [
+        "asciinema.config.Config.__api_token",
+        "os.remove",
+        "<builtin>.dict",
+        "asciinema.config.Config.__user_token",
+        "asciinema.config.Config.__gen_install_id",
+        "<**PyDict**>.get",
+        "asciinema.config.Config.__save_install_id"
+    ],
+    "asciinema.config.Config.__save_install_id": [
+        "asciinema.config.Config.__create_config_home",
+        "<builtin>.open"
+    ],
+    "asciinema.config.Config.install_id": [
+        "asciinema.config.ConfigError",
+        "<**PyDict**>.get",
+        "asciinema.config.Config.__read_install_id"
+    ],
+    "asciinema.config.load": [
+        "asciinema.config.Config",
+        "asciinema.config.Config.upgrade",
+        "asciinema.config.get_config_home"
+    ],
+    "asciinema.notifier.LibNotifyNotifier.args": [
+        "asciinema.notifier.Notifier.get_icon_path"
+    ],
+    "asciinema.notifier.TerminalNotifier.args": [
+        "asciinema.notifier.Notifier.get_icon_path"
+    ],
+    "asciinema.notifier.CustomCommandNotifier.__init__": [
+        "asciinema.notifier.Notifier"
+    ],
+    "asciinema.notifier.CustomCommandNotifier.notify": [
+        "asciinema.notifier.Notifier.get_icon_path",
+        "<**PyDict**>.copy",
+        "subprocess.run"
+    ],
+    "asciinema.notifier.get_notifier": [
+        "asciinema.notifier.TerminalNotifier",
+        "asciinema.notifier.AppleScriptNotifier",
+        "asciinema.notifier.NoopNotifier",
+        "asciinema.notifier.LibNotifyNotifier",
+        "asciinema.notifier.Notifier.is_available",
+        "asciinema.notifier.CustomCommandNotifier"
+    ],
+    "asciinema.player.Player.play": [
+        "asciinema.player.Player._play",
+        "<builtin>.open",
+        "asciinema.term.raw.__enter__",
+        "asciinema.term.raw",
+        "asciinema.term.raw.__exit__"
+    ],
+    "asciinema.player.Player._play": [
+        "sys.stdout.flush",
+        "asciinema.asciicast.events.cap_relative_time",
+        "asciinema.asciicast.events.to_absolute_time",
+        "asciinema.asciicast.events.adjust_speed",
+        "time.time",
+        "asciinema.asciicast.events.to_relative_time",
+        "sys.stdout.write",
+        "asciinema.asciicast.v1.Asciicast.stdout_events",
+        "asciinema.asciicast.v2.Asciicast.stdout_events",
+        "asciinema.term.read_blocking"
+    ],
+    "asciinema.pty.record": [
+        "pty.fork",
+        "asciinema.pty.record._set_pty_size",
+        "signal.set_wakeup_fd",
+        "asciinema.pty.record._copy",
+        "asciinema.pty.record._signals",
+        "time.time",
+        "os.waitpid",
+        "fcntl.fcntl",
+        "asciinema.term.raw",
+        "<builtin>.map",
+        "os.execvpe",
+        "os.pipe"
+    ],
+    "asciinema.pty.record._handle_master_read": [
+        "asciinema.pty.record._write_stdout",
+        "time.time"
+    ],
+    "asciinema.pty.record._handle_stdin_read": [
+        "time.time",
+        "asciinema.recorder.async_writer.write_stdin",
+        "asciinema.asciicast.v2.writer.write_stdin",
+        "asciinema.asciicast.raw.writer.write_stdin",
+        "asciinema.pty.record._write_master",
+        "asciinema.pty.record._notify"
+    ],
+    "asciinema.pty.record._copy": [
+        "asciinema.pty.record._handle_master_read",
+        "struct.unpack",
+        "asciinema.pty.record._set_pty_size",
+        "select.select",
+        "os.close",
+        "asciinema.pty.record._handle_stdin_read",
+        "<builtin>.len",
+        "<**PyList**>.remove",
+        "os.read"
+    ],
+    "asciinema.recorder.record": [
+        "<**PyDict**>.update",
+        "<builtin>.int",
+        "time.time",
+        "os.environ.copy",
+        "asciinema.asciicast.v2.writer.__enter__",
+        "asciinema.asciicast.v2.get_duration",
+        "asciinema.recorder.async_notifier",
+        "asciinema.recorder.async_writer",
+        "asciinema.pty.record",
+        "asciinema.term.get_size",
+        "os.stat",
+        "<**PyDict**>.copy",
+        "<**PyDict**>.get",
+        "os.environ.get"
+    ],
+    "asciinema.recorder.async_writer.__init__": [
+        "asciinema.async_worker.async_worker"
+    ],
+    "asciinema.recorder.async_writer.write_stdin": [
+        "asciinema.async_worker.async_worker.enqueue"
+    ],
+    "asciinema.recorder.async_writer.write_stdout": [
+        "asciinema.async_worker.async_worker.enqueue"
+    ],
+    "asciinema.recorder.async_writer.run": [
+        "<builtin>.iter",
+        "asciinema.asciicast.v2.writer.__exit__",
+        "asciinema.asciicast.v2.writer.write_stdout",
+        "asciinema.asciicast.v2.writer.write_stdin"
+    ],
+    "asciinema.recorder.async_notifier.__init__": [
+        "asciinema.async_worker.async_worker"
+    ],
+    "asciinema.recorder.async_notifier.notify": [
+        "asciinema.async_worker.async_worker.enqueue"
+    ],
+    "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter": [
+        "<builtin>.str",
+        "<**PyStr**>.format",
+        "<**PyDict**>.items",
+        "asciinema.urllib_http_adapter.MultipartFormdataEncoder.u",
+        "<builtin>.len",
+        "codecs.getencoder",
+        "<**PyFile**>.read",
+        "<builtin>.isinstance"
+    ],
+    "asciinema.urllib_http_adapter.MultipartFormdataEncoder.encode": [
+        "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+        "io.BytesIO",
+        "io.BytesIO.getvalue",
+        "io.BytesIO.write"
+    ],
+    "asciinema.urllib_http_adapter.URLLibHttpAdapter.post": [
+        "<builtin>.str",
+        "urllib.request.urlopen",
+        "<**PyStr**>.encode",
+        "asciinema.http_adapter.HTTPConnectionError",
+        "asciinema.urllib_http_adapter.MultipartFormdataEncoder",
+        "asciinema.urllib_http_adapter.URLLibHttpAdapter._parse_headers",
+        "base64.encodebytes",
+        "asciinema.urllib_http_adapter.MultipartFormdataEncoder.encode",
+        "<**PyDict**>.copy",
+        "urllib.request.Request"
+    ],
+    "asciinema.record_asciicast": [
+        "asciinema.recorder.record"
+    ],
+    "asciinema.__main__": [
+        "asciinema.__main__.main"
+    ],
+    "asciinema.__main__.main": [
+        "argparse.ArgumentParser.parse_args",
+        "<builtin>.str",
+        "sys.stderr.write",
+        "asciinema.commands.upload.UploadCommand.execute",
+        "asciinema.commands.auth.AuthCommand.execute",
+        "asciinema.__main__.maybe_str",
+        "asciinema.commands.upload.UploadCommand",
+        "asciinema.config.Config.record_stdin",
+        "argparse.ArgumentParser.print_help",
+        "asciinema.commands.record.RecordCommand.execute",
+        "asciinema.commands.play.PlayCommand",
+        "asciinema.commands.auth.AuthCommand",
+        "<builtin>.print",
+        "<builtin>.hasattr",
+        "asciinema.commands.play.PlayCommand.execute",
+        "asciinema.commands.cat.CatCommand",
+        "argparse.ArgumentParser",
+        "argparse.ArgumentParser.add_argument",
+        "sys.exit",
+        "asciinema.commands.cat.CatCommand.execute",
+        "argparse.ArgumentParser.add_subparsers",
+        "locale.nl_langinfo",
+        "asciinema.config.load",
+        "<**PyStr**>.upper",
+        "asciinema.commands.record.RecordCommand"
+    ],
+    "asciinema.asciicast.v1.Asciicast.events": [
+        "asciinema.asciicast.v1.Asciicast.stdout_events"
+    ],
+    "asciinema.asciicast.v1.Asciicast.stdout_events": [
+        "asciinema.asciicast.events.to_absolute_time",
+        "asciinema.asciicast.v1.Asciicast.__stdout_events"
+    ],
+    "asciinema.asciicast.v1.open_from_file.__enter__": [
+        "asciinema.asciicast.v1.Asciicast",
+        "json.loads",
+        "asciinema.asciicast.v1.LoadError",
+        "asciinema.asciicast.LoadError",
+        "<**PyFile**>.read",
+        "<**PyDict**>.get"
+    ],
+    "asciinema.asciicast.v2.Asciicast.stdout_events": [
+        "asciinema.asciicast.v2.Asciicast.events"
+    ],
+    "asciinema.asciicast.v2.build_from_header_and_file": [
+        "asciinema.asciicast.v2.Asciicast"
+    ],
+    "asciinema.asciicast.v2.open_from_file.__enter__": [
+        "asciinema.asciicast.v2.build_from_header_and_file",
+        "json.loads",
+        "asciinema.asciicast.v2.LoadError",
+        "<**PyDict**>.get"
+    ],
+    "asciinema.asciicast.v2.get_duration": [
+        "<builtin>.open",
+        "asciinema.asciicast.v2.Asciicast.stdout_events",
+        "asciinema.asciicast.v2.open_from_file.__enter__",
+        "asciinema.asciicast.v2.open_from_file"
+    ],
+    "asciinema.asciicast.v2.writer.__init__": [
+        "codecs.getincrementaldecoder",
+        "asciinema.asciicast.v2.build_header"
+    ],
+    "asciinema.asciicast.v2.writer.__enter__": [
+        "asciinema.asciicast.v2.writer.__write_line",
+        "<builtin>.open"
+    ],
+    "asciinema.asciicast.v2.writer.write_stdout": [
+        "<builtin>.type",
+        "<**PyStr**>.encode",
+        "asciinema.asciicast.v2.writer.__write_event"
+    ],
+    "asciinema.asciicast.v2.writer.write_stdin": [
+        "<builtin>.type",
+        "<**PyStr**>.encode",
+        "asciinema.asciicast.v2.writer.__write_event"
+    ],
+    "asciinema.asciicast.v2.writer.__write_event": [
+        "asciinema.asciicast.v2.writer.__write_line",
+        "<builtin>.round"
+    ],
+    "asciinema.asciicast.open_url": [
+        "urllib.request.urlopen",
+        "<**PyStr**>.startswith",
+        "urllib.parse.urlunparse",
+        "asciinema.asciicast.Parser",
+        "urllib.request.Request.add_header",
+        "asciinema.asciicast.LoadError",
+        "asciinema.asciicast.v2.LoadError",
+        "<builtin>.open",
+        "gzip.open",
+        "codecs.getreader",
+        "os.path.dirname",
+        "urllib.request.Request",
+        "asciinema.asciicast.open_url",
+        "urllib.parse.urlparse"
+    ],
+    "asciinema.asciicast.open_from_url.__enter__": [
+        "<builtin>.str",
+        "asciinema.asciicast.v1.open_from_file",
+        "asciinema.asciicast.v1.open_from_file.__enter__",
+        "asciinema.asciicast.v2.open_from_file",
+        "asciinema.asciicast.LoadError",
+        "asciinema.asciicast.v2.open_from_file.__enter__",
+        "asciinema.asciicast.open_url"
+    ],
+    "asciinema.commands.auth.AuthCommand.__init__": [
+        "asciinema.commands.command.Command"
+    ],
+    "asciinema.commands.auth.AuthCommand.execute": [
+        "asciinema.api.Api.hostname",
+        "asciinema.commands.command.Command.print",
+        "asciinema.api.Api.auth_url"
+    ],
+    "asciinema.commands.cat.CatCommand.__init__": [
+        "asciinema.commands.command.Command"
+    ],
+    "asciinema.commands.cat.CatCommand.execute": [
+        "sys.stdout.flush",
+        "<builtin>.str",
+        "asciinema.asciicast.open_from_url.__exit__",
+        "asciinema.commands.command.Command.print_error",
+        "asciinema.asciicast.open_from_url.__enter__",
+        "sys.stdout.write",
+        "asciinema.asciicast.open_from_url",
+        "asciinema.asciicast.v1.Asciicast.stdout_events"
+    ],
+    "asciinema.commands.command.Command.__init__": [
+        "asciinema.api.Api"
+    ],
+    "asciinema.commands.command.Command.print_info": [
+        "asciinema.commands.command.Command.print"
+    ],
+    "asciinema.commands.command.Command.print_warning": [
+        "asciinema.commands.command.Command.print"
+    ],
+    "asciinema.commands.command.Command.print_error": [
+        "asciinema.commands.command.Command.print"
+    ],
+    "asciinema.commands.play.PlayCommand.__init__": [
+        "asciinema.player.Player",
+        "asciinema.commands.command.Command"
+    ],
+    "asciinema.commands.play.PlayCommand.execute": [
+        "<builtin>.str",
+        "asciinema.asciicast.open_from_url.__exit__",
+        "asciinema.commands.command.Command.print_error",
+        "asciinema.player.Player.play",
+        "asciinema.asciicast.open_from_url.__enter__",
+        "asciinema.asciicast.open_from_url"
+    ],
+    "asciinema.commands.record.RecordCommand.__init__": [
+        "asciinema.notifier.get_notifier"
+    ],
+    "asciinema.commands.record.RecordCommand.execute": [
+        "<**PyStr**>.split",
+        "os.access",
+        "asciinema.commands.command.Command.print_info",
+        "asciinema.commands.command.Command.print",
+        "asciinema.asciicast.raw.writer",
+        "<**PyStr**>.strip",
+        "asciinema.api.Api.hostname",
+        "os.stat",
+        "<**PyDict**>.get",
+        "asciinema.commands.command.Command.print_warning",
+        "os.remove",
+        "os.path.exists",
+        "asciinema.commands.command.Command.print_error",
+        "asciinema.commands.record._tmp_path",
+        "asciinema.asciicast.v2.writer.__enter__",
+        "<builtin>.filter",
+        "asciinema.asciicast.v2.writer.__exit__",
+        "asciinema.api.Api.upload_asciicast",
+        "sys.stdin.readline",
+        "asciinema.recorder.record",
+        "<builtin>.map"
+    ],
+    "asciinema.commands.upload.UploadCommand.__init__": [
+        "asciinema.commands.command.Command"
+    ],
+    "asciinema.commands.upload.UploadCommand.execute": [
+        "<builtin>.str",
+        "asciinema.commands.command.Command.print",
+        "asciinema.commands.command.Command.print_warning",
+        "asciinema.commands.command.Command.print_error",
+        "asciinema.api.Api.upload_asciicast",
+        "<**PyDict**>.get"
+    ],
+    "asciinema.api.Api.auth_url": [
+        "<**PyStr**>.format"
+    ],
+    "asciinema.api.Api.upload_url": [
+        "<**PyStr**>.format"
+    ],
+    "asciinema.async_worker.async_worker.run": [
+        "<builtin>.iter"
+    ],
+    "asciinema.config.Config.__read_install_id": [
+        "<**PyFile**>.read",
+        "<builtin>.open",
+        "<**PyStr**>.strip",
+        "os.path.isfile"
+    ],
+    "asciinema.config.Config.__gen_install_id": [
+        "<builtin>.str",
+        "uuid.uuid4"
+    ],
+    "asciinema.config.Config.api_url": [
+        "<**PyDict**>.get"
+    ],
+    "asciinema.config.get_config_home": [
+        "<builtin>.Exception",
+        "os.path.join",
+        "os.path.isfile"
+    ],
+    "asciinema.notifier.AppleScriptNotifier.args": [
+        "<**PyStr**>.format",
+        "<**PyStr**>.replace"
+    ],
+    "asciinema.pty.record._signals": [
+        "signal.signal",
+        "<**PyList**>.append"
+    ],
+    "asciinema.term.get_size": [
+        "<builtin>.int",
+        "subprocess.check_output"
+    ],
+    "asciinema.urllib_http_adapter.MultipartFormdataEncoder.__init__": [
+        "<**PyStr**>.format",
+        "uuid.uuid4"
+    ],
+    "asciinema.urllib_http_adapter.MultipartFormdataEncoder.u": [
+        "<builtin>.isinstance"
+    ],
+    "asciinema.urllib_http_adapter.URLLibHttpAdapter._parse_headers": [
+        "<**PyStr**>.lower"
+    ],
+    "asciinema": [
+        "<builtin>.ImportError"
+    ],
+    "asciinema.__main__.positive_float": [
+        "<builtin>.float",
+        "argparse.ArgumentTypeError"
+    ],
+    "asciinema.__main__.maybe_str": [
+        "<builtin>.str"
+    ],
+    "asciinema.asciicast.events.cap_relative_time": [
+        "<builtin>.min"
+    ],
+    "asciinema.asciicast.raw.writer.__enter__": [
+        "<builtin>.open"
+    ],
+    "asciinema.asciicast.v1.Asciicast.v2_header": [
+        "<**PyDict**>.items"
+    ],
+    "asciinema.asciicast.v2.Asciicast.__init__": [
+        "<**PyDict**>.get"
+    ],
+    "asciinema.asciicast.v2.build_header": [
+        "<**PyDict**>.update",
+        "<builtin>.type"
+    ],
+    "asciinema.asciicast.Parser.handle_starttag": [
+        "<**PyDict**>.get"
+    ],
+    "asciinema.commands.command.Command.print": [
+        "<builtin>.print"
+    ],
+    "asciinema.api.Api.hostname": [
+        "urllib.parse.urlparse"
+    ],
+    "asciinema.api.Api._user_agent": [
+        "platform.python_implementation",
+        "re.sub",
+        "platform.python_version",
+        "platform.platform"
+    ],
+    "asciinema.config.Config.__init__": [
+        "os.path.join",
+        "configparser.ConfigParser.read",
+        "configparser.ConfigParser"
+    ],
+    "asciinema.config.Config.__create_config_home": [
+        "os.makedirs",
+        "os.path.exists"
+    ],
+    "asciinema.notifier.Notifier.is_available": [
+        "shutil.which"
+    ],
+    "asciinema.notifier.Notifier.notify": [
+        "subprocess.run"
+    ],
+    "asciinema.notifier.Notifier.get_icon_path": [
+        "os.path.join",
+        "os.path.exists",
+        "os.path.dirname",
+        "os.path.realpath"
+    ],
+    "asciinema.pty.record._set_pty_size": [
+        "array.array",
+        "os.isatty",
+        "fcntl.ioctl"
+    ],
+    "asciinema.pty.record._write_stdout": [
+        "os.write"
+    ],
+    "asciinema.pty.record._write_master": [
+        "os.write"
+    ],
+    "asciinema.term.raw.__enter__": [
+        "tty.tcgetattr",
+        "tty.setraw"
+    ],
+    "asciinema.term.raw.__exit__": [
+        "tty.tcsetattr"
+    ],
+    "asciinema.term.read_blocking": [
+        "select.select",
+        "os.read"
+    ],
+    "asciinema.asciicast.raw.writer.__init__": [
+        "os.path.exists",
+        "os.stat"
+    ],
+    "asciinema.asciicast.v2.Asciicast.events": [
+        "json.loads"
+    ],
+    "asciinema.asciicast.v2.writer.__write_line": [
+        "json.dumps"
+    ],
+    "asciinema.asciicast.Parser.__init__": [
+        "html.parser.HTMLParser.__init__"
+    ],
+    "asciinema.commands.record._tmp_path": [
+        "tempfile.mkstemp",
+        "os.close"
+    ]
+}

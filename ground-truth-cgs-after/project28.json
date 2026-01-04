@@ -1,0 +1,885 @@
+{
+  "src.wtforms.validators": [
+    "re.compile",
+    "re.compile"
+  ],
+  "src.wtforms.widgets.core": [
+    "builtins.staticmethod"
+  ],
+  "src.wtforms.utils": [
+    "re.compile",
+    "wtforms.utils.UnsetValue"
+  ],
+  "src.wtforms.fields.core": [
+    "builtins.tuple",
+    "builtins.tuple",
+    "builtins.tuple",
+    "wtforms.i18n.DummyTranslations"
+  ],
+  "src.wtforms.fields.choices": [
+    "wtforms.widgets.core.Option",
+    "wtforms.widgets.core.Select",
+    "wtforms.widgets.core.Select",
+    "wtforms.widgets.core.ListWidget",
+    "wtforms.widgets.core.RadioInput"
+  ],
+  "src.wtforms.fields.datetime": [
+    "wtforms.widgets.core.DateTimeInput",
+    "wtforms.widgets.core.DateInput",
+    "wtforms.widgets.core.TimeInput",
+    "wtforms.widgets.core.MonthInput",
+    "wtforms.widgets.core.DateTimeLocalInput"
+  ],
+  "src.wtforms.fields.form": [
+    "wtforms.widgets.core.TableWidget"
+  ],
+  "src.wtforms.fields.list": [
+    "wtforms.widgets.core.ListWidget"
+  ],
+  "src.wtforms.fields.numeric": [
+    "wtforms.widgets.core.NumberInput",
+    "wtforms.widgets.core.NumberInput",
+    "wtforms.widgets.core.TextInput",
+    "wtforms.widgets.core.RangeInput",
+    "wtforms.widgets.core.RangeInput"
+  ],
+  "src.wtforms.fields.simple": [
+    "wtforms.widgets.core.CheckboxInput",
+    "wtforms.widgets.core.TextInput",
+    "wtforms.widgets.core.TextArea",
+    "wtforms.widgets.core.PasswordInput",
+    "wtforms.widgets.core.FileInput",
+    "wtforms.widgets.core.FileInput",
+    "wtforms.widgets.core.HiddenInput",
+    "wtforms.widgets.core.SubmitInput",
+    "wtforms.widgets.core.SearchInput",
+    "wtforms.widgets.core.TelInput",
+    "wtforms.widgets.core.URLInput",
+    "wtforms.widgets.core.EmailInput",
+    "wtforms.widgets.core.ColorInput"
+  ],
+  "src.wtforms.widgets.core.FileInput.__init__": [
+    "wtforms.widgets.core.Input.__init__"
+  ],
+  "src.wtforms.widgets.core.HiddenInput.__init__": [
+    "wtforms.widgets.core.Input.__init__"
+  ],
+  "src.wtforms.form": [
+    "wtforms.meta.DefaultMeta"
+  ],
+  "src.wtforms.form.FormMeta.__init__": [
+    "type.__init__"
+  ],
+  "src.wtforms.form.FormMeta.__setattr__": [
+    "str.startswith",
+    "type.__setattr__",
+    "builtins.hasattr"
+  ],
+  "src.wtforms.fields.core.Field.__new__": [
+    "wtforms.fields.core.UnboundField",
+    "object.__new__"
+  ],
+  "src.wtforms.fields.core.UnboundField.__init__": [
+    "dict.get",
+    "wtforms.fields.core.Field.check_validators"
+  ],
+  "src.wtforms.fields.core.Field.check_validators": [
+    "builtins.callable",
+    "inspect.isclass",
+    "str.format",
+    "builtins.TypeError",
+    "str.format",
+    "builtins.TypeError"
+  ],
+  "src.wtforms.form.FormMeta.__call__": [
+    "str.startswith",
+    "builtins.getattr",
+    "builtins.hasattr",
+    "list.append",
+    "list.sort",
+    "list.append",
+    "builtins.tuple",
+    "builtins.type",
+    "type.__call__"
+  ],
+  "src.wtforms.form.Form.__init__": [
+    "dynapyt.runtime.Meta",
+    "builtins.isinstance",
+    "wtforms.meta.DefaultMeta.update_values",
+    "wtforms.form.BaseForm.__init__",
+    "OrderedDict.items",
+    "builtins.setattr",
+    "wtforms.form.BaseForm.process"
+  ],
+  "src.wtforms.meta.DefaultMeta.update_values": [
+    "dict.items",
+    "builtins.setattr"
+  ],
+  "src.wtforms.form.BaseForm.__init__": [
+    "collections.OrderedDict",
+    "builtins.hasattr",
+    "wtforms.meta.DefaultMeta.get_translations",
+    "wtforms.meta.DefaultMeta.build_csrf",
+    "wtforms.csrf.core.CSRF.setup_form",
+    "list.extend",
+    "itertools.chain",
+    "builtins.dict",
+    "wtforms.meta.DefaultMeta.bind_field",
+    "wtforms.csrf.session.SessionCSRF.setup_form",
+    "dict.items",
+    "tests.test_i18n.TestTranslations.F2.Meta.get_translations"
+  ],
+  "src.wtforms.meta.DefaultMeta.build_csrf": [
+    "wtforms.csrf.core.CSRF",
+    "tests.test_csrf.DummyCSRF",
+    "wtforms.csrf.session.SessionCSRF",
+    "tests.test_csrf.TimePin"
+  ],
+  "src.wtforms.csrf.core.CSRF.setup_form": [
+    "wtforms.csrf.core.CSRFTokenField"
+  ],
+  "src.wtforms.meta.DefaultMeta.bind_field": [
+    "wtforms.fields.core.UnboundField.bind"
+  ],
+  "src.wtforms.fields.core.UnboundField.bind": [
+    "builtins.dict",
+    "wtforms.fields.simple.StringField",
+    "wtforms.csrf.core.CSRFTokenField",
+    "wtforms.fields.numeric.IntegerField",
+    "tests.test_form.TestForm.test_empty_formdata.<locals>.EmptyStringField",
+    "wtforms.fields.numeric.DecimalField",
+    "tests.test_webob.SneakyField",
+    "wtforms.fields.simple.BooleanField",
+    "wtforms.fields.simple.ColorField",
+    "tests.fields.test_custom.MyCustomField",
+    "wtforms.fields.choices.SelectFieldBase",
+    "wtforms.fields.datetime.DateField",
+    "wtforms.fields.datetime.DateTimeField",
+    "wtforms.fields.datetime.DateTimeLocalField",
+    "tests.fields.test_field.PrePostTestField",
+    "wtforms.fields.simple.FileField",
+    "wtforms.fields.simple.MultipleFileField",
+    "wtforms.fields.numeric.FloatField",
+    "wtforms.fields.form.FormField",
+    "wtforms.fields.simple.HiddenField",
+    "wtforms.fields.simple.SearchField",
+    "wtforms.fields.list.FieldList",
+    "wtforms.fields.datetime.MonthField",
+    "wtforms.fields.simple.PasswordField",
+    "wtforms.fields.choices.RadioField",
+    "wtforms.fields.choices.SelectField",
+    "wtforms.fields.choices.SelectMultipleField",
+    "wtforms.fields.simple.SubmitField",
+    "wtforms.fields.simple.TextAreaField",
+    "wtforms.fields.datetime.TimeField"
+  ],
+  "src.wtforms.fields.core.Field.__init__": [
+    "wtforms.fields.core.Flags",
+    "builtins.type",
+    "wtforms.fields.core.Field.check_validators",
+    "str.replace",
+    "str.title",
+    "wtforms.fields.core.Field.gettext",
+    "wtforms.fields.core.Label",
+    "itertools.chain",
+    "builtins.getattr",
+    "builtins.isinstance",
+    "dict.items",
+    "builtins.setattr",
+    "builtins.TypeError"
+  ],
+  "src.wtforms.fields.core.Field.gettext": [
+    "wtforms.i18n.DummyTranslations.gettext",
+    "gettext.GNUTranslations.gettext"
+  ],
+  "src.wtforms.csrf.core.CSRFTokenField.__init__": [
+    "dict.pop",
+    "wtforms.fields.core.Field.__init__"
+  ],
+  "src.wtforms.form.BaseForm.process": [
+    "wtforms.meta.DefaultMeta.wrap_formdata",
+    "OrderedDict.items",
+    "dict.get",
+    "builtins.getattr",
+    "wtforms.fields.core.Field.process",
+    "wtforms.csrf.core.CSRFTokenField.process",
+    "builtins.dict",
+    "tests.test_webob.SneakyField.process",
+    "builtins.hasattr",
+    "builtins.getattr",
+    "wtforms.fields.form.FormField.process",
+    "wtforms.fields.list.FieldList.process"
+  ],
+  "src.wtforms.fields.core.Field.process": [
+    "None",
+    "wtforms.fields.core.Field.process_data",
+    "itertools.chain",
+    "wtforms.fields.simple.StringField.process_formdata",
+    "tests.common.DummyPostData.getlist",
+    "wtforms.fields.numeric.IntegerField.process_data",
+    "wtforms.fields.numeric.IntegerField.process_formdata",
+    "wtforms.fields.numeric.DecimalField.process_formdata",
+    "wtforms.fields.simple.BooleanField.process_data",
+    "wtforms.fields.simple.BooleanField.process_formdata",
+    "True",
+    "#ff0000",
+    "#00ff00",
+    "tests.fields.test_custom.MyCustomField.process_data",
+    "wtforms.fields.datetime.DateField.process_formdata",
+    "list.append",
+    "wtforms.fields.datetime.DateTimeField.process_formdata",
+    "42",
+    "tests.fields.test_defaults.test_defaults.<locals>.default_callable",
+    "hello",
+    "wtforms.fields.core.Field.process_formdata",
+    "wtforms.fields.simple.MultipleFileField.process_formdata",
+    " hello",
+    "tests.fields.test_filters.F.<lambda>",
+    "builtins.int",
+    "list.append",
+    "LE DEFAULT",
+    "wtforms.fields.choices.SelectField.process_data",
+    "a",
+    "wtforms.fields.choices.SelectField.process_formdata",
+    "('a',)",
+    "wtforms.fields.choices.SelectMultipleField.process_data",
+    "wtforms.fields.choices.SelectMultipleField.process_formdata",
+    "('1', '3')"
+  ],
+  "src.wtforms.csrf.core.CSRFTokenField.process": [
+    "wtforms.fields.core.Field.process",
+    "tests.test_csrf.DummyCSRF.generate_csrf_token",
+    "wtforms.csrf.session.SessionCSRF.generate_csrf_token"
+  ],
+  "src.wtforms.form.Form.validate": [
+    "builtins.getattr",
+    "wtforms.form.BaseForm.validate",
+    "dict.setdefault",
+    "list.append"
+  ],
+  "src.wtforms.form.BaseForm.validate": [
+    "OrderedDict.items",
+    "builtins.tuple",
+    "wtforms.fields.core.Field.validate"
+  ],
+  "src.wtforms.fields.core.Field.validate": [
+    "builtins.list",
+    "wtforms.fields.core.Field.check_validators",
+    "wtforms.fields.core.Field.pre_validate",
+    "itertools.chain",
+    "wtforms.fields.core.Field._run_validation_chain",
+    "wtforms.fields.core.Field.post_validate",
+    "builtins.len",
+    "wtforms.csrf.core.CSRFTokenField.pre_validate",
+    "list.append",
+    "tests.fields.test_field.PrePostTestField.pre_validate",
+    "wtforms.fields.choices.SelectField.pre_validate",
+    "wtforms.fields.choices.SelectMultipleField.pre_validate"
+  ],
+  "src.wtforms.csrf.core.CSRFTokenField.pre_validate": [
+    "wtforms.csrf.core.CSRF.validate_csrf_token",
+    "wtforms.csrf.session.SessionCSRF.validate_csrf_token"
+  ],
+  "src.wtforms.csrf.core.CSRF.validate_csrf_token": [
+    "wtforms.fields.core.Field.gettext",
+    "wtforms.validators.ValidationError"
+  ],
+  "src.wtforms.validators.ValidationError.__init__": [
+    "ValueError.__init__"
+  ],
+  "src.wtforms.form.BaseForm.populate_obj": [
+    "OrderedDict.items",
+    "wtforms.fields.core.Field.populate_obj",
+    "wtforms.csrf.core.CSRFTokenField.populate_obj"
+  ],
+  "src.wtforms.fields.core.Field.populate_obj": [
+    "builtins.setattr"
+  ],
+  "src.wtforms.csrf.session.SessionCSRF.setup_form": [
+    "wtforms.csrf.core.CSRF.setup_form"
+  ],
+  "src.wtforms.csrf.session.SessionCSRF.session": [
+    "builtins.getattr"
+  ],
+  "src.wtforms.csrf.session.SessionCSRF.generate_csrf_token": [
+    "posix.urandom",
+    "_hashlib.openssl_sha1",
+    "HASH.hexdigest",
+    "wtforms.csrf.session.SessionCSRF.now",
+    "datetime.strftime",
+    "str.format",
+    "str.encode",
+    "hmac.new",
+    "hmac.HMAC.hexdigest"
+  ],
+  "src.wtforms.csrf.session.SessionCSRF.time_limit": [
+    "datetime.timedelta",
+    "builtins.getattr"
+  ],
+  "src.wtforms.csrf.session.SessionCSRF.now": [
+    "datetime.now"
+  ],
+  "src.wtforms.csrf.session.SessionCSRF.validate_csrf_token": [
+    "wtforms.fields.core.Field.gettext",
+    "wtforms.validators.ValidationError"
+  ],
+  "src.wtforms.form.BaseForm.data": [
+    "OrderedDict.items"
+  ],
+  "src.wtforms.fields.core.Field._run_validation_chain": [
+    "tests.test_form.TestBaseForm.get_form.<locals>.validate_test",
+    "list.append",
+    "tests.test_form.TestForm.F.validate_test",
+    "<wtforms.validators.DataRequired object at 0x7f67fb47b6a0>",
+    "<wtforms.validators.DataRequired object at 0x7f67fc014fd0>",
+    "list.append",
+    "<wtforms.validators.DataRequired object at 0x7f67fc1415d0>",
+    "<wtforms.validators.Length object at 0x7f67fc4715a0>"
+  ],
+  "src.wtforms.form.BaseForm.errors": [
+    "OrderedDict.items"
+  ],
+  "src.wtforms.form.BaseForm.__iter__": [
+    "OrderedDict.values",
+    "builtins.iter"
+  ],
+  "src.wtforms.form.BaseForm.__setitem__": [
+    "wtforms.fields.core.UnboundField.bind"
+  ],
+  "src.wtforms.meta.DefaultMeta.wrap_formdata": [
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "builtins.TypeError",
+    "wtforms.utils.WebobInputWrapper"
+  ],
+  "src.wtforms.fields.numeric.IntegerField.__init__": [
+    "wtforms.fields.core.Field.__init__"
+  ],
+  "src.wtforms.fields.numeric.IntegerField.process_formdata": [
+    "builtins.int"
+  ],
+  "src.wtforms.form.Form.__setitem__": [
+    "builtins.TypeError"
+  ],
+  "src.wtforms.form.Form.__delattr__": [
+    "wtforms.form.Form.__delitem__",
+    "builtins.getattr",
+    "object.__delattr__",
+    "builtins.hasattr",
+    "builtins.setattr"
+  ],
+  "src.wtforms.form.Form.__delitem__": [
+    "builtins.setattr"
+  ],
+  "src.wtforms.i18n.get_translations": [
+    "wtforms.i18n.get_builtin_gnu_translations",
+    "tests.test_i18n.TestI18N._test_converter.<locals>.<lambda>"
+  ],
+  "src.wtforms.i18n.get_builtin_gnu_translations": [
+    "wtforms.i18n.messages_path",
+    "gettext.translation"
+  ],
+  "src.wtforms.i18n.messages_path": [
+    "posixpath.abspath",
+    "posixpath.dirname",
+    "posixpath.join",
+    "genericpath.exists"
+  ],
+  "src.wtforms.meta.DefaultMeta.get_translations": [
+    "builtins.tuple",
+    "dict.get",
+    "wtforms.i18n.get_translations"
+  ],
+  "src.wtforms.validators.DataRequired.__call__": [
+    "wtforms.fields.core.Field.gettext",
+    "wtforms.validators.StopValidation",
+    "builtins.isinstance",
+    "str.strip",
+    "tests.conftest.DummyField.gettext"
+  ],
+  "src.wtforms.validators.StopValidation.__init__": [
+    "Exception.__init__"
+  ],
+  "src.wtforms.fields.core.Field.ngettext": [
+    "wtforms.i18n.DummyTranslations.ngettext",
+    "tests.test_i18n.ngettext_lower"
+  ],
+  "src.wtforms.validators.Length.__call__": [
+    "builtins.len",
+    "wtforms.fields.core.Field.ngettext",
+    "builtins.dict",
+    "wtforms.validators.ValidationError",
+    "tests.conftest.DummyField.ngettext",
+    "tests.conftest.DummyField.ngettext",
+    "tests.conftest.DummyField.gettext",
+    "tests.conftest.DummyField.ngettext"
+  ],
+  "src.wtforms.fields.numeric.DecimalField.__init__": [
+    "wtforms.fields.numeric.LocaleAwareNumberField.__init__",
+    "builtins.TypeError"
+  ],
+  "src.wtforms.fields.numeric.LocaleAwareNumberField.__init__": [
+    "wtforms.fields.core.Field.__init__",
+    "wtforms.fields.numeric.LocaleAwareNumberField._init_babel"
+  ],
+  "src.wtforms.fields.numeric.DecimalField._value": [
+    "wtforms.fields.numeric.LocaleAwareNumberField._format_decimal",
+    "builtins.str",
+    "builtins.hasattr",
+    "decimal.Decimal",
+    "Decimal.quantize",
+    "builtins.str"
+  ],
+  "src.wtforms.fields.numeric.LocaleAwareNumberField._format_decimal": [
+    "babel.numbers.format_decimal"
+  ],
+  "src.wtforms.fields.numeric.DecimalField.process_formdata": [
+    "wtforms.fields.numeric.LocaleAwareNumberField._parse_decimal",
+    "decimal.Decimal"
+  ],
+  "src.wtforms.fields.numeric.LocaleAwareNumberField._parse_decimal": [
+    "babel.numbers.parse_decimal"
+  ],
+  "src.wtforms.utils.WebobInputWrapper.__len__": [
+    "builtins.len"
+  ],
+  "src.wtforms.utils.WebobInputWrapper.__iter__": [
+    "builtins.iter"
+  ],
+  "src.wtforms.utils.WebobInputWrapper.getlist": [
+    "tests.test_webob.MockMultiDict.getall"
+  ],
+  "src.wtforms.widgets.core.html_params": [
+    "dict.items",
+    "builtins.sorted",
+    "wtforms.widgets.core.clean_key",
+    "builtins.str",
+    "markupsafe._speedups.escape",
+    "list.append",
+    "str.join",
+    "list.append"
+  ],
+  "src.wtforms.widgets.core.clean_key": [
+    "str.rstrip",
+    "str.startswith",
+    "str.replace"
+  ],
+  "src.wtforms.widgets.core.ListWidget.__call__": [
+    "dict.setdefault",
+    "wtforms.widgets.core.html_params",
+    "foo",
+    "list.append",
+    "bar",
+    "list.append",
+    "str.join",
+    "markupsafe.Markup",
+    "foo",
+    "list.append",
+    "bar"
+  ],
+  "src.wtforms.widgets.core.TableWidget.__call__": [
+    "dict.setdefault",
+    "wtforms.widgets.core.html_params",
+    "list.append",
+    "builtins.str",
+    "builtins.str",
+    "list.append",
+    "list.append",
+    "list.append",
+    "str.join",
+    "markupsafe.Markup"
+  ],
+  "src.wtforms.widgets.core.Input.__call__": [
+    "dict.setdefault",
+    "dict.setdefault",
+    "tests.conftest.DummyField._value",
+    "builtins.getattr",
+    "wtforms.widgets.core.html_params",
+    "markupsafe.Markup",
+    "wtforms.fields.simple.BooleanField._value",
+    "wtforms.fields.simple.StringField._value",
+    "builtins.getattr",
+    "wtforms.fields.simple.FileField._value"
+  ],
+  "src.wtforms.widgets.core.PasswordInput.__call__": [
+    "wtforms.widgets.core.Input.__call__"
+  ],
+  "src.wtforms.widgets.core.CheckboxInput.__call__": [
+    "builtins.getattr",
+    "wtforms.widgets.core.Input.__call__"
+  ],
+  "src.wtforms.widgets.core.RadioInput.__call__": [
+    "wtforms.widgets.core.Input.__call__"
+  ],
+  "src.wtforms.widgets.core.TextArea.__call__": [
+    "dict.setdefault",
+    "builtins.getattr",
+    "wtforms.widgets.core.html_params",
+    "tests.conftest.DummyField._value",
+    "markupsafe._speedups.escape",
+    "markupsafe.Markup"
+  ],
+  "src.wtforms.widgets.core.FileInput.__call__": [
+    "wtforms.widgets.core.Input.__call__"
+  ],
+  "src.wtforms.widgets.core.Select.__call__": [
+    "dict.setdefault",
+    "builtins.getattr",
+    "wtforms.widgets.core.html_params",
+    "tests.conftest.DummyField.has_groups",
+    "tests.conftest.DummyField.iter_choices",
+    "wtforms.widgets.core.Select.render_option",
+    "list.append",
+    "list.append",
+    "str.join",
+    "markupsafe.Markup",
+    "wtforms.fields.choices.SelectField.has_groups",
+    "wtforms.fields.choices.SelectField.iter_choices"
+  ],
+  "src.wtforms.widgets.core.Select.render_option": [
+    "builtins.dict",
+    "wtforms.widgets.core.html_params",
+    "markupsafe._speedups.escape",
+    "markupsafe.Markup",
+    "builtins.str"
+  ],
+  "src.wtforms.widgets.core.NumberInput.__call__": [
+    "dict.setdefault",
+    "wtforms.widgets.core.Input.__call__",
+    "dict.setdefault"
+  ],
+  "src.wtforms.widgets.core.RangeInput.__call__": [
+    "dict.setdefault",
+    "wtforms.widgets.core.Input.__call__"
+  ],
+  "src.wtforms.fields.simple.BooleanField.__init__": [
+    "wtforms.fields.core.Field.__init__"
+  ],
+  "src.wtforms.fields.simple.BooleanField.process_data": [
+    "builtins.bool"
+  ],
+  "src.wtforms.fields.core.Field.__call__": [
+    "wtforms.meta.DefaultMeta.render_field"
+  ],
+  "src.wtforms.meta.DefaultMeta.render_field": [
+    "dict.items",
+    "builtins.getattr",
+    "<wtforms.widgets.core.CheckboxInput object at 0x7f67fc13f6d0>",
+    "dict.items",
+    "wtforms.widgets.core.clean_key",
+    "builtins.dict",
+    "<wtforms.widgets.core.TextInput object at 0x7f67fc1c3bb0>",
+    "<wtforms.widgets.core.TextInput object at 0x7f67fbcc0550>",
+    "<wtforms.widgets.core.HiddenInput object at 0x7f67fc21d5a0>",
+    "<wtforms.widgets.core.ListWidget object at 0x7f67fc4df1c0>",
+    "<wtforms.widgets.core.Select object at 0x7f67fc3b84c0>",
+    "<wtforms.widgets.core.Select object at 0x7f67fc488640>",
+    "<wtforms.widgets.core.SubmitInput object at 0x7f67fc25ae60>",
+    "<wtforms.widgets.core.TextArea object at 0x7f67fc135ed0>"
+  ],
+  "src.wtforms.fields.simple.BooleanField._value": [
+    "builtins.str"
+  ],
+  "src.wtforms.fields.choices.SelectFieldBase.__init__": [
+    "wtforms.fields.core.Field.__init__"
+  ],
+  "src.wtforms.fields.choices.SelectFieldBase.iter_choices": [
+    "builtins.NotImplementedError"
+  ],
+  "src.wtforms.fields.datetime.DateField.__init__": [
+    "wtforms.fields.datetime.DateTimeField.__init__"
+  ],
+  "src.wtforms.fields.datetime.DateTimeField.__init__": [
+    "wtforms.fields.core.Field.__init__",
+    "builtins.isinstance",
+    "wtforms.utils.clean_datetime_format_for_strptime"
+  ],
+  "src.wtforms.utils.clean_datetime_format_for_strptime": [
+    "re.sub",
+    "str.replace"
+  ],
+  "src.wtforms.fields.datetime.DateField.process_formdata": [
+    "str.join",
+    "datetime.strptime",
+    "wtforms.fields.core.Field.gettext",
+    "builtins.ValueError"
+  ],
+  "src.wtforms.fields.datetime.DateTimeField.process_formdata": [
+    "str.join",
+    "datetime.strptime"
+  ],
+  "src.wtforms.fields.datetime.DateTimeLocalField.__init__": [
+    "dict.setdefault",
+    "wtforms.fields.datetime.DateTimeField.__init__"
+  ],
+  "src.wtforms.fields.core.UnboundField.__repr__": [
+    "str.format"
+  ],
+  "src.wtforms.fields.simple.StringField._value": [
+    "builtins.str"
+  ],
+  "src.wtforms.fields.core.Flags.__contains__": [
+    "builtins.getattr"
+  ],
+  "src.wtforms.fields.core.Flags.__getattr__": [
+    "str.startswith"
+  ],
+  "src.wtforms.fields.core.Flags.__repr__": [
+    "str.join",
+    "str.startswith"
+  ],
+  "src.wtforms.fields.numeric.FloatField.__init__": [
+    "wtforms.fields.core.Field.__init__"
+  ],
+  "src.wtforms.fields.form.FormField.__init__": [
+    "wtforms.fields.core.Field.__init__"
+  ],
+  "src.wtforms.fields.form.FormField.process": [
+    "None",
+    "builtins.isinstance",
+    "tests.fields.test_form.F"
+  ],
+  "src.wtforms.fields.core.Label.__call__": [
+    "dict.setdefault",
+    "wtforms.widgets.core.html_params",
+    "markupsafe._speedups.escape",
+    "markupsafe.Markup",
+    "dict.pop"
+  ],
+  "src.wtforms.fields.list.FieldList.__init__": [
+    "wtforms.fields.core.Field.__init__",
+    "builtins.isinstance",
+    "dict.get",
+    "dict.get",
+    "builtins.TypeError"
+  ],
+  "src.wtforms.fields.list.FieldList.process": [
+    "wtforms.fields.list.FieldList._add_entry",
+    "()",
+    "builtins.len",
+    "wtforms.fields.list.FieldList._add_entry",
+    "wtforms.fields.list.FieldList._extract_indices",
+    "builtins.set",
+    "builtins.sorted",
+    "builtins.iter",
+    "builtins.next",
+    "wtforms.fields.list.FieldList._add_entry"
+  ],
+  "src.wtforms.fields.list.FieldList._add_entry": [
+    "wtforms.fields.core.UnboundField.bind",
+    "builtins.len"
+  ],
+  "src.wtforms.fields.list.FieldList._extract_indices": [
+    "builtins.len",
+    "str.startswith",
+    "str.split",
+    "str.isdigit",
+    "builtins.int"
+  ],
+  "src.wtforms.fields.datetime.MonthField.__init__": [
+    "wtforms.fields.datetime.DateField.__init__"
+  ],
+  "src.wtforms.fields.choices.SelectField.__init__": [
+    "wtforms.fields.choices.SelectFieldBase.__init__",
+    "builtins.callable",
+    "builtins.isinstance",
+    "builtins.list",
+    "tests.fields.test_radio.test_callable_choices.<locals>.choices",
+    "tests.fields.test_select.test_callable_choices.<locals>.choices",
+    "tests.fields.test_selectmultiple.test_callable_choices.<locals>.choices"
+  ],
+  "src.wtforms.fields.choices.SelectField.process_data": [
+    "builtins.str"
+  ],
+  "src.wtforms.fields.choices.SelectFieldBase.__iter__": [
+    "builtins.dict",
+    "wtforms.fields.choices.SelectField.iter_choices",
+    "builtins.enumerate",
+    "wtforms.fields.choices.SelectFieldBase._Option",
+    "wtforms.fields.core.Field.process"
+  ],
+  "src.wtforms.fields.choices.SelectField.process_formdata": [
+    "builtins.int",
+    "builtins.str"
+  ],
+  "src.wtforms.fields.choices.SelectField.has_groups": [
+    "builtins.isinstance"
+  ],
+  "src.wtforms.fields.choices.SelectField.iter_choices": [
+    "builtins.isinstance",
+    "wtforms.fields.choices.SelectField._choices_generator",
+    "wtforms.fields.choices.SelectMultipleField._choices_generator"
+  ],
+  "src.wtforms.fields.choices.SelectField._choices_generator": [
+    "builtins.isinstance",
+    "builtins.str",
+    "builtins.int",
+    "builtins.zip"
+  ],
+  "src.wtforms.fields.choices.SelectField.pre_validate": [
+    "wtforms.fields.choices.SelectField.iter_choices",
+    "wtforms.fields.core.Field.gettext"
+  ],
+  "src.wtforms.fields.choices.SelectMultipleField.process_data": [
+    "builtins.str",
+    "builtins.int"
+  ],
+  "src.wtforms.fields.choices.SelectMultipleField.process_formdata": [
+    "builtins.str"
+  ],
+  "src.wtforms.fields.choices.SelectMultipleField._choices_generator": [
+    "builtins.isinstance",
+    "builtins.str"
+  ],
+  "src.wtforms.fields.choices.SelectMultipleField.pre_validate": [
+    "wtforms.fields.choices.SelectField.iter_choices",
+    "wtforms.fields.core.Field.gettext"
+  ],
+  "src.wtforms.widgets.core.SubmitInput.__call__": [
+    "dict.setdefault",
+    "wtforms.widgets.core.Input.__call__"
+  ],
+  "src.wtforms.fields.datetime.TimeField.__init__": [
+    "wtforms.fields.datetime.DateTimeField.__init__"
+  ],
+  "src.wtforms.validators.AnyOf.__call__": [
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.AnyOf.default_values_formatter",
+    "builtins.dict",
+    "wtforms.validators.ValidationError",
+    "tests.validators.test_anyof.test_any_of_values_formatter.<locals>.formatter"
+  ],
+  "src.wtforms.validators.AnyOf.default_values_formatter": [
+    "builtins.str"
+  ],
+  "src.wtforms.validators.Email.__call__": [
+    "email_validator.validate_email",
+    "email_validator.EmailNotValidError",
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.ValidationError",
+    "tests.conftest.DummyField.gettext"
+  ],
+  "src.wtforms.validators.EqualTo.__call__": [
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.ValidationError",
+    "builtins.hasattr",
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.ValidationError"
+  ],
+  "src.wtforms.validators.InputRequired.__call__": [
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.StopValidation"
+  ],
+  "src.wtforms.validators.IPAddress.__call__": [
+    "wtforms.validators.IPAddress.check_ipv4",
+    "wtforms.validators.IPAddress.check_ipv6",
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.ValidationError"
+  ],
+  "src.wtforms.validators.IPAddress.check_ipv4": [
+    "ipaddress.ip_address",
+    "builtins.isinstance"
+  ],
+  "src.wtforms.validators.IPAddress.check_ipv6": [
+    "ipaddress.ip_address",
+    "builtins.isinstance"
+  ],
+  "src.wtforms.validators.IPAddress.__init__": [
+    "builtins.ValueError"
+  ],
+  "src.wtforms.validators.Regexp.__init__": [
+    "builtins.isinstance",
+    "re.compile"
+  ],
+  "src.wtforms.validators.URL.__init__": [
+    "wtforms.validators.Regexp.__init__",
+    "wtforms.validators.HostnameValidation"
+  ],
+  "src.wtforms.validators.MacAddress.__init__": [
+    "wtforms.validators.Regexp.__init__"
+  ],
+  "src.wtforms.validators.MacAddress.__call__": [
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.Regexp.__call__"
+  ],
+  "src.wtforms.validators.Regexp.__call__": [
+    "Pattern.match",
+    "wtforms.validators.ValidationError",
+    "tests.conftest.DummyField.gettext"
+  ],
+  "src.wtforms.validators.NoneOf.__call__": [
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.NoneOf.default_values_formatter",
+    "builtins.dict",
+    "wtforms.validators.ValidationError"
+  ],
+  "src.wtforms.validators.NoneOf.default_values_formatter": [
+    "builtins.str"
+  ],
+  "src.wtforms.validators.NumberRange.__call__": [
+    "math.isnan",
+    "tests.conftest.DummyField.gettext",
+    "builtins.dict",
+    "wtforms.validators.ValidationError",
+    "tests.conftest.DummyField.gettext",
+    "tests.conftest.DummyField.gettext"
+  ],
+  "src.wtforms.validators.Optional.__call__": [
+    "builtins.isinstance",
+    "wtforms.validators.Optional.__init__.<locals>.<lambda>",
+    "wtforms.validators.StopValidation"
+  ],
+  "src.wtforms.validators.Optional.__init__": [
+    "str.strip"
+  ],
+  "src.wtforms.validators.URL.__call__": [
+    "tests.conftest.DummyField.gettext",
+    "wtforms.validators.Regexp.__call__",
+    "Match.group",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbb6f970>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fb077520>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbf810f0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fb0754e0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fa59e7d0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbf98700>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbb3eda0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbfe9480>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fc1c38e0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbfa68c0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbf523b0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fc1368c0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbb12bc0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fba675b0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fb5d5960>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbaee680>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67f9af7040>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67f93b17e0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fb1ecd90>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fb23be80>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbf94250>",
+    "wtforms.validators.ValidationError",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fb80bbe0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbfa6a70>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbb340a0>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fbb26230>",
+    "<wtforms.validators.HostnameValidation object at 0x7f67fa17a560>"
+  ],
+  "src.wtforms.validators.HostnameValidation.__call__": [
+    "wtforms.validators.IPAddress.check_ipv4",
+    "wtforms.validators.IPAddress.check_ipv6",
+    "str.encode",
+    "builtins.isinstance",
+    "bytes.decode",
+    "builtins.len",
+    "str.split",
+    "builtins.len",
+    "Pattern.match",
+    "builtins.len",
+    "Pattern.match"
+  ],
+  "src.wtforms.validators.UUID.__call__": [
+    "tests.conftest.DummyField.gettext",
+    "uuid.UUID",
+    "wtforms.validators.ValidationError"
+  ]
+}

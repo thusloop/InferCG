@@ -1,0 +1,299 @@
+{
+    "sshtunnel.create_logger": [
+        "sshtunnel._add_handler",
+        "sshtunnel._check_paramiko_handlers"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_local_bind_ports": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder._serve_forever_wrapper": [
+        "sshtunnel.address_to_str"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_tunnel_bindings_contain_active_tunnels": [
+        "tests.test_forwarder.SSHClientTest._test_server",
+        "tests.test_forwarder.SSHClientTest.randomize_eport"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_open_tunnel": [
+        "tests.test_forwarder.SSHClientTest.start_echo_and_ssh_server",
+        "tests.test_forwarder.SSHClientTest._check_server_auth"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_echo_server": [
+        "tests.test_forwarder.get_random_string",
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__enter__": [
+        "sshtunnel.SSHTunnelForwarder.start",
+        "sshtunnel.SSHTunnelForwarder.__exit__"
+    ],
+    "tests.test_forwarder.SSHClientTest._run_echo_server": [
+        "tests.test_forwarder.SSHClientTest.wait_for_thread"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_read_private_key_file": [
+        "tests.test_forwarder.get_test_data_path",
+        "sshtunnel.SSHTunnelForwarder.read_private_key_file"
+    ],
+    "sshtunnel.SSHTunnelForwarder._create_tunnels": [
+        "sshtunnel.SSHTunnelForwarder._connect_to_gateway",
+        "sshtunnel.SSHTunnelForwarder._make_ssh_forward_server"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.run_postgres_query": [
+        "e2e_tests.run_docker_e2e_db_tests.run_postgres_query.wait",
+        "e2e_tests.run_docker_e2e_db_tests.run_postgres_query.wait_timeout"
+    ],
+    "sshtunnel.SSHTunnelForwarder.stop": [
+        "sshtunnel.address_to_str",
+        "sshtunnel.SSHTunnelForwarder._stop_transport"
+    ],
+    "sshtunnel.check_addresses": [
+        "sshtunnel.check_address"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_is_up": [
+        "sshtunnel.check_address",
+        "sshtunnel.SSHTunnelForwarder.check_tunnels"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_cli_main_exits_when_pressing_enter": [
+        "tests.test_forwarder.SSHClientTest.stop_echo_and_ssh_server",
+        "tests.test_forwarder.SSHClientTest.start_echo_and_ssh_server"
+    ],
+    "tests.test_forwarder.SSHClientTest._test_server": [
+        "tests.test_forwarder.SSHClientTest._check_server_auth",
+        "tests.test_forwarder.SSHClientTest.start_echo_and_ssh_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.restart": [
+        "sshtunnel.SSHTunnelForwarder.stop",
+        "sshtunnel.SSHTunnelForwarder.start"
+    ],
+    "tests.test_forwarder.AuxiliaryTest.test_read_ssh_config": [
+        "sshtunnel.SSHTunnelForwarder._read_ssh_config",
+        "tests.test_forwarder.get_test_data_path"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__del__": [
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_missing_pkey_file_logs_warning": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_connect_by_paramiko_key": [
+        "tests.test_forwarder.SSHClientTest._test_server",
+        "tests.test_forwarder.get_test_data_path"
+    ],
+    "tests.test_forwarder.SSHClientTest.tearDown": [
+        "tests.test_forwarder.SSHClientTest.stop_echo_and_ssh_server",
+        "tests.test_forwarder.SSHClientTest.wait_for_thread"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__str__": [
+        "sshtunnel._remove_none_values"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_localbindaddress_port_is_optional": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_wrong_auth_to_gateway_logs_error": [
+        "tests.test_forwarder.SSHClientTest.randomize_eport",
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.open_tunnel": [
+        "sshtunnel.create_logger",
+        "sshtunnel.SSHTunnelForwarder._process_deprecated"
+    ],
+    "sshtunnel.SSHTunnelForwarder.start": [
+        "sshtunnel.address_to_str",
+        "sshtunnel.SSHTunnelForwarder._create_tunnels",
+        "sshtunnel.SSHTunnelForwarder._check_tunnel",
+        "sshtunnel.SSHTunnelForwarder._raise"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_local_bind_hosts": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_address": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_get_keys": [
+        "tests.test_forwarder.get_test_data_path",
+        "tests.test_forwarder.SSHClientTest.randomize_eport",
+        "tests.test_forwarder.SSHClientTest._test_server",
+        "sshtunnel.SSHTunnelForwarder.get_keys"
+    ],
+    "sshtunnel.SSHTunnelForwarder.check_tunnels": [
+        "sshtunnel.SSHTunnelForwarder._check_tunnel"
+    ],
+    "sshtunnel.check_address": [
+        "sshtunnel.check_host",
+        "sshtunnel.check_port"
+    ],
+    "sshtunnel._ForwardServer.__init__": [
+        "sshtunnel.create_logger"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_make_ssh_forward_server_sets_daemon_true": [
+        "tests.test_forwarder.SSHClientTest.check_make_ssh_forward_server_sets_daemon"
+    ],
+    "sshtunnel.SSHTunnelForwarder._stop_transport": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started",
+        "sshtunnel.address_to_str"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__repr__": [
+        "sshtunnel.SSHTunnelForwarder.__str__"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.run_db_queries": [
+        "e2e_tests.run_docker_e2e_db_tests.run_mongo_query",
+        "e2e_tests.run_docker_e2e_db_tests.run_postgres_query",
+        "e2e_tests.run_docker_e2e_db_tests.run_mysql_query"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_local_bind_port": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder._make_ssh_forward_server": [
+        "sshtunnel.SSHTunnelForwarder._raise",
+        "sshtunnel.SSHTunnelForwarder._make_ssh_forward_handler_class",
+        "sshtunnel.address_to_str"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.wait_and_check_or_restart_if_required": [
+        "sshtunnel.SSHTunnelForwarder.check_tunnels",
+        "sshtunnel.SSHTunnelForwarder.restart"
+    ],
+    "tests.test_forwarder.AuxiliaryTest.test_str": [
+        "tests.test_forwarder.get_test_data_path"
+    ],
+    "tests.test_forwarder.AuxiliaryTest.test_parse_arguments_long": [
+        "tests.test_forwarder.AuxiliaryTest._test_parser"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__init__": [
+        "sshtunnel.SSHTunnelForwarder._read_ssh_config",
+        "sshtunnel.SSHTunnelForwarder._process_deprecated",
+        "sshtunnel.SSHTunnelForwarder._consolidate_binds",
+        "sshtunnel.SSHTunnelForwarder._consolidate_auth",
+        "sshtunnel.SSHTunnelForwarder._get_binds",
+        "sshtunnel.create_logger",
+        "sshtunnel.check_port",
+        "sshtunnel.check_host",
+        "sshtunnel.check_address",
+        "sshtunnel._check_paramiko_handlers"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_port": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "tests.test_forwarder.AuxiliaryTest.test_show_running_version": [
+        "tests.test_forwarder.capture_stdout_stderr"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_addresses": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "tests.test_forwarder.SSHClientTest._run_ssh_server": [
+        "tests.test_forwarder.SSHClientTest.wait_for_thread",
+        "tests.test_forwarder.get_test_data_path"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_unix_domains": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.__exit__": [
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_tracing_logging": [
+        "tests.test_forwarder.get_random_string",
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.stop": [
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "tests.test_forwarder.AuxiliaryTest.test_parse_arguments_short": [
+        "tests.test_forwarder.capture_stdout_stderr",
+        "tests.test_forwarder.AuxiliaryTest._test_parser"
+    ],
+    "sshtunnel.SSHTunnelForwarder._consolidate_auth": [
+        "sshtunnel.SSHTunnelForwarder.get_keys",
+        "sshtunnel.SSHTunnelForwarder.read_private_key_file"
+    ],
+    "tests.test_forwarder.AuxiliaryTest.test_process_deprecations": [
+        "sshtunnel.SSHTunnelForwarder._process_deprecated"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_gateway_unreachable_raises_exception": [
+        "tests.test_forwarder.SSHClientTest.randomize_eport"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_connect_by_username_password": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_connect_by_rsa_key_file": [
+        "tests.test_forwarder.SSHClientTest._test_server",
+        "tests.test_forwarder.get_test_data_path"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_more_local_than_remote_bind_sizes_raises_exception": [
+        "tests.test_forwarder.SSHClientTest.randomize_eport"
+    ],
+    "sshtunnel._cli_main": [
+        "sshtunnel._remove_none_values",
+        "sshtunnel.open_tunnel",
+        "sshtunnel._parse_arguments"
+    ],
+    "tests.test_forwarder.SSHClientTest.setUp": [
+        "tests.test_forwarder.SSHClientTest.make_socket"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_local_bind_host": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.close": [
+        "sshtunnel.SSHTunnelForwarder.stop"
+    ],
+    "sshtunnel.SSHTunnelForwarder._get_binds": [
+        "sshtunnel.check_addresses"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_check_tunnels": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_ports": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "tests.test_forwarder.SSHClientTest.check_make_ssh_forward_server_sets_daemon": [
+        "tests.test_forwarder.SSHClientTest.start_echo_and_ssh_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder._connect_to_gateway": [
+        "sshtunnel.SSHTunnelForwarder._stop_transport",
+        "sshtunnel.SSHTunnelForwarder._get_transport"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_running_start_twice_logs_warning": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.get_keys": [
+        "sshtunnel.SSHTunnelForwarder.read_private_key_file",
+        "sshtunnel.SSHTunnelForwarder.get_agent_keys"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_make_ssh_forward_server_sets_daemon_false": [
+        "tests.test_forwarder.SSHClientTest.check_make_ssh_forward_server_sets_daemon"
+    ],
+    "sshtunnel._ForwardHandler.handle": [
+        "sshtunnel._ForwardHandler._redirect",
+        "sshtunnel.get_connection_id"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_hosts": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "sshtunnel._StreamForwardServer.__init__": [
+        "sshtunnel.create_logger"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_local_bind_address": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_localbindaddress_host_is_optional": [
+        "tests.test_forwarder.SSHClientTest.randomize_eport",
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "sshtunnel.SSHTunnelForwarder.local_bind_host": [
+        "sshtunnel.SSHTunnelForwarder._check_is_started"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_reading_from_a_bad_sshconfigfile_does_not_raise_error": [
+        "tests.test_forwarder.SSHClientTest.randomize_eport"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_localbindaddress_and_localbindaddresses_mutually_exclusive": [
+        "tests.test_forwarder.SSHClientTest.randomize_eport"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_local_bind_addresses": [
+        "tests.test_forwarder.SSHClientTest._test_server"
+    ],
+    "tests.test_forwarder.SSHClientTest.test_remotebindaddress_and_remotebindaddresses_are_exclusive": [
+        "tests.test_forwarder.SSHClientTest.randomize_eport"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests.start": [
+        "sshtunnel.SSHTunnelForwarder.start"
+    ],
+    "tests.test_forwarder.SSHClientTest.start_echo_and_ssh_server": [
+        "tests.test_forwarder.SSHClientTest.start_echo_server"
+    ]
+}

@@ -1,0 +1,205 @@
+{
+  "docs.conf": [
+    "sys.path.insert",
+    "os.path.abspath"
+  ],
+  "os.path.abspath": [],
+  "sys.path.insert": [],
+  "schedule": [
+    "logging.getLogger",
+    "schedule.Scheduler.__init__"
+  ],
+  "logging.getLogger": [],
+  "schedule.Scheduler.__init__": [],
+  "schedule.Scheduler.run_pending": [
+    "schedule.Scheduler._run_job",
+    "<builtin>.sorted"
+  ],
+  "<builtin>.sorted": [],
+  "schedule.Scheduler._run_job": [
+    "<builtin>.isinstance",
+    "schedule.Scheduler.cancel_job"
+  ],
+  "schedule.Scheduler.run_all": [
+    "schedule.Scheduler._run_job",
+    "time.sleep",
+    "<builtin>.len",
+    "logging.getLogger.debug"
+  ],
+  "<builtin>.len": [],
+  "logging.getLogger.debug": [],
+  "time.sleep": [],
+  "schedule.Scheduler.get_jobs": [],
+  "schedule.Scheduler.clear": [
+    "logging.getLogger.debug"
+  ],
+  "schedule.Scheduler.cancel_job": [
+    "<builtin>.str",
+    "logging.getLogger.debug"
+  ],
+  "<builtin>.str": [],
+  "schedule.Scheduler.every": [
+    "schedule.Job.__init__"
+  ],
+  "schedule.Job.__init__": [
+    "<builtin>.set"
+  ],
+  "<builtin>.isinstance": [],
+  "schedule.Scheduler.get_next_run": [
+    "<builtin>.min",
+    "schedule.Scheduler.get_jobs"
+  ],
+  "<builtin>.min": [],
+  "<builtin>.property": [],
+  "schedule.Scheduler": [
+    "<builtin>.property"
+  ],
+  "schedule.Scheduler.idle_seconds": [
+    "datetime.datetime.now"
+  ],
+  "datetime.datetime.now": [],
+  "<builtin>.set": [],
+  "schedule.Job.__lt__": [],
+  "schedule.Job.__str__": [
+    "<builtin>.hasattr",
+    "<builtin>.repr"
+  ],
+  "<builtin>.hasattr": [],
+  "<builtin>.repr": [],
+  "schedule.Job.__repr__": [
+    "<builtin>.str",
+    "schedule.Job.__repr__.format_time",
+    "<builtin>.dict",
+    "schedule.Job.__repr__.is_repr",
+    "<builtin>.hasattr",
+    "functools.partial.keywords.items",
+    "<builtin>.repr"
+  ],
+  "schedule.Job.__repr__.format_time": [
+    "pytz.timezone.localize.astimezone.replace.strftime"
+  ],
+  "pytz.timezone.localize.astimezone.replace.strftime": [],
+  "schedule.Job.__repr__.is_repr": [
+    "<builtin>.isinstance"
+  ],
+  "functools.partial.keywords.items": [],
+  "<builtin>.dict": [],
+  "schedule.Job.second": [],
+  "schedule.Job.seconds": [],
+  "schedule.Job.minute": [],
+  "schedule.Job.minutes": [],
+  "schedule.Job.hour": [],
+  "schedule.Job.hours": [],
+  "schedule.Job.day": [],
+  "schedule.Job.days": [],
+  "schedule.Job.week": [],
+  "schedule.Job.weeks": [],
+  "schedule.Job.monday": [],
+  "schedule.Job.tuesday": [],
+  "schedule.Job.wednesday": [],
+  "schedule.Job.thursday": [],
+  "schedule.Job.friday": [],
+  "schedule.Job.saturday": [],
+  "schedule.Job.sunday": [],
+  "schedule.Job.tag": [
+    "<builtin>.all",
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.all": [],
+  "<builtin>.TypeError": [],
+  "schedule.Job.at": [
+    "re.match",
+    "<builtin>.len",
+    "<builtin>.isinstance",
+    "<builtin>.TypeError",
+    "<builtin>.int",
+    "datetime.time",
+    "pytz.timezone"
+  ],
+  "pytz.timezone": [],
+  "re.match": [],
+  "<builtin>.int": [],
+  "datetime.time": [],
+  "schedule.Job.to": [],
+  "schedule.Job.until": [
+    "datetime.datetime.combine",
+    "<builtin>.isinstance",
+    "datetime.datetime.now",
+    "<builtin>.TypeError",
+    "schedule.Job._decode_datetimestr"
+  ],
+  "datetime.datetime.combine": [],
+  "schedule.Job._decode_datetimestr": [
+    "datetime.datetime.strptime"
+  ],
+  "schedule.Job.do": [
+    "functools.partial",
+    "functools.update_wrapper",
+    "schedule.Job._schedule_next_run"
+  ],
+  "functools.partial": [],
+  "functools.update_wrapper": [],
+  "schedule.Job._schedule_next_run": [
+    "schedule.Job.next_run.replace",
+    "pytz.timezone.localize",
+    "pytz.timezone.localize.astimezone.replace.weekday",
+    "datetime.datetime.now",
+    "pytz.timezone.localize.astimezone",
+    "pytz.timezone.localize.astimezone.replace",
+    "datetime.timedelta",
+    "random.randint"
+  ],
+  "schedule.Job.should_run": [
+    "datetime.datetime.now"
+  ],
+  "schedule.Job.run": [
+    "schedule.Job._schedule_next_run",
+    "schedule.Job._is_overdue",
+    "logging.getLogger.debug",
+    "datetime.datetime.now",
+    "functools.partial"
+  ],
+  "schedule.Job._is_overdue": [],
+  "random.randint": [],
+  "datetime.timedelta": [],
+  "pytz.timezone.localize.astimezone.replace.weekday": [],
+  "schedule.Job.next_run.replace": [],
+  "pytz.timezone.localize": [],
+  "pytz.timezone.localize.astimezone": [],
+  "pytz.timezone.localize.astimezone.replace": [],
+  "datetime.datetime.strptime": [],
+  "schedule.every": [
+    "schedule.Scheduler.every"
+  ],
+  "schedule.run_pending": [
+    "schedule.Scheduler.run_pending"
+  ],
+  "schedule.run_all": [
+    "schedule.Scheduler.run_all"
+  ],
+  "schedule.get_jobs": [
+    "schedule.Scheduler.get_jobs"
+  ],
+  "schedule.clear": [
+    "schedule.Scheduler.clear"
+  ],
+  "schedule.cancel_job": [
+    "schedule.Scheduler.cancel_job"
+  ],
+  "schedule.next_run": [
+    "schedule.Scheduler.get_next_run"
+  ],
+  "schedule.idle_seconds": [],
+  "schedule.repeat": [],
+  "schedule.repeat._schedule_decorator": [],
+  "setup": [
+    "setup.read_file",
+    "setuptools.setup"
+  ],
+  "setup.read_file": [
+    "codecs.open"
+  ],
+  "codecs.open": [],
+  "setuptools.setup": []
+}

@@ -1,0 +1,216 @@
+{
+  "schedule.__init__": [
+    "logging.getLogger",
+    "builtins.property",
+    "schedule.Scheduler"
+  ],
+  "schedule.__init__.clear": [
+    "schedule.Scheduler.clear"
+  ],
+  "schedule.__init__.Scheduler.clear": [
+    "logging.Logger.debug"
+  ],
+  "schedule.__init__.every": [
+    "schedule.Scheduler.every"
+  ],
+  "schedule.__init__.Scheduler.every": [
+    "schedule.Job"
+  ],
+  "schedule.__init__.Job.__init__": [
+    "builtins.set"
+  ],
+  "schedule.__init__.Job.at": [
+    "builtins.isinstance",
+    "re.match",
+    "str.split",
+    "builtins.len",
+    "builtins.len",
+    "builtins.len",
+    "builtins.int",
+    "builtins.int",
+    "builtins.int",
+    "builtins.int",
+    "datetime.time",
+    "re.match",
+    "re.match",
+    "builtins.isinstance",
+    "pytz.timezone",
+    "schedule.ScheduleValueError",
+    "schedule.ScheduleValueError",
+    "schedule.ScheduleValueError"
+  ],
+  "schedule.__init__.Job.do": [
+    "functools.partial",
+    "functools.update_wrapper",
+    "schedule.Job._schedule_next_run",
+    "list.append"
+  ],
+  "schedule.__init__.Job._schedule_next_run": [
+    "datetime.timedelta",
+    "datetime.now",
+    "datetime.replace",
+    "datetime.now",
+    "datetime.time",
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "mock_datetime.__enter__.<locals>.MockDate.replace",
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "datetime.timedelta",
+    "datetime.timedelta",
+    "pytz.tzinfo.DstTzInfo.localize",
+    "mock_datetime.__enter__.<locals>.MockDate.astimezone",
+    "mock_datetime.__enter__.<locals>.MockDate.replace",
+    "mock_datetime.__enter__.<locals>.MockDate.time",
+    "datetime.timedelta",
+    "tuple.index",
+    "mock_datetime.__enter__.<locals>.MockDate.weekday",
+    "datetime.timedelta",
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "random.Random.randint",
+    "schedule.ScheduleValueError",
+    "schedule.ScheduleValueError",
+    "str.format",
+    "schedule.ScheduleValueError"
+  ],
+  "schedule.__init__.run_all": [
+    "schedule.Scheduler.run_all"
+  ],
+  "schedule.__init__.Scheduler.run_all": [
+    "builtins.len",
+    "logging.Logger.debug",
+    "schedule.Scheduler._run_job",
+    "time.sleep"
+  ],
+  "schedule.__init__.Scheduler._run_job": [
+    "schedule.Job.run",
+    "builtins.isinstance",
+    "schedule.Scheduler.cancel_job"
+  ],
+  "schedule.__init__.Job.run": [
+    "datetime.now",
+    "schedule.Job._is_overdue",
+    "logging.Logger.debug",
+    "test_schedule.SchedulerTests.test_cancel_job.<locals>.stop_job",
+    "datetime.now",
+    "schedule.Job._schedule_next_run",
+    "schedule.Job._is_overdue",
+    "functools.partial(<Mock id='140671604716016'>)",
+    "test_schedule.SchedulerTests.test_cancel_jobs.<locals>.stop_job",
+    "functools.partial(<Mock id='140671599994016'>)",
+    "functools.partial(<Mock id='140671600295792'>, 1, 2, 'three', foo=23, bar={})",
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "functools.partial(<Mock id='140671600442816'>)",
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "functools.partial(<Mock id='140671595570096'>)",
+    "functools.partial(<Mock id='140671599426432'>)",
+    "test_schedule.SchedulerTests.test_run_all_with_decorator_args.<locals>.job",
+    "test_schedule.SchedulerTests.test_run_all_with_decorator_defaultargs.<locals>.job",
+    "functools.partial(<Mock id='140671598783712'>)",
+    "functools.partial(<Mock id='140671600427696'>)",
+    "functools.partial(<Mock id='140671597575856'>)"
+  ],
+  "schedule.__init__.Scheduler.cancel_job": [
+    "builtins.str",
+    "logging.Logger.debug",
+    "list.remove"
+  ],
+  "schedule.__init__.Job.__str__": [
+    "builtins.hasattr",
+    "str.format",
+    "builtins.repr"
+  ],
+  "schedule.__init__.Job.tag": [
+    "builtins.isinstance",
+    "set.update",
+    "builtins.TypeError"
+  ],
+  "schedule.__init__.get_jobs": [
+    "schedule.Scheduler.get_jobs"
+  ],
+  "schedule.__init__.Scheduler.get_next_run": [
+    "schedule.Scheduler.get_jobs",
+    "builtins.min"
+  ],
+  "schedule.__init__.Scheduler.idle_seconds": [
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "timedelta.total_seconds"
+  ],
+  "schedule.__init__.cancel_job": [
+    "schedule.Scheduler.cancel_job"
+  ],
+  "schedule.__init__.next_run": [
+    "schedule.Scheduler.get_next_run"
+  ],
+  "schedule.__init__.Scheduler.run_pending": [
+    "builtins.sorted",
+    "schedule.Scheduler._run_job"
+  ],
+  "schedule.__init__.Job.__repr__": [
+    "schedule.Job.__repr__.<locals>.format_time",
+    "schedule.Job.__repr__.<locals>.format_time",
+    "builtins.hasattr",
+    "builtins.repr",
+    "schedule.Job.__repr__.<locals>.is_repr",
+    "builtins.repr",
+    "dict.items",
+    "builtins.repr",
+    "str.join",
+    "builtins.dict"
+  ],
+  "schedule.__init__.Job.format_time": [
+    "datetime.strftime",
+    "mock_datetime.__enter__.<locals>.MockDate.strftime"
+  ],
+  "schedule.__init__.Job.is_repr": [
+    "builtins.isinstance"
+  ],
+  "schedule.__init__._schedule_decorator": [
+    "schedule.Job.do"
+  ],
+  "schedule.__init__.run_pending": [
+    "schedule.Scheduler.run_pending"
+  ],
+  "schedule.__init__.Job.should_run": [
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now"
+  ],
+  "schedule.__init__.Job.minute": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.hour": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.day": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.week": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.monday": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.tuesday": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.wednesday": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.thursday": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.friday": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.saturday": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.sunday": [
+    "schedule.IntervalError"
+  ],
+  "schedule.__init__.Job.until": [
+    "builtins.isinstance",
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "test_schedule.mock_datetime.__enter__.<locals>.MockDate.now",
+    "mock_datetime.__enter__.<locals>.MockDate.combine"
+  ]
+}

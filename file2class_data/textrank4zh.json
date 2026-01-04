@@ -1,0 +1,244 @@
+{
+    "networkx.exception": [
+        "networkx.exception.NetworkXUnbounded",
+        "networkx.exception.NetworkXUnfeasible",
+        "networkx.exception.AmbiguousSolution",
+        "networkx.exception.NetworkXNoCycle",
+        "networkx.exception.NetworkXNotImplemented",
+        "networkx.exception.NetworkXException",
+        "networkx.exception.NetworkXAlgorithmError",
+        "networkx.exception.NetworkXNoPath",
+        "networkx.exception.ExceededMaxIterations",
+        "networkx.exception.PowerIterationFailedConvergence",
+        "networkx.exception.NetworkXError",
+        "networkx.exception.NodeNotFound",
+        "networkx.exception.HasACycle",
+        "networkx.exception.NetworkXPointlessConcept"
+    ],
+    "networkx.lazy_imports": [
+        "networkx.lazy_imports.DelayedImportErrorModule"
+    ],
+    "networkx.algorithms.chordal": [
+        "networkx.algorithms.chordal.NetworkXTreewidthBoundExceeded"
+    ],
+    "networkx.algorithms.clique": [
+        "networkx.algorithms.clique.MaxWeightClique"
+    ],
+    "networkx.algorithms.cycles": [
+        "networkx.algorithms.cycles._NeighborhoodCache"
+    ],
+    "networkx.algorithms.planarity": [
+        "networkx.algorithms.planarity.LRPlanarity",
+        "networkx.algorithms.planarity.PlanarEmbedding",
+        "networkx.algorithms.planarity.ConflictPair",
+        "networkx.algorithms.planarity.Interval"
+    ],
+    "networkx.algorithms.simple_paths": [
+        "networkx.algorithms.simple_paths.PathBuffer"
+    ],
+    "networkx.classes.coreviews": [
+        "networkx.classes.coreviews.FilterAdjacency",
+        "networkx.classes.coreviews.MultiAdjacencyView",
+        "networkx.classes.coreviews.FilterMultiAdjacency",
+        "networkx.classes.coreviews.UnionMultiAdjacency",
+        "networkx.classes.coreviews.AtlasView",
+        "networkx.classes.coreviews.FilterAtlas",
+        "networkx.classes.coreviews.AdjacencyView",
+        "networkx.classes.coreviews.UnionMultiInner",
+        "networkx.classes.coreviews.UnionAtlas",
+        "networkx.classes.coreviews.FilterMultiInner",
+        "networkx.classes.coreviews.UnionAdjacency"
+    ],
+    "networkx.classes.digraph": [
+        "networkx.classes.digraph._CachedPropertyResetterAdjAndSucc",
+        "networkx.classes.digraph.DiGraph",
+        "networkx.classes.digraph._CachedPropertyResetterPred"
+    ],
+    "networkx.classes.filters": [
+        "networkx.classes.filters.show_nodes"
+    ],
+    "networkx.classes.graph": [
+        "networkx.classes.graph.Graph",
+        "networkx.classes.graph._CachedPropertyResetterNode",
+        "networkx.classes.graph._CachedPropertyResetterAdj"
+    ],
+    "networkx.classes.multidigraph": [
+        "networkx.classes.multidigraph.MultiDiGraph"
+    ],
+    "networkx.classes.multigraph": [
+        "networkx.classes.multigraph.MultiGraph"
+    ],
+    "networkx.classes.reportviews": [
+        "networkx.classes.reportviews.OutEdgeView",
+        "networkx.classes.reportviews.DiDegreeView",
+        "networkx.classes.reportviews.OutEdgeDataView",
+        "networkx.classes.reportviews.OutMultiDegreeView",
+        "networkx.classes.reportviews.MultiEdgeView",
+        "networkx.classes.reportviews.InDegreeView",
+        "networkx.classes.reportviews.NodeView",
+        "networkx.classes.reportviews.OutMultiEdgeView",
+        "networkx.classes.reportviews.EdgeView",
+        "networkx.classes.reportviews.InEdgeView",
+        "networkx.classes.reportviews.EdgeDataView",
+        "networkx.classes.reportviews.NodeDataView",
+        "networkx.classes.reportviews.InMultiEdgeDataView",
+        "networkx.classes.reportviews.DegreeView",
+        "networkx.classes.reportviews.InMultiDegreeView",
+        "networkx.classes.reportviews.OutMultiEdgeDataView",
+        "networkx.classes.reportviews.DiMultiDegreeView",
+        "networkx.classes.reportviews.InMultiEdgeView",
+        "networkx.classes.reportviews.MultiDegreeView",
+        "networkx.classes.reportviews.InEdgeDataView",
+        "networkx.classes.reportviews.OutDegreeView",
+        "networkx.classes.reportviews.MultiEdgeDataView"
+    ],
+    "networkx.generators.degree_seq": [
+        "networkx.generators.degree_seq.DegreeSequenceRandomGraph"
+    ],
+    "networkx.generators.internet_as_graphs": [
+        "networkx.generators.internet_as_graphs.AS_graph_generator"
+    ],
+    "networkx.linalg.algebraicconnectivity": [
+        "networkx.linalg.algebraicconnectivity._PCGSolver",
+        "networkx.linalg.algebraicconnectivity._LUSolver"
+    ],
+    "networkx.readwrite.gexf": [
+        "networkx.readwrite.gexf.GEXFReader",
+        "networkx.readwrite.gexf.GEXF",
+        "networkx.readwrite.gexf.GEXFWriter"
+    ],
+    "networkx.readwrite.gml": [
+        "networkx.readwrite.gml.Token",
+        "networkx.readwrite.gml.Pattern"
+    ],
+    "networkx.readwrite.graphml": [
+        "networkx.readwrite.graphml.GraphMLReader",
+        "networkx.readwrite.graphml.IncrementalElement",
+        "networkx.readwrite.graphml.GraphMLWriter",
+        "networkx.readwrite.graphml.GraphMLWriterLxml",
+        "networkx.readwrite.graphml.GraphML"
+    ],
+    "networkx.readwrite.text": [
+        "networkx.readwrite.text.AsciiBaseGlyphs",
+        "networkx.readwrite.text.BaseGlyphs",
+        "networkx.readwrite.text.UtfUndirectedGlyphs",
+        "networkx.readwrite.text.UtfDirectedGlyphs",
+        "networkx.readwrite.text.AsciiDirectedGlyphs",
+        "networkx.readwrite.text.AsciiUndirectedGlyphs",
+        "networkx.readwrite.text.UtfBaseGlyphs"
+    ],
+    "networkx.utils.decorators": [
+        "networkx.utils.decorators.argmap"
+    ],
+    "networkx.utils.heaps": [
+        "networkx.utils.heaps.MinHeap",
+        "networkx.utils.heaps.BinaryHeap",
+        "networkx.utils.heaps.PairingHeap"
+    ],
+    "networkx.utils.mapped_queue": [
+        "networkx.utils.mapped_queue._HeapElement",
+        "networkx.utils.mapped_queue.MappedQueue"
+    ],
+    "networkx.utils.misc": [
+        "networkx.utils.misc.PythonRandomInterface"
+    ],
+    "networkx.utils.union_find": [
+        "networkx.utils.union_find.UnionFind"
+    ],
+    "networkx.algorithms.approximation.kcomponents": [
+        "networkx.algorithms.approximation.kcomponents._AntiGraph"
+    ],
+    "networkx.algorithms.approximation.treewidth": [
+        "networkx.algorithms.approximation.treewidth.MinDegreeHeuristic"
+    ],
+    "networkx.algorithms.centrality.flow_matrix": [
+        "networkx.algorithms.centrality.flow_matrix.FullInverseLaplacian",
+        "networkx.algorithms.centrality.flow_matrix.SuperLUInverseLaplacian",
+        "networkx.algorithms.centrality.flow_matrix.InverseLaplacian",
+        "networkx.algorithms.centrality.flow_matrix.CGInverseLaplacian"
+    ],
+    "networkx.algorithms.coloring.greedy_coloring": [
+        "networkx.algorithms.coloring.greedy_coloring._Node",
+        "networkx.algorithms.coloring.greedy_coloring._AdjEntry"
+    ],
+    "networkx.algorithms.community.quality": [
+        "networkx.algorithms.community.quality.NotAPartition"
+    ],
+    "networkx.algorithms.connectivity.edge_kcomponents": [
+        "networkx.algorithms.connectivity.edge_kcomponents.EdgeComponentAuxGraph"
+    ],
+    "networkx.algorithms.flow.networksimplex": [
+        "networkx.algorithms.flow.networksimplex._DataEssentialsAndFunctions"
+    ],
+    "networkx.algorithms.flow.utils": [
+        "networkx.algorithms.flow.utils.GlobalRelabelThreshold",
+        "networkx.algorithms.flow.utils.CurrentEdge",
+        "networkx.algorithms.flow.utils.Level"
+    ],
+    "networkx.algorithms.isomorphism.ismags": [
+        "networkx.algorithms.isomorphism.ismags.ISMAGS"
+    ],
+    "networkx.algorithms.isomorphism.isomorphvf2": [
+        "networkx.algorithms.isomorphism.isomorphvf2.GraphMatcher",
+        "networkx.algorithms.isomorphism.isomorphvf2.GMState",
+        "networkx.algorithms.isomorphism.isomorphvf2.DiGraphMatcher",
+        "networkx.algorithms.isomorphism.isomorphvf2.DiGMState"
+    ],
+    "networkx.algorithms.isomorphism.temporalisomorphvf2": [
+        "networkx.algorithms.isomorphism.temporalisomorphvf2.TimeRespectingGraphMatcher",
+        "networkx.algorithms.isomorphism.temporalisomorphvf2.TimeRespectingDiGraphMatcher"
+    ],
+    "networkx.algorithms.isomorphism.vf2userfunc": [
+        "networkx.algorithms.isomorphism.vf2userfunc.GraphMatcher",
+        "networkx.algorithms.isomorphism.vf2userfunc.MultiGraphMatcher",
+        "networkx.algorithms.isomorphism.vf2userfunc.MultiDiGraphMatcher",
+        "networkx.algorithms.isomorphism.vf2userfunc.DiGraphMatcher"
+    ],
+    "networkx.algorithms.tree.branchings": [
+        "networkx.algorithms.tree.branchings.MultiDiGraph_EdgeKey",
+        "networkx.algorithms.tree.branchings.ArborescenceIterator",
+        "networkx.algorithms.tree.branchings.Edmonds"
+    ],
+    "networkx.algorithms.tree.coding": [
+        "networkx.algorithms.tree.coding.NotATree"
+    ],
+    "networkx.algorithms.tree.mst": [
+        "networkx.algorithms.tree.mst.EdgePartition",
+        "networkx.algorithms.tree.mst.SpanningTreeIterator"
+    ],
+    "textrank4zh.Segmentation": [
+        "textrank4zh.Segmentation.WordSegmentation",
+        "textrank4zh.Segmentation.SentenceSegmentation",
+        "textrank4zh.Segmentation.Segmentation"
+    ],
+    "textrank4zh.TextRank4Keyword": [
+        "textrank4zh.TextRank4Keyword.TextRank4Keyword"
+    ],
+    "textrank4zh.TextRank4Sentence": [
+        "textrank4zh.TextRank4Sentence.TextRank4Sentence"
+    ],
+    "textrank4zh.util": [
+        "textrank4zh.util.AttrDict"
+    ],
+    "codecs": [
+        "codecs.BufferedIncrementalEncoder",
+        "codecs.Codec",
+        "codecs.StreamReaderWriter",
+        "codecs.CodecInfo",
+        "codecs.StreamRecoder",
+        "codecs.StreamWriter",
+        "codecs.IncrementalEncoder",
+        "codecs.BufferedIncrementalDecoder",
+        "codecs.IncrementalDecoder",
+        "codecs.StreamReader"
+    ],
+    "os": [
+        "os._AddedDllDirectory",
+        "os.PathLike",
+        "os._wrap_close",
+        "os._Environ"
+    ],
+    "__future__": [
+        "__future__._Feature"
+    ]
+}

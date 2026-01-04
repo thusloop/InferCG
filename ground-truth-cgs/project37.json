@@ -1,0 +1,1015 @@
+{
+  "elasticsearch_dsl.serializer": [
+    "elasticsearch_dsl.serializer.AttrJSONSerializer"
+  ],
+  "elasticsearch_dsl.connections": [
+    "elasticsearch_dsl.connections.Connections"
+  ],
+  "elasticsearch_dsl.aggs": [
+    "builtins.staticmethod"
+  ],
+  "elasticsearch_dsl.function": [
+    "builtins.staticmethod"
+  ],
+  "elasticsearch_dsl.query": [
+    "builtins.staticmethod",
+    "elasticsearch_dsl.query.MatchAll"
+  ],
+  "elasticsearch_dsl.field": [
+    "builtins.staticmethod",
+    "elasticsearch_dsl.field.Integer",
+    "elasticsearch_dsl.field.Float",
+    "elasticsearch_dsl.field.Long",
+    "elasticsearch_dsl.field.Double",
+    "elasticsearch_dsl.field.Date"
+  ],
+  "elasticsearch_dsl.field.Field.__init__": [
+    "elasticsearch_dsl.utils.DslBase.__init__"
+  ],
+  "elasticsearch_dsl.field.Date.__init__": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.field.Field.__init__",
+    "<dateutil.tz.tz.__get_gettz.<locals>.GettzFunc object at 0x7fc529c81900>"
+  ],
+  "elasticsearch_dsl.mapping": [
+    "builtins.frozenset"
+  ],
+  "elasticsearch_dsl.search": [
+    "elasticsearch_dsl.search.ProxyDescriptor",
+    "elasticsearch_dsl.search.ProxyDescriptor"
+  ],
+  "elasticsearch_dsl.update_by_query": [
+    "elasticsearch_dsl.search.ProxyDescriptor"
+  ],
+  "elasticsearch_dsl.index": [
+    "builtins.property"
+  ],
+  "elasticsearch_dsl.document.DocumentMeta.__new__": [
+    "elasticsearch_dsl.document.DocumentOptions",
+    "type.__new__"
+  ],
+  "elasticsearch_dsl.document.DocumentOptions.__init__": [
+    "dict.pop",
+    "elasticsearch_dsl.mapping.Mapping",
+    "builtins.getattr",
+    "dict.items",
+    "builtins.list",
+    "builtins.isinstance",
+    "builtins.getattr",
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "elasticsearch_dsl.mapping.Mapping.field",
+    "elasticsearch_dsl.mapping.Mapping.update",
+    "builtins.getattr",
+    "elasticsearch_dsl.mapping.Mapping.meta"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.__init__": [
+    "elasticsearch_dsl.mapping.Properties"
+  ],
+  "elasticsearch_dsl.mapping.Properties.__init__": [
+    "elasticsearch_dsl.utils.DslBase.__init__"
+  ],
+  "elasticsearch_dsl.document.IndexMeta.__new__": [
+    "elasticsearch_dsl.document.DocumentMeta.__new__",
+    "dict.pop",
+    "elasticsearch_dsl.document.IndexMeta.construct_index",
+    "elasticsearch_dsl.index.Index.document"
+  ],
+  "elasticsearch_dsl.__init__": [
+    "builtins.map",
+    "str.join"
+  ],
+  "elasticsearch_dsl.analysis.AnalysisBase._type_shortcut": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.analysis.CustomAnalyzer",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.analysis.BuiltinTokenizer",
+    "elasticsearch_dsl.analysis.BuiltinTokenFilter",
+    "elasticsearch_dsl.analysis.BuiltinAnalyzer",
+    "elasticsearch_dsl.analysis.CustomTokenFilter",
+    "elasticsearch_dsl.analysis.MultiplexerTokenFilter",
+    "elasticsearch_dsl.analysis.ConditionalTokenFilter",
+    "elasticsearch_dsl.analysis.BuiltinNormalizer",
+    "elasticsearch_dsl.analysis.BuiltinCharFilter",
+    "elasticsearch_dsl.analysis.CustomTokenizer",
+    "elasticsearch_dsl.analysis.CustomCharFilter",
+    "elasticsearch_dsl.analysis.CustomNormalizer"
+  ],
+  "elasticsearch_dsl.analysis.CustomAnalysis.__init__": [
+    "elasticsearch_dsl.utils.DslBase.__init__"
+  ],
+  "elasticsearch_dsl.analysis.BuiltinAnalysis.__init__": [
+    "elasticsearch_dsl.utils.DslBase.__init__"
+  ],
+  "elasticsearch_dsl.field.construct_field": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "dict.copy",
+    "dict.pop",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.field.Text",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.field.Text",
+    "elasticsearch_dsl.field.Keyword",
+    "elasticsearch_dsl.field.Keyword",
+    "elasticsearch_dsl.field.Object",
+    "elasticsearch_dsl.field.Nested"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.field": [
+    "elasticsearch_dsl.mapping.Properties.field"
+  ],
+  "elasticsearch_dsl.mapping.Properties.field": [
+    "elasticsearch_dsl.field.construct_field"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.__iter__": [
+    "builtins.iter"
+  ],
+  "elasticsearch_dsl.field.Object.__init__": [
+    "copy.deepcopy",
+    "elasticsearch_dsl.field.Field.__init__",
+    "builtins.type",
+    "dict.items",
+    "elasticsearch_dsl.mapping.Mapping.field",
+    "elasticsearch_dsl.mapping.Mapping.meta"
+  ],
+  "elasticsearch_dsl.document.IndexMeta.construct_index": [
+    "builtins.getattr",
+    "elasticsearch_dsl.index.Index",
+    "builtins.getattr",
+    "elasticsearch_dsl.index.Index.settings",
+    "builtins.getattr",
+    "elasticsearch_dsl.index.Index.aliases",
+    "builtins.getattr",
+    "builtins.hasattr",
+    "elasticsearch_dsl.index.Index"
+  ],
+  "elasticsearch_dsl.index.Index.settings": [
+    "dict.update"
+  ],
+  "elasticsearch_dsl.index.Index.aliases": [
+    "dict.update"
+  ],
+  "elasticsearch_dsl.index.Index.document": [
+    "list.append"
+  ],
+  "elasticsearch_dsl.field.Nested.__init__": [
+    "dict.setdefault",
+    "elasticsearch_dsl.field.Object.__init__"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.meta": [
+    "str.startswith"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.update": [
+    "elasticsearch_dsl.mapping.Mapping.field",
+    "builtins.hasattr"
+  ],
+  "elasticsearch_dsl.wrappers.Range.__init__": [
+    "elasticsearch_dsl.utils.AttrDict.__init__",
+    "builtins.len",
+    "builtins.isinstance",
+    "builtins.ValueError",
+    "builtins.ValueError",
+    "builtins.ValueError",
+    "builtins.ValueError"
+  ],
+  "elasticsearch_dsl.aggs.A": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.aggs.Max",
+    "elasticsearch_dsl.aggs.Terms",
+    "dict.copy",
+    "dict.pop",
+    "dict.pop",
+    "builtins.len",
+    "dict.popitem",
+    "dict.copy",
+    "dict.copy",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.aggs.Terms",
+    "elasticsearch_dsl.aggs.Max",
+    "builtins.ValueError",
+    "builtins.ValueError",
+    "builtins.ValueError",
+    "elasticsearch_dsl.aggs.Filter",
+    "elasticsearch_dsl.aggs.Filters",
+    "elasticsearch_dsl.aggs.Sum",
+    "elasticsearch_dsl.aggs.BucketSort",
+    "elasticsearch_dsl.aggs.Percentiles",
+    "elasticsearch_dsl.aggs.MovingPercentiles",
+    "elasticsearch_dsl.aggs.DateHistogram",
+    "elasticsearch_dsl.aggs.Stats",
+    "elasticsearch_dsl.aggs.TopHits"
+  ],
+  "elasticsearch_dsl.aggs.Bucket.__init__": [
+    "elasticsearch_dsl.utils.DslBase.__init__"
+  ],
+  "elasticsearch_dsl.aggs.Bucket.to_dict": [
+    "elasticsearch_dsl.aggs.Agg.to_dict",
+    "dict.pop"
+  ],
+  "elasticsearch_dsl.aggs.Agg.to_dict": [
+    "elasticsearch_dsl.utils.DslBase.to_dict",
+    "dict.pop"
+  ],
+  "elasticsearch_dsl.aggs.AggBase.__getitem__": [
+    "dict.setdefault",
+    "builtins.isinstance",
+    "elasticsearch_dsl.aggs.A"
+  ],
+  "elasticsearch_dsl.aggs.AggBase.bucket": [
+    "elasticsearch_dsl.aggs.AggBase._agg"
+  ],
+  "elasticsearch_dsl.aggs.AggBase._agg": [
+    "elasticsearch_dsl.aggs.A"
+  ],
+  "elasticsearch_dsl.aggs.AggBase.__setitem__": [
+    "elasticsearch_dsl.aggs.A"
+  ],
+  "elasticsearch_dsl.aggs.AggBase.metric": [
+    "elasticsearch_dsl.aggs.AggBase._agg"
+  ],
+  "elasticsearch_dsl.query.Q": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.query.Term",
+    "builtins.len",
+    "dict.copy",
+    "dict.popitem",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.query.Term",
+    "elasticsearch_dsl.query.MatchAll",
+    "elasticsearch_dsl.query.Bool",
+    "elasticsearch_dsl.query.Match",
+    "elasticsearch_dsl.query.Bool",
+    "elasticsearch_dsl.query.Match",
+    "builtins.ValueError",
+    "builtins.ValueError",
+    "elasticsearch_dsl.query.FunctionScore",
+    "elasticsearch_dsl.query.FunctionScore",
+    "elasticsearch_dsl.query.Terms",
+    "elasticsearch_dsl.query.ScriptScore",
+    "elasticsearch_dsl.query.MatchAll",
+    "elasticsearch_dsl.query.Filtered"
+  ],
+  "elasticsearch_dsl.aggs.Filter.__init__": [
+    "elasticsearch_dsl.aggs.Bucket.__init__"
+  ],
+  "elasticsearch_dsl.aggs.Filter.to_dict": [
+    "elasticsearch_dsl.aggs.Bucket.to_dict",
+    "dict.pop",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.aggs.AggBase.pipeline": [
+    "elasticsearch_dsl.aggs.AggBase._agg"
+  ],
+  "elasticsearch_dsl.analysis.CustomAnalysis.get_definition": [
+    "elasticsearch_dsl.utils.DslBase.to_dict",
+    "dict.pop"
+  ],
+  "elasticsearch_dsl.analysis.CustomAnalysisDefinition.get_analysis_definition": [
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition",
+    "builtins.getattr",
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "elasticsearch_dsl.analysis.MultiplexerTokenFilter.get_definition",
+    "builtins.hasattr",
+    "elasticsearch_dsl.analysis.MultiplexerTokenFilter.get_analysis_definition",
+    "elasticsearch_dsl.utils.merge",
+    "elasticsearch_dsl.analysis.ConditionalTokenFilter.get_definition",
+    "elasticsearch_dsl.analysis.ConditionalTokenFilter.get_analysis_definition",
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition",
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition",
+    "builtins.hasattr",
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition"
+  ],
+  "elasticsearch_dsl.analysis.MultiplexerTokenFilter.get_definition": [
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition",
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "elasticsearch_dsl.analysis.CustomAnalysis.to_dict"
+  ],
+  "elasticsearch_dsl.analysis.MultiplexerTokenFilter.get_analysis_definition": [
+    "builtins.hasattr",
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.analysis.ConditionalTokenFilter.get_definition": [
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition",
+    "builtins.hasattr",
+    "elasticsearch_dsl.analysis.CustomAnalysis.to_dict"
+  ],
+  "elasticsearch_dsl.analysis.ConditionalTokenFilter.get_analysis_definition": [
+    "builtins.hasattr",
+    "builtins.hasattr",
+    "elasticsearch_dsl.analysis.CustomAnalysis.get_definition"
+  ],
+  "elasticsearch_dsl.connections.Connections.get_connection": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.connections.Connections.create_connection",
+    "builtins.KeyError"
+  ],
+  "elasticsearch_dsl.connections.Connections.configure": [
+    "builtins.list",
+    "dict.get"
+  ],
+  "elasticsearch_dsl.connections.Connections.create_connection": [
+    "dict.setdefault",
+    "elasticsearch.client.Elasticsearch"
+  ],
+  "elasticsearch_dsl.wrappers.Range.__contains__": [
+    "builtins.isinstance",
+    "_operator.lt",
+    "_operator.ge",
+    "_operator.le",
+    "_operator.gt"
+  ],
+  "elasticsearch_dsl.document.Document.to_dict": [
+    "elasticsearch_dsl.utils.ObjectBase.to_dict",
+    "elasticsearch_dsl.document.Document._get_index"
+  ],
+  "elasticsearch_dsl.field.Field.serialize": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.field.RangeField._serialize",
+    "elasticsearch_dsl.field.Field._serialize",
+    "elasticsearch_dsl.field.Ip._serialize",
+    "tests.test_document.SecretField._serialize",
+    "builtins.map",
+    "builtins.list",
+    "elasticsearch_dsl.field.Object._serialize",
+    "elasticsearch_dsl.field.Binary._serialize"
+  ],
+  "elasticsearch_dsl.field.RangeField._serialize": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.utils.AttrDict.to_dict",
+    "dict.items",
+    "elasticsearch_dsl.field.Field.serialize"
+  ],
+  "elasticsearch_dsl.document.InnerDoc.from_es": [
+    "elasticsearch_dsl.utils.ObjectBase.from_es"
+  ],
+  "elasticsearch_dsl.field.Field.deserialize": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.field.RangeField._deserialize",
+    "elasticsearch_dsl.field.Integer._deserialize",
+    "tests.test_document.SecretField._deserialize",
+    "elasticsearch_dsl.field.Object._deserialize",
+    "elasticsearch_dsl.field.Date._deserialize",
+    "elasticsearch_dsl.field.Boolean._deserialize",
+    "elasticsearch_dsl.field.Ip._deserialize",
+    "elasticsearch_dsl.field.Float._deserialize",
+    "elasticsearch_dsl.field.Binary._deserialize",
+    "elasticsearch_dsl.field.Date._deserialize",
+    "elasticsearch_dsl.field.Field._deserialize",
+    "elasticsearch_dsl.field.Object._deserialize"
+  ],
+  "elasticsearch_dsl.field.RangeField._deserialize": [
+    "builtins.isinstance",
+    "dict.items",
+    "elasticsearch_dsl.field.Field.deserialize",
+    "elasticsearch_dsl.wrappers.Range"
+  ],
+  "elasticsearch_dsl.field.Integer._deserialize": [
+    "builtins.int"
+  ],
+  "elasticsearch_dsl.index.Index.resolve_nested": [
+    "elasticsearch_dsl.mapping.Mapping.resolve_nested"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.resolve_nested": [
+    "str.split",
+    "builtins.enumerate",
+    "builtins.isinstance",
+    "str.join",
+    "list.append"
+  ],
+  "elasticsearch_dsl.field.Ip._serialize": [
+    "builtins.str"
+  ],
+  "elasticsearch_dsl.document.Document._matches": [
+    "dict.get",
+    "fnmatch.fnmatch"
+  ],
+  "elasticsearch_dsl.field.Object.clean": [
+    "elasticsearch_dsl.field.Field.clean",
+    "builtins.isinstance",
+    "elasticsearch_dsl.utils.ObjectBase.full_clean",
+    "elasticsearch_dsl.utils.ObjectBase.full_clean"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.to_dict": [
+    "elasticsearch_dsl.mapping.Properties.to_dict",
+    "dict.update",
+    "dict.copy",
+    "dict.copy",
+    "dict.get",
+    "builtins.hasattr"
+  ],
+  "elasticsearch_dsl.mapping.Properties.to_dict": [
+    "elasticsearch_dsl.utils.DslBase.to_dict"
+  ],
+  "elasticsearch_dsl.field.CustomField.to_dict": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.field.Field.to_dict",
+    "elasticsearch_dsl.field.Field.to_dict"
+  ],
+  "elasticsearch_dsl.field.Field.to_dict": [
+    "elasticsearch_dsl.utils.DslBase.to_dict",
+    "dict.popitem"
+  ],
+  "elasticsearch_dsl.field.Object.empty": [
+    "elasticsearch_dsl.utils.AttrList",
+    "elasticsearch_dsl.field.Object._empty"
+  ],
+  "elasticsearch_dsl.field.Object._serialize": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.document.Document.to_dict",
+    "elasticsearch_dsl.utils.ObjectBase.to_dict"
+  ],
+  "elasticsearch_dsl.field.Field.empty": [
+    "elasticsearch_dsl.utils.AttrList",
+    "elasticsearch_dsl.field.Field._empty"
+  ],
+  "elasticsearch_dsl.document.Document._get_index": [
+    "builtins.getattr",
+    "builtins.getattr",
+    "elasticsearch_dsl.exceptions.ValidationException"
+  ],
+  "elasticsearch_dsl.field.Object._deserialize": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "elasticsearch_dsl.field.Object._wrap"
+  ],
+  "elasticsearch_dsl.field.Object._wrap": [
+    "elasticsearch_dsl.document.InnerDoc.from_es"
+  ],
+  "elasticsearch_dsl.field.Object.to_dict": [
+    "elasticsearch_dsl.mapping.Mapping.to_dict",
+    "elasticsearch_dsl.field.Field.to_dict",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.field.Object._empty": [
+    "elasticsearch_dsl.field.Object._wrap"
+  ],
+  "elasticsearch_dsl.field.Field.clean": [
+    "elasticsearch_dsl.field.Field.deserialize",
+    "elasticsearch_dsl.exceptions.ValidationException"
+  ],
+  "elasticsearch_dsl.field.Date._deserialize": [
+    "builtins.isinstance",
+    "dateutil.parser._parser.parse",
+    "elasticsearch_dsl.exceptions.ValidationException",
+    "builtins.isinstance",
+    "datetime.replace"
+  ],
+  "elasticsearch_dsl.document.Document.save": [
+    "elasticsearch_dsl.utils.ObjectBase.full_clean",
+    "elasticsearch_dsl.document.Document._get_connection",
+    "dict.update",
+    "elasticsearch_dsl.document.Document._get_index"
+  ],
+  "elasticsearch_dsl.document.Document._get_connection": [
+    "elasticsearch_dsl.document.Document._get_using",
+    "elasticsearch_dsl.connections.Connections.get_connection"
+  ],
+  "elasticsearch_dsl.document.Document.delete": [
+    "elasticsearch_dsl.document.Document._get_connection",
+    "dict.update",
+    "elasticsearch_dsl.document.Document._get_index"
+  ],
+  "elasticsearch_dsl.document.Document.update": [
+    "elasticsearch_dsl.exceptions.IllegalOperation"
+  ],
+  "elasticsearch_dsl.document.Document.search": [
+    "elasticsearch_dsl.document.Document._get_using",
+    "elasticsearch_dsl.document.Document._default_index",
+    "elasticsearch_dsl.search.Search"
+  ],
+  "elasticsearch_dsl.search.Search.__init__": [
+    "elasticsearch_dsl.search.Request.__init__",
+    "elasticsearch_dsl.search.AggsProxy",
+    "elasticsearch_dsl.search.QueryProxy",
+    "elasticsearch_dsl.search.QueryProxy"
+  ],
+  "elasticsearch_dsl.search.Request.__init__": [
+    "builtins.isinstance",
+    "builtins.list",
+    "builtins.isinstance",
+    "list.extend",
+    "builtins.isinstance",
+    "list.append"
+  ],
+  "elasticsearch_dsl.search.QueryProxy.__setattr__": [
+    "str.startswith",
+    "object.__setattr__"
+  ],
+  "elasticsearch_dsl.faceted_search.FacetedSearch.__init__": [
+    "dict.items",
+    "elasticsearch_dsl.faceted_search.FacetedSearch.build_search",
+    "elasticsearch_dsl.faceted_search.FacetedSearch.add_filter"
+  ],
+  "elasticsearch_dsl.faceted_search.FacetedSearch.build_search": [
+    "elasticsearch_dsl.faceted_search.FacetedSearch.search"
+  ],
+  "elasticsearch_dsl.faceted_search.FacetedSearch.search": [
+    "elasticsearch_dsl.search.Search",
+    "elasticsearch_dsl.search.Search.response_class"
+  ],
+  "elasticsearch_dsl.search.Search.response_class": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.search.Search._clone": [
+    "elasticsearch_dsl.search.Request._clone",
+    "dict.copy",
+    "dict.copy",
+    "dict.copy",
+    "dict.copy",
+    "builtins.getattr"
+  ],
+  "elasticsearch_dsl.search.Request._clone": [
+    "elasticsearch_dsl.search.Search",
+    "dict.copy",
+    "dict.copy",
+    "dict.copy",
+    "elasticsearch_dsl.update_by_query.UpdateByQuery"
+  ],
+  "elasticsearch_dsl.search.ProxyDescriptor.__get__": [
+    "builtins.getattr"
+  ],
+  "elasticsearch_dsl.faceted_search.FacetedSearch.add_filter": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.faceted_search.TermsFacet.add_filter"
+  ],
+  "elasticsearch_dsl.faceted_search.TermsFacet.add_filter": [
+    "elasticsearch_dsl.query.Terms"
+  ],
+  "elasticsearch_dsl.faceted_search.DateHistogramFacet.__init__": [
+    "dict.setdefault",
+    "elasticsearch_dsl.faceted_search.Facet.__init__"
+  ],
+  "elasticsearch_dsl.faceted_search.DateHistogramFacet.get_value": [
+    "builtins.isinstance",
+    "builtins.int",
+    "datetime.utcfromtimestamp"
+  ],
+  "elasticsearch_dsl.faceted_search.Facet.get_aggregation": [
+    "elasticsearch_dsl.aggs.A"
+  ],
+  "elasticsearch_dsl.faceted_search.DateHistogramFacet.get_value_filter": [
+    "elasticsearch_dsl.faceted_search._date_interval_year",
+    "elasticsearch_dsl.query.Range",
+    "elasticsearch_dsl.faceted_search._date_interval_month",
+    "elasticsearch_dsl.faceted_search._date_interval_week",
+    "elasticsearch_dsl.faceted_search._date_interval_day",
+    "elasticsearch_dsl.faceted_search._date_interval_hour"
+  ],
+  "elasticsearch_dsl.faceted_search._date_interval_year": [
+    "datetime.replace"
+  ],
+  "elasticsearch_dsl.faceted_search._date_interval_month": [
+    "datetime.timedelta",
+    "datetime.replace"
+  ],
+  "elasticsearch_dsl.faceted_search._date_interval_week": [
+    "datetime.timedelta"
+  ],
+  "elasticsearch_dsl.faceted_search._date_interval_day": [
+    "datetime.timedelta"
+  ],
+  "elasticsearch_dsl.faceted_search._date_interval_hour": [
+    "datetime.timedelta"
+  ],
+  "elasticsearch_dsl.field.Boolean._deserialize": [
+    "builtins.bool"
+  ],
+  "elasticsearch_dsl.field.ScaledFloat.__init__": [
+    "elasticsearch_dsl.field.Field.__init__"
+  ],
+  "elasticsearch_dsl.field.Ip._deserialize": [
+    "builtins.str",
+    "ipaddress.ip_address"
+  ],
+  "elasticsearch_dsl.field.Float._deserialize": [
+    "builtins.float"
+  ],
+  "elasticsearch_dsl.field.Binary._deserialize": [
+    "base64.b64decode"
+  ],
+  "elasticsearch_dsl.field.Binary._serialize": [
+    "base64.b64encode",
+    "bytes.decode"
+  ],
+  "elasticsearch_dsl.index.Index.to_dict": [
+    "elasticsearch_dsl.mapping.Mapping.to_dict",
+    "elasticsearch_dsl.utils.merge",
+    "elasticsearch_dsl.mapping.Mapping._collect_analysis",
+    "elasticsearch_dsl.utils.merge",
+    "dict.setdefault",
+    "elasticsearch_dsl.utils.merge"
+  ],
+  "elasticsearch_dsl.index.Index.search": [
+    "elasticsearch_dsl.search.Search"
+  ],
+  "elasticsearch_dsl.index.Index.clone": [
+    "elasticsearch_dsl.index.Index",
+    "dict.copy",
+    "dict.copy",
+    "dict.copy"
+  ],
+  "elasticsearch_dsl.index.Index.analyzer": [
+    "elasticsearch_dsl.analysis.AnalysisBase._type_shortcut",
+    "elasticsearch_dsl.analysis.CustomAnalysisDefinition.get_analysis_definition",
+    "elasticsearch_dsl.utils.merge"
+  ],
+  "elasticsearch_dsl.mapping.Mapping._collect_analysis": [
+    "elasticsearch_dsl.mapping.Properties._collect_fields",
+    "itertools.chain",
+    "builtins.hasattr",
+    "builtins.getattr",
+    "elasticsearch_dsl.analysis.CustomAnalysisDefinition.get_analysis_definition",
+    "dict.setdefault",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.mapping.Properties._collect_fields": [
+    "elasticsearch_dsl.utils.AttrDict.to_dict",
+    "dict.values",
+    "builtins.hasattr",
+    "elasticsearch_dsl.utils.AttrDict.to_dict",
+    "dict.values",
+    "builtins.hasattr"
+  ],
+  "elasticsearch_dsl.index.Index.as_template": [
+    "elasticsearch_dsl.index.IndexTemplate"
+  ],
+  "elasticsearch_dsl.index.IndexTemplate.__init__": [
+    "elasticsearch_dsl.index.Index.clone",
+    "elasticsearch_dsl.index.Index"
+  ],
+  "elasticsearch_dsl.index.IndexTemplate.to_dict": [
+    "elasticsearch_dsl.index.Index.to_dict"
+  ],
+  "elasticsearch_dsl.index.IndexTemplate.save": [
+    "elasticsearch_dsl.connections.Connections.get_connection",
+    "elasticsearch_dsl.index.IndexTemplate.to_dict",
+    "<Mock name='mock.indices.put_template' id='140484776418496'>"
+  ],
+  "elasticsearch_dsl.mapping.Mapping.resolve_field": [
+    "str.split"
+  ],
+  "elasticsearch_dsl.field.Field.__getitem__": [
+    "dict.get"
+  ],
+  "elasticsearch_dsl.query.Query.__invert__": [
+    "elasticsearch_dsl.query.Bool"
+  ],
+  "elasticsearch_dsl.query.Query.__and__": [
+    "builtins.hasattr",
+    "elasticsearch_dsl.query.Bool",
+    "elasticsearch_dsl.query.Bool.__and__",
+    "elasticsearch_dsl.query.MatchAll.__add__",
+    "elasticsearch_dsl.query.MatchNone.__add__"
+  ],
+  "elasticsearch_dsl.query.Bool.__and__": [
+    "elasticsearch_dsl.utils.DslBase._clone",
+    "builtins.isinstance",
+    "list.append",
+    "dict.setdefault",
+    "builtins.len",
+    "list.extend"
+  ],
+  "elasticsearch_dsl.query.Bool._min_should_match": [
+    "builtins.getattr"
+  ],
+  "elasticsearch_dsl.query.MatchAll.__add__": [
+    "elasticsearch_dsl.utils.DslBase._clone"
+  ],
+  "elasticsearch_dsl.query.MatchAll.__invert__": [
+    "elasticsearch_dsl.query.MatchNone"
+  ],
+  "elasticsearch_dsl.query.MatchNone.__invert__": [
+    "elasticsearch_dsl.query.MatchAll"
+  ],
+  "elasticsearch_dsl.query.Bool.__invert__": [
+    "itertools.chain",
+    "builtins.any",
+    "elasticsearch_dsl.query.MatchNone",
+    "itertools.chain",
+    "list.append",
+    "builtins.len",
+    "elasticsearch_dsl.query.Bool",
+    "list.append"
+  ],
+  "elasticsearch_dsl.query.Query.__or__": [
+    "builtins.hasattr",
+    "elasticsearch_dsl.query.MatchNone.__or__",
+    "elasticsearch_dsl.query.MatchAll.__or__",
+    "elasticsearch_dsl.query.Bool",
+    "elasticsearch_dsl.query.Bool.__or__"
+  ],
+  "elasticsearch_dsl.query.MatchNone.__or__": [
+    "elasticsearch_dsl.utils.DslBase._clone"
+  ],
+  "elasticsearch_dsl.query.Bool.__or__": [
+    "builtins.isinstance",
+    "builtins.getattr",
+    "builtins.any",
+    "elasticsearch_dsl.query.Bool",
+    "elasticsearch_dsl.utils.DslBase._clone",
+    "builtins.isinstance",
+    "list.append",
+    "builtins.getattr",
+    "builtins.any",
+    "list.extend"
+  ],
+  "elasticsearch_dsl.function.SF": [
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.function.ScriptScore",
+    "dict.copy",
+    "dict.pop",
+    "builtins.isinstance",
+    "dict.update",
+    "elasticsearch_dsl.utils.DslBase.get_dsl_class",
+    "elasticsearch_dsl.function.BoostFactor",
+    "elasticsearch_dsl.function.RandomScore",
+    "elasticsearch_dsl.function.FieldValueFactor",
+    "builtins.len",
+    "dict.popitem",
+    "elasticsearch_dsl.function.ScriptScore"
+  ],
+  "elasticsearch_dsl.query.FunctionScore.__init__": [
+    "elasticsearch_dsl.utils.DslBase.__init__",
+    "dict.pop",
+    "list.append"
+  ],
+  "elasticsearch_dsl.function.ScoreFunction.to_dict": [
+    "elasticsearch_dsl.utils.DslBase.to_dict",
+    "dict.pop"
+  ],
+  "elasticsearch_dsl.function.BoostFactor.to_dict": [
+    "elasticsearch_dsl.function.ScoreFunction.to_dict",
+    "dict.pop"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.__init__": [
+    "object.__setattr__",
+    "object.__setattr__",
+    "elasticsearch_dsl.utils.AttrDict.__init__"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.hits": [
+    "builtins.hasattr",
+    "builtins.map",
+    "elasticsearch_dsl.utils.AttrList",
+    "object.__setattr__",
+    "elasticsearch_dsl.utils._wrap",
+    "builtins.setattr"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.__getitem__": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.utils.AttrDict.__getitem__"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.aggs": [
+    "builtins.hasattr",
+    "dict.get",
+    "elasticsearch_dsl.response.AggResponse",
+    "object.__setattr__"
+  ],
+  "elasticsearch_dsl.response.__init__.AggResponse.__init__": [
+    "object.__setattr__",
+    "elasticsearch_dsl.utils.AttrDict.__init__"
+  ],
+  "elasticsearch_dsl.search.Request._get_result": [
+    "dict.get",
+    "dict.get",
+    "builtins.getattr",
+    "elasticsearch_dsl.response.hit.Hit"
+  ],
+  "elasticsearch_dsl.response.hit.Hit.__init__": [
+    "elasticsearch_dsl.utils.AttrDict.__init__",
+    "elasticsearch_dsl.utils.HitMeta",
+    "object.__setattr__"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.__setstate__": [
+    "object.__setattr__",
+    "object.__setattr__",
+    "object.__setattr__"
+  ],
+  "elasticsearch_dsl.search.Request.__eq__": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.search.Search.to_dict"
+  ],
+  "elasticsearch_dsl.response.hit.Hit.__getstate__": [
+    "elasticsearch_dsl.utils.AttrDict.__getstate__"
+  ],
+  "elasticsearch_dsl.response.hit.Hit.__setstate__": [
+    "object.__setattr__",
+    "elasticsearch_dsl.utils.AttrDict.__setstate__"
+  ],
+  "elasticsearch_dsl.search.Request.doc_type": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.__nonzero__": [
+    "builtins.bool"
+  ],
+  "elasticsearch_dsl.response.hit.Hit.__repr__": [
+    "builtins.getattr",
+    "elasticsearch_dsl.utils.AttrDict.__repr__",
+    "str.format"
+  ],
+  "elasticsearch_dsl.response.hit.Hit.__dir__": [
+    "elasticsearch_dsl.utils.AttrDict.__dir__"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.__len__": [
+    "builtins.len"
+  ],
+  "elasticsearch_dsl.response.__init__.Response.__iter__": [
+    "builtins.iter"
+  ],
+  "elasticsearch_dsl.aggs.AggBase.__contains__": [
+    "dict.get"
+  ],
+  "elasticsearch_dsl.response.__init__.AggResponse.__getitem__": [
+    "elasticsearch_dsl.aggs.Agg.result",
+    "elasticsearch_dsl.utils.AttrDict.__getitem__",
+    "elasticsearch_dsl.aggs.Terms.result",
+    "elasticsearch_dsl.aggs.DateHistogram.result"
+  ],
+  "elasticsearch_dsl.aggs.Agg.result": [
+    "elasticsearch_dsl.response.AggResponse"
+  ],
+  "elasticsearch_dsl.aggs.AggBase.__iter__": [
+    "builtins.iter"
+  ],
+  "elasticsearch_dsl.aggs.Terms.result": [
+    "elasticsearch_dsl.response.aggs.FieldBucketData"
+  ],
+  "elasticsearch_dsl.aggs.DateHistogram.result": [
+    "elasticsearch_dsl.response.aggs.FieldBucketData"
+  ],
+  "elasticsearch_dsl.response.aggs.BucketData.buckets": [
+    "builtins.hasattr",
+    "builtins.getattr",
+    "elasticsearch_dsl.search.Request._resolve_field",
+    "builtins.isinstance",
+    "elasticsearch_dsl.utils.AttrList",
+    "object.__setattr__"
+  ],
+  "elasticsearch_dsl.response.aggs.BucketData.__getitem__": [
+    "builtins.isinstance",
+    "elasticsearch_dsl.response.AggResponse.__getitem__"
+  ],
+  "elasticsearch_dsl.response.aggs.BucketData.__iter__": [
+    "builtins.iter"
+  ],
+  "elasticsearch_dsl.response.aggs.BucketData._wrap_bucket": [
+    "dict.get",
+    "elasticsearch_dsl.response.aggs.FieldBucket"
+  ],
+  "elasticsearch_dsl.response.aggs.FieldBucket.__init__": [
+    "elasticsearch_dsl.response.aggs.Bucket.__init__"
+  ],
+  "elasticsearch_dsl.response.aggs.Bucket.__init__": [
+    "elasticsearch_dsl.response.AggResponse.__init__"
+  ],
+  "elasticsearch_dsl.search.QueryProxy.__call__": [
+    "elasticsearch_dsl.search.Search._clone",
+    "elasticsearch_dsl.update_by_query.UpdateByQuery._clone",
+    "builtins.getattr",
+    "elasticsearch_dsl.query.Q"
+  ],
+  "elasticsearch_dsl.search.Search.execute": [
+    "builtins.hasattr",
+    "elasticsearch_dsl.connections.Connections.get_connection",
+    "elasticsearch_dsl.search.Search.to_dict",
+    "<Mock name='mock.search' id='140484782104416'>",
+    "elasticsearch_dsl.response.Response"
+  ],
+  "elasticsearch_dsl.search.Search.to_dict": [
+    "elasticsearch_dsl.utils.recursive_to_dict",
+    "dict.update",
+    "elasticsearch_dsl.utils.recursive_to_dict",
+    "dict.update",
+    "elasticsearch_dsl.search.AggsProxy.to_dict",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.search.Search.__iter__": [
+    "elasticsearch_dsl.search.Search.execute",
+    "builtins.iter"
+  ],
+  "elasticsearch_dsl.search.ProxyDescriptor.__set__": [
+    "builtins.getattr",
+    "elasticsearch_dsl.query.Q"
+  ],
+  "elasticsearch_dsl.search.Request.using": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.search.Search.source": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.search.AggsProxy.to_dict": [
+    "elasticsearch_dsl.utils.DslBase.to_dict",
+    "dict.get"
+  ],
+  "elasticsearch_dsl.search.Request.index": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.search.Search.sort": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.search.Search.__getitem__": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.search.Search.from_dict": [
+    "elasticsearch_dsl.search.Search",
+    "elasticsearch_dsl.search.Search.update_from_dict"
+  ],
+  "elasticsearch_dsl.search.Search.update_from_dict": [
+    "dict.copy",
+    "dict.pop",
+    "elasticsearch_dsl.query.Q",
+    "dict.pop",
+    "elasticsearch_dsl.query.Q",
+    "dict.pop",
+    "dict.update",
+    "dict.pop",
+    "dict.pop",
+    "dict.values",
+    "dict.setdefault",
+    "dict.pop"
+  ],
+  "elasticsearch_dsl.search.Request.params": [
+    "elasticsearch_dsl.search.Search._clone",
+    "elasticsearch_dsl.update_by_query.UpdateByQuery._clone",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.search.Search.suggest": [
+    "elasticsearch_dsl.search.Search._clone"
+  ],
+  "elasticsearch_dsl.search.Search.exclude": [
+    "elasticsearch_dsl.query.Q",
+    "elasticsearch_dsl.query.Bool",
+    "<elasticsearch_dsl.search.QueryProxy object at 0x7fc52802d0f0>"
+  ],
+  "elasticsearch_dsl.search.QueryProxy.__getattr__": [
+    "builtins.getattr"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery.__init__": [
+    "elasticsearch_dsl.search.Request.__init__",
+    "elasticsearch_dsl.search.QueryProxy"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery.to_dict": [
+    "elasticsearch_dsl.utils.recursive_to_dict",
+    "dict.update",
+    "elasticsearch_dsl.utils.recursive_to_dict",
+    "dict.update",
+    "elasticsearch_dsl.utils.DslBase.to_dict"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery._clone": [
+    "elasticsearch_dsl.search.Request._clone",
+    "dict.copy"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery.exclude": [
+    "elasticsearch_dsl.query.Q",
+    "elasticsearch_dsl.query.Bool",
+    "<elasticsearch_dsl.search.QueryProxy object at 0x7fc528e63eb0>"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery.from_dict": [
+    "elasticsearch_dsl.update_by_query.UpdateByQuery",
+    "elasticsearch_dsl.update_by_query.UpdateByQuery.update_from_dict"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery.update_from_dict": [
+    "dict.copy",
+    "dict.pop",
+    "elasticsearch_dsl.query.Q",
+    "dict.pop",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery.execute": [
+    "elasticsearch_dsl.connections.Connections.get_connection",
+    "elasticsearch_dsl.update_by_query.UpdateByQuery.to_dict",
+    "<Mock name='mock.update_by_query' id='140484776545968'>",
+    "elasticsearch_dsl.response.UpdateByQueryResponse"
+  ],
+  "elasticsearch_dsl.response.__init__.UpdateByQueryResponse.__init__": [
+    "object.__setattr__",
+    "object.__setattr__",
+    "elasticsearch_dsl.utils.AttrDict.__init__"
+  ],
+  "elasticsearch_dsl.update_by_query.UpdateByQuery.script": [
+    "elasticsearch_dsl.update_by_query.UpdateByQuery._clone",
+    "dict.update"
+  ],
+  "elasticsearch_dsl.serializer.AttrJSONSerializer.default": [
+    "builtins.isinstance",
+    "builtins.hasattr",
+    "elasticsearch_dsl.utils.AttrDict.to_dict",
+    "tests.test_utils.test_serializer_deals_with_objects_with_to_dict.<locals>.MyClass.to_dict"
+  ],
+  "elasticsearch_dsl.field.Boolean.clean": [
+    "elasticsearch_dsl.exceptions.ValidationException",
+    "elasticsearch_dsl.field.Field.deserialize"
+  ]
+}

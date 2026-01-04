@@ -1,0 +1,1799 @@
+{
+    "tasks": [
+        "invoke.task",
+        "invoke.Collection"
+    ],
+    "invoke.task": [],
+    "tasks.publish": [
+        "invocations.packaging.release.upload",
+        "invocations.util.tmpdir",
+        "functools.partial"
+    ],
+    "invocations.util.tmpdir": [],
+    "functools.partial": [],
+    "invocations.packaging.release.upload": [],
+    "tasks.integration": [
+        "invocations.pytest.integration"
+    ],
+    "invocations.pytest.integration": [],
+    "invoke.Collection": [],
+    "fabric.connection": [
+        "decorator.decorator",
+        "invoke.vendor.decorator.decorator"
+    ],
+    "decorator.decorator": [],
+    "invoke.vendor.decorator.decorator": [],
+    "fabric.connection.opens": [
+        "fabric.connection.Connection.sftp",
+        "tests.runners.Remote_.run.channel_close_skipped_when_channel_not_even_made.oops",
+        "fabric.connection.Connection.forward_local",
+        "fabric.connection.Connection.create_session",
+        "fabric.connection.Connection.run",
+        "fabric.connection.Connection.forward_remote",
+        "fabric.connection.Connection.sudo"
+    ],
+    "fabric.connection.Connection.forward_local": [
+        "threading.Event",
+        "fabric.tunnels.TunnelManager.__init__",
+        "invoke.util.ExceptionHandlingThread.start",
+        "invoke.util.ExceptionHandlingThread.join",
+        "invoke.exceptions.ThreadException",
+        "invoke.util.ExceptionHandlingThread.exception"
+    ],
+    "fabric.connection.Connection.sftp": [],
+    "fabric.connection.Connection.run": [
+        "invoke.Context.config.runners.remote",
+        "invoke.Context._run"
+    ],
+    "fabric.connection.Connection.create_session": [
+        "paramiko.agent.AgentRequestHandler"
+    ],
+    "tests.runners.Remote_.run.channel_close_skipped_when_channel_not_even_made.oops": [],
+    "fabric.connection.Connection.sudo": [
+        "invoke.Context.config.runners.remote",
+        "invoke.Context._sudo"
+    ],
+    "fabric.connection.Connection.forward_remote": [],
+    "fabric.connection.Connection.__init__": [
+        "<builtin>.isinstance",
+        "paramiko.client.AutoAddPolicy",
+        "invoke.Context._set",
+        "<builtin>.super",
+        "<builtin>.ValueError",
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.get_gateway",
+        "fabric.connection.Connection.resolve_connect_kwargs",
+        "invoke.Context.config.base_ssh_config.lookup",
+        "fabric.config.Config.clone",
+        "paramiko.client.SSHClient",
+        "<builtin>.int",
+        "fabric.connection.Connection.derive_shorthand"
+    ],
+    "<builtin>.super": [],
+    "fabric.config.Config.__init__": [
+        "fabric.config.Config.set_runtime_ssh_path",
+        "<builtin>.super",
+        "invoke.config.Config._set",
+        "paramiko.config.SSHConfig",
+        "fabric.config.Config.load_ssh_config"
+    ],
+    "<builtin>.isinstance": [],
+    "fabric.config.Config.clone": [
+        "<builtin>.setattr",
+        "<builtin>.super",
+        "<builtin>.getattr",
+        "fabric.config.Config.load_ssh_config"
+    ],
+    "invoke.Context._set": [],
+    "fabric.connection.Connection.derive_shorthand": [
+        "<builtin>.int"
+    ],
+    "<builtin>.ValueError": [],
+    "invoke.Context.config.base_ssh_config.lookup": [],
+    "<builtin>.int": [],
+    "fabric.connection.Connection.get_gateway": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.dict",
+        "invoke.Context.config.clone",
+        "<builtin>.reversed",
+        "fabric.connection.Connection.derive_shorthand"
+    ],
+    "fabric.connection.Connection.resolve_connect_kwargs": [
+        "invoke.Context.config.connect_kwargs.setdefault",
+        "invoke.Context.config.connect_kwargs.get"
+    ],
+    "paramiko.client.SSHClient": [],
+    "paramiko.client.AutoAddPolicy": [],
+    "invoke.Context.config.connect_kwargs.get": [],
+    "invoke.Context.config.connect_kwargs.setdefault": [],
+    "<builtin>.reversed": [],
+    "invoke.Context.config.clone": [],
+    "<builtin>.dict": [],
+    "fabric.connection.Connection.__repr__": [
+        "<builtin>.isinstance"
+    ],
+    "fabric.connection.Connection._identity": [],
+    "fabric.connection.Connection.__eq__": [
+        "<builtin>.isinstance",
+        "fabric.connection.Connection._identity"
+    ],
+    "fabric.connection.Connection.__lt__": [
+        "fabric.connection.Connection._identity"
+    ],
+    "fabric.connection.Connection.__hash__": [
+        "fabric.connection.Connection._identity",
+        "<builtin>.hash"
+    ],
+    "<builtin>.hash": [],
+    "fabric.connection.Connection.is_connected": [],
+    "fabric.connection.Connection.open": [
+        "<builtin>.dict",
+        "<builtin>.ValueError",
+        "fabric.connection.Connection.open_gateway"
+    ],
+    "fabric.connection.Connection.open_gateway": [
+        "<builtin>.isinstance",
+        "invoke.vendor.six.StringIO",
+        "six.StringIO",
+        "paramiko.proxy.ProxyCommand",
+        "paramiko.config.SSHConfig",
+        "<builtin>.int"
+    ],
+    "paramiko.config.SSHConfig": [],
+    "invoke.vendor.six.StringIO": [],
+    "six.StringIO": [],
+    "paramiko.proxy.ProxyCommand": [],
+    "fabric.connection.Connection.close": [],
+    "fabric.connection.Connection.__enter__": [],
+    "fabric.connection.Connection.__exit__": [
+        "fabric.connection.Connection.close"
+    ],
+    "fabric.connection.Connection": [
+        "fabric.connection.opens",
+        "contextlib.contextmanager"
+    ],
+    "paramiko.agent.AgentRequestHandler": [],
+    "invoke.Context.config.runners.remote": [],
+    "invoke.Context._run": [],
+    "invoke.Context._sudo": [],
+    "fabric.connection.Connection.local": [
+        "<builtin>.super"
+    ],
+    "fabric.connection.Connection.get": [
+        "fabric.transfer.Transfer.get",
+        "fabric.transfer.Transfer.__init__"
+    ],
+    "fabric.transfer.Transfer.__init__": [],
+    "fabric.transfer.Transfer.get": [
+        "<builtin>.callable",
+        "fabric.transfer.Result.__init__",
+        "<builtin>.ValueError",
+        "stat.S_IMODE",
+        "os.chmod",
+        "posixpath.join",
+        "posixpath.basename",
+        "<builtin>.hasattr",
+        "os.path.abspath"
+    ],
+    "fabric.connection.Connection.put": [
+        "fabric.transfer.Transfer.put",
+        "fabric.transfer.Transfer.__init__"
+    ],
+    "fabric.transfer.Transfer.put": [
+        "fabric.transfer.Transfer.is_remote_dir",
+        "<builtin>.callable",
+        "<builtin>.getattr",
+        "fabric.transfer.Result.__init__",
+        "<builtin>.ValueError",
+        "stat.S_IMODE",
+        "posixpath.join",
+        "os.path.basename",
+        "<builtin>.hasattr",
+        "os.stat",
+        "os.path.abspath"
+    ],
+    "contextlib.contextmanager": [],
+    "threading.Event": [],
+    "fabric.tunnels.TunnelManager.__init__": [
+        "<builtin>.super"
+    ],
+    "invoke.util.ExceptionHandlingThread.start": [],
+    "invoke.util.ExceptionHandlingThread.join": [],
+    "invoke.util.ExceptionHandlingThread.exception": [],
+    "invoke.exceptions.ThreadException": [],
+    "fabric.connection.Connection.forward_remote.callback": [
+        "socket.socket",
+        "threading.Event",
+        "invoke.util.ExceptionHandlingThread.start",
+        "fabric.tunnels.Tunnel.__init__"
+    ],
+    "socket.socket": [],
+    "fabric.tunnels.Tunnel.__init__": [
+        "<builtin>.super"
+    ],
+    "fabric": [],
+    "fabric._version": [
+        "<builtin>.map"
+    ],
+    "<builtin>.map": [],
+    "fabric.group": [],
+    "fabric.group.Group.__init__": [
+        "<builtin>.map"
+    ],
+    "fabric.group.Group.from_connections": [
+        "fabric.group.Group.__init__"
+    ],
+    "fabric.group.Group.run": [],
+    "fabric.group.Group.get": [],
+    "fabric.group.SerialGroup.run": [
+        "fabric.group.SerialGroup.run",
+        "fabric.exceptions.GroupException.__init__",
+        "fabric.group.GroupResult.__init__"
+    ],
+    "fabric.group.GroupResult.__init__": [
+        "<builtin>.super"
+    ],
+    "fabric.exceptions.GroupException.__init__": [],
+    "fabric.group.thread_worker": [],
+    "fabric.group.ThreadingGroup.run": [
+        "invoke.util.ExceptionHandlingThread",
+        "fabric.exceptions.GroupException.__init__",
+        "six.moves.queue.Queue",
+        "invoke.vendor.six.moves.queue.Queue",
+        "<builtin>.dict",
+        "fabric.group.GroupResult.__init__"
+    ],
+    "six.moves.queue.Queue": [],
+    "invoke.vendor.six.moves.queue.Queue": [],
+    "invoke.util.ExceptionHandlingThread": [],
+    "fabric.group.GroupResult._bifurcate": [
+        "<builtin>.isinstance"
+    ],
+    "fabric.group.GroupResult.succeeded": [
+        "fabric.group.GroupResult._bifurcate"
+    ],
+    "fabric.group.GroupResult.failed": [
+        "fabric.group.GroupResult._bifurcate"
+    ],
+    "fabric.exceptions": [],
+    "fabric.config": [],
+    "fabric.config.Config.set_runtime_ssh_path": [
+        "invoke.config.Config._set"
+    ],
+    "invoke.config.Config._set": [],
+    "fabric.config.Config.load_ssh_config": [
+        "fabric.config.Config._load_ssh_files"
+    ],
+    "fabric.config.Config._load_ssh_files": [
+        "os.path.exists",
+        "os.path.expanduser",
+        "fabric.config.Config._load_ssh_file",
+        "<builtin>.IOError"
+    ],
+    "<builtin>.getattr": [],
+    "<builtin>.setattr": [],
+    "fabric.config.Config._clone_init_kwargs": [
+        "<builtin>.dict",
+        "<builtin>.super",
+        "paramiko.config.SSHConfig",
+        "copy.deepcopy"
+    ],
+    "copy.deepcopy": [],
+    "os.path.exists": [],
+    "<builtin>.IOError": [],
+    "os.path.expanduser": [],
+    "fabric.config.Config._load_ssh_file": [
+        "<builtin>.open",
+        "invoke.config.Config.base_ssh_config.parse",
+        "<builtin>.len",
+        "os.path.isfile"
+    ],
+    "os.path.isfile": [],
+    "<builtin>.len": [],
+    "<builtin>.open": [],
+    "invoke.config.Config.base_ssh_config.parse": [],
+    "fabric.config.Config.global_defaults": [
+        "invoke.config.Config.global_defaults",
+        "fabric.util.get_local_user",
+        "invoke.config.merge_dicts"
+    ],
+    "invoke.config.Config.global_defaults": [],
+    "fabric.util.get_local_user": [
+        "win32api.GetUserName",
+        "getpass.getuser"
+    ],
+    "invoke.config.merge_dicts": [],
+    "fabric.runners": [],
+    "fabric.runners.Remote.start": [
+        "invoke.Runner.context.create_session",
+        "invoke.pty_size"
+    ],
+    "invoke.Runner.context.create_session": [],
+    "invoke.pty_size": [],
+    "fabric.runners.Remote.read_proc_stdout": [],
+    "fabric.runners.Remote.read_proc_stderr": [],
+    "fabric.runners.Remote._write_proc_stdin": [],
+    "fabric.runners.Remote.process_is_finished": [],
+    "fabric.runners.Remote.send_interrupt": [],
+    "fabric.runners.Remote.returncode": [],
+    "fabric.runners.Remote.generate_result": [
+        "fabric.runners.Result.__init__"
+    ],
+    "fabric.runners.Result.__init__": [
+        "<builtin>.super"
+    ],
+    "fabric.runners.Remote.stop": [
+        "<builtin>.hasattr"
+    ],
+    "<builtin>.hasattr": [],
+    "fabric.util": [
+        "<builtin>.getattr",
+        "logging.getLogger",
+        "<builtin>.globals"
+    ],
+    "logging.getLogger": [],
+    "<builtin>.globals": [],
+    "getpass.getuser": [],
+    "win32api.GetUserName": [],
+    "fabric.tunnels": [],
+    "fabric.tunnels.TunnelManager._run": [
+        "socket.socket",
+        "threading.Event",
+        "fabric.tunnels.Tunnel.__init__",
+        "time.sleep",
+        "invoke.util.ExceptionHandlingThread.start",
+        "invoke.util.ExceptionHandlingThread.join",
+        "invoke.exceptions.ThreadException",
+        "invoke.util.ExceptionHandlingThread.exception"
+    ],
+    "time.sleep": [],
+    "fabric.tunnels.Tunnel._run": [
+        "fabric.tunnels.Tunnel.read_and_write",
+        "select.select"
+    ],
+    "select.select": [],
+    "fabric.tunnels.Tunnel.read_and_write": [
+        "<builtin>.len"
+    ],
+    "fabric.transfer": [],
+    "fabric.transfer.Transfer.sftp": [
+        "fabric.connection.Connection.sftp"
+    ],
+    "fabric.transfer.Transfer.is_remote_dir": [
+        "stat.S_ISDIR"
+    ],
+    "stat.S_ISDIR": [],
+    "posixpath.join": [],
+    "<builtin>.callable": [],
+    "posixpath.basename": [],
+    "os.path.abspath": [],
+    "stat.S_IMODE": [],
+    "os.chmod": [],
+    "fabric.transfer.Result.__init__": [],
+    "os.path.basename": [],
+    "os.stat": [],
+    "fabric.main": [
+        "fabric.main.make_program"
+    ],
+    "fabric.main.Fab.print_version": [
+        "<builtin>.super",
+        "<builtin>.print"
+    ],
+    "<builtin>.print": [],
+    "fabric.main.Fab.core_args": [
+        "<builtin>.super",
+        "invoke.Argument"
+    ],
+    "invoke.Argument": [],
+    "fabric.main.Fab._remainder_only": [],
+    "fabric.main.Fab.load_collection": [
+        "<builtin>.super",
+        "invoke.Collection"
+    ],
+    "fabric.main.Fab.no_tasks_given": [
+        "<builtin>.super"
+    ],
+    "fabric.main.Fab.create_config": [
+        "invoke.Program.config_class"
+    ],
+    "invoke.Program.config_class": [],
+    "fabric.main.Fab.update_config": [
+        "getpass.getpass",
+        "<builtin>.super"
+    ],
+    "getpass.getpass": [],
+    "fabric.main.make_program": [
+        "invoke.Program.__init__"
+    ],
+    "invoke.Program.__init__": [],
+    "fabric.executor": [],
+    "fabric.executor.FabExecutor.expand_calls": [
+        "<builtin>.isinstance",
+        "invoke.Call",
+        "fabric.executor.FabExecutor.parameterize",
+        "fabric.executor.FabExecutor.expand_calls",
+        "invoke.Task"
+    ],
+    "invoke.Call": [],
+    "fabric.executor.FabExecutor.parameterize": [],
+    "fabric.executor.FabExecutor.expand_calls.anonymous": [],
+    "invoke.Task": [],
+    "fabric.executor.FabExecutor.dedupe": [],
+    "fabric.executor.ConnectionCall.make_context": [
+        "Connection"
+    ],
+    "Connection": [],
+    "integration.concurrency": [],
+    "integration.concurrency._worker": [],
+    "integration.concurrency.concurrency.setup": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "integration.concurrency.concurrency.connections_objects_do_not_share_connection_state": [],
+    "integration.concurrency.concurrency.manual_threading_works_okay": [
+        "invoke.vendor.six.moves.zip_longest",
+        "invoke.util.ExceptionHandlingThread",
+        "codecs.open",
+        "<builtin>.max",
+        "<builtin>.enumerate",
+        "pytest.skip",
+        "invoke.vendor.six.moves.queue.Queue",
+        "<builtin>.len",
+        "<builtin>.dict"
+    ],
+    "pytest.skip": [],
+    "codecs.open": [],
+    "<builtin>.enumerate": [],
+    "<builtin>.max": [],
+    "invoke.vendor.six.moves.zip_longest": [],
+    "integration.connection": [],
+    "integration.connection.skip_outside_travis": [
+        "os.environ.get",
+        "pytest.skip"
+    ],
+    "os.environ.get": [],
+    "integration.connection.Connection_.ssh_connections.open_method_generates_real_connection": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "integration.connection.Connection_.ssh_connections.close_method_closes_connection": [
+        "integration.connection.Connection_.ssh_connections.open_method_generates_real_connection",
+        "fabric.connection.Connection.close"
+    ],
+    "integration.connection.Connection_.run.simple_command_on_host": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.run"
+    ],
+    "integration.connection.Connection_.run.simple_command_with_pty": [
+        "invoke.pty_size",
+        "<builtin>.map",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.run",
+        "<builtin>.tuple"
+    ],
+    "<builtin>.tuple": [],
+    "integration.connection.Connection_.local.wraps_invoke_run": [
+        "fabric.connection.Connection.local",
+        "fabric.connection.Connection.__init__"
+    ],
+    "integration.connection.Connection_.mixed_use_of_local_and_run": [
+        "fabric.connection.Connection.local",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.run"
+    ],
+    "integration.connection.Connection_.sudo.setup": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "integration.connection.Connection_.sudo.sudo_command": [
+        "integration.connection.skip_outside_travis",
+        "fabric.connection.Connection.sudo"
+    ],
+    "integration.connection.Connection_.sudo.mixed_sudo_and_normal_commands": [
+        "integration.connection.skip_outside_travis",
+        "fabric.connection.Connection.sudo",
+        "fabric.connection.Connection.run"
+    ],
+    "integration.connection.Connection_.large_remote_commands_finish_cleanly": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.open",
+        "fabric.connection.Connection.run",
+        "<builtin>.len"
+    ],
+    "integration.transfer": [],
+    "integration.transfer._support": [
+        "os.path.join",
+        "os.path.dirname"
+    ],
+    "os.path.dirname": [],
+    "os.path.join": [],
+    "integration.transfer.Transfer_.get.setup": [
+        "fabric.connection.Connection.__init__",
+        "integration.transfer._support"
+    ],
+    "integration.transfer.Transfer_.get.base_case": [
+        "<builtin>.str",
+        "fabric.connection.Connection.get"
+    ],
+    "<builtin>.str": [],
+    "integration.transfer.Transfer_.get.file_like_objects": [
+        "io.BytesIO",
+        "fabric.connection.Connection.get"
+    ],
+    "io.BytesIO": [],
+    "integration.transfer.Transfer_.get.mode_preservation": [
+        "<builtin>.str",
+        "stat.S_IMODE",
+        "fabric.connection.Connection.get"
+    ],
+    "integration.transfer.Transfer_.put.setup": [
+        "fabric.connection.Connection.__init__",
+        "py.path.local.mkdtemp"
+    ],
+    "py.path.local.mkdtemp": [],
+    "integration.transfer.Transfer_.put.base_case": [
+        "fabric.connection.Connection.sftp",
+        "py.path.local",
+        "integration.transfer._support",
+        "fabric.connection.Connection.put",
+        "<builtin>.str"
+    ],
+    "py.path.local": [],
+    "integration.transfer.Transfer_.put.file_like_objects": [
+        "<builtin>.str",
+        "io.BytesIO",
+        "fabric.connection.Connection.put"
+    ],
+    "integration.transfer.Transfer_.put.mode_preservation": [
+        "<builtin>.str",
+        "stat.S_IMODE",
+        "fabric.connection.Connection.put"
+    ],
+    "integration.group": [],
+    "integration.group.Group_.simple_command": [
+        "fabric.group.ThreadingGroup.run",
+        "fabric.group.Group.__init__"
+    ],
+    "integration.group.Group_.failed_command": [
+        "fabric.group.ThreadingGroup.run",
+        "fabric.group.Group.__init__"
+    ],
+    "integration.group.Group_.excepted_command": [
+        "fabric.group.ThreadingGroup.run",
+        "<builtin>.isinstance",
+        "fabric.group.Group.__init__"
+    ],
+    "tests._support.yml_conf.fabfile": [
+        "invoke.task"
+    ],
+    "tests._support.yml_conf.fabfile.expect_conf_value": [],
+    "tests._support.yml_conf.fabfile.expect_conf_key_filename": [],
+    "tests._support.yml_conf.fabfile.expect_cli_key_filename": [],
+    "tests._support.prompting": [
+        "invoke.task"
+    ],
+    "tests._support.prompting.expect_connect_kwarg": [],
+    "tests._support.fabfile": [
+        "invoke.task"
+    ],
+    "tests._support.fabfile.build": [],
+    "tests._support.fabfile.deploy": [],
+    "tests._support.fabfile.basic_run": [],
+    "tests._support.fabfile.expect_vanilla_Context": [
+        "<builtin>.isinstance"
+    ],
+    "tests._support.fabfile.expect_from_env": [],
+    "tests._support.fabfile.expect_mutation_to_fail": [],
+    "tests._support.fabfile.mutate": [],
+    "tests._support.fabfile.expect_mutation": [],
+    "tests._support.fabfile.expect_identity": [],
+    "tests._support.fabfile.expect_identities": [],
+    "tests._support.fabfile.first": [
+        "<builtin>.print"
+    ],
+    "tests._support.fabfile.third": [
+        "<builtin>.print"
+    ],
+    "tests._support.fabfile.second": [
+        "<builtin>.print"
+    ],
+    "tests._support.py_conf.fabfile": [
+        "invoke.task"
+    ],
+    "tests._support.py_conf.fabfile.expect_conf_value": [],
+    "tests._support.py_conf.fabric": [],
+    "tests._support.runtime_fabfile": [
+        "invoke.task"
+    ],
+    "tests._support.runtime_fabfile.runtime_ssh_config": [],
+    "tests._support.runtime_fabfile.dummy": [],
+    "tests._support.json_conf.fabfile": [
+        "invoke.task"
+    ],
+    "tests._support.json_conf.fabfile.expect_conf_value": [],
+    "tests._support.yaml_conf.fabfile": [
+        "invoke.task"
+    ],
+    "tests._support.yaml_conf.fabfile.expect_conf_value": [],
+    "tests.connection": [],
+    "tests.connection._select_result": [
+        "<builtin>.isinstance",
+        "itertools.chain",
+        "itertools.repeat",
+        "<builtin>.issubclass",
+        "<builtin>.tuple"
+    ],
+    "<builtin>.issubclass": [],
+    "itertools.repeat": [],
+    "itertools.chain": [],
+    "tests.connection.Connection_.basic_attributes.is_connected_defaults_to_False": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.basic_attributes.client_defaults_to_a_new_SSHClient": [
+        "<builtin>.isinstance",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.known_hosts_behavior.defaults_to_auto_add": [
+        "<builtin>.isinstance",
+        "fabric.connection.Connection.__init__"
+    ],
+    "pytest_relaxed.raises": [],
+    "tests.connection.Connection_.init.host": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.connection.Connection_.init.host.is_required": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.host.is_exposed_as_attribute": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.host.may_contain_user_shorthand": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.host.may_contain_port_shorthand": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.host.may_contain_user_and_port_shorthand": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.host.ipv6_addresses_work_ok_but_avoid_port_shorthand": [
+        "fabric.util.get_local_user",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.user.defaults_to_local_user_with_no_config": [
+        "fabric.util.get_local_user",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.user.accepts_config_user_option": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.user.may_be_given_as_kwarg": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.user": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.connection.Connection_.init.user.errors_when_given_as_both_kwarg_and_shorthand": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.user.kwarg_wins_over_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.user.shorthand_wins_over_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.port.defaults_to_22_because_yup": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.port.accepts_configuration_port": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.port.may_be_given_as_kwarg": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.port": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.connection.Connection_.init.port.errors_when_given_as_both_kwarg_and_shorthand": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.port.kwarg_wins_over_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.port.shorthand_wins_over_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.forward_agent.defaults_to_False": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.forward_agent.accepts_configuration_value": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.forward_agent.may_be_given_as_kwarg": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.forward_agent.kwarg_wins_over_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.connect_timeout.defaults_to_None": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.connect_timeout.accepts_configuration_value": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.connect_timeout.may_be_given_as_kwarg": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.connect_timeout.kwarg_wins_over_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.config.is_not_required": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.config.can_be_specified": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.config.if_given_an_invoke_Config_we_upgrade_to_our_own_Config": [
+        "fabric.connection.Connection.__init__",
+        "invoke.config.Config"
+    ],
+    "invoke.config.Config": [],
+    "tests.connection.Connection_.init.gateway.is_optional_and_defaults_to_None": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.gateway.takes_a_Connection": [
+        "<builtin>.isinstance",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.gateway.takes_a_string": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.gateway.accepts_configuration_value": [
+        "fabric.connection.Connection.__init__",
+        "fabric.config.Config.__init__"
+    ],
+    "mock.patch": [],
+    "tests.connection.Connection_.init.initializes_client": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.init.initializes_client.instantiates_empty_SSHClient": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.initializes_client.sets_missing_host_key_policy": [
+        "mock.Mock",
+        "fabric.connection.Connection.__init__"
+    ],
+    "mock.Mock": [],
+    "tests.connection.Connection_.init.initializes_client.is_made_available_as_client_attr": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config._runtime_config": [
+        "os.path.join",
+        "fabric.config.Config.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config._runtime_cxn": [
+        "fabric.connection.Connection.__init__",
+        "tests.connection.Connection_.init.ssh_config._runtime_config"
+    ],
+    "tests.connection.Connection_.init.ssh_config.effectively_blank_when_no_loaded_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__",
+        "paramiko.SSHConfig"
+    ],
+    "paramiko.SSHConfig": [],
+    "tests.connection.Connection_.init.ssh_config.shows_result_of_lookup_when_loaded_config": [
+        "tests.connection.Connection_.init.ssh_config._runtime_cxn"
+    ],
+    "tests.connection.Connection_.init.ssh_config.hostname.original_host_always_set": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.hostname.hostname_directive_overrides_host_attr": [
+        "os.path.join",
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.user.wins_over_default": [],
+    "tests.connection.Connection_.init.ssh_config.user.wins_over_configuration": [],
+    "tests.connection.Connection_.init.ssh_config.user.loses_to_explicit": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.port.wins_over_default": [],
+    "tests.connection.Connection_.init.ssh_config.port.wins_over_configuration": [],
+    "tests.connection.Connection_.init.ssh_config.port.loses_to_explicit": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.forward_agent.wins_over_default": [],
+    "tests.connection.Connection_.init.ssh_config.forward_agent.wins_over_configuration": [],
+    "tests.connection.Connection_.init.ssh_config.forward_agent.loses_to_explicit": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_command.wins_over_default": [],
+    "tests.connection.Connection_.init.ssh_config.proxy_command.wins_over_configuration": [],
+    "tests.connection.Connection_.init.ssh_config.proxy_command.loses_to_explicit": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_command.explicit_False_turns_off_feature": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.setup": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.wins_over_default": [],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.wins_over_configuration": [],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.loses_to_explicit": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.explicit_False_turns_off_feature": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.wins_over_proxycommand": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.multi_hop_works_ok": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.wildcards_do_not_trigger_recursion": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.multihop_plus_wildcards_still_no_recursion": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.proxy_jump.gateway_Connections_get_parent_connection_configs": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.connect_timeout.wins_over_default": [],
+    "tests.connection.Connection_.init.ssh_config.connect_timeout.wins_over_configuration": [],
+    "tests.connection.Connection_.init.ssh_config.connect_timeout.loses_to_explicit": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.ssh_config.identity_file.basic_loading_of_value": [],
+    "tests.connection.Connection_.init.connect_kwargs.defaults_to_empty_dict": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.connect_kwargs.may_be_given_explicitly": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.connect_kwargs.may_be_configured": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.init.connect_kwargs.kwarg_wins_over_config": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.string_representation.str_displays_repr": [
+        "<builtin>.str",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.string_representation.displays_core_params": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.repr"
+    ],
+    "<builtin>.repr": [],
+    "tests.connection.Connection_.string_representation.omits_default_param_values": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.repr"
+    ],
+    "tests.connection.Connection_.string_representation.param_comparison_uses_config": [
+        "<builtin>.repr",
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.string_representation.proxyjump_gateway_shows_type": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.repr"
+    ],
+    "tests.connection.Connection_.string_representation.proxycommand_gateway_shows_type": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.repr"
+    ],
+    "tests.connection.Connection_.comparison_and_hashing.comparison_uses_host_user_and_port": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.comparison_and_hashing.comparison_to_non_Connections_is_False": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.comparison_and_hashing.hashing_works": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.hash"
+    ],
+    "tests.connection.Connection_.comparison_and_hashing.sorting_works": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.open.has_no_required_args_and_returns_None": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.calls_SSHClient_connect": [
+        "fabric.util.get_local_user",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.passes_through_connect_kwargs": [
+        "fabric.util.get_local_user",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.refuses_to_overwrite_connect_kwargs_with_others": [
+        "<builtin>.str",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.connect_kwargs_protection_not_tripped_by_defaults": [
+        "fabric.util.get_local_user",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.submits_connect_timeout": [
+        "fabric.util.get_local_user",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.is_connected_True_when_successful": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.short_circuits_if_already_connected": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.is_connected_still_False_when_connect_fails": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open.uses_configured_user_host_and_port": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.open": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.open.uses_gateway_channel_as_sock_for_SSHClient_connect": [
+        "mock.Mock",
+        "fabric.connection.Connection.open",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.open.uses_proxycommand_as_sock_for_Client_connect": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.open"
+    ],
+    "pytest.mark.parametrize": [],
+    "tests.connection.Connection_.connect_kwargs_key_filename": [
+        "pytest.mark.parametrize"
+    ],
+    "tests.connection.Connection_.connect_kwargs_key_filename.merges_sources": [
+        "os.path.join",
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.open",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.close.has_no_required_args_and_returns_None": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.close",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.close.calls_SSHClient_close": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.close",
+        "fabric.connection.Connection.open"
+    ],
+    "tests.connection.Connection_.close": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.close.calls_agent_handler_close_if_enabled": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.close",
+        "fabric.connection.Connection.create_session",
+        "tests.runners.Remote_.run.channel_close_skipped_when_channel_not_even_made.oops"
+    ],
+    "tests.connection.Connection_.close.short_circuits_if_not_connected": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.close"
+    ],
+    "tests.connection.Connection_.close.class_works_as_a_closing_contextmanager": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.connection.Connection_.create_session.calls_open_for_you": [
+        "fabric.connection.Connection.create_session",
+        "fabric.connection.Connection.__init__",
+        "mock.Mock",
+        "tests.runners.Remote_.run.channel_close_skipped_when_channel_not_even_made.oops"
+    ],
+    "tests.connection.Connection_.create_session": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.create_session.activates_paramiko_agent_forwarding_if_configured": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.create_session",
+        "tests.runners.Remote_.run.channel_close_skipped_when_channel_not_even_made.oops"
+    ],
+    "tests.connection.Connection_.run": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.run.calls_open_for_you": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.run",
+        "mock.Mock"
+    ],
+    "tests.connection.Connection_.run.calls_Remote_run_with_command_and_kwargs_and_returns_its_result": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.object",
+        "fabric.connection.Connection.run"
+    ],
+    "<builtin>.object": [],
+    "tests.connection.Connection_.local": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.local.calls_invoke_Local_run": [
+        "fabric.connection.Connection.local",
+        "fabric.connection.Connection.__init__",
+        "mock.call"
+    ],
+    "mock.call": [],
+    "tests.connection.Connection_.sudo": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.sudo.calls_open_for_you": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.sudo",
+        "mock.Mock"
+    ],
+    "tests.connection.Connection_.sudo.basic_invocation": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.sudo",
+        "mock.call"
+    ],
+    "tests.connection.Connection_.sudo.per_host_password_works_as_expected": [
+        "pytest.skip"
+    ],
+    "tests.connection.Connection_.sftp.returns_result_of_client_open_sftp": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.object",
+        "fabric.connection.Connection.sftp"
+    ],
+    "tests.connection.Connection_.sftp.lazily_caches_result": [
+        "fabric.connection.Connection.__init__",
+        "<builtin>.object",
+        "fabric.connection.Connection.sftp"
+    ],
+    "tests.connection.Connection_.get": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.get.calls_Transfer_get": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.get"
+    ],
+    "tests.connection.Connection_.put": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.put.calls_Transfer_put": [
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.put"
+    ],
+    "tests.connection.Connection_.forward_local": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.forward_local._forward_local": [
+        "socket.error",
+        "mock.Mock",
+        "itertools.chain",
+        "itertools.repeat",
+        "six.b",
+        "tests.connection._select_result",
+        "time.sleep",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.forward_local",
+        "invoke.vendor.six.b"
+    ],
+    "invoke.vendor.six.b": [],
+    "six.b": [],
+    "tests.connection.Connection_.forward_local._forward_local.<lambda1>": [],
+    "socket.error": [],
+    "tests.connection.Connection_.forward_local.forwards_local_port_to_remote_end": [
+        "tests.connection.Connection_.forward_local._forward_local"
+    ],
+    "tests.connection.Connection_.forward_local.distinct_remote_port": [
+        "tests.connection.Connection_.forward_local._forward_local"
+    ],
+    "tests.connection.Connection_.forward_local.non_localhost_listener": [
+        "tests.connection.Connection_.forward_local._forward_local"
+    ],
+    "tests.connection.Connection_.forward_local.non_remote_localhost_connection": [
+        "tests.connection.Connection_.forward_local._forward_local"
+    ],
+    "tests.connection.Connection_.forward_local._thread_error": [
+        "<builtin>.len",
+        "tests.connection.Connection_.forward_local._forward_local"
+    ],
+    "tests.connection.Connection_.forward_local.tunnel_errors_bubble_up": [
+        "tests.connection.Connection_.forward_local._thread_error"
+    ],
+    "tests.connection.Connection_.forward_local.tunnel_manager_errors_bubble_up": [
+        "tests.connection.Connection_.forward_local._thread_error"
+    ],
+    "tests.connection.Connection_.forward_local.multiple_tunnels_can_be_open_at_once": [
+        "pytest.skip"
+    ],
+    "tests.connection.Connection_.forward_remote": [
+        "mock.patch"
+    ],
+    "tests.connection.Connection_.forward_remote._forward_remote": [
+        "mock.Mock",
+        "tests.connection._select_result",
+        "time.sleep",
+        "fabric.connection.Connection.__init__",
+        "fabric.connection.Connection.forward_remote",
+        "<builtin>.tuple"
+    ],
+    "tests.connection.Connection_.forward_remote.forwards_remote_port_to_local_end": [
+        "tests.connection.Connection_.forward_remote._forward_remote"
+    ],
+    "tests.connection.Connection_.forward_remote.distinct_local_port": [
+        "tests.connection.Connection_.forward_remote._forward_remote"
+    ],
+    "tests.connection.Connection_.forward_remote.non_localhost_connections": [
+        "tests.connection.Connection_.forward_remote._forward_remote"
+    ],
+    "tests.connection.Connection_.forward_remote.remote_non_localhost_listener": [
+        "tests.connection.Connection_.forward_remote._forward_remote"
+    ],
+    "tests.connection.Connection_.forward_remote.multiple_tunnels_can_be_open_at_once": [
+        "pytest.skip"
+    ],
+    "tests.connection.Connection_.forward_remote.tunnel_errors_bubble_up": [
+        "pytest.skip"
+    ],
+    "tests.connection.Connection_.forward_remote.listener_errors_bubble_up": [
+        "pytest.skip"
+    ],
+    "tests.conftest": [
+        "pytest.fixture"
+    ],
+    "pytest.fixture": [],
+    "tests.conftest.remote": [
+        "_util.MockRemote"
+    ],
+    "_util.MockRemote": [],
+    "tests.conftest.sftp": [
+        "fabric.connection.Connection.__init__",
+        "_util.MockSFTP",
+        "fabric.transfer.Transfer.__init__"
+    ],
+    "_util.MockSFTP": [],
+    "tests.conftest.sftp_objs": [],
+    "tests.conftest.transfer": [],
+    "tests.conftest.client": [
+        "mock.Mock",
+        "mock.patch"
+    ],
+    "tests.conftest.no_user_ssh_config": [
+        "mock.patch"
+    ],
+    "tests.conftest.no_user_ssh_config.no_config_for_you": [
+        "os.path.expanduser",
+        "os.path.isfile"
+    ],
+    "tests.main": [],
+    "tests.main.Fab_.core_program_behavior.version_output_contains_our_name_plus_deps": [
+        "_util.expect"
+    ],
+    "_util.expect": [],
+    "tests.main.Fab_.core_program_behavior.help_output_says_fab": [
+        "_util.expect"
+    ],
+    "tests.main.Fab_.core_program_behavior.exposes_hosts_flag_in_help": [
+        "_util.expect"
+    ],
+    "tests.main.Fab_.core_program_behavior.executes_remainder_as_anonymous_task": [
+        "invoke.Program.run",
+        "fabric.main.make_program"
+    ],
+    "invoke.Program.run": [],
+    "tests.main.Fab_.core_program_behavior.uses_FABRIC_env_prefix": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "invoke.util.cd": [],
+    "tests.main.Fab_.core_program_behavior.basic_pre_and_post_tasks_still_work": [
+        "_util.expect",
+        "invoke.util.cd"
+    ],
+    "tests.main.Fab_.filenames.loads_fabfile_not_tasks": [
+        "_util.expect",
+        "invoke.util.cd"
+    ],
+    "tests.main.Fab_.filenames.loads_fabric_config_files_not_invoke_ones": [
+        "os.path.join",
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.runtime_ssh_config_path._run": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.runtime_ssh_config_path.capital_F_flag_specifies_runtime_ssh_config_file": [
+        "tests.main.Fab_.runtime_ssh_config_path._run"
+    ],
+    "tests.main.Fab_.runtime_ssh_config_path.long_form_flag_also_works": [
+        "tests.main.Fab_.runtime_ssh_config_path._run"
+    ],
+    "tests.main.Fab_.runtime_ssh_config_path": [
+        "pytest_relaxed.raises",
+        "mock.patch.object"
+    ],
+    "tests.main.Fab_.runtime_ssh_config_path.IOErrors_if_given_missing_file": [
+        "tests.main.Fab_.runtime_ssh_config_path._run"
+    ],
+    "mock.patch.object": [],
+    "tests.main.Fab_.runtime_ssh_config_path.config_only_loaded_once_per_session": [
+        "tests.main.Fab_.runtime_ssh_config_path._run"
+    ],
+    "tests.main.Fab_.hosts_flag_parameterizes_tasks.single_string_is_single_host_and_single_exec": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.hosts_flag_parameterizes_tasks.comma_separated_string_is_multiple_hosts": [
+        "_util.Session",
+        "invoke.util.cd",
+        "fabric.main.make_program",
+        "invoke.Program.run"
+    ],
+    "_util.Session": [],
+    "tests.main.Fab_.hosts_flag_parameterizes_tasks.multiple_hosts_works_with_remainder_too": [
+        "_util.Session",
+        "fabric.main.make_program",
+        "invoke.Program.run"
+    ],
+    "tests.main.Fab_.hosts_flag_parameterizes_tasks.host_string_shorthand_is_passed_through": [
+        "invoke.Program.run",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.hosts_flag_parameterizes_tasks": [
+        "pytest.mark.skip",
+        "_util.trap"
+    ],
+    "pytest.mark.skip": [],
+    "tests.main.Fab_.hosts_flag_parameterizes_tasks.config_mutation_not_preserved": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "_util.trap": [],
+    "tests.main.Fab_.hosts_flag_parameterizes_tasks.pre_post_tasks_are_not_parameterized_across_hosts": [
+        "sys.stdout.getvalue",
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "sys.stdout.getvalue": [],
+    "tests.main.Fab_.no_hosts_flag.calls_task_once_with_invoke_context": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.no_hosts_flag": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.main.Fab_.no_hosts_flag.generates_exception_if_combined_with_remainder": [
+        "invoke.Program.run",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.no_hosts_flag.invokelike_multitask_invocation_preserves_config_mutation": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.runtime_identity_file.dash_i_supplies_default_connect_kwarg_key_filename": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.runtime_identity_file.double_dash_identity_also_works": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.runtime_identity_file.may_be_given_multiple_times": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.secrets_prompts": [
+        "mock.patch"
+    ],
+    "tests.main.Fab_.secrets_prompts._expect_prompt": [
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.secrets_prompts.password_prompt_updates_connect_kwargs": [
+        "tests.main.Fab_.secrets_prompts._expect_prompt"
+    ],
+    "tests.main.Fab_.secrets_prompts.passphrase_prompt_updates_connect_kwargs": [
+        "tests.main.Fab_.secrets_prompts._expect_prompt"
+    ],
+    "tests.main.Fab_.configuration_updating_and_merging.key_filename_can_be_set_via_non_override_config_levels": [
+        "os.path.join",
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.configuration_updating_and_merging.cli_identity_still_overrides_when_non_empty": [
+        "os.path.join",
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.main.Fab_.completion": [
+        "_util.trap"
+    ],
+    "tests.main.Fab_.completion.complete_flag_does_not_trigger_remainder_only_behavior": [
+        "sys.stdout.getvalue",
+        "invoke.Program.run",
+        "invoke.util.cd",
+        "fabric.main.make_program"
+    ],
+    "tests.init": [],
+    "tests.init.init.version_and_version_info": [
+        "<builtin>.getattr"
+    ],
+    "tests.init.init.Connection": [],
+    "tests.init.init.Remote": [],
+    "tests.init.init.Result": [],
+    "tests.init.init.Config": [],
+    "tests.init.init.Group": [],
+    "tests.init.init.SerialGroup": [],
+    "tests.init.init.ThreadingGroup": [],
+    "tests.init.init.GroupResult": [],
+    "tests.config": [],
+    "tests.config.Config_.defaults_to_merger_of_global_defaults": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.Config_.our_global_defaults_can_override_invokes": [
+        "fabric.config.Config.__init__",
+        "mock.patch.object"
+    ],
+    "tests.config.Config_.has_various_Fabric_specific_default_keys": [
+        "fabric.util.get_local_user",
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.Config_.overrides_some_Invoke_defaults": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.Config_.uses_Fabric_prefix": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.ssh_config_loading": [
+        "os.path.join",
+        "<builtin>.dict",
+        "mock.patch.object",
+        "mock.patch"
+    ],
+    "tests.config.ssh_config_loading.defaults_to_empty_sshconfig_obj_if_no_files_found": [
+        "fabric.config.Config.__init__",
+        "<builtin>.type"
+    ],
+    "<builtin>.type": [],
+    "tests.config.ssh_config_loading.object_can_be_given_explicitly_via_ssh_config_kwarg": [
+        "fabric.config.Config.__init__",
+        "paramiko.config.SSHConfig"
+    ],
+    "tests.config.ssh_config_loading.when_config_obj_given_default_paths_are_not_sought": [
+        "fabric.config.Config.__init__",
+        "paramiko.config.SSHConfig"
+    ],
+    "tests.config.ssh_config_loading.config_obj_prevents_loading_runtime_path_too": [
+        "fabric.config.Config.__init__",
+        "paramiko.config.SSHConfig"
+    ],
+    "tests.config.ssh_config_loading.when_runtime_path_given_other_paths_are_not_sought": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.ssh_config_loading.runtime_path_can_be_given_via_config_itself": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.ssh_config_loading.runtime_path_does_not_die_silently": [
+        "<builtin>.str",
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.ssh_config_loading.default_file_paths_match_openssh": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.ssh_config_loading.system_path_loads_ok": [
+        "<builtin>.dict",
+        "fabric.config.Config.__init__",
+        "invoke.config.Config.base_ssh_config.get_hostnames"
+    ],
+    "invoke.config.Config.base_ssh_config.get_hostnames": [],
+    "tests.config.ssh_config_loading.user_path_loads_ok": [
+        "<builtin>.dict",
+        "fabric.config.Config.__init__",
+        "invoke.config.Config.base_ssh_config.get_hostnames"
+    ],
+    "tests.config.ssh_config_loading.both_paths_loaded_if_both_exist_with_user_winning": [
+        "fabric.config.Config.__init__",
+        "invoke.config.Config.base_ssh_config.lookup",
+        "invoke.config.Config.base_ssh_config.get_hostnames"
+    ],
+    "invoke.config.Config.base_ssh_config.lookup": [],
+    "tests.config.ssh_config_loading.<lambda1>": [],
+    "tests.config.ssh_config_loading.runtime_path_subject_to_user_expansion": [
+        "fabric.config.Config.__init__",
+        "os.path.expanduser"
+    ],
+    "tests.config.ssh_config_loading.user_path_subject_to_user_expansion": [
+        "fabric.config.Config.__init__",
+        "os.path.expanduser"
+    ],
+    "tests.config.ssh_config_loading.core_ssh_load_option_allows_skipping_ssh_config_loading": [
+        "mock.patch.object"
+    ],
+    "tests.config.ssh_config_loading.core_ssh_load_option_allows_skipping_ssh_config_loading.skips_default_paths": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.ssh_config_loading.core_ssh_load_option_allows_skipping_ssh_config_loading.does_not_affect_explicit_object": [
+        "fabric.config.Config.__init__",
+        "paramiko.config.SSHConfig"
+    ],
+    "tests.config.ssh_config_loading.core_ssh_load_option_allows_skipping_ssh_config_loading.does_not_skip_loading_runtime_path": [
+        "fabric.config.Config.__init__"
+    ],
+    "tests.config.ssh_config_loading.lazy_loading_and_explicit_methods": [
+        "mock.patch.object"
+    ],
+    "tests.config.ssh_config_loading.lazy_loading_and_explicit_methods.may_use_lazy_plus_explicit_methods_to_control_flow": [
+        "fabric.config.Config.__init__",
+        "fabric.config.Config.load_ssh_config",
+        "fabric.config.Config.set_runtime_ssh_path"
+    ],
+    "tests.util": [],
+    "tests.util.get_local_user_": [
+        "mock.patch"
+    ],
+    "tests.util.get_local_user_.defaults_to_getpass_getuser": [
+        "fabric.util.get_local_user"
+    ],
+    "tests.util.get_local_user_.KeyError_means_SaaS_and_thus_None": [
+        "fabric.util.get_local_user"
+    ],
+    "tests.transfer": [],
+    "tests.transfer.Transfer_.init.requires_connection": [
+        "fabric.connection.Connection.__init__",
+        "fabric.transfer.Transfer.__init__"
+    ],
+    "tests.transfer.Transfer_.is_remote_dir.returns_bool_of_stat_ISDIR_flag": [],
+    "tests.transfer.Transfer_.is_remote_dir.returns_False_if_stat_raises_IOError": [],
+    "tests.transfer.Transfer_.get.basics.accepts_single_remote_path_posarg": [],
+    "tests.transfer.Transfer_.get.basics.accepts_local_and_remote_kwargs": [],
+    "tests.transfer.Transfer_.get.basics.returns_rich_Result_object": [
+        "fabric.connection.Connection.__init__",
+        "fabric.transfer.Transfer.get",
+        "fabric.transfer.Transfer.__init__"
+    ],
+    "tests.transfer.Transfer_.get.path_arg_edge_cases.local_None_uses_remote_filename": [],
+    "tests.transfer.Transfer_.get.path_arg_edge_cases.local_empty_string_uses_remote_filename": [],
+    "tests.transfer.Transfer_.get.path_arg_edge_cases": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.transfer.Transfer_.get.path_arg_edge_cases.remote_arg_is_required": [],
+    "tests.transfer.Transfer_.get.path_arg_edge_cases.remote_arg_cannot_be_None": [],
+    "tests.transfer.Transfer_.get.path_arg_edge_cases.remote_arg_cannot_be_empty_string": [],
+    "tests.transfer.Transfer_.get.file_like_local_paths._get_to_stringio": [
+        "invoke.vendor.six.StringIO",
+        "six.StringIO"
+    ],
+    "tests.transfer.Transfer_.get.file_like_local_paths.remote_path_to_local_StringIO": [
+        "tests.transfer.Transfer_.get.file_like_local_paths._get_to_stringio"
+    ],
+    "tests.transfer.Transfer_.get.file_like_local_paths.result_contains_fd_for_local_path": [
+        "tests.transfer.Transfer_.get.file_like_local_paths._get_to_stringio"
+    ],
+    "tests.transfer.Transfer_.get.mode_concerns.setup": [
+        "paramiko.SFTPAttributes"
+    ],
+    "paramiko.SFTPAttributes": [],
+    "tests.transfer.Transfer_.get.mode_concerns.preserves_remote_mode_by_default": [],
+    "tests.transfer.Transfer_.get.mode_concerns.allows_disabling_remote_mode_preservation": [],
+    "tests.transfer.Transfer_.put.basics.accepts_single_local_path_posarg": [],
+    "tests.transfer.Transfer_.put.basics.accepts_local_and_remote_kwargs": [],
+    "tests.transfer.Transfer_.put.basics.returns_rich_Result_object": [
+        "fabric.transfer.Transfer.put",
+        "fabric.connection.Connection.__init__",
+        "fabric.transfer.Transfer.__init__"
+    ],
+    "tests.transfer.Transfer_.put.remote_end_is_directory.appends_local_file_basename": [],
+    "tests.transfer.Transfer_.put.remote_end_is_directory.file_like_local_objects.name_attribute_present_appends_like_basename": [
+        "invoke.vendor.six.StringIO",
+        "six.StringIO"
+    ],
+    "tests.transfer.Transfer_.put.remote_end_is_directory.file_like_local_objects": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.transfer.Transfer_.put.remote_end_is_directory.file_like_local_objects.no_name_attribute_raises_ValueError": [
+        "invoke.vendor.six.StringIO",
+        "six.StringIO"
+    ],
+    "tests.transfer.Transfer_.put.path_arg_edge_cases.remote_None_uses_local_filename": [],
+    "tests.transfer.Transfer_.put.path_arg_edge_cases.remote_empty_string_uses_local_filename": [],
+    "tests.transfer.Transfer_.put.path_arg_edge_cases": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.transfer.Transfer_.put.path_arg_edge_cases.remote_cant_be_empty_if_local_file_like": [
+        "invoke.vendor.six.StringIO",
+        "six.StringIO"
+    ],
+    "tests.transfer.Transfer_.put.path_arg_edge_cases.local_arg_is_required": [],
+    "tests.transfer.Transfer_.put.path_arg_edge_cases.local_arg_cannot_be_None": [],
+    "tests.transfer.Transfer_.put.path_arg_edge_cases.local_arg_cannot_be_empty_string": [],
+    "tests.transfer.Transfer_.put.file_like_local_paths._put_from_stringio": [
+        "invoke.vendor.six.StringIO",
+        "six.StringIO"
+    ],
+    "tests.transfer.Transfer_.put.file_like_local_paths.remote_path_from_local_StringIO": [
+        "tests.transfer.Transfer_.put.file_like_local_paths._put_from_stringio"
+    ],
+    "tests.transfer.Transfer_.put.file_like_local_paths.local_FLOs_are_rewound_before_putting": [
+        "mock.Mock",
+        "mock.call"
+    ],
+    "tests.transfer.Transfer_.put.file_like_local_paths.result_contains_fd_for_local_path": [
+        "tests.transfer.Transfer_.put.file_like_local_paths._put_from_stringio"
+    ],
+    "tests.transfer.Transfer_.put.mode_concerns.preserves_local_mode_by_default": [],
+    "tests.transfer.Transfer_.put.mode_concerns.allows_disabling_local_mode_preservation": [],
+    "tests.runners": [],
+    "tests.runners._Connection": [
+        "fabric.config.Config.__init__",
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.runners.Remote_.needs_handle_on_a_Connection": [
+        "invoke.Runner.__init__",
+        "tests.runners._Connection"
+    ],
+    "invoke.Runner.__init__": [],
+    "tests.runners.Remote_.run.calls_expected_paramiko_bits": [
+        "invoke.Runner.__init__",
+        "invoke.Runner.run",
+        "tests.runners._Connection"
+    ],
+    "invoke.Runner.run": [],
+    "tests.runners.Remote_.run.writes_remote_streams_to_local_streams": [
+        "invoke.Runner.__init__",
+        "invoke.vendor.six.StringIO",
+        "six.StringIO",
+        "tests.runners._Connection",
+        "invoke.Runner.run"
+    ],
+    "tests.runners.Remote_.run.pty_True_uses_paramiko_get_pty": [
+        "invoke.Runner.__init__",
+        "invoke.Runner.run",
+        "tests.runners._Connection",
+        "invoke.pty_size"
+    ],
+    "tests.runners.Remote_.run.start_sends_given_env_to_paramiko_update_environment": [
+        "invoke.Runner.__init__",
+        "invoke.Runner.run",
+        "tests.runners._Connection"
+    ],
+    "tests.runners.Remote_.run.return_value_is_Result_subclass_exposing_cxn_used": [
+        "<builtin>.isinstance",
+        "invoke.Runner.__init__",
+        "invoke.Runner.run",
+        "tests.runners._Connection"
+    ],
+    "tests.runners.Remote_.run.channel_is_closed_normally": [
+        "invoke.Runner.__init__",
+        "invoke.Runner.run",
+        "tests.runners._Connection"
+    ],
+    "tests.runners.Remote_.run.channel_is_closed_on_body_exceptions": [
+        "invoke.Runner.__init__",
+        "invoke.Runner.run",
+        "tests.runners._Connection"
+    ],
+    "tests.runners.Remote_.run.channel_is_closed_on_body_exceptions._OopsRemote.wait": [],
+    "tests.runners.Remote_.run.channel_close_skipped_when_channel_not_even_made": [
+        "invoke.Runner.__init__",
+        "invoke.Runner.run",
+        "tests.runners._Connection"
+    ],
+    "tests._util": [
+        "os.path.join",
+        "os.path.dirname",
+        "pytest_relaxed.trap",
+        "os.path.abspath"
+    ],
+    "tests._util.eq_": [],
+    "pytest_relaxed.trap": [],
+    "tests._util.expect": [
+        "sys.stdout.getvalue",
+        "invoke.Program.run",
+        "re.match",
+        "fabric.main.make_program"
+    ],
+    "re.match": [],
+    "tests._util.Command.__init__": [],
+    "tests._util.MockChannel.__init__": [
+        "<builtin>.super",
+        "io.BytesIO"
+    ],
+    "tests._util.MockChannel._get_child_mock": [
+        "mock.Mock"
+    ],
+    "tests._util.MockChannel.recv": [],
+    "tests._util.MockChannel.recv_stderr": [],
+    "tests._util.MockChannel.sendall": [],
+    "tests._util.Session.__init__": [
+        "<builtin>.ValueError",
+        "tests._util.Command.__init__"
+    ],
+    "tests._util.Session.generate_mocks": [
+        "itertools.chain",
+        "mock.Mock",
+        "itertools.repeat",
+        "mock.PropertyMock",
+        "io.BytesIO",
+        "tests._util.MockChannel.__init__",
+        "<builtin>.type"
+    ],
+    "mock.PropertyMock": [],
+    "tests._util.Session.sanity_check": [
+        "tests._util.eq_",
+        "mock.call",
+        "<builtin>.zip"
+    ],
+    "<builtin>.zip": [],
+    "tests._util.MockRemote.__init__": [
+        "tests._util.Session.__init__",
+        "tests._util.MockRemote.expect_sessions"
+    ],
+    "tests._util.MockRemote.expect_sessions": [
+        "tests._util.MockRemote.start",
+        "tests._util.MockRemote.stop"
+    ],
+    "tests._util.MockRemote.expect": [
+        "tests._util.Session.__init__",
+        "tests._util.MockRemote.expect_sessions"
+    ],
+    "tests._util.MockRemote.stop": [
+        "<builtin>.hasattr"
+    ],
+    "tests._util.MockRemote.start": [
+        "itertools.chain.from_iterable",
+        "<builtin>.list",
+        "mock.patch"
+    ],
+    "itertools.chain.from_iterable": [],
+    "<builtin>.list": [],
+    "tests._util.MockRemote.sanity": [],
+    "tests._util.MockSFTP.__init__": [
+        "tests._util.MockSFTP.start"
+    ],
+    "tests._util.MockSFTP.start": [
+        "mock.patch"
+    ],
+    "tests._util.MockSFTP.start.fake_abspath": [],
+    "tests._util.MockSFTP.stop": [],
+    "tests.group": [],
+    "tests.group.Group_.init.may_be_empty": [
+        "fabric.group.Group.__init__",
+        "<builtin>.len"
+    ],
+    "tests.group.Group_.init.takes_splat_arg_of_host_strings": [
+        "fabric.group.Group.__init__"
+    ],
+    "tests.group.Group_.from_connections.inits_from_iterable_of_Connections": [
+        "fabric.connection.Connection.__init__",
+        "fabric.group.Group.from_connections",
+        "<builtin>.len"
+    ],
+    "tests.group.Group_.acts_like_an_iterable_of_Connections": [
+        "<builtin>.isinstance",
+        "fabric.group.Group.__init__",
+        "<builtin>.len"
+    ],
+    "tests.group.Group_.run": [
+        "pytest_relaxed.raises"
+    ],
+    "tests.group.Group_.run.not_implemented_in_base_class": [
+        "fabric.group.ThreadingGroup.run",
+        "fabric.group.Group.__init__",
+        "fabric.group.Group.run"
+    ],
+    "tests.group._make_serial_tester": [],
+    "tests.group._make_serial_tester.tester": [],
+    "tests.group.SerialGroup_.run.executes_arguments_on_contents_run_serially": [
+        "fabric.group.Group.from_connections",
+        "mock.Mock",
+        "fabric.connection.Connection.__init__",
+        "<builtin>.enumerate",
+        "tests.group._make_serial_tester"
+    ],
+    "tests.group.SerialGroup_.run.errors_in_execution_capture_and_continue_til_end": [
+        "mock.Mock",
+        "fabric.group.Group.from_connections"
+    ],
+    "tests.group.SerialGroup_.run.returns_results_mapping": [
+        "<builtin>.isinstance",
+        "mock.Mock",
+        "fabric.group.Group.from_connections"
+    ],
+    "tests.group.ThreadingGroup_.setup": [
+        "fabric.connection.Connection.__init__"
+    ],
+    "tests.group.ThreadingGroup_.run": [
+        "mock.patch"
+    ],
+    "tests.group.ThreadingGroup_.run.executes_arguments_on_contents_run_via_threading": [
+        "<builtin>.dict",
+        "fabric.group.Group.from_connections",
+        "<builtin>.len",
+        "mock.call"
+    ],
+    "tests.group.ThreadingGroup_.run.queue_used_to_return_results": [
+        "mock.Mock",
+        "fabric.group.Group.from_connections",
+        "mock.call"
+    ],
+    "tests.group.ThreadingGroup_.run.bubbles_up_errors_within_threads": [
+        "mock.Mock",
+        "fabric.group.Group.from_connections"
+    ],
+    "tests.group.ThreadingGroup_.run.returns_results_mapping": [
+        "<builtin>.isinstance",
+        "mock.Mock",
+        "fabric.group.Group.from_connections"
+    ],
+    "sites.docs.conf": [
+        "os.path.join",
+        "os.path.dirname",
+        "sys.path.append",
+        "os.path.abspath"
+    ],
+    "sys.path.append": [],
+    "sites.shared_conf": [
+        "os.path.join",
+        "os.path.dirname",
+        "alabaster.get_path",
+        "os.environ.get",
+        "datetime.datetime.now",
+        "os.path.abspath"
+    ],
+    "alabaster.get_path": [],
+    "datetime.datetime.now": [],
+    "sites.www.conf": [
+        "os.path.join",
+        "os.path.dirname",
+        "sys.path.append",
+        "os.path.abspath"
+    ],
+    "setup": [
+        "<builtin>.exec",
+        "os.path.join",
+        "os.path.dirname",
+        "<builtin>.open",
+        "setuptools.setup",
+        "setuptools.find_packages",
+        "os.path.isdir",
+        "os.environ.get",
+        "os.path.abspath"
+    ],
+    "os.path.isdir": [],
+    "setuptools.find_packages": [],
+    "<builtin>.exec": [],
+    "setuptools.setup": []
+}

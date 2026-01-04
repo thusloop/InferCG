@@ -1,0 +1,2956 @@
+{
+  "docs.source.conf": [
+    "os.path.join",
+    "time.strftime",
+    "sys.path.append",
+    "os.path.abspath",
+    "sys.path.insert",
+    "os.environ.get",
+    "sphinx_rtd_theme.get_html_theme_path",
+    "os.path.dirname"
+  ],
+  "os.path.dirname": [],
+  "os.path.abspath": [],
+  "os.environ.get": [],
+  "os.path.join": [],
+  "sys.path.append": [],
+  "sys.path.insert": [],
+  "time.strftime": [],
+  "sphinx_rtd_theme.get_html_theme_path": [],
+  "gunicorn": [
+    "<builtin>.str"
+  ],
+  "<builtin>.str": [],
+  "docs.sitemap_gen": [
+    "docs.sitemap_gen.main"
+  ],
+  "docs.sitemap_gen.main": [
+    "docs.sitemap_gen.generate",
+    "os.path.join",
+    "os.path.dirname"
+  ],
+  "docs.sitemap_gen.generate": [
+    "os.path.join",
+    "xml.etree.ElementTree.SubElement",
+    "subprocess.check_output.decode",
+    "<builtin>.sorted",
+    "xml.etree.ElementTree.Element",
+    "<builtin>.str",
+    "os.path.relpath",
+    "<builtin>.open",
+    "subprocess.check_output.decode.strip",
+    "xml.etree.ElementTree.ElementTree",
+    "os.walk",
+    "os.path.dirname",
+    "subprocess.check_output"
+  ],
+  "xml.etree.ElementTree.Element": [],
+  "os.walk": [],
+  "os.path.relpath": [],
+  "subprocess.check_output": [],
+  "subprocess.check_output.decode": [],
+  "subprocess.check_output.decode.strip": [],
+  "xml.etree.ElementTree.SubElement": [],
+  "docs.sitemap_gen.generate.<lambda1>": [],
+  "<builtin>.sorted": [],
+  "<builtin>.open": [],
+  "xml.etree.ElementTree.ElementTree": [],
+  "docs.gunicorn_ext": [],
+  "docs.gunicorn_ext.format_settings": [
+    "os.path.join",
+    "<builtin>.sorted",
+    "<builtin>.len",
+    "<builtin>.enumerate",
+    "<builtin>.open",
+    "docs.gunicorn_ext.fmt_setting"
+  ],
+  "docs.gunicorn_ext.format_settings.<lambda1>": [],
+  "<builtin>.enumerate": [],
+  "<builtin>.len": [],
+  "docs.gunicorn_ext.fmt_setting": [
+    "inspect.getsource.splitlines",
+    "<builtin>.callable",
+    "inspect.getsource",
+    "<builtin>.len"
+  ],
+  "<builtin>.callable": [],
+  "inspect.getsource": [],
+  "inspect.getsource.splitlines": [],
+  "docs.gunicorn_ext.issue_role": [
+    "docutils.nodes.reference",
+    "docutils.utils.unescape"
+  ],
+  "docutils.utils.unescape": [],
+  "docutils.nodes.reference": [],
+  "docs.gunicorn_ext.pull_request_role": [
+    "docutils.nodes.reference",
+    "docutils.utils.unescape"
+  ],
+  "docs.gunicorn_ext.setup": [],
+  "gunicorn.config": [],
+  "gunicorn.config.make_settings": [],
+  "gunicorn.config.auto_int": [
+    "<builtin>.int",
+    "re.match"
+  ],
+  "re.match": [],
+  "<builtin>.int": [],
+  "gunicorn.config.Config.__init__": [
+    "os.environ.copy",
+    "gunicorn.config.make_settings",
+    "os.path.basename"
+  ],
+  "os.path.basename": [],
+  "os.environ.copy": [],
+  "gunicorn.config.Config.__str__": [
+    "<builtin>.sorted",
+    "<builtin>.callable",
+    "<builtin>.max",
+    "<builtin>.len"
+  ],
+  "<builtin>.max": [],
+  "gunicorn.config.Config.__getattr__": [
+    "<builtin>.AttributeError"
+  ],
+  "<builtin>.AttributeError": [],
+  "gunicorn.config.Config.__setattr__": [
+    "<builtin>.super",
+    "<builtin>.AttributeError"
+  ],
+  "<builtin>.super": [],
+  "gunicorn.config.Config.set": [
+    "<builtin>.AttributeError"
+  ],
+  "gunicorn.config.Config.get_cmd_args_from_env": [
+    "shlex.split"
+  ],
+  "shlex.split": [],
+  "gunicorn.config.Config.parser": [
+    "<builtin>.sorted",
+    "argparse.ArgumentParser",
+    "argparse.ArgumentParser.add_argument"
+  ],
+  "argparse.ArgumentParser": [],
+  "argparse.ArgumentParser.add_argument": [],
+  "gunicorn.config.Config.worker_class_str": [],
+  "gunicorn.config.Config.worker_class": [
+    "<builtin>.hasattr",
+    "pkg_resources.load_entry_point.setup",
+    "gunicorn.util.load_class"
+  ],
+  "gunicorn.util.load_class": [
+    "<builtin>.RuntimeError",
+    "<builtin>.getattr",
+    "inspect.isclass",
+    "traceback.format_exc",
+    "importlib.import_module",
+    "<builtin>.len",
+    "pkg_resources.load_entry_point"
+  ],
+  "<builtin>.hasattr": [],
+  "pkg_resources.load_entry_point.setup": [],
+  "gunicorn.config.Config.address": [
+    "gunicorn.util.bytes_to_str",
+    "gunicorn.util.parse_address"
+  ],
+  "gunicorn.util.bytes_to_str": [
+    "<builtin>.isinstance",
+    "<builtin>.str"
+  ],
+  "gunicorn.util.parse_address": [
+    "re.split",
+    "<builtin>.int",
+    "<builtin>.RuntimeError",
+    "re.match"
+  ],
+  "gunicorn.config.Config.uid": [],
+  "gunicorn.config.Config.gid": [],
+  "gunicorn.config.Config.proc_name": [],
+  "gunicorn.config.Config.logger_class": [
+    "pkg_resources.load_entry_point.install",
+    "<builtin>.hasattr",
+    "gunicorn.util.load_class"
+  ],
+  "pkg_resources.load_entry_point.install": [],
+  "gunicorn.config.Config.is_ssl": [],
+  "gunicorn.config.Config.ssl_options": [],
+  "gunicorn.config.Config.env": [
+    "gunicorn.util.bytes_to_str",
+    "<builtin>.RuntimeError"
+  ],
+  "<builtin>.RuntimeError": [],
+  "gunicorn.config.Config.sendfile": [],
+  "gunicorn.config.Config.reuse_port": [],
+  "gunicorn.config.Config.paste_global_conf": [
+    "gunicorn.util.bytes_to_str",
+    "re.split",
+    "<builtin>.RuntimeError"
+  ],
+  "re.split": [],
+  "gunicorn.config.SettingMeta.__new__": [
+    "<builtin>.super",
+    "<builtin>.isinstance",
+    "<builtin>.staticmethod",
+    "<builtin>.len"
+  ],
+  "<builtin>.isinstance": [],
+  "<builtin>.staticmethod": [],
+  "gunicorn.config.SettingMeta.fmt_desc": [
+    "<builtin>.setattr",
+    "textwrap.dedent.strip",
+    "textwrap.dedent",
+    "textwrap.dedent.strip.splitlines"
+  ],
+  "textwrap.dedent": [],
+  "textwrap.dedent.strip": [],
+  "<builtin>.setattr": [],
+  "textwrap.dedent.strip.splitlines": [],
+  "gunicorn.config.Setting.__init__": [],
+  "gunicorn.config.Setting.add_option": [
+    "<builtin>.tuple"
+  ],
+  "<builtin>.tuple": [],
+  "gunicorn.config.Setting.copy": [],
+  "gunicorn.config.Setting.get": [],
+  "gunicorn.config.Setting.set": [
+    "<builtin>.TypeError",
+    "<builtin>.callable"
+  ],
+  "<builtin>.TypeError": [],
+  "gunicorn.config.Setting.__lt__": [],
+  "gunicorn.config.Setting.__repr__": [
+    "<builtin>.id"
+  ],
+  "<builtin>.id": [],
+  "gunicorn.config.validate_bool": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError",
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.ValueError": [],
+  "gunicorn.config.validate_dict": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "gunicorn.config.validate_pos_int": [
+    "<builtin>.isinstance",
+    "<builtin>.int",
+    "<builtin>.ValueError"
+  ],
+  "gunicorn.config.validate_ssl_version": [
+    "gunicorn.config.validate_pos_int",
+    "<builtin>.dir",
+    "<builtin>.getattr",
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.dir": [],
+  "<builtin>.getattr": [],
+  "gunicorn.config.validate_string": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "gunicorn.config.validate_file_exists": [
+    "<builtin>.ValueError",
+    "os.path.exists"
+  ],
+  "os.path.exists": [],
+  "gunicorn.config.validate_list_string": [
+    "<builtin>.isinstance",
+    "gunicorn.config.validate_string"
+  ],
+  "gunicorn.config.validate_list_of_existing_files": [
+    "gunicorn.config.validate_list_string",
+    "gunicorn.config.validate_file_exists"
+  ],
+  "gunicorn.config.validate_string_to_list": [
+    "gunicorn.config.validate_string"
+  ],
+  "gunicorn.config.validate_class": [
+    "inspect.ismethod",
+    "gunicorn.config.validate_string",
+    "inspect.isfunction",
+    "inspect.isclass"
+  ],
+  "inspect.isfunction": [],
+  "inspect.ismethod": [],
+  "inspect.isclass": [],
+  "gunicorn.config.validate_callable": [],
+  "gunicorn.config.validate_callable._validate_callable": [
+    "<builtin>.isinstance",
+    "<builtin>.callable",
+    "<builtin>.getattr",
+    "<builtin>.__import__",
+    "gunicorn.util.get_arity",
+    "<builtin>.str",
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.__import__": [],
+  "gunicorn.util.get_arity": [
+    "inspect.signature",
+    "inspect.signature.parameters.values"
+  ],
+  "gunicorn.config.validate_user": [
+    "os.geteuid",
+    "<builtin>.isinstance",
+    "<builtin>.int",
+    "pwd.getpwnam"
+  ],
+  "os.geteuid": [],
+  "pwd.getpwnam": [],
+  "gunicorn.config.validate_group": [
+    "<builtin>.isinstance",
+    "<builtin>.int",
+    "grp.getgrnam",
+    "os.getegid"
+  ],
+  "os.getegid": [],
+  "grp.getgrnam": [],
+  "gunicorn.config.validate_post_request": [
+    "gunicorn.util.get_arity",
+    "gunicorn.config.validate_callable._validate_callable",
+    "<builtin>.TypeError",
+    "gunicorn.config.validate_callable"
+  ],
+  "gunicorn.config.validate_post_request.<lambda1>": [],
+  "gunicorn.config.validate_post_request.<lambda2>": [],
+  "gunicorn.config.validate_chdir": [
+    "os.path.normpath",
+    "os.path.join",
+    "gunicorn.config.validate_string",
+    "os.path.abspath",
+    "gunicorn.util.getcwd",
+    "os.path.exists"
+  ],
+  "gunicorn.util.getcwd": [
+    "os.stat",
+    "os.getcwd"
+  ],
+  "os.path.normpath": [],
+  "gunicorn.config.validate_hostport": [
+    "<builtin>.len",
+    "<builtin>.int",
+    "<builtin>.TypeError",
+    "gunicorn.config.validate_string"
+  ],
+  "gunicorn.config.validate_reload_engine": [],
+  "gunicorn.config.get_default_config_file": [
+    "os.path.join",
+    "os.path.abspath",
+    "os.getcwd",
+    "os.path.exists"
+  ],
+  "os.getcwd": [],
+  "gunicorn.config.Bind": [
+    "os.environ.get"
+  ],
+  "gunicorn.config.Workers": [
+    "<builtin>.int",
+    "os.environ.get"
+  ],
+  "gunicorn.config.Chdir": [
+    "gunicorn.util.getcwd"
+  ],
+  "gunicorn.config.User": [
+    "os.geteuid"
+  ],
+  "gunicorn.config.Group": [
+    "os.getegid"
+  ],
+  "gunicorn.config.ForwardedAllowIPS": [
+    "os.environ.get"
+  ],
+  "gunicorn.config.OnStarting": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.OnStarting.on_starting": [],
+  "gunicorn.config.OnReload": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.OnReload.on_reload": [],
+  "gunicorn.config.WhenReady": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.WhenReady.when_ready": [],
+  "gunicorn.config.Prefork": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.Prefork.pre_fork": [],
+  "gunicorn.config.Postfork": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.Postfork.post_fork": [],
+  "gunicorn.config.PostWorkerInit": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.PostWorkerInit.post_worker_init": [],
+  "gunicorn.config.WorkerInt": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.WorkerInt.worker_int": [],
+  "gunicorn.config.WorkerAbort": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.WorkerAbort.worker_abort": [],
+  "gunicorn.config.PreExec": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.PreExec.pre_exec": [],
+  "gunicorn.config.PreRequest": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.PreRequest.pre_request": [],
+  "gunicorn.config.PostRequest.post_request": [],
+  "gunicorn.config.PostRequest": [
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.ChildExit": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.ChildExit.child_exit": [],
+  "gunicorn.config.WorkerExit": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.WorkerExit.worker_exit": [],
+  "gunicorn.config.NumWorkersChanged": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.NumWorkersChanged.nworkers_changed": [],
+  "gunicorn.config.OnExit": [
+    "gunicorn.config.validate_callable",
+    "<builtin>.staticmethod"
+  ],
+  "gunicorn.config.OnExit.on_exit": [],
+  "gunicorn.config.SSLVersion": [
+    "<builtin>.hasattr"
+  ],
+  "gunicorn.reloader": [
+    "re.compile",
+    "sys.platform.startswith"
+  ],
+  "re.compile": [],
+  "gunicorn.reloader.Reloader.__init__": [
+    "<builtin>.super",
+    "<builtin>.set"
+  ],
+  "<builtin>.set": [],
+  "gunicorn.reloader.Reloader.add_extra_file": [],
+  "gunicorn.reloader.Reloader.get_files": [
+    "<builtin>.tuple",
+    "<builtin>.getattr",
+    "re.compile.sub",
+    "sys.modules.values"
+  ],
+  "re.compile.sub": [],
+  "sys.modules.values": [],
+  "gunicorn.reloader.Reloader.run": [
+    "os.stat",
+    "gunicorn.reloader.Reloader.get_files",
+    "time.sleep"
+  ],
+  "os.stat": [],
+  "time.sleep": [],
+  "sys.platform.startswith": [],
+  "gunicorn.reloader.InotifyReloader.__init__": [
+    "inotify.adapters.Inotify",
+    "<builtin>.set",
+    "<builtin>.super",
+    "<builtin>.ImportError",
+    "gunicorn.reloader.InotifyReloader.add_extra_file"
+  ],
+  "inotify.adapters.Inotify": [],
+  "gunicorn.reloader.InotifyReloader.add_extra_file": [
+    "os.path.dirname",
+    "inotify.adapters.Inotify.add_watch"
+  ],
+  "inotify.adapters.Inotify.add_watch": [],
+  "gunicorn.reloader.InotifyReloader.get_dirs": [
+    "<builtin>.tuple",
+    "os.path.abspath",
+    "<builtin>.getattr",
+    "sys.modules.values",
+    "re.compile.sub",
+    "<builtin>.set",
+    "os.path.dirname"
+  ],
+  "gunicorn.reloader.InotifyReloader.run": [
+    "os.path.isdir",
+    "gunicorn.reloader.InotifyReloader.get_dirs",
+    "inotify.adapters.Inotify.event_gen",
+    "inotify.adapters.Inotify.add_watch"
+  ],
+  "os.path.isdir": [],
+  "inotify.adapters.Inotify.event_gen": [],
+  "<builtin>.ImportError": [],
+  "gunicorn.util": [
+    "<builtin>.getattr",
+    "sys.platform.startswith",
+    "<builtin>.set"
+  ],
+  "gunicorn.util._setproctitle": [
+    "setproctitle.setproctitle"
+  ],
+  "setproctitle.setproctitle": [],
+  "pkg_resources.load_entry_point": [],
+  "traceback.format_exc": [],
+  "importlib.import_module": [],
+  "inspect.signature": [],
+  "inspect.signature.parameters.values": [],
+  "gunicorn.util.get_username": [
+    "pwd.getpwuid"
+  ],
+  "pwd.getpwuid": [],
+  "gunicorn.util.set_owner_process": [
+    "gunicorn.util.get_username",
+    "os.setuid",
+    "os.initgroups",
+    "os.setgid",
+    "os.getgid",
+    "os.getuid",
+    "<builtin>.abs"
+  ],
+  "<builtin>.abs": [],
+  "os.initgroups": [],
+  "os.getgid": [],
+  "os.setgid": [],
+  "os.getuid": [],
+  "os.setuid": [],
+  "gunicorn.util.chown": [
+    "os.chown"
+  ],
+  "os.chown": [],
+  "gunicorn.util._waitfor": [
+    "warnings.warn",
+    "os.path.split",
+    "time.sleep",
+    "os.listdir",
+    "os.unlink"
+  ],
+  "os.unlink": [],
+  "os.path.split": [],
+  "os.listdir": [],
+  "warnings.warn": [],
+  "gunicorn.util._unlink": [
+    "gunicorn.util._waitfor"
+  ],
+  "gunicorn.util.unlink": [
+    "os.unlink"
+  ],
+  "gunicorn.util.is_ipv6": [
+    "socket.inet_pton"
+  ],
+  "socket.inet_pton": [],
+  "gunicorn.util.close_on_exec": [
+    "fcntl.fcntl"
+  ],
+  "fcntl.fcntl": [],
+  "gunicorn.util.set_non_blocking": [
+    "fcntl.fcntl"
+  ],
+  "gunicorn.util.close": [
+    "ssl.wrap_socket.close"
+  ],
+  "ssl.wrap_socket.close": [],
+  "gunicorn.util.closerange": [
+    "os.close",
+    "<builtin>.range"
+  ],
+  "<builtin>.range": [],
+  "os.close": [],
+  "gunicorn.util.write_chunk": [
+    "<builtin>.isinstance",
+    "io.StringIO.getvalue.encode",
+    "ssl.wrap_socket.sendall",
+    "<builtin>.len"
+  ],
+  "io.StringIO.getvalue.encode": [],
+  "ssl.wrap_socket.sendall": [],
+  "gunicorn.util.write": [
+    "gunicorn.util.write_chunk",
+    "ssl.wrap_socket.sendall"
+  ],
+  "gunicorn.util.write_nonblock": [
+    "ssl.wrap_socket.gettimeout",
+    "gunicorn.util.write",
+    "ssl.wrap_socket.setblocking"
+  ],
+  "ssl.wrap_socket.gettimeout": [],
+  "ssl.wrap_socket.setblocking": [],
+  "gunicorn.util.write_error": [
+    "html.escape",
+    "textwrap.dedent.encode",
+    "<builtin>.str",
+    "textwrap.dedent",
+    "<builtin>.len",
+    "gunicorn.util.write_nonblock"
+  ],
+  "html.escape": [],
+  "textwrap.dedent.encode": [],
+  "gunicorn.util._called_with_wrong_args": [
+    "sys.exc_info"
+  ],
+  "sys.exc_info": [],
+  "gunicorn.util.import_app": [
+    "os.path.abspath.split",
+    "<builtin>.isinstance",
+    "ast.parse",
+    "os.path.abspath.rsplit",
+    "gunicorn.util._called_with_wrong_args",
+    "sys.exc_info",
+    "traceback.format_exception_only",
+    "<builtin>.callable",
+    "<builtin>.getattr",
+    "importlib.import_module",
+    "<builtin>.len",
+    "ast.literal_eval",
+    "traceback.print_exception",
+    "<builtin>.ImportError",
+    "os.path.abspath.endswith",
+    "os.path.exists"
+  ],
+  "os.path.abspath.split": [],
+  "os.path.abspath.endswith": [],
+  "os.path.abspath.rsplit": [],
+  "ast.parse": [],
+  "ast.literal_eval": [],
+  "traceback.print_exception": [],
+  "traceback.format_exception_only": [],
+  "gunicorn.util.http_date": [
+    "email.utils.formatdate",
+    "time.time"
+  ],
+  "time.time": [],
+  "email.utils.formatdate": [],
+  "gunicorn.util.is_hoppish": [],
+  "gunicorn.util.daemonize": [
+    "gunicorn.util.daemonize.redirect",
+    "os.open",
+    "os.setsid",
+    "os.umask",
+    "os.set_inheritable",
+    "os.close",
+    "os._exit",
+    "os.fork",
+    "os.dup2",
+    "os.closerange"
+  ],
+  "os.fork": [],
+  "os._exit": [],
+  "os.setsid": [],
+  "os.umask": [],
+  "os.closerange": [],
+  "os.open": [],
+  "os.set_inheritable": [],
+  "os.dup2": [],
+  "gunicorn.util.daemonize.redirect": [
+    "sys.stdout.isatty",
+    "os.close",
+    "sys.stderr.fileno",
+    "sys.stdout.fileno",
+    "sys.stderr.isatty",
+    "os.dup2"
+  ],
+  "sys.stdout.fileno": [],
+  "sys.stderr.fileno": [],
+  "sys.stderr.isatty": [],
+  "sys.stdout.isatty": [],
+  "gunicorn.util.seed": [
+    "random.seed",
+    "os.getpid",
+    "os.urandom",
+    "time.time"
+  ],
+  "os.urandom": [],
+  "random.seed": [],
+  "os.getpid": [],
+  "gunicorn.util.check_is_writeable": [
+    "<builtin>.open",
+    "<builtin>.RuntimeError"
+  ],
+  "gunicorn.util.to_bytestring": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError",
+    "io.StringIO.getvalue.encode"
+  ],
+  "gunicorn.util.has_fileno": [
+    "<builtin>.hasattr"
+  ],
+  "gunicorn.util.warn": [
+    "<builtin>.enumerate",
+    "sys.stderr.flush",
+    "<builtin>.print"
+  ],
+  "<builtin>.print": [],
+  "sys.stderr.flush": [],
+  "gunicorn.util.make_fail_app": [
+    "gunicorn.util.to_bytestring"
+  ],
+  "gunicorn.util.make_fail_app.app": [
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "gunicorn.util.split_request_uri": [
+    "urllib.parse.urlsplit._replace",
+    "urllib.parse.urlsplit"
+  ],
+  "urllib.parse.urlsplit": [],
+  "urllib.parse.urlsplit._replace": [],
+  "gunicorn.util.reraise": [],
+  "gunicorn.util.unquote_to_wsgi_str": [
+    "urllib.parse.unquote_to_bytes.decode",
+    "urllib.parse.unquote_to_bytes"
+  ],
+  "urllib.parse.unquote_to_bytes": [],
+  "urllib.parse.unquote_to_bytes.decode": [],
+  "gunicorn.errors": [],
+  "gunicorn.errors.HaltServer.__init__": [],
+  "gunicorn.errors.HaltServer.__str__": [],
+  "gunicorn.workers": [],
+  "scripts.update_thanks": [
+    "validate_email.validate_email",
+    "<builtin>.open",
+    "sys.stdin.readlines",
+    "<builtin>.set",
+    "email.utils.parseaddr",
+    "<builtin>.list",
+    "<builtin>.map",
+    "<builtin>.reversed"
+  ],
+  "sys.stdin.readlines": [],
+  "<builtin>.reversed": [],
+  "<builtin>.list": [],
+  "<builtin>.map": [],
+  "email.utils.parseaddr": [],
+  "validate_email.validate_email": [],
+  "examples.test": [
+    "wsgiref.validate.validator"
+  ],
+  "wsgiref.validate.validator": [],
+  "examples.test.app": [
+    "<builtin>.iter",
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "<builtin>.iter": [],
+  "examples.standalone_app": [
+    "examples.standalone_app.StandaloneApplication.__init__",
+    "examples.standalone_app.number_of_workers"
+  ],
+  "examples.standalone_app.number_of_workers": [
+    "multiprocessing.cpu_count"
+  ],
+  "multiprocessing.cpu_count": [],
+  "examples.standalone_app.handler_app": [],
+  "examples.standalone_app.StandaloneApplication.__init__": [
+    "<builtin>.super"
+  ],
+  "examples.standalone_app.StandaloneApplication.load_config": [],
+  "examples.standalone_app.StandaloneApplication.load": [],
+  "gunicorn.app": [],
+  "gunicorn.app.base": [],
+  "gunicorn.app.base.BaseApplication.__init__": [
+    "gunicorn.app.base.BaseApplication.do_load_config"
+  ],
+  "gunicorn.app.base.BaseApplication.do_load_config": [
+    "gunicorn.app.base.BaseApplication.load_default_config",
+    "gunicorn.app.base.BaseApplication.load_config",
+    "gunicorn.app.pasterapp.serve.PasterServerApplication.load_config",
+    "sys.stderr.flush",
+    "<builtin>.str",
+    "gunicorn.app.wsgiapp.WSGIApplication.load_config",
+    "sys.exit",
+    "<builtin>.print"
+  ],
+  "gunicorn.app.base.BaseApplication.load_default_config": [
+    "gunicorn.config.Config.__init__"
+  ],
+  "gunicorn.app.pasterapp.serve.PasterServerApplication.load_config": [
+    "gunicorn.config.get_default_config_file",
+    "gunicorn.app.base.Application.load_config_from_file",
+    "gunicorn.app.pasterapp.has_logging_config",
+    "gunicorn.config.Config.set"
+  ],
+  "gunicorn.app.base.BaseApplication.load_config": [],
+  "gunicorn.app.wsgiapp.WSGIApplication.load_config": [
+    "<builtin>.super"
+  ],
+  "sys.exit": [],
+  "gunicorn.app.base.BaseApplication.init": [],
+  "gunicorn.app.base.BaseApplication.load": [],
+  "gunicorn.app.base.BaseApplication.reload": [
+    "gunicorn.app.base.BaseApplication.do_load_config",
+    "gunicorn.debug.spew"
+  ],
+  "gunicorn.debug.spew": [
+    "gunicorn.debug.Spew.__init__",
+    "sys.settrace"
+  ],
+  "gunicorn.app.base.BaseApplication.wsgi": [
+    "gunicorn.app.base.BaseApplication.load",
+    "gunicorn.app.wsgiapp.WSGIApplication.load",
+    "gunicorn.app.pasterapp.serve.PasterServerApplication.load"
+  ],
+  "gunicorn.app.wsgiapp.WSGIApplication.load": [
+    "gunicorn.app.wsgiapp.WSGIApplication.load_pasteapp",
+    "gunicorn.app.wsgiapp.WSGIApplication.load_wsgiapp"
+  ],
+  "gunicorn.app.pasterapp.serve.PasterServerApplication.load": [],
+  "gunicorn.app.base.BaseApplication.run": [
+    "sys.stderr.flush",
+    "gunicorn.arbiter.Arbiter.__init__",
+    "gunicorn.arbiter.Arbiter.run",
+    "sys.exit",
+    "<builtin>.print"
+  ],
+  "gunicorn.arbiter.Arbiter.__init__": [
+    "gunicorn.util.getcwd",
+    "gunicorn.arbiter.Arbiter.setup"
+  ],
+  "gunicorn.arbiter.Arbiter.run": [
+    "gunicorn.arbiter.Arbiter.manage_workers",
+    "gunicorn.util._setproctitle",
+    "gunicorn.arbiter.Arbiter.murder_workers",
+    "pkg_resources.load_entry_point.info",
+    "gunicorn.arbiter.Arbiter.stop",
+    "gunicorn.arbiter.Arbiter.wakeup",
+    "gunicorn.arbiter.Arbiter.start",
+    "gunicorn.arbiter.Arbiter.sleep",
+    "<builtin>.getattr",
+    "gunicorn.arbiter.Arbiter.halt",
+    "pkg_resources.load_entry_point.error",
+    "gunicorn.arbiter.Arbiter.maybe_promote_master",
+    "gunicorn.pidfile.Pidfile.unlink",
+    "sys.exit"
+  ],
+  "gunicorn.app.base.Application.chdir": [
+    "sys.path.insert",
+    "os.chdir"
+  ],
+  "os.chdir": [],
+  "gunicorn.app.base.Application.get_config_from_filename": [
+    "<builtin>.print",
+    "os.path.splitext",
+    "<builtin>.vars",
+    "importlib.util.module_from_spec",
+    "traceback.print_exc",
+    "<builtin>.RuntimeError",
+    "sys.stderr.flush",
+    "gunicorn.util.warn",
+    "importlib.util.spec_from_file_location",
+    "importlib.util.spec_from_file_location.loader.exec_module",
+    "importlib.machinery.SourceFileLoader",
+    "sys.exit",
+    "os.path.exists"
+  ],
+  "os.path.splitext": [],
+  "importlib.util.spec_from_file_location": [],
+  "importlib.machinery.SourceFileLoader": [],
+  "importlib.util.module_from_spec": [],
+  "importlib.util.spec_from_file_location.loader.exec_module": [],
+  "traceback.print_exc": [],
+  "<builtin>.vars": [],
+  "gunicorn.app.base.Application.get_config_from_module_name": [
+    "importlib.import_module",
+    "<builtin>.vars"
+  ],
+  "gunicorn.app.base.Application.load_config_from_module_name_or_filename": [
+    "sys.stderr.flush",
+    "argparse.ArgumentParser.parse_args.config.startswith",
+    "gunicorn.config.Config.set",
+    "gunicorn.app.base.Application.get_config_from_filename",
+    "<builtin>.len",
+    "gunicorn.app.base.Application.get_config_from_module_name",
+    "os.path.join.startswith",
+    "<builtin>.print"
+  ],
+  "argparse.ArgumentParser.parse_args.config.startswith": [],
+  "os.path.join.startswith": [],
+  "gunicorn.app.base.Application.load_config_from_file": [
+    "gunicorn.app.base.Application.load_config_from_module_name_or_filename"
+  ],
+  "gunicorn.app.base.Application.load_config": [
+    "<builtin>.vars",
+    "argparse.ArgumentParser.parse_args",
+    "gunicorn.app.base.BaseApplication.init",
+    "gunicorn.app.base.Application.chdir",
+    "gunicorn.app.base.Application.load_config_from_file",
+    "gunicorn.config.Config.parser",
+    "gunicorn.config.Config.set",
+    "gunicorn.app.wsgiapp.WSGIApplication.init",
+    "gunicorn.config.Config.get_cmd_args_from_env",
+    "gunicorn.config.get_default_config_file"
+  ],
+  "argparse.ArgumentParser.parse_args": [],
+  "gunicorn.app.wsgiapp.WSGIApplication.init": [
+    "os.path.abspath.split",
+    "gunicorn.app.pasterapp.has_logging_config",
+    "<builtin>.len",
+    "os.path.abspath",
+    "gunicorn.config.Config.set",
+    "os.path.exists"
+  ],
+  "gunicorn.app.base.Application.run": [
+    "gunicorn.debug.spew",
+    "traceback.print_exc",
+    "gunicorn.app.wsgiapp.WSGIApplication.load",
+    "gunicorn.app.pasterapp.serve.PasterServerApplication.load",
+    "gunicorn.util.daemonize",
+    "os.path.abspath",
+    "sys.path.insert",
+    "sys.stderr.flush",
+    "gunicorn.app.base.BaseApplication.load",
+    "<builtin>.super",
+    "sys.exit",
+    "<builtin>.print"
+  ],
+  "gunicorn.arbiter": [],
+  "gunicorn.arbiter.Arbiter": [
+    "<builtin>.dict",
+    "<builtin>.property",
+    "<builtin>.dir",
+    "<builtin>.getattr"
+  ],
+  "<builtin>.dict": [],
+  "gunicorn.arbiter.Arbiter.setup": [
+    "pkg_resources.load_entry_point.reopen_files",
+    "gunicorn.config.Config.logger_class",
+    "<builtin>.sorted",
+    "pkg_resources.load_entry_point.debug",
+    "gunicorn.app.base.BaseApplication.wsgi"
+  ],
+  "gunicorn.arbiter.Arbiter._get_num_workers": [],
+  "gunicorn.arbiter.Arbiter._set_num_workers": [],
+  "<builtin>.property": [],
+  "pkg_resources.load_entry_point.reopen_files": [],
+  "gunicorn.arbiter.Arbiter.setup.<lambda1>": [],
+  "pkg_resources.load_entry_point.debug": [],
+  "gunicorn.arbiter.Arbiter.start": [
+    "gunicorn.pidfile.Pidfile.create",
+    "gunicorn.pidfile.Pidfile.__init__",
+    "<builtin>.hasattr",
+    "pkg_resources.load_entry_point.info",
+    "gunicorn.sock.create_sockets",
+    "os.environ.pop.split",
+    "gunicorn.arbiter.Arbiter.init_signals",
+    "<builtin>.str",
+    "os.environ.pop",
+    "os.getpid",
+    "pkg_resources.load_entry_point.debug",
+    "os.environ.get",
+    "<builtin>.range",
+    "<builtin>.int"
+  ],
+  "pkg_resources.load_entry_point.info": [],
+  "gunicorn.pidfile.Pidfile.__init__": [],
+  "gunicorn.pidfile.Pidfile.create": [
+    "os.path.isdir",
+    "tempfile.mkstemp",
+    "gunicorn.pidfile.Pidfile.validate",
+    "<builtin>.RuntimeError",
+    "os.rename",
+    "os.close",
+    "os.getpid",
+    "os.chmod",
+    "os.path.dirname",
+    "os.write"
+  ],
+  "gunicorn.arbiter.Arbiter.init_signals": [
+    "pkg_resources.load_entry_point.close_on_exec",
+    "gunicorn.util.close_on_exec",
+    "os.pipe",
+    "os.close",
+    "gunicorn.util.set_non_blocking"
+  ],
+  "os.environ.pop": [],
+  "os.environ.pop.split": [],
+  "gunicorn.sock.create_sockets": [
+    "<builtin>.isinstance",
+    "gunicorn.sock.UnixSocket.__init__",
+    "time.sleep",
+    "<builtin>.ValueError",
+    "sys.exit",
+    "<builtin>.str",
+    "pkg_resources.load_entry_point.error",
+    "pkg_resources.load_entry_point.debug",
+    "<builtin>.range",
+    "socket.fromfd.getsockname",
+    "<builtin>.list",
+    "socket.fromfd",
+    "gunicorn.sock.BaseSocket.__init__",
+    "gunicorn.sock._sock_type",
+    "os.path.exists"
+  ],
+  "os.pipe": [],
+  "pkg_resources.load_entry_point.close_on_exec": [],
+  "gunicorn.arbiter.Arbiter.signal": [
+    "gunicorn.arbiter.Arbiter.wakeup",
+    "<builtin>.len"
+  ],
+  "gunicorn.arbiter.Arbiter.wakeup": [
+    "os.write"
+  ],
+  "gunicorn.arbiter.Arbiter.manage_workers": [
+    "<builtin>.sorted",
+    "gunicorn.arbiter.Arbiter.spawn_workers",
+    "pkg_resources.load_entry_point.debug",
+    "<builtin>.len",
+    "gunicorn.arbiter.Arbiter.kill_worker"
+  ],
+  "gunicorn.arbiter.Arbiter.maybe_promote_master": [
+    "gunicorn.pidfile.Pidfile.rename",
+    "gunicorn.util._setproctitle",
+    "pkg_resources.load_entry_point.info",
+    "os.getppid"
+  ],
+  "gunicorn.arbiter.Arbiter.sleep": [
+    "select.select",
+    "<builtin>.getattr",
+    "sys.exit",
+    "os.read"
+  ],
+  "gunicorn.arbiter.Arbiter.murder_workers": [
+    "gunicorn.arbiter.Arbiter.kill_worker",
+    "<builtin>.list",
+    "pkg_resources.load_entry_point.critical",
+    "time.time"
+  ],
+  "pkg_resources.load_entry_point.error": [],
+  "gunicorn.arbiter.Arbiter.halt": [
+    "gunicorn.pidfile.Pidfile.unlink",
+    "gunicorn.arbiter.Arbiter.stop",
+    "pkg_resources.load_entry_point.info",
+    "sys.exit"
+  ],
+  "gunicorn.arbiter.Arbiter.stop": [
+    "gunicorn.arbiter.Arbiter.kill_workers",
+    "time.time",
+    "time.sleep",
+    "gunicorn.sock.close_sockets"
+  ],
+  "gunicorn.pidfile.Pidfile.unlink": [
+    "<builtin>.open",
+    "<builtin>.int",
+    "os.unlink"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_chld": [
+    "gunicorn.arbiter.Arbiter.reap_workers",
+    "gunicorn.arbiter.Arbiter.wakeup"
+  ],
+  "gunicorn.arbiter.Arbiter.reap_workers": [
+    "gunicorn.errors.HaltServer.__init__",
+    "os.waitpid"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_hup": [
+    "gunicorn.arbiter.Arbiter.reload",
+    "pkg_resources.load_entry_point.info"
+  ],
+  "gunicorn.arbiter.Arbiter.reload": [
+    "gunicorn.pidfile.Pidfile.create",
+    "gunicorn.app.base.BaseApplication.reload",
+    "pkg_resources.load_entry_point.reopen_files",
+    "gunicorn.pidfile.Pidfile.__init__",
+    "pkg_resources.load_entry_point.info",
+    "gunicorn.util._setproctitle",
+    "gunicorn.arbiter.Arbiter.manage_workers",
+    "gunicorn.arbiter.Arbiter.spawn_worker",
+    "gunicorn.sock.create_sockets",
+    "gunicorn.arbiter.Arbiter.setup",
+    "<builtin>.str",
+    "<builtin>.range",
+    "gunicorn.pidfile.Pidfile.unlink"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_term": [],
+  "gunicorn.arbiter.Arbiter.handle_int": [
+    "gunicorn.arbiter.Arbiter.stop"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_quit": [
+    "gunicorn.arbiter.Arbiter.stop"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_ttin": [
+    "gunicorn.arbiter.Arbiter.manage_workers"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_ttou": [
+    "gunicorn.arbiter.Arbiter.manage_workers"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_usr1": [
+    "pkg_resources.load_entry_point.reopen_files",
+    "gunicorn.arbiter.Arbiter.kill_workers"
+  ],
+  "gunicorn.arbiter.Arbiter.kill_workers": [
+    "gunicorn.arbiter.Arbiter.kill_worker",
+    "<builtin>.list"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_usr2": [
+    "gunicorn.arbiter.Arbiter.reexec"
+  ],
+  "gunicorn.arbiter.Arbiter.reexec": [
+    "os.chdir",
+    "<builtin>.str",
+    "os.getpid",
+    "<builtin>.len",
+    "os.fork",
+    "gunicorn.arbiter.Arbiter.cfg.env_orig.copy",
+    "pkg_resources.load_entry_point.warning",
+    "os.execvpe"
+  ],
+  "gunicorn.arbiter.Arbiter.handle_winch": [
+    "gunicorn.arbiter.Arbiter.kill_workers",
+    "pkg_resources.load_entry_point.debug",
+    "pkg_resources.load_entry_point.info"
+  ],
+  "os.getppid": [],
+  "gunicorn.pidfile.Pidfile.rename": [
+    "gunicorn.pidfile.Pidfile.create",
+    "gunicorn.pidfile.Pidfile.unlink"
+  ],
+  "os.write": [],
+  "select.select": [],
+  "os.read": [],
+  "gunicorn.sock.close_sockets": [
+    "os.unlink",
+    "gunicorn.sock._sock_type"
+  ],
+  "pkg_resources.load_entry_point.warning": [],
+  "gunicorn.arbiter.Arbiter.cfg.env_orig.copy": [],
+  "os.execvpe": [],
+  "gunicorn.arbiter.Arbiter.spawn_worker": [
+    "gunicorn.util._setproctitle",
+    "pkg_resources.load_entry_point.info",
+    "pkg_resources.load_entry_point.init_process",
+    "gunicorn.config.Config.worker_class",
+    "sys.stderr.flush",
+    "traceback.format_exc",
+    "pkg_resources.load_entry_point.debug",
+    "os.getpid",
+    "os.fork",
+    "pkg_resources.load_entry_point.tmp.close",
+    "pkg_resources.load_entry_point.exception",
+    "pkg_resources.load_entry_point.warning",
+    "sys.exit",
+    "<builtin>.print"
+  ],
+  "pkg_resources.load_entry_point.critical": [],
+  "gunicorn.arbiter.Arbiter.kill_worker": [
+    "os.kill"
+  ],
+  "os.waitpid": [],
+  "gunicorn.arbiter.Arbiter.spawn_workers": [
+    "<builtin>.len",
+    "gunicorn.arbiter.Arbiter.spawn_worker",
+    "time.sleep",
+    "<builtin>.range",
+    "random.random"
+  ],
+  "gunicorn.arbiter.Arbiter.manage_workers.<lambda1>": [],
+  "pkg_resources.load_entry_point.init_process": [],
+  "pkg_resources.load_entry_point.exception": [],
+  "pkg_resources.load_entry_point.tmp.close": [],
+  "random.random": [],
+  "os.kill": [],
+  "gunicorn.systemd": [],
+  "gunicorn.systemd.listen_fds": [
+    "os.environ.pop",
+    "<builtin>.int",
+    "os.getpid",
+    "os.environ.get"
+  ],
+  "gunicorn.systemd.sd_notify": [
+    "os.environ.pop",
+    "socket.socket",
+    "os.environ.get"
+  ],
+  "socket.socket": [],
+  "gunicorn.pidfile": [],
+  "gunicorn.pidfile.Pidfile.validate": [
+    "<builtin>.open",
+    "<builtin>.int",
+    "os.kill"
+  ],
+  "tempfile.mkstemp": [],
+  "os.rename": [],
+  "os.chmod": [],
+  "gunicorn.sock": [],
+  "gunicorn.sock.BaseSocket.__init__": [
+    "gunicorn.sock.BaseSocket.set_options",
+    "os.close",
+    "socket.socket",
+    "gunicorn.sock.TCPSocket.set_options",
+    "socket.fromfd"
+  ],
+  "socket.fromfd": [],
+  "gunicorn.sock.BaseSocket.set_options": [
+    "gunicorn.sock.UnixSocket.bind",
+    "<builtin>.hasattr",
+    "socket.fromfd.set_inheritable",
+    "socket.fromfd.listen",
+    "gunicorn.sock.BaseSocket.bind",
+    "socket.fromfd.setblocking",
+    "socket.fromfd.setsockopt"
+  ],
+  "gunicorn.sock.TCPSocket.set_options": [
+    "<builtin>.super",
+    "socket.fromfd.setsockopt"
+  ],
+  "gunicorn.sock.BaseSocket.__str__": [
+    "socket.fromfd.fileno"
+  ],
+  "socket.fromfd.fileno": [],
+  "gunicorn.sock.BaseSocket.__getattr__": [
+    "<builtin>.getattr"
+  ],
+  "socket.fromfd.setsockopt": [],
+  "gunicorn.sock.UnixSocket.bind": [
+    "os.umask",
+    "gunicorn.util.chown",
+    "socket.fromfd.bind"
+  ],
+  "gunicorn.sock.BaseSocket.bind": [
+    "socket.fromfd.bind"
+  ],
+  "socket.fromfd.setblocking": [],
+  "socket.fromfd.set_inheritable": [],
+  "socket.fromfd.listen": [],
+  "socket.fromfd.bind": [],
+  "gunicorn.sock.BaseSocket.close": [
+    "socket.fromfd.close",
+    "<builtin>.str"
+  ],
+  "socket.fromfd.close": [],
+  "gunicorn.sock.TCPSocket.__str__": [
+    "socket.fromfd.getsockname"
+  ],
+  "socket.fromfd.getsockname": [],
+  "gunicorn.sock.TCP6Socket.__str__": [
+    "socket.fromfd.getsockname"
+  ],
+  "gunicorn.sock.UnixSocket.__init__": [
+    "os.stat",
+    "stat.S_ISSOCK",
+    "<builtin>.ValueError",
+    "os.remove",
+    "<builtin>.super"
+  ],
+  "stat.S_ISSOCK": [],
+  "os.remove": [],
+  "gunicorn.sock.UnixSocket.__str__": [],
+  "gunicorn.sock._sock_type": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError",
+    "gunicorn.util.is_ipv6"
+  ],
+  "gunicorn.debug": [
+    "re.compile"
+  ],
+  "gunicorn.debug.Spew.__init__": [],
+  "gunicorn.debug.Spew.__call__": [
+    "linecache.getline",
+    "re.compile.split",
+    "inspect.getsourcelines",
+    "linecache.getline.rstrip",
+    "<builtin>.print"
+  ],
+  "linecache.getline": [],
+  "inspect.getsourcelines": [],
+  "linecache.getline.rstrip": [],
+  "re.compile.split": [],
+  "sys.settrace": [],
+  "gunicorn.debug.unspew": [
+    "sys.settrace"
+  ],
+  "examples.log_app": [
+    "logging.StreamHandler",
+    "logging.getLogger",
+    "logging.getLogger.addHandler"
+  ],
+  "logging.getLogger": [],
+  "logging.StreamHandler": [],
+  "logging.getLogger.addHandler": [],
+  "examples.log_app.app_factory": [],
+  "examples.log_app.app": [
+    "logging.getLogger.debug",
+    "logging.getLogger.info",
+    "logging.getLogger.error",
+    "logging.getLogger.warn"
+  ],
+  "logging.getLogger.debug": [],
+  "logging.getLogger.info": [],
+  "logging.getLogger.warn": [],
+  "logging.getLogger.error": [],
+  "examples.bad": [],
+  "examples.bad.app": [
+    "tempfile.mkstemp"
+  ],
+  "examples.echo": [],
+  "examples.echo.app": [
+    "<builtin>.iter",
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "examples.alt_spec": [],
+  "examples.alt_spec.load": [],
+  "examples.alt_spec.load.app": [
+    "<builtin>.iter",
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "examples.longpoll": [],
+  "examples.longpoll.TestIter.__iter__": [
+    "time.sleep"
+  ],
+  "examples.longpoll.app": [
+    "sys.stdout.flush",
+    "sys.stdout.write"
+  ],
+  "sys.stdout.write": [],
+  "sys.stdout.flush": [],
+  "examples.readline_app": [],
+  "examples.readline_app.app": [
+    "<builtin>.iter",
+    "<builtin>.print"
+  ],
+  "examples.multidomainapp": [
+    "examples.multidomainapp.SubDomainApp.__init__"
+  ],
+  "examples.multidomainapp.SubDomainApp.__init__": [],
+  "examples.multidomainapp.SubDomainApp.__call__": [
+    "examples.multidomainapp.SubDomainApp.__init__",
+    "re.match"
+  ],
+  "examples.multidomainapp.hello": [],
+  "examples.multidomainapp.bye": [],
+  "examples.sendfile": [
+    "wsgiref.validate.validator"
+  ],
+  "examples.sendfile.app": [
+    "os.path.join",
+    "<builtin>.open",
+    "os.path.dirname"
+  ],
+  "examples.when_ready.conf": [],
+  "examples.when_ready.conf.MemoryWatch.__init__": [
+    "<builtin>.super"
+  ],
+  "examples.when_ready.conf.MemoryWatch.memory_usage": [
+    "<builtin>.int",
+    "commands.getoutput",
+    "commands.getoutput.split",
+    "<builtin>.sum"
+  ],
+  "commands.getoutput": [],
+  "commands.getoutput.split": [],
+  "<builtin>.sum": [],
+  "examples.when_ready.conf.MemoryWatch.run": [
+    "<builtin>.list",
+    "examples.when_ready.conf.MemoryWatch.memory_usage",
+    "time.sleep"
+  ],
+  "examples.when_ready.conf.when_ready": [
+    "examples.when_ready.conf.MemoryWatch.__init__",
+    "threading.Thread.start"
+  ],
+  "threading.Thread.start": [],
+  "examples.example_config": [],
+  "examples.example_config.post_fork": [],
+  "examples.example_config.pre_fork": [],
+  "examples.example_config.pre_exec": [],
+  "examples.example_config.when_ready": [],
+  "examples.example_config.worker_int": [
+    "threading.enumerate",
+    "sys._current_frames",
+    "traceback.extract_stack"
+  ],
+  "threading.enumerate": [],
+  "sys._current_frames": [],
+  "traceback.extract_stack": [],
+  "examples.example_config.worker_abort": [],
+  "examples.boot_fail": [
+    "<builtin>.RuntimeError"
+  ],
+  "examples.boot_fail.app": [],
+  "examples.deep.test": [
+    "wsgiref.validate.validator"
+  ],
+  "examples.deep.test.app": [
+    "<builtin>.iter",
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "examples.deep": [],
+  "examples.frameworks.cherryapp": [
+    "cherrypy.config.update",
+    "cherrypy.tree.mount"
+  ],
+  "examples.frameworks.cherryapp.Root": [
+    "cherrypy.expose"
+  ],
+  "cherrypy.expose": [],
+  "examples.frameworks.cherryapp.Root.index": [],
+  "cherrypy.config.update": [],
+  "cherrypy.tree.mount": [],
+  "examples.frameworks.pyramidapp": [
+    "pyramid.config.Configurator.add_view",
+    "pyramid.config.Configurator",
+    "pyramid.config.Configurator.make_wsgi_app"
+  ],
+  "examples.frameworks.pyramidapp.hello_world": [
+    "pyramid.response.Response"
+  ],
+  "pyramid.response.Response": [],
+  "examples.frameworks.pyramidapp.goodbye_world": [
+    "pyramid.response.Response"
+  ],
+  "pyramid.config.Configurator": [],
+  "pyramid.config.Configurator.add_view": [],
+  "pyramid.config.Configurator.make_wsgi_app": [],
+  "examples.frameworks.tornadoapp": [
+    "tornado.web.Application"
+  ],
+  "examples.frameworks.tornadoapp.MainHandler.get": [
+    "tornado.web.RequestHandler.write"
+  ],
+  "tornado.web.RequestHandler.write": [],
+  "examples.frameworks.tornadoapp.LongPollHandler": [
+    "tornado.web.asynchronous"
+  ],
+  "tornado.web.asynchronous": [],
+  "examples.frameworks.tornadoapp.LongPollHandler.get": [
+    "examples.frameworks.tornadoapp.LongPollHandler.get.send"
+  ],
+  "examples.frameworks.tornadoapp.LongPollHandler.get.send": [
+    "tornado.web.RequestHandler.finish",
+    "tornado.web.RequestHandler.write",
+    "tornado.web.RequestHandler.flush",
+    "datetime.timedelta",
+    "tornado.ioloop.IOLoop.instance",
+    "tornado.ioloop.IOLoop.instance.add_timeout"
+  ],
+  "tornado.web.RequestHandler.flush": [],
+  "tornado.web.RequestHandler.finish": [],
+  "datetime.timedelta": [],
+  "tornado.ioloop.IOLoop.instance": [],
+  "tornado.ioloop.IOLoop.instance.add_timeout": [],
+  "tornado.web.Application": [],
+  "examples.frameworks.flaskapp_aiohttp_wsgi": [
+    "flask.Flask",
+    "examples.frameworks.flaskapp_aiohttp_wsgi.make_aiohttp_app",
+    "flask.Flask.route"
+  ],
+  "flask.Flask": [],
+  "flask.Flask.route": [],
+  "examples.frameworks.flaskapp_aiohttp_wsgi.hello": [],
+  "examples.frameworks.flaskapp_aiohttp_wsgi.make_aiohttp_app": [
+    "aiohttp.web.Application",
+    "aiohttp.web.Application.router.add_route",
+    "aiohttp_wsgi.WSGIHandler"
+  ],
+  "aiohttp_wsgi.WSGIHandler": [],
+  "aiohttp.web.Application": [],
+  "aiohttp.web.Application.router.add_route": [],
+  "examples.frameworks.webpyapp": [
+    "web.application.wsgifunc",
+    "web.application",
+    "<builtin>.globals"
+  ],
+  "examples.frameworks.webpyapp.index.GET": [],
+  "<builtin>.globals": [],
+  "web.application": [],
+  "web.application.wsgifunc": [],
+  "examples.frameworks.flaskapp": [
+    "flask.Flask",
+    "flask.Flask.route"
+  ],
+  "examples.frameworks.flaskapp.hello": [],
+  "examples.frameworks.django.testing.testing.settings": [],
+  "examples.frameworks.django.testing.testing.apps": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.tests": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.tests.SimpleTest.test_basic_addition": [
+    "django.test.TestCase.assertEqual"
+  ],
+  "django.test.TestCase.assertEqual": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.models": [],
+  "examples.frameworks.django.testing.testing.apps.someapp": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.views": [],
+  "django.forms.CharField": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.views.MsgForm": [
+    "django.forms.FileField",
+    "django.forms.CharField"
+  ],
+  "django.forms.FileField": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.views.home": [
+    "<builtin>.hasattr",
+    "django.forms.Form.is_valid",
+    "os.fstat",
+    "django.shortcuts.render",
+    "<builtin>.len",
+    "django.forms.Form.__init__",
+    "<builtin>.int",
+    "<builtin>.print"
+  ],
+  "django.forms.Form.__init__": [],
+  "django.forms.Form.is_valid": [],
+  "os.fstat": [],
+  "django.shortcuts.render": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.views.acsv": [
+    "csv.writer",
+    "csv.writer.writerow",
+    "django.http.HttpResponse"
+  ],
+  "django.http.HttpResponse": [],
+  "csv.writer": [],
+  "csv.writer.writerow": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.urls": [
+    "django.conf.urls.url"
+  ],
+  "django.conf.urls.url": [],
+  "examples.frameworks.django.testing.testing": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.middleware": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.middleware.child_process": [
+    "requests.get",
+    "<builtin>.print"
+  ],
+  "requests.get": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.middleware.GunicornSubProcessTestMiddleware.__init__": [
+    "<builtin>.super",
+    "multiprocessing.Queue",
+    "multiprocessing.Process",
+    "multiprocessing.Process.start"
+  ],
+  "multiprocessing.Queue": [],
+  "multiprocessing.Process": [],
+  "multiprocessing.Process.start": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.middleware.GunicornSubProcessTestMiddleware.process_request": [
+    "multiprocessing.Queue.put"
+  ],
+  "multiprocessing.Queue.put": [],
+  "examples.frameworks.django.testing.testing.apps.someapp.middleware.GunicornSubProcessTestMiddleware.process_response": [
+    "multiprocessing.Queue.put"
+  ],
+  "examples.frameworks.django.testing.testing.wsgi": [
+    "os.path.join",
+    "sys.path.insert",
+    "os.path.abspath",
+    "django.core.wsgi.get_wsgi_application",
+    "os.path.dirname",
+    "os.environ.setdefault"
+  ],
+  "os.environ.setdefault": [],
+  "django.core.wsgi.get_wsgi_application": [],
+  "examples.frameworks.django.testing.testing.urls": [
+    "django.conf.urls.url",
+    "django.contrib.admin.autodiscover",
+    "django.conf.urls.include"
+  ],
+  "django.contrib.admin.autodiscover": [],
+  "django.conf.urls.include": [],
+  "examples.frameworks.django.testing.manage": [
+    "os.environ.setdefault",
+    "django.core.management.execute_from_command_line"
+  ],
+  "django.core.management.execute_from_command_line": [],
+  "examples.frameworks.flask_sendfile": [
+    "flask.Flask",
+    "flask.Flask.route"
+  ],
+  "examples.frameworks.flask_sendfile.index": [
+    "io.BytesIO.write",
+    "io.BytesIO.seek",
+    "io.BytesIO",
+    "flask.send_file"
+  ],
+  "io.BytesIO": [],
+  "io.BytesIO.write": [],
+  "io.BytesIO.seek": [],
+  "flask.send_file": [],
+  "examples.slowclient": [],
+  "examples.slowclient.app": [
+    "<builtin>.iter",
+    "sys.stdout.write",
+    "time.sleep",
+    "sys.stdout.flush",
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "examples.read_django_settings": [
+    "<builtin>.exec",
+    "<builtin>.open"
+  ],
+  "<builtin>.exec": [],
+  "examples.timeout": [],
+  "examples.timeout.app": [
+    "<builtin>.iter",
+    "sys.stdout.write",
+    "time.sleep",
+    "sys.stdout.flush",
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "examples.multiapp": [
+    "examples.multiapp.Application.__init__",
+    "<builtin>.print"
+  ],
+  "examples.multiapp.Application.__init__": [
+    "routes.Mapper.connect",
+    "routes.Mapper"
+  ],
+  "routes.Mapper": [],
+  "routes.Mapper.connect": [],
+  "examples.multiapp.Application.__call__": [
+    "examples.multiapp.Application.error404",
+    "routes.Mapper.routematch"
+  ],
+  "routes.Mapper.routematch": [],
+  "examples.multiapp.Application.error404": [
+    "<builtin>.str",
+    "<builtin>.len"
+  ],
+  "examples.websocket.gevent_websocket": [
+    "logging.getLogger",
+    "examples.websocket.gevent_websocket.WebSocketWSGI.__init__"
+  ],
+  "examples.websocket.gevent_websocket.WebSocketWSGI.__init__": [],
+  "examples.websocket.gevent_websocket.WebSocketWSGI.verify_client": [],
+  "examples.websocket.gevent_websocket.WebSocketWSGI._get_key_value": [
+    "re.subn",
+    "re.sub",
+    "<builtin>.int"
+  ],
+  "re.sub": [],
+  "re.subn": [],
+  "examples.websocket.gevent_websocket.WebSocketWSGI.__call__": [
+    "base64.b64encode.decode",
+    "base64.b64decode",
+    "hashlib.sha1",
+    "examples.websocket.gevent_websocket.WebSocket.__init__",
+    "base64.b64encode",
+    "hashlib.sha1.update",
+    "hashlib.sha1.digest",
+    "<builtin>.len",
+    "examples.websocket.gevent_websocket.handle"
+  ],
+  "examples.websocket.gevent_websocket.WebSocket.__init__": [
+    "collections.deque"
+  ],
+  "base64.b64decode": [],
+  "hashlib.sha1": [],
+  "hashlib.sha1.update": [],
+  "hashlib.sha1.digest": [],
+  "base64.b64encode": [],
+  "base64.b64encode.decode": [],
+  "examples.websocket.gevent_websocket.handle": [
+    "examples.websocket.gevent_websocket.WebSocket.wait",
+    "examples.websocket.gevent_websocket.WebSocket.send",
+    "gevent.sleep",
+    "random.random",
+    "<builtin>.range"
+  ],
+  "collections.deque": [],
+  "examples.websocket.gevent_websocket.WebSocket.encode_hybi": [
+    "base64.b64encode",
+    "struct.pack",
+    "collections.deque.popleft.encode",
+    "<builtin>.len"
+  ],
+  "collections.deque.popleft.encode": [],
+  "struct.pack": [],
+  "examples.websocket.gevent_websocket.WebSocket.decode_hybi": [
+    "struct.pack",
+    "base64.b64decode",
+    "<builtin>.len",
+    "<builtin>.repr",
+    "struct.unpack",
+    "struct.unpack_from",
+    "<builtin>.chr",
+    "<builtin>.range",
+    "<builtin>.int",
+    "<builtin>.print"
+  ],
+  "struct.unpack_from": [],
+  "struct.unpack": [],
+  "<builtin>.chr": [],
+  "<builtin>.repr": [],
+  "examples.websocket.gevent_websocket.WebSocket._pack_message": [
+    "<builtin>.isinstance",
+    "collections.deque.popleft.encode"
+  ],
+  "examples.websocket.gevent_websocket.WebSocket._parse_messages": [
+    "examples.websocket.gevent_websocket.WebSocket.decode_hybi",
+    "<builtin>.ord",
+    "<builtin>.ValueError"
+  ],
+  "<builtin>.ord": [],
+  "examples.websocket.gevent_websocket.WebSocket.send": [
+    "examples.websocket.gevent_websocket.WebSocket._pack_message",
+    "examples.websocket.gevent_websocket.WebSocket.encode_hybi"
+  ],
+  "examples.websocket.gevent_websocket.WebSocket.wait": [
+    "examples.websocket.gevent_websocket.WebSocket._parse_messages",
+    "collections.deque.extend",
+    "collections.deque.popleft"
+  ],
+  "collections.deque.extend": [],
+  "collections.deque.popleft": [],
+  "examples.websocket.gevent_websocket.WebSocket._send_closing_frame": [
+    "examples.websocket.gevent_websocket.WebSocket.encode_hybi"
+  ],
+  "examples.websocket.gevent_websocket.WebSocket.close": [
+    "examples.websocket.gevent_websocket.WebSocket._send_closing_frame"
+  ],
+  "gevent.sleep": [],
+  "examples.websocket.gevent_websocket.app": [
+    "os.path.join",
+    "examples.websocket.gevent_websocket.WebSocketWSGI.__init__",
+    "<builtin>.open",
+    "<builtin>.str",
+    "<builtin>.len",
+    "os.path.dirname"
+  ],
+  "gunicorn.workers.base_async": [
+    "<builtin>.object"
+  ],
+  "<builtin>.object": [],
+  "gunicorn.workers.base_async.AsyncWorker.__init__": [
+    "<builtin>.super"
+  ],
+  "gunicorn.workers.base_async.AsyncWorker.timeout_ctx": [
+    "<builtin>.NotImplementedError"
+  ],
+  "<builtin>.NotImplementedError": [],
+  "gunicorn.workers.base_async.AsyncWorker.is_already_handled": [],
+  "gunicorn.workers.base_async.AsyncWorker.handle": [
+    "gunicorn.workers.base_async.AsyncWorker.handle_request",
+    "gunicorn.workers.base_async.AsyncWorker.timeout_ctx",
+    "gunicorn.util.reraise",
+    "<builtin>.next",
+    "gunicorn.util.close",
+    "sys.exc_info",
+    "gunicorn.workers.base.Worker.handle_error"
+  ],
+  "<builtin>.next": [],
+  "gunicorn.workers.base_async.AsyncWorker.handle_request": [
+    "<builtin>.isinstance",
+    "<builtin>.hasattr",
+    "gunicorn.http.wsgi.create",
+    "gunicorn.workers.base_async.AsyncWorker.is_already_handled",
+    "<builtin>.StopIteration",
+    "gunicorn.util.make_fail_app.app",
+    "gunicorn.util.reraise",
+    "datetime.datetime.now",
+    "sys.exc_info"
+  ],
+  "gunicorn.workers.base.Worker.handle_error": [
+    "<builtin>.isinstance",
+    "<builtin>.hasattr",
+    "gunicorn.http.wsgi.Response.__init__",
+    "<builtin>.str",
+    "gunicorn.http.wsgi.default_environ",
+    "datetime.datetime.now",
+    "<builtin>.len",
+    "gunicorn.util.write_error"
+  ],
+  "datetime.datetime.now": [],
+  "gunicorn.http.wsgi.create": [
+    "<builtin>.isinstance",
+    "<builtin>.len",
+    "gunicorn.http.wsgi.proxy_environ",
+    "gunicorn.http.wsgi.Response.__init__",
+    "<builtin>.str",
+    "gunicorn.util.unquote_to_wsgi_str",
+    "ssl.wrap_socket.send",
+    "gunicorn.http.wsgi.default_environ",
+    "os.environ.get"
+  ],
+  "<builtin>.StopIteration": [],
+  "gunicorn.workers.base": [],
+  "gunicorn.workers.base.Worker": [
+    "<builtin>.getattr"
+  ],
+  "gunicorn.workers.base.Worker.__init__": [
+    "random.randint",
+    "gunicorn.workers.workertmp.WorkerTmp.__init__"
+  ],
+  "random.randint": [],
+  "gunicorn.workers.workertmp.WorkerTmp.__init__": [
+    "os.path.isdir",
+    "os.fdopen",
+    "os.umask",
+    "os.geteuid",
+    "<builtin>.RuntimeError",
+    "os.getegid",
+    "os.close",
+    "gunicorn.util.chown",
+    "gunicorn.util.unlink",
+    "tempfile.mkstemp"
+  ],
+  "gunicorn.workers.base.Worker.__str__": [],
+  "gunicorn.workers.base.Worker.notify": [
+    "gunicorn.workers.workertmp.WorkerTmp.notify"
+  ],
+  "gunicorn.workers.workertmp.WorkerTmp.notify": [
+    "os.fchmod",
+    "os.fdopen.fileno"
+  ],
+  "gunicorn.workers.base.Worker.run": [
+    "<builtin>.NotImplementedError"
+  ],
+  "gunicorn.workers.base.Worker.init_process": [
+    "gunicorn.workers.base.Worker.init_signals",
+    "gunicorn.workers.base.Worker.load_wsgi",
+    "gunicorn.workers.workertmp.WorkerTmp.fileno",
+    "gunicorn.util.seed",
+    "gunicorn.util.close_on_exec",
+    "gunicorn.workers.base.Worker.run",
+    "os.pipe",
+    "gunicorn.util.set_owner_process",
+    "gunicorn.util.set_non_blocking"
+  ],
+  "gunicorn.workers.workertmp.WorkerTmp.fileno": [
+    "os.fdopen.fileno"
+  ],
+  "gunicorn.workers.base.Worker.init_signals": [
+    "signal.set_wakeup_fd",
+    "signal.signal",
+    "signal.siginterrupt",
+    "<builtin>.hasattr"
+  ],
+  "gunicorn.workers.base.Worker.init_process.changed": [
+    "os.write",
+    "time.sleep",
+    "sys.exit"
+  ],
+  "gunicorn.workers.base.Worker.load_wsgi": [
+    "gunicorn.util.make_fail_app",
+    "io.StringIO.getvalue",
+    "traceback.print_tb",
+    "io.StringIO",
+    "sys.exc_info"
+  ],
+  "io.StringIO": [],
+  "traceback.print_tb": [],
+  "io.StringIO.getvalue": [],
+  "signal.signal": [],
+  "signal.siginterrupt": [],
+  "signal.set_wakeup_fd": [],
+  "gunicorn.workers.base.Worker.handle_usr1": [],
+  "gunicorn.workers.base.Worker.handle_exit": [],
+  "gunicorn.workers.base.Worker.handle_quit": [
+    "sys.exit",
+    "time.sleep"
+  ],
+  "gunicorn.workers.base.Worker.handle_abort": [
+    "sys.exit"
+  ],
+  "gunicorn.http.wsgi.default_environ": [
+    "gunicorn.http.wsgi.base_environ"
+  ],
+  "gunicorn.http.wsgi.Response.__init__": [],
+  "gunicorn.workers.base.Worker.handle_winch": [],
+  "gunicorn.http.errors": [],
+  "gunicorn.http.errors.NoMoreData.__init__": [],
+  "gunicorn.http.errors.NoMoreData.__str__": [],
+  "gunicorn.http.errors.InvalidRequestLine.__init__": [],
+  "gunicorn.http.errors.InvalidRequestLine.__str__": [],
+  "gunicorn.http.errors.InvalidRequestMethod.__init__": [],
+  "gunicorn.http.errors.InvalidRequestMethod.__str__": [],
+  "gunicorn.http.errors.InvalidHTTPVersion.__init__": [],
+  "gunicorn.http.errors.InvalidHTTPVersion.__str__": [],
+  "gunicorn.http.errors.InvalidHeader.__init__": [],
+  "gunicorn.http.errors.InvalidHeader.__str__": [],
+  "gunicorn.http.errors.InvalidHeaderName.__init__": [],
+  "gunicorn.http.errors.InvalidHeaderName.__str__": [],
+  "gunicorn.http.errors.InvalidChunkSize.__init__": [],
+  "gunicorn.http.errors.InvalidChunkSize.__str__": [],
+  "gunicorn.http.errors.ChunkMissingTerminator.__init__": [],
+  "gunicorn.http.errors.ChunkMissingTerminator.__str__": [],
+  "gunicorn.http.errors.LimitRequestLine.__init__": [],
+  "gunicorn.http.errors.LimitRequestLine.__str__": [],
+  "gunicorn.http.errors.LimitRequestHeaders.__init__": [],
+  "gunicorn.http.errors.LimitRequestHeaders.__str__": [],
+  "gunicorn.http.errors.InvalidProxyLine.__init__": [],
+  "gunicorn.http.errors.InvalidProxyLine.__str__": [],
+  "gunicorn.http.errors.ForbiddenProxyRequest.__init__": [],
+  "gunicorn.http.errors.ForbiddenProxyRequest.__str__": [],
+  "gunicorn.http.errors.InvalidSchemeHeaders.__str__": [],
+  "gunicorn.workers.workertmp": [
+    "platform.system",
+    "platform.system.startswith"
+  ],
+  "platform.system": [],
+  "platform.system.startswith": [],
+  "os.fdopen": [],
+  "os.fdopen.fileno": [],
+  "os.fchmod": [],
+  "gunicorn.workers.workertmp.WorkerTmp.last_update": [
+    "os.fstat",
+    "os.fdopen.fileno"
+  ],
+  "gunicorn.workers.workertmp.WorkerTmp.close": [
+    "os.fdopen.close"
+  ],
+  "os.fdopen.close": [],
+  "gunicorn.http.wsgi": [
+    "logging.getLogger",
+    "re.compile"
+  ],
+  "gunicorn.http.wsgi.FileWrapper.__init__": [
+    "<builtin>.hasattr"
+  ],
+  "gunicorn.http.wsgi.FileWrapper.__getitem__": [],
+  "gunicorn.http.wsgi.WSGIErrorsWrapper.__init__": [
+    "logging.getLogger",
+    "<builtin>.hasattr"
+  ],
+  "gunicorn.http.wsgi.WSGIErrorsWrapper.write": [],
+  "gunicorn.http.wsgi.base_environ": [
+    "gunicorn.http.wsgi.WSGIErrorsWrapper.__init__"
+  ],
+  "gunicorn.http.wsgi.proxy_environ": [
+    "<builtin>.str"
+  ],
+  "ssl.wrap_socket.send": [],
+  "gunicorn.http.wsgi.Response.force_close": [],
+  "gunicorn.http.wsgi.Response.should_close": [],
+  "gunicorn.http.wsgi.Response.start_response": [
+    "gunicorn.http.wsgi.Response.process_headers",
+    "gunicorn.util.reraise",
+    "<builtin>.AssertionError",
+    "<builtin>.int",
+    "gunicorn.http.wsgi.Response.is_chunked"
+  ],
+  "<builtin>.AssertionError": [],
+  "gunicorn.http.wsgi.Response.process_headers": [
+    "<builtin>.isinstance",
+    "<builtin>.int",
+    "gunicorn.http.errors.InvalidHeader.__init__",
+    "re.compile.search",
+    "gunicorn.http.errors.InvalidHeaderName.__init__",
+    "<builtin>.TypeError",
+    "gunicorn.util.is_hoppish"
+  ],
+  "gunicorn.http.wsgi.Response.is_chunked": [],
+  "re.compile.search": [],
+  "gunicorn.http.wsgi.Response.default_headers": [
+    "gunicorn.util.http_date",
+    "gunicorn.http.wsgi.Response.should_close"
+  ],
+  "gunicorn.http.wsgi.Response.send_headers": [
+    "gunicorn.http.wsgi.Response.default_headers",
+    "gunicorn.util.write",
+    "gunicorn.util.to_bytestring"
+  ],
+  "gunicorn.http.wsgi.Response.write": [
+    "<builtin>.isinstance",
+    "gunicorn.http.wsgi.Response.send_headers",
+    "<builtin>.len",
+    "gunicorn.util.write",
+    "<builtin>.min",
+    "<builtin>.TypeError"
+  ],
+  "<builtin>.min": [],
+  "gunicorn.http.wsgi.Response.can_sendfile": [],
+  "gunicorn.http.wsgi.Response.sendfile": [
+    "os.lseek",
+    "gunicorn.http.wsgi.Response.can_sendfile",
+    "gunicorn.http.wsgi.Response.send_headers",
+    "ssl.wrap_socket.sendall",
+    "ssl.wrap_socket.sendfile",
+    "gunicorn.util.has_fileno",
+    "os.fstat",
+    "gunicorn.http.wsgi.Response.is_chunked"
+  ],
+  "os.lseek": [],
+  "ssl.wrap_socket.sendfile": [],
+  "gunicorn.http.wsgi.Response.write_file": [
+    "gunicorn.http.wsgi.Response.sendfile",
+    "gunicorn.http.wsgi.Response.write"
+  ],
+  "gunicorn.http.wsgi.Response.close": [
+    "gunicorn.util.write_chunk",
+    "gunicorn.http.wsgi.Response.send_headers"
+  ],
+  "gunicorn.http.message": [
+    "re.compile"
+  ],
+  "gunicorn.http.message.Message.__init__": [
+    "gunicorn.http.message.Message.parse",
+    "gunicorn.http.message.Message.set_body_reader"
+  ],
+  "gunicorn.http.message.Message.parse": [
+    "<builtin>.NotImplementedError"
+  ],
+  "gunicorn.http.message.Message.set_body_reader": [
+    "gunicorn.http.errors.InvalidHeader.__init__",
+    "gunicorn.http.body.ChunkedReader.__init__",
+    "gunicorn.http.body.LengthReader.__init__",
+    "gunicorn.http.body.EOFReader.__init__",
+    "gunicorn.http.body.Body.__init__",
+    "<builtin>.int"
+  ],
+  "gunicorn.http.message.Message.parse_headers": [
+    "<builtin>.isinstance",
+    "gunicorn.http.errors.InvalidHeader.__init__",
+    "gunicorn.http.errors.LimitRequestHeaders.__init__",
+    "re.compile.search",
+    "<builtin>.len",
+    "gunicorn.util.bytes_to_str",
+    "gunicorn.http.errors.InvalidHeaderName.__init__"
+  ],
+  "gunicorn.http.body.ChunkedReader.__init__": [
+    "io.BytesIO",
+    "gunicorn.http.body.ChunkedReader.parse_chunked"
+  ],
+  "gunicorn.http.body.Body.__init__": [
+    "io.BytesIO"
+  ],
+  "gunicorn.http.body.LengthReader.__init__": [],
+  "gunicorn.http.body.EOFReader.__init__": [
+    "io.BytesIO"
+  ],
+  "gunicorn.http.message.Message.should_close": [],
+  "gunicorn.http.message.Request.__init__": [
+    "<builtin>.super"
+  ],
+  "gunicorn.http.message.Request.get_data": [
+    "io.BytesIO.write",
+    "gunicorn.http.errors.NoMoreData.__init__",
+    "<builtin>.StopIteration",
+    "io.BytesIO.getvalue"
+  ],
+  "io.BytesIO.getvalue": [],
+  "gunicorn.http.message.Request.parse": [
+    "io.BytesIO.getvalue",
+    "gunicorn.http.errors.LimitRequestHeaders.__init__",
+    "io.BytesIO.write",
+    "gunicorn.http.message.Message.parse_headers",
+    "gunicorn.http.message.Request.proxy_protocol",
+    "io.BytesIO.getvalue.find",
+    "gunicorn.http.message.Request.get_data",
+    "io.BytesIO",
+    "<builtin>.len",
+    "gunicorn.util.bytes_to_str",
+    "gunicorn.http.message.Request.parse_request_line",
+    "gunicorn.http.message.Request.read_line"
+  ],
+  "gunicorn.http.message.Request.read_line": [
+    "io.BytesIO.getvalue",
+    "io.BytesIO.getvalue.find",
+    "gunicorn.http.message.Request.get_data",
+    "<builtin>.len",
+    "gunicorn.http.errors.LimitRequestLine.__init__"
+  ],
+  "gunicorn.http.message.Request.proxy_protocol": [
+    "gunicorn.http.message.Request.proxy_protocol_access_check",
+    "gunicorn.http.message.Request.parse_proxy_protocol"
+  ],
+  "gunicorn.http.message.Request.parse_request_line": [
+    "gunicorn.http.errors.InvalidRequestMethod.__init__",
+    "re.compile.match.group",
+    "re.compile.match",
+    "gunicorn.http.errors.InvalidRequestLine.__init__",
+    "gunicorn.util.split_request_uri",
+    "<builtin>.len",
+    "gunicorn.util.bytes_to_str",
+    "<builtin>.int",
+    "gunicorn.http.errors.InvalidHTTPVersion.__init__"
+  ],
+  "io.BytesIO.getvalue.find": [],
+  "gunicorn.http.message.Request.proxy_protocol_access_check": [
+    "<builtin>.isinstance",
+    "gunicorn.http.errors.ForbiddenProxyRequest.__init__"
+  ],
+  "gunicorn.http.message.Request.parse_proxy_protocol": [
+    "socket.inet_pton",
+    "gunicorn.http.errors.InvalidProxyLine.__init__",
+    "<builtin>.int",
+    "<builtin>.len"
+  ],
+  "re.compile.match": [],
+  "re.compile.match.group": [],
+  "gunicorn.http.message.Request.set_body_reader": [
+    "<builtin>.super",
+    "<builtin>.isinstance",
+    "gunicorn.http.body.Body.__init__",
+    "gunicorn.http.body.LengthReader.__init__"
+  ],
+  "gunicorn.http.body": [],
+  "gunicorn.http.body.ChunkedReader.parse_chunked": [
+    "gunicorn.http.body.ChunkedReader.parse_chunk_size",
+    "gunicorn.http.errors.ChunkMissingTerminator.__init__",
+    "gunicorn.http.errors.NoMoreData.__init__",
+    "<builtin>.len"
+  ],
+  "gunicorn.http.body.ChunkedReader.read": [
+    "<builtin>.isinstance",
+    "io.BytesIO.getvalue",
+    "io.BytesIO.write",
+    "io.BytesIO.tell",
+    "<builtin>.ValueError",
+    "io.BytesIO",
+    "<builtin>.next",
+    "<builtin>.TypeError"
+  ],
+  "io.BytesIO.tell": [],
+  "gunicorn.http.body.ChunkedReader.parse_trailers": [
+    "io.BytesIO.getvalue",
+    "io.BytesIO.write",
+    "gunicorn.http.message.Message.parse_headers",
+    "gunicorn.http.body.ChunkedReader.get_data",
+    "io.BytesIO.getvalue.find",
+    "io.BytesIO"
+  ],
+  "gunicorn.http.body.ChunkedReader.get_data": [
+    "io.BytesIO.write",
+    "gunicorn.http.errors.NoMoreData.__init__"
+  ],
+  "gunicorn.http.body.ChunkedReader.parse_chunk_size": [
+    "io.BytesIO.getvalue",
+    "io.BytesIO.write",
+    "gunicorn.http.errors.InvalidChunkSize.__init__",
+    "gunicorn.http.body.ChunkedReader.parse_trailers",
+    "gunicorn.http.body.ChunkedReader.get_data",
+    "io.BytesIO.getvalue.find",
+    "io.BytesIO",
+    "<builtin>.int"
+  ],
+  "gunicorn.http.body.LengthReader.read": [
+    "<builtin>.isinstance",
+    "io.BytesIO.getvalue",
+    "io.BytesIO.write",
+    "io.BytesIO.getvalue.write",
+    "io.BytesIO.tell",
+    "<builtin>.ValueError",
+    "io.BytesIO",
+    "<builtin>.min",
+    "<builtin>.TypeError",
+    "io.BytesIO.getvalue.tell"
+  ],
+  "io.BytesIO.getvalue.write": [],
+  "io.BytesIO.getvalue.tell": [],
+  "gunicorn.http.body.EOFReader.read": [
+    "<builtin>.isinstance",
+    "io.BytesIO.getvalue",
+    "io.BytesIO.write",
+    "io.BytesIO.tell",
+    "<builtin>.ValueError",
+    "io.BytesIO",
+    "<builtin>.TypeError"
+  ],
+  "gunicorn.http.body.Body.__iter__": [],
+  "gunicorn.http.body.Body.__next__": [
+    "<builtin>.StopIteration",
+    "gunicorn.http.body.Body.readline"
+  ],
+  "gunicorn.http.body.Body.readline": [
+    "io.BytesIO.getvalue",
+    "io.BytesIO.write",
+    "gunicorn.http.body.ChunkedReader.read",
+    "io.BytesIO.getvalue.find",
+    "<builtin>.min",
+    "io.BytesIO",
+    "gunicorn.http.body.LengthReader.read",
+    "<builtin>.len",
+    "gunicorn.http.body.Body.getsize",
+    "gunicorn.http.body.EOFReader.read"
+  ],
+  "gunicorn.http.body.Body.getsize": [
+    "<builtin>.isinstance",
+    "<builtin>.TypeError"
+  ],
+  "gunicorn.http.body.Body.read": [
+    "io.BytesIO.getvalue",
+    "io.BytesIO.write",
+    "gunicorn.http.body.ChunkedReader.read",
+    "io.BytesIO.tell",
+    "io.BytesIO",
+    "gunicorn.http.body.LengthReader.read",
+    "gunicorn.http.body.Body.getsize",
+    "gunicorn.http.body.EOFReader.read"
+  ],
+  "gunicorn.http.body.Body.readlines": [
+    "gunicorn.http.body.Body.read"
+  ],
+  "gunicorn.http": [],
+  "gunicorn.http.parser": [],
+  "gunicorn.http.parser.Parser.__init__": [
+    "gunicorn.http.unreader.IterUnreader.__init__",
+    "<builtin>.hasattr",
+    "gunicorn.http.unreader.SocketUnreader.__init__"
+  ],
+  "gunicorn.http.unreader.SocketUnreader.__init__": [
+    "<builtin>.super"
+  ],
+  "gunicorn.http.unreader.IterUnreader.__init__": [
+    "<builtin>.super"
+  ],
+  "gunicorn.http.parser.Parser.__iter__": [],
+  "gunicorn.http.parser.Parser.__next__": [
+    "<builtin>.StopIteration"
+  ],
+  "gunicorn.http.unreader": [],
+  "gunicorn.http.unreader.Unreader.__init__": [
+    "io.BytesIO"
+  ],
+  "gunicorn.http.unreader.Unreader.chunk": [
+    "<builtin>.NotImplementedError"
+  ],
+  "gunicorn.http.unreader.Unreader.read": [
+    "<builtin>.isinstance",
+    "io.BytesIO.getvalue",
+    "gunicorn.http.unreader.Unreader.chunk",
+    "gunicorn.http.unreader.SocketUnreader.chunk",
+    "gunicorn.http.unreader.IterUnreader.chunk",
+    "io.BytesIO.write",
+    "io.BytesIO.tell",
+    "io.BytesIO",
+    "io.BytesIO.seek",
+    "<builtin>.TypeError"
+  ],
+  "gunicorn.http.unreader.IterUnreader.chunk": [
+    "<builtin>.next"
+  ],
+  "gunicorn.http.unreader.SocketUnreader.chunk": [],
+  "gunicorn.http.unreader.Unreader.unread": [
+    "io.BytesIO.write",
+    "io.BytesIO.seek"
+  ],
+  "examples.websocket.websocket": [
+    "logging.getLogger",
+    "examples.websocket.websocket.WebSocketWSGI.__init__"
+  ],
+  "examples.websocket.websocket.WebSocketWSGI.__init__": [],
+  "examples.websocket.websocket.WebSocketWSGI.verify_client": [],
+  "examples.websocket.websocket.WebSocketWSGI._get_key_value": [
+    "re.subn",
+    "re.sub",
+    "<builtin>.int"
+  ],
+  "examples.websocket.websocket.WebSocketWSGI.__call__": [
+    "examples.websocket.websocket.handle",
+    "base64.b64encode.decode",
+    "base64.b64decode",
+    "hashlib.sha1",
+    "base64.b64encode",
+    "hashlib.sha1.update",
+    "hashlib.sha1.digest",
+    "<builtin>.len",
+    "examples.websocket.websocket.WebSocket.__init__"
+  ],
+  "examples.websocket.websocket.WebSocket.__init__": [
+    "eventlet.pools.TokenPool",
+    "collections.deque"
+  ],
+  "examples.websocket.websocket.handle": [
+    "examples.websocket.websocket.WebSocket.wait",
+    "eventlet.sleep",
+    "random.random",
+    "<builtin>.range",
+    "examples.websocket.websocket.WebSocket.send"
+  ],
+  "eventlet.pools.TokenPool": [],
+  "examples.websocket.websocket.WebSocket.encode_hybi": [
+    "base64.b64encode",
+    "struct.pack",
+    "collections.deque.popleft.encode",
+    "<builtin>.len"
+  ],
+  "examples.websocket.websocket.WebSocket.decode_hybi": [
+    "struct.pack",
+    "base64.b64decode",
+    "<builtin>.len",
+    "<builtin>.repr",
+    "struct.unpack",
+    "struct.unpack_from",
+    "<builtin>.chr",
+    "<builtin>.range",
+    "<builtin>.int",
+    "<builtin>.print"
+  ],
+  "examples.websocket.websocket.WebSocket._pack_message": [
+    "<builtin>.isinstance",
+    "collections.deque.popleft.encode"
+  ],
+  "examples.websocket.websocket.WebSocket._parse_messages": [
+    "<builtin>.ValueError",
+    "<builtin>.ord",
+    "examples.websocket.websocket.WebSocket.decode_hybi"
+  ],
+  "examples.websocket.websocket.WebSocket.send": [
+    "eventlet.pools.TokenPool.get",
+    "examples.websocket.websocket.WebSocket.encode_hybi",
+    "examples.websocket.websocket.WebSocket._pack_message",
+    "eventlet.pools.TokenPool.put"
+  ],
+  "eventlet.pools.TokenPool.get": [],
+  "eventlet.pools.TokenPool.put": [],
+  "examples.websocket.websocket.WebSocket.wait": [
+    "collections.deque.extend",
+    "collections.deque.popleft",
+    "examples.websocket.websocket.WebSocket._parse_messages"
+  ],
+  "examples.websocket.websocket.WebSocket._send_closing_frame": [
+    "examples.websocket.websocket.WebSocket.encode_hybi"
+  ],
+  "examples.websocket.websocket.WebSocket.close": [
+    "examples.websocket.websocket.WebSocket._send_closing_frame"
+  ],
+  "eventlet.sleep": [],
+  "examples.websocket.websocket.app": [
+    "os.path.join",
+    "examples.websocket.websocket.WebSocketWSGI.__init__",
+    "<builtin>.open",
+    "<builtin>.str",
+    "<builtin>.len",
+    "os.path.dirname"
+  ],
+  "setup": [
+    "os.path.join",
+    "<builtin>.open",
+    "setuptools.find_packages",
+    "setuptools.setup",
+    "os.path.dirname"
+  ],
+  "setup.PyTestCommand.initialize_options": [
+    "setuptools.command.test.test.initialize_options"
+  ],
+  "setuptools.command.test.test.initialize_options": [],
+  "setup.PyTestCommand.finalize_options": [
+    "setuptools.command.test.test.finalize_options"
+  ],
+  "setuptools.command.test.test.finalize_options": [],
+  "setup.PyTestCommand.run_tests": [
+    "pytest.main",
+    "sys.exit"
+  ],
+  "pytest.main": [],
+  "setuptools.find_packages": [],
+  "setuptools.setup": [],
+  "gunicorn.workers.ggevent": [
+    "<builtin>.RuntimeError",
+    "pkg_resources.parse_version"
+  ],
+  "pkg_resources.parse_version": [],
+  "gunicorn.workers.ggevent.GeventWorker.patch": [
+    "gevent.socket.socket",
+    "gevent.monkey.patch_all"
+  ],
+  "gevent.monkey.patch_all": [],
+  "gevent.socket.socket": [],
+  "gunicorn.workers.ggevent.GeventWorker.notify": [
+    "<builtin>.super",
+    "sys.exit",
+    "os.getppid"
+  ],
+  "gunicorn.workers.ggevent.GeventWorker.timeout_ctx": [
+    "gevent.Timeout"
+  ],
+  "gevent.Timeout": [],
+  "gunicorn.workers.ggevent.GeventWorker.run": [
+    "<builtin>.dict",
+    "gevent.server.StreamServer.stop",
+    "gevent.server.StreamServer.start",
+    "functools.partial",
+    "<builtin>.hasattr",
+    "gevent.server.StreamServer.pool.free_count",
+    "gunicorn.http.wsgi.base_environ",
+    "gevent.server.StreamServer",
+    "gevent.server.StreamServer.close",
+    "gevent.pool.Pool",
+    "eventlet.greenio.GreenSocket.setblocking",
+    "gevent.sleep",
+    "gunicorn.workers.ggevent.GeventWorker.notify",
+    "gevent.server.StreamServer.kill",
+    "time.time"
+  ],
+  "eventlet.greenio.GreenSocket.setblocking": [],
+  "gevent.pool.Pool": [],
+  "functools.partial": [],
+  "gevent.server.StreamServer": [],
+  "gevent.server.StreamServer.start": [],
+  "gevent.server.StreamServer.close": [],
+  "gevent.server.StreamServer.kill": [],
+  "gevent.server.StreamServer.pool.free_count": [],
+  "gevent.server.StreamServer.stop": [],
+  "gunicorn.workers.ggevent.GeventWorker.handle": [
+    "<builtin>.super"
+  ],
+  "gunicorn.workers.ggevent.GeventWorker.handle_request": [
+    "<builtin>.super"
+  ],
+  "gunicorn.workers.ggevent.GeventWorker.handle_quit": [
+    "<builtin>.super",
+    "gevent.spawn"
+  ],
+  "gevent.spawn": [],
+  "gunicorn.workers.ggevent.GeventWorker.handle_usr1": [
+    "<builtin>.super",
+    "gevent.spawn"
+  ],
+  "gunicorn.workers.ggevent.GeventWorker.init_process": [
+    "<builtin>.super",
+    "gevent.hub.reinit",
+    "gunicorn.workers.ggevent.GeventWorker.patch"
+  ],
+  "gevent.hub.reinit": [],
+  "gunicorn.workers.ggevent.GeventResponse.__init__": [],
+  "gunicorn.workers.ggevent.PyWSGIHandler.log_request": [
+    "<builtin>.hasattr",
+    "datetime.datetime.fromtimestamp",
+    "gunicorn.workers.ggevent.GeventResponse.__init__",
+    "<builtin>.getattr",
+    "gevent.pywsgi.WSGIHandler.headers.items",
+    "gevent.pywsgi.WSGIHandler.server.log.access"
+  ],
+  "datetime.datetime.fromtimestamp": [],
+  "gevent.pywsgi.WSGIHandler.headers.items": [],
+  "gevent.pywsgi.WSGIHandler.server.log.access": [],
+  "gunicorn.workers.ggevent.PyWSGIHandler.get_environ": [
+    "<builtin>.super"
+  ],
+  "gunicorn.workers.sync": [],
+  "gunicorn.workers.sync.SyncWorker.accept": [
+    "gunicorn.workers.sync.SyncWorker.handle",
+    "gunicorn.util.close_on_exec"
+  ],
+  "gunicorn.workers.sync.SyncWorker.handle": [
+    "ssl.wrap_socket",
+    "gunicorn.workers.sync.SyncWorker.handle_request",
+    "<builtin>.next",
+    "gunicorn.util.close",
+    "gunicorn.workers.base.Worker.handle_error",
+    "ssl.wrap_socket.close"
+  ],
+  "gunicorn.workers.sync.SyncWorker.wait": [
+    "select.select",
+    "os.read",
+    "gunicorn.workers.base.Worker.notify"
+  ],
+  "gunicorn.workers.sync.SyncWorker.is_parent_alive": [
+    "os.getppid"
+  ],
+  "gunicorn.workers.sync.SyncWorker.run_for_one": [
+    "gunicorn.workers.sync.SyncWorker.accept",
+    "gunicorn.workers.sync.SyncWorker.wait",
+    "gunicorn.workers.sync.SyncWorker.is_parent_alive",
+    "gunicorn.workers.base.Worker.notify"
+  ],
+  "gunicorn.workers.sync.SyncWorker.run_for_multiple": [
+    "gunicorn.workers.sync.SyncWorker.wait",
+    "gunicorn.workers.sync.SyncWorker.accept",
+    "gunicorn.workers.sync.SyncWorker.is_parent_alive",
+    "gunicorn.workers.base.Worker.notify"
+  ],
+  "gunicorn.workers.sync.SyncWorker.run": [
+    "gunicorn.workers.sync.SyncWorker.run_for_one",
+    "gunicorn.workers.sync.SyncWorker.run_for_multiple",
+    "<builtin>.len"
+  ],
+  "ssl.wrap_socket": [],
+  "gunicorn.workers.sync.SyncWorker.handle_request": [
+    "<builtin>.isinstance",
+    "<builtin>.hasattr",
+    "gunicorn.http.wsgi.create",
+    "ssl.wrap_socket.shutdown",
+    "<builtin>.StopIteration",
+    "gunicorn.util.make_fail_app.app",
+    "gunicorn.util.reraise",
+    "datetime.datetime.now",
+    "sys.exc_info",
+    "ssl.wrap_socket.close"
+  ],
+  "ssl.wrap_socket.shutdown": [],
+  "gunicorn.workers.gtornado": [
+    "<builtin>.RuntimeError"
+  ],
+  "gunicorn.workers.gtornado.TornadoWorker.setup": [
+    "sys.modules.pop"
+  ],
+  "sys.modules.pop": [],
+  "gunicorn.workers.gtornado.TornadoWorker.setup.clear": [
+    "sys.modules.pop.RequestHandler.clear"
+  ],
+  "sys.modules.pop.RequestHandler.clear": [],
+  "gunicorn.workers.gtornado.TornadoWorker.handle_exit": [
+    "<builtin>.super"
+  ],
+  "gunicorn.workers.gtornado.TornadoWorker.handle_request": [],
+  "gunicorn.workers.gtornado.TornadoWorker.watchdog": [
+    "os.getppid",
+    "gunicorn.workers.base.Worker.notify"
+  ],
+  "gunicorn.workers.gtornado.TornadoWorker.heartbeat": [
+    "<builtin>.hasattr",
+    "tornado.ioloop.IOLoop.instance.stop"
+  ],
+  "tornado.ioloop.IOLoop.instance.stop": [],
+  "gunicorn.workers.gtornado.TornadoWorker.init_process": [
+    "<builtin>.super",
+    "tornado.ioloop.IOLoop.clear_current"
+  ],
+  "tornado.ioloop.IOLoop.clear_current": [],
+  "gunicorn.workers.gtornado.TornadoWorker.run": [
+    "<builtin>.isinstance",
+    "<builtin>.hasattr",
+    "tornado.ioloop.IOLoop.instance.start",
+    "tornado.httpserver.HTTPServer.__init__",
+    "copy.deepcopy",
+    "tornado.ioloop.PeriodicCallback",
+    "tornado.httpserver.HTTPServer",
+    "tornado.ioloop.PeriodicCallback.start",
+    "tornado.ioloop.IOLoop.instance",
+    "tornado.wsgi.WSGIContainer"
+  ],
+  "tornado.ioloop.PeriodicCallback": [],
+  "tornado.ioloop.PeriodicCallback.start": [],
+  "tornado.wsgi.WSGIContainer": [],
+  "gunicorn.workers.gtornado.TornadoWorker.run.finish": [
+    "gunicorn.workers.gtornado.TornadoWorker.handle_request"
+  ],
+  "gunicorn.workers.gtornado.TornadoWorker.run._HTTPServer.on_close": [
+    "<builtin>.super",
+    "gunicorn.workers.gtornado.TornadoWorker.handle_request"
+  ],
+  "copy.deepcopy": [],
+  "tornado.httpserver.HTTPServer.__init__": [],
+  "tornado.httpserver.HTTPServer": [],
+  "tornado.ioloop.IOLoop.instance.start": [],
+  "gunicorn.workers.geventlet": [
+    "<builtin>.getattr",
+    "<builtin>.RuntimeError",
+    "pkg_resources.parse_version"
+  ],
+  "gunicorn.workers.geventlet._eventlet_socket_sendfile": [
+    "<builtin>.hasattr",
+    "<builtin>.ValueError",
+    "<builtin>.len",
+    "<builtin>.memoryview",
+    "<builtin>.min"
+  ],
+  "<builtin>.memoryview": [],
+  "gunicorn.workers.geventlet._eventlet_serve": [
+    "eventlet.greenthread.getcurrent",
+    "eventlet.greenpool.GreenPool.spawn.link",
+    "eventlet.greenpool.GreenPool.waitall",
+    "eventlet.greenpool.GreenPool.spawn",
+    "eventlet.greenpool.GreenPool"
+  ],
+  "eventlet.greenpool.GreenPool": [],
+  "eventlet.greenthread.getcurrent": [],
+  "eventlet.greenpool.GreenPool.spawn": [],
+  "eventlet.greenpool.GreenPool.spawn.link": [],
+  "eventlet.greenpool.GreenPool.waitall": [],
+  "gunicorn.workers.geventlet._eventlet_stop": [
+    "eventlet.greenthread.kill",
+    "sys.exc_info"
+  ],
+  "eventlet.greenthread.kill": [],
+  "gunicorn.workers.geventlet.patch_sendfile": [
+    "<builtin>.hasattr"
+  ],
+  "gunicorn.workers.geventlet.EventletWorker.patch": [
+    "eventlet.monkey_patch",
+    "eventlet.hubs.use_hub",
+    "gunicorn.workers.geventlet.patch_sendfile"
+  ],
+  "eventlet.hubs.use_hub": [],
+  "eventlet.monkey_patch": [],
+  "gunicorn.workers.geventlet.EventletWorker.is_already_handled": [
+    "<builtin>.super",
+    "<builtin>.StopIteration",
+    "<builtin>.getattr"
+  ],
+  "gunicorn.workers.geventlet.EventletWorker.init_process": [
+    "<builtin>.super",
+    "gunicorn.workers.geventlet.EventletWorker.patch"
+  ],
+  "gunicorn.workers.geventlet.EventletWorker.handle_quit": [
+    "<builtin>.super",
+    "eventlet.spawn"
+  ],
+  "eventlet.spawn": [],
+  "gunicorn.workers.geventlet.EventletWorker.handle_usr1": [
+    "<builtin>.super",
+    "eventlet.spawn"
+  ],
+  "gunicorn.workers.geventlet.EventletWorker.timeout_ctx": [
+    "eventlet.Timeout"
+  ],
+  "eventlet.Timeout": [],
+  "gunicorn.workers.geventlet.EventletWorker.handle": [
+    "<builtin>.super",
+    "eventlet.wrap_ssl"
+  ],
+  "eventlet.wrap_ssl": [],
+  "gunicorn.workers.geventlet.EventletWorker.run": [
+    "functools.partial",
+    "eventlet.spawn",
+    "gunicorn.workers.base.Worker.notify",
+    "eventlet.sleep",
+    "eventlet.Timeout",
+    "eventlet.greenio.GreenSocket",
+    "eventlet.greenio.GreenSocket.setblocking",
+    "eventlet.StopServe"
+  ],
+  "eventlet.greenio.GreenSocket": [],
+  "eventlet.StopServe": [],
+  "gunicorn.workers.gthread": [],
+  "gunicorn.workers.gthread.TConn.__init__": [
+    "ssl.wrap_socket.setblocking"
+  ],
+  "gunicorn.workers.gthread.TConn.init": [
+    "ssl.wrap_socket.setblocking",
+    "ssl.wrap_socket"
+  ],
+  "gunicorn.workers.gthread.TConn.set_timeout": [
+    "time.time"
+  ],
+  "gunicorn.workers.gthread.TConn.close": [],
+  "gunicorn.workers.gthread.ThreadWorker.__init__": [
+    "<builtin>.super",
+    "collections.deque"
+  ],
+  "gunicorn.workers.gthread.ThreadWorker.check_config": [],
+  "gunicorn.workers.gthread.ThreadWorker.init_process": [
+    "<builtin>.super",
+    "selectors.DefaultSelector",
+    "threading.RLock",
+    "gunicorn.workers.gthread.ThreadWorker.get_thread_pool"
+  ],
+  "gunicorn.workers.gthread.ThreadWorker.get_thread_pool": [
+    "collections.deque.ThreadPoolExecutor"
+  ],
+  "selectors.DefaultSelector": [],
+  "threading.RLock": [],
+  "collections.deque.ThreadPoolExecutor": [],
+  "gunicorn.workers.gthread.ThreadWorker.handle_quit": [
+    "collections.deque.ThreadPoolExecutor.shutdown",
+    "sys.exit",
+    "time.sleep"
+  ],
+  "collections.deque.ThreadPoolExecutor.shutdown": [],
+  "gunicorn.workers.gthread.ThreadWorker._wrap_future": [
+    "collections.deque.append",
+    "collections.deque.ThreadPoolExecutor.submit.add_done_callback"
+  ],
+  "collections.deque.append": [],
+  "collections.deque.ThreadPoolExecutor.submit.add_done_callback": [],
+  "gunicorn.workers.gthread.ThreadWorker.enqueue_req": [
+    "collections.deque.ThreadPoolExecutor.submit",
+    "gunicorn.workers.gthread.ThreadWorker._wrap_future",
+    "gunicorn.workers.gthread.TConn.init"
+  ],
+  "collections.deque.ThreadPoolExecutor.submit": [],
+  "gunicorn.workers.gthread.ThreadWorker.accept": [
+    "gunicorn.workers.gthread.TConn.__init__",
+    "gunicorn.workers.gthread.ThreadWorker.enqueue_req"
+  ],
+  "gunicorn.workers.gthread.ThreadWorker.reuse_connection": [
+    "selectors.DefaultSelector.unregister",
+    "collections.deque.remove",
+    "gunicorn.workers.gthread.ThreadWorker.enqueue_req"
+  ],
+  "selectors.DefaultSelector.unregister": [],
+  "collections.deque.remove": [],
+  "gunicorn.workers.gthread.ThreadWorker.murder_keepalived": [
+    "selectors.DefaultSelector.unregister",
+    "collections.deque.popleft",
+    "collections.deque.appendleft",
+    "collections.deque.popleft.close",
+    "time.time"
+  ],
+  "collections.deque.appendleft": [],
+  "collections.deque.popleft.close": [],
+  "gunicorn.workers.gthread.ThreadWorker.is_parent_alive": [
+    "os.getppid"
+  ],
+  "gunicorn.workers.gthread.ThreadWorker.run": [
+    "gunicorn.workers.gthread.ThreadWorker.is_parent_alive",
+    "collections.deque.remove",
+    "functools.partial",
+    "collections.deque.ThreadPoolExecutor.shutdown",
+    "gunicorn.workers.gthread.ThreadWorker.murder_keepalived",
+    "collections.deque.wait",
+    "gunicorn.workers.base.Worker.notify",
+    "gunicorn.workers.gthread.ThreadWorker.poller.select",
+    "selectors.DefaultSelector.register",
+    "selectors.DefaultSelector.close"
+  ],
+  "selectors.DefaultSelector.register": [],
+  "gunicorn.workers.gthread.ThreadWorker.poller.select": [],
+  "collections.deque.wait": [],
+  "selectors.DefaultSelector.close": [],
+  "gunicorn.workers.gthread.ThreadWorker.finish_request": [
+    "selectors.DefaultSelector.register",
+    "collections.deque.append",
+    "functools.partial"
+  ],
+  "gunicorn.workers.gthread.ThreadWorker.handle": [
+    "gunicorn.workers.gthread.ThreadWorker.handle_request",
+    "gunicorn.workers.base.Worker.handle_error",
+    "<builtin>.next"
+  ],
+  "gunicorn.workers.gthread.ThreadWorker.handle_request": [
+    "<builtin>.isinstance",
+    "<builtin>.hasattr",
+    "gunicorn.http.wsgi.create",
+    "<builtin>.StopIteration",
+    "gunicorn.util.make_fail_app.app",
+    "datetime.datetime.now",
+    "<builtin>.len",
+    "sys.exc_info"
+  ],
+  "gunicorn.__main__": [
+    "gunicorn.app.wsgiapp.run"
+  ],
+  "gunicorn.app.wsgiapp.run": [
+    "gunicorn.app.base.BaseApplication.__init__",
+    "gunicorn.app.base.Application.run"
+  ],
+  "gunicorn.app.wsgiapp": [
+    "gunicorn.app.wsgiapp.run"
+  ],
+  "gunicorn.app.pasterapp.has_logging_config": [
+    "configparser.ConfigParser.has_section",
+    "configparser.ConfigParser",
+    "configparser.ConfigParser.read"
+  ],
+  "gunicorn.app.wsgiapp.WSGIApplication.load_wsgiapp": [
+    "gunicorn.util.import_app"
+  ],
+  "gunicorn.app.wsgiapp.WSGIApplication.load_pasteapp": [
+    "gunicorn.app.pasterapp.get_wsgi_app"
+  ],
+  "gunicorn.app.pasterapp.get_wsgi_app": [
+    "paste.deploy.loadapp",
+    "os.getcwd"
+  ],
+  "gunicorn.app.pasterapp": [],
+  "paste.deploy.loadapp": [],
+  "configparser.ConfigParser": [],
+  "configparser.ConfigParser.read": [],
+  "configparser.ConfigParser.has_section": [],
+  "gunicorn.app.pasterapp.serve": [
+    "gunicorn.app.base.BaseApplication.__init__",
+    "gunicorn.app.base.Application.run"
+  ],
+  "gunicorn.glogging": [
+    "<builtin>.dict"
+  ],
+  "gunicorn.glogging.loggers": [
+    "logging.root.manager.loggerDict.keys",
+    "logging.getLogger",
+    "<builtin>.list"
+  ],
+  "logging.root.manager.loggerDict.keys": [],
+  "gunicorn.glogging.SafeAtoms.__init__": [
+    "<builtin>.isinstance"
+  ],
+  "gunicorn.glogging.SafeAtoms.__getitem__": [
+    "<builtin>.super"
+  ],
+  "gunicorn.glogging.parse_syslog_address": [
+    "<builtin>.int",
+    "<builtin>.RuntimeError",
+    "<builtin>.len"
+  ],
+  "gunicorn.glogging.Logger.__init__": [
+    "threading.Lock",
+    "logging.getLogger",
+    "gunicorn.glogging.Logger.setup"
+  ],
+  "threading.Lock": [],
+  "gunicorn.glogging.Logger.setup": [
+    "logging.getLogger.setLevel",
+    "<builtin>.RuntimeError",
+    "gunicorn.glogging.Logger._set_syslog_handler",
+    "logging.config.fileConfig",
+    "sys.stderr.fileno",
+    "<builtin>.open",
+    "logging.config.dictConfig",
+    "<builtin>.str",
+    "sys.stdout.fileno",
+    "logging.INFO.lower",
+    "logging.Formatter",
+    "os.dup2",
+    "os.path.dirname",
+    "gunicorn.glogging.Logger._set_handler",
+    "os.path.exists"
+  ],
+  "logging.INFO.lower": [],
+  "logging.getLogger.setLevel": [],
+  "logging.Formatter": [],
+  "gunicorn.glogging.Logger._set_handler": [
+    "logging.StreamHandler.setFormatter",
+    "logging.FileHandler.setFormatter",
+    "os.chown",
+    "gunicorn.util.check_is_writeable",
+    "logging.FileHandler",
+    "gunicorn.glogging.Logger._get_gunicorn_handler",
+    "logging.StreamHandler",
+    "logging.getLogger.handlers.remove",
+    "logging.getLogger.addHandler",
+    "logging.getLogger.handlers.setFormatter"
+  ],
+  "gunicorn.glogging.Logger._set_syslog_handler": [
+    "gunicorn.glogging.parse_syslog_address",
+    "logging.handlers.SysLogHandler",
+    "<builtin>.RuntimeError",
+    "logging.handlers.SysLogHandler.setFormatter",
+    "logging.Formatter",
+    "logging.getLogger.addHandler"
+  ],
+  "logging.config.dictConfig": [],
+  "logging.config.fileConfig": [],
+  "gunicorn.glogging.Logger.critical": [
+    "logging.getLogger.critical"
+  ],
+  "logging.getLogger.critical": [],
+  "gunicorn.glogging.Logger.error": [
+    "logging.getLogger.error"
+  ],
+  "gunicorn.glogging.Logger.warning": [
+    "logging.getLogger.warning"
+  ],
+  "logging.getLogger.warning": [],
+  "gunicorn.glogging.Logger.info": [
+    "logging.getLogger.info"
+  ],
+  "gunicorn.glogging.Logger.debug": [
+    "logging.getLogger.debug"
+  ],
+  "gunicorn.glogging.Logger.exception": [
+    "logging.getLogger.exception"
+  ],
+  "logging.getLogger.exception": [],
+  "gunicorn.glogging.Logger.log": [
+    "<builtin>.isinstance",
+    "gunicorn.glogging.Logger.error_log.log"
+  ],
+  "gunicorn.glogging.Logger.error_log.log": [],
+  "gunicorn.glogging.Logger.atoms": [
+    "<builtin>.isinstance",
+    "<builtin>.hasattr",
+    "<builtin>.int",
+    "gunicorn.glogging.Logger._get_user",
+    "<builtin>.getattr",
+    "<builtin>.str",
+    "os.getpid",
+    "gunicorn.glogging.Logger.now"
+  ],
+  "gunicorn.glogging.Logger._get_user": [
+    "base64.b64decode",
+    "gunicorn.glogging.Logger.debug",
+    "base64.b64decode.split",
+    "<builtin>.len",
+    "base64.b64decode.split.decode",
+    "base64.b64decode.decode"
+  ],
+  "gunicorn.glogging.Logger.now": [
+    "time.strftime"
+  ],
+  "gunicorn.glogging.Logger.access": [
+    "traceback.format_exc",
+    "logging.getLogger.info",
+    "gunicorn.glogging.Logger.error",
+    "gunicorn.glogging.Logger.atoms",
+    "gunicorn.glogging.SafeAtoms.__init__"
+  ],
+  "gunicorn.glogging.Logger.reopen_files": [
+    "<builtin>.isinstance",
+    "sys.stderr.fileno",
+    "<builtin>.open",
+    "sys.stdout.fileno",
+    "gunicorn.glogging.loggers",
+    "os.dup2"
+  ],
+  "gunicorn.glogging.Logger.close_on_exec": [
+    "<builtin>.isinstance",
+    "gunicorn.glogging.loggers",
+    "gunicorn.util.close_on_exec"
+  ],
+  "gunicorn.glogging.Logger._get_gunicorn_handler": [
+    "<builtin>.getattr"
+  ],
+  "logging.getLogger.handlers.remove": [],
+  "logging.FileHandler": [],
+  "logging.FileHandler.setFormatter": [],
+  "logging.StreamHandler.setFormatter": [],
+  "logging.getLogger.handlers.setFormatter": [],
+  "logging.handlers.SysLogHandler": [],
+  "logging.handlers.SysLogHandler.setFormatter": [],
+  "base64.b64decode.split.decode": [],
+  "base64.b64decode.decode": [],
+  "base64.b64decode.split": [],
+  "gunicorn.instrument": [],
+  "gunicorn.instrument.statsd": [],
+  "gunicorn.instrument.statsd.Statsd.__init__": [
+    "re.sub",
+    "<builtin>.int",
+    "socket.socket",
+    "gunicorn.glogging.Logger.__init__"
+  ],
+  "gunicorn.instrument.statsd.Statsd.critical": [
+    "gunicorn.glogging.Logger.critical",
+    "gunicorn.instrument.statsd.Statsd.increment"
+  ],
+  "gunicorn.instrument.statsd.Statsd.increment": [
+    "gunicorn.instrument.statsd.Statsd._sock_send"
+  ],
+  "gunicorn.instrument.statsd.Statsd.error": [
+    "gunicorn.instrument.statsd.Statsd.increment",
+    "gunicorn.glogging.Logger.error"
+  ],
+  "gunicorn.instrument.statsd.Statsd.warning": [
+    "gunicorn.instrument.statsd.Statsd.increment",
+    "gunicorn.glogging.Logger.warning"
+  ],
+  "gunicorn.instrument.statsd.Statsd.exception": [
+    "gunicorn.glogging.Logger.exception",
+    "gunicorn.instrument.statsd.Statsd.increment"
+  ],
+  "gunicorn.instrument.statsd.Statsd.info": [
+    "gunicorn.instrument.statsd.Statsd.log"
+  ],
+  "gunicorn.instrument.statsd.Statsd.log": [
+    "gunicorn.instrument.statsd.Statsd.increment",
+    "gunicorn.instrument.statsd.Statsd.gauge",
+    "gunicorn.glogging.Logger.log",
+    "gunicorn.glogging.Logger.warning",
+    "gunicorn.instrument.statsd.Statsd.histogram"
+  ],
+  "gunicorn.instrument.statsd.Statsd.debug": [
+    "gunicorn.instrument.statsd.Statsd.log"
+  ],
+  "gunicorn.instrument.statsd.Statsd.gauge": [
+    "gunicorn.instrument.statsd.Statsd._sock_send"
+  ],
+  "gunicorn.instrument.statsd.Statsd.histogram": [
+    "gunicorn.instrument.statsd.Statsd._sock_send"
+  ],
+  "gunicorn.instrument.statsd.Statsd.access": [
+    "<builtin>.isinstance",
+    "gunicorn.instrument.statsd.Statsd.increment",
+    "gunicorn.glogging.Logger.access",
+    "<builtin>.float",
+    "gunicorn.instrument.statsd.Statsd.histogram",
+    "<builtin>.int"
+  ],
+  "<builtin>.float": [],
+  "gunicorn.instrument.statsd.Statsd._sock_send": [
+    "<builtin>.isinstance",
+    "gunicorn.glogging.Logger.warning"
+  ],
+  "gunicorn.instrument.statsd.Statsd.decrement": [
+    "gunicorn.instrument.statsd.Statsd._sock_send"
+  ]
+}

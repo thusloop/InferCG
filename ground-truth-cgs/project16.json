@@ -1,0 +1,172 @@
+{
+  "cerberus.typing": [
+    "builtins.type",
+    "typing.TypeVar"
+  ],
+  "cerberus.errors": [
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "cerberus.errors.ErrorDefinition",
+    "dict.copy"
+  ],
+  "cerberus.base": [
+    "cerberus.errors.ToyErrorHandler",
+    "builtins.staticmethod",
+    "builtins.staticmethod",
+    "cerberus.base.SchemaRegistry",
+    "cerberus.base.RulesSetRegistry",
+    "typing.NamedTuple",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "builtins.getattr",
+    "dynapyt.runtime.TypeDefinition",
+    "builtins.set",
+    "cerberus.base.dummy_for_rule_validation",
+    "cerberus.base.dummy_for_rule_validation",
+    "cerberus.base.dummy_for_rule_validation",
+    "cerberus.base.dummy_for_rule_validation"
+  ],
+  "cerberus.base.Registry.__init__": [
+    "cerberus.base.Registry.extend"
+  ],
+  "cerberus.base.Registry.extend": [
+    "builtins.dict",
+    "dict.items"
+  ],
+  "cerberus.base.ValidatorMeta.__new__": [
+    "type.__new__"
+  ],
+  "cerberus.base.ValidatorMeta.__init__": [
+    "type.__init__",
+    "cerberus.base.ValidatorMeta.__init__.<locals>.attributes_with_prefix",
+    "cerberus.base.ValidatorMeta.__get_rule_schema",
+    "cerberus.base.ValidatorMeta.__init__.<locals>.attributes_with_prefix",
+    "cerberus.base.ValidatorMeta.__init__.<locals>.attributes_with_prefix",
+    "str.startswith",
+    "str.startswith",
+    "cerberus.base.ValidatorMeta.__get_rule_schema",
+    "cerberus.base.normalize_schema",
+    "cerberus.base.normalize_schema",
+    "collections.ChainMap"
+  ],
+  "cerberus.base.ValidatorMeta.attributes_with_prefix": [
+    "str.startswith",
+    "builtins.len"
+  ],
+  "cerberus.base.ValidatorMeta.__get_rule_schema": [
+    "builtins.getattr",
+    "str.strip",
+    "ast.literal_eval"
+  ],
+  "cerberus.base.normalize_schema": [
+    "dict.items",
+    "cerberus.base.normalize_rulesset"
+  ],
+  "cerberus.base.normalize_rulesset": [
+    "builtins.isinstance",
+    "cerberus.utils.schema_hash",
+    "builtins.dict",
+    "dict.get",
+    "builtins.isinstance",
+    "cerberus.base._expand_composed_of_rules",
+    "cerberus.base._normalize_contained_rulessets",
+    "builtins.isinstance",
+    "cerberus.base._expand_generic_type_aliases"
+  ],
+  "cerberus.utils.schema_hash": [
+    "cerberus.utils.mapping_to_frozenset",
+    "builtins.hash"
+  ],
+  "cerberus.utils.mapping_to_frozenset": [
+    "dict.items",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "builtins.list",
+    "builtins.enumerate",
+    "builtins.isinstance",
+    "cerberus.utils.mapping_to_frozenset",
+    "builtins.tuple",
+    "dict.items",
+    "builtins.frozenset",
+    "cerberus.utils.mapping_to_frozenset",
+    "builtins.isinstance",
+    "builtins.isinstance"
+  ],
+  "cerberus.base._expand_composed_of_rules": [
+    "str.startswith"
+  ],
+  "cerberus.base._normalize_contained_rulessets": [
+    "dict.get",
+    "builtins.isinstance",
+    "dict.get",
+    "builtins.isinstance",
+    "cerberus.base.normalize_rulesset",
+    "cerberus.base.normalize_rulesset"
+  ],
+  "cerberus.base._expand_generic_type_aliases": [
+    "dict.pop",
+    "cerberus.base._flatten_Union_and_Optional",
+    "builtins.isinstance",
+    "builtins.isinstance",
+    "list.append",
+    "builtins.tuple"
+  ],
+  "cerberus.base._flatten_Union_and_Optional": [
+    "typing.get_origin"
+  ],
+  "cerberus.schema": [
+    "dict.copy",
+    "dynapyt.runtime.TypeDefinition",
+    "dynapyt.runtime.TypeDefinition",
+    "dict.update"
+  ]
+}

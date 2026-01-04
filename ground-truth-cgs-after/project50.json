@@ -1,0 +1,45 @@
+{
+  "gunicorn.__init__": [
+    "builtins.str",
+    "str.join"
+  ],
+  "gunicorn.util": [
+    "builtins.getattr",
+    "str.split",
+    "builtins.set",
+    "str.startswith"
+  ],
+  "gunicorn.arbiter": [
+    "str.split",
+    "builtins.getattr",
+    "builtins.getattr",
+    "str.lower",
+    "builtins.property"
+  ],
+  "gunicorn.reloader": [
+    "re.compile",
+    "str.startswith"
+  ],
+  "gunicorn.config": [
+    "gunicorn.config.SettingMeta",
+    "collections.abc.Mapping.get",
+    "builtins.int"
+  ],
+  "gunicorn.config.SettingMeta.__new__": [
+    "builtins.isinstance",
+    "type.__new__",
+    "builtins.len",
+    "builtins.staticmethod",
+    "type.__new__",
+    "dict.get",
+    "gunicorn.config.SettingMeta.fmt_desc",
+    "list.append"
+  ],
+  "gunicorn.config.SettingMeta.fmt_desc": [
+    "textwrap.dedent",
+    "str.strip",
+    "builtins.setattr",
+    "str.splitlines",
+    "builtins.setattr"
+  ]
+}

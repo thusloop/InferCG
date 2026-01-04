@@ -1,0 +1,49 @@
+{
+  "uvicorn.config": [
+    "logging.getLogger"
+  ],
+  "uvicorn.server": [
+    "logging.getLogger"
+  ],
+  "uvicorn._subprocess": [
+    "multiprocessing.context.BaseContext.allow_connection_pickling",
+    "multiprocessing.context.DefaultContext.get_context"
+  ],
+  "uvicorn.supervisors.basereload": [
+    "logging.getLogger"
+  ],
+  "uvicorn.supervisors.multiprocess": [
+    "logging.getLogger"
+  ],
+  "uvicorn.main": [
+    "dict.keys",
+    "builtins.list",
+    "click.types.Choice",
+    "dict.keys",
+    "builtins.list",
+    "click.types.Choice",
+    "dict.keys",
+    "builtins.list",
+    "click.types.Choice",
+    "dict.keys",
+    "builtins.list",
+    "click.types.Choice",
+    "dict.keys",
+    "click.types.Choice",
+    "click.types.Choice",
+    "logging.getLogger"
+  ],
+  "uvicorn.protocols.http.httptools_impl": [
+    "re.compile",
+    "re.compile",
+    "builtins.range",
+    "uvicorn.protocols.http.httptools_impl._get_status_line"
+  ],
+  "uvicorn.protocols.http.httptools_impl._get_status_line": [
+    "http.HTTPStatus",
+    "str.encode",
+    "builtins.str",
+    "str.encode",
+    "bytes.join"
+  ]
+}

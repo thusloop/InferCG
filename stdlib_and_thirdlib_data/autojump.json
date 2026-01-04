@@ -1,0 +1,352 @@
+{
+    "bin.autojump_argparse": [],
+    "bin.autojump_argparse.sorted": [],
+    "bin.autojump_argparse._callable": [],
+    "bin.autojump_argparse._AttributeHolder.__repr__": [],
+    "bin.autojump_argparse._AttributeHolder._get_kwargs": [],
+    "bin.autojump_argparse._AttributeHolder._get_args": [],
+    "bin.autojump_argparse._ensure_value": [],
+    "bin.autojump_argparse.HelpFormatter.__init__": [
+        "re.compile",
+        "re.compile"
+    ],
+    "bin.autojump_argparse.HelpFormatter._indent": [],
+    "bin.autojump_argparse.HelpFormatter._dedent": [],
+    "bin.autojump_argparse.HelpFormatter._Section.__init__": [],
+    "bin.autojump_argparse.HelpFormatter._Section.format_help": [],
+    "bin.autojump_argparse.HelpFormatter._add_item": [],
+    "bin.autojump_argparse.HelpFormatter.start_section": [],
+    "bin.autojump_argparse.HelpFormatter.end_section": [],
+    "bin.autojump_argparse.HelpFormatter.add_text": [],
+    "bin.autojump_argparse.HelpFormatter.add_usage": [],
+    "bin.autojump_argparse.HelpFormatter.add_argument": [],
+    "bin.autojump_argparse.HelpFormatter.add_arguments": [],
+    "bin.autojump_argparse.HelpFormatter.format_help": [],
+    "bin.autojump_argparse.HelpFormatter._join_parts": [],
+    "bin.autojump_argparse.HelpFormatter._format_usage": [
+        "gettext.gettext",
+        "re.findall",
+        "re.findall"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_actions_usage": [
+        "sets.Set",
+        "sets.Set.add",
+        "re.sub",
+        "re.sub",
+        "re.sub",
+        "re.sub",
+        "re.sub.strip"
+    ],
+    "bin.autojump_argparse.HelpFormatter._format_text": [],
+    "bin.autojump_argparse.HelpFormatter._format_action": [],
+    "bin.autojump_argparse.HelpFormatter._format_action_invocation": [],
+    "bin.autojump_argparse.HelpFormatter._metavar_formatter": [],
+    "bin.autojump_argparse.HelpFormatter._metavar_formatter.format": [],
+    "bin.autojump_argparse.HelpFormatter._format_args": [],
+    "bin.autojump_argparse.HelpFormatter._expand_help": [],
+    "bin.autojump_argparse.HelpFormatter._iter_indented_subactions": [],
+    "bin.autojump_argparse.HelpFormatter._split_lines": [
+        "textwrap.wrap"
+    ],
+    "bin.autojump_argparse.HelpFormatter._fill_text": [
+        "textwrap.fill"
+    ],
+    "bin.autojump_argparse.HelpFormatter._get_help_string": [],
+    "bin.autojump_argparse.RawDescriptionHelpFormatter._fill_text": [],
+    "bin.autojump_argparse.RawTextHelpFormatter._split_lines": [],
+    "bin.autojump_argparse.ArgumentDefaultsHelpFormatter._get_help_string": [],
+    "bin.autojump_argparse._get_action_name": [],
+    "bin.autojump_argparse.ArgumentError.__init__": [],
+    "bin.autojump_argparse.ArgumentError.__str__": [],
+    "bin.autojump_argparse.Action.__init__": [],
+    "bin.autojump_argparse.Action._get_kwargs": [],
+    "bin.autojump_argparse.Action.__call__": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse._StoreAction.__init__": [],
+    "bin.autojump_argparse._StoreAction.__call__": [],
+    "bin.autojump_argparse._StoreConstAction.__init__": [],
+    "bin.autojump_argparse._StoreConstAction.__call__": [],
+    "bin.autojump_argparse._StoreTrueAction.__init__": [],
+    "bin.autojump_argparse._StoreFalseAction.__init__": [],
+    "bin.autojump_argparse._AppendAction.__init__": [],
+    "bin.autojump_argparse._AppendAction.__call__": [
+        "copy.copy",
+        "copy.copy.append"
+    ],
+    "bin.autojump_argparse._AppendConstAction.__init__": [],
+    "bin.autojump_argparse._AppendConstAction.__call__": [
+        "copy.copy",
+        "copy.copy.append"
+    ],
+    "bin.autojump_argparse._CountAction.__init__": [],
+    "bin.autojump_argparse._CountAction.__call__": [],
+    "bin.autojump_argparse._HelpAction.__init__": [],
+    "bin.autojump_argparse._HelpAction.__call__": [],
+    "bin.autojump_argparse._VersionAction.__init__": [],
+    "bin.autojump_argparse._VersionAction.__call__": [],
+    "bin.autojump_argparse._SubParsersAction._ChoicesPseudoAction.__init__": [],
+    "bin.autojump_argparse._SubParsersAction.__init__": [],
+    "bin.autojump_argparse._SubParsersAction.add_parser": [],
+    "bin.autojump_argparse._SubParsersAction._get_subactions": [],
+    "bin.autojump_argparse._SubParsersAction.__call__": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.FileType.__init__": [],
+    "bin.autojump_argparse.FileType.__call__": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.FileType.__repr__": [],
+    "bin.autojump_argparse.Namespace.__init__": [],
+    "bin.autojump_argparse.Namespace.__eq__": [],
+    "bin.autojump_argparse.Namespace.__ne__": [],
+    "bin.autojump_argparse.Namespace.__contains__": [],
+    "bin.autojump_argparse._ActionsContainer.__init__": [
+        "re.compile"
+    ],
+    "bin.autojump_argparse._ActionsContainer.register": [],
+    "bin.autojump_argparse._ActionsContainer._registry_get": [],
+    "bin.autojump_argparse._ActionsContainer.set_defaults": [],
+    "bin.autojump_argparse._ActionsContainer.get_default": [],
+    "bin.autojump_argparse._ActionsContainer.add_argument": [],
+    "bin.autojump_argparse._ActionsContainer.add_argument_group": [],
+    "bin.autojump_argparse._ActionsContainer.add_mutually_exclusive_group": [],
+    "bin.autojump_argparse._ActionsContainer._add_action": [],
+    "bin.autojump_argparse._ActionsContainer._remove_action": [],
+    "bin.autojump_argparse._ActionsContainer._add_container_actions": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse._ActionsContainer._get_positional_kwargs": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse._ActionsContainer._get_optional_kwargs": [
+        "gettext.gettext",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse._ActionsContainer._pop_action_class": [],
+    "bin.autojump_argparse._ActionsContainer._get_handler": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse._ActionsContainer._check_conflict": [],
+    "bin.autojump_argparse._ActionsContainer._handle_conflict_error": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse._ActionsContainer._handle_conflict_resolve": [],
+    "bin.autojump_argparse._ArgumentGroup.__init__": [],
+    "bin.autojump_argparse._ArgumentGroup._add_action": [],
+    "bin.autojump_argparse._ArgumentGroup._remove_action": [],
+    "bin.autojump_argparse._MutuallyExclusiveGroup.__init__": [],
+    "bin.autojump_argparse._MutuallyExclusiveGroup._add_action": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse._MutuallyExclusiveGroup._remove_action": [],
+    "bin.autojump_argparse.ArgumentParser.__init__": [
+        "warnings.warn",
+        "os.path.basename",
+        "gettext.gettext",
+        "gettext.gettext",
+        "gettext.gettext",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser.__init__.identity": [],
+    "bin.autojump_argparse.ArgumentParser._get_kwargs": [],
+    "bin.autojump_argparse.ArgumentParser.add_subparsers": [
+        "gettext.gettext",
+        "gettext.gettext",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._add_action": [],
+    "bin.autojump_argparse.ArgumentParser._get_optional_actions": [],
+    "bin.autojump_argparse.ArgumentParser._get_positional_actions": [],
+    "bin.autojump_argparse.ArgumentParser.parse_args": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser.parse_known_args": [
+        "sys.exc_info"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args": [
+        "sets.Set",
+        "sets.Set",
+        "gettext.gettext",
+        "gettext.gettext",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.take_action": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_optional": [
+        "gettext.gettext",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_known_args.consume_positionals": [],
+    "bin.autojump_argparse.ArgumentParser._read_args_from_files": [
+        "sys.exc_info"
+    ],
+    "bin.autojump_argparse.ArgumentParser.convert_arg_line_to_args": [],
+    "bin.autojump_argparse.ArgumentParser._match_argument": [
+        "re.match",
+        "gettext.gettext",
+        "gettext.gettext",
+        "gettext.gettext",
+        "gettext.gettext",
+        "re.match.group"
+    ],
+    "bin.autojump_argparse.ArgumentParser._match_arguments_partial": [
+        "re.match",
+        "re.match.groups"
+    ],
+    "bin.autojump_argparse.ArgumentParser._parse_optional": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_option_tuples": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_nargs_pattern": [],
+    "bin.autojump_argparse.ArgumentParser._get_values": [],
+    "bin.autojump_argparse.ArgumentParser._get_value": [
+        "gettext.gettext",
+        "sys.exc_info",
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser._check_value": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_argparse.ArgumentParser.format_usage": [],
+    "bin.autojump_argparse.ArgumentParser.format_help": [],
+    "bin.autojump_argparse.ArgumentParser.format_version": [
+        "warnings.warn"
+    ],
+    "bin.autojump_argparse.ArgumentParser._get_formatter": [],
+    "bin.autojump_argparse.ArgumentParser.print_usage": [],
+    "bin.autojump_argparse.ArgumentParser.print_help": [],
+    "bin.autojump_argparse.ArgumentParser.print_version": [
+        "warnings.warn"
+    ],
+    "bin.autojump_argparse.ArgumentParser._print_message": [
+        "sys.stderr.write"
+    ],
+    "bin.autojump_argparse.ArgumentParser.exit": [
+        "sys.exit"
+    ],
+    "bin.autojump_argparse.ArgumentParser.error": [
+        "gettext.gettext"
+    ],
+    "bin.autojump_data": [
+        "collections.namedtuple"
+    ],
+    "bin.autojump_data.dictify": [],
+    "bin.autojump_data.entriefy": [
+        "itertools.imap"
+    ],
+    "bin.autojump_data.load": [
+        "os.path.join",
+        "os.path.expanduser",
+        "os.path.exists",
+        "os.path.exists",
+        "codecs.open",
+        "itertools.imap",
+        "itertools.ifilter",
+        "itertools.imap"
+    ],
+    "bin.autojump_data.load_backup": [
+        "os.path.exists"
+    ],
+    "bin.autojump_data.migrate_osx_xdg_data": [
+        "os.path.join",
+        "os.path.expanduser",
+        "os.path.join",
+        "os.path.join",
+        "os.path.join",
+        "os.path.exists",
+        "os.path.exists",
+        "shutil.rmtree",
+        "os.listdir",
+        "shutil.rmtree"
+    ],
+    "bin.autojump_data.save": [
+        "os.path.dirname",
+        "tempfile.NamedTemporaryFile",
+        "tempfile.NamedTemporaryFile.close",
+        "codecs.open",
+        "os.fsync",
+        "sys.exit",
+        "os.path.exists",
+        "time.time",
+        "os.path.getmtime",
+        "shutil.copy"
+    ],
+    "bin.autojump_match": [],
+    "bin.autojump_match.match_anywhere": [
+        "itertools.imap",
+        "re.search",
+        "itertools.ifilter"
+    ],
+    "bin.autojump_match.match_consecutive": [
+        "itertools.imap",
+        "re.search",
+        "itertools.ifilter"
+    ],
+    "bin.autojump_match.match_fuzzy": [
+        "os.path.split",
+        "difflib.SequenceMatcher",
+        "difflib.SequenceMatcher",
+        "itertools.ifilter"
+    ],
+    "bin.autojump_utils": [],
+    "bin.autojump_utils.create_dir": [
+        "os.makedirs"
+    ],
+    "bin.autojump_utils.encode_local": [
+        "sys.getfilesystemencoding"
+    ],
+    "bin.autojump_utils.first": [],
+    "bin.autojump_utils.get_tab_entry_info": [
+        "re.search",
+        "re.search",
+        "re.search",
+        "re.search.group",
+        "re.search.group",
+        "re.search.group"
+    ],
+    "bin.autojump_utils.get_pwd": [
+        "os.getcwdu"
+    ],
+    "bin.autojump_utils.has_uppercase": [
+        "unicodedata.category"
+    ],
+    "bin.autojump_utils.in_bash": [
+        "os.getenv"
+    ],
+    "bin.autojump_utils.is_autojump_sourced": [
+        "os.getenv"
+    ],
+    "bin.autojump_utils.is_python2": [],
+    "bin.autojump_utils.is_python3": [],
+    "bin.autojump_utils.is_linux": [
+        "platform.system"
+    ],
+    "bin.autojump_utils.is_osx": [
+        "platform.system"
+    ],
+    "bin.autojump_utils.is_windows": [
+        "platform.system"
+    ],
+    "bin.autojump_utils.last": [],
+    "bin.autojump_utils.move_file": [
+        "os.path.exists",
+        "os.remove",
+        "shutil.move"
+    ],
+    "bin.autojump_utils.print_entry": [],
+    "bin.autojump_utils.print_local": [],
+    "bin.autojump_utils.print_tab_menu": [],
+    "bin.autojump_utils.sanitize": [
+        "itertools.imap"
+    ],
+    "bin.autojump_utils.second": [],
+    "bin.autojump_utils.surround_quotes": [],
+    "bin.autojump_utils.take": [
+        "itertools.islice"
+    ],
+    "bin.autojump_utils.unico": []
+}

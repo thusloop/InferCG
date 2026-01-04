@@ -1,0 +1,150 @@
+{
+  "thefuck.const": [
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst",
+    "thefuck.const._GenConst"
+  ],
+  "thefuck.system.unix": [
+    "builtins.hasattr"
+  ],
+  "thefuck.conf": [
+    "thefuck.conf.Settings"
+  ],
+  "thefuck.utils": [
+    "io.open",
+    "thefuck.utils.Cache"
+  ],
+  "thefuck.shells.generic": [
+    "collections.namedtuple"
+  ],
+  "thefuck.shells.__init__": [
+    "thefuck.shells._get_shell_from_env",
+    "thefuck.shells._get_shell_from_proc"
+  ],
+  "thefuck.shells.__init__._get_shell_from_env": [
+    "collections.abc.Mapping.get"
+  ],
+  "thefuck.shells.__init__._get_shell_from_proc": [
+    "posix.getpid",
+    "psutil.Process",
+    "psutil.Process.name",
+    "posixpath.splitext",
+    "psutil.Process.parent",
+    "thefuck.shells.bash.Bash"
+  ],
+  "thefuck.entrypoints.not_configured": [
+    "colorama.initialise.init"
+  ],
+  "thefuck.utils.for_app": [
+    "decorator.decorator"
+  ],
+  "thefuck.specific.apt": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.utils.wrapper": [
+    "_pickle.dumps",
+    "thefuck.utils.which"
+  ],
+  "thefuck.utils.which": [
+    "shutil.which"
+  ],
+  "thefuck.specific.brew": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.rules.brew_reinstall": [
+    "re.compile",
+    "re.compile"
+  ],
+  "thefuck.rules.choco_install": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.specific.dnf": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.rules.dnf_no_such_command": [
+    "re.compile"
+  ],
+  "thefuck.rules.docker_not_command": [
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.fix_file": [
+    "thefuck.rules.fix_file._make_pattern"
+  ],
+  "thefuck.rules.fix_file._make_pattern": [
+    "str.replace",
+    "re.compile"
+  ],
+  "thefuck.utils.default_settings": [
+    "decorator.decorator"
+  ],
+  "thefuck.rules.gem_unknown_command": [
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.go_unknown_command": [
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.gradle_no_task": [
+    "re.compile"
+  ],
+  "thefuck.rules.grunt_task_not_found": [
+    "re.compile"
+  ],
+  "thefuck.specific.nix": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.rules.nixos_cmd_not_found": [
+    "re.compile"
+  ],
+  "thefuck.specific.npm": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.rules.omnienv_no_such_command": [
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.pacman": [
+    "thefuck.specific.archlinux.archlinux_env"
+  ],
+  "thefuck.specific.archlinux.archlinux_env": [
+    "thefuck.utils.which",
+    "thefuck.utils.which",
+    "thefuck.utils.which",
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.pacman_invalid_option": [
+    "thefuck.specific.archlinux.archlinux_env"
+  ],
+  "thefuck.rules.pacman_not_found": [
+    "thefuck.specific.archlinux.archlinux_env"
+  ],
+  "thefuck.rules.port_already_in_use": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.rules.yarn_command_not_found": [
+    "re.compile",
+    "thefuck.utils.which"
+  ],
+  "thefuck.rules.yarn_command_replaced": [
+    "re.compile"
+  ],
+  "thefuck.specific.yum": [
+    "thefuck.utils.which",
+    "builtins.bool"
+  ],
+  "thefuck.rules.yum_invalid_operation": [
+    "thefuck.utils.which"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "delegator": [],
+  "delegator.pid_exists": [
+    "os.kill"
+  ],
+  "os.kill": [],
+  "delegator.Command.__init__": [
+    "<builtin>.super"
+  ],
+  "<builtin>.super": [],
+  "delegator.Command.__repr__": [],
+  "delegator.Command._popen_args": [],
+  "delegator.Command._default_popen_kwargs": [
+    "os.environ.copy"
+  ],
+  "os.environ.copy": [],
+  "delegator.Command._default_pexpect_kwargs": [
+    "locale.getdefaultlocale",
+    "os.environ.copy"
+  ],
+  "locale.getdefaultlocale": [],
+  "delegator.Command._uses_subprocess": [
+    "<builtin>.isinstance"
+  ],
+  "<builtin>.isinstance": [],
+  "delegator.Command._uses_pexpect": [
+    "<builtin>.isinstance"
+  ],
+  "delegator.Command.std_out": [],
+  "delegator.Command.ok": [],
+  "delegator.Command._pexpect_out": [
+    "pexpect.popen_spawn.PopenSpawn.read"
+  ],
+  "pexpect.popen_spawn.PopenSpawn.read": [],
+  "delegator.Command.out": [],
+  "delegator.Command.std_err": [],
+  "delegator.Command.err": [],
+  "delegator.Command.pid": [
+    "<builtin>.hasattr"
+  ],
+  "<builtin>.hasattr": [],
+  "delegator.Command.is_alive": [
+    "delegator.pid_exists"
+  ],
+  "delegator.Command.return_code": [],
+  "delegator.Command.std_in": [],
+  "delegator.Command.run": [
+    "delegator.Command.subprocess.Popen",
+    "pexpect.popen_spawn.PopenSpawn.Popen",
+    "pexpect.popen_spawn.PopenSpawn"
+  ],
+  "pexpect.popen_spawn.PopenSpawn.Popen": [],
+  "delegator.Command.subprocess.Popen": [],
+  "pexpect.popen_spawn.PopenSpawn": [],
+  "delegator.Command.expect": [
+    "delegator.Command.subprocess.expect",
+    "<builtin>.RuntimeError"
+  ],
+  "<builtin>.RuntimeError": [],
+  "delegator.Command.subprocess.expect": [],
+  "delegator.Command.send": [
+    "pexpect.popen_spawn.PopenSpawn.communicate",
+    "pexpect.popen_spawn.PopenSpawn.send_signal",
+    "pexpect.popen_spawn.PopenSpawn.send",
+    "<builtin>.RuntimeError"
+  ],
+  "pexpect.popen_spawn.PopenSpawn.communicate": [],
+  "pexpect.popen_spawn.PopenSpawn.send": [],
+  "pexpect.popen_spawn.PopenSpawn.send_signal": [],
+  "delegator.Command.terminate": [
+    "pexpect.popen_spawn.PopenSpawn.terminate"
+  ],
+  "pexpect.popen_spawn.PopenSpawn.terminate": [],
+  "delegator.Command.kill": [
+    "pexpect.popen_spawn.PopenSpawn.kill",
+    "pexpect.popen_spawn.PopenSpawn.send_signal"
+  ],
+  "pexpect.popen_spawn.PopenSpawn.kill": [],
+  "delegator.Command.block": [
+    "pexpect.popen_spawn.PopenSpawn.stdin.close",
+    "pexpect.popen_spawn.PopenSpawn.wait",
+    "pexpect.popen_spawn.PopenSpawn.communicate",
+    "pexpect.popen_spawn.PopenSpawn.sendeof",
+    "pexpect.popen_spawn.PopenSpawn.proc.stdout.close"
+  ],
+  "pexpect.popen_spawn.PopenSpawn.stdin.close": [],
+  "pexpect.popen_spawn.PopenSpawn.wait": [],
+  "pexpect.popen_spawn.PopenSpawn.sendeof": [],
+  "pexpect.popen_spawn.PopenSpawn.proc.stdout.close": [],
+  "delegator.Command.pipe": [
+    "delegator.Command.send",
+    "delegator.Command.block",
+    "delegator.Command.__init__",
+    "delegator.Command.run"
+  ],
+  "delegator._expand_args": [
+    "<builtin>.isinstance",
+    "<builtin>.list",
+    "<builtin>.map",
+    "shlex.shlex"
+  ],
+  "shlex.shlex": [],
+  "<builtin>.map": [],
+  "<builtin>.list": [],
+  "delegator.chain": [
+    "delegator.Command.send",
+    "delegator.run",
+    "delegator._expand_args",
+    "pexpect.popen_spawn.PopenSpawn.sendeof"
+  ],
+  "delegator.run": [
+    "delegator.Command.block",
+    "delegator.Command.run",
+    "delegator.Command.__init__"
+  ],
+  "setup": [
+    "sys.exit",
+    "os.path.abspath",
+    "os.dirname",
+    "os.system",
+    "codecs.open",
+    "os.path.dirname",
+    "os.path.join",
+    "setuptools.setup"
+  ],
+  "os.path.dirname": [],
+  "os.dirname": [],
+  "os.path.abspath": [],
+  "os.path.join": [],
+  "codecs.open": [],
+  "os.system": [],
+  "sys.exit": [],
+  "setuptools.setup": []
+}

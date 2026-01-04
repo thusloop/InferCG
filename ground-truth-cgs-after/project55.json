@@ -1,0 +1,44 @@
+{
+  "src.colander.__init__": [
+    "translationstring.TranslationStringFactory",
+    "colander._required",
+    "colander._null",
+    "colander._drop",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "colander._make_url_regex_src",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "colander.Regex",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "colander.Regex",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "colander.Regex",
+    "builtins.property",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "itertools.count",
+    "translationstring.TranslationStringFactory.<locals>.create",
+    "colander._SchemaMeta"
+  ],
+  "src.colander.__init__.Regex.__init__": [
+    "builtins.isinstance",
+    "re.compile"
+  ],
+  "src.colander.__init__._SchemaMeta.__init__": [
+    "dict.items",
+    "builtins.isinstance",
+    "list.sort",
+    "builtins.reversed",
+    "builtins.getattr",
+    "list.extend"
+  ]
+}

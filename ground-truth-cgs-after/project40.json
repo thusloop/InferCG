@@ -1,0 +1,289 @@
+{
+  "lektor.reporter": [
+    "werkzeug.local.LocalStack",
+    "werkzeug.local.LocalStack",
+    "builtins.set",
+    "lektor.reporter.NullReporter"
+  ],
+  "lektor.context": [
+    "werkzeug.local.LocalStack"
+  ],
+  "lektor.i18n": [
+    "posixpath.dirname",
+    "posixpath.abspath",
+    "posixpath.join",
+    "posix.listdir",
+    "str.endswith",
+    "posixpath.join",
+    "io.open",
+    "json.load"
+  ],
+  "lektor.utils": [
+    "json.dumps",
+    "re.compile",
+    "builtins.object",
+    "builtins.object",
+    "sys.getfilesystemencoding",
+    "_codecs.lookup",
+    "typing.TypeVar"
+  ],
+  "lektor.environment.config": [
+    "collections.OrderedDict"
+  ],
+  "lektor.markdown.controller": [
+    "lektor.markdown.controller._Threadlocal"
+  ],
+  "lektor.markdown.__init__": [
+    "importlib.metadata.version",
+    "str.startswith",
+    "str.startswith",
+    "lektor.markdown.controller.ControllerCache"
+  ],
+  "lektor.markdown.mistune2": [
+    "lektor.markdown.controller.RendererHelper"
+  ],
+  "lektor.markdown.controller.ControllerCache.__init__": [
+    "weakref.WeakKeyDictionary"
+  ],
+  "lektor.types.base": [
+    "lektor.types.base._NameDescriptor"
+  ],
+  "lektor.types.flow": [
+    "re.compile",
+    "re.compile"
+  ],
+  "lektor.datamodel": [
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field",
+    "lektor.datamodel.add_system_field"
+  ],
+  "lektor.datamodel.add_system_field": [
+    "lektor.i18n.generate_i18n_kvs",
+    "builtins.dict",
+    "dict.pop"
+  ],
+  "lektor.i18n.generate_i18n_kvs": [
+    "dict.items",
+    "str.endswith",
+    "lektor.i18n.load_i18n_block",
+    "dict.items"
+  ],
+  "lektor.i18n.load_i18n_block": [
+    "dict.get"
+  ],
+  "lektor.editor": [
+    "builtins.set",
+    "builtins.set"
+  ],
+  "lektor.editor._deprecated_data_proxy": [
+    "str.startswith"
+  ],
+  "lektor.imagetools": [
+    "datetime.strptime",
+    "re.compile"
+  ],
+  "lektor.videotools": [
+    "builtins.frozenset",
+    "collections.namedtuple",
+    "collections.namedtuple"
+  ],
+  "lektor.utils.locate_executable": [
+    "collections.abc.Mapping.get",
+    "str.split",
+    "posixpath.splitext",
+    "str.lower",
+    "list.insert",
+    "collections.abc.Mapping.get",
+    "str.split",
+    "posixpath.join",
+    "posix.access"
+  ],
+  "lektor.build_programs.decorator": [
+    "list.append"
+  ],
+  "lektor.builder": [
+    "collections.namedtuple"
+  ],
+  "lektor.imagetools.find_imagemagick": [
+    "lektor.utils.locate_executable",
+    "builtins.RuntimeError"
+  ],
+  "lektor.cli_utils": [
+    "builtins.property",
+    "click.decorators.make_pass_decorator"
+  ],
+  "lektor.cli": [
+    "importlib.metadata.version",
+    "click.core.Group.add_command"
+  ],
+  "lektor.cli_utils.extraflag": [
+    "click.decorators.option",
+    "click.decorators.option.<locals>.decorator"
+  ],
+  "lektor.cli_utils.pruneflag": [
+    "click.decorators.option",
+    "click.decorators.option.<locals>.decorator"
+  ],
+  "lektor.quickstart": [
+    "importlib.import_module",
+    "re.compile"
+  ],
+  "lektor.admin.modules.api": [
+    "flask.blueprints.Blueprint",
+    "marshmallow_dataclass.NewType",
+    "marshmallow_dataclass.NewType",
+    "marshmallow_dataclass.NewType",
+    "typing.TypeVar",
+    "builtins.dict",
+    "dataclasses.field"
+  ],
+  "lektor.admin.modules.api._with_validated": [
+    "marshmallow_dataclass.class_schema",
+    "marshmallow.schema._PathAndAlt",
+    "marshmallow.schema._FindParams",
+    "marshmallow.schema._UrlPath",
+    "marshmallow.schema._NewRecordParams",
+    "marshmallow.schema._DeleteRecordParams",
+    "marshmallow.schema._UpdateRawRecordParams",
+    "marshmallow.schema._PublishBuildParams"
+  ],
+  "lektor.admin.modules.api.wrap": [
+    "typing.cast"
+  ],
+  "lektor.admin.modules.dash": [
+    "flask.blueprints.Blueprint"
+  ],
+  "lektor.admin.modules.livereload": [
+    "flask.blueprints.Blueprint",
+    "secrets.token_urlsafe"
+  ],
+  "lektor.admin.utils.eventstream": [
+    "functools.update_wrapper"
+  ],
+  "lektor.admin.modules.serve": [
+    "flask.blueprints.Blueprint"
+  ],
+  "lektor.videotools.Dimensions.__new__": [
+    "builtins.int",
+    "builtins.int",
+    "Dimensions.__new__"
+  ],
+  "lektor.project.Project.from_path": [
+    "posixpath.abspath",
+    "genericpath.isfile",
+    "posix.listdir",
+    "str.lower",
+    "str.endswith",
+    "builtins.len",
+    "posixpath.join",
+    "lektor.project.Project.from_file"
+  ],
+  "lektor.project.Project.from_file": [
+    "inifile.IniFile",
+    "inifile.IniData.get",
+    "posixpath.dirname",
+    "inifile.IniData.get",
+    "lektor.utils.untrusted_to_os_path",
+    "posixpath.join",
+    "inifile.IniData.get",
+    "lektor.project.Project"
+  ],
+  "lektor.utils.untrusted_to_os_path": [
+    "str.strip",
+    "str.replace",
+    "builtins.isinstance"
+  ],
+  "lektor.project.Project.__init__": [
+    "posixpath.normpath",
+    "str.encode",
+    "_hashlib.openssl_md5",
+    "HASH.hexdigest"
+  ],
+  "lektor.project.Project.make_env": [
+    "lektor.environment.Environment"
+  ],
+  "lektor.environment.__init__.Environment.__init__": [
+    "posixpath.abspath",
+    "posixpath.join",
+    "posix.listdir",
+    "posixpath.join",
+    "jinja2.loaders.FileSystemLoader",
+    "lektor.environment.CustomJinjaEnvironment",
+    "jinja2.utils.pass_context",
+    "jinja2.utils.pass_context",
+    "jinja2.utils.pass_context",
+    "dict.update",
+    "dict.update",
+    "lektor.environment._pass_locale",
+    "lektor.environment._pass_locale",
+    "lektor.environment._pass_locale",
+    "dict.update",
+    "dict.copy",
+    "dict.copy",
+    "lektor.pluginsystem.PluginController",
+    "lektor.environment.Environment.load_plugins"
+  ],
+  "lektor.environment.__init__._pass_locale": [
+    "functools.update_wrapper"
+  ],
+  "lektor.pluginsystem.PluginController.__init__": [
+    "weakref.ReferenceType"
+  ],
+  "lektor.environment.__init__.Environment.load_plugins": [
+    "lektor.packages.load_packages"
+  ],
+  "lektor.packages.load_packages": [
+    "lektor.environment.Environment.load_config",
+    "lektor.project.Project.get_package_cache_path"
+  ],
+  "lektor.environment.__init__.Environment.load_config": [
+    "lektor.environment.config.Config"
+  ],
+  "lektor.environment.config.Config.__init__": [
+    "copy.deepcopy",
+    "genericpath.isfile",
+    "inifile.IniFile",
+    "lektor.environment.config.update_config_from_ini"
+  ],
+  "lektor.environment.config.update_config_from_ini": [
+    "lektor.environment.config.update_config_from_ini.<locals>.set_simple",
+    "lektor.environment.config.update_config_from_ini.<locals>.set_simple",
+    "str.lower",
+    "inifile.IniData.section_as_dict",
+    "dict.update",
+    "inifile.IniData.itersections",
+    "str.startswith",
+    "str.startswith",
+    "str.split",
+    "lektor.i18n.get_i18n_block",
+    "inifile.IniData.get",
+    "inifile.IniData.get",
+    "inifile.IniData.get_bool",
+    "inifile.IniData.get",
+    "str.split",
+    "inifile.IniData.section_as_dict",
+    "OrderedDict.items"
+  ],
+  "lektor.environment.config.set_simple": [
+    "dict.get"
+  ],
+  "lektor.i18n.get_i18n_block": [
+    "builtins.list",
+    "str.startswith",
+    "builtins.len"
+  ],
+  "lektor.project.Project.get_package_cache_path": [
+    "_hashlib.openssl_md5",
+    "str.encode",
+    "HASH.update"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+    "orderedmultidict.itemlist": [
+        "orderedmultidict.itemlist.itemnode",
+        "orderedmultidict.itemlist.itemlist"
+    ],
+    "orderedmultidict.orderedmultidict": [
+        "orderedmultidict.orderedmultidict.omdict"
+    ],
+    "furl.compat": [
+        "furl.compat.UnicodeMixin"
+    ],
+    "furl.furl": [
+        "furl.furl.Query",
+        "furl.furl.QueryCompositionInterface",
+        "furl.furl.URLPathCompositionInterface",
+        "furl.furl.FragmentPathCompositionInterface",
+        "furl.furl.Fragment",
+        "furl.furl.PathCompositionInterface",
+        "furl.furl.FragmentCompositionInterface",
+        "furl.furl.furl",
+        "furl.furl.Path"
+    ],
+    "furl.omdict1D": [
+        "furl.omdict1D.omdict1D"
+    ],
+    "abc": [
+        "abc.ABC",
+        "abc.abstractstaticmethod",
+        "abc.ABCMeta",
+        "abc.abstractproperty",
+        "abc.abstractclassmethod"
+    ],
+    "copy": [
+        "copy.Error"
+    ],
+    "re": [
+        "re.RegexFlag",
+        "re.Scanner"
+    ],
+    "warnings": [
+        "warnings.catch_warnings",
+        "warnings._OptionError",
+        "warnings.WarningMessage"
+    ],
+    "collections": [
+        "collections._Link",
+        "collections._OrderedDictItemsView",
+        "collections.UserString",
+        "collections.UserList",
+        "collections._OrderedDictValuesView",
+        "collections._OrderedDictKeysView",
+        "collections.OrderedDict",
+        "collections.ChainMap",
+        "collections.UserDict",
+        "collections.Counter"
+    ]
+}

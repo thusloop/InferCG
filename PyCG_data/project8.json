@@ -1,0 +1,226 @@
+{
+  "tasks": [
+    "os.path.join",
+    "os.path.dirname",
+    "rituals.config.set_flat_layout"
+  ],
+  "rituals.config.set_flat_layout": [],
+  "os.path.dirname": [],
+  "os.path.join": [],
+  "tasks.bdist_deb": [
+    "os.makedirs",
+    "os.path.exists"
+  ],
+  "os.path.exists": [],
+  "os.makedirs": [],
+  "doc.conf": [
+    "re.split",
+    "sphinx_rtd_theme.get_html_theme_path",
+    "sys.path.insert",
+    "os.environ.get",
+    "os.path.abspath"
+  ],
+  "os.path.abspath": [],
+  "sys.path.insert": [],
+  "os.environ.get": [],
+  "doc.conf.setup": [],
+  "re.split": [],
+  "sphinx_rtd_theme.get_html_theme_path": [],
+  "setup": [
+    "<builtin>.all",
+    "re.match",
+    "setuptools.setup",
+    "json.dump",
+    "io.open",
+    "os.path.join",
+    "sys.stdout.write",
+    "re.match.groups",
+    "os.path.dirname"
+  ],
+  "io.open": [],
+  "re.match": [],
+  "re.match.groups": [],
+  "<builtin>.all": [],
+  "json.dump": [],
+  "sys.stdout.write": [],
+  "setuptools.setup": [],
+  "dh_virtualenv": [],
+  "dh_virtualenv.deployment": [],
+  "dh_virtualenv.deployment.Deployment.__init__": [
+    "os.environ.get.lstrip",
+    "os.path.join",
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "tempfile.NamedTemporaryFile",
+    "os.environ.get",
+    "os.path.abspath"
+  ],
+  "os.environ.get.lstrip": [],
+  "tempfile.NamedTemporaryFile": [],
+  "dh_virtualenv.deployment.Deployment.venv_bin": [
+    "os.path.join",
+    "os.path.abspath"
+  ],
+  "dh_virtualenv.deployment.Deployment.from_options": [
+    "dh_virtualenv.deployment.Deployment.__init__",
+    "os.environ.get"
+  ],
+  "dh_virtualenv.deployment.Deployment.clean": [
+    "shutil.rmtree"
+  ],
+  "shutil.rmtree": [],
+  "dh_virtualenv.deployment.Deployment.create_virtualenv": [
+    "subprocess.check_call"
+  ],
+  "subprocess.check_call": [],
+  "dh_virtualenv.deployment.Deployment.pip_preinstall": [
+    "<builtin>.list"
+  ],
+  "<builtin>.list": [],
+  "dh_virtualenv.deployment.Deployment.pip": [
+    "<builtin>.list"
+  ],
+  "dh_virtualenv.deployment.Deployment.install_dependencies": [
+    "dh_virtualenv.deployment.Deployment.pip",
+    "subprocess.check_call",
+    "os.path.join",
+    "dh_virtualenv.deployment.Deployment.pip_preinstall",
+    "os.path.exists"
+  ],
+  "dh_virtualenv.deployment.Deployment.run_tests": [
+    "os.path.join",
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "os.path.exists",
+    "subprocess.check_call"
+  ],
+  "dh_virtualenv.deployment.Deployment.find_script_files": [
+    "<builtin>.set",
+    "subprocess.Popen",
+    "subprocess.Popen.communicate"
+  ],
+  "subprocess.Popen": [],
+  "subprocess.Popen.communicate": [],
+  "<builtin>.set": [],
+  "dh_virtualenv.deployment.Deployment.fix_shebangs": [
+    "subprocess.check_call",
+    "subprocess.Popen",
+    "dh_virtualenv.deployment.Deployment.find_script_files",
+    "os.path.join",
+    "re.escape"
+  ],
+  "re.escape": [],
+  "dh_virtualenv.deployment.Deployment.fix_activate_path": [
+    "<builtin>.open",
+    "re.compile.sub",
+    "dh_virtualenv.deployment.Deployment.venv_bin",
+    "re.compile"
+  ],
+  "re.compile": [],
+  "<builtin>.open": [],
+  "re.compile.sub": [],
+  "dh_virtualenv.deployment.Deployment.install_package": [
+    "dh_virtualenv.deployment.Deployment.pip",
+    "os.path.abspath",
+    "subprocess.check_call"
+  ],
+  "dh_virtualenv.deployment.Deployment.fix_local_symlinks": [
+    "os.path.relpath",
+    "os.path.samefile",
+    "os.path.islink",
+    "os.symlink",
+    "os.readlink",
+    "os.path.join",
+    "os.listdir",
+    "os.path.isdir",
+    "os.path.isabs",
+    "os.unlink"
+  ],
+  "os.path.isdir": [],
+  "os.path.samefile": [],
+  "os.unlink": [],
+  "os.symlink": [],
+  "os.listdir": [],
+  "os.path.islink": [],
+  "os.readlink": [],
+  "os.path.isabs": [],
+  "os.path.relpath": [],
+  "dh_virtualenv.cmdline": [],
+  "dh_virtualenv.cmdline.DebhelperOptionParser.parse_args": [
+    "optparse.OptionParser.has_option",
+    "optparse.OptionParser.parse_args",
+    "os.environ.get.split",
+    "optparse.OptionParser._get_args",
+    "os.environ.get"
+  ],
+  "optparse.OptionParser.has_option": [],
+  "optparse.OptionParser._get_args": [],
+  "os.environ.get.split": [],
+  "optparse.OptionParser.parse_args": [],
+  "dh_virtualenv.cmdline._check_for_deprecated_options": [
+    "<builtin>.setattr",
+    "warnings.simplefilter",
+    "optparse.OptionValueError",
+    "warnings.warn",
+    "warnings.catch_warnings",
+    "<builtin>.getattr"
+  ],
+  "warnings.catch_warnings": [],
+  "warnings.simplefilter": [],
+  "warnings.warn": [],
+  "optparse.OptionValueError": [],
+  "<builtin>.getattr": [],
+  "<builtin>.setattr": [],
+  "dh_virtualenv.cmdline._set_builtin_venv": [
+    "optparse.OptionValueError"
+  ],
+  "dh_virtualenv.cmdline._set_setuptools": [
+    "optparse.OptionValueError"
+  ],
+  "dh_virtualenv.cmdline.get_default_parser": [
+    "optparse.OptionParser.add_option",
+    "optparse.OptionParser.__init__"
+  ],
+  "optparse.OptionParser.__init__": [],
+  "optparse.OptionParser.add_option": [],
+  "dh_virtualenv._version": [],
+  "dh_virtualenv.debhelper": [
+    "logging.getLogger"
+  ],
+  "logging.getLogger": [],
+  "dh_virtualenv.debhelper.DebHelper.__init__": [
+    "logging.getLogger.debug",
+    "logging.getLogger.error",
+    "<builtin>.open",
+    "<builtin>.Exception",
+    "<builtin>.list"
+  ],
+  "<builtin>.Exception": [],
+  "logging.getLogger.debug": [],
+  "logging.getLogger.error": [],
+  "dh_virtualenv.debhelper.DebHelper.addsubstvar": [],
+  "dh_virtualenv.debhelper.DebHelper.autoscript": [],
+  "dh_virtualenv.debhelper.DebHelper.add_rtupdate": [],
+  "dh_virtualenv.debhelper.DebHelper.save_autoscripts": [
+    "<builtin>.open",
+    "os.path.join",
+    "os.path.dirname",
+    "os.path.exists"
+  ],
+  "dh_virtualenv.debhelper.DebHelper.save_substvars": [
+    "<builtin>.open",
+    "os.path.exists",
+    "<builtin>.len"
+  ],
+  "<builtin>.len": [],
+  "dh_virtualenv.debhelper.DebHelper.save_rtupdate": [
+    "os.makedirs",
+    "<builtin>.open",
+    "os.path.exists",
+    "os.chmod"
+  ],
+  "os.chmod": [],
+  "dh_virtualenv.debhelper.DebHelper.save": [
+    "dh_virtualenv.debhelper.DebHelper.save_autoscripts",
+    "dh_virtualenv.debhelper.DebHelper.save_substvars",
+    "dh_virtualenv.debhelper.DebHelper.save_rtupdate"
+  ]
+}

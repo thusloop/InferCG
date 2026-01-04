@@ -1,0 +1,368 @@
+{
+    "paramiko.agent": [
+        "paramiko.agent.AgentKey",
+        "paramiko.agent.AgentSSH",
+        "paramiko.agent.AgentClientProxy",
+        "paramiko.agent.AgentServerProxy",
+        "paramiko.agent.AgentLocalProxy",
+        "paramiko.agent.AgentRemoteProxy",
+        "paramiko.agent.AgentRequestHandler",
+        "paramiko.agent.Agent",
+        "paramiko.agent.AgentProxyThread"
+    ],
+    "paramiko.auth_handler": [
+        "paramiko.auth_handler.AuthOnlyHandler",
+        "paramiko.auth_handler.AuthHandler",
+        "paramiko.auth_handler.GssapiWithMicAuthHandler"
+    ],
+    "paramiko.auth_strategy": [
+        "paramiko.auth_strategy.Password",
+        "paramiko.auth_strategy.NoneAuth",
+        "paramiko.auth_strategy.AuthStrategy",
+        "paramiko.auth_strategy.AuthSource",
+        "paramiko.auth_strategy.PrivateKey",
+        "paramiko.auth_strategy.AuthResult",
+        "paramiko.auth_strategy.AuthFailure",
+        "paramiko.auth_strategy.OnDiskPrivateKey",
+        "paramiko.auth_strategy.InMemoryPrivateKey"
+    ],
+    "paramiko.ber": [
+        "paramiko.ber.BERException",
+        "paramiko.ber.BER"
+    ],
+    "paramiko.buffered_pipe": [
+        "paramiko.buffered_pipe.BufferedPipe",
+        "paramiko.buffered_pipe.PipeTimeout"
+    ],
+    "paramiko.channel": [
+        "paramiko.channel.ChannelFile",
+        "paramiko.channel.ChannelStderrFile",
+        "paramiko.channel.ChannelStdinFile",
+        "paramiko.channel.Channel"
+    ],
+    "paramiko.client": [
+        "paramiko.client.AutoAddPolicy",
+        "paramiko.client.RejectPolicy",
+        "paramiko.client.SSHClient",
+        "paramiko.client.MissingHostKeyPolicy",
+        "paramiko.client.WarningPolicy"
+    ],
+    "paramiko.compress": [
+        "paramiko.compress.ZlibCompressor",
+        "paramiko.compress.ZlibDecompressor"
+    ],
+    "paramiko.config": [
+        "paramiko.config.SSHConfigDict",
+        "paramiko.config.SSHConfig",
+        "paramiko.config.LazyFqdn"
+    ],
+    "paramiko.dsskey": [
+        "paramiko.dsskey.DSSKey"
+    ],
+    "paramiko.ecdsakey": [
+        "paramiko.ecdsakey.ECDSAKey",
+        "paramiko.ecdsakey._ECDSACurve",
+        "paramiko.ecdsakey._ECDSACurveSet"
+    ],
+    "paramiko.ed25519key": [
+        "paramiko.ed25519key.Ed25519Key"
+    ],
+    "paramiko.file": [
+        "paramiko.file.BufferedFile"
+    ],
+    "paramiko.hostkeys": [
+        "paramiko.hostkeys.InvalidHostKey",
+        "paramiko.hostkeys.HostKeys",
+        "paramiko.hostkeys.HostKeyEntry"
+    ],
+    "paramiko.kex_curve25519": [
+        "paramiko.kex_curve25519.KexCurve25519"
+    ],
+    "paramiko.kex_ecdh_nist": [
+        "paramiko.kex_ecdh_nist.KexNistp521",
+        "paramiko.kex_ecdh_nist.KexNistp256",
+        "paramiko.kex_ecdh_nist.KexNistp384"
+    ],
+    "paramiko.kex_gex": [
+        "paramiko.kex_gex.KexGexSHA256",
+        "paramiko.kex_gex.KexGex"
+    ],
+    "paramiko.kex_group1": [
+        "paramiko.kex_group1.KexGroup1"
+    ],
+    "paramiko.kex_group14": [
+        "paramiko.kex_group14.KexGroup14",
+        "paramiko.kex_group14.KexGroup14SHA256"
+    ],
+    "paramiko.kex_group16": [
+        "paramiko.kex_group16.KexGroup16SHA512"
+    ],
+    "paramiko.kex_gss": [
+        "paramiko.kex_gss.KexGSSGex",
+        "paramiko.kex_gss.KexGSSGroup1",
+        "paramiko.kex_gss.NullHostKey",
+        "paramiko.kex_gss.KexGSSGroup14"
+    ],
+    "paramiko.message": [
+        "paramiko.message.Message"
+    ],
+    "paramiko.packet": [
+        "paramiko.packet.Packetizer",
+        "paramiko.packet.NeedRekeyException"
+    ],
+    "paramiko.pipe": [
+        "paramiko.pipe.WindowsPipe",
+        "paramiko.pipe.OrPipe",
+        "paramiko.pipe.PosixPipe"
+    ],
+    "paramiko.pkey": [
+        "paramiko.pkey.PublicBlob",
+        "paramiko.pkey.UnknownKeyType",
+        "paramiko.pkey.PKey"
+    ],
+    "paramiko.primes": [
+        "paramiko.primes.ModulusPack"
+    ],
+    "paramiko.proxy": [
+        "paramiko.proxy.ProxyCommand"
+    ],
+    "paramiko.rsakey": [
+        "paramiko.rsakey.RSAKey"
+    ],
+    "paramiko.server": [
+        "paramiko.server.InteractiveQuery",
+        "paramiko.server.SubsystemHandler",
+        "paramiko.server.ServerInterface"
+    ],
+    "paramiko.sftp": [
+        "paramiko.sftp.int64",
+        "paramiko.sftp.SFTPError",
+        "paramiko.sftp.BaseSFTP"
+    ],
+    "paramiko.sftp_attr": [
+        "paramiko.sftp_attr.SFTPAttributes"
+    ],
+    "paramiko.sftp_client": [
+        "paramiko.sftp_client.SFTP",
+        "paramiko.sftp_client.SFTPClient"
+    ],
+    "paramiko.sftp_file": [
+        "paramiko.sftp_file.SFTPFile"
+    ],
+    "paramiko.sftp_handle": [
+        "paramiko.sftp_handle.SFTPHandle"
+    ],
+    "paramiko.sftp_server": [
+        "paramiko.sftp_server.SFTPServer"
+    ],
+    "paramiko.sftp_si": [
+        "paramiko.sftp_si.SFTPServerInterface"
+    ],
+    "paramiko.ssh_exception": [
+        "paramiko.ssh_exception.BadAuthenticationType",
+        "paramiko.ssh_exception.NoValidConnectionsError",
+        "paramiko.ssh_exception.SSHException",
+        "paramiko.ssh_exception.CouldNotCanonicalize",
+        "paramiko.ssh_exception.ProxyCommandFailure",
+        "paramiko.ssh_exception.UnableToAuthenticate",
+        "paramiko.ssh_exception.BadHostKeyException",
+        "paramiko.ssh_exception.PasswordRequiredException",
+        "paramiko.ssh_exception.PartialAuthentication",
+        "paramiko.ssh_exception.IncompatiblePeer",
+        "paramiko.ssh_exception.AuthenticationException",
+        "paramiko.ssh_exception.ConfigParseError",
+        "paramiko.ssh_exception.MessageOrderError",
+        "paramiko.ssh_exception.ChannelException"
+    ],
+    "paramiko.ssh_gss": [
+        "paramiko.ssh_gss._SSH_GSSAuth",
+        "paramiko.ssh_gss._SSH_GSSAPI_NEW",
+        "paramiko.ssh_gss._SSH_GSSAPI_OLD",
+        "paramiko.ssh_gss._SSH_SSPI"
+    ],
+    "paramiko.transport": [
+        "paramiko.transport.ServiceRequestingTransport",
+        "paramiko.transport.SecurityOptions",
+        "paramiko.transport.Transport",
+        "paramiko.transport.ChannelMap"
+    ],
+    "paramiko.util": [
+        "paramiko.util.ClosingContextManager",
+        "paramiko.util.PFilter"
+    ],
+    "paramiko.win_openssh": [
+        "paramiko.win_openssh.OpenSSHAgentConnection"
+    ],
+    "paramiko.win_pageant": [
+        "paramiko.win_pageant.COPYDATASTRUCT",
+        "paramiko.win_pageant.PageantConnection"
+    ],
+    "paramiko._winapi": [
+        "paramiko._winapi.TokenInformationClass",
+        "paramiko._winapi.MemoryMap",
+        "paramiko._winapi.TOKEN_USER",
+        "paramiko._winapi.TokenAccess",
+        "paramiko._winapi.WindowsError",
+        "paramiko._winapi.SECURITY_DESCRIPTOR",
+        "paramiko._winapi.SECURITY_ATTRIBUTES"
+    ],
+    "sshtunnel": [
+        "sshtunnel.SSHTunnelForwarder",
+        "sshtunnel._ForwardHandler",
+        "sshtunnel._StreamForwardServer",
+        "sshtunnel._ThreadingStreamForwardServer",
+        "sshtunnel._ThreadingForwardServer",
+        "sshtunnel._ForwardServer",
+        "sshtunnel.HandlerSSHTunnelForwarderError",
+        "sshtunnel.BaseSSHTunnelForwarderError"
+    ],
+    "argparse": [
+        "argparse._HelpAction",
+        "argparse.HelpFormatter",
+        "argparse._ExtendAction",
+        "argparse.BooleanOptionalAction",
+        "argparse._StoreAction",
+        "argparse.ArgumentError",
+        "argparse.RawTextHelpFormatter",
+        "argparse._AppendConstAction",
+        "argparse._CountAction",
+        "argparse._StoreConstAction",
+        "argparse._AttributeHolder",
+        "argparse._ActionsContainer",
+        "argparse.FileType",
+        "argparse._ArgumentGroup",
+        "argparse._StoreTrueAction",
+        "argparse._MutuallyExclusiveGroup",
+        "argparse._SubParsersAction",
+        "argparse.MetavarTypeHelpFormatter",
+        "argparse.ArgumentTypeError",
+        "argparse.RawDescriptionHelpFormatter",
+        "argparse.Namespace",
+        "argparse._StoreFalseAction",
+        "argparse.ArgumentParser",
+        "argparse._VersionAction",
+        "argparse.Action",
+        "argparse._AppendAction",
+        "argparse.ArgumentDefaultsHelpFormatter"
+    ],
+    "getpass": [
+        "getpass.GetPassWarning"
+    ],
+    "os": [
+        "os._AddedDllDirectory",
+        "os.PathLike",
+        "os._wrap_close",
+        "os._Environ"
+    ],
+    "queue": [
+        "queue.Queue",
+        "queue.PriorityQueue",
+        "queue.Empty",
+        "queue.Full",
+        "queue.LifoQueue",
+        "queue._PySimpleQueue"
+    ],
+    "socket": [
+        "socket.SocketIO",
+        "socket._GiveupOnSendfile",
+        "socket.socket"
+    ],
+    "socketserver": [
+        "socketserver.ThreadingUnixDatagramServer",
+        "socketserver.ThreadingMixIn",
+        "socketserver.UnixStreamServer",
+        "socketserver.StreamRequestHandler",
+        "socketserver.ThreadingUnixStreamServer",
+        "socketserver.TCPServer",
+        "socketserver._NoThreads",
+        "socketserver._SocketWriter",
+        "socketserver.ForkingTCPServer",
+        "socketserver.BaseServer",
+        "socketserver.ThreadingUDPServer",
+        "socketserver.ForkingUDPServer",
+        "socketserver.ThreadingTCPServer",
+        "socketserver.DatagramRequestHandler",
+        "socketserver.UDPServer",
+        "socketserver.BaseRequestHandler",
+        "socketserver.UnixDatagramServer",
+        "socketserver._Threads",
+        "socketserver.ForkingMixIn"
+    ],
+    "threading": [
+        "threading.Condition",
+        "threading.BoundedSemaphore",
+        "threading.Timer",
+        "threading.Thread",
+        "threading._DummyThread",
+        "threading._RLock",
+        "threading.Semaphore",
+        "threading.Event",
+        "threading.BrokenBarrierError",
+        "threading.Barrier",
+        "threading._MainThread"
+    ],
+    "traceback": [
+        "traceback.TracebackException",
+        "traceback.FrameSummary",
+        "traceback.StackSummary"
+    ],
+    "warnings": [
+        "warnings.catch_warnings",
+        "warnings._OptionError",
+        "warnings.WarningMessage"
+    ],
+    "logging.config": [
+        "logging.config.ConvertingList",
+        "logging.config.DictConfigurator",
+        "logging.config.ConvertingMixin",
+        "logging.config.ConvertingTuple",
+        "logging.config.BaseConfigurator",
+        "logging.config.ConvertingDict"
+    ],
+    "logging.handlers": [
+        "logging.handlers.SysLogHandler",
+        "logging.handlers.BaseRotatingHandler",
+        "logging.handlers.WatchedFileHandler",
+        "logging.handlers.SocketHandler",
+        "logging.handlers.DatagramHandler",
+        "logging.handlers.TimedRotatingFileHandler",
+        "logging.handlers.MemoryHandler",
+        "logging.handlers.BufferingHandler",
+        "logging.handlers.QueueListener",
+        "logging.handlers.QueueHandler",
+        "logging.handlers.NTEventLogHandler",
+        "logging.handlers.HTTPHandler",
+        "logging.handlers.SMTPHandler",
+        "logging.handlers.RotatingFileHandler"
+    ],
+    "logging": [
+        "logging.StringTemplateStyle",
+        "logging.FileHandler",
+        "logging.Filterer",
+        "logging.LoggerAdapter",
+        "logging.LogRecord",
+        "logging.Formatter",
+        "logging.Filter",
+        "logging.Manager",
+        "logging.Logger",
+        "logging.RootLogger",
+        "logging.StreamHandler",
+        "logging.BufferingFormatter",
+        "logging.Handler",
+        "logging.PercentStyle",
+        "logging.NullHandler",
+        "logging._StderrHandler",
+        "logging.StrFormatStyle",
+        "logging.PlaceHolder"
+    ],
+    "docs.conf": [
+        "sshtunnel"
+    ],
+    "e2e_tests.run_docker_e2e_db_tests": [
+        "sshtunnel",
+        "sshtunnel.SSHTunnelForwarder"
+    ],
+    "e2e_tests.run_docker_e2e_hangs_tests": [
+        "sshtunnel"
+    ]
+}
