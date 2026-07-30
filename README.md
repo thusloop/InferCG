@@ -29,7 +29,7 @@ InferCG constructs Python call graphs by combining static-analysis candidates, p
 python -m pip install openai transformers torch psutil tqdm
 ```
 
-For LLM inference, set an API key for an OpenAI-compatible provider. Do not commit the key to the repository.
+For LLM inference, set an API key for an OpenAI-compatible provider.
 
 ```bash
 # PowerShell

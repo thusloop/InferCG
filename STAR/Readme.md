@@ -18,24 +18,11 @@ Important files in `pre_knowledge/` include:
 
 ## Usage
 
-Run:
-
-```bash
-python main.py [pro_name] [pro_path] [depconfig_path]
-```
-
 Arguments:
 
 - `pro_name`: project name
 - `pro_path`: source path of the target project
 - `depconfig_path`: dependency configuration path, for example `setup.py`, `requirements.txt`, or the project root
-
-Examples:
-
-```bash
-python main.py flask repo/flask/src/flask repo/flask/setup.py
-python main.py flask repo/flask/src/flask repo/flask
-```
 
 ## Requirement
 
